@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "A localização do Egito conectava-o a outras regiões, promovendo comércio e intercâmbio cultural.",
+      "correction": "A localização do Egito conectava-o a outras regiões, promovendo o comércio e o intercâmbio cultural.",
+      "description": "The original sentence omits the definite articles 'o' before 'comércio' and 'o' before 'intercâmbio cultural', which are required in Brazilian Portuguese to specify these nouns. This omission affects grammatical correctness and naturalness. The corrected version includes the articles, ensuring proper noun phrase formation and agreement.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Prepare-se para descobrir a geografia, cultura, governo e as contribuições do Egito Antigo para o mundo moderno!",
+      "correction": "Prepare-se para descobrir a geografia, a cultura, o governo e as contribuições do Egito Antigo para o mundo moderno!",
+      "description": "The original sentence omits definite articles before 'cultura' and 'governo', which is acceptable in informal spoken Portuguese but less natural and stylistically inconsistent in educational written content. Adding the articles 'a' and 'o' creates a more formal and consistent tone, aligning with the expectations for educational materials.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "A arte egípcia representava deuses, faraós e cenas cotidianas, usando cores vibrantes e simbolismo.",
+      "correction": "A arte egípcia representava deuses, faraós e cenas do cotidiano, usando cores vibrantes e simbolismo.",
+      "description": "The word 'cotidianas' is grammatically correct, but 'cenas do cotidiano' is the more precise and idiomatic expression in Brazilian Portuguese for 'everyday scenes.' The original phrasing is less common and may sound awkward in educational contexts. The correction improves lexical precision and naturalness.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "O governo egípcio dependia de uma rede de oficiais, escribas e coletores de impostos para gerenciar recursos e aplicar leis.",
+      "correction": "O governo egípcio dependia de uma rede de oficiais, escribas e cobradores de impostos para gerenciar recursos e aplicar leis.",
+      "description": "The term 'coletores de impostos' is understandable but less commonly used in Brazilian Portuguese than 'cobradores de impostos' when referring to tax officials. The correction uses the more standard and locally accepted terminology, improving professional language usage and consistency.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Ancient_Egypt.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-02T17:29:39.044824",
+    "model": "Azure OpenAI o3-mini",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

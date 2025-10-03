@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "熱帯気候は、極地に位置する地域に見られる主要な気候帯です。",
+      "correction": "熱帯気候は、赤道付近に位置する地域に見られる主要な気候帯です。",
+      "description": "The original statement incorrectly claims that tropical climates are found in polar regions, which is a factual error affecting comprehension. The particle usage and sentence structure are otherwise correct, but the main issue is the semantic inaccuracy regarding climate zones. Correction provides the accurate geographical location for tropical climates.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "熱帯気候帯では夏と冬の気温差は大きい。",
+      "correction": "熱帯気候帯では夏と冬の気温差は小さい。",
+      "description": "The statement incorrectly describes the temperature variation in tropical climates. In tropical zones, temperature differences between summer and winter are minimal. The grammar and particle usage are correct, but the semantic error misleads learners about climate characteristics.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "冷却帯の温度は非常に高いため、生物多様性が豊かです。",
+      "correction": "極地帯の温度は非常に低いため、生物多様性は限られています。",
+      "description": "The term '冷却帯' is not standard in Japanese climatology; '極地帯' is the correct term for polar regions. Additionally, the statement incorrectly claims high temperatures and biodiversity for polar regions, which is factually wrong. Correction uses the proper terminology and accurate description.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "熱帯気候帯は大陸性気候帯よりも温度が高いです。",
+      "correction": "熱帯気候帯は大陸性気候帯よりも年間を通じて温度が高いです。",
+      "description": "The original sentence is generally correct but lacks precision. In continental climates, summer temperatures can be higher than in tropical climates, but tropical climates maintain high temperatures year-round. The correction clarifies the comparison by specifying '年間を通じて', improving semantic accuracy.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "このレッスンでは、気候帯がどのように生態系や人々の活動に影響を与えるかを学びます🌍。",
+      "correction": "このレッスンでは、気候帯がどのように生態系や人々の活動に影響を与えるかを学びます。",
+      "description": "The use of the globe emoji (🌍) in educational Japanese content may be considered informal and less appropriate for formal or academic contexts. Removing the emoji ensures a more professional and culturally neutral tone.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Climate_Zones.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-02T17:30:56.090974",
+    "model": "Azure OpenAI o3-mini",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 8.9,
+    "classification": "PROFESSIONAL",
+    "total_issues": 5,
+    "total_penalty": 1.1,
+    "issue_breakdown": {
+      "linguistic": 4,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.0,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

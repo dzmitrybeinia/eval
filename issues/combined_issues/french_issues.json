@@ -1,0 +1,278 @@
+{
+  "linguistic": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Les Égyptiens ont appris à exploiter les crues annuelles du Nil, qui apportaient des alluvions riche en nutriments à leurs champs.",
+      "correction": "Les Égyptiens ont appris à exploiter les crues annuelles du Nil, qui apportaient des alluvions riches en nutriments à leurs champs.",
+      "description": "The adjective 'riche' should agree in number with 'alluvions', which is plural. The correct form is 'riches'. This error affects grammatical agreement and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "maximiser leur chances de survie",
+      "correction": "maximiser leurs chances de survie",
+      "description": "The possessive pronoun 'leur' should agree in number with 'chances', which is plural. The correct form is 'leurs chances'. This error affects grammatical agreement and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Bosses stockant de la graisse pour survivre sans nourriture longtemps.",
+      "correction": "Bosses stockant de la graisse pour survivre longtemps sans nourriture.",
+      "description": "The word order is unnatural in French. The adverb 'longtemps' should follow 'survivre', not 'sans nourriture'. The corrected sentence improves clarity and conforms to standard French syntax.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "introduction à l'algèbre",
+      "correction": "Introduction à l’algèbre",
+      "description": "The phrase should begin with a capital letter as it is a title or theme. Additionally, the apostrophe should be a typographic apostrophe (’) for consistency with French orthographic standards. This improves both spelling and professional presentation.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Exemples réels :",
+      "correction": "Exemples réels :",
+      "description": "The phrase is correct, but ensure that a non-breaking space is used before the colon, as per French typographic rules. This is a minor orthographic improvement for professional presentation.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Coût total = 2x",
+      "correction": "Coût total = 2x",
+      "description": "The mathematical expression is correct, but in French, multiplication is often indicated with a point or a space (e.g., '2 × x' or '2 x') for clarity, especially in educational contexts. Consider using '2 × x' to avoid confusion with variable names.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Distance = 60t",
+      "correction": "Distance = 60t",
+      "description": "Similar to the previous issue, multiplication should ideally be indicated with a multiplication sign or a space ('60 × t' or '60 t') to avoid ambiguity. This is a minor orthographic improvement for clarity in mathematical notation.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Les ribosomes travaillent en collant les acides aminés pour former des protéines, ce qui est essentiel pour la croissance, la réparation et les réponses immunitaires chez les organismes.",
+      "correction": "Les ribosomes assemblent les acides aminés pour former des protéines, ce qui est essentiel pour la croissance, la réparation et les réponses immunitaires chez les organismes.",
+      "description": "The verb 'collant' is not the correct scientific term in French for describing how ribosomes synthesize proteins. The proper verb is 'assembler', which accurately reflects the process of joining amino acids. This is a lexical and grammatical issue affecting clarity and scientific accuracy.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Marchi.e.e.",
+      "correction": "Marchi.e.",
+      "description": "The text 'Marchi.e.e.' contains an orthographic error with an extra period and letter 'e'. This is likely a typographical mistake and should be corrected to 'Marchi.e.'. Additionally, 'Marchi.e.' does not correspond to any recognized historical event in the context of the Civil Rights Movement, which may cause confusion for learners. The correction addresses the spelling error, but the term itself should be reviewed for historical accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Marche sur Washington (1963) : Manifestation massive en faveur des droits civiques, où Martin Luther King Jr. a prononcé son discours \"I Have a Dream\".",
+      "correction": "Marche sur Washington (1963) : Manifestation massive en faveur des droits civiques, où Martin Luther King Jr. a prononcé son discours « I Have a Dream ».",
+      "description": "French typographic conventions require the use of guillemets (« ») instead of English quotation marks (\" \") for direct speech or titles. This correction ensures proper orthography and adherence to French standards.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Ce mouvement a non seulement changé les États-Unis, mais il a également laissé un héritage durable qui influence la société moderne.",
+      "correction": "Ce mouvement n’a pas seulement changé les États-Unis, mais il a également laissé un héritage durable qui influence la société moderne.",
+      "description": "The phrase 'non seulement... mais également' is correct, but in formal French, 'n’a pas seulement... mais aussi' is more idiomatic. However, the original is acceptable; this is a minor stylistic suggestion for improved naturalness.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Imaginez si vous devaiez écrire une salutation pour un groupe de cinq amis, une boucle pourrait faire ce travail rapidement pour vous.",
+      "correction": "Imaginez si vous deviez écrire une salutation pour un groupe de cinq amis, une boucle pourrait faire ce travail rapidement pour vous.",
+      "description": "The word 'devaiez' is a misspelling of the verb 'devoir' in the imparfait tense. The correct form is 'deviez' to match the second person plural. This spelling error affects the clarity and professionalism of the educational content.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "En programmation, on utilise les conditionnels pour afficher le même message quel que soit la valeur de la variable.",
+      "correction": "En programmation, on utilise les conditionnels pour afficher le même message quelle que soit la valeur de la variable.",
+      "description": "The phrase 'quel que soit la valeur' contains a gender agreement error. 'Valeur' is feminine, so the correct form is 'quelle que soit la valeur'. This grammatical mistake can confuse learners about proper agreement in French.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "hauteur = 1.65",
+      "correction": "taille = 1,65",
+      "description": "The word 'hauteur' is not the standard term for a person's physical height in French; 'taille' is the correct and natural term. Additionally, French uses a comma as the decimal separator, so '1.65' should be written as '1,65'. This correction improves both lexical precision and orthographic convention.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "En attendant, montrer de l'empathie et une volonté de comprendre la perspective de l'autre peut créer un climat plus propice à une discussion constructive.",
+      "correction": "En montrant de l'empathie et une volonté de comprendre la perspective de l'autre, on peut créer un climat plus propice à une discussion constructive.",
+      "description": "The original sentence uses 'En attendant' which is syntactically incorrect in this context and creates confusion, as it means 'while waiting' and does not fit the intended meaning. The correct structure should use 'En montrant' to indicate the action of showing empathy. This correction improves clarity and grammatical accuracy.",
+      "severity": "HIGH"
+    }
+  ],
+  "localization": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Découvrez une civilisation fascinante, connue pour ses pyramides majestueuses, son écriture unique et son rôle fondamental dans l'histoire humaine. 🌍",
+      "correction": "Découvrez une civilisation fascinante, connue pour ses pyramides majestueuses, son écriture unique et son rôle fondamental dans l'histoire humaine.",
+      "description": "The use of the globe emoji (🌍) is not standard in formal French educational content and may be perceived as informal or distracting. Removing it improves the professional tone and aligns with conventional style for educational materials.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Certains exemples d'adaptations physiques :",
+      "correction": "Voici quelques exemples d'adaptations physiques :",
+      "description": "The phrase 'Certains exemples d'adaptations physiques :' is grammatically correct but less natural in educational French. 'Voici quelques exemples d'adaptations physiques :' is a more idiomatic and engaging way to introduce examples in French educational content.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "2 euros",
+      "correction": "2 €",
+      "description": "In French, the standard format for currency is to use the euro symbol (€) after the amount, separated by a non-breaking space. Using 'euros' is acceptable in informal contexts, but for educational and professional materials, '2 €' is preferred for clarity and consistency.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "60 km/h",
+      "correction": "60 km/h",
+      "description": "The format 'km/h' is correct and standard in French for expressing speed. No correction is needed, but ensure that a non-breaking space is used between the number and the unit for typographical accuracy in French ('60 km/h').",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Vous achetez des collations pour une fête.",
+      "correction": "Vous achetez des collations pour une fête.",
+      "description": "The sentence is culturally appropriate and uses a neutral, standard register. No correction is needed, but ensure that the context of 'fête' is clear for all French-speaking regions, as the term can refer to various types of gatherings.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "La digestion des aliments est un processus qui se produit dans l'intestin grêle chez les humains et les animaux, tandis que dans les plantes, elle se produit dans des structures comme les glandes.",
+      "correction": "La digestion des aliments est un processus qui se produit principalement dans l'intestin grêle chez les humains et les animaux. Chez les plantes, il s'agit plutôt de la décomposition et de l'absorption des nutriments, qui ne se fait pas dans des glandes mais dans des structures comme les vacuoles ou par des enzymes spécifiques.",
+      "description": "The original text inaccurately describes plant digestion as occurring in 'glandes', which is not biologically correct. Plants do not have glands for digestion; instead, nutrient breakdown and absorption occur through vacuoles and enzymatic processes. This is a cultural and scientific localization issue, as it may mislead learners about plant biology. The correction clarifies the distinction and uses terminology appropriate for educational contexts.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Les vacuoles dans les cellules animales peuvent varier considérablement en taille et fonction selon le type de tissu.",
+      "correction": "Les vacuoles dans les cellules animales peuvent varier considérablement en taille et en fonction selon le type de tissu.",
+      "description": "The phrase 'en taille et fonction' is missing the preposition 'en' before 'fonction', which is required for parallel structure in French. This is a minor linguistic issue, but primarily a terminology and style issue, as the sentence should maintain consistency and clarity in listing characteristics.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Organites en forme de haricot avec une double membrane.",
+      "correction": "Organites de forme ovale avec une double membrane.",
+      "description": "Describing mitochondria as 'en forme de haricot' (bean-shaped) is colloquial and less precise for educational content. The more standard and neutral term is 'de forme ovale', which is commonly used in French scientific education. This improves the professional tone and clarity for learners.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Substance gélatineuse qui remplit la cellule.",
+      "correction": "Substance semi-liquide qui remplit la cellule.",
+      "description": "The term 'gélatineuse' may evoke the idea of gelatin, which is not the most accurate or neutral description for cytoplasm in French educational contexts. 'Semi-liquide' is a more precise and commonly accepted term in scientific language, enhancing clarity and naturalness.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "la situation de naissance",
+      "correction": "le sexe",
+      "description": "The phrase 'la situation de naissance' is not a standard or accurate translation for 'sex' in the context of anti-discrimination laws. The correct term in French legal and educational contexts is 'le sexe'. Using 'la situation de naissance' may confuse learners and does not reflect the terminology used in French versions of the Civil Rights Act. This impacts both clarity and professional accuracy.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "À travers des actions militantes, des lois importantes, et des décisions judiciaires marquantes, ce mouvement a transformé la société américaine et inspiré des efforts mondiaux pour la justice sociale et l'égalité. 🌍",
+      "correction": "À travers des actions militantes, des lois importantes et des décisions judiciaires marquantes, ce mouvement a transformé la société américaine et inspiré des efforts mondiaux pour la justice sociale et l'égalité.",
+      "description": "The use of the globe emoji (🌍) at the end of a formal educational introduction is not appropriate for French academic content, as it may undermine the seriousness of the topic. Additionally, the comma before 'et' in the enumeration is unnecessary in French and should be removed for stylistic consistency.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Student Nonviolent Coordinating Committee (SNCC)",
+      "correction": "Comité de coordination des étudiants non-violents (SNCC)",
+      "description": "The name of the organization is presented only in English, which may hinder comprehension for French learners. Providing the French equivalent alongside the acronym ensures clarity and maintains localization quality.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "NAACP",
+      "correction": "NAACP (Association nationale pour l'avancement des personnes de couleur)",
+      "description": "The acronym NAACP is not explained in French, which may confuse learners unfamiliar with American organizations. Adding the French translation in parentheses improves accessibility and localization.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "LGBTQ+",
+      "correction": "LGBT+",
+      "description": "The use of 'LGBTQ+' reflects an English-language convention. In French educational and media contexts, 'LGBT+' is more commonly used and recognized. Adapting terminology to local usage improves naturalness and comprehension.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "le courant circumpolaire antarctique",
+      "correction": "le courant circumpolaire antarctique",
+      "description": "The term 'le courant circumpolaire antarctique' is technically correct, but in French educational contexts, it is more commonly referred to as 'le courant antarctique circumpolaire'. Using the standard term improves clarity and aligns with scientific conventions in French-speaking regions.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Préparez-vous à plonger dans les mystères de notre atmosphère et de nos océans !",
+      "correction": "Préparez-vous à explorer les phénomènes de notre atmosphère et de nos océans !",
+      "description": "The phrase 'plonger dans les mystères' is somewhat informal and metaphorical, which may not be appropriate for an educational context focused on scientific accuracy. Replacing it with 'explorer les phénomènes' maintains an engaging tone while ensuring the style remains suitable for academic content.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "la majeure partie des États-Unis et de l'Europe",
+      "correction": "la majeure partie de l'Europe et des États-Unis",
+      "description": "Listing 'États-Unis' before 'Europe' may not align with the typical order in French educational materials, where European examples are usually prioritized. Reversing the order to 'l'Europe et des États-Unis' better reflects local conventions and cultural expectations in Francophone contexts.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "print(\"Bonjour, \" + nom + \"!\")",
+      "correction": "print(\"Bonjour \" + nom + \" !\")",
+      "description": "In French, there should be a space before the exclamation mark according to typographic conventions. This correction ensures the output message follows French punctuation standards and feels natural to native readers.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Calculateur basique",
+      "correction": "Calculatrice basique",
+      "description": "The term 'calculateur' in French refers to a computing device or processor, not a calculator. The correct term for a basic calculator is 'calculatrice'. This correction ensures the terminology matches standard French usage and avoids confusion.",
+      "severity": "MEDIUM"
+    }
+  ]
+}

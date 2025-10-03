@@ -1,0 +1,222 @@
+{
+  "linguistic": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Proporcionando recursos esenciales como agua y nutrientes, permitió la agricultura, que sustenta el crecimiento de una civilización.",
+      "correction": "Proporcionando recursos esenciales como agua y nutrientes, permitió la agricultura, que sustentó el crecimiento de una civilización.",
+      "description": "The verb 'sustenta' is in the present tense, which creates a tense inconsistency with the rest of the sentence, which is in the past. The correct form is 'sustentó' to maintain past tense throughout the statement. This improves grammatical accuracy and clarity.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Esto demuestra su avanzado conocimiento en organización de trabajo y planificación logística.",
+      "correction": "Esto demuestra su avanzado conocimiento en la organización del trabajo y la planificación logística.",
+      "description": "The phrase 'organización de trabajo y planificación logística' lacks definite articles, which are required in Spanish to specify the nouns. The corrected version adds 'la' before 'organización del trabajo' and 'la' before 'planificación logística' for proper grammatical structure and naturalness.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "El legado de la ingeniosidad egipcia en la ingeniería es evidente en monumentos como las pirámides y el Sphinx.",
+      "correction": "El legado de la ingeniosidad egipcia en la ingeniería es evidente en monumentos como las pirámides y la Esfinge.",
+      "description": "The use of 'Sphinx' is an anglicism and not the standard Spanish term. The correct word is 'Esfinge'. This correction addresses both lexical precision and cultural appropriateness, ensuring the terminology is accurate and locally accepted.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "para la camuflaje en su ambiente helado y para mantener calor.",
+      "correction": "para el camuflaje en su ambiente helado y para mantener el calor.",
+      "description": "The phrase uses the incorrect article 'la' with 'camuflaje', which is a masculine noun and should use 'el'. Additionally, 'mantener calor' is missing the definite article 'el' before 'calor', which is required for naturalness and correctness in Spanish. Both errors affect grammatical accuracy and naturalness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "El clorofila dentro de los cloroplastos captura la energía solar, que es esencial para este proceso.",
+      "correction": "La clorofila dentro de los cloroplastos captura la energía solar, que es esencial para este proceso.",
+      "description": "The original sentence incorrectly uses the masculine article 'El' with the feminine noun 'clorofila'. In Spanish, 'clorofila' is feminine and should be preceded by 'La'. This error affects gender agreement and grammatical correctness. The rest of the sentence is accurate and natural.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Son de Reverde",
+      "correction": "Sueño de libertad",
+      "description": "The phrase 'Son de Reverde' is a lexical error and does not correspond to any known speech or concept associated with Martin Luther King Jr. The intended reference is to his famous 'I Have a Dream' speech, which in Spanish is commonly referred to as 'Sueño de libertad' or 'Tengo un sueño'. This error affects comprehension and accuracy, as it misrepresents a key historical event and could confuse learners.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Las zonas climáticas continentales tienen temperaturas extremadamente altas durante el verano.",
+      "correction": "Las zonas climáticas continentales pueden tener temperaturas altas durante el verano, pero no necesariamente extremas.",
+      "description": "The original statement incorrectly uses 'extremadamente altas' to describe summer temperatures in continental climate zones. While summers can be hot, the term 'extremadamente' exaggerates the typical conditions and may mislead learners. The correction provides a more accurate description, avoiding overstatement and improving semantic precision.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "perritos de las praderas",
+      "correction": "perros de la pradera",
+      "description": "The phrase 'perritos de las praderas' is a literal translation of 'prairie dogs,' but in standard Spanish, the correct term is 'perros de la pradera.' This correction ensures proper terminology and avoids diminutive forms that are not standard for this animal in educational or scientific contexts.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Inicio del juego: `monedasJugador = 0`",
+      "correction": "Inicio del juego: monedasJugador = 0",
+      "description": "The use of backticks (`) to enclose the variable assignment is not standard in Spanish educational texts and may cause confusion. In Spanish, code or variable names are typically presented without backticks unless referencing actual code syntax in a programming environment. Removing the backticks improves clarity and aligns with Spanish orthographic conventions.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "En el lenguaje de programación, los enteros son capaces de almacenar números sin signo, lo que incluye valores positivos y negativos.",
+      "correction": "En el lenguaje de programación, los enteros son capaces de almacenar números con o sin signo, lo que incluye valores positivos y negativos.",
+      "description": "The phrase 'números sin signo' is inaccurate in Spanish for describing integers that can be both positive and negative. 'Sin signo' means 'unsigned', which excludes negative numbers. The correct term is 'con o sin signo' to indicate that integers can be signed (positive and negative) or unsigned (only positive). This lexical error could mislead learners about the nature of integer types in programming.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Monitorear puntajes en juegos.",
+      "correction": "Monitorear puntuaciones en juegos.",
+      "description": "The word 'puntajes' is a regionalism more common in Latin America, while 'puntuaciones' is the standard term in Spain and is generally preferred in educational contexts for broader Spanish-speaking audiences. This orthographic and lexical choice may affect comprehension and consistency depending on the target region.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "La idea de que las variables no puedan almacenar información es incorrecta y va en contra de los principios básicos de programación.",
+      "correction": "La idea de que las variables no pueden almacenar información es incorrecta y va en contra de los principios básicos de programación.",
+      "description": "The verb form 'no puedan' is incorrect in this context. The correct form is 'no pueden', as the statement refers to a general fact, not a hypothetical or subjunctive situation. This grammatical error affects clarity and accuracy.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "las sentimientos",
+      "correction": "los sentimientos",
+      "description": "The noun 'sentimientos' is masculine and plural, so the correct definite article is 'los', not 'las'. This is a gender agreement error that affects grammatical correctness and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Pensamiento grupal",
+      "correction": "Pensamiento grupal",
+      "description": "Although 'Pensamiento grupal' is technically correct, in Spanish the more widely accepted term for 'groupthink' in psychology and critical thinking contexts is 'pensamiento de grupo'. Using 'pensamiento grupal' may cause confusion or reduce clarity for learners familiar with standard terminology. This is primarily a lexical precision issue, but since the term is not incorrect, the severity is minor.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Esta afirmación es correcta porque el sesgo de anclaje se refiere a la tendencia de depender demasiado de la información inicial que se presenta, lo que puede resultar en una comprensión incompleta de un tema o situación. Esto puede influir en las decisiones de una manera que no refleje la realidad completa o las opciones disponibles.",
+      "correction": "Esta afirmación es correcta porque el sesgo de anclaje se refiere a la tendencia de depender demasiado de la información inicial que se presenta, lo que puede resultar en una comprensión incompleta de un tema o situación. Esto puede influir en las decisiones de una manera que no refleje completamente la realidad o las opciones disponibles.",
+      "description": "The phrase 'no refleje la realidad completa o las opciones disponibles' is slightly awkward and could be misinterpreted. The adverb 'completamente' should modify 'refleje' directly for clarity: 'no refleje completamente la realidad o las opciones disponibles'. This improves the grammatical structure and clarity of the sentence.",
+      "severity": "MINOR"
+    }
+  ],
+  "localization": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Es un recordatorio de cómo la naturaleza encuentra maneras de prosperar incluso en las condiciones más desafiantes.",
+      "correction": "Es un recordatorio de cómo la naturaleza encuentra formas de prosperar incluso en las condiciones más desafiantes.",
+      "description": "The word 'maneras' is less natural than 'formas' in this context for Spanish educational content. 'Formas' is the preferred term when discussing methods or ways in scientific or academic contexts, improving the style and register for the target audience.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Ley de Derechos Electorales de 1965",
+      "correction": "Ley de Derecho al Voto de 1965",
+      "description": "The term 'Ley de Derechos Electorales de 1965' is not the standard or widely accepted Spanish name for the Voting Rights Act of 1965. The correct and commonly used term in educational and historical contexts is 'Ley de Derecho al Voto de 1965'. Using the proper terminology ensures consistency and clarity for Spanish-speaking audiences.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Outback australiano",
+      "correction": "el interior de Australia",
+      "description": "The term 'Outback australiano' is an anglicism that may not be familiar or natural for all Spanish-speaking audiences, especially in educational contexts. Using 'el interior de Australia' is a more neutral and widely understood term, improving localization and accessibility.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "¡Prepárense para explorar las zonas climáticas de la Tierra y aprender cómo afectan la vida en nuestro planeta! 🌍",
+      "correction": "¡Prepárate para explorar las zonas climáticas de la Tierra y aprender cómo afectan la vida en nuestro planeta! 🌍",
+      "description": "The use of 'Prepárense' (plural) may be inconsistent with the rest of the lesson, which addresses the learner in singular form. For educational materials targeting individual students, 'Prepárate' (singular) is more appropriate and maintains a consistent tone.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "¡Bienvenidos a una emocionante aventura en el mundo de la programación! 🌟 En esta lección, exploraremos los conceptos básicos que nos permiten dar instrucciones a las computadoras para resolver problemas y automatizar tareas. Prepárense para descubrir cómo los algoritmos, las variables y los bucles simples nos ayudan a construir soluciones efectivas y creativas.",
+      "correction": "¡Bienvenidos a una emocionante aventura en el mundo de la programación! En esta lección, exploraremos los conceptos básicos que nos permiten dar instrucciones a las computadoras para resolver problemas y automatizar tareas. Prepárense para descubrir cómo los algoritmos, las variables y los bucles simples nos ayudan a construir soluciones efectivas y creativas.",
+      "description": "The use of the emoji 🌟 at the beginning of the introduction is not standard in formal educational Spanish content and may be perceived as informal or distracting in some academic or professional contexts. Removing the emoji ensures a more neutral and professional tone, which is culturally appropriate for educational materials.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "PARA número = 1 HASTA 10\n    IMPRIMIR número\nFIN PARA",
+      "correction": "PARA número = 1 HASTA 10\n    IMPRIME número\nFIN PARA",
+      "description": "In Spanish pseudocode, the verb 'IMPRIME' is more commonly used than 'IMPRIMIR' for imperative instructions. 'IMPRIMIR' is the infinitive form, while 'IMPRIME' is the command form, which is more natural and standard in educational programming examples. Adjusting to 'IMPRIME' improves the naturalness and clarity of the instruction.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Esta declaración no refleja con precisión la relación entre programación y diseño. Los algoritmos son, de hecho, secuencias de pasos o instrucciones que se utilizan para resolver problemas, y las variables son fundamentales para almacenar y manipular datos dentro de esos pasos. Sin variables, sería extremadamente limitado la capacidad de un programa para manejar información dinámica y adaptarse a diferentes situaciones.",
+      "correction": "Esta declaración no refleja con precisión la relación entre programación y diseño. Los algoritmos son secuencias de pasos o instrucciones que se utilizan para resolver problemas, y las variables son fundamentales para almacenar y manipular datos dentro de esos pasos. Sin variables, la capacidad de un programa para manejar información dinámica y adaptarse a diferentes situaciones sería extremadamente limitada.",
+      "description": "The phrase 'sería extremadamente limitado la capacidad de un programa' is awkward and unnatural in Spanish. The more natural and grammatically correct phrasing is 'la capacidad de un programa... sería extremadamente limitada.' This adjustment improves the flow and clarity of the explanation, making it more appropriate for educational content.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Usar letras minúsculas para consistencia.",
+      "correction": "Usar letras minúsculas para mantener la consistencia.",
+      "description": "The phrase 'para consistencia' is a direct calque from English ('for consistency') and is not idiomatic in Spanish. The natural expression is 'para mantener la consistencia'. This style issue affects the naturalness and professionalism of the educational content.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Booleano: Verdadero o falso.",
+      "correction": "Booleano: verdadero o falso.",
+      "description": "In Spanish, data type names such as 'verdadero' and 'falso' are not capitalized unless they appear at the beginning of a sentence or as proper nouns. Capitalizing them here is inconsistent with standard programming terminology and Spanish orthographic conventions.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "🌟",
+      "correction": "",
+      "description": "The use of the star emoji '🌟' in educational content may be considered informal or distracting in some Spanish-speaking educational contexts, especially in formal or academic materials. It is recommended to remove emojis for a more professional tone unless the target audience is young children and the style guide allows it.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Prepárate para aprender habilidades esenciales que te serán útiles en todos los aspectos de tu vida. 🌟",
+      "correction": "Prepárate para aprender habilidades esenciales que te serán útiles en todos los aspectos de tu vida.",
+      "description": "The use of the emoji '🌟' in educational Spanish content may be considered informal and less appropriate for formal or academic contexts, especially for older students or professional audiences. Removing the emoji improves the tone and maintains a more neutral, professional style.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Fiabilidad: ¿Es la fuente creíble y confiable?",
+      "correction": "Fiabilidad: ¿Es la fuente fiable y confiable?",
+      "description": "In Spanish, 'fiable' is the more standard term for 'reliable' when referring to sources, while 'confiable' is also accepted but less common in academic contexts. Using both terms together ('fiable y confiable') ensures consistency and clarity for learners from different regions.",
+      "severity": "MINOR"
+    }
+  ]
+}

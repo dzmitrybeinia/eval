@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "Rozwiązywanie konfliktów zazwyczniwuje rozwiązanie konfliktów przez zniechęcanie stron do nieustanowania sporu.",
+      "correction": "Rozwiązywanie konfliktów zazwyczaj polega na rozwiązaniu konfliktów przez zniechęcanie stron do nieustępowania w sporze.",
+      "description": "The word 'zazwyczniwuje' is a non-existent and incorrect form; the correct word is 'zazwyczaj'. Additionally, 'nieustanowania' is incorrect and should be 'nieustępowania' to properly convey the idea of not yielding in a dispute. These errors significantly affect comprehension and grammatical correctness.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Uczniowie, którzy popierają te umiejętności, zazwyczni bardziej rozumieją się nawzajdzie i mają silniejsze relacje z kolegami.",
+      "correction": "Uczniowie, którzy rozwijają te umiejętności, zazwyczaj lepiej się rozumieją nawzajem i mają silniejsze relacje z kolegami.",
+      "description": "The verb 'popierają' (support) is a lexical error; the intended meaning is 'rozwijają' (develop). 'Zazwyczni' is a misspelling and should be 'zazwyczaj'. 'Nawzajdzie' is a misspelling and should be 'nawzajem'. These errors impact both meaning and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Empatia polega tylko na poczynianiu zobowiązań w stosunku do innych.",
+      "correction": "Empatia nie polega tylko na poczynianiu zobowiązań w stosunku do innych.",
+      "description": "The statement is semantically inaccurate. Empathy is not about making commitments ('poczynianiu zobowiązań'), but about understanding and sharing feelings. The sentence should be negated to reflect the correct concept.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "To nie tylko poprawia ich osobisty rozwój, ale także pomaga w rozwiązaniu konfliktów, ponieważ pozwala na pełne zrozumienie różnic w punktach widzenia.",
+      "correction": "To nie tylko poprawia ich osobisty rozwój, ale także pomaga w rozwiązywaniu konfliktów, ponieważ pozwala na pełne zrozumienie różnic w punktach widzenia.",
+      "description": "The phrase 'w rozwiązaniu konfliktów' should use the gerund form 'w rozwiązywaniu konfliktów' to match Polish grammatical norms for describing ongoing processes.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Dodatkowo, rozważanie uznania emocjonalnego stanu drugiej osoby może zwiększyć szacun i zwiększyć szczegółowe rozwiązanie problemu.",
+      "correction": "Dodatkowo, rozważenie uznania emocjonalnego stanu drugiej osoby może zwiększyć szacunek i ułatwić szczegółowe rozwiązanie problemu.",
+      "description": "The word 'szacun' is a colloquial truncation and should be 'szacunek' for proper register. 'Rozważanie' should be 'rozważenie' to match the context. The phrase 'zwiększyć szczegółowe rozwiązanie problemu' is awkward; 'ułatwić szczegółowe rozwiązanie problemu' is more natural and precise.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Conflict_Resolution.md",
+    "language": "Polish",
+    "timestamp": "2025-10-02T17:26:55.036809",
+    "model": "Azure OpenAI o3-mini",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 8.7,
+    "classification": "PROFESSIONAL",
+    "total_issues": 5,
+    "total_penalty": 1.3,
+    "issue_breakdown": {
+      "linguistic": 5,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.3,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

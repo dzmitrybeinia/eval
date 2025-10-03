@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Marchi.e.e.",
+      "correction": "Marchi.e.",
+      "description": "The text 'Marchi.e.e.' contains an orthographic error with an extra period and letter 'e'. This is likely a typographical mistake and should be corrected to 'Marchi.e.'. Additionally, 'Marchi.e.' does not correspond to any recognized historical event in the context of the Civil Rights Movement, which may cause confusion for learners. The correction addresses the spelling error, but the term itself should be reviewed for historical accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "la situation de naissance",
+      "correction": "le sexe",
+      "description": "The phrase 'la situation de naissance' is not a standard or accurate translation for 'sex' in the context of anti-discrimination laws. The correct term in French legal and educational contexts is 'le sexe'. Using 'la situation de naissance' may confuse learners and does not reflect the terminology used in French versions of the Civil Rights Act. This impacts both clarity and professional accuracy.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Civil_Rights_Movement.md",
+    "language": "French",
+    "timestamp": "2025-10-02T17:27:23.710984",
+    "model": "Azure OpenAI o3-mini",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

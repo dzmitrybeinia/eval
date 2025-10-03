@@ -1,0 +1,35 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "En attendant, montrer de l'empathie et une volonté de comprendre la perspective de l'autre peut créer un climat plus propice à une discussion constructive.",
+      "correction": "En montrant de l'empathie et une volonté de comprendre la perspective de l'autre, on peut créer un climat plus propice à une discussion constructive.",
+      "description": "The original sentence uses 'En attendant' which is syntactically incorrect in this context and creates confusion, as it means 'while waiting' and does not fit the intended meaning. The correct structure should use 'En montrant' to indicate the action of showing empathy. This correction improves clarity and grammatical accuracy.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Conflict_Resolution.md",
+    "language": "French",
+    "timestamp": "2025-10-02T17:27:46.576013",
+    "model": "Azure OpenAI o3-mini",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

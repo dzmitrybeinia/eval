@@ -1,0 +1,398 @@
+{
+  "linguistic": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "водоедло",
+      "correction": "водоснабжение",
+      "description": "The word 'водоедло' is not a correct or existing term in Russian. The intended meaning is 'water supply', which should be rendered as 'водоснабжение'. This lexical error significantly affects comprehension and should be corrected for clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "разраболены",
+      "correction": "разработаны",
+      "description": "The word 'разраболены' contains a spelling error. The correct form is 'разработаны', which is the past passive participle of 'разработать'. This mistake affects the grammatical accuracy of the sentence.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Прилив реки Нил обеспечивал удобную транспортировку для древнеегипетских торговцев и сельскохозяйственных товарищей.",
+      "correction": "Разливы реки Нил обеспечивали удобную транспортировку для древнеегипетских торговцев и фермеров.",
+      "description": "The word 'прилив' (tide) is not appropriate for describing the Nile's seasonal flooding, which is better referred to as 'разливы'. Additionally, 'товарищей' should be replaced with 'фермеров' for historical accuracy. This sentence contains both lexical and localization issues.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Адаптации включают как физические, так и поведенческие аспекты, позволяющие животным адаптироваться к своему округу.",
+      "correction": "Адаптации включают как физические, так и поведенческие аспекты, позволяющие животным адаптироваться к своей среде.",
+      "description": "The word 'округу' is a lexical error; it means 'district' or 'region' in an administrative sense and is not appropriate in this biological context. The correct term is 'среде', which refers to 'environment' or 'habitat'. This error affects clarity and scientific accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "Физические адаптации часто видны и непосредственно связаны с средой обитания.",
+      "correction": "Физические адаптации часто видны и непосредственно связаны со средой обитания.",
+      "description": "The preposition 'с' requires the instrumental case, so 'с средой' should be 'со средой'. This is a syntactic error affecting grammatical correctness and naturalness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Крысы кенгуру покидают свои толпады днем для избегания жары.",
+      "correction": "Крысы кенгуру покидают свои норы днем, чтобы избежать жары.",
+      "description": "The word 'толпады' is not a standard Russian term and appears to be a mistranslation or misspelling. The correct term for the burrows or underground shelters used by kangaroo rats is 'норы'. Additionally, 'для избегания жары' is unnatural; 'чтобы избежать жары' is the standard construction.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "У пантепонов длинные конечности не развиваются для скорости, а для большего сила и устойчивости.",
+      "correction": "У пантепонов длинные конечности развиваются не для скорости, а для большей силы и устойчивости.",
+      "description": "The phrase 'для большего сила' is incorrect; 'сила' is feminine and requires 'большей силы'. Also, the word order is unnatural; 'развиваются не для скорости, а для большей силы и устойчивости' is the correct and natural phrasing.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Это утверждение может запутать, так как оно не учтет их потребление воды, что является ключевым аспектом адаптации к пустыни.",
+      "correction": "Это утверждение может запутать, так как оно не учитывает их потребление воды, что является ключевым аспектом адаптации к пустыне.",
+      "description": "The verb 'не учтет' is incorrect in this context; the present tense 'не учитывает' is needed. Also, 'к пустыни' is incorrect; the correct form is 'к пустыне' (dative case). These errors affect grammatical accuracy and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Правильность этого утверждения подтверждается тем, что алгебраические выражения представляют собой математические уравнения, которые можно решить, подставляя значения переменным и выполняя соответствующие вычисления.",
+      "correction": "Правильность этого утверждения подтверждается тем, что алгебраические выражения представляют собой математические выражения, которые можно вычислить, подставляя значения переменным и выполняя соответствующие операции.",
+      "description": "The original text incorrectly refers to 'алгебраические выражения' as 'математические уравнения', which is a lexical error. Algebraic expressions are not equations; they do not contain an equality sign and cannot be 'solved' but rather 'evaluated'. The correction replaces 'уравнения' with 'выражения' and 'решить' with 'вычислить', and 'вычисления' with 'операции' to accurately reflect the mathematical terminology and process.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органел",
+      "correction": "органелла",
+      "description": "The word 'органел' is an incorrect form; the correct Russian term is 'органелла' (singular) or 'органеллы' (plural). The error affects lexical precision and may confuse learners, as 'органел' is not a standard term in Russian biology.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "дележкам",
+      "correction": "мастерам",
+      "description": "The word 'дележкам' is not appropriate in this context. In Russian, 'дележка' refers to dividing or sharing, not to a person or worker. The intended meaning is likely 'мастерам' (craftsmen/workers), which fits the analogy of specialized roles in a workshop. This lexical error impacts clarity and comprehension.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "organelлы",
+      "correction": "органеллы",
+      "description": "The use of 'organelлы' mixes Latin script with Cyrillic, which is incorrect in Russian educational content. The proper term is 'органеллы' in Cyrillic. This error affects both spelling and lexical precision, reducing professionalism and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органел",
+      "correction": "органелла",
+      "description": "The singular form 'органел' is incorrect; the standard Russian term is 'органелла'. This lexical error may mislead learners and should be corrected for accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "подобно того, как каждый дележка в мастерской играет свою роль в создании гончарных изделий.",
+      "correction": "подобно тому, как каждый мастер в мастерской играет свою роль в создании гончарных изделий.",
+      "description": "The phrase 'подобно того, как' is incorrect; the correct form is 'подобно тому, как'. Additionally, 'дележка' should be replaced with 'мастер' for proper analogy. These errors affect both syntax and lexical precision, impacting the naturalness and clarity of the sentence.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Этот ДНК управляет всей жизненной деятельностью клетки, включая рост, деление и синтез белков.",
+      "correction": "Эта ДНК управляет всей жизненной деятельностью клетки, включая рост, деление и синтез белков.",
+      "description": "The word 'ДНК' is feminine in Russian, so the correct phrase is 'эта ДНК', not 'этот ДНК'. This is a grammatical gender agreement error.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "управляющей центральной бизоном в компании",
+      "correction": "управляющим центральным звеном в компании",
+      "description": "The phrase 'управляющей центральной бизоном' is incorrect; 'бизон' means 'bison', which is not appropriate in this context. The intended meaning is likely 'центральным звеном' (central link/unit). This lexical error significantly affects comprehension and professionalism.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "делаются",
+      "correction": "принимаются",
+      "description": "In the context of decisions, the verb 'делаются' (are made) is less natural than 'принимаются' (are taken/made) in Russian. This lexical choice affects the naturalness and clarity of the sentence.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "цитоскелемент",
+      "correction": "цитоскелет",
+      "description": "The term 'цитоскелемент' is incorrect; the standard biological term in Russian is 'цитоскелет'. This lexical error affects technical accuracy and may confuse learners.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "пластинку для структуры",
+      "correction": "основу для структуры",
+      "description": "The phrase 'как пластинку для структуры' is unnatural and unclear in Russian. The intended meaning is likely 'основу для структуры' (basis for structure). This lexical error affects clarity and naturalness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Каждый органелл в клетке имеет уникальную роль, необходимую для её здоровья и функционирования.",
+      "correction": "Каждая органелла в клетке имеет уникальную роль, необходимую для её здоровья и функционирования.",
+      "description": "The noun 'органелл' is masculine and plural, but the correct singular feminine form is 'органелла'. The sentence should use 'Каждая органелла', matching gender and number agreement. This grammatical error affects clarity and correctness.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Правдословность заблуждена. Митохондрии содержат внутри кристали, которые являются сложными структурами, но не называются монструм. Эти кристали играют важную роль в увеличении поверхности для улучшения эффективности клеточного дыхания.",
+      "correction": "Это утверждение неверно. Митохондрии содержат внутри кристы, которые являются складками внутренней мембраны, но не называются монструм. Эти кристы играют важную роль в увеличении поверхности для повышения эффективности клеточного дыхания.",
+      "description": "The original text contains lexical errors: 'Правдословность заблуждена' is not a correct or natural Russian phrase and should be replaced with a clear statement of incorrectness. The word 'кристали' is a misspelling; the correct term is 'кристы'. The use of 'монструм' is incorrect terminology for mitochondrial structures. The correction provides accurate scientific terminology and improves clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Хлоропласты являются ключевым компонентом в растительных клетках, способствующими фотосинтезу.",
+      "correction": "Хлоропласты являются ключевым компонентом в растительных клетках, способствующим фотосинтезу.",
+      "description": "There is a grammatical error in the participle agreement: 'способствующими' should agree with 'компонентом' (singular, instrumental), not 'клетках' (plural, prepositional). The correct form is 'способствующим'.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Хлоропласты, или 'хлоропласты', являются особенно важными для растений, так как они содержат хлорофилл — пигмент, который играет центральную роль в фотосинтезе. Этот процесс позволяет растениям использовать солнечный свет для создания глюкозы, которая является источником питания, и кислорода, который поступает в атмосферу. Отличаясь от других органеллов в клетках, таких как митохондры или яйцеклетки, хлоропласты показывают уникальную способность растений получать энергию от солнца.",
+      "correction": "Хлоропласты являются особенно важными для растений, так как они содержат хлорофилл — пигмент, который играет центральную роль в фотосинтезе. Этот процесс позволяет растениям использовать солнечный свет для создания глюкозы, которая является источником питания, и кислорода, который поступает в атмосферу. В отличие от других органелл в клетках, таких как митохондрии, хлоропласты демонстрируют уникальную способность растений получать энергию от солнца.",
+      "description": "The phrase 'Хлоропласты, или 'хлоропласты'' is redundant and unnecessary. The word 'митохондры' is incorrect; the correct term is 'митохондрии'. 'Яйцеклетки' is not an organelle and is inappropriate in this context. The correction removes redundancy, uses accurate terminology, and improves scientific precision.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Хотя рибосомы также участвуют в деградации белков, основная роль рибосом - синтез белков. Деградация белков происходит разными механизмами, включая разложение белков, что важно для циклического контроля и регенерации клеток.",
+      "correction": "Основная роль рибосом — синтез белков. Деградация белков происходит другими механизмами, такими как протеасомы, что важно для контроля и обновления клеток.",
+      "description": "The original text incorrectly states that ribosomes participate in protein degradation, which is not accurate; their main function is protein synthesis. The sentence structure is also awkward and repetitive. The correction clarifies the function of ribosomes and provides accurate information about protein degradation mechanisms.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "сотлала более сотня человек",
+      "correction": "участвовала более сотни человек",
+      "description": "The word 'сотлала' is a spelling error and does not exist in Russian. The correct verb is 'участвовала', which means 'participated'. Additionally, the phrase should use the genitive case 'сотни человек' to indicate 'more than a hundred people'.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Роза Паркс уступила место белому пассажиру",
+      "correction": "Роза Паркс отказалась уступить место белому пассажиру",
+      "description": "The original sentence incorrectly states that Rosa Parks 'gave up her seat', while the historical fact is that she 'refused to give up her seat'. This is a semantic and grammatical error that distorts the meaning of the event.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "В Бойкоте автобусов в Монтгомери был присоеднен только один человек.",
+      "correction": "К бойкоту автобусов в Монтгомери присоединился только один человек.",
+      "description": "The verb 'присоеднен' is incorrect; the correct form is 'присоединился'. The preposition 'к' should be used with 'бойкоту', and the sentence structure should be adjusted for proper Russian syntax.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Включение множества людей подчеркнуло коллективный и непрерымный характер протеста против несправедливости.",
+      "correction": "Включение множества людей подчеркнуло коллективный и непрерывный характер протеста против несправедливости.",
+      "description": "The word 'непрерымный' is a spelling error; the correct word is 'непрерывный', meaning 'continuous'. This affects the clarity and accuracy of the sentence.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "это было действие Роза Паркс, которые были одной из лидеров, организовавших этот значительный акт сопротивления.",
+      "correction": "это было действие группы лидеров, среди которых была Роза Паркс, организовавших этот значительный акт сопротивления.",
+      "description": "The sentence incorrectly attributes the organization of the March on Washington to Rosa Parks alone and uses the plural 'которые' with a singular subject. The corrected version clarifies that it was a group effort and fixes the agreement error.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Принятие закона о гражданских прав в 1964 году",
+      "correction": "Принятие закона о гражданских правах в 1964 году",
+      "description": "The phrase 'закона о гражданских прав' is incorrect; the genitive plural 'правах' should be used to match Russian grammatical rules.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Охлаждение здесь происходит в основном из-за сезонных изменений, а не постоянной охладной температуры.",
+      "correction": "Охлаждение здесь происходит в основном из-за сезонных изменений, а не постоянной низкой температуры.",
+      "description": "The word 'охладной' is not a correct Russian adjective; the proper term is 'низкой' to describe temperature. This lexical error affects clarity and naturalness. The sentence should use 'низкой температуры' to convey the intended meaning.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Амазонские тропические леса",
+      "correction": "Амазонские дождевые леса",
+      "description": "The phrase 'Амазонские тропические леса' is understandable but less precise than 'Амазонские дождевые леса', which is the standard term in Russian for 'Amazon rainforest'. This improves lexical precision and aligns with common usage.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "лето, когда температуры могут быть довольно высокими",
+      "correction": "лето, когда температура может быть довольно высокой",
+      "description": "The plural 'температуры' is less natural in this context; the singular 'температура' is preferred when discussing general seasonal temperature. This correction improves lexical precision and naturalness.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Полярные регионы — дом для животных, таких как медведи и пингвины, адаптированных к холодам.",
+      "correction": "Полярные регионы — дом для животных, таких как белые медведи и пингвины, адаптированных к холодам.",
+      "description": "The term 'медведи' is too general; 'белые медведи' (polar bears) is more accurate for the polar regions. This correction improves lexical precision and factual accuracy.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Сложно выращивать культуры, но картофель может расти летом.",
+      "correction": "Сложно выращивать культуры, но некоторые, например картофель, могут расти летом.",
+      "description": "The original sentence implies only potatoes can grow in polar regions, which is misleading. Adding 'некоторые, например картофель' clarifies that potatoes are an example, improving semantic accuracy.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Океаническое течение, такое как Гольфстрим, делает климат Западной Европы мягче, чем в других местах на той же широте.",
+      "correction": "Океаническое течение, такое как Гольфстрим, делает климат Западной Европы более мягким, чем в других местах на той же широте.",
+      "description": "The adjective 'мягче' is less precise than 'более мягким' in this comparative context. This correction improves lexical precision and grammatical agreement.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Вездовые течения на Земле не влияют на климат.",
+      "correction": "Океанические течения на Земле не влияют на климат.",
+      "description": "The term 'вездовые течения' is incorrect and not used in Russian. The correct term is 'океанические течения'. This is a critical lexical error that affects comprehension.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Вездовые течения, такие как теплоидные течения и холодоносные течения, играют значительную роль в формировании климатических условий.",
+      "correction": "Океанические течения, такие как теплые и холодные течения, играют значительную роль в формировании климатических условий.",
+      "description": "The terms 'вездовые течения', 'теплоидные течения', and 'холодоносные течения' are not standard in Russian. The correct terminology is 'океанические течения', 'теплые течения', and 'холодные течения'. This correction is necessary for lexical precision and scientific accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "обрабаatesть",
+      "correction": "обрабатывать",
+      "description": "The word 'обрабаatesть' contains a spelling error due to an incorrect insertion of English letters within the Russian word. The correct form is 'обрабатывать', which means 'to process'. This error significantly affects comprehension and should be corrected.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "могут быть храниты в переменной",
+      "correction": "могут храниться в переменной",
+      "description": "The phrase 'могут быть храниты в переменной' is grammatically incorrect. The verb 'храниты' is not a valid form in Russian; the correct passive construction is 'могут храниться', which means 'can be stored'. This error affects grammatical accuracy and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "обрабаatesть",
+      "correction": "обрабатывать",
+      "description": "The word 'обрабаatesть' contains a spelling error due to an incorrect insertion of Latin letters and an incorrect verb ending. The correct form is 'обрабатывать', which is the infinitive of the verb 'to process'. This error affects comprehension and should be corrected for clarity and linguistic accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Нерешённые конфликты могут вызывать стресс и негативные эмоции.",
+      "correction": "Нерешённые конфликты могут вызывать стресс и негативные эмоции.",
+      "description": "The sentence is grammatically correct, but the word 'нерешённые' uses the participle form with the prefix 'не-', which is appropriate in this context. No correction needed. However, ensure that the participle is used consistently throughout similar contexts in the lesson.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Практика активного слушания позволяет слушателю полностью услышать точку зрения человека, что может способствовать лучшему пониманию ситуации и уменьшению конфликта.",
+      "correction": "Практика активного слушания позволяет слушателю полностью услышать точку зрения другого человека, что может способствовать лучшему пониманию ситуации и уменьшению конфликта.",
+      "description": "The phrase 'точку зрения человека' is grammatically correct, but it is more precise to specify 'другого человека' to clarify whose perspective is being considered, improving clarity and referential accuracy.",
+      "severity": "MINOR"
+    }
+  ],
+  "localization": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Средневековые торговцы использовали реку Нил как основной маршрут для обмена продукцией и товарами.",
+      "correction": "Древнеегипетские торговцы использовали реку Нил как основной маршрут для обмена продукцией и товарами.",
+      "description": "The use of 'Средневековые торговцы' (medieval traders) is culturally inappropriate in the context of Ancient Egypt. The correct term should be 'древнеегипетские торговцы' to accurately reflect the historical period discussed.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Lexical",
+      "original": "товарищей",
+      "correction": "фермеров",
+      "description": "The word 'товарищей' (comrades) is not appropriate in the context of ancient Egyptian agriculture. The correct term should be 'фермеров' (farmers) to maintain historical and cultural accuracy.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Это заключается в принципе обратности операций: если на одной стороне добавление, то на другой стороне вычитание.",
+      "correction": "Это отражает принцип равенства: любую операцию, выполненную с одной стороны уравнения, необходимо выполнить и с другой стороной.",
+      "description": "The original sentence uses 'принцип обратности операций', which is not a standard or natural way to describe the balancing principle in Russian math education. The correction uses 'принцип равенства', which is the commonly accepted term in Russian educational context, and clarifies the explanation for better cultural and pedagogical appropriateness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "например, спор о последнем кусочке пиццы",
+      "correction": "например, спор о последнем кусочке пиццы",
+      "description": "The example 'спор о последнем кусочке пиццы' is culturally appropriate for a younger audience and reflects a common scenario. However, for broader Russian audiences, consider adding or substituting with examples more typical in Russian culture, such as 'спор о последнем пирожке'.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "визуальным оформлением",
+      "correction": "дизайном",
+      "description": "The phrase 'визуальным оформлением' is understandable but less natural than the commonly used term 'дизайн' in Russian educational and project contexts. Using 'дизайн' would improve terminology consistency and naturalness.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Положительное влияние разрешения конфликтов заключается в том, что оно способствует улучшению взаимного восприятия и укреплению доверия, что приводит к более продуктивным и более креативным рабочим условиям.",
+      "correction": "Положительное влияние разрешения конфликтов заключается в том, что оно способствует улучшению взаимного восприятия и укреплению доверия, что приводит к более продуктивным и творческим рабочим условиям.",
+      "description": "The phrase 'более креативным рабочим условиям' uses the loanword 'креативный', which is increasingly common but may sound less natural than 'творческий' in formal educational Russian. Replacing with 'творческим' improves style and naturalness.",
+      "severity": "MINOR"
+    }
+  ]
+}

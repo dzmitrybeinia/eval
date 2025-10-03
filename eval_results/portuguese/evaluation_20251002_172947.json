@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Símbolos que representam valores desconhecidos ou variáveis.",
+      "correction": "Símbolos que representam valores desconhecidos ou variáveis desconhecidas.",
+      "description": "The phrase 'valores desconhecidos ou variáveis' is ambiguous and potentially redundant, as 'variáveis' alone does not clarify what is being represented. For clarity and grammatical precision, it should specify 'variáveis desconhecidas' to avoid confusion and ensure the sentence is not interpreted as 'unknown values or variables' (where 'variables' is not further qualified). This correction improves the precision and educational clarity of the definition.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Vamos começar! 🎓",
+      "correction": "Vamos começar!",
+      "description": "The use of the graduation cap emoji (🎓) may not be appropriate in formal educational content for Brazilian Portuguese, especially in printed or official materials. While emojis can add a friendly tone, their use should be carefully considered for the target audience and context. Removing the emoji maintains a professional and neutral tone suitable for educational materials.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "O número `5` na equação `x + 5 = 10` é de fato uma constante, pois seu valor permanece inalterado e serve como um valor fixo dentro da equação.",
+      "correction": "O número `5` na equação `x + 5 = 10` é, de fato, uma constante, pois seu valor permanece inalterado e serve como um valor fixo dentro da equação.",
+      "description": "A comma is required after 'é' in the phrase 'é de fato uma constante' to correctly set off the parenthetical expression 'de fato' according to Portuguese punctuation rules. This improves readability and adheres to standard orthographic conventions.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Se João tem `x` maçãs e compra mais 5, o total de maçãs que ele possui pode ser representado como `x + 5`.",
+      "correction": "Se João tem `x` maçãs e compra mais 5, o total de maçãs que ele possui pode ser representado por `x + 5`.",
+      "description": "In Brazilian Portuguese, the preposition 'por' is more natural than 'como' when expressing that something is represented by a symbol or expression in mathematical contexts. This change enhances the naturalness and idiomatic quality of the sentence for local learners.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Compreender esses elementos básicos da álgebra é o primeiro passo para resolver problemas e explorar conceitos mais avançados.",
+      "correction": "Compreender esses elementos básicos da álgebra é o primeiro passo para resolver problemas e explorar conceitos mais avançados.",
+      "description": "No linguistic errors found. The sentence is grammatically correct and clear. No correction needed.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Basic_Algebra.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-02T17:29:47.406990",
+    "model": "Azure OpenAI o3-mini",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.4,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

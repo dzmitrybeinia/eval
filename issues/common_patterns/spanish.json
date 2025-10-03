@@ -1,0 +1,327 @@
+{
+  "top_error_patterns": [
+    {
+      "pattern_name": "Gender Agreement Errors",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "HIGH",
+      "frequency": "very_common",
+      "frequency_count": 2,
+      "description": "Incorrect use of articles or adjectives that do not match the gender of the noun, leading to grammatical errors and reduced clarity.",
+      "examples": [
+        {
+          "wrong": "El clorofila dentro de los cloroplastos...",
+          "correct": "La clorofila dentro de los cloroplastos...",
+          "context": "Misuse of masculine article with feminine noun."
+        },
+        {
+          "wrong": "las sentimientos",
+          "correct": "los sentimientos",
+          "context": "Misuse of feminine article with masculine plural noun."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Lexical Inaccuracy in Key References",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "HIGH",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Use of incorrect or non-standard terms for well-known concepts or references, leading to confusion and misrepresentation of information.",
+      "examples": [
+        {
+          "wrong": "Son de Reverde",
+          "correct": "Sueño de libertad",
+          "context": "Incorrect reference to Martin Luther King Jr.'s famous speech."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Inappropriate Use of Emojis in Formal Educational Content",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "MEDIUM",
+      "frequency": "very_common",
+      "frequency_count": 3,
+      "description": "Emojis such as '🌟' are used in introductions and instructions, which is considered informal and distracting in Spanish educational materials, especially for older students or professional contexts.",
+      "examples": [
+        {
+          "wrong": "¡Bienvenidos a una emocionante aventura en el mundo de la programación! 🌟",
+          "correct": "¡Bienvenidos a una emocionante aventura en el mundo de la programación!",
+          "context": "Lesson introductions"
+        },
+        {
+          "wrong": "Prepárate para aprender habilidades esenciales que te serán útiles en todos los aspectos de tu vida. 🌟",
+          "correct": "Prepárate para aprender habilidades esenciales que te serán útiles en todos los aspectos de tu vida.",
+          "context": "Instructional statements"
+        },
+        {
+          "wrong": "🌟",
+          "correct": "",
+          "context": "Standalone decorative element"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Verb Tense Inconsistency",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 2,
+      "description": "Incorrect use of verb tense, often mixing present and past within the same sentence, leading to confusion and reduced clarity.",
+      "examples": [
+        {
+          "wrong": "Proporcionando recursos esenciales como agua y nutrientes, permitió la agricultura, que sustenta el crecimiento de una civilización.",
+          "correct": "Proporcionando recursos esenciales como agua y nutrientes, permitió la agricultura, que sustentó el crecimiento de una civilización.",
+          "context": "Quiz explanations describing historical processes."
+        },
+        {
+          "wrong": "La idea de que las variables no puedan almacenar información es incorrecta y va en contra de los principios básicos de programación.",
+          "correct": "La idea de que las variables no pueden almacenar información es incorrecta y va en contra de los principios básicos de programación.",
+          "context": "General statements about programming concepts."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect Article Usage",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 2,
+      "description": "Misuse of definite articles with nouns, especially gender mismatches and omission of required articles, affecting grammatical accuracy and naturalness.",
+      "examples": [
+        {
+          "wrong": "para la camuflaje en su ambiente helado y para mantener calor.",
+          "correct": "para el camuflaje en su ambiente helado y para mantener el calor.",
+          "context": "Descriptions of animal adaptations."
+        },
+        {
+          "wrong": "perritos de las praderas",
+          "correct": "perros de la pradera",
+          "context": "Naming animal species in educational content."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Lexical Inaccuracy in Technical Terminology",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 2,
+      "description": "Use of incorrect or misleading terms, especially anglicisms or literal translations, which can confuse learners and reduce localization quality.",
+      "examples": [
+        {
+          "wrong": "El legado de la ingeniosidad egipcia en la ingeniería es evidente en monumentos como las pirámides y el Sphinx.",
+          "correct": "El legado de la ingeniosidad egipcia en la ingeniería es evidente en monumentos como las pirámides y la Esfinge.",
+          "context": "References to historical monuments."
+        },
+        {
+          "wrong": "En el lenguaje de programación, los enteros son capaces de almacenar números sin signo, lo que incluye valores positivos y negativos.",
+          "correct": "En el lenguaje de programación, los enteros son capaces de almacenar números con o sin signo, lo que incluye valores positivos y negativos.",
+          "context": "Explanations of programming concepts."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Semantic Overstatement",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "MEDIUM",
+      "frequency": "rare",
+      "frequency_count": 1,
+      "description": "Exaggeration or overstatement of facts, leading to misleading information and reduced precision in educational content.",
+      "examples": [
+        {
+          "wrong": "Las zonas climáticas continentales tienen temperaturas extremadamente altas durante el verano.",
+          "correct": "Las zonas climáticas continentales pueden tener temperaturas altas durante el verano, pero no necesariamente extremas.",
+          "context": "Descriptions of climate zones."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Non-standard Terminology for Legal Acts",
+      "category": "localization",
+      "subcategory": "Terminology",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Use of non-standard or uncommon Spanish terms for well-known legal acts, which can cause confusion and reduce clarity for learners.",
+      "examples": [
+        {
+          "wrong": "Ley de Derechos Electorales de 1965",
+          "correct": "Ley de Derecho al Voto de 1965",
+          "context": "Referring to the Voting Rights Act of 1965 in educational or historical contexts."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect Imperative Form in Pseudocode Instructions",
+      "category": "localization",
+      "subcategory": "Terminology",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Use of infinitive verb forms instead of the imperative in Spanish pseudocode, making instructions less natural and potentially confusing for learners.",
+      "examples": [
+        {
+          "wrong": "IMPRIMIR número",
+          "correct": "IMPRIME número",
+          "context": "Imperative instructions in educational programming examples."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Awkward Sentence Structure Affecting Clarity",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Use of unnatural or awkward sentence structures that hinder comprehension and reduce the professional tone of educational explanations.",
+      "examples": [
+        {
+          "wrong": "sería extremadamente limitado la capacidad de un programa",
+          "correct": "la capacidad de un programa... sería extremadamente limitada",
+          "context": "Explanatory sentences in educational content."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Non-idiomatic Calques from English",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 1,
+      "description": "Direct translations from English, such as 'para consistencia', are not idiomatic in Spanish and reduce the naturalness and professionalism of the content.",
+      "examples": [
+        {
+          "wrong": "Usar letras minúsculas para consistencia.",
+          "correct": "Usar letras minúsculas para mantener la consistencia.",
+          "context": "Instructions for formatting"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Anglicisms and Unfamiliar Terminology",
+      "category": "localization",
+      "subcategory": "Terminology",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Use of terms like 'Outback australiano' is an anglicism that may not be widely understood by Spanish-speaking audiences. More neutral, localized terms improve accessibility.",
+      "examples": [
+        {
+          "wrong": "Outback australiano",
+          "correct": "el interior de Australia",
+          "context": "Geographical references"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Omission of Definite Articles with Abstract Nouns",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 2,
+      "description": "Definite articles are omitted before abstract nouns or noun phrases, which is required in Spanish for specificity and naturalness.",
+      "examples": [
+        {
+          "wrong": "organización de trabajo y planificación logística",
+          "correct": "la organización del trabajo y la planificación logística",
+          "context": "Describing skills or knowledge areas in educational content"
+        },
+        {
+          "wrong": "la realidad completa o las opciones disponibles",
+          "correct": "completamente la realidad o las opciones disponibles",
+          "context": "Explaining psychological concepts or decision-making"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Non-standard Use of Code Formatting",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Backticks are used to enclose variable names or assignments, which is not standard in Spanish educational texts unless referencing actual code syntax.",
+      "examples": [
+        {
+          "wrong": "`monedasJugador = 0`",
+          "correct": "monedasJugador = 0",
+          "context": "Presenting code or variable assignments in quiz instructions"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Regional Lexical Choices Affecting Standardization",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Use of regionalisms (e.g., 'puntajes') instead of standard terms (e.g., 'puntuaciones'), which may affect comprehension and consistency for broader audiences.",
+      "examples": [
+        {
+          "wrong": "Monitorear puntajes en juegos.",
+          "correct": "Monitorear puntuaciones en juegos.",
+          "context": "Describing game score tracking in educational content"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Non-standard Terminology for Psychological Concepts",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Use of less common or non-standard terms (e.g., 'pensamiento grupal') instead of widely accepted terminology (e.g., 'pensamiento de grupo'), which may reduce clarity.",
+      "examples": [
+        {
+          "wrong": "Pensamiento grupal",
+          "correct": "Pensamiento de grupo",
+          "context": "Referring to 'groupthink' in psychology or critical thinking contexts"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Inconsistent Use of Plural vs. Singular Address",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Switching between plural ('Prepárense') and singular ('Prepárate') forms of address can confuse learners and disrupt the tone consistency, especially when the material is intended for individual study.",
+      "examples": [
+        {
+          "wrong": "¡Prepárense para explorar las zonas climáticas de la Tierra y aprender cómo afectan la vida en nuestro planeta! 🌍",
+          "correct": "¡Prepárate para explorar las zonas climáticas de la Tierra y aprender cómo afectan la vida en nuestro planeta! 🌍",
+          "context": "Lesson instructions"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Non-standard Capitalization of Technical Terms",
+      "category": "localization",
+      "subcategory": "Terminology",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Capitalizing terms like 'Verdadero' and 'Falso' in technical contexts is inconsistent with Spanish orthographic conventions, where these should be lowercase unless starting a sentence.",
+      "examples": [
+        {
+          "wrong": "Booleano: Verdadero o falso.",
+          "correct": "Booleano: verdadero o falso.",
+          "context": "Programming terminology explanations"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Las zonas climáticas continentales tienen temperaturas extremadamente altas durante el verano.",
+      "correction": "Las zonas climáticas continentales pueden tener temperaturas altas durante el verano, pero no necesariamente extremas.",
+      "description": "The original statement incorrectly uses 'extremadamente altas' to describe summer temperatures in continental climate zones. While summers can be hot, the term 'extremadamente' exaggerates the typical conditions and may mislead learners. The correction provides a more accurate description, avoiding overstatement and improving semantic precision.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Outback australiano",
+      "correction": "el interior de Australia",
+      "description": "The term 'Outback australiano' is an anglicism that may not be familiar or natural for all Spanish-speaking audiences, especially in educational contexts. Using 'el interior de Australia' is a more neutral and widely understood term, improving localization and accessibility.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "perritos de las praderas",
+      "correction": "perros de la pradera",
+      "description": "The phrase 'perritos de las praderas' is a literal translation of 'prairie dogs,' but in standard Spanish, the correct term is 'perros de la pradera.' This correction ensures proper terminology and avoids diminutive forms that are not standard for this animal in educational or scientific contexts.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "¡Prepárense para explorar las zonas climáticas de la Tierra y aprender cómo afectan la vida en nuestro planeta! 🌍",
+      "correction": "¡Prepárate para explorar las zonas climáticas de la Tierra y aprender cómo afectan la vida en nuestro planeta! 🌍",
+      "description": "The use of 'Prepárense' (plural) may be inconsistent with the rest of the lesson, which addresses the learner in singular form. For educational materials targeting individual students, 'Prepárate' (singular) is more appropriate and maintains a consistent tone.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Climate_Zones.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-02T17:25:25.524650",
+    "model": "Azure OpenAI o3-mini",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.4,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,13 @@
+"""Shared constants for the language evaluation toolkit."""
+
+# Languages supported across conversion, evaluation, and cleanup tasks.
+SUPPORTED_LANGUAGES = [
+    "english",
+    "spanish",
+    "polish",
+    "french",
+    "russian",
+    "german",
+    "portuguese",
+    "japanese",
+]

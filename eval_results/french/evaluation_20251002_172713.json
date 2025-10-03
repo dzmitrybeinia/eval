@@ -1,0 +1,83 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "introduction à l'algèbre",
+      "correction": "Introduction à l’algèbre",
+      "description": "The phrase should begin with a capital letter as it is a title or theme. Additionally, the apostrophe should be a typographic apostrophe (’) for consistency with French orthographic standards. This improves both spelling and professional presentation.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "2 euros",
+      "correction": "2 €",
+      "description": "In French, the standard format for currency is to use the euro symbol (€) after the amount, separated by a non-breaking space. Using 'euros' is acceptable in informal contexts, but for educational and professional materials, '2 €' is preferred for clarity and consistency.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "60 km/h",
+      "correction": "60 km/h",
+      "description": "The format 'km/h' is correct and standard in French for expressing speed. No correction is needed, but ensure that a non-breaking space is used between the number and the unit for typographical accuracy in French ('60 km/h').",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Exemples réels :",
+      "correction": "Exemples réels :",
+      "description": "The phrase is correct, but ensure that a non-breaking space is used before the colon, as per French typographic rules. This is a minor orthographic improvement for professional presentation.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Coût total = 2x",
+      "correction": "Coût total = 2x",
+      "description": "The mathematical expression is correct, but in French, multiplication is often indicated with a point or a space (e.g., '2 × x' or '2 x') for clarity, especially in educational contexts. Consider using '2 × x' to avoid confusion with variable names.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Distance = 60t",
+      "correction": "Distance = 60t",
+      "description": "Similar to the previous issue, multiplication should ideally be indicated with a multiplication sign or a space ('60 × t' or '60 t') to avoid ambiguity. This is a minor orthographic improvement for clarity in mathematical notation.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Vous achetez des collations pour une fête.",
+      "correction": "Vous achetez des collations pour une fête.",
+      "description": "The sentence is culturally appropriate and uses a neutral, standard register. No correction is needed, but ensure that the context of 'fête' is clear for all French-speaking regions, as the term can refer to various types of gatherings.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Basic_Algebra.md",
+    "language": "French",
+    "timestamp": "2025-10-02T17:27:13.451671",
+    "model": "Azure OpenAI o3-mini",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.3,
+    "classification": "NATIVE",
+    "total_issues": 7,
+    "total_penalty": 0.7,
+    "issue_breakdown": {
+      "linguistic": 4,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.4,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

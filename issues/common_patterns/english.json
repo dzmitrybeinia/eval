@@ -1,0 +1,93 @@
+{
+  "top_error_patterns": [
+    {
+      "pattern_name": "Imprecise or Incomplete Lexical Choices",
+      "category": "linguistic",
+      "subcategory": "Lexical Precision",
+      "impact_level": "MEDIUM",
+      "frequency": "very_common",
+      "frequency_count": 4,
+      "description": "Instructions lack specificity or omit key qualifiers, leading to ambiguity or incomplete guidance, especially in procedural or safety contexts.",
+      "examples": [
+        {
+          "wrong": "Wash your hands to prevent infection.",
+          "correct": "Wash your hands thoroughly to prevent infection.",
+          "context": "Missing adverb reduces clarity about the required action."
+        },
+        {
+          "wrong": "Clean the wound using clean water to remove dirt or debris.",
+          "correct": "Clean the wound with running clean water to remove dirt or debris.",
+          "context": "Omission of 'running' may result in improper first aid."
+        },
+        {
+          "wrong": "Cool the burn under cool water for 10-15 minutes.",
+          "correct": "Cool the burn under running cool water for 10-15 minutes.",
+          "context": "Lack of 'running' could lead to less effective burn treatment."
+        },
+        {
+          "wrong": "Perform the Heimlich maneuver if the person cannot cough out the object.",
+          "correct": "Perform abdominal thrusts (Heimlich maneuver) if the person cannot cough out the object.",
+          "context": "Missing alternative terminology may confuse readers unfamiliar with the term."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Overgeneralization and Lack of Lexical Precision",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 3,
+      "description": "Statements use imprecise or absolute language that misrepresents standard definitions or concepts, leading to potential misunderstandings for learners.",
+      "examples": [
+        {
+          "wrong": "Variables in algebra can be letters or symbols, and sometimes numbers.",
+          "correct": "Variables in algebra are typically represented by letters or symbols, not numbers.",
+          "context": "Misleading implication that variables can be numbers, confusing variables with constants."
+        },
+        {
+          "wrong": "Variables in algebra can be represented by letters, numbers, or symbols, depending on the context and the preference of the mathematician.",
+          "correct": "Variables in algebra are usually represented by letters or symbols, not numbers. Numbers typically represent constants.",
+          "context": "Incorrectly suggests that numbers can represent variables, which is not standard in algebra."
+        },
+        {
+          "wrong": "The climate zone characterized by moderate temperatures and precipitation, supporting diverse ecosystems, cannot be found at the equator.",
+          "correct": "A climate zone characterized by moderate temperatures and precipitation, supporting diverse ecosystems, is typically not found at the equator.",
+          "context": "Absolute phrasing ('cannot be found') misleads learners; should indicate typicality, not impossibility."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Dangling or Ambiguous Modifiers",
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Use of participial phrases or modifiers that ambiguously attach to the wrong part of the sentence, reducing clarity.",
+      "examples": [
+        {
+          "wrong": "These patterns are influenced by geographical location and various environmental factors, leading to the classification of regions into different climate types.",
+          "correct": "These patterns are influenced by geographical location and various environmental factors, which lead to the classification of regions into different climate types.",
+          "context": "Dangling modifier makes the causal relationship unclear."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Inconsistent Use of Regionally Recognized Medical Terminology",
+      "category": "localization",
+      "subcategory": "Terminology",
+      "impact_level": "LOW",
+      "frequency": "rare",
+      "frequency_count": 1,
+      "description": "Medical terms like 'Heimlich maneuver' may not be universally recognized; pairing with more generic or globally accepted terms improves clarity and accessibility.",
+      "examples": [
+        {
+          "wrong": "Heimlich maneuver",
+          "correct": "abdominal thrusts (Heimlich maneuver)",
+          "context": "Quiz questions referencing emergency procedures"
+        }
+      ]
+    }
+  ]
+}

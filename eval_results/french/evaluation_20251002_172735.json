@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "le courant circumpolaire antarctique",
+      "correction": "le courant circumpolaire antarctique",
+      "description": "The term 'le courant circumpolaire antarctique' is technically correct, but in French educational contexts, it is more commonly referred to as 'le courant antarctique circumpolaire'. Using the standard term improves clarity and aligns with scientific conventions in French-speaking regions.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Préparez-vous à plonger dans les mystères de notre atmosphère et de nos océans !",
+      "correction": "Préparez-vous à explorer les phénomènes de notre atmosphère et de nos océans !",
+      "description": "The phrase 'plonger dans les mystères' is somewhat informal and metaphorical, which may not be appropriate for an educational context focused on scientific accuracy. Replacing it with 'explorer les phénomènes' maintains an engaging tone while ensuring the style remains suitable for academic content.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "la majeure partie des États-Unis et de l'Europe",
+      "correction": "la majeure partie de l'Europe et des États-Unis",
+      "description": "Listing 'États-Unis' before 'Europe' may not align with the typical order in French educational materials, where European examples are usually prioritized. Reversing the order to 'l'Europe et des États-Unis' better reflects local conventions and cultural expectations in Francophone contexts.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Climate_Zones.md",
+    "language": "French",
+    "timestamp": "2025-10-02T17:27:35.809771",
+    "model": "Azure OpenAI o3-mini",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

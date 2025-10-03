@@ -1,0 +1,75 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "À travers des actions militantes, des lois importantes, et des décisions judiciaires marquantes, ce mouvement a transformé la société américaine et inspiré des efforts mondiaux pour la justice sociale et l'égalité. 🌍",
+      "correction": "À travers des actions militantes, des lois importantes et des décisions judiciaires marquantes, ce mouvement a transformé la société américaine et inspiré des efforts mondiaux pour la justice sociale et l'égalité.",
+      "description": "The use of the globe emoji (🌍) at the end of a formal educational introduction is not appropriate for French academic content, as it may undermine the seriousness of the topic. Additionally, the comma before 'et' in the enumeration is unnecessary in French and should be removed for stylistic consistency.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Marche sur Washington (1963) : Manifestation massive en faveur des droits civiques, où Martin Luther King Jr. a prononcé son discours \"I Have a Dream\".",
+      "correction": "Marche sur Washington (1963) : Manifestation massive en faveur des droits civiques, où Martin Luther King Jr. a prononcé son discours « I Have a Dream ».",
+      "description": "French typographic conventions require the use of guillemets (« ») instead of English quotation marks (\" \") for direct speech or titles. This correction ensures proper orthography and adherence to French standards.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Student Nonviolent Coordinating Committee (SNCC)",
+      "correction": "Comité de coordination des étudiants non-violents (SNCC)",
+      "description": "The name of the organization is presented only in English, which may hinder comprehension for French learners. Providing the French equivalent alongside the acronym ensures clarity and maintains localization quality.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "NAACP",
+      "correction": "NAACP (Association nationale pour l'avancement des personnes de couleur)",
+      "description": "The acronym NAACP is not explained in French, which may confuse learners unfamiliar with American organizations. Adding the French translation in parentheses improves accessibility and localization.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "LGBTQ+",
+      "correction": "LGBT+",
+      "description": "The use of 'LGBTQ+' reflects an English-language convention. In French educational and media contexts, 'LGBT+' is more commonly used and recognized. Adapting terminology to local usage improves naturalness and comprehension.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Ce mouvement a non seulement changé les États-Unis, mais il a également laissé un héritage durable qui influence la société moderne.",
+      "correction": "Ce mouvement n’a pas seulement changé les États-Unis, mais il a également laissé un héritage durable qui influence la société moderne.",
+      "description": "The phrase 'non seulement... mais également' is correct, but in formal French, 'n’a pas seulement... mais aussi' is more idiomatic. However, the original is acceptable; this is a minor stylistic suggestion for improved naturalness.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Civil_Rights_Movement_1.md",
+    "language": "French",
+    "timestamp": "2025-10-02T17:27:31.055390",
+    "model": "Azure OpenAI o3-mini",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.3,
+    "classification": "NATIVE",
+    "total_issues": 6,
+    "total_penalty": 0.7,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 4,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.5,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

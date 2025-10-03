@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "¡Bienvenidos a una emocionante aventura en el mundo de la programación! 🌟 En esta lección, exploraremos los conceptos básicos que nos permiten dar instrucciones a las computadoras para resolver problemas y automatizar tareas. Prepárense para descubrir cómo los algoritmos, las variables y los bucles simples nos ayudan a construir soluciones efectivas y creativas.",
+      "correction": "¡Bienvenidos a una emocionante aventura en el mundo de la programación! En esta lección, exploraremos los conceptos básicos que nos permiten dar instrucciones a las computadoras para resolver problemas y automatizar tareas. Prepárense para descubrir cómo los algoritmos, las variables y los bucles simples nos ayudan a construir soluciones efectivas y creativas.",
+      "description": "The use of the emoji 🌟 at the beginning of the introduction is not standard in formal educational Spanish content and may be perceived as informal or distracting in some academic or professional contexts. Removing the emoji ensures a more neutral and professional tone, which is culturally appropriate for educational materials.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Inicio del juego: `monedasJugador = 0`",
+      "correction": "Inicio del juego: monedasJugador = 0",
+      "description": "The use of backticks (`) to enclose the variable assignment is not standard in Spanish educational texts and may cause confusion. In Spanish, code or variable names are typically presented without backticks unless referencing actual code syntax in a programming environment. Removing the backticks improves clarity and aligns with Spanish orthographic conventions.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "PARA número = 1 HASTA 10\n    IMPRIMIR número\nFIN PARA",
+      "correction": "PARA número = 1 HASTA 10\n    IMPRIME número\nFIN PARA",
+      "description": "In Spanish pseudocode, the verb 'IMPRIME' is more commonly used than 'IMPRIMIR' for imperative instructions. 'IMPRIMIR' is the infinitive form, while 'IMPRIME' is the command form, which is more natural and standard in educational programming examples. Adjusting to 'IMPRIME' improves the naturalness and clarity of the instruction.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Esta declaración no refleja con precisión la relación entre programación y diseño. Los algoritmos son, de hecho, secuencias de pasos o instrucciones que se utilizan para resolver problemas, y las variables son fundamentales para almacenar y manipular datos dentro de esos pasos. Sin variables, sería extremadamente limitado la capacidad de un programa para manejar información dinámica y adaptarse a diferentes situaciones.",
+      "correction": "Esta declaración no refleja con precisión la relación entre programación y diseño. Los algoritmos son secuencias de pasos o instrucciones que se utilizan para resolver problemas, y las variables son fundamentales para almacenar y manipular datos dentro de esos pasos. Sin variables, la capacidad de un programa para manejar información dinámica y adaptarse a diferentes situaciones sería extremadamente limitada.",
+      "description": "The phrase 'sería extremadamente limitado la capacidad de un programa' is awkward and unnatural in Spanish. The more natural and grammatically correct phrasing is 'la capacidad de un programa... sería extremadamente limitada.' This adjustment improves the flow and clarity of the explanation, making it more appropriate for educational content.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Coding_Basics.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-02T17:25:32.621835",
+    "model": "Azure OpenAI o3-mini",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.5,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

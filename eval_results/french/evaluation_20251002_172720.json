@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "La digestion des aliments est un processus qui se produit dans l'intestin grêle chez les humains et les animaux, tandis que dans les plantes, elle se produit dans des structures comme les glandes.",
+      "correction": "La digestion des aliments est un processus qui se produit principalement dans l'intestin grêle chez les humains et les animaux. Chez les plantes, il s'agit plutôt de la décomposition et de l'absorption des nutriments, qui ne se fait pas dans des glandes mais dans des structures comme les vacuoles ou par des enzymes spécifiques.",
+      "description": "The original text inaccurately describes plant digestion as occurring in 'glandes', which is not biologically correct. Plants do not have glands for digestion; instead, nutrient breakdown and absorption occur through vacuoles and enzymatic processes. This is a cultural and scientific localization issue, as it may mislead learners about plant biology. The correction clarifies the distinction and uses terminology appropriate for educational contexts.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Les ribosomes travaillent en collant les acides aminés pour former des protéines, ce qui est essentiel pour la croissance, la réparation et les réponses immunitaires chez les organismes.",
+      "correction": "Les ribosomes assemblent les acides aminés pour former des protéines, ce qui est essentiel pour la croissance, la réparation et les réponses immunitaires chez les organismes.",
+      "description": "The verb 'collant' is not the correct scientific term in French for describing how ribosomes synthesize proteins. The proper verb is 'assembler', which accurately reflects the process of joining amino acids. This is a lexical and grammatical issue affecting clarity and scientific accuracy.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Les vacuoles dans les cellules animales peuvent varier considérablement en taille et fonction selon le type de tissu.",
+      "correction": "Les vacuoles dans les cellules animales peuvent varier considérablement en taille et en fonction selon le type de tissu.",
+      "description": "The phrase 'en taille et fonction' is missing the preposition 'en' before 'fonction', which is required for parallel structure in French. This is a minor linguistic issue, but primarily a terminology and style issue, as the sentence should maintain consistency and clarity in listing characteristics.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Organites en forme de haricot avec une double membrane.",
+      "correction": "Organites de forme ovale avec une double membrane.",
+      "description": "Describing mitochondria as 'en forme de haricot' (bean-shaped) is colloquial and less precise for educational content. The more standard and neutral term is 'de forme ovale', which is commonly used in French scientific education. This improves the professional tone and clarity for learners.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Substance gélatineuse qui remplit la cellule.",
+      "correction": "Substance semi-liquide qui remplit la cellule.",
+      "description": "The term 'gélatineuse' may evoke the idea of gelatin, which is not the most accurate or neutral description for cytoplasm in French educational contexts. 'Semi-liquide' is a more precise and commonly accepted term in scientific language, enhancing clarity and naturalness.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Cell_Parts.md",
+    "language": "French",
+    "timestamp": "2025-10-02T17:27:20.634073",
+    "model": "Azure OpenAI o3-mini",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.2,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 0.8,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 4,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.6,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

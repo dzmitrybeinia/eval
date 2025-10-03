@@ -1,0 +1,329 @@
+{
+  "top_error_patterns": [
+    {
+      "pattern_name": "Grammatical Agreement Errors",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "HIGH",
+      "frequency": "common",
+      "frequency_count": 3,
+      "description": "Frequent mistakes in gender and number agreement between adjectives, pronouns, and nouns, leading to confusion and reduced clarity.",
+      "examples": [
+        {
+          "wrong": "Les Égyptiens ont appris à exploiter les crues annuelles du Nil, qui apportaient des alluvions riche en nutriments à leurs champs.",
+          "correct": "Les Égyptiens ont appris à exploiter les crues annuelles du Nil, qui apportaient des alluvions riches en nutriments à leurs champs.",
+          "context": "Adjective 'riche' should agree in number with 'alluvions' (plural)."
+        },
+        {
+          "wrong": "maximiser leur chances de survie",
+          "correct": "maximiser leurs chances de survie",
+          "context": "Possessive pronoun 'leur' should agree in number with 'chances' (plural)."
+        },
+        {
+          "wrong": "En programmation, on utilise les conditionnels pour afficher le même message quel que soit la valeur de la variable.",
+          "correct": "En programmation, on utilise les conditionnels pour afficher le même message quelle que soit la valeur de la variable.",
+          "context": "Phrase 'quel que soit' should agree in gender with 'valeur' (feminine)."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Orthographic and Spelling Mistakes",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "HIGH",
+      "frequency": "common",
+      "frequency_count": 2,
+      "description": "Recurrent spelling and typographical errors that undermine professionalism and can hinder comprehension.",
+      "examples": [
+        {
+          "wrong": "Marchi.e.e.",
+          "correct": "Marchi.e.",
+          "context": "Extra period and letter 'e' create a non-standard, confusing term."
+        },
+        {
+          "wrong": "Imaginez si vous devaiez écrire une salutation pour un groupe de cinq amis, une boucle pourrait faire ce travail rapidement pour vous.",
+          "correct": "Imaginez si vous deviez écrire une salutation pour un groupe de cinq amis, une boucle pourrait faire ce travail rapidement pour vous.",
+          "context": "Misspelling of 'deviez' (imparfait, 2nd person plural) as 'devaiez'."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect Use of Introductory Phrases",
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "impact_level": "HIGH",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Misuse of introductory phrases that result in syntactic confusion and misinterpretation of the intended meaning.",
+      "examples": [
+        {
+          "wrong": "En attendant, montrer de l'empathie et une volonté de comprendre la perspective de l'autre peut créer un climat plus propice à une discussion constructive.",
+          "correct": "En montrant de l'empathie et une volonté de comprendre la perspective de l'autre, on peut créer un climat plus propice à une discussion constructive.",
+          "context": "Use of 'En attendant' is syntactically incorrect and misleading in this context."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Misinformation due to Inaccurate Scientific Localization",
+      "category": "localization",
+      "subcategory": "Cultural",
+      "impact_level": "HIGH",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Scientific concepts are inaccurately localized, leading to culturally or contextually inappropriate information that can mislead learners about fundamental topics.",
+      "examples": [
+        {
+          "wrong": "La digestion des aliments est un processus qui se produit dans l'intestin grêle chez les humains et les animaux, tandis que dans les plantes, elle se produit dans des structures comme les glandes.",
+          "correct": "Chez les plantes, il s'agit plutôt de la décomposition et de l'absorption des nutriments, qui ne se fait pas dans des glandes mais dans des structures comme les vacuoles ou par des enzymes spécifiques.",
+          "context": "Describes plant digestion using incorrect anatomical terms, misrepresenting biological processes."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect or inconsistent use of French typographic conventions",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 4,
+      "description": "Recurring issues with French-specific typographic rules, such as use of straight apostrophes instead of typographic ones, missing non-breaking spaces before punctuation, and use of English quotation marks instead of guillemets.",
+      "examples": [
+        {
+          "wrong": "introduction à l'algèbre",
+          "correct": "Introduction à l’algèbre",
+          "context": "Title capitalization and typographic apostrophe"
+        },
+        {
+          "wrong": "Exemples réels :",
+          "correct": "Exemples réels :",
+          "context": "Missing non-breaking space before colon"
+        },
+        {
+          "wrong": "Marche sur Washington (1963) : ... \"I Have a Dream\".",
+          "correct": "Marche sur Washington (1963) : ... « I Have a Dream ».",
+          "context": "Use of English quotation marks instead of guillemets"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect or Non-Standard Terminology",
+      "category": "localization",
+      "subcategory": "Terminology",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 3,
+      "description": "Recurring use of inaccurate or non-standard French terms for key concepts, leading to confusion and reduced clarity for learners. This includes literal translations or English terms left untranslated, which do not align with established French usage in educational or legal contexts.",
+      "examples": [
+        {
+          "wrong": "la situation de naissance",
+          "correct": "le sexe",
+          "context": "Misuse of a non-standard phrase instead of the accepted legal term for 'sex' in anti-discrimination contexts."
+        },
+        {
+          "wrong": "Student Nonviolent Coordinating Committee (SNCC)",
+          "correct": "Comité de coordination des étudiants non-violents (SNCC)",
+          "context": "Leaving the organization name in English without a French equivalent, reducing accessibility for French learners."
+        },
+        {
+          "wrong": "Calculateur basique",
+          "correct": "Calculatrice basique",
+          "context": "Incorrect use of 'calculateur' (meaning processor) instead of 'calculatrice' (calculator), causing potential misunderstanding."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Unnatural Word Order",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 1,
+      "description": "Phrases are structured in a way that does not follow natural French syntax, leading to awkward or unclear sentences.",
+      "examples": [
+        {
+          "wrong": "Bosses stockant de la graisse pour survivre sans nourriture longtemps.",
+          "correct": "Bosses stockant de la graisse pour survivre longtemps sans nourriture.",
+          "context": "Adverb placement disrupts clarity and natural flow."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect Scientific Terminology",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 1,
+      "description": "Use of imprecise or non-standard verbs or terms in scientific contexts, reducing clarity and accuracy.",
+      "examples": [
+        {
+          "wrong": "Les ribosomes travaillent en collant les acides aminés pour former des protéines...",
+          "correct": "Les ribosomes assemblent les acides aminés pour former des protéines...",
+          "context": "Inaccurate verb choice for scientific process."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Non-Standard Lexical and Orthographic Conventions",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 1,
+      "description": "Incorrect use of terms and decimal separators that do not conform to French conventions, affecting professionalism and clarity.",
+      "examples": [
+        {
+          "wrong": "hauteur = 1.65",
+          "correct": "taille = 1,65",
+          "context": "Wrong term for height and incorrect decimal separator."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Non-idiomatic or Colloquial Phrasing in Educational Contexts",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "LOW",
+      "frequency": "very_common",
+      "frequency_count": 5,
+      "description": "Use of phrasing that is grammatically correct but less natural, too informal, or metaphorical for French educational materials. Corrections improve idiomaticity and professional tone.",
+      "examples": [
+        {
+          "wrong": "Certains exemples d'adaptations physiques :",
+          "correct": "Voici quelques exemples d'adaptations physiques :",
+          "context": "Introducing examples in a lesson"
+        },
+        {
+          "wrong": "Organites en forme de haricot avec une double membrane.",
+          "correct": "Organites de forme ovale avec une double membrane.",
+          "context": "Describing mitochondria in biology"
+        },
+        {
+          "wrong": "Substance gélatineuse qui remplit la cellule.",
+          "correct": "Substance semi-liquide qui remplit la cellule.",
+          "context": "Describing cytoplasm"
+        },
+        {
+          "wrong": "Préparez-vous à plonger dans les mystères de notre atmosphère et de nos océans !",
+          "correct": "Préparez-vous à explorer les phénomènes de notre atmosphère et de nos océans !",
+          "context": "Lesson introduction"
+        },
+        {
+          "wrong": "LGBTQ+",
+          "correct": "LGBT+",
+          "context": "Referring to communities in a French context"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Terminology and Parallel Structure Inconsistencies",
+      "category": "localization",
+      "subcategory": "Terminology",
+      "impact_level": "LOW",
+      "frequency": "common",
+      "frequency_count": 3,
+      "description": "Inconsistent or incomplete use of terminology, missing prepositions for parallel structure, or lack of explanation for acronyms, which can reduce clarity and accessibility.",
+      "examples": [
+        {
+          "wrong": "Les vacuoles dans les cellules animales peuvent varier considérablement en taille et fonction selon le type de tissu.",
+          "correct": "Les vacuoles dans les cellules animales peuvent varier considérablement en taille et en fonction selon le type de tissu.",
+          "context": "Listing characteristics in biology"
+        },
+        {
+          "wrong": "NAACP",
+          "correct": "NAACP (Association nationale pour l'avancement des personnes de couleur)",
+          "context": "Mentioning organizations unfamiliar to French learners"
+        },
+        {
+          "wrong": "le courant circumpolaire antarctique",
+          "correct": "le courant antarctique circumpolaire",
+          "context": "Scientific terminology in geography"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Formatting and Typographic Conventions",
+      "category": "localization",
+      "subcategory": "Format",
+      "impact_level": "LOW",
+      "frequency": "common",
+      "frequency_count": 3,
+      "description": "Non-standard formatting for currency, units, or punctuation that does not follow French typographic rules, such as missing non-breaking spaces or incorrect symbol placement.",
+      "examples": [
+        {
+          "wrong": "2 euros",
+          "correct": "2 €",
+          "context": "Currency in math or economics questions"
+        },
+        {
+          "wrong": "print(\"Bonjour, \" + nom + \"!\")",
+          "correct": "print(\"Bonjour \" + nom + \" !\")",
+          "context": "Output formatting in code examples"
+        },
+        {
+          "wrong": "60 km/h",
+          "correct": "60 km/h",
+          "context": "Units of speed (ensure non-breaking space)"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Ambiguous mathematical notation",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "LOW",
+      "frequency": "common",
+      "frequency_count": 2,
+      "description": "Mathematical expressions use juxtaposed variables and numbers (e.g., '2x', '60t') instead of the multiplication sign or a space, which can cause confusion in French educational contexts.",
+      "examples": [
+        {
+          "wrong": "Coût total = 2x",
+          "correct": "Coût total = 2 × x",
+          "context": "Multiplication in algebraic expressions"
+        },
+        {
+          "wrong": "Distance = 60t",
+          "correct": "Distance = 60 × t",
+          "context": "Multiplication in physics formulas"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Inappropriate Use of Emojis in Formal Content",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "LOW",
+      "frequency": "common",
+      "frequency_count": 2,
+      "description": "Emojis such as the globe (🌍) are used in formal educational content, which is not standard in French academic materials and can undermine professionalism.",
+      "examples": [
+        {
+          "wrong": "Découvrez une civilisation fascinante, connue pour ses pyramides majestueuses, son écriture unique et son rôle fondamental dans l'histoire humaine. 🌍",
+          "correct": "Découvrez une civilisation fascinante, connue pour ses pyramides majestueuses, son écriture unique et son rôle fondamental dans l'histoire humaine.",
+          "context": "Introduction to a historical topic"
+        },
+        {
+          "wrong": "À travers des actions militantes, des lois importantes, et des décisions judiciaires marquantes, ce mouvement a transformé la société américaine et inspiré des efforts mondiaux pour la justice sociale et l'égalité. 🌍",
+          "correct": "À travers des actions militantes, des lois importantes et des décisions judiciaires marquantes, ce mouvement a transformé la société américaine et inspiré des efforts mondiaux pour la justice sociale et l'égalité.",
+          "context": "Summary of a social movement"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Cultural and Contextual Order Preferences",
+      "category": "localization",
+      "subcategory": "Cultural",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Order of countries or examples does not align with French cultural conventions, potentially affecting relatability or perceived bias.",
+      "examples": [
+        {
+          "wrong": "la majeure partie des États-Unis et de l'Europe",
+          "correct": "la majeure partie de l'Europe et des États-Unis",
+          "context": "Listing regions in a geography or history context"
+        }
+      ]
+    }
+  ]
+}

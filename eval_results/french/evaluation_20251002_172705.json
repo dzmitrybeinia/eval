@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "maximiser leur chances de survie",
+      "correction": "maximiser leurs chances de survie",
+      "description": "The possessive pronoun 'leur' should agree in number with 'chances', which is plural. The correct form is 'leurs chances'. This error affects grammatical agreement and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Bosses stockant de la graisse pour survivre sans nourriture longtemps.",
+      "correction": "Bosses stockant de la graisse pour survivre longtemps sans nourriture.",
+      "description": "The word order is unnatural in French. The adverb 'longtemps' should follow 'survivre', not 'sans nourriture'. The corrected sentence improves clarity and conforms to standard French syntax.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Certains exemples d'adaptations physiques :",
+      "correction": "Voici quelques exemples d'adaptations physiques :",
+      "description": "The phrase 'Certains exemples d'adaptations physiques :' is grammatically correct but less natural in educational French. 'Voici quelques exemples d'adaptations physiques :' is a more idiomatic and engaging way to introduce examples in French educational content.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Animal_Adaptations.md",
+    "language": "French",
+    "timestamp": "2025-10-02T17:27:05.420805",
+    "model": "Azure OpenAI o3-mini",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.5,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

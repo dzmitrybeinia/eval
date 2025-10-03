@@ -1,0 +1,109 @@
+{
+  "generated_at": "2025-10-02T17:31:31.713274",
+  "total_files": 77,
+  "languages": [
+    "english",
+    "french",
+    "german",
+    "japanese",
+    "polish",
+    "portuguese",
+    "russian",
+    "spanish"
+  ],
+  "files": {
+    "english": [
+      "evaluation_20251002_172501.json",
+      "evaluation_20251002_172500.json",
+      "evaluation_20251002_172456.json",
+      "evaluation_20251002_172455.json",
+      "evaluation_20251002_172453.json",
+      "evaluation_20251002_172452.json",
+      "evaluation_20251002_172451.json",
+      "evaluation_20251002_172449.json"
+    ],
+    "french": [
+      "evaluation_20251002_172746.json",
+      "evaluation_20251002_172744.json",
+      "evaluation_20251002_172738.json",
+      "evaluation_20251002_172735.json",
+      "evaluation_20251002_172731.json",
+      "evaluation_20251002_172723.json",
+      "evaluation_20251002_172720.json",
+      "evaluation_20251002_172713.json",
+      "evaluation_20251002_172705.json",
+      "evaluation_20251002_172701.json"
+    ],
+    "german": [
+      "evaluation_20251002_172934.json",
+      "evaluation_20251002_172931.json",
+      "evaluation_20251002_172926.json",
+      "evaluation_20251002_172918.json",
+      "evaluation_20251002_172913.json",
+      "evaluation_20251002_172907.json",
+      "evaluation_20251002_172902.json",
+      "evaluation_20251002_172858.json",
+      "evaluation_20251002_172856.json",
+      "evaluation_20251002_172851.json"
+    ],
+    "japanese": [
+      "evaluation_20251002_173131.json",
+      "evaluation_20251002_173125.json",
+      "evaluation_20251002_173109.json",
+      "evaluation_20251002_173059.json",
+      "evaluation_20251002_173056.json",
+      "evaluation_20251002_173050.json",
+      "evaluation_20251002_173043.json",
+      "evaluation_20251002_173040.json",
+      "evaluation_20251002_173029.json",
+      "evaluation_20251002_173022.json"
+    ],
+    "polish": [
+      "evaluation_20251002_172658.json",
+      "evaluation_20251002_172655.json",
+      "evaluation_20251002_172648.json",
+      "evaluation_20251002_172642.json",
+      "evaluation_20251002_172632.json",
+      "evaluation_20251002_172629.json",
+      "evaluation_20251002_172621.json",
+      "evaluation_20251002_172615.json",
+      "evaluation_20251002_172609.json",
+      "evaluation_20251002_172603.json"
+    ],
+    "portuguese": [
+      "evaluation_20251002_173010.json",
+      "evaluation_20251002_173008.json",
+      "evaluation_20251002_173006.json",
+      "evaluation_20251002_173002.json",
+      "evaluation_20251002_172957.json",
+      "evaluation_20251002_172954.json",
+      "evaluation_20251002_172950.json",
+      "evaluation_20251002_172947.json",
+      "evaluation_20251002_172941.json",
+      "evaluation_20251002_172939.json"
+    ],
+    "russian": [
+      "evaluation_20251002_172848.json",
+      "evaluation_20251002_172841.json",
+      "evaluation_20251002_172840.json",
+      "evaluation_20251002_172837.json",
+      "evaluation_20251002_172828.json",
+      "evaluation_20251002_172822.json",
+      "evaluation_20251002_172814.json",
+      "evaluation_20251002_172802.json",
+      "evaluation_20251002_172757.json",
+      "evaluation_20251002_172751.json"
+    ],
+    "spanish": [
+      "evaluation_20251002_172555.json",
+      "evaluation_20251002_172551.json",
+      "evaluation_20251002_172538.json",
+      "evaluation_20251002_172532.json",
+      "evaluation_20251002_172525.json",
+      "evaluation_20251002_172521.json",
+      "evaluation_20251002_172516.json",
+      "evaluation_20251002_172507.json",
+      "evaluation_20251002_172505.json"
+    ]
+  }
+}

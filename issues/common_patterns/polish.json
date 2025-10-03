@@ -1,0 +1,282 @@
+{
+  "top_error_patterns": [
+    {
+      "pattern_name": "Incorrect lexical choices and invented words",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "HIGH",
+      "frequency": "very_common",
+      "frequency_count": 12,
+      "description": "Frequent use of non-existent, mistranslated, or contextually inappropriate words, often resulting in confusion or factual inaccuracy.",
+      "examples": [
+        {
+          "wrong": "pery, mitochondria czy placoda",
+          "correct": "peroksysomy, mitochondria czy lizosomy",
+          "context": "Cell biology terminology"
+        },
+        {
+          "wrong": "Ruch Praw Obywatelskich znaczył znaczną poprawę wewnętrznych relacji między różnymi etnicznościami w Stanach Ziemiańskich.",
+          "correct": "Ruch Praw Obywatelskich oznaczał znaczną poprawę relacji między różnymi grupami etnicznymi w Stanach Zjednoczonych.",
+          "context": "Historical and geographical terms"
+        },
+        {
+          "wrong": "mogą przechowywać liczby całkowite, liczby zmienniste, wartości logiczne czy nawet listy.",
+          "correct": "mogą przechowywać liczby całkowite, liczby zmiennoprzecinkowe, wartości logiczne czy nawet listy.",
+          "context": "Programming and mathematics vocabulary"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Grammatical agreement and case errors",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "HIGH",
+      "frequency": "very_common",
+      "frequency_count": 10,
+      "description": "Systematic mistakes in gender, number, or case agreement between nouns, adjectives, and verbs, leading to unnatural or incorrect sentences.",
+      "examples": [
+        {
+          "wrong": "W starożytnym Egipsku dobrze znane były żarowce...",
+          "correct": "W starożytnym Egipcie dobrze znane były żarowce...",
+          "context": "Locative case error"
+        },
+        {
+          "wrong": "Każdy zmienna w programie ma określony typ danych.",
+          "correct": "Każda zmienna w programie ma określony typ danych.",
+          "context": "Gender agreement"
+        },
+        {
+          "wrong": "Mitochondria jest głównym źródłem energii dla komórki.",
+          "correct": "Mitochondria są głównym źródłem energii dla komórki.",
+          "context": "Subject-verb agreement"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Frequent spelling and orthographic errors",
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "impact_level": "HIGH",
+      "frequency": "common",
+      "frequency_count": 6,
+      "description": "Recurrent misspellings and non-standard word forms that disrupt reading flow and comprehension.",
+      "examples": [
+        {
+          "wrong": "zazwyczni",
+          "correct": "zazwyczaj",
+          "context": "Adverb misspelling in multiple items"
+        },
+        {
+          "wrong": "nie wykonywa żadnych operacji",
+          "correct": "nie wykonuje żadnych operacji",
+          "context": "Verb conjugation and spelling"
+        },
+        {
+          "wrong": "poniewaćż",
+          "correct": "ponieważ",
+          "context": "Conjunction misspelling"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Semantic and factual inaccuracies",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "HIGH",
+      "frequency": "common",
+      "frequency_count": 5,
+      "description": "Sentences that are grammatically incorrect and/or factually misleading, often due to mistranslation or misunderstanding of the source content.",
+      "examples": [
+        {
+          "wrong": "Decyzja w Brown v. Board of Education założyła, że segregacja w szkołach publicznych jest zgodna z Konstytucją...",
+          "correct": "Decyzja w Brown v. Board of Education stwierdziła, że segregacja w szkołach publicznych jest niezgodna z Konstytucją...",
+          "context": "Historical inaccuracy and grammatical error"
+        },
+        {
+          "wrong": "Empatia polega tylko na poczynianiu zobowiązań w stosunku do innych.",
+          "correct": "Empatia nie polega tylko na poczynianiu zobowiązań w stosunku do innych.",
+          "context": "Misrepresentation of psychological concepts"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Cultural Inaccuracy in References",
+      "category": "localization",
+      "subcategory": "Cultural",
+      "impact_level": "HIGH",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Use of culturally or historically inaccurate references that do not align with the target audience's knowledge or context, leading to confusion or misinformation.",
+      "examples": [
+        {
+          "wrong": "Egipcjanie używali rzemion do tworzenia złotych kul, które były zarówno dekoracyjne, jak i użyteczne.",
+          "correct": "Egipcjanie używali narzędzi do tworzenia złotych przedmiotów, które były zarówno dekoracyjne, jak i użyteczne.",
+          "context": "Misrepresentation of ancient Egyptian artifacts; 'złote kule' is not culturally or historically accurate."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Unnatural and Confusing Style",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "HIGH",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Use of awkward, confusing, or irrelevant phrasing that disrupts comprehension and fails to meet the expectations of educational content in Polish.",
+      "examples": [
+        {
+          "wrong": "Jaśne morze, jak przypomina miasto Jastrzębie-Zdroje, znane z żywiołów morskich, odgrywa znaczną rolę w regulacji klimatu. Woda działa jak termost, regulując wzór pogodowy. Te morskie ruchy wpływają na temperaturę, co potwierdza naszą tendencję do prawdy.",
+          "correct": "Oceany odgrywają znaczącą rolę w regulacji temperatury na Ziemi. Woda magazynuje i oddaje ciepło, wpływając na wzorce pogodowe i temperaturę w różnych regionach.",
+          "context": "Inclusion of irrelevant city references and unnatural metaphors; misspelling of 'termostat'; overall lack of clarity and educational tone."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect Case or Preposition Usage",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 3,
+      "description": "Frequent errors in case agreement or preposition selection, leading to unnatural or incorrect phrasing and reduced clarity.",
+      "examples": [
+        {
+          "wrong": "co skutkowałoby błędne działanie lub błąd kompilacji.",
+          "correct": "co skutkowałoby błędnym działaniem lub błędem kompilacji.",
+          "context": "Instrumental case required after 'skutkowałoby'."
+        },
+        {
+          "wrong": "Dowód, że 'Ten krem przeciwsłoneczny jest bezpieczny, ponieważ jest na rynku przez wiele lat.",
+          "correct": "Dowód, że 'Ten krem przeciwsłoneczny jest bezpieczny, ponieważ jest na rynku od wielu lat.'",
+          "context": "Incorrect preposition for expressing duration."
+        },
+        {
+          "wrong": "Ostateczne rodzaj przechowywanej informacji zależy od tego, jak zmienne są definiowane w języku programowania.",
+          "correct": "Ostateczny rodzaj przechowywanej informacji zależy od tego, jak zmienne są definiowane w języku programowania.",
+          "context": "Adjective-noun gender and case agreement."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Unnatural or Incorrect Lexical Choices",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 3,
+      "description": "Use of words or phrases that are unnatural, incorrect, or calques from English, resulting in awkward or unclear sentences.",
+      "examples": [
+        {
+          "wrong": "procesy wewnętrzne, które nie są zobrazowane na zewnątrz organizmu",
+          "correct": "procesy wewnętrzne, które nie są widoczne na zewnątrz organizmu",
+          "context": "Literal translation; 'zobrazowane' is not idiomatic here."
+        },
+        {
+          "wrong": "Ta faktualność opiera się na podstawowej wiedzy w kodowaniu...",
+          "correct": "Ta prawidłowość opiera się na podstawowej wiedzy w kodowaniu...",
+          "context": "Calque from English; 'faktualność' is not a standard Polish term."
+        },
+        {
+          "wrong": "każda zmienna jest zarejestrowana z konkretnym typem danych",
+          "correct": "każda zmienna jest przypisana do konkretnego typu danych",
+          "context": "Incorrect verb choice; 'zarejestrowana' is not used in this context."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Orthographic and Euphonic Errors",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 3,
+      "description": "Mistakes in spelling, euphony, or word formation, leading to nonstandard or awkward expressions.",
+      "examples": [
+        {
+          "wrong": "z znakiem równości",
+          "correct": "ze znakiem równości",
+          "context": "Euphonic rule requires 'ze' before 'z'."
+        },
+        {
+          "wrong": "w rozwiązaniu konfliktów",
+          "correct": "w rozwiązywaniu konfliktów",
+          "context": "Incorrect form; gerund required for ongoing process."
+        },
+        {
+          "wrong": "zwiększyć szacun i zwiększyć szczegółowe rozwiązanie problemu",
+          "correct": "zwiększyć szacunek i ułatwić szczegółowe rozwiązanie problemu",
+          "context": "Colloquial truncation and awkward phrasing."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect or Unlocalized Technical Terminology",
+      "category": "localization",
+      "subcategory": "Terminology",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 2,
+      "description": "Technical terms are either left untranslated or translated using non-standard equivalents, leading to reduced clarity and professionalism in educational content.",
+      "examples": [
+        {
+          "wrong": "'system calls' lub 'system calls'",
+          "correct": "wywołania systemowe",
+          "context": "English term used instead of standard Polish technical term"
+        },
+        {
+          "wrong": "liczby dziesiętne",
+          "correct": "liczby zmiennoprzecinkowe",
+          "context": "Non-standard Polish term used for 'float' instead of the accepted technical term"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Sentence Fragmentation and Incomplete Structures",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Sentences lacking a main verb or being incomplete, which affects clarity and professionalism.",
+      "examples": [
+        {
+          "wrong": "Białka przeciwzamrożeniowe u ryb arktycznych zapobiegające tworzeniu się kryształów lodu we krwi.",
+          "correct": "Białka przeciwzamrożeniowe u ryb arktycznych zapobiegają tworzeniu się kryształów lodu we krwi.",
+          "context": "Fragment missing main verb."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Inaccurate Scientific Terminology",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Use of less precise or non-standard scientific terms instead of established terminology, which can reduce clarity and accuracy in educational content.",
+      "examples": [
+        {
+          "wrong": "magazynowanie wody w ciele wielbłąda to fizjologiczna adaptacja",
+          "correct": "magazynowanie wody w ciele wielbłąda to fizjologiczne przystosowanie",
+          "context": "Biological adaptation terminology in science quizzes"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Inappropriate Verb Choice for Technical Context",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Selection of verbs that do not accurately convey the intended technical meaning, leading to potential misunderstanding of key concepts.",
+      "examples": [
+        {
+          "wrong": "Język naturalny nie może obsługiwać złożonych instrukcji programowych potrzebnych do działania komputera.",
+          "correct": "Język naturalny nie pozwala na precyzyjne określenie złożonych instrukcji programowych potrzebnych do działania komputera.",
+          "context": "Describing limitations of natural language in computer science context"
+        }
+      ]
+    }
+  ]
+}

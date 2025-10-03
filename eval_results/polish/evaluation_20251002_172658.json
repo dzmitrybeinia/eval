@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "prelecency",
+      "correction": "prelekcje",
+      "description": "The word 'prelecency' is a lexical error; it is not a valid Polish word. The correct term for lectures or presentations in Polish is 'prelekcje'. This error affects clarity and professionalism in educational content.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Oświecają nasze myśli i pomagają wierzyć w różne stwierdzenia lub wykonywać decyzje.",
+      "correction": "Oświecają nasze myśli i pomagają wierzyć w różne stwierdzenia lub podejmować decyzje.",
+      "description": "The phrase 'wykonywać decyzje' is grammatically incorrect in Polish. The correct verb is 'podejmować decyzje' (to make decisions). This error impacts the naturalness and accuracy of the sentence.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "To może wpłynąć na zdanej się o relacji, potencjalnie wpływając na decyzje o związkach.",
+      "correction": "To może wpłynąć na zdanie o relacji, potencjalnie wpływając na decyzje o związkach.",
+      "description": "The phrase 'zdanej się o relacji' contains a grammatical error. The correct form is 'zdanie o relacji' (opinion about the relationship). The error affects comprehension and grammatical correctness.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Dowód, że 'Ten krem przeciwsłoneczny jest bezpieczny, ponieważ jest na rynku przez wiele lat.",
+      "correction": "Dowód, że 'Ten krem przeciwsłoneczny jest bezpieczny, ponieważ jest na rynku od wielu lat.'",
+      "description": "The phrase 'przez wiele lat' is incorrect in this context. The correct preposition is 'od wielu lat' (for many years) when referring to something being available for a period of time. This error affects the grammatical accuracy of the sentence.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Critical_Thinking.md",
+    "language": "Polish",
+    "timestamp": "2025-10-02T17:26:58.594548",
+    "model": "Azure OpenAI o3-mini",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 8.9,
+    "classification": "PROFESSIONAL",
+    "total_issues": 4,
+    "total_penalty": 1.1,
+    "issue_breakdown": {
+      "linguistic": 4,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.1,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

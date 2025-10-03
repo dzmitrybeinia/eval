@@ -1,0 +1,115 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органел",
+      "correction": "органелла",
+      "description": "The word 'органел' is an incorrect form; the correct Russian term is 'органелла' (singular) or 'органеллы' (plural). The error affects lexical precision and may confuse learners, as 'органел' is not a standard term in Russian biology.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "дележкам",
+      "correction": "мастерам",
+      "description": "The word 'дележкам' is not appropriate in this context. In Russian, 'дележка' refers to dividing or sharing, not to a person or worker. The intended meaning is likely 'мастерам' (craftsmen/workers), which fits the analogy of specialized roles in a workshop. This lexical error impacts clarity and comprehension.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "organelлы",
+      "correction": "органеллы",
+      "description": "The use of 'organelлы' mixes Latin script with Cyrillic, which is incorrect in Russian educational content. The proper term is 'органеллы' in Cyrillic. This error affects both spelling and lexical precision, reducing professionalism and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "органел",
+      "correction": "органелла",
+      "description": "The singular form 'органел' is incorrect; the standard Russian term is 'органелла'. This lexical error may mislead learners and should be corrected for accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "подобно того, как каждый дележка в мастерской играет свою роль в создании гончарных изделий.",
+      "correction": "подобно тому, как каждый мастер в мастерской играет свою роль в создании гончарных изделий.",
+      "description": "The phrase 'подобно того, как' is incorrect; the correct form is 'подобно тому, как'. Additionally, 'дележка' should be replaced with 'мастер' for proper analogy. These errors affect both syntax and lexical precision, impacting the naturalness and clarity of the sentence.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Этот ДНК управляет всей жизненной деятельностью клетки, включая рост, деление и синтез белков.",
+      "correction": "Эта ДНК управляет всей жизненной деятельностью клетки, включая рост, деление и синтез белков.",
+      "description": "The word 'ДНК' is feminine in Russian, so the correct phrase is 'эта ДНК', not 'этот ДНК'. This is a grammatical gender agreement error.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "управляющей центральной бизоном в компании",
+      "correction": "управляющим центральным звеном в компании",
+      "description": "The phrase 'управляющей центральной бизоном' is incorrect; 'бизон' means 'bison', which is not appropriate in this context. The intended meaning is likely 'центральным звеном' (central link/unit). This lexical error significantly affects comprehension and professionalism.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "делаются",
+      "correction": "принимаются",
+      "description": "In the context of decisions, the verb 'делаются' (are made) is less natural than 'принимаются' (are taken/made) in Russian. This lexical choice affects the naturalness and clarity of the sentence.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "цитоскелемент",
+      "correction": "цитоскелет",
+      "description": "The term 'цитоскелемент' is incorrect; the standard biological term in Russian is 'цитоскелет'. This lexical error affects technical accuracy and may confuse learners.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "пластинку для структуры",
+      "correction": "основу для структуры",
+      "description": "The phrase 'как пластинку для структуры' is unnatural and unclear in Russian. The intended meaning is likely 'основу для структуры' (basis for structure). This lexical error affects clarity and naturalness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Каждый органелл в клетке имеет уникальную роль, необходимую для её здоровья и функционирования.",
+      "correction": "Каждая органелла в клетке имеет уникальную роль, необходимую для её здоровья и функционирования.",
+      "description": "The noun 'органелл' is masculine and plural, but the correct singular feminine form is 'органелла'. The sentence should use 'Каждая органелла', matching gender and number agreement. This grammatical error affects clarity and correctness.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Cell_Parts.md",
+    "language": "Russian",
+    "timestamp": "2025-10-02T17:28:14.045280",
+    "model": "Azure OpenAI o3-mini",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 6.9,
+    "classification": "SUBSTANDARD",
+    "total_issues": 11,
+    "total_penalty": 3.1,
+    "issue_breakdown": {
+      "linguistic": 11,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 3.1,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

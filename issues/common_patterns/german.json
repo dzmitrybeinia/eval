@@ -1,0 +1,386 @@
+{
+  "top_error_patterns": [
+    {
+      "pattern_name": "Lexical False Friends and Inaccurate Terminology",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "HIGH",
+      "frequency": "common",
+      "frequency_count": 5,
+      "description": "Systematic misuse of words due to false friends or inaccurate terminology, leading to scientific or cultural misunderstandings.",
+      "examples": [
+        {
+          "wrong": "Physikalische Anpassungen",
+          "correct": "Körperliche Anpassungen",
+          "context": "Incorrect term for biological adaptations; 'physikalisch' refers to physics, not physical traits."
+        },
+        {
+          "wrong": "Akumu-Osiris",
+          "correct": "Osiris",
+          "context": "Non-standard, confusing term for the Egyptian god."
+        },
+        {
+          "wrong": "erfinden",
+          "correct": "finden",
+          "context": "Lexical error in mathematical context; 'erfinden' means 'to invent', not 'to find'."
+        },
+        {
+          "wrong": "das DNA",
+          "correct": "die DNA",
+          "context": "Incorrect article for 'DNA'; should be feminine in German."
+        },
+        {
+          "wrong": "Erdnussbutter auf eine Scheibe streichen.",
+          "correct": "Butter auf eine Scheibe streichen.",
+          "context": "Culturally inaccurate use of 'Erdnussbutter' for 'Butterbrot'."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Misspelling of 'hauptsächlich'",
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "impact_level": "HIGH",
+      "frequency": "very_common",
+      "frequency_count": 3,
+      "description": "Frequent misspellings of the word 'hauptsächlich' (mainly/primarily) with non-existent forms, leading to confusion and loss of meaning.",
+      "examples": [
+        {
+          "wrong": "hauptseteig",
+          "correct": "hauptsächlich",
+          "context": "Misspelled in quiz item, making the sentence unclear."
+        },
+        {
+          "wrong": "hauesteig",
+          "correct": "hauptsächlich",
+          "context": "Misspelled in quiz item, impeding comprehension."
+        },
+        {
+          "wrong": "hauptseteled",
+          "correct": "hauptsächlich",
+          "context": "Misspelled in quiz item, affecting clarity."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Grammatical Gender and Agreement Errors",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "HIGH",
+      "frequency": "common",
+      "frequency_count": 3,
+      "description": "Frequent errors in gender agreement and case usage, leading to ungrammatical and confusing sentences.",
+      "examples": [
+        {
+          "wrong": "Ihr dicker Fell ist eine physikalische Anpassung, die ihnen hilft, das extreme Klima zu überstehen.",
+          "correct": "Ihr dickes Fell ist eine körperliche Anpassung, die ihnen hilft, das extreme Klima zu überstehen.",
+          "context": "Adjective does not agree with neuter noun 'Fell'."
+        },
+        {
+          "wrong": "DNA-Synthese findet in der Zellkern statt.",
+          "correct": "DNA-Synthese findet im Zellkern statt.",
+          "context": "Incorrect case and article for 'Zellkern'."
+        },
+        {
+          "wrong": "Mitochondrien sind die Zelle, die für die Energieproduktion verantwortlich ist.",
+          "correct": "Mitochondrien sind die Zellbestandteile, die für die Energieproduktion verantwortlich sind.",
+          "context": "Singular used for plural subject; incorrect noun and verb agreement."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect Scientific and Common Names",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "HIGH",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Use of non-standard or incorrect names for species or scientific terms, affecting accuracy and learner trust.",
+      "examples": [
+        {
+          "wrong": "Kaktuszaunkönigin",
+          "correct": "Kaktuszaunkönig",
+          "context": "Incorrect species name; '-königin' is not used in standard German for this bird."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Use of Non-Local Cultural References",
+      "category": "localization",
+      "subcategory": "Cultural",
+      "impact_level": "HIGH",
+      "frequency": "rare",
+      "frequency_count": 1,
+      "description": "Source content includes culturally specific items or practices (e.g., American foods) that do not align with the target culture, leading to confusion or reduced relatability for learners.",
+      "examples": [
+        {
+          "wrong": "Erdnussbutter auf eine Scheibe streichen.",
+          "correct": "Butter auf eine Scheibe streichen.",
+          "context": "Reference to peanut butter as a spread, which is uncommon in German culture; 'Butter' is the culturally appropriate choice."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Non-idiomatic or unnatural phrasing",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "MEDIUM",
+      "frequency": "very_common",
+      "frequency_count": 5,
+      "description": "Direct translations or literal expressions from English that are understandable but sound unnatural or less idiomatic in German educational contexts. Replacing them with more natural German phrasing improves clarity and professionalism.",
+      "examples": [
+        {
+          "wrong": "Tiere sind Meister der Anpassung",
+          "correct": "Tiere sind wahre Anpassungskünstler",
+          "context": "Describing animal adaptability in a more idiomatic way"
+        },
+        {
+          "wrong": "durch die Nähe zum Pazifik",
+          "correct": "aufgrund der Nähe zum Pazifik",
+          "context": "Explaining climate influences in a more formal, natural register"
+        },
+        {
+          "wrong": "Mit Python sind die Möglichkeiten endlos!",
+          "correct": "Mit Python sind die Möglichkeiten nahezu unbegrenzt!",
+          "context": "Avoiding literal translation of 'endless possibilities'"
+        },
+        {
+          "wrong": "hochentwickelte, allgemeine Programmiersprache",
+          "correct": "vielseitige, allgemein verwendete Programmiersprache",
+          "context": "Describing programming languages in a more idiomatic way"
+        },
+        {
+          "wrong": "string concatenation in code examples",
+          "correct": "f-string format in code examples",
+          "context": "Using idiomatic Python code style in German programming education"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Non-standard or inconsistent terminology",
+      "category": "localization",
+      "subcategory": "Terminology",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 4,
+      "description": "Use of direct translations or less common terms instead of standard German terminology in educational, technical, or cultural contexts. Adjusting to the preferred local terms improves clarity and aligns with learner expectations.",
+      "examples": [
+        {
+          "wrong": "Lesetests",
+          "correct": "Leseprüfungen",
+          "context": "Referring to literacy tests in a historical context"
+        },
+        {
+          "wrong": "Gemäßigte Klimazone",
+          "correct": "Gemäßigte Zone",
+          "context": "Geographical terminology in German education"
+        },
+        {
+          "wrong": "LGBTQ+-Personen",
+          "correct": "LSBTIQ+-Personen",
+          "context": "Using the culturally appropriate abbreviation for the German audience"
+        },
+        {
+          "wrong": "booleschen Wert",
+          "correct": "Booleschen Wert",
+          "context": "Capitalization of technical terms derived from proper nouns"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Unnatural or Incomplete Phrasing",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 3,
+      "description": "Phrases are grammatically correct but sound unnatural or incomplete in German, often due to missing particles or incorrect idiomatic usage.",
+      "examples": [
+        {
+          "wrong": "Wenn es regnet, nimm einen Regenschirm.",
+          "correct": "Wenn es regnet, nimm einen Regenschirm mit.",
+          "context": "Missing 'mit' after 'nehmen' in the context of taking something along."
+        },
+        {
+          "wrong": "Variablen können mehr als einen Wert haben.",
+          "correct": "Variablen können verschiedene Werte annehmen.",
+          "context": "Misleading phrasing about variable assignment in programming."
+        },
+        {
+          "wrong": "Eine Zelle benötigt einen Zellkern, um ihre Funktionen zu steuern und als Zellkern bekannt.",
+          "correct": "Eine Zelle benötigt einen Zellkern, um ihre Funktionen zu steuern.",
+          "context": "Redundant and unclear phrase appended to a sentence about cell biology."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect Compound Noun Formation",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 2,
+      "description": "Compound nouns are incorrectly split into separate words or not properly hyphenated, violating German orthographic and grammatical conventions.",
+      "examples": [
+        {
+          "wrong": "Variable Zuweisung",
+          "correct": "Variablenzuweisung",
+          "context": "Improper separation of compound noun in programming terminology."
+        },
+        {
+          "wrong": "Montgomery Bus Boykott",
+          "correct": "Montgomery-Bus-Boykott",
+          "context": "Event name not hyphenated as required in German."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Untranslated Technical Terminology",
+      "category": "localization",
+      "subcategory": "Terminology",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 2,
+      "description": "English technical terms are left untranslated in German educational content, reducing clarity and accessibility for learners unfamiliar with English. Localized terminology should be used unless referencing code syntax directly.",
+      "examples": [
+        {
+          "wrong": "Boolean: Wahrheitswerte (True oder False)",
+          "correct": "Boolean: Wahrheitswerte (wahr oder falsch)",
+          "context": "Explanations of Boolean values use English keywords instead of German equivalents."
+        },
+        {
+          "wrong": "Listen' oder 'Dictionaries'",
+          "correct": "'Listen' oder 'Wörterbücher'",
+          "context": "Data structure names are not localized, leading to inconsistency with standard German programming terminology."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Noun Capitalization Errors",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Nouns are not capitalized as required by German orthographic rules, reducing linguistic accuracy and professionalism.",
+      "examples": [
+        {
+          "wrong": "zuhörfähigkeiten",
+          "correct": "Zuhörfähigkeiten",
+          "context": "Noun in a sentence about interpersonal skills is not capitalized."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Inconsistent Register (Informal Pronoun Usage)",
+      "category": "linguistic",
+      "subcategory": "Style",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Use of informal pronouns ('du', 'dir') in contexts where formal address ('Sie', 'Ihnen') is expected, affecting the professional tone of educational materials.",
+      "examples": [
+        {
+          "wrong": "wird dir helfen",
+          "correct": "wird Ihnen helfen",
+          "context": "Informal pronoun used in a general educational context."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Lexical Inaccuracy in Technical Contexts",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Incorrect or unnatural word choices in technical or programming contexts, leading to reduced clarity and authenticity for German learners.",
+      "examples": [
+        {
+          "wrong": "if (regen == true) { nimmRegenschirm(); }",
+          "correct": "if (regnet) { nimmRegenschirmMit(); }",
+          "context": "Variable and function names do not reflect natural German usage."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Inappropriate use of emojis in formal content",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "LOW",
+      "frequency": "common",
+      "frequency_count": 3,
+      "description": "Emojis such as 🌍, 👩‍💻, and 🌟 are used in introductions or explanations, which is considered informal and not standard in German academic or professional educational materials. Removing them ensures a more neutral and professional tone.",
+      "examples": [
+        {
+          "wrong": "🌍",
+          "correct": "",
+          "context": "Globe emoji at the start of a geography-related sentence"
+        },
+        {
+          "wrong": "👩‍💻 Heute tauchen wir ein in die Welt der Algorithmen...",
+          "correct": "Heute tauchen wir ein in die Welt der Algorithmen...",
+          "context": "Emoji at the start of a programming introduction"
+        },
+        {
+          "wrong": "🌟",
+          "correct": "",
+          "context": "Star emoji in an educational introduction"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Imprecise or Non-idiomatic Phrasing",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "LOW",
+      "frequency": "common",
+      "frequency_count": 2,
+      "description": "Literal translations or imprecise expressions that do not match standard German idioms or technical phrasing, leading to slightly unnatural or unclear sentences.",
+      "examples": [
+        {
+          "wrong": "Mit dem Verständnis dieser Grundlagen habt ihr den ersten Schritt zum Programmieren gemacht!",
+          "correct": "Mit dem Verständnis dieser Grundlagen habt ihr den ersten Schritt zum Programmieren getan!",
+          "context": "Literal translation of 'made the first step' instead of the idiomatic 'getan' in German."
+        },
+        {
+          "wrong": "Die Anden in Südamerika haben in höheren Lagen kühlere Klimabedingungen, obwohl sie sich in der tropischen Zone befinden.",
+          "correct": "Die Anden in Südamerika haben in höheren Lagen kühlere Klimabedingungen, obwohl sie sich in der tropischen Klimazone befinden.",
+          "context": "Use of 'tropische Zone' instead of the precise technical term 'tropische Klimazone'."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incomplete Temporal Expressions",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Omission of necessary particles or words in temporal phrases, resulting in slightly awkward or incomplete expressions.",
+      "examples": [
+        {
+          "wrong": "Eis und Schnee bedecken die Region das ganze Jahr.",
+          "correct": "Eis und Schnee bedecken die Region das ganze Jahr über.",
+          "context": "Missing 'über' in the temporal phrase 'das ganze Jahr über'."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Lack of German Explanations for English Terms",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Use of English acronyms or terms without providing a German translation or explanation, which may hinder comprehension for learners unfamiliar with the term.",
+      "examples": [
+        {
+          "wrong": "Student Nonviolent Coordinating Committee (SNCC)",
+          "correct": "Studentischer Ausschuss für gewaltfreie Koordination (SNCC) oder mit kurzer Erklärung",
+          "context": "English term used without German equivalent or explanation."
+        }
+      ]
+    }
+  ]
+}

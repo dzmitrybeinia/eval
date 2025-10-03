@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "procesy wewnętrzne, które nie są zobrazowane na zewnątrz organizmu",
+      "correction": "procesy wewnętrzne, które nie są widoczne na zewnątrz organizmu",
+      "description": "The word 'zobrazowane' is not appropriate in this context. The correct term is 'widoczne', which means 'visible'. 'Zobrazowane' refers to something being depicted or illustrated, which is not the intended meaning here. This affects clarity and naturalness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "magazynowanie wody w ciele wielbłąda to fizjologiczna adaptacja",
+      "correction": "magazynowanie wody w ciele wielbłąda to fizjologiczne przystosowanie",
+      "description": "The term 'adaptacja' is less precise in Polish scientific context than 'przystosowanie', which is the standard term for biological adaptation. This improves terminological accuracy and consistency.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Ostre pazury u drapieżników są przystosowaniem do polowania, a nie do lądowania. Ułatwiają im zdobycie i dogrywanie drapieżników, a nie wpływają na sposób lądowania.",
+      "correction": "Ostre pazury u drapieżników są przystosowaniem do polowania, a nie do lądowania. Ułatwiają im zdobycie i przytrzymanie zdobyczy, a nie wpływają na sposób lądowania.",
+      "description": "The phrase 'dogrywanie drapieżników' is incorrect and confusing. The intended meaning is 'przytrzymanie zdobyczy' (holding prey). 'Dogrywanie' is not used in this context and creates a semantic error.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Białka przeciwzamrożeniowe u ryb arktycznych zapobiegające tworzeniu się kryształów lodu we krwi.",
+      "correction": "Białka przeciwzamrożeniowe u ryb arktycznych zapobiegają tworzeniu się kryształów lodu we krwi.",
+      "description": "The original sentence lacks a main verb and is a fragment. It should be a complete sentence with the verb 'zapobiegają', ensuring proper sentence structure and clarity.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Adaptacje, które poprawiają przetrwanie, zazwyczniąją się w populacjach, a nie znikają.",
+      "correction": "Adaptacje, które poprawiają przetrwanie, upowszechniają się w populacjach, a nie znikają.",
+      "description": "The word 'zazwyczniąją' is a misspelling and not a valid Polish word. The correct term is 'upowszechniają', which means 'become widespread'. This is a critical error affecting comprehension.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Animal_Adaptations.md",
+    "language": "Polish",
+    "timestamp": "2025-10-02T17:26:09.456457",
+    "model": "Azure OpenAI o3-mini",
+    "label": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 8.9,
+    "classification": "PROFESSIONAL",
+    "total_issues": 5,
+    "total_penalty": 1.1,
+    "issue_breakdown": {
+      "linguistic": 5,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.1,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}
