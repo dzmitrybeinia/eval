@@ -94,6 +94,7 @@ class PromptBuilder:
     def _language_name(language: str) -> str:
         mapping = {
             "english": "English",
+            "arabic": "Arabic",
             "spanish": "Spanish",
             "polish": "Polish",
             "russian": "Russian",
@@ -102,6 +103,7 @@ class PromptBuilder:
             "french": "French",
             "german": "German",
             "portuguese": "Portuguese",
+            "hebrew": "Hebrew",
         }
         return mapping.get(language.lower(), language.title())
 

@@ -10,4 +10,7 @@ SUPPORTED_LANGUAGES = [
     "german",
     "portuguese",
     "japanese",
+    "serbian",
+    "arabic",
+    "hebrew",
 ]

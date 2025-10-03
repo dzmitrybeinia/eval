@@ -47,7 +47,7 @@ Commands:
   --dashboard                             Serve dashboard.html locally (port 8083)
   --issues-dashboard                      Serve common_issues_dashboard.html locally (port 8084)
 
-Supported languages: english, spanish, polish, french, russian, german, portuguese, japanese
+Supported languages: english, spanish, polish, french, russian, german, portuguese, japanese, serbian, arabic, hebrew
 
 Options:
   --label <str>                           Optional label for evaluation
