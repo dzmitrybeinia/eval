@@ -1,0 +1,60 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Egipt nie był ozdobiony żarowiami, które odgrywały znaczną rolę w jego rozwoju.",
+      "correction": "Egipt nie był ozdobiony żarowcami, które odgrywały znaczną rolę w jego rozwoju.",
+      "description": "The word 'żarowiami' is a lexical error; the correct term is 'żarowcami'. The original word does not exist in Polish and is likely a misspelling or confusion with 'żarowce', which refers to a type of structure. This error affects comprehension and accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "W starożytnym Egipsku dobrze znane były żarowce, które służyły zarówno jako struktury ochronne, jak i miejsca kultu, co przyczyniło się do rozwoju społeczeństwa.",
+      "correction": "W starożytnym Egipcie dobrze znane były żarowce, które służyły zarówno jako struktury ochronne, jak i miejsca kultu, co przyczyniło się do rozwoju społeczeństwa.",
+      "description": "The phrase 'w starożytnym Egipsku' uses the incorrect locative case for 'Egipt'. The correct form is 'w starożytnym Egipcie'. This is a noun case error and affects grammatical correctness.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "Hieroglify, znany również jako hieroglify, był systemem pisma używanym głównie do dokumentacji religijnych i ważnych wydarzeń politycznych. Jego użycie w codziennych rozmowach nie było powszechne, poniewaćż było ono skomplikowane i szybkie do nauczania. To zwiększało efektywność przekazywania informacji w zakresie, który wymagał dokładnego przekazywania wierzeń i przeznaczeń.",
+      "correction": "Hieroglify, znane również jako hieroglify, były systemem pisma używanym głównie do dokumentacji religijnych i ważnych wydarzeń politycznych. Ich użycie w codziennych rozmowach nie było powszechne, ponieważ były one skomplikowane i trudne do nauczania. To zwiększało efektywność przekazywania informacji w zakresie, który wymagał dokładnego przekazywania wierzeń i przeznaczenia.",
+      "description": "Multiple linguistic issues: 1) 'znany' should agree in gender and number with 'hieroglify' (plural), so 'znane' is correct. 2) 'był systemem' should be 'były systemem' to match plural subject. 3) 'poniewaćż' is a spelling error; the correct word is 'ponieważ'. 4) 'szybkie do nauczania' is semantically incorrect; the intended meaning is 'trudne do nauczania' (difficult to teach). 5) 'przeznaczeń' should be singular 'przeznaczenia' to match context. All these errors affect grammatical accuracy, spelling, and semantic clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Rzemion były jednym z zestawów narzędzi używanych w starożytnym Egipcie, a złoty był powszechnie używany ze względu na jego wyraźną wygląd i trwałość, co wspierało jego rolę zarówno w dziedzinie artystycznym, jak i funkcjonalnym.",
+      "correction": "Rzemiona były jednym z zestawów narzędzi używanych w starożytnym Egipcie, a złoto było powszechnie używane ze względu na swój wyraźny wygląd i trwałość, co wspierało jego rolę zarówno w dziedzinie artystycznej, jak i funkcjonalnej.",
+      "description": "Multiple lexical and grammatical errors: 1) 'Rzemion' is incorrect; the nominative plural is 'rzemiona'. 2) 'złoty' should be 'złoto' (the material, not the adjective). 3) 'jego wyraźną wygląd' is incorrect; should be 'swój wyraźny wygląd'. 4) 'w dziedzinie artystycznym' should be 'w dziedzinie artystycznej' for correct case and gender agreement. 5) 'funkcjonalnym' should be 'funkcjonalnej' to match the case and gender. These errors affect lexical precision, gender agreement, and case usage.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Ancient_Egypt.slm.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T16:03:29.858954",
+    "model": "Azure OpenAI o3-mini",
+    "label": "slm",
+    "label_normalized": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 8.8,
+    "classification": "PROFESSIONAL",
+    "total_issues": 4,
+    "total_penalty": 1.2,
+    "issue_breakdown": {
+      "linguistic": 4,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.2,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

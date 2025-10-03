@@ -1,0 +1,44 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Добро пожаловать в мир алгебры! 🌟 Алгебра — это раздел математики, который использует символы, обычно буквы, для представления чисел и их отношений. Сегодня мы познакомимся с основами: переменными, выражениями и простыми уравнениями. Эти понятия помогут вам решать задачи и строить сложные математические модели.",
+      "correction": "Добро пожаловать в мир алгебры! Алгебра — это раздел математики, который использует символы, обычно буквы, для представления чисел и их отношений. Сегодня мы познакомимся с основами: переменными, выражениями и простыми уравнениями. Эти понятия помогут вам решать задачи и строить сложные математические модели.",
+      "description": "The use of the emoji 🌟 at the beginning is not standard in Russian educational texts and may be perceived as informal or distracting in a formal learning context. Removing the emoji ensures the tone remains professional and culturally appropriate for Russian academic materials.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Поздравляем! Вы сделали первый шаг в изучении алгебры. Продолжайте практиковаться, чтобы укрепить свои знания!",
+      "correction": "Поздравляем! Вы сделали первый шаг в изучении алгебры. Продолжайте практиковаться, чтобы укрепить свои знания!",
+      "description": "While the congratulatory tone is generally acceptable, Russian educational materials often use a slightly more formal register, especially in written lessons. However, in this context, the informal encouragement is appropriate for younger audiences and does not require correction. No actionable change is needed, but educators should be aware of register when adapting for older or more formal audiences.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Basic_Algebra.llm.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T15:54:08.967035",
+    "model": "Azure OpenAI o3-mini",
+    "label": "llm",
+    "label_normalized": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.8,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.2,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

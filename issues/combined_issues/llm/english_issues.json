@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "label": "llm",
+    "label_normalized": "llm",
+    "label_key": "llm",
+    "language": "english",
+    "generated_at": "2025-10-03T15:57:57.554026",
+    "source_files": [
+      "evaluation_20251003_155059.json",
+      "evaluation_20251003_155100.json",
+      "evaluation_20251003_155101.json",
+      "evaluation_20251003_155102.json",
+      "evaluation_20251003_155104.json",
+      "evaluation_20251003_155105.json",
+      "evaluation_20251003_155106.json"
+    ],
+    "issue_counts": {
+      "linguistic": 0,
+      "localization": 0
+    }
+  },
+  "issues": {
+    "linguistic": [],
+    "localization": []
+  }
+}

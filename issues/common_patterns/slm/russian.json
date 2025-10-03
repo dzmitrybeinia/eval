@@ -1,0 +1,310 @@
+{
+  "metadata": {
+    "label": "slm",
+    "label_normalized": "slm",
+    "label_key": "slm",
+    "language": "russian",
+    "generated_at": "2025-10-03T16:11:26.626725"
+  },
+  "top_error_patterns": [
+    {
+      "pattern_name": "Incorrect or Nonexistent Lexical Choices",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "HIGH",
+      "frequency": "very_common",
+      "frequency_count": 14,
+      "description": "Use of words or terms that do not exist in Russian, are mistranslations, or are inappropriate for the scientific or educational context. This confuses learners and undermines clarity and professionalism.",
+      "examples": [
+        {
+          "wrong": "водоедло",
+          "correct": "водоснабжение",
+          "context": "Water supply context; 'водоедло' is not a Russian word."
+        },
+        {
+          "wrong": "пантепона",
+          "correct": "пантера",
+          "context": "Animal name; 'пантепона' is not recognized in Russian."
+        },
+        {
+          "wrong": "монструм",
+          "correct": "кристы",
+          "context": "Biology; 'монструм' is not a term for mitochondrial structures."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Grammatical Agreement and Case Errors",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "HIGH",
+      "frequency": "very_common",
+      "frequency_count": 8,
+      "description": "Systematic mistakes in gender, number, and case agreement between nouns, adjectives, and verbs. These errors make sentences ungrammatical and can obscure meaning.",
+      "examples": [
+        {
+          "wrong": "прочную связи",
+          "correct": "прочные связи",
+          "context": "Plural noun requires plural adjective."
+        },
+        {
+          "wrong": "для большего сила",
+          "correct": "для большей силы",
+          "context": "Genitive case and gender agreement error."
+        },
+        {
+          "wrong": "закона о гражданских прав",
+          "correct": "закона о гражданских правах",
+          "context": "Genitive plural noun agreement."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Spelling Errors Affecting Comprehension",
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "impact_level": "HIGH",
+      "frequency": "very_common",
+      "frequency_count": 7,
+      "description": "Frequent misspellings, including incorrect endings, non-Russian characters, and invalid word forms. These errors disrupt reading flow and reduce the professional tone of the content.",
+      "examples": [
+        {
+          "wrong": "разраболены",
+          "correct": "разработаны",
+          "context": "Development context; misspelled verb."
+        },
+        {
+          "wrong": "обрабаatesть",
+          "correct": "обрабатывать",
+          "context": "Verb formation; contains Latin letters and incorrect ending."
+        },
+        {
+          "wrong": "непрерымный",
+          "correct": "непрерывный",
+          "context": "Describing protest character; misspelled adjective."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect Scientific or Educational Terminology",
+      "category": "linguistic",
+      "subcategory": "Terminology",
+      "impact_level": "HIGH",
+      "frequency": "common",
+      "frequency_count": 4,
+      "description": "Use of terms that are inaccurate for the scientific or educational context, such as confusing expressions with equations or using non-standard terms for biological structures. This undermines the educational value and accuracy.",
+      "examples": [
+        {
+          "wrong": "алгебраические выражения представляют собой математические уравнения",
+          "correct": "алгебраические выражения представляют собой математические выражения",
+          "context": "Math context; confusion between expressions and equations."
+        },
+        {
+          "wrong": "митохондры или яйцеклетки",
+          "correct": "митохондрии или другие органеллы",
+          "context": "Biology; 'яйцеклетки' is not an organelle."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Literal or Awkward Translations",
+      "category": "linguistic",
+      "subcategory": "Style",
+      "impact_level": "HIGH",
+      "frequency": "occasional",
+      "frequency_count": 3,
+      "description": "Phrases that are literal translations from English or other languages, resulting in unnatural or unclear Russian expressions. This affects readability and cultural fit.",
+      "examples": [
+        {
+          "wrong": "Правдословность заблуждена.",
+          "correct": "Это утверждение неверно.",
+          "context": "Feedback; literal translation does not convey intended meaning."
+        },
+        {
+          "wrong": "дележками в гончарной мастерской",
+          "correct": "отделами в гончарной мастерской",
+          "context": "Analogy; 'дележка' is not appropriate for 'department'."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Cultural Misrepresentation of Historical Periods",
+      "category": "localization",
+      "subcategory": "Cultural",
+      "impact_level": "HIGH",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Incorrectly referencing historical periods or groups, leading to cultural and factual inaccuracies that confuse learners about context.",
+      "examples": [
+        {
+          "wrong": "Средневековые торговцы использовали реку Нил как основной маршрут для обмена продукцией и товарами.",
+          "correct": "Древнеегипетские торговцы использовали реку Нил как основной маршрут для обмена продукцией и товарами.",
+          "context": "Mislabeling traders as 'medieval' in the context of Ancient Egypt."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Terminological Confusion in Scientific Contexts",
+      "category": "localization",
+      "subcategory": "Terminology",
+      "impact_level": "HIGH",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Using incorrect or misleading terms for scientific concepts, resulting in factual errors and misunderstanding of key distinctions.",
+      "examples": [
+        {
+          "wrong": "кенгуру, также известные как кенгуру",
+          "correct": "крысы кенгуру, также известные как кенгуровые крысы",
+          "context": "Confusing kangaroos with kangaroo rats, which are distinct animal species."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect scientific terminology",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "MEDIUM",
+      "frequency": "very_common",
+      "frequency_count": 4,
+      "description": "Use of inaccurate or non-standard scientific terms that reduce clarity and professionalism in educational content.",
+      "examples": [
+        {
+          "wrong": "цитоскелемент",
+          "correct": "цитоскелет",
+          "context": "Incorrect term for cell structure in biology explanations."
+        },
+        {
+          "wrong": "обрабатывают свет",
+          "correct": "поглощают свет",
+          "context": "Non-standard verb for photosynthesis in plant cell descriptions."
+        },
+        {
+          "wrong": "разложение белков",
+          "correct": "расщепление белков",
+          "context": "Imprecise term for protein degradation mechanisms."
+        },
+        {
+          "wrong": "и как пластинку для структуры",
+          "correct": "а также для поддержания структуры",
+          "context": "Incorrect phrase for membrane function in cell biology."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Awkward or unnatural phrasing",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 3,
+      "description": "Use of awkward constructions or word order that impairs naturalness and readability in Russian.",
+      "examples": [
+        {
+          "wrong": "не напрямую участвуют",
+          "correct": "не участвуют напрямую",
+          "context": "Unnatural word order in scientific explanation."
+        },
+        {
+          "wrong": "общая функция мембраны как защитная и транспортирующая поверхность",
+          "correct": "мембрана выполняет общие функции: защитную и транспортную",
+          "context": "Awkward phrasing in cell membrane function description."
+        },
+        {
+          "wrong": "интеграцию внутри клетки и с внешним окружением",
+          "correct": "взаимодействие клетки с внешней средой",
+          "context": "Unnatural phrase for cell-environment interaction."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect grammatical agreement",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 2,
+      "description": "Mistakes in gender, case, or number agreement that affect clarity and correctness.",
+      "examples": [
+        {
+          "wrong": "необходимым для различных процессов",
+          "correct": "необходимой для различных процессов",
+          "context": "Adjective does not agree with noun gender."
+        },
+        {
+          "wrong": "равенство в правах голосования",
+          "correct": "равные права на голосование",
+          "context": "Incorrect case and idiomatic usage in legal context."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Unnatural lexical choices and scientific style mismatches",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Use of phrases that are technically correct but sound unnatural or less professional in Russian scientific context. More precise and conventional wording improves clarity and tone.",
+      "examples": [
+        {
+          "wrong": "Продуманный анализ утверждает",
+          "correct": "Данный анализ подтверждает",
+          "context": "Opening sentence of scientific explanation"
+        },
+        {
+          "wrong": "Это согласуется с пониманием",
+          "correct": "Это соответствует пониманию",
+          "context": "Conclusion in scientific context"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Redundant comparative constructions",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Repeated use of 'более' before each comparative adjective in a list, which is grammatically incorrect in Russian. Only the first adjective should be preceded by 'более'.",
+      "examples": [
+        {
+          "wrong": "более продуктивным и более креативным рабочим условиям",
+          "correct": "более продуктивным и креативным рабочим условиям",
+          "context": "Describing positive outcomes in workplace context"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Redundant or confusing lexical repetition",
+      "category": "localization",
+      "subcategory": "Lexical",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Unnecessary repetition of terms or phrases that do not add clarification, leading to awkward or unnatural phrasing.",
+      "examples": [
+        {
+          "wrong": "Хлоропласты, или 'хлоропласты', являются особенно важными для растений...",
+          "correct": "Хлоропласты являются особенно важными для растений...",
+          "context": "Redundant repetition of the same term without providing an alternative or clarification."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Non-standard terminology usage",
+      "category": "localization",
+      "subcategory": "Terminology",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Use of terms that are correct but less common or less natural in the target language, affecting consistency with educational standards.",
+      "examples": [
+        {
+          "wrong": "Амазонские тропические леса",
+          "correct": "Амазонский дождевой лес",
+          "context": "Use of a less standard term for the Amazon rainforest in Russian educational contexts."
+        }
+      ]
+    }
+  ]
+}

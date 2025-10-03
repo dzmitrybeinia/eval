@@ -1,0 +1,44 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "O formador de zonas climáticas é influenciado por vários fatores como o aquecimento desigual da Terra, a rotação e a forma da Terra, e as correntes oceânicas.",
+      "correction": "A formação das zonas climáticas é influenciada por vários fatores, como o aquecimento desigual da Terra, a rotação e a forma do planeta, e as correntes oceânicas.",
+      "description": "The original sentence uses 'O formador de zonas climáticas', which is an incorrect lexical choice and does not convey the intended meaning. The correct term is 'A formação das zonas climáticas', which accurately refers to the process of climate zone formation. Additionally, 'forma da Terra' is better expressed as 'forma do planeta' for clarity and naturalness. These changes improve both linguistic accuracy and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Lexical",
+      "original": "Deserto do Saara, onde as temperaturas são extremamente baixas.",
+      "correction": "Deserto do Saara, onde as temperaturas podem ser extremamente altas durante o dia e baixas à noite.",
+      "description": "The original text states that temperatures in the Sahara Desert are 'extremamente baixas', which is misleading and culturally inaccurate. The Sahara is known for extreme temperature variations, with very high daytime temperatures and low nighttime temperatures. The correction provides a more accurate and culturally appropriate description.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Climate_Zones.slm.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T16:08:11.368801",
+    "model": "Azure OpenAI o3-mini",
+    "label": "slm",
+    "label_normalized": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

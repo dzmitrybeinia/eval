@@ -1,0 +1,60 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "El pensamiento crítico se caracteriza por una mente abierta y un escepticismo, lo que significa que se cuestionan las opiniones y se examinan las evidencias antes de llegar a conclusiones.",
+      "correction": "El pensamiento crítico se caracteriza por una mente abierta y escepticismo, lo que significa que se cuestionan las opiniones y se examinan las evidencias antes de llegar a conclusiones.",
+      "description": "The use of the article 'un' before 'escepticismo' is unnecessary and unidiomatic in Spanish when listing qualities. Removing 'un' results in a more natural and grammatically correct expression. No other linguistic or localization issues are present.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Esto puede influir en las decisiones de una manera que no refleje la realidad completa o las opciones disponibles.",
+      "correction": "Esto puede influir en las decisiones de una manera que no refleje completamente la realidad o las opciones disponibles.",
+      "description": "The phrase 'la realidad completa' is awkward and less idiomatic in Spanish. 'Refleje completamente la realidad' is a more natural and precise way to express the intended meaning. No other linguistic or localization issues are present.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Al examinar la autoría y el contexto de la información, se puede discernir si la evidencia apoya una conclusión lógica.",
+      "correction": "Al examinar la autoría y el contexto de la información, se puede discernir si la evidencia respalda una conclusión lógica.",
+      "description": "The verb 'apoyar' is commonly used for physical or emotional support, while 'respaldar' is more appropriate for the context of evidence supporting a conclusion. This correction improves lexical precision and naturalness.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Un argumento razonado debe considerar múltiples perspectivas, incluyendo contraargumentos, para demostrar una comprensión completa y robusta del tema.",
+      "correction": "Un argumento razonado debe considerar múltiples perspectivas, incluidos los contraargumentos, para demostrar una comprensión completa y robusta del tema.",
+      "description": "The participle 'incluyendo' should agree with the noun 'contraargumentos'; 'incluidos los contraargumentos' is the correct form for gender and number agreement. This correction addresses grammatical accuracy.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Critical_Thinking.slm.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-03T16:03:04.039826",
+    "model": "Azure OpenAI o3-mini",
+    "label": "slm",
+    "label_normalized": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 4,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.4,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

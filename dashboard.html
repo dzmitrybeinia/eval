@@ -531,6 +531,29 @@
             font-size: 0.95rem;
         }
 
+        .issues-grid.collapsed .pattern-card:not(:first-child) {
+            display: none;
+        }
+
+        .expand-toggle-btn {
+            display: block;
+            margin: 20px auto;
+            padding: 12px 24px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 14px;
+        }
+
+        .expand-toggle-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.3);
+        }
+
         @media (max-width: 768px) {
             .container {
                 padding: 10px;
@@ -561,34 +584,58 @@
             <p>Comprehensive analysis of localized content quality across all languages</p>
         </div>
 
+        <div class="reports-section" id="commonIssuesPanel" style="margin-bottom: 30px;">
+            <div class="section-header">
+                <h2>🧭 Common Issues &amp; Patterns</h2>
+                <div class="section-header-controls">
+                    <div class="control-group">
+                        <label for="commonIssuesLanguage">Language</label>
+                        <select id="commonIssuesLanguage">
+                            <option value="">Loading...</option>
+                        </select>
+                    </div>
+                    <div class="control-group">
+                        <label for="commonIssuesLabel">Label (Version)</label>
+                        <select id="commonIssuesLabel">
+                            <option value="">Loading...</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div id="commonIssuesContent">
+                <div class="loading">
+                    <div class="loading-spinner"></div>
+                    <div>Loading common issues...</div>
+                </div>
+            </div>
+        </div>
+
         <div class="controls">
             <div class="control-group">
-                <label for="languageFilter">Language</label>
-                <select id="languageFilter">
+                <label for="reportLanguageFilter">Language</label>
+                <select id="reportLanguageFilter">
                     <option value="all">All Languages</option>
                 </select>
             </div>
-            
+
             <div class="control-group">
-                <label for="labelFilter">Label (Version)</label>
-                <select id="labelFilter">
+                <label for="reportLabelFilter">Label (Version)</label>
+                <select id="reportLabelFilter">
                     <option value="all">All Labels</option>
                 </select>
             </div>
-            
-            <button class="refresh-btn" onclick="refreshDashboard()">🔄 Refresh Reports</button>
         </div>
 
         <div class="stats-grid" id="statsGrid">
             <!-- Stats will be populated by JavaScript -->
         </div>
-        
+
         <div class="reports-section">
             <div class="section-header">
                 <h2>📊 Detailed Reports</h2>
                 <input type="text" id="searchBox" class="search-box" placeholder="Search reports by filename, language, or content...">
             </div>
-            
+
             <div class="table-container">
                 <table class="reports-table">
                     <thead>
@@ -605,32 +652,6 @@
                         <!-- Reports will be populated by JavaScript -->
                     </tbody>
                 </table>
-            </div>
-        </div>
-
-        <div class="reports-section" id="commonIssuesPanel">
-            <div class="section-header">
-                <h2>🧭 Common Issues &amp; Patterns</h2>
-                <div class="section-header-controls">
-                    <div class="control-group">
-                        <label for="commonIssuesLabel">Label (Version)</label>
-                        <select id="commonIssuesLabel">
-                            <option value="">Loading...</option>
-                        </select>
-                    </div>
-                    <div class="control-group">
-                        <label for="commonIssuesLanguage">Language</label>
-                        <select id="commonIssuesLanguage">
-                            <option value="">Loading...</option>
-                        </select>
-                    </div>
-                </div>
-            </div>
-            <div id="commonIssuesContent">
-                <div class="loading">
-                    <div class="loading-spinner"></div>
-                    <div>Loading common issues...</div>
-                </div>
             </div>
         </div>
     </div>
@@ -654,8 +675,8 @@
         }
 
         function setupEventListeners() {
-            document.getElementById('languageFilter').addEventListener('change', filterReports);
-            document.getElementById('labelFilter').addEventListener('change', filterReports);
+            document.getElementById('reportLanguageFilter').addEventListener('change', filterReports);
+            document.getElementById('reportLabelFilter').addEventListener('change', filterReports);
             document.getElementById('searchBox').addEventListener('input', filterReports);
         }
 
@@ -776,8 +797,10 @@
             }
 
             const languages = Array.isArray(labelData.languages) ? [...labelData.languages].sort() : [];
-            if (!selectedCommonLanguage || !languages.includes(selectedCommonLanguage)) {
-                selectedCommonLanguage = languages[0] || '';
+
+            // Default to "all" if not set or if current language is not available
+            if (!selectedCommonLanguage || (selectedCommonLanguage !== 'all' && !languages.includes(selectedCommonLanguage))) {
+                selectedCommonLanguage = 'all';
             }
 
             if (languages.length === 0) {
@@ -788,12 +811,16 @@
                 return;
             }
 
-            languageSelect.innerHTML = languages
+            const allOption = '<option value="all">All Languages</option>';
+            const languageOptions = languages
                 .map(language => {
                     const selected = language === selectedCommonLanguage ? ' selected' : '';
                     return `<option value="${language}"${selected}>${language}</option>`;
                 })
                 .join('');
+
+            const allSelected = selectedCommonLanguage === 'all' ? ' selected' : '';
+            languageSelect.innerHTML = `<option value="all"${allSelected}>All Languages</option>${languageOptions}`;
 
             languageSelect.onchange = event => {
                 selectedCommonLanguage = event.target.value;
@@ -825,6 +852,13 @@
                 return;
             }
 
+            // Handle "all" languages case
+            if (selectedCommonLanguage === 'all') {
+                renderAllLanguagesIssues(labelData);
+                return;
+            }
+
+            // Single language case
             const analysis = labelData.analyses ? labelData.analyses[selectedCommonLanguage] : null;
             const patterns = analysis && Array.isArray(analysis.top_error_patterns) ? analysis.top_error_patterns : [];
 
@@ -844,7 +878,101 @@
             `;
 
             const cardsHtml = patterns.map(pattern => renderPatternCard(pattern)).join('');
-            content.innerHTML = metaHtml + `<div class="issues-grid">${cardsHtml}</div>`;
+            const expandBtnHtml = patterns.length > 1 ? `
+                <button class="expand-toggle-btn" onclick="toggleCommonIssues(this)">
+                    Show All ${patterns.length} Issues
+                </button>
+            ` : '';
+            content.innerHTML = metaHtml + `<div class="issues-grid collapsed" id="commonIssuesGrid">${cardsHtml}</div>${expandBtnHtml}`;
+        }
+
+        function renderAllLanguagesIssues(labelData) {
+            const content = document.getElementById('commonIssuesContent');
+            if (!labelData.analyses) {
+                content.innerHTML = '<div class="issues-empty">No analyses available.</div>';
+                return;
+            }
+
+            const languages = Array.isArray(labelData.languages) ? labelData.languages : [];
+            let allPatterns = [];
+
+            // Collect patterns from all languages
+            languages.forEach(language => {
+                const analysis = labelData.analyses[language];
+                if (analysis && Array.isArray(analysis.top_error_patterns)) {
+                    analysis.top_error_patterns.forEach(pattern => {
+                        allPatterns.push({
+                            ...pattern,
+                            _language: language
+                        });
+                    });
+                }
+            });
+
+            if (allPatterns.length === 0) {
+                content.innerHTML = `<div class="issues-empty">No recurring issues found for any language (${labelData.label || selectedCommonLabel}).</div>`;
+                return;
+            }
+
+            const generatedAt = labelData.generated_at ? formatTimestamp(labelData.generated_at) : '';
+            const metaHtml = `
+                <div class="issues-meta">
+                    <span><strong>Label:</strong> ${labelData.label || selectedCommonLabel}</span>
+                    <span><strong>Languages:</strong> All (${languages.length})</span>
+                    ${generatedAt ? `<span><strong>Generated:</strong> ${generatedAt}</span>` : ''}
+                    <span><strong>Patterns:</strong> ${allPatterns.length}</span>
+                </div>
+            `;
+
+            const cardsHtml = allPatterns.map(pattern => renderPatternCardWithLanguage(pattern)).join('');
+            const expandBtnHtml = allPatterns.length > 1 ? `
+                <button class="expand-toggle-btn" onclick="toggleCommonIssues(this)">
+                    Show All ${allPatterns.length} Issues
+                </button>
+            ` : '';
+            content.innerHTML = metaHtml + `<div class="issues-grid collapsed" id="commonIssuesGrid">${cardsHtml}</div>${expandBtnHtml}`;
+        }
+
+        function renderPatternCardWithLanguage(pattern) {
+            const categoryLabel = formatCategoryLabel(pattern.category);
+            let categoryClass = 'badge-generic';
+            if (pattern.category === 'localization') {
+                categoryClass = 'badge-localization';
+            } else if (pattern.category === 'linguistic') {
+                categoryClass = 'badge-linguistic';
+            }
+            const impactLabel = formatImpactLabel(pattern.impact_level);
+            const frequencyLabel = formatFrequencyLabel(pattern.frequency);
+            const frequencyCount = normalizeFrequencyCount(pattern.frequency_count);
+            const footerItems = [];
+
+            if (pattern._language) {
+                footerItems.push(`<span><strong>Language:</strong> ${pattern._language}</span>`);
+            }
+            if (pattern.subcategory) {
+                footerItems.push(`<span>Subcategory: ${pattern.subcategory}</span>`);
+            }
+            if (frequencyCount !== null) {
+                footerItems.push(`<span>Occurrences: ${frequencyCount}</span>`);
+            }
+
+            const examplesHtml = renderPatternExamples(pattern.examples);
+
+            return `
+                <div class="pattern-card">
+                    <div class="pattern-header">
+                        <h3>${pattern.pattern_name || 'Unnamed pattern'}</h3>
+                        <div class="pattern-badges">
+                            ${categoryLabel ? `<span class="badge ${categoryClass}">${categoryLabel}</span>` : ''}
+                            ${impactLabel ? `<span class="badge badge-impact">${impactLabel}</span>` : ''}
+                            ${frequencyLabel ? `<span class="badge badge-frequency">${frequencyLabel}</span>` : ''}
+                        </div>
+                    </div>
+                    <p class="pattern-description">${pattern.description || 'No description provided.'}</p>
+                    ${footerItems.length ? `<div class="pattern-footer">${footerItems.join('')}</div>` : ''}
+                    ${examplesHtml}
+                </div>
+            `;
         }
 
         function renderPatternCard(pattern) {
@@ -1008,12 +1136,12 @@
         }
 
         function populateLanguageFilter() {
-            const languageFilter = document.getElementById('languageFilter');
+            const languageFilter = document.getElementById('reportLanguageFilter');
             const languages = [...new Set(allReports.map(r => r.metadata.language))].sort();
-            
+
             // Clear existing options except "All Languages"
             languageFilter.innerHTML = '<option value="all">All Languages</option>';
-            
+
             languages.forEach(language => {
                 const option = document.createElement('option');
                 option.value = language;
@@ -1023,12 +1151,12 @@
         }
 
         function populateLabelFilter() {
-            const labelFilter = document.getElementById('labelFilter');
+            const labelFilter = document.getElementById('reportLabelFilter');
             const labels = [...new Set(allReports.map(r => r.metadata.label).filter(label => label))].sort();
-            
+
             // Clear existing options except "All Labels"
             labelFilter.innerHTML = '<option value="all">All Labels</option>';
-            
+
             labels.forEach(label => {
                 const option = document.createElement('option');
                 option.value = label;
@@ -1093,8 +1221,8 @@
 
         function updateFilteredStats() {
             const statsGrid = document.getElementById('statsGrid');
-            const languageFilter = document.getElementById('languageFilter').value;
-            const labelFilter = document.getElementById('labelFilter').value;
+            const languageFilter = document.getElementById('reportLanguageFilter').value;
+            const labelFilter = document.getElementById('reportLabelFilter').value;
             
             if (filteredReports.length === 0) {
                 statsGrid.innerHTML = '<div class="no-reports">No reports match current filters. Adjust your selection to see statistics.</div>';
@@ -1188,8 +1316,8 @@
         }
 
         function filterReports() {
-            const languageFilter = document.getElementById('languageFilter').value;
-            const labelFilter = document.getElementById('labelFilter').value;
+            const languageFilter = document.getElementById('reportLanguageFilter').value;
+            const labelFilter = document.getElementById('reportLabelFilter').value;
             const searchTerm = document.getElementById('searchBox').value.toLowerCase();
             
             filteredReports = allReports.filter(report => {
@@ -1733,6 +1861,18 @@
                     </td>
                 </tr>
             `;
+        }
+
+        function toggleCommonIssues(btn) {
+            const grid = document.getElementById('commonIssuesGrid');
+            if (grid.classList.contains('collapsed')) {
+                grid.classList.remove('collapsed');
+                btn.textContent = 'Show Less';
+            } else {
+                grid.classList.add('collapsed');
+                const totalPatterns = grid.querySelectorAll('.pattern-card').length;
+                btn.textContent = `Show All ${totalPatterns} Issues`;
+            }
         }
     </script>
 </body>

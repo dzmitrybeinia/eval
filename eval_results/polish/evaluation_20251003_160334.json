@@ -1,0 +1,76 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "procesami wewnętrzne",
+      "correction": "procesami wewnętrznymi",
+      "description": "The noun 'procesami' (instrumental plural) requires the adjective 'wewnętrznymi' in the instrumental plural form for proper case agreement. The original uses 'wewnętrzne', which is nominative/accusative plural and incorrect in this context. This error affects grammatical correctness and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "magazynowanie wody w ciele wielbłąda to fizjologiczna adaptacja",
+      "correction": "magazynowanie wody w ciele wielbłąda to przystosowanie fizjologiczne",
+      "description": "The phrase 'fizjologiczna adaptacja' uses a direct loanword 'adaptacja', which is less natural in Polish educational contexts compared to 'przystosowanie fizjologiczne'. The latter is the standard term in Polish biology education and improves lexical precision and naturalness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "łatwego lądowania na swojej przenośnej",
+      "correction": "łatwego lądowania na swojej ofierze",
+      "description": "The word 'przenośnej' is a mistranslation or incorrect word choice; it does not make sense in this context. The intended meaning is 'prey', which in Polish is 'ofiara'. This lexical error significantly affects comprehension.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "dogrywanie drapieżników",
+      "correction": "przytrzymywanie ofiary",
+      "description": "The phrase 'dogrywanie drapieżników' is grammatically and semantically incorrect. 'Dogrywanie' is not used in this context, and 'drapieżników' (predators) is the wrong object; the correct phrase is 'przytrzymywanie ofiary' (holding the prey). This error affects both grammar and meaning.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "zyskały na użyteczności",
+      "correction": "zyskały na znaczeniu",
+      "description": "The phrase 'zyskały na użyteczności' is an awkward calque from English ('gained in usefulness'). In Polish, the natural expression is 'zyskały na znaczeniu' (became more significant). This improves idiomatic usage and clarity.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "zazwyczniąją się w populacjach",
+      "correction": "upowszechniają się w populacjach",
+      "description": "The word 'zazwyczniąją' is a non-existent and misspelled form in Polish. The correct verb is 'upowszechniają się' (become widespread). This is a critical spelling and lexical error that impedes understanding.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Animal_Adaptations.slm.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T16:03:34.968156",
+    "model": "Azure OpenAI o3-mini",
+    "label": "slm",
+    "label_normalized": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 8.4,
+    "classification": "PROFESSIONAL",
+    "total_issues": 6,
+    "total_penalty": 1.6,
+    "issue_breakdown": {
+      "linguistic": 6,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.6,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

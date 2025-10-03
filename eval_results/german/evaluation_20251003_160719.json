@@ -1,0 +1,92 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Einige Klimazonen wie die trockenen oder ariden zeichnen sich durch eine geringe Menge an Niederschlag aus, die über den Jahresverlauf hinweg variiert.",
+      "correction": "Einige Klimazonen wie die trockenen oder ariden zeichnen sich durch eine geringe Menge an Niederschlag aus, die im Jahresverlauf variiert.",
+      "description": "The phrase 'über den Jahresverlauf hinweg variiert' is unnecessarily wordy and less idiomatic in German. 'Im Jahresverlauf variiert' is the standard and more natural expression. This improves clarity and linguistic precision.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Die Temperatur in Klimazonen variiert nicht nur aufgrund der Breite, sondern auch durch andere Faktoren wie Höhe, Entfernung von Wasserflächen oder geographische Merkmale.",
+      "correction": "Die Temperatur in Klimazonen variiert nicht nur aufgrund der Breite, sondern auch aufgrund anderer Faktoren wie Höhe, Entfernung von Wasserflächen oder geographischer Merkmale.",
+      "description": "The phrase 'auch durch andere Faktoren' is grammatically incorrect; the correct preposition is 'aufgrund' to match the earlier part of the sentence. Additionally, 'geographische Merkmale' should be in the genitive case: 'geographischer Merkmale'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "In höheren Lagen über dem Meeresspiegel sinkt die Temperatur tendenziell, ein Phänomen, das als Temperaturgradient bezeichnet wird.",
+      "correction": "In höheren Lagen über dem Meeresspiegel sinkt die Temperatur tendenziell – ein Phänomen, das als Temperaturgradient bezeichnet wird.",
+      "description": "The comma before 'ein Phänomen' should be replaced with an em dash or a semicolon to properly separate the main clause from the explanatory clause, improving sentence structure and readability.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Strömungen wie der Golfstrom spielen eine entscheidende Rolle bei der Moderation der Temperaturen in Küstengebieten.",
+      "correction": "Strömungen wie der Golfstrom spielen eine entscheidende Rolle bei der Regulierung der Temperaturen in Küstengebieten.",
+      "description": "The term 'Moderation der Temperaturen' is an anglicism and not idiomatic in German scientific or educational contexts. 'Regulierung der Temperaturen' is the standard and natural term in German climatology.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Der Einfluss von solchen Meeresströmungen auf das Wetter und Klima lässt sich anhand des Temperaturunterschieds entlang der Küste erkennen.",
+      "correction": "Der Einfluss solcher Meeresströmungen auf Wetter und Klima lässt sich anhand des Temperaturunterschieds entlang der Küste erkennen.",
+      "description": "The phrase 'von solchen Meeresströmungen' is incorrect; the genitive 'solcher Meeresströmungen' is required. Also, 'auf das Wetter und Klima' should be 'auf Wetter und Klima' for parallel structure and conciseness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Das Vorhandensein von Wasserflächen wie Ozeanen oder großen Seen kann die Niederschlagsmuster eines Gebiets beeinflussen.",
+      "correction": "Das Vorhandensein von Wasserflächen wie Ozeanen oder großen Seen kann das Niederschlagsmuster eines Gebiets beeinflussen.",
+      "description": "The plural 'Niederschlagsmuster' is less idiomatic in this context; the singular 'Niederschlagsmuster' is preferred when referring to the general pattern for a region.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Dieses Phänomen ist nicht auf heiße Sommer oder kalte Winter beschränkt, sondern beeinflusst das gesamte Klima signifikant durch die Zusatzversorgung von Feuchtigkeit.",
+      "correction": "Dieses Phänomen ist nicht auf heiße Sommer oder kalte Winter beschränkt, sondern beeinflusst das gesamte Klima signifikant durch die zusätzliche Versorgung mit Feuchtigkeit.",
+      "description": "The phrase 'Zusatzversorgung von Feuchtigkeit' is awkward and not standard German. 'Zusätzliche Versorgung mit Feuchtigkeit' is the correct and natural expression.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Das ist richtig, weil die Tropische Klimazone durch ihre hohe Luftfeuchtigkeit und reichlichen Niederschläge gekennzeichnet ist, was ein wichtiger Faktor für ihre charakteristischen heißen Temperaturen ist.",
+      "correction": "Das ist richtig, weil die tropische Klimazone durch ihre hohe Luftfeuchtigkeit und reichlichen Niederschlägen gekennzeichnet ist, was ein wichtiger Faktor für ihre charakteristisch heißen Temperaturen ist.",
+      "description": "The noun 'tropische Klimazone' should not be capitalized as an adjective. 'Reichlichen Niederschlägen' requires dative case after 'durch', and 'charakteristisch heißen Temperaturen' is the correct adjective-noun combination.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Climate_Zones.slm.md",
+    "language": "German",
+    "timestamp": "2025-10-03T16:07:19.377554",
+    "model": "Azure OpenAI o3-mini",
+    "label": "slm",
+    "label_normalized": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 8.7,
+    "classification": "PROFESSIONAL",
+    "total_issues": 8,
+    "total_penalty": 1.3,
+    "issue_breakdown": {
+      "linguistic": 7,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.1,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

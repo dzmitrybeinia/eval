@@ -1,0 +1,52 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Erdnussbutter auf eine Scheibe streichen.",
+      "correction": "Butter auf eine Scheibe streichen.",
+      "description": "The use of 'Erdnussbutter' (peanut butter) in the example for making a sandwich is not culturally typical in German-speaking countries, where 'Butterbrot' traditionally refers to bread with butter. This may confuse learners or feel unnatural. Replacing 'Erdnussbutter' with 'Butter' aligns the example with local expectations and improves cultural appropriateness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Ein Butterbrot machen.",
+      "correction": "Ein Butterbrot zubereiten.",
+      "description": "The verb 'machen' is acceptable in colloquial German, but 'zubereiten' is more precise and natural in educational contexts when referring to preparing food. This correction improves lexical precision and aligns with standard usage.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "nimm einen Regenschirm.",
+      "correction": "Nimm einen Regenschirm.",
+      "description": "The imperative sentence should begin with a capital letter ('Nimm'), as per German orthographic rules. This correction ensures proper noun capitalization and sentence structure.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Coding_Basics_1.llm.md",
+    "language": "German",
+    "timestamp": "2025-10-03T15:55:40.157822",
+    "model": "Azure OpenAI o3-mini",
+    "label": "llm",
+    "label_normalized": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

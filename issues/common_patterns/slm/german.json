@@ -1,0 +1,295 @@
+{
+  "metadata": {
+    "label": "slm",
+    "label_normalized": "slm",
+    "label_key": "slm",
+    "language": "german",
+    "generated_at": "2025-10-03T16:11:45.194732"
+  },
+  "top_error_patterns": [
+    {
+      "pattern_name": "Gender and case agreement errors",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "HIGH",
+      "frequency": "common",
+      "frequency_count": 4,
+      "description": "Frequent mistakes in gender and case agreement, such as incorrect adjective endings, possessive pronouns, and relative pronouns, which affect sentence accuracy and clarity.",
+      "examples": [
+        {
+          "wrong": "Ihr dicker Fell",
+          "correct": "Ihr dickes Fell",
+          "context": "Adjective-noun agreement for neuter nouns."
+        },
+        {
+          "wrong": "Sein Führung",
+          "correct": "Seine Führung",
+          "context": "Possessive pronoun agreement with feminine nouns."
+        },
+        {
+          "wrong": "DNA-Synthese findet in der Zellkern statt.",
+          "correct": "DNA-Synthese findet im Zellkern statt.",
+          "context": "Preposition and article agreement for masculine nouns."
+        },
+        {
+          "wrong": "Datenbanken ... der zur Speicherung ... genutzt wird.",
+          "correct": "Datenbanken ... die zur Speicherung ... genutzt werden.",
+          "context": "Relative pronoun agreement with plural nouns."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Misspelling of 'hauptsächlich'",
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "impact_level": "HIGH",
+      "frequency": "common",
+      "frequency_count": 3,
+      "description": "Frequent misspellings of 'hauptsächlich' (mainly/primarily) as 'hauptseteig', 'hauesteig', or 'hauptseteled', resulting in non-existent words that disrupt comprehension.",
+      "examples": [
+        {
+          "wrong": "hauptseteig",
+          "correct": "hauptsächlich",
+          "context": "Used to describe primary functions or roles."
+        },
+        {
+          "wrong": "hauesteig",
+          "correct": "hauptsächlich",
+          "context": "Appears in explanations of main processes."
+        },
+        {
+          "wrong": "hauptseteled",
+          "correct": "hauptsächlich",
+          "context": "In descriptions of ATP production."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Lexical confusion in scientific terminology",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "HIGH",
+      "frequency": "common",
+      "frequency_count": 3,
+      "description": "Incorrect word choices in scientific contexts, such as confusing 'Verhalten' (behavior) with 'Körperbau' (body structure), or using 'erfinden' (invent) instead of 'finden' (find), leading to misleading or inaccurate information.",
+      "examples": [
+        {
+          "wrong": "Physikalische Anpassungen beinhalten immer Veränderungen im Verhalten von Tieren.",
+          "correct": "Physikalische Anpassungen beinhalten immer Veränderungen am Körperbau von Tieren.",
+          "context": "Distinguishing physical vs. behavioral adaptations."
+        },
+        {
+          "wrong": "Variablen ... die Unbekannten zu erfinden.",
+          "correct": "Variablen ... die Unbekannten zu finden.",
+          "context": "Explaining the role of variables in equations."
+        },
+        {
+          "wrong": "Mitochondrien sind die Zelle, die ...",
+          "correct": "Mitochondrien sind die Zellbestandteile, die ...",
+          "context": "Describing cell components and their functions."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Lexical imprecision in technical and scientific terminology",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "MEDIUM",
+      "frequency": "very_common",
+      "frequency_count": 7,
+      "description": "Recurring use of imprecise, awkward, or misleading terms, especially in technical or scientific contexts. This includes incorrect species names, literal translations, and verbs that do not fit the technical meaning, which can confuse learners and reduce clarity.",
+      "examples": [
+        {
+          "wrong": "Kaktuszaunkönigin",
+          "correct": "Kaktuszaunkönig",
+          "context": "Incorrect species name in biology content"
+        },
+        {
+          "wrong": "eine Funktion von Algorithmen",
+          "correct": "Aufgabe von Algorithmen",
+          "context": "Literal translation in technical explanation"
+        },
+        {
+          "wrong": "Variablen können mehr als einen Wert haben.",
+          "correct": "Variablen können im Laufe eines Programms verschiedene Werte annehmen.",
+          "context": "Misleading statement about programming variables"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect case and preposition usage",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 4,
+      "description": "Frequent errors in case assignment (genitive, dative) and preposition selection, leading to unnatural or incorrect sentence structure. This affects clarity and grammatical correctness.",
+      "examples": [
+        {
+          "wrong": "von solchen Meeresströmungen",
+          "correct": "solcher Meeresströmungen",
+          "context": "Genitive case required after 'Einfluss'"
+        },
+        {
+          "wrong": "auch durch andere Faktoren",
+          "correct": "auch aufgrund anderer Faktoren",
+          "context": "Preposition mismatch in comparative sentence"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Awkward or redundant phrasing",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 2,
+      "description": "Use of redundant or awkward phrases that do not reflect natural German usage, reducing clarity and professional tone.",
+      "examples": [
+        {
+          "wrong": "das gemeinte Gesagte",
+          "correct": "das Gemeinte",
+          "context": "Redundant phrasing in explanation"
+        },
+        {
+          "wrong": "Zusatzversorgung von Feuchtigkeit",
+          "correct": "zusätzliche Versorgung mit Feuchtigkeit",
+          "context": "Awkward noun phrase in climate description"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Use of non-idiomatic anglicisms in scientific terminology",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "English-derived terms or phrasing are used instead of established German scientific terminology, leading to unnatural or unclear expressions.",
+      "examples": [
+        {
+          "wrong": "Moderation der Temperaturen",
+          "correct": "Regulierung der Temperaturen",
+          "context": "Describing the effect of ocean currents on coastal temperatures in educational content"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Unidiomatic or Wordy Phrasing",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "LOW",
+      "frequency": "common",
+      "frequency_count": 2,
+      "description": "Use of unnecessarily wordy or less idiomatic expressions that can be replaced with more natural German phrasing for clarity and conciseness.",
+      "examples": [
+        {
+          "wrong": "über den Jahresverlauf hinweg variiert",
+          "correct": "im Jahresverlauf variiert",
+          "context": "Describing variation over time in climate contexts"
+        },
+        {
+          "wrong": "zu einem gemeinsamen Verständnis führen",
+          "correct": "zu gegenseitigem Verständnis führen",
+          "context": "Describing mutual understanding in conflict resolution"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect Clause Separation",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Improper use of commas to separate main and explanatory clauses, where an em dash or semicolon would improve readability and sentence structure.",
+      "examples": [
+        {
+          "wrong": "..., ein Phänomen, das als Temperaturgradient bezeichnet wird.",
+          "correct": "– ein Phänomen, das als Temperaturgradient bezeichnet wird.",
+          "context": "Explanatory clause following a main statement"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Inappropriate Pluralization",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Use of plural forms where singular is idiomatic and contextually appropriate, leading to less natural German expressions.",
+      "examples": [
+        {
+          "wrong": "die Niederschlagsmuster eines Gebiets",
+          "correct": "das Niederschlagsmuster eines Gebiets",
+          "context": "Referring to general patterns in a region"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Lexical Choice with Negative Connotation",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Selection of words with unintended negative connotations, where a more neutral term is preferred for educational clarity.",
+      "examples": [
+        {
+          "wrong": "Daten ... manipulieren",
+          "correct": "Daten ... verarbeiten",
+          "context": "Describing algorithmic data handling in educational contexts"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Unnatural tense usage for general statements",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "LOW",
+      "frequency": "common",
+      "frequency_count": 1,
+      "description": "Use of conditional or modal forms (e.g., 'würden') instead of present tense for general truths, which reduces clarity and naturalness in educational German.",
+      "examples": [
+        {
+          "wrong": "Gleichungen hingegen würden das Gleichheitszeichen enthalten, um eine Lösung zu finden.",
+          "correct": "Gleichungen hingegen enthalten das Gleichheitszeichen, um eine Lösung zu finden.",
+          "context": "General explanation of mathematical concepts"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Unnatural phrasing affecting clarity",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "LOW",
+      "frequency": "common",
+      "frequency_count": 1,
+      "description": "Use of awkward or literal translations that result in unnatural phrasing, making explanations less clear for German-speaking learners.",
+      "examples": [
+        {
+          "wrong": "solange sie zu dem zugewiesenen Wert passen",
+          "correct": "abhängig vom jeweils zugewiesenen Wert",
+          "context": "Explanation of variable assignment in Python"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Use of English technical terms instead of standard German terminology",
+      "category": "localization",
+      "subcategory": "Terminology",
+      "impact_level": "LOW",
+      "frequency": "common",
+      "frequency_count": 1,
+      "description": "Retention of English terms (e.g., 'Dictionaries') where established German equivalents exist, reducing localization quality and learner familiarity.",
+      "examples": [
+        {
+          "wrong": "was als 'Listen' oder 'Dictionaries' bezeichnet wird",
+          "correct": "was als 'Listen' oder 'Wörterbücher' bezeichnet wird",
+          "context": "Naming Python data types in educational content"
+        }
+      ]
+    }
+  ]
+}

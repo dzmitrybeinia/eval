@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "label": "slm",
+    "label_normalized": "slm",
+    "label_key": "slm",
+    "language": "english",
+    "generated_at": "2025-10-03T16:10:08.750617",
+    "source_files": [
+      "evaluation_20251003_160228.json",
+      "evaluation_20251003_160231.json",
+      "evaluation_20251003_160232.json",
+      "evaluation_20251003_160233.json",
+      "evaluation_20251003_160237.json",
+      "evaluation_20251003_160238.json"
+    ],
+    "issue_counts": {
+      "linguistic": 0,
+      "localization": 0
+    }
+  },
+  "issues": {
+    "linguistic": [],
+    "localization": []
+  }
+}

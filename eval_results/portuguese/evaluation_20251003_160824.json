@@ -1,0 +1,68 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "como pode ser observado em situações comuns, como no ambiente escolar.",
+      "correction": "como pode ser observado em situações comuns, como no ambiente escolar.",
+      "description": "Although the sentence is grammatically correct, the repetition of 'como' in close proximity can lead to awkwardness and reduce clarity. For improved linguistic precision and style, consider rephrasing to avoid redundancy, such as: 'como pode ser observado em situações comuns no ambiente escolar.' This change streamlines the sentence and enhances readability.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "As habilidades de comunicação, como a escuta ativa e a empatia, são fundamentais para entender as necessidades e perspectivas dos outros, facilitando uma resolução harmoniosa dos conflitos.",
+      "correction": "As habilidades de comunicação, como a escuta ativa e a empatia, são fundamentais para entender as necessidades e perspectivas dos outros, facilitando uma resolução harmoniosa dos conflitos.",
+      "description": "The phrase 'resolução harmoniosa dos conflitos' is linguistically correct but may sound overly formal and less natural in the context of educational content for younger audiences. A more localized and natural expression would be 'solução pacífica dos conflitos,' which is commonly used in Brazilian Portuguese educational settings and better matches the tone expected in school environments.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Quando as pessoas permanecem calmas, elas podem ouvir melhor e entender melhor as perspectivas dos outros.",
+      "correction": "Quando as pessoas permanecem calmas, podem ouvir melhor e entender melhor as perspectivas dos outros.",
+      "description": "The use of the pronoun 'elas' is unnecessary and redundant after the subject 'as pessoas.' Omitting 'elas' improves sentence flow and aligns with standard Portuguese grammar, where the subject is already clear.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Ao abrir espaço para a comunicação, as partes envolvidas podem entender melhor a perspectiva um do outro, potencialmente levando a uma solução que respeite as necessidades de todos os envolvidos.",
+      "correction": "Ao abrir espaço para a comunicação, as partes envolvidas podem entender melhor a perspectiva uma da outra, potencialmente levando a uma solução que respeite as necessidades de todos os envolvidos.",
+      "description": "The phrase 'a perspectiva um do outro' is a literal translation from English ('each other's perspective') and is not idiomatic in Portuguese. The correct and natural expression is 'a perspectiva uma da outra,' which better reflects standard usage and avoids anglicism.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Ao adotar estratégias para gerenciar diferenças, os participantes frequentemente se sentem mais compreendidos e valorizados, o que promove um ambiente de trabalho mais cooperativo.",
+      "correction": "Ao adotar estratégias para gerenciar diferenças, os participantes frequentemente se sentem mais compreendidos e valorizados, o que promove um ambiente mais cooperativo.",
+      "description": "The use of 'ambiente de trabalho' may not be appropriate in the context of school projects or educational settings, as it implies a professional workplace. For better localization and cultural appropriateness, 'ambiente mais cooperativo' is recommended, which is more inclusive and suitable for both school and work contexts.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Conflict_Resolution.slm.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T16:08:24.913421",
+    "model": "Azure OpenAI o3-mini",
+    "label": "slm",
+    "label_normalized": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.3,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 0.7,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.5,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

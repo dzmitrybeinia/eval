@@ -1,0 +1,231 @@
+{
+  "metadata": {
+    "label": "slm",
+    "label_normalized": "slm",
+    "label_key": "slm",
+    "language": "french",
+    "generated_at": "2025-10-03T16:10:08.774091",
+    "source_files": [
+      "evaluation_20251003_160455.json",
+      "evaluation_20251003_160458.json",
+      "evaluation_20251003_160502.json",
+      "evaluation_20251003_160506.json",
+      "evaluation_20251003_160509.json",
+      "evaluation_20251003_160511.json",
+      "evaluation_20251003_160514.json",
+      "evaluation_20251003_160517.json",
+      "evaluation_20251003_160524.json",
+      "evaluation_20251003_160525.json"
+    ],
+    "issue_counts": {
+      "linguistic": 17,
+      "localization": 8
+    }
+  },
+  "issues": {
+    "linguistic": [
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Les Égyptiens ont appris à exploiter les crues annuelles du Nil, qui apportaient des alluvions riche en nutriments à leurs champs.",
+        "correction": "Les Égyptiens ont appris à exploiter les crues annuelles du Nil, qui apportaient des alluvions riches en nutriments à leurs champs.",
+        "description": "The adjective 'riche' should agree in number with 'alluvions', which is plural. The correct form is 'riches'. This error affects grammatical agreement and clarity.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "maximiser leur chances de survie",
+        "correction": "maximiser leurs chances de survie",
+        "description": "The possessive adjective 'leur' should agree in number with 'chances', which is plural. The correct form is 'leurs chances'. This is a grammatical error affecting agreement between the possessive and the noun.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "comme le comportement de hibernation des chauves-souris",
+        "correction": "comme le comportement d'hibernation des chauves-souris",
+        "description": "The contraction 'de' + 'hibernation' should be 'd'hibernation' due to the vowel at the beginning of 'hibernation'. This is a mandatory contraction in French grammar and its omission is a grammatical error.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "pour naviguer dans les arbres",
+        "correction": "pour se déplacer dans les arbres",
+        "description": "While 'naviguer' is not incorrect, it is not the most natural verb choice for describing how rodents move in trees. 'Se déplacer' is more idiomatic and precise in this context, improving lexical precision and naturalness.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Dans la résolution des équations simples, l'opération inverse à celle effectuée sur la variable doit être appliquée des deux côtés pour isoler la variable. Dans l'exemple donné, il faut soustraire 4 des deux côtés pour trouver la valeur de 'x', ce qui donne `x = 6`. L'opération d'addition ne mène pas à la solution dans ce contexte.",
+        "correction": "Dans la résolution des équations simples, l'opération inverse de celle effectuée sur la variable doit être appliquée des deux côtés pour isoler la variable. Dans l'exemple donné, il faut soustraire 4 des deux côtés pour trouver la valeur de 'x', ce qui donne `x = 6`. L'opération d'addition ne mène pas à la solution dans ce contexte.",
+        "description": "The phrase 'inverse à celle effectuée' is grammatically incorrect in French; the correct preposition is 'de' as in 'l'opération inverse de celle effectuée'. This correction improves grammatical accuracy and clarity.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Les ribosomes travaillent en collant les acides aminés pour former des protéines, ce qui est essentiel pour la croissance, la réparation et les réponses immunitaires chez les organismes.",
+        "correction": "Les ribosomes assemblent les acides aminés pour former des protéines, ce qui est essentiel pour la croissance, la réparation et les réponses immunitaires chez les organismes.",
+        "description": "The verb 'collant' is not appropriate in this scientific context; 'assembler' is the correct term for describing how ribosomes link amino acids. This is a lexical and grammatical issue affecting precision and clarity.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Marchi.e.",
+        "correction": "Marchiée",
+        "description": "The original text 'Marchi.e.' contains an incorrect use of punctuation and is not a valid French word or name. It appears to be a typographical error, possibly intended to be 'Marchiée' or another proper noun. This error affects comprehension and the credibility of the content. Correction is required to ensure proper spelling and clarity.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Marchi.e.e.",
+        "correction": "Marchiée",
+        "description": "The text 'Marchi.e.e.' is not a valid French word or name and contains multiple periods, which is incorrect orthographically. This error disrupts the flow and understanding of the sentence. It should be corrected to a proper noun or removed if not relevant.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "l'égalité accréditée par la loi",
+        "correction": "l'égalité garantie par la loi",
+        "description": "The phrase 'l'égalité accréditée par la loi' is a lexical error. 'Accréditée' is not idiomatic in this context; the standard French expression is 'l'égalité garantie par la loi' or 'l'égalité reconnue par la loi'. The use of 'accréditée' may confuse learners and does not accurately convey the intended meaning of legal equality.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Les courants océaniques sont essentiels dans la formation des climats régionaux.",
+        "correction": "Les courants océaniques jouent un rôle essentiel dans la formation des climats régionaux.",
+        "description": "The original sentence uses 'sont essentiels dans la formation', which is less idiomatic in French. The corrected version 'jouent un rôle essentiel dans la formation' is more natural and precise, improving lexical choice and overall clarity.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "qui mènent à des climats plus secs, comme dans le désert d'Atacama.",
+        "correction": "ce qui mène à des climats plus secs, comme dans le désert d'Atacama.",
+        "description": "The relative pronoun 'qui' incorrectly refers to 'conditions plus fraîches', but the intended subject is the overall situation described previously. Using 'ce qui mène' correctly links the cause and effect, improving grammatical accuracy.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Imaginez si vous devaiez écrire une salutation pour un groupe de cinq amis, une boucle pourrait faire ce travail rapidement pour vous.",
+        "correction": "Imaginez si vous deviez écrire une salutation pour un groupe de cinq amis, une boucle pourrait faire ce travail rapidement pour vous.",
+        "description": "The word 'devaiez' is a spelling error; the correct form is 'deviez' (second person plural of 'devoir' in the imparfait). This error affects the clarity and professionalism of the feedback. No localization issues are present in this text.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "En Python, vous devez toujours déclarer le type de données d'une variable.",
+        "correction": "En Python, vous n'avez pas besoin de déclarer le type de données d'une variable.",
+        "description": "The original statement is linguistically correct but semantically inaccurate in the context of Python programming. The phrase 'vous devez toujours déclarer le type de données d'une variable' incorrectly implies that explicit type declaration is required in Python, which is not the case. The correction provides a more accurate statement for educational clarity.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "En Python, les entiers (`int`) sont utilisés pour stocker des nombres entiers, pas des nombres décimaux. Les nombres décimaux sont représentés par des flottants (`float`). La variable x a été déclarée avec une valeur entière (10), ce qui est correct pour un entier, mais si vous voulez stocker un nombre décimal, vous devriez utiliser `float`.",
+        "correction": "En Python, les entiers (`int`) servent à stocker des nombres entiers, tandis que les nombres décimaux sont représentés par des flottants (`float`). La variable x a été initialisée avec une valeur entière (10), ce qui convient pour un entier. Si vous souhaitez stocker un nombre décimal, il faut utiliser le type `float`.",
+        "description": "The original feedback contains minor lexical inaccuracies and slightly awkward phrasing. 'Déclarée avec une valeur entière' is less natural than 'initialisée avec une valeur entière' in French programming context. The correction improves lexical precision and naturalness, enhancing clarity for learners.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Dans Python, la fonction `float()` est spécifiquement conçue pour convertir des chaînes ou des nombres d'autres types en nombres à virgule flottante, ce qui est essentiel pour effectuer des calculs avec précision.",
+        "correction": "En Python, la fonction `float()` est conçue pour convertir des chaînes ou des nombres d'autres types en nombres à virgule flottante, ce qui est essentiel pour effectuer des calculs précis.",
+        "description": "The original feedback uses 'Dans Python' instead of the grammatically correct 'En Python'. Additionally, 'des calculs avec précision' is less idiomatic than 'des calculs précis'. The correction addresses these grammatical and lexical issues for improved clarity and correctness.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "En Python, les variables sont polyvalentes et peuvent stocker différents types de données, comme des entiers, des flottants, des chaînes de caractères et des booléens, pas seulement des données numériques.",
+        "correction": "En Python, les variables sont polyvalentes et peuvent stocker différents types de données, tels que des entiers, des flottants, des chaînes de caractères ou des booléens, et pas seulement des données numériques.",
+        "description": "The original feedback uses 'comme' for listing examples, but 'tels que' is more precise in formal educational French. Also, 'et pas seulement' is more natural than 'pas seulement' at the end of the sentence. The correction improves lexical precision and naturalness.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "En attendant, montrer de l'empathie et une volonté de comprendre la perspective de l'autre peut créer un climat plus propice à une discussion constructive.",
+        "correction": "En écoutant, montrer de l'empathie et une volonté de comprendre la perspective de l'autre peut créer un climat plus propice à une discussion constructive.",
+        "description": "The phrase 'En attendant' is a lexical error in this context. It literally means 'while waiting', which does not fit the intended meaning of 'while listening' or 'by listening'. The correct expression should be 'En écoutant', which accurately conveys the idea of listening attentively. This correction improves both the linguistic accuracy and the clarity of the feedback.",
+        "severity": "HIGH"
+      }
+    ],
+    "localization": [
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "En algèbre, un symbole comme `x` ou `y` peut représenter n’importe quel nombre.",
+        "correction": "En algèbre, un symbole comme `x` ou `y` peut représenter une valeur inconnue ou variable.",
+        "description": "The phrase 'n’importe quel nombre' is not fully precise in the context of algebra, as variables typically represent unknown or variable values, not just any number. For educational clarity and mathematical accuracy, it is better to specify 'une valeur inconnue ou variable' to avoid confusion between variables and constants.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "L'énoncé est inexact car la formule originale indique que chaque collation coûte 2 euros, ce qui fait que la formule correcte est `Coût total = 2x`. La vérification des informations fournies est cruciale pour comprendre comment les variables représentent les quantités réelles dans les équations.",
+        "correction": "L'énoncé est inexact car la formule correcte est `Coût total = 2x`, chaque collation coûtant 2 euros. Il est important de vérifier les informations pour comprendre comment les variables représentent les quantités réelles dans les équations.",
+        "description": "The feedback references a 'formule originale' which is not present in the current lesson context, potentially confusing learners. The correction clarifies the statement by directly referencing the correct formula and price, improving educational clarity and localization appropriateness.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "La digestion des aliments est un processus qui se produit dans l'intestin grêle chez les humains et les animaux, tandis que dans les plantes, elle se produit dans des structures comme les glandes.",
+        "correction": "La digestion des aliments est un processus qui se produit principalement dans l'intestin grêle chez les humains et les animaux. Chez les plantes, il s'agit plutôt de la décomposition et de l'absorption des nutriments, qui ne se fait pas dans des glandes comme chez les animaux.",
+        "description": "The original sentence inaccurately describes plant digestion as occurring in 'glandes', which is misleading and not scientifically accurate. Plants do not have digestive glands; nutrient breakdown and absorption occur differently. This is a cultural and scientific localization issue, as it may confuse learners about plant biology. Correction clarifies the distinction and avoids anthropomorphizing plant processes.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Les vacuoles dans les cellules animales peuvent varier considérablement en taille et fonction selon le type de tissu.",
+        "correction": "Les vacuoles des cellules animales peuvent varier considérablement en taille et en fonction selon le type de tissu.",
+        "description": "The phrase 'taille et fonction' should use 'en taille et en fonction' for parallel structure and naturalness in French. This is a terminology and style issue affecting the natural flow of the sentence.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "Marchiée",
+        "correction": "",
+        "description": "The reference to 'Marchiée' is not recognized as a historical event in the context of the Civil Rights Movement. This creates confusion for learners and is culturally inappropriate, as it introduces a non-existent or irrelevant event. The content should reference actual historical events to maintain educational accuracy and cultural relevance.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "le Gulf Stream chauffe les côtes est-américaines et européennes",
+        "correction": "le Gulf Stream réchauffe les côtes de l'est de l'Amérique du Nord et de l'Europe",
+        "description": "The term 'chauffe' is less commonly used in scientific or educational French when referring to ocean currents; 'réchauffe' is more appropriate. Additionally, 'côtes est-américaines' is ambiguous and not standard; specifying 'côtes de l'est de l'Amérique du Nord et de l'Europe' provides clearer, more localized terminology.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Dans le domaine de la programmation, les boucles sont des outils puissants qui nous permettent de répéter des opérations. Cela aide à organiser le code de manière efficiente et évite des répétitions inutiles.",
+        "correction": "Dans le domaine de la programmation, les boucles sont des outils puissants qui permettent de répéter des opérations. Cela aide à organiser le code de manière efficace et évite des répétitions inutiles.",
+        "description": "The use of 'nous permettent' introduces an unnecessary first-person plural perspective, which is less formal and less neutral for educational content. Replacing 'nous permettent' with 'permettent' maintains a more objective and professional tone. Additionally, 'de manière efficiente' is less commonly used in French educational contexts than 'de manière efficace', which is more natural and widely accepted.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Cette déclaration est exacte. Dans Python, la fonction 'input' est effectivement utilisée pour interagir avec l'utilisateur en demandant des données. Lorsque le programme s'exécute, il est arrêté pendant que l'utilisateur fournit les informations requises, ce qui permet d'ajouter une fonctionnalité interactive à votre programme.",
+        "correction": "Cette affirmation est correcte. En Python, la fonction 'input' permet d'interagir avec l'utilisateur en lui demandant des données. Lorsque le programme s'exécute, il attend que l'utilisateur saisisse les informations requises, ce qui ajoute une dimension interactive à votre programme.",
+        "description": "The original feedback uses 'déclaration' instead of the more contextually appropriate 'affirmation' for a true/false statement. The phrase 'le programme est arrêté' is less idiomatic than 'le programme attend'. The correction improves style and naturalness, making the explanation more suitable for French learners.",
+        "severity": "MINOR"
+      }
+    ]
+  }
+}

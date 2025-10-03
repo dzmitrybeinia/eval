@@ -1,0 +1,400 @@
+{
+  "metadata": {
+    "label": "llm",
+    "label_normalized": "llm",
+    "label_key": "llm",
+    "language": "polish",
+    "generated_at": "2025-10-03T15:58:34.234550"
+  },
+  "top_error_patterns": [
+    {
+      "pattern_name": "Incorrect mathematical terminology",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "HIGH",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Use of non-standard or incorrect mathematical terms that do not exist in Polish, leading to confusion and reduced clarity for learners.",
+      "examples": [
+        {
+          "wrong": "Równania jednoruchowe",
+          "correct": "Równania jednomianowe",
+          "context": "Quiz item titles or instructions using non-existent terminology for mathematical concepts."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Unnatural or Non-idiomatic Phrasing",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "MEDIUM",
+      "frequency": "very_common",
+      "frequency_count": 6,
+      "description": "Frequent use of phrases that are grammatically correct but sound unnatural or less idiomatic in Polish educational context. Corrections improve flow, clarity, and professionalism.",
+      "examples": [
+        {
+          "wrong": "kwitła dzięki korzystnemu położeniu geograficznemu",
+          "correct": "rozkwitła dzięki korzystnemu położeniu geograficznemu",
+          "context": "Describing the flourishing of a civilization"
+        },
+        {
+          "wrong": "Ich sztuka była precyzyjna, symetryczna i kolorowa.",
+          "correct": "Ich sztuka cechowała się precyzją, symetrią i bogactwem kolorów.",
+          "context": "Describing characteristics of art"
+        },
+        {
+          "wrong": "Ptaki migrujące do cieplejszych klimatów zimą zapewniają sobie przetrwanie.",
+          "correct": "Ptaki migrujące do cieplejszych krajów zimą zwiększają swoje szanse na przetrwanie.",
+          "context": "Describing bird migration"
+        },
+        {
+          "wrong": "W następnej lekcji nauczymy się używać instrukcji warunkowych i pętli...",
+          "correct": "W kolejnej lekcji nauczymy się używać instrukcji warunkowych i pętli...",
+          "context": "Sequencing lessons"
+        },
+        {
+          "wrong": "Ten krem przeciwsłoneczny jest najlepszą ochroną.",
+          "correct": "Ten krem przeciwsłoneczny zapewnia najlepszą ochronę.",
+          "context": "Describing product benefits"
+        },
+        {
+          "wrong": "Ten napój energetyczny zwiększa produktywność!",
+          "correct": "Ten napój energetyczny pomaga zwiększyć produktywność.",
+          "context": "Advertising claims in educational content"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Use of English Programming Terms Instead of Polish Equivalents",
+      "category": "localization",
+      "subcategory": "Terminology",
+      "impact_level": "MEDIUM",
+      "frequency": "very_common",
+      "frequency_count": 4,
+      "description": "English data type terms such as 'Integer', 'Float', 'String', and 'Boolean' are used instead of their standard Polish equivalents, which can hinder comprehension and reduce educational clarity for Polish learners.",
+      "examples": [
+        {
+          "wrong": "Integer",
+          "correct": "Liczba całkowita",
+          "context": "Programming data type label in educational content"
+        },
+        {
+          "wrong": "Float",
+          "correct": "Liczba dziesiętna",
+          "context": "Programming data type label in educational content"
+        },
+        {
+          "wrong": "String",
+          "correct": "Tekst",
+          "context": "Programming data type label in educational content"
+        },
+        {
+          "wrong": "Boolean",
+          "correct": "Wartość logiczna",
+          "context": "Programming data type label in educational content"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Lexical Inaccuracy in Scientific and Technical Terminology",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 3,
+      "description": "Non-standard or literal translations of scientific and technical terms are used instead of established Polish terminology, leading to confusion and reduced educational clarity.",
+      "examples": [
+        {
+          "wrong": "ćmy pieprzowe",
+          "correct": "barczatki",
+          "context": "Biology content; incorrect species name for 'peppered moths'."
+        },
+        {
+          "wrong": "retikulum endoplazmatyczne",
+          "correct": "siateczka śródplazmatyczna",
+          "context": "Biology content; non-standard term for 'endoplasmic reticulum'."
+        },
+        {
+          "wrong": "etykiety",
+          "correct": "nazwy",
+          "context": "Programming content; incorrect term for 'variables'."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Grammatical Fragments and Incorrect Verb Forms",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 3,
+      "description": "Sentences are presented as fragments or use incorrect verb forms, resulting in incomplete or ungrammatical statements that hinder comprehension.",
+      "examples": [
+        {
+          "wrong": "Długie szyje żyraf, umożliwiające dostęp do wysokich drzew na sawannie.",
+          "correct": "Długie szyje żyraf umożliwiają dostęp do wysokich drzew na sawannie.",
+          "context": "Biology content; sentence fragment lacking main verb."
+        },
+        {
+          "wrong": "Zakończenie legalnej segregacji i likwidacja praw Jima Crowa.",
+          "correct": "Zakończenie legalnej segregacji i likwidacja praw Jima Crow.",
+          "context": "History content; incorrect genitive ending on foreign term."
+        },
+        {
+          "wrong": "Wydrukuj",
+          "correct": "Wyświetl",
+          "context": "Programming content; verb does not match context of displaying output."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Terminology Inconsistency",
+      "category": "localization",
+      "subcategory": "Terminology",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 3,
+      "description": "Use of terms or collocations that are understandable but not standard in Polish educational or academic contexts. Corrections ensure consistency and professional terminology.",
+      "examples": [
+        {
+          "wrong": "Hieroglify egipskie",
+          "correct": "Egipskie hieroglify",
+          "context": "Naming ancient Egyptian writing"
+        },
+        {
+          "wrong": "Konsumentem informacji",
+          "correct": "Odbiorcą informacji",
+          "context": "Describing information recipients"
+        },
+        {
+          "wrong": "Boolean (`bool`) : Wartości logiczne Prawda/Fałsz",
+          "correct": "Boolean (`bool`): Wartości logiczne: prawda/fałsz",
+          "context": "Describing logical values in programming"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Untranslated or Poorly Localized Historical and Organizational Terms",
+      "category": "localization",
+      "subcategory": "Terminology",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 2,
+      "description": "Names of historical events and organizations are left in English or not properly localized, which can reduce clarity and accessibility for Polish learners.",
+      "examples": [
+        {
+          "wrong": "Freedom Rides",
+          "correct": "Przejazdy wolności",
+          "context": "Reference to a historical event in educational content"
+        },
+        {
+          "wrong": "Student Nonviolent Coordinating Committee (SNCC)",
+          "correct": "Komitet Koordynacyjny Studentów na rzecz Niestosowania Przemocy (SNCC)",
+          "context": "Reference to a historical organization in educational content"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Lexical Redundancy and Tautology",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Repetition of the same word or concept within a sentence reduces clarity and precision, especially in definitions.",
+      "examples": [
+        {
+          "wrong": "Uprzedzenie to preferencja lub uprzedzenie wpływające na sposób prezentacji informacji.",
+          "correct": "Uprzedzenie to preferencja lub stronniczość wpływająca na sposób prezentacji informacji.",
+          "context": "Definition of bias; tautological use of 'uprzedzenie'."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Non-standard Gender Agreement in Educational Contexts",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Use of colloquial or ambiguous verb forms for gender agreement in educational materials may confuse learners about standard Polish usage.",
+      "examples": [
+        {
+          "wrong": "będziesz mieć",
+          "correct": "będziesz miał/miała",
+          "context": "Programming output; gender agreement in second person singular."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Use of Anglicisms and Non-Idiomatic Phrases",
+      "category": "localization",
+      "subcategory": "Cultural",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Direct translations from English result in anglicisms or awkward phrasing that do not align with Polish idiomatic usage, affecting cultural fit and clarity.",
+      "examples": [
+        {
+          "wrong": "cztery wyraźne sezony, wsparcie dla rolnictwa",
+          "correct": "cztery wyraźne pory roku, sprzyjające warunki dla rolnictwa",
+          "context": "Description of climate and agriculture in a geographical context"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Colloquial or Inappropriate Analogies",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Use of colloquial terms or analogies that are not suitable for educational contexts, reducing professionalism and clarity.",
+      "examples": [
+        {
+          "wrong": "Wyobraź sobie błonę komórkową jako ochroniarza.",
+          "correct": "Wyobraź sobie błonę komórkową jako strażnika.",
+          "context": "Analogy in biology content"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Inappropriate Use of Emojis and Informal Tone",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 2,
+      "description": "Use of emojis and informal metaphors that may reduce professionalism or distract in formal Polish educational materials. Corrections remove or replace these elements for a more neutral tone.",
+      "examples": [
+        {
+          "wrong": "🌟",
+          "correct": "",
+          "context": "Introduction to educational content"
+        },
+        {
+          "wrong": "Przygotuj się na fascynującą podróż przez narzędzia i techniki... 📚",
+          "correct": "Przygotuj się na poznanie narzędzi i technik, które pomogą Ci stać się bardziej świadomym odbiorcą informacji!",
+          "context": "Lesson introduction"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Insufficient Cultural Context",
+      "category": "localization",
+      "subcategory": "Cultural",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 2,
+      "description": "References to historical events or terms without sufficient explanation for Polish learners. Corrections suggest adding context or using full event names.",
+      "examples": [
+        {
+          "wrong": "Marsz na Waszyngton",
+          "correct": "Marsz na Waszyngton po pracę i wolność",
+          "context": "Naming historical events"
+        },
+        {
+          "wrong": "Jim Crow",
+          "correct": "Jim Crow (segregacyjne prawa obowiązujące w USA)",
+          "context": "Describing US segregation laws"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Unnatural word order and additive particle usage",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "LOW",
+      "frequency": "common",
+      "frequency_count": 1,
+      "description": "Use of 'również' in a position that is less natural in Polish, leading to ambiguity and reduced clarity. 'Także' is preferred for additive meaning and better sentence flow.",
+      "examples": [
+        {
+          "wrong": "Jądro również kieruje czynnościami komórki, takimi jak wzrost i podział.",
+          "correct": "Jądro kieruje także czynnościami komórki, takimi jak wzrost i podział.",
+          "context": "Describing cell functions with additive meaning."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Literal translation of logical connectors",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "LOW",
+      "frequency": "common",
+      "frequency_count": 1,
+      "description": "Use of 'W przeciwnym razie' as a direct translation of 'otherwise', which is less idiomatic in Polish logical or programming contexts. 'W przeciwnym wypadku' is preferred for clarity.",
+      "examples": [
+        {
+          "wrong": "W przeciwnym razie:",
+          "correct": "W przeciwnym wypadku:",
+          "context": "Conditional statements in instructions or logic."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Abrupt noun phrase usage in instructions",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "LOW",
+      "frequency": "common",
+      "frequency_count": 1,
+      "description": "Use of noun phrases like 'Burza mózgów' without a verb in instructional steps, which can be stylistically abrupt and less natural in Polish educational content.",
+      "examples": [
+        {
+          "wrong": "Burza mózgów – Wspólnie poszukajcie rozwiązania, które zadowoli obie strony.",
+          "correct": "Przeprowadźcie burzę mózgów – Wspólnie poszukajcie rozwiązania, które zadowoli obie strony.",
+          "context": "Instructional steps in educational materials."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect singular/plural usage for statistical terms",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "LOW",
+      "frequency": "common",
+      "frequency_count": 1,
+      "description": "Use of plural forms like 'wskaźniki chorób serca' when the context requires a singular term for statistical indicators, reducing precision.",
+      "examples": [
+        {
+          "wrong": "Badania pokazują, że osoby jedzące warzywa codziennie mają niższe wskaźniki chorób serca.",
+          "correct": "Badania pokazują, że osoby jedzące warzywa codziennie mają niższy wskaźnik chorób serca.",
+          "context": "Reporting research findings or statistics."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Ambiguous pronoun reference",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "LOW",
+      "frequency": "common",
+      "frequency_count": 1,
+      "description": "Use of pronouns like 'go' without clear antecedents, leading to ambiguity. Directly naming the product or object improves clarity.",
+      "examples": [
+        {
+          "wrong": "Nasi klienci go uwielbiają!",
+          "correct": "Nasi klienci uwielbiają ten krem!",
+          "context": "Product descriptions or testimonials."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Typographic Inconsistency",
+      "category": "localization",
+      "subcategory": "Format",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Use of English-style quotation marks instead of Polish typographic quotation marks, affecting typographic consistency and local publishing standards.",
+      "examples": [
+        {
+          "wrong": "Mitochondria nazywane są \"elektrowniami\" komórki...",
+          "correct": "Mitochondria nazywane są „elektrowniami” komórki...",
+          "context": "Describing cell organelles"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,310 @@
+{
+  "metadata": {
+    "label": "llm",
+    "label_normalized": "llm",
+    "label_key": "llm",
+    "language": "japanese",
+    "generated_at": "2025-10-03T16:00:16.354153"
+  },
+  "top_error_patterns": [
+    {
+      "pattern_name": "Incorrect colon formatting after '例'",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "MEDIUM",
+      "frequency": "very_common",
+      "frequency_count": 8,
+      "description": "Use of half-width colon ':' after '例' instead of the Japanese standard full-width colon '：' in examples. This affects the professionalism and typographic consistency of educational content.",
+      "examples": [
+        {
+          "wrong": "例: アマゾン熱帯雨林は熱帯気候帯に属しています。",
+          "correct": "例：アマゾン熱帯雨林は熱帯気候帯に属しています。",
+          "context": "Example sentences in science and geography lessons"
+        },
+        {
+          "wrong": "例: 熱帯雨林（多様な動植物が生息）。",
+          "correct": "例：熱帯雨林（多様な動植物が生息）。",
+          "context": "Example lists in biology content"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Awkward or unnatural grammatical constructions",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "MEDIUM",
+      "frequency": "very_common",
+      "frequency_count": 5,
+      "description": "Sentences frequently use unnatural grammatical structures, such as redundant phrases, incorrect conjunctions, or topic markers, which reduce clarity and naturalness in Japanese.",
+      "examples": [
+        {
+          "wrong": "依然として最大のピラミッドであり、古代エジプトの工学技術の証です。",
+          "correct": "現在も最大のピラミッドであり、古代エジプトの工学技術の証です。",
+          "context": "Use of '依然として' instead of the more natural '現在も' when describing something that remains the largest."
+        },
+        {
+          "wrong": "学者たちがそれを比較して翻訳することができました。",
+          "correct": "学者たちはそれを比較して翻訳することができました。",
+          "context": "Incorrect use of subject marker 'が' instead of topic marker 'は' for emphasis."
+        },
+        {
+          "wrong": "鳥が冬に暖かい地域へ移動する行動。",
+          "correct": "鳥が冬に暖かい地域へ移動する。",
+          "context": "Redundant use of '行動' at the end of an action description."
+        },
+        {
+          "wrong": "モンゴメリーのバスの分離撤廃をもたらした一年間のボイコット。",
+          "correct": "モンゴメリーのバス分離を撤廃した一年間のボイコット。",
+          "context": "Awkward noun phrase construction causing confusion."
+        },
+        {
+          "wrong": "保存するデータは変更可能または固定のままです。",
+          "correct": "保存するデータは変更可能または固定です。",
+          "context": "Unnatural use of 'のまま' in describing data states."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Non-standard or unnatural terminology usage",
+      "category": "localization",
+      "subcategory": "Terminology",
+      "impact_level": "MEDIUM",
+      "frequency": "very_common",
+      "frequency_count": 5,
+      "description": "Use of direct translations, katakana loanwords, or non-standard terms that are less natural or less accepted in Japanese educational contexts. This affects clarity and can confuse learners.",
+      "examples": [
+        {
+          "wrong": "オルガネラ",
+          "correct": "細胞小器官",
+          "context": "Scientific term for 'organelle' in biology lessons"
+        },
+        {
+          "wrong": "食糧",
+          "correct": "餌",
+          "context": "Describing bee food in animal behavior examples"
+        },
+        {
+          "wrong": "LGBTQ+の権利",
+          "correct": "LGBTQの権利",
+          "context": "Social studies or rights-related content"
+        },
+        {
+          "wrong": "学生ですか = True",
+          "correct": "学生か = True",
+          "context": "Variable naming in programming examples"
+        },
+        {
+          "wrong": "定性的および定量的な基準",
+          "correct": "質的および量的な基準",
+          "context": "Scientific or educational standards explanations"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Anglicisms and unnatural expressions",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 3,
+      "description": "Direct translations or anglicisms (e.g., 'ステップバイステップ', 'について') are used instead of natural Japanese expressions, reducing clarity and cultural fit.",
+      "examples": [
+        {
+          "wrong": "ステップバイステップで問題を解決するためにアルゴリズムを作成します。",
+          "correct": "段階的に問題を解決するためにアルゴリズムを作成します。",
+          "context": "Programming and algorithm explanations"
+        },
+        {
+          "wrong": "プログラミングとは何かについて学び始めましょう！",
+          "correct": "プログラミングとは何かを学び始めましょう！",
+          "context": "Lesson introductions"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Terminology inconsistency",
+      "category": "localization",
+      "subcategory": "Terminology",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 3,
+      "description": "Non-standard or less natural terminology is used, such as incorrect set phrases or technical terms, which can confuse learners and reduce localization quality.",
+      "examples": [
+        {
+          "wrong": "世界の七不思議の一つであるギザの大ピラミッド",
+          "correct": "世界七不思議の一つであるギザの大ピラミッド",
+          "context": "History and world wonders references"
+        },
+        {
+          "wrong": "アクティブリスニングの技術：",
+          "correct": "アクティブ・リスニングのスキル：",
+          "context": "Communication skills lessons"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Unnatural or verbose grammatical constructions",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 2,
+      "description": "Use of grammatically correct but unnatural or verbose expressions that reduce clarity and naturalness in Japanese. More concise and idiomatic phrasing improves comprehension.",
+      "examples": [
+        {
+          "wrong": "栽培することを可能にしました",
+          "correct": "栽培できるようになりました",
+          "context": "Describing the effect of annual floods on crop cultivation"
+        },
+        {
+          "wrong": "権利を求めるために疎外されたコミュニティ",
+          "correct": "権利を求めて疎外されていたコミュニティ",
+          "context": "Describing communities gaining empowerment"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Unnatural or culturally inappropriate style/metaphor",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 2,
+      "description": "Use of exclamatory, poetic, or metaphors that are uncommon or confusing in Japanese educational content, reducing clarity and professionalism.",
+      "examples": [
+        {
+          "wrong": "動物の環境適応への旅へ！",
+          "correct": "動物の環境適応について学びましょう！",
+          "context": "Quiz introductions or topic headers"
+        },
+        {
+          "wrong": "核は細胞の脳のようなもので、すべてのプロセスを指揮し、細胞の運営のための指示を保存します。",
+          "correct": "核は細胞の司令塔のようなもので、すべてのプロセスを指揮し、細胞の運営のための情報を保存します。",
+          "context": "Biology explanations using metaphors"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect orthographic conventions for loanwords",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Loanwords in Katakana are sometimes written without the required middle dot (・) between compound words, which is standard in Japanese orthography. This affects readability and professional tone.",
+      "examples": [
+        {
+          "wrong": "アクティブリスニング",
+          "correct": "アクティブ・リスニング",
+          "context": "Educational terminology for 'active listening'"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Culturally unrealistic examples",
+      "category": "localization",
+      "subcategory": "Cultural",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Use of examples or values that do not fit Japanese cultural or economic context, potentially confusing learners.",
+      "examples": [
+        {
+          "wrong": "シャツ一枚の値段が`20`円で、3枚購入すると合計費用は:",
+          "correct": "シャツ一枚の値段が`2,000`円で、3枚購入すると合計費用は:",
+          "context": "Math or economics word problems"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect Japanese punctuation/formatting",
+      "category": "localization",
+      "subcategory": "Format",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Use of half-width punctuation or non-standard formatting that does not match Japanese writing conventions, affecting readability and authenticity.",
+      "examples": [
+        {
+          "wrong": "メッセージ = 挨拶 + \", \" + 名前  # \"こんにちは, アリス\"",
+          "correct": "メッセージ = 挨拶 + \"、\" + 名前  # \"こんにちは、アリス\"",
+          "context": "Programming or string concatenation examples"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Use of emojis in formal educational content",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "LOW",
+      "frequency": "common",
+      "frequency_count": 4,
+      "description": "Emojis such as 🌟, 🤓, 😊 are used in educational materials, which is considered informal and unprofessional in Japanese academic contexts. Their removal is recommended for a consistent and appropriate tone.",
+      "examples": [
+        {
+          "wrong": "楽しみながら新しいスキルを身につけましょう！ 🤓",
+          "correct": "楽しみながら新しいスキルを身につけましょう！",
+          "context": "Lesson introductions and motivational statements"
+        },
+        {
+          "wrong": "🌟",
+          "correct": "",
+          "context": "Decorative use at the end of paragraphs"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Unnatural or less idiomatic phrasing",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 4,
+      "description": "Phrases that are grammatically correct but less natural or idiomatic in Japanese, affecting the smoothness and professionalism of the text.",
+      "examples": [
+        {
+          "wrong": "ミトコンドリアは発電所のようなもので、細胞が機能するためのエネルギーを生産します。",
+          "correct": "ミトコンドリアは発電所のようなもので、細胞が活動するためのエネルギーを生み出します。",
+          "context": "Biology explanations"
+        },
+        {
+          "wrong": "「公民権運動の母」として知られる。",
+          "correct": "「公民権運動の母」と呼ばれることもある。",
+          "context": "Historical figure descriptions"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Inappropriate conjunction usage in lists",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Lists of related items use 'と' instead of 'や', which is less natural when enumerating multiple, loosely related items in Japanese.",
+      "examples": [
+        {
+          "wrong": "衝突を解決する自信と効果的なコミュニケーション能力を身につけることができます。",
+          "correct": "衝突を解決する自信や効果的なコミュニケーション能力を身につけることができます。",
+          "context": "Listing multiple skills acquired through strategies."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Use of emoji in formal educational content",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Emoji are used in introductory sentences, which is inappropriate for formal or academic Japanese content and affects perceived professionalism.",
+      "examples": [
+        {
+          "wrong": "🌍",
+          "correct": "",
+          "context": "Globe emoji used in educational material introduction."
+        }
+      ]
+    }
+  ]
+}

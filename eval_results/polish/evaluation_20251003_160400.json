@@ -1,0 +1,76 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Strefy klimatyczne są podzielane na podstawie długoterminowych warunków pogodowych.",
+      "correction": "Strefy klimatyczne są podzielane na podstawie długoterminowych warunków pogodowych.",
+      "description": "The verb 'podzielane' is incorrect in this context. The correct verb should be 'dzielone', as 'podzielać' means 'to share' (opinions, feelings), while 'dzielić' means 'to divide' or 'to classify'. The sentence should read: 'Strefy klimatyczne są dzielone na podstawie długoterminowych warunków pogodowych.' This is a lexical error affecting the core meaning of the statement.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "co jest sprzeczne z podaną fakcją",
+      "correction": "co jest sprzeczne z podaną informacją",
+      "description": "The word 'fakcją' is a false friend and not used in Polish to mean 'fact'. The correct term is 'informacją' or 'twierdzeniem'. 'Fakcja' in Polish refers to a faction or group, not a fact. This lexical error may confuse learners and should be corrected for clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Jaśne morze, jak przypomina miasto Jastrzębie-Zdroje, znane z żywiołów morskich, odgrywa znaczną rolę w regulacji klimatu.",
+      "correction": "Morza i oceany odgrywają znaczną rolę w regulacji klimatu.",
+      "description": "The reference to 'miasto Jastrzębie-Zdroje' and 'żywioły morskie' is culturally inappropriate and factually inaccurate, as Jastrzębie-Zdrój is not a coastal city nor known for marine phenomena. This localization issue may mislead learners and should be replaced with a neutral, accurate statement about oceans and climate regulation.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Woda działa jak termost",
+      "correction": "Woda działa jak termostat",
+      "description": "The word 'termost' is a misspelling; the correct term is 'termostat'. This is a lexical and orthographic error that affects the technical accuracy of the statement.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "regulując wzór pogodowy",
+      "correction": "regulując wzorce pogodowe",
+      "description": "The phrase 'wzór pogodowy' is not idiomatic in Polish; the correct term is 'wzorce pogodowe' (weather patterns). This lexical error affects the naturalness and clarity of the statement.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "co potwierdza naszą tendencję do prawdy",
+      "correction": "co potwierdza prawdziwość tej informacji",
+      "description": "The phrase 'naszą tendencję do prawdy' is grammatically and semantically awkward in Polish. A more natural and correct expression would be 'co potwierdza prawdziwość tej informacji'. This is a grammar and lexical issue affecting clarity and naturalness.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Climate_Zones.slm.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T16:04:00.970965",
+    "model": "Azure OpenAI o3-mini",
+    "label": "slm",
+    "label_normalized": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 8.4,
+    "classification": "PROFESSIONAL",
+    "total_issues": 6,
+    "total_penalty": 1.6,
+    "issue_breakdown": {
+      "linguistic": 5,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.3,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

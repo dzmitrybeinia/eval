@@ -1,0 +1,60 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Jądro również kieruje czynnościami komórki, takimi jak wzrost i podział.",
+      "correction": "Jądro kieruje także czynnościami komórki, takimi jak wzrost i podział.",
+      "description": "The original sentence uses 'również' in a position that is less natural in Polish and may cause ambiguity regarding what is being emphasized. The corrected version places 'także' earlier, which is more idiomatic and improves sentence flow. Additionally, 'także' is preferred in this context for additive meaning. This correction enhances clarity and naturalness.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Mitochondria nazywane są \"elektrowniami\" komórki, ponieważ produkują energię.",
+      "correction": "Mitochondria nazywane są „elektrowniami” komórki, ponieważ produkują energię.",
+      "description": "The original uses English-style quotation marks (\" \") instead of Polish typographic quotation marks („ ”). This is a style and localization issue, as Polish educational materials conventionally use the Polish quotation marks. The correction improves typographic consistency and aligns with local publishing standards.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Rybosomy to maleńkie, koralikowate struktury znajdujące się zarówno w cytoplazmie, jak i na powierzchni retikulum endoplazmatycznego.",
+      "correction": "Rybosomy to maleńkie, koralikowate struktury znajdujące się zarówno w cytoplazmie, jak i na powierzchni siateczki śródplazmatycznej.",
+      "description": "The term 'retikulum endoplazmatyczne' is a direct Latin loanword and, while technically correct, is less commonly used in Polish educational contexts for younger audiences. 'Siateczka śródplazmatyczna' is the standard Polish term and is more appropriate for clarity and localization. This correction improves lexical precision and cultural appropriateness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Wyobraź sobie błonę komórkową jako ochroniarza.",
+      "correction": "Wyobraź sobie błonę komórkową jako strażnika.",
+      "description": "The word 'ochroniarz' is colloquial and typically refers to a private security guard, which may not be the most appropriate analogy in an educational context. 'Strażnik' is a more neutral and commonly used term in Polish educational materials to describe a protective function, making the analogy clearer and more culturally appropriate.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Cell_Parts.llm.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T15:52:11.995255",
+    "model": "Azure OpenAI o3-mini",
+    "label": "llm",
+    "label_normalized": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "W algebrze zmienne reprezentują dowolne wartości, a nie są ograniczone do liczb całkowitych. Mogą być dowolnymi liczbami w tym zakresie, w tym ułamkami lub liczbami z dziesiątkami. Zmienne są używane do znalezienia tych wartości, które po podstawieniu do równania rozwiązują zmienną.",
+      "correction": "W algebrze zmienne reprezentują dowolne wartości i nie są ograniczone do liczb całkowitych. Mogą być dowolnymi liczbami, w tym ułamkami lub liczbami dziesiętnymi. Zmienne są używane do znalezienia tych wartości, które po podstawieniu do równania je spełniają.",
+      "description": "There are several linguistic issues: (1) The phrase 'liczbami z dziesiątkami' is incorrect; the proper term is 'liczbami dziesiętnymi' for decimal numbers. (2) The sentence 'które po podstawieniu do równania rozwiązują zmienną' is semantically and grammatically incorrect; the correct meaning is that the values 'satisfy' or 'fulfill' the equation, not 'solve the variable.' (3) The conjunction 'a nie są ograniczone' should be replaced with 'i nie są ograniczone' for better flow. These corrections improve grammatical accuracy, lexical precision, and semantic clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "To jest poprawny zarys, ponieważ równanie to rzeczywiście jedna część matematycznego wyrażenia z znakiem równości, jak *x + 5 = 10*, gdzie *x* reprezentuje nieznaną zmienną, której musimy znaleźć.",
+      "correction": "To jest poprawna definicja, ponieważ równanie to wyrażenie matematyczne zawierające znak równości, jak *x + 5 = 10*, gdzie *x* reprezentuje nieznaną zmienną, którą należy znaleźć.",
+      "description": "The phrase 'poprawny zarys' is unnatural in Polish in this context; 'poprawna definicja' is more appropriate. The sentence 'równanie to rzeczywiście jedna część matematycznego wyrażenia z znakiem równości' is awkward and imprecise; it should be clarified as 'równanie to wyrażenie matematyczne zawierające znak równości.' The phrase 'której musimy znaleźć' should be 'którą należy znaleźć' for better style and clarity. These changes address grammatical, lexical, and stylistic issues.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "W algebry równań jednoruchowe definiowane są jako te, które można rozwiązać przy zastosowaniu tylko jednej operacji. Jeśl wątpiesz, zauważ, że złożone operacje wymagają więcej kroków, aby utrzymać równanie równomierne.",
+      "correction": "W algebrze równania jednoruchowe definiowane są jako te, które można rozwiązać przy zastosowaniu tylko jednej operacji. Jeśli wątpisz, zauważ, że złożone operacje wymagają więcej kroków, aby zachować równowagę równania.",
+      "description": "There are multiple linguistic errors: (1) 'W algebry' should be 'W algebrze' (incorrect case ending). (2) 'Jeśl wątpiesz' contains spelling errors; it should be 'Jeśli wątpisz.' (3) The phrase 'utrzymać równanie równomierne' is semantically incorrect; the proper expression is 'zachować równowagę równania.' These corrections address case, spelling, and lexical precision.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Basic_Algebra.slm.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T16:03:40.734960",
+    "model": "Azure OpenAI o3-mini",
+    "label": "slm",
+    "label_normalized": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.2,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.8,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.8,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

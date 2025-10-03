@@ -1,0 +1,52 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Variablen sind entscheidend für die Lösung von Gleichungen, da sie es uns ermöglichen, die Unbekannten zu erfinden.",
+      "correction": "Variablen sind entscheidend für die Lösung von Gleichungen, da sie es uns ermöglichen, die Unbekannten zu finden.",
+      "description": "The word 'erfinden' is incorrect in this context; it means 'to invent' rather than 'to find'. The correct verb is 'finden', which means 'to find' or 'to determine'. This lexical error could confuse learners about the role of variables in equations.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Gleichungen hingegen würden das Gleichheitszeichen enthalten, um eine Lösung zu finden.",
+      "correction": "Gleichungen hingegen enthalten das Gleichheitszeichen, um eine Lösung zu finden.",
+      "description": "The use of 'würden' (would) is unnecessary and unnatural in this context. In educational German, the present tense is preferred for general truths. This improves the naturalness and clarity of the explanation.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "In der Gleichung 12 + x = 20 repräsentiert der Term 'x' die zusätzlichen Geldbeträge, die benötigt werden, um das Buch zu kaufen, nicht die Gesamtkosten des Buches.",
+      "correction": "In der Gleichung 12 + x = 20 repräsentiert der Term 'x' den zusätzlichen Geldbetrag, der benötigt wird, um das Buch zu kaufen, nicht die Gesamtkosten des Buches.",
+      "description": "The plural 'die zusätzlichen Geldbeträge' is incorrect because the equation refers to a single unknown amount. The singular 'den zusätzlichen Geldbetrag' is grammatically and contextually correct. This improves precision and clarity.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Basic_Algebra.slm.md",
+    "language": "German",
+    "timestamp": "2025-10-03T16:07:06.567421",
+    "model": "Azure OpenAI o3-mini",
+    "label": "slm",
+    "label_normalized": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.5,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

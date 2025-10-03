@@ -1,0 +1,303 @@
+{
+  "metadata": {
+    "label": "llm",
+    "label_normalized": "llm",
+    "label_key": "llm",
+    "language": "french",
+    "generated_at": "2025-10-03T15:57:57.566320",
+    "source_files": [
+      "evaluation_20251003_155303.json",
+      "evaluation_20251003_155307.json",
+      "evaluation_20251003_155310.json",
+      "evaluation_20251003_155313.json",
+      "evaluation_20251003_155315.json",
+      "evaluation_20251003_155319.json",
+      "evaluation_20251003_155322.json",
+      "evaluation_20251003_155326.json",
+      "evaluation_20251003_155333.json",
+      "evaluation_20251003_155337.json"
+    ],
+    "issue_counts": {
+      "linguistic": 4,
+      "localization": 30
+    }
+  },
+  "issues": {
+    "linguistic": [
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "L'art, riche en symbolisme, reflétait leur culture et leurs croyances dans des fresques et sculptures.",
+        "correction": "L'art, riche en symbolisme, reflétait leur culture et leurs croyances dans des fresques et des sculptures.",
+        "description": "The phrase 'dans des fresques et sculptures' lacks the article 'des' before 'sculptures', which is required for correct parallel structure and grammatical agreement in French. The corrected version 'dans des fresques et des sculptures' ensures proper article usage and clarity.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Bosses stockant de la graisse pour survivre sans nourriture longtemps.",
+        "correction": "Bosses qui stockent de la graisse pour survivre longtemps sans nourriture.",
+        "description": "The original sentence contains a participial phrase 'stockant de la graisse' that is not idiomatic in French for this context. The relative clause 'qui stockent de la graisse' is more natural and grammatically correct. Additionally, the word order 'sans nourriture longtemps' is awkward; 'longtemps sans nourriture' is the correct and natural placement.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Grand sac rempli de liquide entouré d'une membrane.",
+        "correction": "Grand sac rempli de liquide, entouré d'une membrane.",
+        "description": "A comma is needed after 'liquide' to separate the descriptive clause 'entouré d'une membrane' for correct punctuation and clarity in French sentence structure.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Exprimez-vous clairement",
+        "correction": "Exprimez-vous clairement",
+        "description": "Although the phrase 'Exprimez-vous clairement' is grammatically correct, it is inconsistent with the use of informal register elsewhere in the lesson (e.g., 'Prenez une grande respiration'). For educational content aimed at children or young learners, the imperative form should match the register. If the lesson is intended to be informal, 'Exprime-toi clairement' would be more appropriate. However, if the formal register is intended, the rest of the instructions should be adjusted for consistency. This is a minor style and register consistency issue.",
+        "severity": "MINOR"
+      }
+    ],
+    "localization": [
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Découvrez une civilisation fascinante, connue pour ses pyramides majestueuses, son écriture unique et son rôle fondamental dans l'histoire humaine. 🌍",
+        "correction": "Découvrez une civilisation fascinante, connue pour ses pyramides majestueuses, son écriture unique et son rôle fondamental dans l'histoire humaine.",
+        "description": "The use of the globe emoji (🌍) at the end of the sentence is not standard in formal French educational content and may be perceived as informal or distracting in this context. Removing the emoji ensures a more professional and culturally appropriate tone for an educational lesson.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "🌍🐾",
+        "correction": "",
+        "description": "The use of emoji in educational French content, especially in formal or academic contexts, is generally considered inappropriate and may reduce the perceived professionalism of the material. It is recommended to remove emojis to maintain a formal and consistent tone suitable for educational settings.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Renard des sables : Oreilles longues pour dissiper la chaleur.",
+        "correction": "Fennec : Grandes oreilles pour dissiper la chaleur.",
+        "description": "The term 'Renard des sables' is less commonly used in French educational contexts compared to 'Fennec', which is the standard and widely recognized name for this species. Additionally, 'oreilles longues' is less idiomatic than 'grandes oreilles' when describing the fennec's adaptation. Using the correct terminology improves clarity and aligns with local educational standards.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Lièvre variable : Fourrure blanche en hiver pour se camoufler dans la neige.",
+        "correction": "Lièvre arctique : Fourrure blanche en hiver pour se camoufler dans la neige.",
+        "description": "The term 'lièvre variable' is less commonly used in French educational materials than 'lièvre arctique', which is the standard term for the species adapted to snowy environments. Using the correct terminology ensures consistency and better understanding for learners.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Aujourd’hui, nous allons découvrir les **variables**, les **constantes**, et les **équations simples**, des concepts fondamentaux pour comprendre l’algèbre et résoudre des problèmes mathématiques.",
+        "correction": "Aujourd’hui, nous allons découvrir les **variables**, les **constantes** et les **équations simples**, des concepts fondamentaux pour comprendre l’algèbre et résoudre des problèmes mathématiques.",
+        "description": "The use of a comma before 'et' in a list ('les **constantes**, et les **équations simples**') is not standard in French. The Oxford comma is not used in French style conventions. Removing the comma improves naturalness and aligns with French writing norms.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Format",
+        "original": "Chaque collation coûte 2 euros et vous achetez `x` collations. Le coût total est représenté par l’équation `Coût total = 2x`.",
+        "correction": "Chaque collation coûte 2 euros et vous achetez `x` collations. Le coût total est représenté par l’équation `Coût total = 2x`.",
+        "description": "While the use of 'euros' is correct for a French audience, the equation format 'Coût total = 2x' is acceptable but could be improved for clarity by using a lowercase variable ('2 × x') or including a space before and after the multiplication sign, as per French mathematical notation standards. However, this is a minor style issue and does not affect comprehension.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Organites en forme de haricot",
+        "correction": "Organites en forme d'ovale",
+        "description": "The term 'haricot' (bean) is not the standard scientific descriptor for mitochondria in French educational contexts. 'Ovale' (oval) is more commonly used and avoids informal or potentially confusing imagery, ensuring terminology aligns with local educational standards.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "comme les outils dans une boîte à outils",
+        "correction": "comme les pièces d'une machine",
+        "description": "The analogy 'outils dans une boîte à outils' is less common in French science education and may sound informal or forced. 'Pièces d'une machine' is a more natural and widely accepted metaphor in French educational materials for describing organites working together.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "Transformation des normes sociales, inspirant d'autres mouvements comme celui des droits des femmes ou des LGBTQ+.",
+        "correction": "Transformation des normes sociales, inspirant d'autres mouvements comme celui des droits des femmes ou des droits des personnes LGBTQ+.",
+        "description": "The phrase 'des LGBTQ+' is not fully natural in French educational contexts. For clarity and inclusivity, it is preferable to specify 'des droits des personnes LGBTQ+' to match standard French usage and avoid ambiguity. This correction improves cultural appropriateness and naturalness.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Leader du Nation of Islam, puis défenseur de l'autonomisation des Afro-Américains et critique des oppressions systémiques.",
+        "correction": "Leader de la Nation of Islam, puis défenseur de l'autonomisation des Afro-Américains et critique des oppressions systémiques.",
+        "description": "The phrase 'Leader du Nation of Islam' uses 'du' incorrectly with the organization name. The correct preposition is 'de' because 'Nation of Islam' is a proper noun and not preceded by an article in French. This correction ensures proper terminology and natural expression.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "Student Nonviolent Coordinating Committee (SNCC)",
+        "correction": "Comité de coordination des étudiants non-violents (SNCC)",
+        "description": "The name 'Student Nonviolent Coordinating Committee (SNCC)' is presented only in English, which may hinder comprehension for French-speaking learners unfamiliar with American civil rights organizations. For optimal localization and educational clarity, the official French translation should be provided alongside the acronym, as is standard in French-language educational materials.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "NAACP",
+        "correction": "NAACP (Association nationale pour la promotion des gens de couleur)",
+        "description": "The acronym 'NAACP' is used without explanation, which may be unclear for French-speaking audiences. In French educational contexts, it is customary to provide the full name or a brief description in French to ensure understanding of key organizations. Adding the French equivalent or a short explanation improves clarity and accessibility.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "LGBTQ+",
+        "correction": "LGBTQ+",
+        "description": "While 'LGBTQ+' is widely recognized, French educational materials often use 'LGBT+' or 'LGBTQIA+' for inclusivity and alignment with local terminology. However, 'LGBTQ+' is acceptable and increasingly common in French, so this is a minor style consideration rather than a strict error.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Format",
+        "original": "Brown v. Board of Education (1954)",
+        "correction": "Brown c. Board of Education (1954)",
+        "description": "In French legal and academic writing, the abbreviation 'v.' (for 'versus') is typically replaced by 'c.' (for 'contre') when referencing court cases. Using 'c.' aligns with French conventions and improves localization quality for educational content.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "le courant circumpolaire antarctique",
+        "correction": "le courant circumpolaire antarctique",
+        "description": "The term 'le courant circumpolaire antarctique' is technically correct, but in French educational contexts, it is more commonly referred to as 'le courant antarctique circumpolaire'. Using the more standard term would improve consistency and align with terminology found in French scientific literature and textbooks.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Préparez-vous à plonger dans les mystères de notre atmosphère et de nos océans !",
+        "correction": "Préparez-vous à explorer les phénomènes de notre atmosphère et de nos océans !",
+        "description": "The phrase 'plonger dans les mystères' is idiomatic and engaging, but in educational content for French learners, 'explorer les phénomènes' is more neutral and appropriate, avoiding unnecessary dramatization and maintaining a scientific tone.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Format",
+        "original": "l'est des États-Unis",
+        "correction": "la côte est des États-Unis",
+        "description": "In French geographical context, 'la côte est des États-Unis' is more precise and commonly used than 'l'est des États-Unis' when referring to the area affected by the Gulf Stream. This improves clarity and aligns with standard French usage in educational materials.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Aujourd'hui, nous allons découvrir trois concepts essentiels qui sont à la base de tout programme informatique : les variables, les boucles et les conditionnels.",
+        "correction": "Aujourd'hui, nous allons découvrir trois concepts essentiels qui sont à la base de tout programme informatique : les variables, les boucles et les instructions conditionnelles.",
+        "description": "The term 'conditionnels' is not the most natural or standard way to refer to conditional statements in French programming pedagogy. 'Instructions conditionnelles' is more precise and commonly used in educational contexts, improving clarity and professionalism. The rest of the sentence is linguistically correct.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Les conditionnels sont des instructions qui permettent de prendre des décisions dans un programme en fonction de certaines conditions.",
+        "correction": "Les instructions conditionnelles sont des instructions qui permettent de prendre des décisions dans un programme en fonction de certaines conditions.",
+        "description": "The use of 'Les conditionnels' is less natural than 'Les instructions conditionnelles' in French technical and educational contexts. The correction aligns with standard terminology, making the explanation clearer and more professional.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Ils utilisent des mots-clés comme \"if\", \"else if\" et \"else\" pour déterminer le chemin à suivre selon les données disponibles.",
+        "correction": "Ils utilisent des mots-clés comme \"if\", \"elif\" et \"else\" pour déterminer le chemin à suivre selon les données disponibles.",
+        "description": "In Python, the correct keyword for 'else if' is 'elif', not 'else if'. Using 'else if' may confuse learners and does not reflect the actual syntax of the language being taught. The rest of the sentence is linguistically correct.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Dans cet exemple, la boucle imprime \"Bonjour !\" cinq fois.",
+        "correction": "Dans cet exemple, la boucle affiche \"Bonjour !\" cinq fois.",
+        "description": "The verb 'imprime' (prints) is less natural in French programming contexts than 'affiche' (displays), which is the standard term used to describe output in educational materials. This change improves clarity and aligns with local conventions.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Bienvenue dans le monde passionnant de Python, un langage de programmation apprécié pour sa simplicité et sa polyvalence. Aujourd'hui, nous allons découvrir les bases de Python, notamment les variables, les types de données et les opérations d'entrée/sortie. Préparez-vous à explorer comment ces concepts peuvent être utilisés pour créer des programmes utiles et interactifs. 🚀",
+        "correction": "Bienvenue dans le monde passionnant de Python, un langage de programmation apprécié pour sa simplicité et sa polyvalence. Aujourd'hui, nous allons découvrir les bases de Python, notamment les variables, les types de données et les opérations d'entrée/sortie. Préparez-vous à explorer comment ces concepts peuvent être utilisés pour créer des programmes utiles et interactifs.",
+        "description": "The use of the rocket emoji 🚀 at the end of the introduction is not standard in formal French educational content and may be perceived as informal or distracting in some academic contexts. Removing the emoji ensures a more professional and culturally neutral tone appropriate for educational materials.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Les variables sont comme des boîtes où l'on peut ranger des informations. Elles permettent de stocker des données que le programme peut utiliser. En Python, vous n'avez pas besoin de spécifier le type de données, Python le déduit automatiquement.",
+        "correction": "Les variables sont comme des boîtes où l'on peut ranger des informations. Elles permettent de stocker des données que le programme peut utiliser. En Python, il n'est pas nécessaire de spécifier le type de données, Python le déduit automatiquement.",
+        "description": "The phrase 'vous n'avez pas besoin de spécifier le type de données' uses the informal 'vous' form, which is acceptable, but the construction is slightly less formal than the standard educational phrasing. Replacing it with 'il n'est pas nécessaire de spécifier le type de données' aligns better with the neutral, impersonal style preferred in French educational materials.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Format",
+        "original": "hauteur = 1.65",
+        "correction": "hauteur = 1,65",
+        "description": "In French, the decimal separator is a comma rather than a period. Using '1,65' instead of '1.65' ensures the number format is culturally appropriate and avoids confusion for French learners.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Flottant (`float`) : nombres décimaux (ex : 3.14, -0.5).",
+        "correction": "Flottant (`float`) : nombres décimaux (ex : 3,14 ; -0,5).",
+        "description": "The examples for decimal numbers use a period as the decimal separator, which is not standard in French. French convention requires a comma, and examples should be separated by a semicolon for clarity. This correction improves both cultural appropriateness and clarity.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "print(\"La somme est :\", num1 + num2)",
+        "correction": "print(\"La somme est :\", num1 + num2)",
+        "description": "While the phrase 'La somme est :' is correct, in French educational contexts, it is more natural to use 'La somme est de :' when introducing a result. However, the current phrasing is acceptable and does not require mandatory correction.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Format",
+        "original": "num1 = float(input(\"Entrez un nombre : \"))\nnum2 = float(input(\"Entrez un autre nombre : \"))",
+        "correction": "num1 = float(input(\"Entrez un nombre : \"))\nnum2 = float(input(\"Entrez un autre nombre : \"))",
+        "description": "The prompts for entering numbers do not specify the expected format (comma or period for decimals). In French, users may enter '1,5' instead of '1.5', which will cause a ValueError in Python. It is recommended to clarify the expected format in the prompt, e.g., 'Entrez un nombre (utilisez le point comme séparateur décimal) :', to avoid confusion.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Format",
+        "original": "num1 = float(input(\"Entrez le premier nombre : \"))\nnum2 = float(input(\"Entrez le deuxième nombre : \"))",
+        "correction": "num1 = float(input(\"Entrez le premier nombre : \"))\nnum2 = float(input(\"Entrez le deuxième nombre : \"))",
+        "description": "Similar to previous input prompts, the instructions do not specify the decimal separator. In French, users may enter numbers with a comma, which will not be accepted by Python's float() function. Adding a note about using a period as the decimal separator would improve clarity and prevent user errors.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Utilisez des phrases en \"je\" pour expliquer vos sentiments (exemple : \"Je me sens contrarié parce que...\")",
+        "correction": "Utilisez des phrases commençant par \"je\" pour expliquer vos sentiments (exemple : \"Je me sens contrarié parce que...\")",
+        "description": "The phrase 'Utilisez des phrases en \"je\"' is a direct calque from English ('I-statements') and is not the most natural way to express this concept in French. The more idiomatic and educationally clear expression is 'Utilisez des phrases commençant par \"je\"'. This correction improves naturalness and clarity for French learners.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "Prenez une grande respiration et abordez la situation avec un esprit clair.",
+        "correction": "Prenez une grande respiration et abordez la situation avec calme et clarté d'esprit.",
+        "description": "The phrase 'avec un esprit clair' is understandable but not the most natural or culturally typical way to express 'with a clear mind' in French. 'Avec calme et clarté d'esprit' is more idiomatic and aligns better with French educational style, making the advice more relatable and natural for learners.",
+        "severity": "MINOR"
+      }
+    ]
+  }
+}

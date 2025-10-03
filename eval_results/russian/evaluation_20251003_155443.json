@@ -1,0 +1,44 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "значения типа \"истина/ложь\"",
+      "correction": "значения типа \"True/False\"",
+      "description": "The phrase uses the literal Russian translation 'истина/ложь' for boolean values, which is not standard in Russian programming terminology. The accepted terms are 'True/False' (in English) or 'логический тип', but when showing value examples, 'True/False' is preferred for clarity and consistency with Python syntax. This improves both technical accuracy and localization quality.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "for каждый студент в 5 студентах:",
+      "correction": "for каждый студент из 5 студентов:",
+      "description": "The phrase 'в 5 студентах' is unnatural and not idiomatic in Russian. The correct localized phrasing is 'из 5 студентов', which matches standard Russian usage for iterating over a group. This change improves the naturalness and clarity of the example for Russian learners.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Computer_Programming.llm.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T15:54:43.321618",
+    "model": "Azure OpenAI o3-mini",
+    "label": "llm",
+    "label_normalized": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.4,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

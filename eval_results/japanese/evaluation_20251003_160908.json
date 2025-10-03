@@ -1,0 +1,84 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "定数は変数と同じように変わることがあります。.",
+      "correction": "定数は変数と同じように変わることがあります。",
+      "description": "There is an unnecessary period after the Japanese full stop, resulting in '。.'. Only one Japanese full stop should be used at the end of the sentence. This is a punctuation error that affects orthographic correctness.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "定数は一般的に変わりません。例えば、数字や分数は一定の値を持ちます。変数は一方で、変化する未知の値を表します。.",
+      "correction": "定数は一般的に変わりません。例えば、数字や分数は一定の値を持ちます。変数は一方で、変化する未知の値を表します。",
+      "description": "The feedback ends with '。.' which is an incorrect combination of Japanese and Western punctuation. Only the Japanese full stop '。' should be used at the end of the sentence.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "基本的には、方程式は2つの式が等しいかどうかを表すものです。.",
+      "correction": "基本的には、方程式は2つの式が等しいかどうかを表すものです。",
+      "description": "There is an unnecessary period after the Japanese full stop, resulting in '。.'. Only one Japanese full stop should be used at the end of the sentence. This is a punctuation error.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "方程式は2つの項が等しい状慁を表すものであり、それによって解を見つけるために使用されます。.",
+      "correction": "方程式は2つの項が等しい状態を表すものであり、それによって解を見つけるために使用されます。",
+      "description": "There are two issues: (1) '状慁' is a typographical error and should be '状態', which is the correct word for 'state' in this context. (2) The sentence ends with '。.', which is an incorrect combination of Japanese and Western punctuation. Only the Japanese full stop '。' should be used.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "本質的にはそうです。代数において、変数は未知の数を表しています。その値を確認するために、代数的な操作を通じて解くことができます。.",
+      "correction": "本質的にはそうです。代数において、変数は未知の数を表しています。その値を確認するために、代数的な操作を通じて解くことができます。",
+      "description": "The feedback ends with '。.' which is an incorrect combination of Japanese and Western punctuation. Only the Japanese full stop '。' should be used at the end of the sentence.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "経済学では、変数を使って消費行動や市場の動態をモデル化します。物理学では、変数を使って物体の状態や動きを表します。これらの例は、日常生活や学習する際に変数と定数の基本的な使用を理解するための実際のシナリオを提供します。.",
+      "correction": "経済学では、変数を使って消費行動や市場の動態をモデル化します。物理学では、変数を使って物体の状態や動きを表します。これらの例は、日常生活や学習する際に変数と定数の基本的な使用を理解するための実際のシナリオを提供します。",
+      "description": "The feedback ends with '。.' which is an incorrect combination of Japanese and Western punctuation. Only the Japanese full stop '。' should be used at the end of the sentence.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "変数は、方程式内での代替値を表すために使われます。数値である必要はありません。.",
+      "correction": "変数は、方程式内での代替値を表すために使われます。数値である必要はありません。",
+      "description": "The feedback ends with '。.' which is an incorrect combination of Japanese and Western punctuation. Only the Japanese full stop '。' should be used at the end of the sentence.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Basic_Algebra.slm.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-03T16:09:08.784073",
+    "model": "Azure OpenAI o3-mini",
+    "label": "slm",
+    "label_normalized": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.1,
+    "classification": "NATIVE",
+    "total_issues": 7,
+    "total_penalty": 0.9,
+    "issue_breakdown": {
+      "linguistic": 7,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.9,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Zakończenie legalnej segregacji i likwidacja praw Jima Crowa.",
+      "correction": "Zakończenie legalnej segregacji i likwidacja praw Jima Crow.",
+      "description": "The phrase 'praw Jima Crowa' incorrectly applies the Polish genitive ending '-a' to the English name 'Jim Crow.' In Polish, foreign names used as fixed terms (such as 'Jim Crow laws') should remain unchanged, especially when referring to established historical concepts. The correct form is 'praw Jima Crow.'",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Freedom Rides",
+      "correction": "Przejazdy wolności",
+      "description": "The term 'Freedom Rides' is left untranslated, which may reduce comprehension for learners unfamiliar with the English phrase. For educational clarity and localization, it should be rendered as 'Przejazdy wolności,' the established Polish term for this historical event.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Marsz na Waszyngton",
+      "correction": "Marsz na Waszyngton",
+      "description": "While the phrase is linguistically correct, the content does not specify the full name of the event ('Marsz na Waszyngton po pracę i wolność'), which is the standard Polish reference for the 1963 march. Using the full name would improve clarity and cultural accuracy for Polish learners.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Student Nonviolent Coordinating Committee (SNCC)",
+      "correction": "Komitet Koordynacyjny Studentów na rzecz Niestosowania Przemocy (SNCC)",
+      "description": "The organization name is presented only in English, which may hinder understanding. For proper localization, the established Polish translation 'Komitet Koordynacyjny Studentów na rzecz Niestosowania Przemocy' should be used alongside the abbreviation SNCC.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Jim Crow",
+      "correction": "Jim Crow",
+      "description": "The term 'Jim Crow' is used correctly, but for full localization, a brief parenthetical explanation such as '(segregacyjne prawa obowiązujące w USA)' would help Polish learners unfamiliar with the term.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Civil_Rights_Movement.llm.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T15:52:16.118436",
+    "model": "Azure OpenAI o3-mini",
+    "label": "llm",
+    "label_normalized": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.2,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 0.8,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 4,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.6,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Variáveis em um programa podem armazenar só uma vez.",
+      "correction": "Variáveis em um programa podem armazenar valores apenas uma vez.",
+      "description": "The phrase 'só uma vez' is not the most precise or natural way to express 'only once' in Brazilian Portuguese in this context. The correct and more formal expression is 'apenas uma vez'. Additionally, the sentence lacks clarity because it omits the word 'valores', which is essential for understanding what is being stored. The corrected version improves lexical precision and clarity.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Strings podem ser armazenados como números.",
+      "correction": "Strings podem ser armazenadas como números.",
+      "description": "The word 'Strings' should agree in gender and number with the rest of the sentence. In Brazilian Portuguese, 'string' is commonly treated as a feminine noun ('a string'), so the correct form is 'Strings podem ser armazenadas como números.' This correction improves naturalness and consistency with local usage.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Declarações condicionais e laços são essenciais para controlar o fluxo do programa e automatizar tarefas.",
+      "correction": "Declarações condicionais e laços são essenciais para controlar o fluxo do programa e automatizar tarefas.",
+      "description": "No linguistic or localization issues found. The sentence is grammatically correct, uses appropriate terminology, and is culturally appropriate for Brazilian Portuguese.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "A programação não é usada em muitas indústrias.",
+      "correction": "A programação não é utilizada em muitas indústrias.",
+      "description": "The verb 'usada' is acceptable, but 'utilizada' is more formal and commonly used in educational and professional contexts in Brazilian Portuguese. This correction enhances lexical precision and aligns with standard usage in instructional materials.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Computer_Programming.slm.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T16:08:19.691975",
+    "model": "Azure OpenAI o3-mini",
+    "label": "slm",
+    "label_normalized": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.4,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

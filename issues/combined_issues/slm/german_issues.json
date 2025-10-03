@@ -1,0 +1,287 @@
+{
+  "metadata": {
+    "label": "slm",
+    "label_normalized": "slm",
+    "label_key": "slm",
+    "language": "german",
+    "generated_at": "2025-10-03T16:10:08.792784",
+    "source_files": [
+      "evaluation_20251003_160658.json",
+      "evaluation_20251003_160702.json",
+      "evaluation_20251003_160706.json",
+      "evaluation_20251003_160710.json",
+      "evaluation_20251003_160712.json",
+      "evaluation_20251003_160719.json",
+      "evaluation_20251003_160721.json",
+      "evaluation_20251003_160726.json",
+      "evaluation_20251003_160729.json",
+      "evaluation_20251003_160731.json"
+    ],
+    "issue_counts": {
+      "linguistic": 28,
+      "localization": 4
+    }
+  },
+  "issues": {
+    "linguistic": [
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "hauptseteig",
+        "correction": "hauptsächlich",
+        "description": "The word 'hauptseteig' is a misspelling and does not exist in German. The correct term is 'hauptsächlich', which means 'mainly' or 'primarily'. This error affects comprehension and should be corrected for clarity.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "hauesteig",
+        "correction": "hauptsächlich",
+        "description": "The word 'hauesteig' is a misspelling and does not exist in German. The intended word is 'hauptsächlich', which means 'mainly' or 'primarily'. This error impairs understanding and must be corrected.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Stellvertreter des Göttervaters, Akumu-Osiris",
+        "correction": "Stellvertreter des Gottes Osiris",
+        "description": "The term 'Akumu-Osiris' is not historically or culturally accurate in the context of ancient Egyptian religion. Osiris is the correct deity referenced as the god of the afterlife. 'Göttervater' is also not a standard term in Egyptology; 'Gott' or 'Götter' would be more appropriate. This correction ensures both lexical precision and cultural accuracy.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Physikalische Anpassungen beinhalten immer Veränderungen im Verhalten von Tieren.",
+        "correction": "Physikalische Anpassungen beinhalten immer Veränderungen am Körperbau von Tieren.",
+        "description": "The original statement incorrectly uses 'Verhalten' (behavior) in the context of 'physikalische Anpassungen' (physical adaptations). Physical adaptations refer to changes in the body structure, not behavior. The corrected version replaces 'Verhalten' with 'Körperbau' to accurately reflect the intended meaning. This is a lexical error that could mislead learners about the distinction between physical and behavioral adaptations.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Der Polarfuchs und die Kaktuszaunkönigin haben physische und Verhaltensanpassungen, um in ihren jeweiligen Umgebungen zu überleben.",
+        "correction": "Der Polarfuchs und die Kaktuszaunkönigin haben physische und Verhaltensanpassungen, um in ihren jeweiligen Umgebungen zu überleben.",
+        "description": "The sentence is grammatically correct, but the noun 'Kaktuszaunkönigin' is not standard in German. The correct term for the bird is 'Kaktuszaunkönig'. Using the feminine form 'Königin' is a lexical error and may confuse learners, as it does not refer to the actual species. The rest of the sentence is accurate in terms of grammar and structure.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Ihr dicker Fell ist eine physikalische Anpassung, die ihnen hilft, das extreme Klima zu überstehen.",
+        "correction": "Ihr dickes Fell ist eine physikalische Anpassung, die ihnen hilft, das extreme Klima zu überstehen.",
+        "description": "The phrase 'Ihr dicker Fell' contains a gender agreement error. 'Fell' is a neuter noun in German, so the correct adjective ending is 'dickes', not 'dicker'. This is a grammatical and orthographic issue that affects the accuracy of the sentence.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Variablen sind entscheidend für die Lösung von Gleichungen, da sie es uns ermöglichen, die Unbekannten zu erfinden.",
+        "correction": "Variablen sind entscheidend für die Lösung von Gleichungen, da sie es uns ermöglichen, die Unbekannten zu finden.",
+        "description": "The word 'erfinden' is incorrect in this context; it means 'to invent' rather than 'to find'. The correct verb is 'finden', which means 'to find' or 'to determine'. This lexical error could confuse learners about the role of variables in equations.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "In der Gleichung 12 + x = 20 repräsentiert der Term 'x' die zusätzlichen Geldbeträge, die benötigt werden, um das Buch zu kaufen, nicht die Gesamtkosten des Buches.",
+        "correction": "In der Gleichung 12 + x = 20 repräsentiert der Term 'x' den zusätzlichen Geldbetrag, der benötigt wird, um das Buch zu kaufen, nicht die Gesamtkosten des Buches.",
+        "description": "The plural 'die zusätzlichen Geldbeträge' is incorrect because the equation refers to a single unknown amount. The singular 'den zusätzlichen Geldbetrag' is grammatically and contextually correct. This improves precision and clarity.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical|Grammar",
+        "original": "sie sind hauptseteled in der ATP-Produktion, die Energie liefert.",
+        "correction": "sie sind hauptsächlich an der ATP-Produktion beteiligt, die Energie liefert.",
+        "description": "The word 'hauptseteled' is a misspelling and not a valid German word; the correct term is 'hauptsächlich'. The phrase 'in der ATP-Produktion' should be clarified to 'an der ATP-Produktion beteiligt' for proper lexical and grammatical usage. This correction improves both word choice and sentence structure.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar|Lexical",
+        "original": "DNA-Synthese findet in der Zellkern statt.",
+        "correction": "DNA-Synthese findet im Zellkern statt.",
+        "description": "The preposition 'in' with 'Zellkern' requires the dative case, so 'im Zellkern' is correct instead of 'in der Zellkern'. Additionally, 'Zellkern' is masculine, so the article must be 'im' (in dem). This correction addresses both case usage and article agreement.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar|Lexical",
+        "original": "Eine Zelle benötigt einen Zellkern, um ihre Funktionen zu steuern und als Zellkern bekannt.",
+        "correction": "Eine Zelle benötigt einen Zellkern, um ihre Funktionen zu steuern.",
+        "description": "The phrase 'und als Zellkern bekannt' is grammatically incorrect and semantically unclear, as it does not logically follow in this context. The sentence should end after 'zu steuern' to maintain clarity and correctness.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar|Lexical",
+        "original": "Mitochondrien sind die Zelle, die für die Energieproduktion verantwortlich ist.",
+        "correction": "Mitochondrien sind die Zellbestandteile, die für die Energieproduktion verantwortlich sind.",
+        "description": "The sentence incorrectly refers to 'Mitochondrien' (plural) as 'die Zelle' (singular), which is a grammatical error. The correct term is 'Zellbestandteile' (cell components), and the verb should agree in plural form: 'verantwortlich sind'.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Sein Führung während des Marsches auf Washington ist in der Geschichte der Bewegung festgehalten.",
+        "correction": "Seine Führung während des Marsches auf Washington ist in der Geschichte der Bewegung festgehalten.",
+        "description": "The possessive pronoun 'Sein' is incorrect here; it should be 'Seine' to agree in gender and case with the feminine noun 'Führung'. This is a grammatical error affecting gender agreement.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Einige Klimazonen wie die trockenen oder ariden zeichnen sich durch eine geringe Menge an Niederschlag aus, die über den Jahresverlauf hinweg variiert.",
+        "correction": "Einige Klimazonen wie die trockenen oder ariden zeichnen sich durch eine geringe Menge an Niederschlag aus, die im Jahresverlauf variiert.",
+        "description": "The phrase 'über den Jahresverlauf hinweg variiert' is unnecessarily wordy and less idiomatic in German. 'Im Jahresverlauf variiert' is the standard and more natural expression. This improves clarity and linguistic precision.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Die Temperatur in Klimazonen variiert nicht nur aufgrund der Breite, sondern auch durch andere Faktoren wie Höhe, Entfernung von Wasserflächen oder geographische Merkmale.",
+        "correction": "Die Temperatur in Klimazonen variiert nicht nur aufgrund der Breite, sondern auch aufgrund anderer Faktoren wie Höhe, Entfernung von Wasserflächen oder geographischer Merkmale.",
+        "description": "The phrase 'auch durch andere Faktoren' is grammatically incorrect; the correct preposition is 'aufgrund' to match the earlier part of the sentence. Additionally, 'geographische Merkmale' should be in the genitive case: 'geographischer Merkmale'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "In höheren Lagen über dem Meeresspiegel sinkt die Temperatur tendenziell, ein Phänomen, das als Temperaturgradient bezeichnet wird.",
+        "correction": "In höheren Lagen über dem Meeresspiegel sinkt die Temperatur tendenziell – ein Phänomen, das als Temperaturgradient bezeichnet wird.",
+        "description": "The comma before 'ein Phänomen' should be replaced with an em dash or a semicolon to properly separate the main clause from the explanatory clause, improving sentence structure and readability.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Der Einfluss von solchen Meeresströmungen auf das Wetter und Klima lässt sich anhand des Temperaturunterschieds entlang der Küste erkennen.",
+        "correction": "Der Einfluss solcher Meeresströmungen auf Wetter und Klima lässt sich anhand des Temperaturunterschieds entlang der Küste erkennen.",
+        "description": "The phrase 'von solchen Meeresströmungen' is incorrect; the genitive 'solcher Meeresströmungen' is required. Also, 'auf das Wetter und Klima' should be 'auf Wetter und Klima' for parallel structure and conciseness.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Das Vorhandensein von Wasserflächen wie Ozeanen oder großen Seen kann die Niederschlagsmuster eines Gebiets beeinflussen.",
+        "correction": "Das Vorhandensein von Wasserflächen wie Ozeanen oder großen Seen kann das Niederschlagsmuster eines Gebiets beeinflussen.",
+        "description": "The plural 'Niederschlagsmuster' is less idiomatic in this context; the singular 'Niederschlagsmuster' is preferred when referring to the general pattern for a region.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Dieses Phänomen ist nicht auf heiße Sommer oder kalte Winter beschränkt, sondern beeinflusst das gesamte Klima signifikant durch die Zusatzversorgung von Feuchtigkeit.",
+        "correction": "Dieses Phänomen ist nicht auf heiße Sommer oder kalte Winter beschränkt, sondern beeinflusst das gesamte Klima signifikant durch die zusätzliche Versorgung mit Feuchtigkeit.",
+        "description": "The phrase 'Zusatzversorgung von Feuchtigkeit' is awkward and not standard German. 'Zusätzliche Versorgung mit Feuchtigkeit' is the correct and natural expression.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Das ist richtig, weil die Tropische Klimazone durch ihre hohe Luftfeuchtigkeit und reichlichen Niederschläge gekennzeichnet ist, was ein wichtiger Faktor für ihre charakteristischen heißen Temperaturen ist.",
+        "correction": "Das ist richtig, weil die tropische Klimazone durch ihre hohe Luftfeuchtigkeit und reichlichen Niederschlägen gekennzeichnet ist, was ein wichtiger Faktor für ihre charakteristisch heißen Temperaturen ist.",
+        "description": "The noun 'tropische Klimazone' should not be capitalized as an adjective. 'Reichlichen Niederschlägen' requires dative case after 'durch', and 'charakteristisch heißen Temperaturen' is the correct adjective-noun combination.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Variablen sind flexibel und können mehr als einen Wert speichern.",
+        "correction": "Variablen sind flexibel und können nacheinander verschiedene Werte speichern.",
+        "description": "The original sentence suggests that a variable can simultaneously store more than one value, which is misleading in most programming languages, including Python. A variable can be reassigned to different values over time, but it does not hold multiple values at once unless it is a collection type. The correction clarifies this concept for educational accuracy.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Variablen können mehr als einen Wert haben.",
+        "correction": "Variablen können im Laufe eines Programms verschiedene Werte annehmen.",
+        "description": "The original sentence is misleading from a technical perspective. In programming, a variable can only hold one value at a time, but this value can change during program execution. The phrase 'mehr als einen Wert haben' could be interpreted as a variable holding multiple values simultaneously, which is incorrect. The correction clarifies that variables can take on different values over time, which is the intended meaning.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Datenbanken sind tatsächlich ein wichtiger Aspekt der Programmierung, der zur Speicherung und Organisation großer Datenmengen, einschließlich Eingabe- und Ausgabedaten, genutzt wird.",
+        "correction": "Datenbanken sind tatsächlich ein wichtiger Aspekt der Programmierung, die zur Speicherung und Organisation großer Datenmengen, einschließlich Eingabe- und Ausgabedaten, genutzt werden.",
+        "description": "The original sentence incorrectly uses 'der' to refer to 'Datenbanken', which is plural and feminine. The relative pronoun should be 'die' to match the gender and number of 'Datenbanken'. This is a grammatical error affecting agreement.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "In Navigations-Apps ist die Berechnung der schnellsten Route tatsächlich eine Funktion von Algorithmen, nicht von Variablen.",
+        "correction": "In Navigations-Apps ist die Berechnung der schnellsten Route tatsächlich Aufgabe von Algorithmen, nicht von Variablen.",
+        "description": "The phrase 'eine Funktion von Algorithmen' is a literal translation from English ('a function of algorithms') and is unnatural in German in this context. The more idiomatic expression is 'Aufgabe von Algorithmen', which better conveys that algorithms are responsible for the calculation.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Ein Algorithmus benötigt Variablen, um Daten zu speichern und zu manipulieren.",
+        "correction": "Ein Algorithmus benötigt Variablen, um Daten zu speichern und zu verarbeiten.",
+        "description": "The verb 'manipulieren' can have a negative connotation in German and is less commonly used in educational contexts for programming basics. 'Verarbeiten' is more neutral and appropriate for describing what algorithms do with data.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "In Python können Variablen sowohl eine einzelne Datenmenge, wie eine Zahl, als auch mehrere Daten sammeln, was als 'Listen' oder 'Dictionaries' bezeichnet wird.",
+        "correction": "In Python können Variablen sowohl eine einzelne Datenmenge, wie eine Zahl, als auch mehrere Daten speichern, was als 'Listen' oder 'Dictionaries' bezeichnet wird.",
+        "description": "The use of 'sammeln' is not precise in this context. The correct verb is 'speichern', which accurately describes the ability of variables to store data. 'Sammeln' implies collecting, which is less appropriate for describing variable assignment in programming. This correction improves lexical precision and technical accuracy.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "das gemeinte Gesagte",
+        "correction": "das Gemeinte",
+        "description": "The phrase 'das gemeinte Gesagte' is awkward and redundant in German. 'Gesagte' already refers to what is said, and 'gemeint' to what is meant. The standard and natural German expression is simply 'das Gemeinte', which clearly conveys the intended meaning. This correction improves lexical precision and naturalness.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "zu einem gemeinsamen Verständnis führen",
+        "correction": "zu gegenseitigem Verständnis führen",
+        "description": "The phrase 'zu einem gemeinsamen Verständnis führen' is grammatically correct but less precise in the context of conflict resolution. 'Gegenseitiges Verständnis' is the standard term in German for mutual understanding, especially in interpersonal relationships. This correction enhances lexical precision and aligns with common usage in educational and psychological contexts.",
+        "severity": "MINOR"
+      }
+    ],
+    "localization": [
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Gleichungen hingegen würden das Gleichheitszeichen enthalten, um eine Lösung zu finden.",
+        "correction": "Gleichungen hingegen enthalten das Gleichheitszeichen, um eine Lösung zu finden.",
+        "description": "The use of 'würden' (would) is unnecessary and unnatural in this context. In educational German, the present tense is preferred for general truths. This improves the naturalness and clarity of the explanation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Strömungen wie der Golfstrom spielen eine entscheidende Rolle bei der Moderation der Temperaturen in Küstengebieten.",
+        "correction": "Strömungen wie der Golfstrom spielen eine entscheidende Rolle bei der Regulierung der Temperaturen in Küstengebieten.",
+        "description": "The term 'Moderation der Temperaturen' is an anglicism and not idiomatic in German scientific or educational contexts. 'Regulierung der Temperaturen' is the standard and natural term in German climatology.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "In Python werden Variablen dynamisch zugewiesen, was bedeutet, dass sie verschiedene Datentypen annehmen können, solange sie zu dem zugewiesenen Wert passen.",
+        "correction": "In Python werden Variablen dynamisch zugewiesen, was bedeutet, dass sie verschiedene Datentypen annehmen können, abhängig vom jeweils zugewiesenen Wert.",
+        "description": "The phrase 'solange sie zu dem zugewiesenen Wert passen' is somewhat unnatural and could be confusing for learners. The correction uses a more natural and clear expression, improving the educational tone and clarity for German-speaking audiences.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "was als 'Listen' oder 'Dictionaries' bezeichnet wird",
+        "correction": "was als 'Listen' oder 'Wörterbücher' bezeichnet wird",
+        "description": "The term 'Dictionaries' is an English loanword. In German technical contexts, 'Wörterbuch' is the standard translation for Python's dictionary data type. Using the German term ensures consistency and naturalness for German-speaking learners.",
+        "severity": "MINOR"
+      }
+    ]
+  }
+}

@@ -1,0 +1,291 @@
+{
+  "metadata": {
+    "label": "slm",
+    "label_normalized": "slm",
+    "label_key": "slm",
+    "language": "portuguese",
+    "generated_at": "2025-10-03T16:12:05.121033"
+  },
+  "top_error_patterns": [
+    {
+      "pattern_name": "Factual Inaccuracy in Technical Terminology",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "HIGH",
+      "frequency": "common",
+      "frequency_count": 2,
+      "description": "Recurring errors in the use of technical terms or concepts, resulting in misleading or incorrect information for learners.",
+      "examples": [
+        {
+          "wrong": "O retículo endoplasmático liso, sem ribossomos, é especializado na elaboração de proteínas que a célula vai liberar para fora.",
+          "correct": "O retículo endoplasmático liso, sem ribossomos, é especializado na elaboração de lipídios e no metabolismo de carboidratos, não na síntese de proteínas para secreção.",
+          "context": "Confusion between functions of smooth and rough endoplasmic reticulum in biology content."
+        },
+        {
+          "wrong": "Variáveis podem armazenar vários tipos de informações simultaneamente.",
+          "correct": "Variáveis podem armazenar diferentes tipos de informações, mas apenas um tipo de dado por vez.",
+          "context": "Misrepresentation of variable data types in programming education."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Misleading Lexical Choice Altering Meaning",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "HIGH",
+      "frequency": "common",
+      "frequency_count": 2,
+      "description": "Use of incorrect or inappropriate words that significantly change the intended meaning, potentially causing misunderstanding of key concepts.",
+      "examples": [
+        {
+          "wrong": "Dr. King foi uma figura proeminente nos anos 60, defendendo a igualdade racial por meio de boatos pacíficos e discursos inspiradores.",
+          "correct": "Dr. King foi uma figura proeminente nos anos 60, defendendo a igualdade racial por meio de protestos pacíficos e discursos inspiradores.",
+          "context": "Confusion between 'boatos' (rumors) and 'protestos' (protests) in historical context."
+        },
+        {
+          "wrong": "O formador de zonas climáticas é influenciado por vários fatores...",
+          "correct": "A formação das zonas climáticas é influenciada por vários fatores...",
+          "context": "Incorrect noun choice leading to unnatural phrasing in scientific explanation."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect Gender Agreement with Nouns",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "HIGH",
+      "frequency": "common",
+      "frequency_count": 1,
+      "description": "Frequent misuse of articles or adjectives that do not match the grammatical gender of the noun, leading to confusion and incorrect language modeling.",
+      "examples": [
+        {
+          "wrong": "pelos mitocôndrias",
+          "correct": "pelas mitocôndrias",
+          "context": "Mismatch between masculine article and feminine noun in scientific terminology."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Lexical Inaccuracy and Non-idiomatic Word Choice",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "MEDIUM",
+      "frequency": "very_common",
+      "frequency_count": 4,
+      "description": "Use of words or phrases that are not idiomatic or precise in Brazilian Portuguese, including regionalisms, redundancy, and unnatural expressions. This affects clarity and local appropriateness.",
+      "examples": [
+        {
+          "wrong": "Camaleões são conhecidos por sua capacidade de se misturar com o entorno...",
+          "correct": "Camaleões são conhecidos por sua capacidade de se misturar ao ambiente...",
+          "context": "Use of 'entorno' instead of the more natural 'ambiente'."
+        },
+        {
+          "wrong": "Em álgebra, variáveis ... como quantidades, quantidades de substâncias químicas...",
+          "correct": "Em álgebra, variáveis ... como quantidades, substâncias químicas...",
+          "context": "Redundant phrase; streamlining improves clarity."
+        },
+        {
+          "wrong": "Variáveis em um programa podem armazenar só uma vez.",
+          "correct": "Variáveis em um programa podem armazenar valores apenas uma vez.",
+          "context": "Non-idiomatic 'só uma vez' and missing object; 'apenas uma vez' is clearer."
+        },
+        {
+          "wrong": "A membrana celular é bastante selectiva...",
+          "correct": "A membrana celular é bastante seletiva...",
+          "context": "European Portuguese spelling 'selectiva' instead of Brazilian 'seletiva'."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect or Missing Prepositions and Contractions",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Omission or misuse of required prepositions and contractions (crase), leading to grammatically incorrect or unnatural sentences.",
+      "examples": [
+        {
+          "wrong": "A arte egípcia servia múltiplos propósitos, não apenas decoração.",
+          "correct": "A arte egípcia servia a múltiplos propósitos, não apenas à decoração.",
+          "context": "Missing 'a' and 'à' before objects of 'servir'."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Inaccurate Syntax in Rule Descriptions",
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Incorrectly specifying rules or structures, such as programming conventions, resulting in misleading or incomplete information.",
+      "examples": [
+        {
+          "wrong": "Os nomes devem começar com uma letra minúscula ou um underscore seguido de uma letra minúscula.",
+          "correct": "Os nomes devem começar com uma letra ou um underscore.",
+          "context": "Overly restrictive and inaccurate description of variable naming rules."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Culturally Inaccurate or Misleading Descriptions",
+      "category": "localization",
+      "subcategory": "Lexical",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Misrepresentation of culturally or geographically specific facts due to literal translation or lack of contextual adaptation, leading to misleading information.",
+      "examples": [
+        {
+          "wrong": "Deserto do Saara, onde as temperaturas são extremamente baixas.",
+          "correct": "Deserto do Saara, onde as temperaturas podem ser extremamente altas durante o dia e baixas à noite.",
+          "context": "Geographical facts in quiz content; original text fails to reflect local climate reality."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Literal Translation of Idiomatic Expressions",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Direct translation of English idioms or phrases results in unnatural or non-idiomatic Portuguese, reducing clarity and fluency.",
+      "examples": [
+        {
+          "wrong": "a perspectiva um do outro",
+          "correct": "a perspectiva uma da outra",
+          "context": "Interpersonal communication context; literal translation from English ('each other's perspective') instead of idiomatic Portuguese."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Inappropriate Contextual Terminology",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Use of terms that are contextually inappropriate for the target audience, such as workplace-specific language in educational settings.",
+      "examples": [
+        {
+          "wrong": "ambiente de trabalho mais cooperativo",
+          "correct": "ambiente mais cooperativo",
+          "context": "General educational context; 'ambiente de trabalho' is too narrow and excludes non-workplace scenarios."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Redundant or Unnecessary Pronoun Usage",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "LOW",
+      "frequency": "common",
+      "frequency_count": 2,
+      "description": "Repeated use of pronouns or possessives where the subject is already clear, leading to redundancy and less natural sentence flow.",
+      "examples": [
+        {
+          "wrong": "Quando as pessoas permanecem calmas, elas podem ouvir melhor e entender melhor as perspectivas dos outros.",
+          "correct": "Quando as pessoas permanecem calmas, podem ouvir melhor e entender melhor as perspectivas dos outros.",
+          "context": "Unnecessary 'elas' after explicit subject."
+        },
+        {
+          "wrong": "Eles conseguem absorver água suficiente da sua dieta...",
+          "correct": "Eles conseguem absorver água suficiente de sua dieta...",
+          "context": "Redundant possessive 'da sua dieta' instead of 'de sua dieta'."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Lexical Formality and Precision",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "LOW",
+      "frequency": "common",
+      "frequency_count": 2,
+      "description": "Use of less formal or less precise vocabulary where a more standard or idiomatic term is preferred in educational contexts.",
+      "examples": [
+        {
+          "wrong": "A programação não é usada em muitas indústrias.",
+          "correct": "A programação não é utilizada em muitas indústrias.",
+          "context": "Preference for 'utilizada' over 'usada' in formal writing."
+        },
+        {
+          "wrong": "Fontes como estudos científicos revisados por pares são consideradas de alta confiabilidade...",
+          "correct": "Fontes como estudos científicos revisados por pares são consideradas altamente confiáveis...",
+          "context": "Use of 'altamente confiáveis' is more idiomatic than 'de alta confiabilidade'."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Unnecessary Repetition and Redundancy",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 2,
+      "description": "Repetition of words or phrases in close proximity, which can make sentences awkward or less clear.",
+      "examples": [
+        {
+          "wrong": "como pode ser observado em situações comuns, como no ambiente escolar.",
+          "correct": "como pode ser observado em situações comuns no ambiente escolar.",
+          "context": "Redundant use of 'como' in the same sentence."
+        },
+        {
+          "wrong": "para incluir a construção, a compreensão e a análise...",
+          "correct": "incluindo a construção, compreensão e análise...",
+          "context": "Repeated articles and unnecessary quotation marks."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Omission of Contextual Terminology",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Omitting key terms that provide necessary context, which can reduce clarity and consistency in educational materials.",
+      "examples": [
+        {
+          "wrong": "Isso influenciou profundamente a estrutura social e o governo do Egito.",
+          "correct": "Isso influenciou profundamente a estrutura social e o governo do Egito Antigo.",
+          "context": "Missing 'Antigo' to specify 'Ancient Egypt'."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Gender and number agreement for technical terms",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Technical terms like 'string' are sometimes mistranslated without proper gender and number agreement, leading to unnatural phrasing in Portuguese.",
+      "examples": [
+        {
+          "wrong": "Strings podem ser armazenados como números.",
+          "correct": "Strings podem ser armazenadas como números.",
+          "context": "Occurs when translating programming terminology; 'string' is feminine in Portuguese and should agree with verbs/adjectives."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Overly formal phrasing in educational context",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Use of formal or less natural expressions that do not match the tone expected for educational content aimed at younger audiences.",
+      "examples": [
+        {
+          "wrong": "resolução harmoniosa dos conflitos",
+          "correct": "solução pacífica dos conflitos",
+          "context": "Appears in educational materials where a more natural, age-appropriate phrase is preferred for clarity and engagement."
+        }
+      ]
+    }
+  ]
+}

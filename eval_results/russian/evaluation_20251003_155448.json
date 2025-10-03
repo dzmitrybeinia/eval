@@ -1,0 +1,68 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "🌟",
+      "correction": "",
+      "description": "The use of the star emoji at the end of the introductory paragraph is not standard in Russian educational materials, especially in formal or semi-formal contexts. While emojis can be engaging for younger audiences, their use should be carefully considered for appropriateness and consistency. In this context, the emoji may detract from the professional tone of the lesson. It is recommended to remove the emoji to maintain a neutral and formal style suitable for educational content.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Нерешённые конфликты могут вызывать стресс и негативные эмоции.",
+      "correction": "Нерешённые конфликты могут вызывать стресс и негативные эмоции.",
+      "description": "The word 'Нерешённые' is spelled correctly with the letter 'ё', which is the standard in educational and formal texts. However, in many Russian publications, 'ё' is often replaced with 'е' due to typographical conventions. For educational clarity and to avoid ambiguity, it is preferable to retain 'ё' in this context. No correction is needed, but educators should be aware of this orthographic convention.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Используйте «Я»-утверждения:",
+      "correction": "Используйте «Я»-высказывания:",
+      "description": "The term '«Я»-утверждения' is a direct translation of the English 'I-statements', but it is not the most natural or commonly used term in Russian educational or psychological literature. The more accepted and natural term is '«Я»-высказывания'. Using the standard term improves clarity and aligns with local professional terminology.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Я чувствую себя неуслышанным, когда пытаюсь поделиться своими мыслями",
+      "correction": "Я чувствую себя неуслышанным, когда пытаюсь поделиться своими мыслями.",
+      "description": "The example sentence is missing a period at the end, which is required for proper punctuation in Russian. Additionally, the phrase is natural and appropriate, but ensure punctuation is consistent throughout examples for clarity and professionalism.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Сделайте глубокий вдох, если эмоции накаляются.",
+      "correction": "Сделайте глубокий вдох, если эмоции накаляются.",
+      "description": "The phrase is natural and appropriate for Russian educational content. However, in some contexts, a more formal alternative such as 'Постарайтесь успокоиться, если эмоции накаляются.' may be preferred. The current version is acceptable, but educators should consider the target audience's age and context.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Conflict_Resolution.llm.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T15:54:48.297157",
+    "model": "Azure OpenAI o3-mini",
+    "label": "llm",
+    "label_normalized": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 4,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.5,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

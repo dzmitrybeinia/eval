@@ -1,0 +1,68 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "liczby zmienniste",
+      "correction": "liczby zmiennoprzecinkowe",
+      "description": "The term 'liczby zmienniste' is incorrect in Polish when referring to floating-point numbers. The proper technical term is 'liczby zmiennoprzecinkowe'. This error affects the clarity and technical accuracy of the feedback.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "nie wykonywa żadnych operacji",
+      "correction": "nie wykonuje żadnych operacji",
+      "description": "The verb 'wykonywa' is incorrectly conjugated; the correct form is 'wykonuje'. This is a grammatical error affecting verb conjugation and agreement in Polish.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "system calls lub 'system calls'",
+      "correction": "wywołania systemowe",
+      "description": "The phrase 'system calls' is used in English and repeated unnecessarily. In Polish, the correct technical term is 'wywołania systemowe'. Using the English term here is inappropriate and affects both lexical precision and localization quality.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "nie na liczbę znaków",
+      "correction": "nie na liczbę znaków użytkownika",
+      "description": "The phrase 'nie na liczbę znaków' is incomplete and lacks clarity. It should specify 'nie na liczbę znaków użytkownika' to clearly indicate what is not being counted. This affects grammatical completeness and clarity.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Obejmuje ono również liczby dziesiętne, tekst, i inne.",
+      "correction": "Obejmuje to również liczby dziesiętne, tekst i inne.",
+      "description": "The pronoun 'ono' is incorrect here; 'to' is the proper pronoun for referring to the concept of variable types. Additionally, the comma before 'i inne' is unnecessary. This affects grammatical agreement and punctuation.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Computer_Programming.slm.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T16:04:13.651171",
+    "model": "Azure OpenAI o3-mini",
+    "label": "slm",
+    "label_normalized": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 8.9,
+    "classification": "PROFESSIONAL",
+    "total_issues": 5,
+    "total_penalty": 1.1,
+    "issue_breakdown": {
+      "linguistic": 5,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.1,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "metadata": {
+    "label": "llm",
+    "label_normalized": "llm",
+    "label_key": "llm",
+    "language": "spanish",
+    "generated_at": "2025-10-03T15:58:11.470891"
+  },
+  "top_error_patterns": [
+    {
+      "pattern_name": "Pronoun and adjective agreement mismatch",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "HIGH",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Incorrect use of pronouns and adjectives that do not agree in number or gender with the noun, leading to confusion and reduced clarity.",
+      "examples": [
+        {
+          "wrong": "Su grueso pelaje y capa de grasa los mantienen calientes en el Ártico.",
+          "correct": "Su grueso pelaje y capa de grasa lo mantienen caliente en el Ártico.",
+          "context": "Refers to 'oso polar' (singular), but uses plural pronoun and adjective."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Non-standard academic terminology",
+      "category": "localization",
+      "subcategory": "Terminology",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 2,
+      "description": "Use of terms or metaphors that are not standard in Spanish academic or educational contexts, which may cause confusion or reduce clarity for learners.",
+      "examples": [
+        {
+          "wrong": "paneles solares de las células vegetales",
+          "correct": "captadores de energía de las células vegetales",
+          "context": "Biology quiz item describing chloroplasts using a non-standard metaphor."
+        },
+        {
+          "wrong": "Pensamiento grupal",
+          "correct": "Pensamiento de grupo",
+          "context": "Critical thinking quiz item using a less conventional term for 'groupthink'."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Omission of required prepositions in set phrases",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Set phrases in Spanish often require specific prepositions for grammatical correctness and clarity. Omitting these prepositions leads to awkward or incorrect expressions that may hinder comprehension.",
+      "examples": [
+        {
+          "wrong": "pesca pequeña escala",
+          "correct": "pesca a pequeña escala",
+          "context": "Used to describe activities performed on a small scale; missing 'a' makes the phrase ungrammatical."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Use of emojis in formal educational content",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "LOW",
+      "frequency": "very_common",
+      "frequency_count": 6,
+      "description": "Emojis such as 🌍, ✨, and 🌟 are used in introductions and explanations, which is considered informal and distracting in Spanish educational materials. Removing them maintains a professional and culturally appropriate tone.",
+      "examples": [
+        {
+          "wrong": "Descubriremos las increíbles adaptaciones físicas y comportamentales que permiten a los animales prosperar en diferentes ecosistemas del mundo. 🌍✨",
+          "correct": "Descubriremos las increíbles adaptaciones físicas y comportamentales que permiten a los animales prosperar en diferentes ecosistemas del mundo.",
+          "context": "Lesson introductions and summaries"
+        },
+        {
+          "wrong": "Prepárate para aprender habilidades esenciales que te serán útiles en todos los aspectos de tu vida. 🌟",
+          "correct": "Prepárate para aprender habilidades esenciales que te serán útiles en todos los aspectos de tu vida.",
+          "context": "Motivational statements in educational content"
+        },
+        {
+          "wrong": "¡Bienvenidos! Hoy vamos a viajar en el tiempo para descubrir una de las civilizaciones más fascinantes de la historia: el Antiguo Egipto. ... 🌍",
+          "correct": "¡Bienvenidos! Hoy vamos a viajar en el tiempo para descubrir una de las civilizaciones más fascinantes de la historia: el Antiguo Egipto. ...",
+          "context": "Introductory paragraphs"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Unnecessary capitalization of common nouns and movement names",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "LOW",
+      "frequency": "common",
+      "frequency_count": 4,
+      "description": "Capitalization of words like 'Campaña', 'Ley de Derechos Civiles', and movement names is inconsistent with Spanish norms, where only the first word and proper nouns are capitalized. This affects naturalness and cultural fit.",
+      "examples": [
+        {
+          "wrong": "Madre del Movimiento por los Derechos Civiles",
+          "correct": "Madre del movimiento por los derechos civiles",
+          "context": "References to social movements"
+        },
+        {
+          "wrong": "Ley de Derechos Civiles de 1964",
+          "correct": "Ley de derechos civiles de 1964",
+          "context": "Legal and historical event names"
+        },
+        {
+          "wrong": "Campaña de Birmingham",
+          "correct": "campaña de Birmingham",
+          "context": "Event names in historical context"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Non-idiomatic or unnatural phrasing",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "LOW",
+      "frequency": "common",
+      "frequency_count": 4,
+      "description": "Phrases are translated literally or use structures that are understandable but less natural in Spanish, affecting readability and idiomatic flow.",
+      "examples": [
+        {
+          "wrong": "Usar letras minúsculas para consistencia.",
+          "correct": "Usar letras minúsculas para mantener la consistencia.",
+          "context": "Instructions and guidelines"
+        },
+        {
+          "wrong": "Alejarse de una discusión y regresar más tarde con una mente más tranquila.",
+          "correct": "Alejarse de una discusión y regresar más tarde con la mente más tranquila.",
+          "context": "Advice and behavioral tips"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Terminology inconsistency or regional preference",
+      "category": "localization",
+      "subcategory": "Terminology",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 3,
+      "description": "Terms like 'Flotante', 'IMPRIMIR', and 'llegar a un punto medio' are technically correct but less common or less clear than preferred alternatives in Spanish educational contexts. Adjusting terminology improves clarity and regional fit.",
+      "examples": [
+        {
+          "wrong": "Flotante",
+          "correct": "Decimal",
+          "context": "Programming and math lessons"
+        },
+        {
+          "wrong": "Compromiso: Cada persona cede algo para llegar a un punto medio.",
+          "correct": "Compromiso: Cada persona cede algo para llegar a un acuerdo.",
+          "context": "Conflict resolution explanations"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Use of English loanwords or less idiomatic verbs",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 2,
+      "description": "Verbs like 'Monitorear' and 'Gestionar' are direct loans from English or less idiomatic in Spanish educational contexts. Preferred alternatives such as 'Registrar' and 'Administrar' improve naturalness.",
+      "examples": [
+        {
+          "wrong": "Monitorear puntajes en juegos.",
+          "correct": "Registrar puntajes en juegos.",
+          "context": "Describing actions in educational activities"
+        },
+        {
+          "wrong": "Gestionar inventarios en tiendas virtuales.",
+          "correct": "Administrar inventarios en tiendas en línea.",
+          "context": "Business and technology lessons"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Use of less idiomatic expressions for indecision",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "The translation uses literal or less natural expressions to convey indecision, which may sound slightly awkward to native speakers. More idiomatic phrasing improves fluency and clarity.",
+      "examples": [
+        {
+          "wrong": "Sentirse dividido entre asistir a una fiesta o estudiar para un examen importante.",
+          "correct": "Dudar entre asistir a una fiesta o estudiar para un examen importante.",
+          "context": "Describing a situation of indecision in quiz content."
+        }
+      ]
+    }
+  ]
+}

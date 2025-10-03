@@ -1,0 +1,60 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "En el lenguaje de programación, los enteros son capaces de almacenar números sin signo, lo que incluye valores positivos y negativos. Esto es fundamental para manejar operaciones matemáticas que requieren substractar o añadir cantidades de valor negativo.",
+      "correction": "En programación, los enteros son capaces de almacenar números con o sin signo, lo que incluye valores positivos y negativos. Esto es fundamental para manejar operaciones matemáticas que requieren restar o añadir cantidades de valor negativo.",
+      "description": "The phrase 'números sin signo' is incorrect in this context, as it means 'unsigned numbers', which only includes positive values. The correct explanation should mention that integers can be signed or unsigned, and that signed integers include both positive and negative values. Additionally, 'substractar' is not a correct Spanish verb; the proper term is 'restar'.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "En la programación, los nombres de variables deben comenzar con una letra o un guion bajo (_), no con un número. Esto ayuda a mantener la claridad y las convenciones de programación establecidas.",
+      "correction": "En programación, los nombres de variables deben comenzar con una letra o un guion bajo (_), no con un número. Esto ayuda a mantener la claridad y las convenciones de programación establecidas.",
+      "description": "The phrase 'En la programación' is less natural in Spanish; 'En programación' is the standard and more concise form used in educational and technical contexts. This improves the naturalness and professionalism of the text.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Las operaciones aritméticas, como la suma, resultan en tipos numéricos, no de tipo cadena. En el ejemplo proporcionado, la suma de dos enteros (5 + 3) da como resultado un entero (8), no una cadena.",
+      "correction": "Las operaciones aritméticas, como la suma, resultan en tipos numéricos, no en tipo cadena. En el ejemplo proporcionado, la suma de dos enteros (5 + 3) da como resultado un entero (8), no una cadena.",
+      "description": "The phrase 'no de tipo cadena' should be 'no en tipo cadena' to match standard Spanish usage when referring to data types. This correction improves lexical precision and clarity.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Esta afirmación es incorrecta porque las variables en programación pueden almacenar varios tipos de datos, incluyendo enteros, cadenas de texto, booleanos, y más. La versatilidad de las variables permite su uso en una amplia gama de aplicaciones, no limitándose solo a valores enteros.",
+      "correction": "Esta afirmación es incorrecta porque las variables en programación pueden almacenar varios tipos de datos, incluidos enteros, cadenas de texto, booleanos y más. La versatilidad de las variables permite su uso en una amplia gama de aplicaciones, no limitándose solo a valores enteros.",
+      "description": "The word 'incluyendo' should be 'incluidos' to agree with 'tipos de datos' (masculine plural). Also, the comma before 'y más' is unnecessary in Spanish. These changes improve grammatical agreement and naturalness.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Computer_Programming.slm.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-03T16:02:58.793624",
+    "model": "Azure OpenAI o3-mini",
+    "label": "slm",
+    "label_normalized": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 4,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.6,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

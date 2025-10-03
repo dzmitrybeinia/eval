@@ -1,0 +1,84 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Bienvenue dans le monde passionnant de Python, un langage de programmation apprécié pour sa simplicité et sa polyvalence. Aujourd'hui, nous allons découvrir les bases de Python, notamment les variables, les types de données et les opérations d'entrée/sortie. Préparez-vous à explorer comment ces concepts peuvent être utilisés pour créer des programmes utiles et interactifs. 🚀",
+      "correction": "Bienvenue dans le monde passionnant de Python, un langage de programmation apprécié pour sa simplicité et sa polyvalence. Aujourd'hui, nous allons découvrir les bases de Python, notamment les variables, les types de données et les opérations d'entrée/sortie. Préparez-vous à explorer comment ces concepts peuvent être utilisés pour créer des programmes utiles et interactifs.",
+      "description": "The use of the rocket emoji 🚀 at the end of the introduction is not standard in formal French educational content and may be perceived as informal or distracting in some academic contexts. Removing the emoji ensures a more professional and culturally neutral tone appropriate for educational materials.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Les variables sont comme des boîtes où l'on peut ranger des informations. Elles permettent de stocker des données que le programme peut utiliser. En Python, vous n'avez pas besoin de spécifier le type de données, Python le déduit automatiquement.",
+      "correction": "Les variables sont comme des boîtes où l'on peut ranger des informations. Elles permettent de stocker des données que le programme peut utiliser. En Python, il n'est pas nécessaire de spécifier le type de données, Python le déduit automatiquement.",
+      "description": "The phrase 'vous n'avez pas besoin de spécifier le type de données' uses the informal 'vous' form, which is acceptable, but the construction is slightly less formal than the standard educational phrasing. Replacing it with 'il n'est pas nécessaire de spécifier le type de données' aligns better with the neutral, impersonal style preferred in French educational materials.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "hauteur = 1.65",
+      "correction": "hauteur = 1,65",
+      "description": "In French, the decimal separator is a comma rather than a period. Using '1,65' instead of '1.65' ensures the number format is culturally appropriate and avoids confusion for French learners.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Flottant (`float`) : nombres décimaux (ex : 3.14, -0.5).",
+      "correction": "Flottant (`float`) : nombres décimaux (ex : 3,14 ; -0,5).",
+      "description": "The examples for decimal numbers use a period as the decimal separator, which is not standard in French. French convention requires a comma, and examples should be separated by a semicolon for clarity. This correction improves both cultural appropriateness and clarity.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "print(\"La somme est :\", num1 + num2)",
+      "correction": "print(\"La somme est :\", num1 + num2)",
+      "description": "While the phrase 'La somme est :' is correct, in French educational contexts, it is more natural to use 'La somme est de :' when introducing a result. However, the current phrasing is acceptable and does not require mandatory correction.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "num1 = float(input(\"Entrez un nombre : \"))\nnum2 = float(input(\"Entrez un autre nombre : \"))",
+      "correction": "num1 = float(input(\"Entrez un nombre : \"))\nnum2 = float(input(\"Entrez un autre nombre : \"))",
+      "description": "The prompts for entering numbers do not specify the expected format (comma or period for decimals). In French, users may enter '1,5' instead of '1.5', which will cause a ValueError in Python. It is recommended to clarify the expected format in the prompt, e.g., 'Entrez un nombre (utilisez le point comme séparateur décimal) :', to avoid confusion.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "num1 = float(input(\"Entrez le premier nombre : \"))\nnum2 = float(input(\"Entrez le deuxième nombre : \"))",
+      "correction": "num1 = float(input(\"Entrez le premier nombre : \"))\nnum2 = float(input(\"Entrez le deuxième nombre : \"))",
+      "description": "Similar to previous input prompts, the instructions do not specify the decimal separator. In French, users may enter numbers with a comma, which will not be accepted by Python's float() function. Adding a note about using a period as the decimal separator would improve clarity and prevent user errors.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Computer_Programming.llm.md",
+    "language": "French",
+    "timestamp": "2025-10-03T15:53:33.976736",
+    "model": "Azure OpenAI o3-mini",
+    "label": "llm",
+    "label_normalized": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 8.9,
+    "classification": "PROFESSIONAL",
+    "total_issues": 7,
+    "total_penalty": 1.1,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 7,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 1.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,310 @@
+{
+  "metadata": {
+    "label": "slm",
+    "label_normalized": "slm",
+    "label_key": "slm",
+    "language": "polish",
+    "generated_at": "2025-10-03T16:10:47.521218"
+  },
+  "top_error_patterns": [
+    {
+      "pattern_name": "Incorrect lexical choices and non-existent words",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "HIGH",
+      "frequency": "very_common",
+      "frequency_count": 15,
+      "description": "Frequent use of incorrect vocabulary, false friends, or non-existent words that distort meaning and impede comprehension. Includes technical terms, collocations, and everyday vocabulary.",
+      "examples": [
+        {
+          "wrong": "żarowiami",
+          "correct": "żarowcami",
+          "context": "Confusion with non-existent word for architectural term"
+        },
+        {
+          "wrong": "przenośnej",
+          "correct": "ofierze",
+          "context": "Incorrect word for 'prey' in biological context"
+        },
+        {
+          "wrong": "prelecency",
+          "correct": "prelekcje",
+          "context": "Non-existent word for 'lectures'"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Subject-verb and case agreement errors",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "HIGH",
+      "frequency": "very_common",
+      "frequency_count": 13,
+      "description": "Systematic mistakes in gender, number, and case agreement between subjects, verbs, and adjectives, leading to ungrammatical and unclear sentences.",
+      "examples": [
+        {
+          "wrong": "W starożytnym Egipsku",
+          "correct": "W starożytnym Egipcie",
+          "context": "Incorrect locative case for 'Egipt'"
+        },
+        {
+          "wrong": "Mitochondria jest głównym źródłem energii",
+          "correct": "Mitochondria są głównym źródłem energii",
+          "context": "Subject-verb agreement with plural noun"
+        },
+        {
+          "wrong": "Każdy zmienna",
+          "correct": "Każda zmienna",
+          "context": "Gender agreement with feminine noun"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Spelling and orthographic errors",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "HIGH",
+      "frequency": "common",
+      "frequency_count": 7,
+      "description": "Frequent misspellings and incorrect word forms, including non-standard conjugations and case endings, which reduce professionalism and clarity.",
+      "examples": [
+        {
+          "wrong": "zazwyczniąją",
+          "correct": "upowszechniają",
+          "context": "Misspelled verb in scientific context"
+        },
+        {
+          "wrong": "zazwyczniowo",
+          "correct": "zazwyczaj",
+          "context": "Misspelled adverb in programming context"
+        },
+        {
+          "wrong": "nie wykonywa",
+          "correct": "nie wykonuje",
+          "context": "Incorrect verb conjugation"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect or awkward collocations and semantic errors",
+      "category": "linguistic",
+      "subcategory": "Style",
+      "impact_level": "HIGH",
+      "frequency": "occasional",
+      "frequency_count": 3,
+      "description": "Use of unnatural or incorrect phrase constructions and collocations, leading to awkward or unclear meaning, especially in technical and educational contexts.",
+      "examples": [
+        {
+          "wrong": "wykonywać decyzje",
+          "correct": "podejmować decyzje",
+          "context": "Incorrect verb-noun collocation for 'making decisions'"
+        },
+        {
+          "wrong": "stawiać wartość na argumenty",
+          "correct": "oceniania wartości argumentów",
+          "context": "Unnatural phrase for evaluating arguments"
+        },
+        {
+          "wrong": "zwiększyć szczegółowe rozwiązanie problemu",
+          "correct": "ułatwić szczegółowe rozwiązanie problemu",
+          "context": "Awkward phrase in social-emotional context"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Use of non-Polish loanwords and unnatural terminology",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "HIGH",
+      "frequency": "common",
+      "frequency_count": 1,
+      "description": "Czech or other foreign terms are used instead of standard Polish scientific vocabulary, resulting in unnatural phrasing and reduced clarity for Polish learners.",
+      "examples": [
+        {
+          "wrong": "mitochondria są często nazywane 'elektrarnicami komórki'",
+          "correct": "mitochondria są często nazywane 'elektrowniami komórki'",
+          "context": "Explanation of cell biology concepts"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Culturally and factually inappropriate references",
+      "category": "localization",
+      "subcategory": "Cultural",
+      "impact_level": "HIGH",
+      "frequency": "common",
+      "frequency_count": 1,
+      "description": "References to places or phenomena that are irrelevant or incorrect in the Polish context, leading to confusion and misrepresentation of facts.",
+      "examples": [
+        {
+          "wrong": "jak przypomina miasto Jastrzębie-Zdroje, znane z żywiołów morskich",
+          "correct": "Morza i oceany odgrywają znaczną rolę w regulacji klimatu.",
+          "context": "Climate and geography explanations"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Unnatural lexical choices and calques",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "MEDIUM",
+      "frequency": "very_common",
+      "frequency_count": 8,
+      "description": "Frequent use of direct loanwords, calques, or non-idiomatic phrases that do not fit Polish educational or technical contexts, reducing clarity and naturalness.",
+      "examples": [
+        {
+          "wrong": "magazynowanie wody w ciele wielbłąda to fizjologiczna adaptacja",
+          "correct": "magazynowanie wody w ciele wielbłąda to przystosowanie fizjologiczne",
+          "context": "Biology terminology; 'adaptacja' is a calque, 'przystosowanie' is standard."
+        },
+        {
+          "wrong": "regulując wzór pogodowy",
+          "correct": "regulując wzorce pogodowe",
+          "context": "Environmental science; 'wzór pogodowy' is a calque, 'wzorce pogodowe' is idiomatic."
+        },
+        {
+          "wrong": "system calls lub 'system calls'",
+          "correct": "wywołania systemowe",
+          "context": "Technical term; English phrase used instead of Polish equivalent."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Grammatical agreement and case errors",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 6,
+      "description": "Mistakes in case usage, agreement, and sentence structure that make statements awkward or unclear, affecting readability and correctness.",
+      "examples": [
+        {
+          "wrong": "Bez nazwy, zmienna nie miałaby sposobu na inicjalizowanie lub użycie przez program, co skutkowałoby błędne działanie lub błąd kompilacji.",
+          "correct": "Bez nazwy zmienna nie miałaby sposobu na inicjalizację lub użycie przez program, co skutkowałoby błędnym działaniem lub błędem kompilacji.",
+          "context": "Programming explanation; incorrect case and parallel structure."
+        },
+        {
+          "wrong": "Obejmuje ono również liczby dziesiętne, tekst, i inne.",
+          "correct": "Obejmuje to również liczby dziesiętne, tekst i inne.",
+          "context": "General explanation; pronoun and punctuation errors."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Non-idiomatic collocations and expressions",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 5,
+      "description": "Use of word combinations or expressions that are not standard in Polish, leading to awkward or unclear phrasing.",
+      "examples": [
+        {
+          "wrong": "zyskały na użyteczności",
+          "correct": "zyskały na znaczeniu",
+          "context": "General phrasing; calque from English, not idiomatic."
+        },
+        {
+          "wrong": "wierzyć w różne stwierdzenia",
+          "correct": "przyjmować różne stwierdzenia",
+          "context": "Argumentation; 'wierzyć' is semantically inaccurate."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Orthographic and punctuation errors",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 2,
+      "description": "Incorrect spelling, missing quotation marks, or improper prepositional usage that affect the professional tone and clarity.",
+      "examples": [
+        {
+          "wrong": "Dowód, że 'Ten krem przeciwsłoneczny jest bezpieczny, ponieważ jest na rynku przez wiele lat.",
+          "correct": "Dowód, że 'Ten krem przeciwsłoneczny jest bezpieczny, ponieważ jest na rynku od wielu lat.'",
+          "context": "Argumentation; missing quotation mark and incorrect preposition."
+        },
+        {
+          "wrong": "Ta faktualność opiera się na podstawowej wiedzy w kodowaniu",
+          "correct": "Ta informacja opiera się na podstawowej wiedzy o kodowaniu",
+          "context": "Technical explanation; non-standard word and preposition."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect use of English loanwords instead of Polish technical terms",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 2,
+      "description": "English technical terms (e.g., 'string') are used instead of their standard Polish equivalents, reducing clarity and professionalism in educational content.",
+      "examples": [
+        {
+          "wrong": "zmienna 'name' jest zdefiniowana jako string",
+          "correct": "zmienna 'name' jest zdefiniowana jako ciąg znaków",
+          "context": "Describing variable types in programming"
+        },
+        {
+          "wrong": "instrukcji programowych",
+          "correct": "instrukcji programistycznych",
+          "context": "Referring to programming instructions"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Inappropriate use of conjunctions for contrast",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "LOW",
+      "frequency": "common",
+      "frequency_count": 2,
+      "description": "The conjunction 'ale raczej' is used instead of the more formal and natural 'lecz' or 'lecz raczej', which is preferred in written Polish for expressing contrast.",
+      "examples": [
+        {
+          "wrong": "ale raczej na empatycznej interakcji",
+          "correct": "lecz raczej na empatycznej interakcji",
+          "context": "Contrasting approaches in conflict resolution"
+        },
+        {
+          "wrong": "ale raczej na dokładnej analizie informacji",
+          "correct": "lecz na dokładnej analizie informacji",
+          "context": "Contrasting methods in critical thinking"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Unnatural or awkward word order and collocation",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "LOW",
+      "frequency": "common",
+      "frequency_count": 1,
+      "description": "Phrases are constructed in a way that is grammatically correct but unnatural for Polish, affecting the flow and clarity of the sentence.",
+      "examples": [
+        {
+          "wrong": "wyrażaniu myśli i uczuć odpowiednio",
+          "correct": "odpowiednim wyrażaniu myśli i uczuć",
+          "context": "Describing effective communication"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incomplete or unclear phrase construction",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Phrases lack necessary specification, leading to ambiguity and reduced clarity for the reader.",
+      "examples": [
+        {
+          "wrong": "nie na liczbę znaków",
+          "correct": "nie na liczbę znaków użytkownika",
+          "context": "Clarifying what is being counted"
+        }
+      ]
+    }
+  ]
+}

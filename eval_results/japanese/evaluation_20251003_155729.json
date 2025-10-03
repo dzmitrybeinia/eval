@@ -1,0 +1,52 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "😊",
+      "correction": "",
+      "description": "The use of the emoji '😊' in an educational context may be considered informal and less professional in Japanese instructional materials, especially for adult learners or formal settings. It is recommended to remove the emoji to maintain a consistent and appropriate tone throughout the lesson.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "学生ですか = True",
+      "correction": "学生か = True",
+      "description": "The variable name '学生ですか' uses the polite question form 'ですか', which is unnatural for a variable name in Japanese programming contexts. Variable names should be concise and typically use plain forms, such as '学生か'. This correction improves naturalness and aligns with standard Japanese coding practices.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "メッセージ = 挨拶 + \", \" + 名前  # \"こんにちは, アリス\"",
+      "correction": "メッセージ = 挨拶 + \"、\" + 名前  # \"こんにちは、アリス\"",
+      "description": "The example uses a half-width comma (\",\") for string concatenation, which is not standard in Japanese writing. Japanese text should use the full-width comma ('、') for naturalness and proper formatting. This correction ensures the example reflects authentic Japanese punctuation conventions.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Computer_Programming.llm.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-03T15:57:29.746067",
+    "model": "Azure OpenAI o3-mini",
+    "label": "llm",
+    "label_normalized": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.5,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

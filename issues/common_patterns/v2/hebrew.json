@@ -1,0 +1,90 @@
+{
+  "metadata": {
+    "label": "v2",
+    "label_normalized": "v2",
+    "label_key": "v2",
+    "language": "hebrew",
+    "generated_at": "2025-10-03T14:56:08.286556"
+  },
+  "top_error_patterns": [
+    {
+      "pattern_name": "Gender Agreement Errors",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "HIGH",
+      "frequency": "very_common",
+      "frequency_count": 7,
+      "description": "Frequent mismatches between noun/adjective/verb gender and number, especially with feminine plural forms. This disrupts grammatical correctness and clarity.",
+      "examples": [
+        {
+          "wrong": "בעלי חיים התפתחו בדרכים מדהימים לשרוד בסביבות שלהם",
+          "correct": "בעלי חיים התפתחו בדרכים מדהימות לשרוד בסביבות שלהם",
+          "context": "Adjective does not agree with feminine plural noun"
+        },
+        {
+          "wrong": "הסתגלויות הוא תכונות או התנהגויות שעוזרים אורגניזמים לשרוד",
+          "correct": "הסתגלויות הן תכונות או התנהגויות שעוזרות לאורגניזמים לשרוד",
+          "context": "Pronoun and verb do not match feminine plural subject"
+        },
+        {
+          "wrong": "לשועל הארקטי יש פרווה לבן שמתחבר עם השלג",
+          "correct": "לשועל הארקטי יש פרווה לבנה שמתחברת עם השלג",
+          "context": "Adjective and verb do not agree with feminine noun"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Missing or Incorrect Copula",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "HIGH",
+      "frequency": "common",
+      "frequency_count": 2,
+      "description": "Omission or misuse of the copula (הן/הוא/זו) in sentences, leading to incomplete or ungrammatical statements.",
+      "examples": [
+        {
+          "wrong": "הסתגלויות אלו מפתח להבנה איך מינים שורדים",
+          "correct": "הסתגלויות אלו הן מפתח להבנה איך מינים שורדים",
+          "context": "Missing copula for plural subject"
+        },
+        {
+          "wrong": "ציפורים שנודדות כדי לברוח מהקור זה הסתגלות התנהגותי",
+          "correct": "ציפורים שנודדות כדי לברוח מהקור זו הסתגלות התנהגותית",
+          "context": "Incorrect demonstrative for feminine noun"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect construct state in noun-noun combinations",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Nouns that should be in the construct state (סמיכות) are left in their absolute form, leading to unnatural or incorrect phrasing in Hebrew.",
+      "examples": [
+        {
+          "wrong": "סקירה הסתגלויות בעלי חיים",
+          "correct": "סקירת הסתגלויות בעלי חיים",
+          "context": "Quiz titles or headings where a noun modifies another noun"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Omission of required prepositions",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Prepositions necessary for correct sentence structure are omitted, resulting in ungrammatical or unclear sentences.",
+      "examples": [
+        {
+          "wrong": "לברוח קור",
+          "correct": "לברוח מהקור",
+          "context": "Explanatory sentences describing actions or reasons"
+        }
+      ]
+    }
+  ]
+}

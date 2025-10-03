@@ -1,0 +1,92 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "prelecency",
+      "correction": "prelekcje",
+      "description": "The word 'prelecency' is a lexical error; the correct Polish term for lectures or presentations is 'prelekcje'. The incorrect form may confuse learners and does not exist in standard Polish.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "wierzyć w różne stwierdzenia",
+      "correction": "przyjmować różne stwierdzenia",
+      "description": "The phrase 'wierzyć w różne stwierdzenia' is semantically inaccurate in this context. In Polish, 'wierzyć' implies faith or belief, which is not appropriate when discussing argumentation. The more precise term is 'przyjmować' (to accept or consider statements).",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "wykonywać decyzje",
+      "correction": "podejmować decyzje",
+      "description": "The phrase 'wykonywać decyzje' is a lexical error. In Polish, the correct collocation is 'podejmować decyzje' (to make decisions). 'Wykonywać' means 'to execute' and is not used with 'decyzje'.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "To praktyczne zastosowanie umiejętności rozumieć i stawiać wartość na argumenty.",
+      "correction": "To praktyczne zastosowanie umiejętności rozumienia i oceniania wartości argumentów.",
+      "description": "This sentence contains grammatical errors: 'rozumieć' should be in the noun form 'rozumienia', and 'stawiać wartość na argumenty' is an unnatural construction. The correct phrase is 'oceniania wartości argumentów'.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Ponowny rozwód z powodu uprzedzenia selekcyjnego w relacji może prowadzić do kompromisów w zrozumieniu związków.",
+      "correction": "Rozwód z powodu uprzedzenia selekcyjnego w relacji może prowadzić do kompromisów w zrozumieniu związków.",
+      "description": "The use of 'ponowny rozwód' (repeated divorce) is confusing and unnecessary in this context. The sentence should simply refer to 'rozwód'. Additionally, the phrase is awkward and could be clarified for better comprehension.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "To może wpłynąć na zdanej się o relacji, potencjalnie wpływając na decyzje o związkach.",
+      "correction": "To może wpłynąć na ocenę relacji, potencjalnie wpływając na decyzje dotyczące związków.",
+      "description": "The phrase 'zdanej się o relacji' is grammatically incorrect and unclear. The correct expression is 'ocenę relacji'. Also, 'decyzje o związkach' should be 'decyzje dotyczące związków' for proper case usage and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Dowód, że 'Ten krem przeciwsłoneczny jest bezpieczny, ponieważ jest na rynku przez wiele lat.",
+      "correction": "Dowód, że 'Ten krem przeciwsłoneczny jest bezpieczny, ponieważ jest na rynku od wielu lat.'",
+      "description": "The phrase 'przez wiele lat' is less idiomatic in Polish when referring to product availability. The correct preposition is 'od wielu lat'. Also, the closing quotation mark is missing, which is a punctuation error.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Krytyczne myślenie nie polega na odrzucaniu wszystkich wiadomości, ale raczej na dokładnej analizie informacji.",
+      "correction": "Krytyczne myślenie nie polega na odrzucaniu wszystkich wiadomości, lecz na dokładnej analizie informacji.",
+      "description": "The use of 'ale raczej' is less formal and slightly awkward in written Polish. The conjunction 'lecz' is more appropriate for contrast in formal educational content.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Critical_Thinking.slm.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T16:04:32.219657",
+    "model": "Azure OpenAI o3-mini",
+    "label": "slm",
+    "label_normalized": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 8.1,
+    "classification": "PROFESSIONAL",
+    "total_issues": 8,
+    "total_penalty": 1.9,
+    "issue_breakdown": {
+      "linguistic": 8,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.9,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

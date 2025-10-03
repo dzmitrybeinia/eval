@@ -1,0 +1,60 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Decyzja w Brown v. Board of Education założyła, że segregacja w szkołach publicznych jest zgodna z Konstytucją, co jest poprawną interpretacją wydarzenia. Tym samym zakazała segregacji, co wzmocniło prawo do równej edukacji dla wszystkich dzieci.",
+      "correction": "Decyzja w Brown v. Board of Education stwierdziła, że segregacja w szkołach publicznych jest niezgodna z Konstytucją, co jest właściwą interpretacją wydarzenia. Tym samym zakazano segregacji, co wzmocniło prawo do równej edukacji dla wszystkich dzieci.",
+      "description": "The original text contains a critical factual and grammatical error: it incorrectly states that the Brown v. Board of Education decision established that segregation was constitutional, which is the opposite of the historical fact. The verb 'założyła' is also inappropriate; 'stwierdziła' is more accurate in this context. Additionally, 'zakazała' should be replaced with 'zakazano' for impersonal construction, and 'poprawną interpretacją' should be 'właściwą interpretacją' for lexical precision. These errors significantly impact comprehension and accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Dr. Martin Luther King Jr. był znany ze swojego zaangażowania w strategie niezłomnej walki, która obejmowała pokolenie, czegoś bardziej niż obronę. Jego metody zakorzenione były w ideach Mahatmą Gandhiego, które zakładały pokojowe, ale zdecydowane działania przeciwko niesprawiedliwości.",
+      "correction": "Dr. Martin Luther King Jr. był znany ze swojego zaangażowania w strategie pokojowego oporu, które wykraczały poza bierną obronę. Jego metody były zakorzenione w ideach Mahatmy Gandhiego, które zakładały pokojowe, ale zdecydowane działania przeciwko niesprawiedliwości.",
+      "description": "The original text contains several grammatical and lexical errors. The phrase 'strategie niezłomnej walki, która obejmowała pokolenie, czegoś bardziej niż obronę' is syntactically incorrect and semantically unclear. 'Pokolenie' is an inappropriate word choice; 'pokojowego oporu' is the correct term for King's philosophy. 'Mahatmą Gandhiego' should be 'Mahatmy Gandhiego' to match the correct genitive case. These errors affect clarity and accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Ruch Praw Obywatelskich znaczył znaczną poprawę wewnętrznych relacji między różnymi etnicznościami w Stanach Ziemiańskich.",
+      "correction": "Ruch Praw Obywatelskich oznaczał znaczną poprawę relacji między różnymi grupami etnicznymi w Stanach Zjednoczonych.",
+      "description": "The original text contains lexical and factual errors. 'Znaczył' is not the correct verb; 'oznaczał' is more appropriate. 'Etnicznościami' is an unnatural plural; 'grupami etnicznymi' is standard. The term 'Stanach Ziemiańskich' is incorrect and should be 'Stanach Zjednoczonych' to refer to the United States. These errors impact both linguistic accuracy and factual correctness.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Chociaż Ruch Praw Obywatelskich odegrał kluczową rolę w zmianie społecznym, posłudzenie wskazuje na zmniejszona bariera rasowa i wzrost współpracy. Jednak nie można stwierdzić bezpośredznie o znacznym poprawie wewnętrznych relacji między różnymi grupami etnicznymi na podstawie podanego tekstu.",
+      "correction": "Chociaż Ruch Praw Obywatelskich odegrał kluczową rolę w zmianach społecznych, dostępne dane wskazują na zmniejszenie barier rasowych i wzrost współpracy. Jednak nie można bezpośrednio stwierdzić o znacznej poprawie relacji wewnętrznych między różnymi grupami etnicznymi na podstawie podanego tekstu.",
+      "description": "The original text contains multiple grammatical errors: 'zmianie społecznym' should be 'zmianach społecznych' (correct case and number), 'posłudzenie' is an incorrect word choice and should be replaced with 'dostępne dane', 'zmniejszona bariera rasowa' should be 'zmniejszenie barier rasowych', and 'znacznym poprawie' should be 'znacznej poprawie'. These errors affect clarity and grammatical correctness.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Civil_Rights_Movement.slm.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T16:03:55.005252",
+    "model": "Azure OpenAI o3-mini",
+    "label": "slm",
+    "label_normalized": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 8.8,
+    "classification": "PROFESSIONAL",
+    "total_issues": 4,
+    "total_penalty": 1.2,
+    "issue_breakdown": {
+      "linguistic": 4,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.2,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

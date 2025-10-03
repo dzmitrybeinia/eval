@@ -1,0 +1,399 @@
+{
+  "metadata": {
+    "label": "llm",
+    "label_normalized": "llm",
+    "label_key": "llm",
+    "language": "russian",
+    "generated_at": "2025-10-03T15:57:57.574137",
+    "source_files": [
+      "evaluation_20251003_155402.json",
+      "evaluation_20251003_155406.json",
+      "evaluation_20251003_155408.json",
+      "evaluation_20251003_155412.json",
+      "evaluation_20251003_155415.json",
+      "evaluation_20251003_155431.json",
+      "evaluation_20251003_155435.json",
+      "evaluation_20251003_155440.json",
+      "evaluation_20251003_155443.json",
+      "evaluation_20251003_155448.json"
+    ],
+    "issue_counts": {
+      "linguistic": 8,
+      "localization": 38
+    }
+  },
+  "issues": {
+    "linguistic": [
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Река Нил обеспечивал водой, плодородной почвой и транспортной артерией, формируя развитие одной из самых выдающихся цивилизаций в истории.",
+        "correction": "Река Нил обеспечивала водой, плодородной почвой и транспортной артерией, формируя развитие одной из самых выдающихся цивилизаций в истории.",
+        "description": "The verb 'обеспечивал' is incorrectly used in masculine singular form, while the subject 'Река Нил' is feminine ('река'). The correct form is 'обеспечивала'. This grammatical error affects subject-verb agreement and can confuse learners about gender rules in Russian.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Пирамиды Гизы, расположенные рядом с Нилом, строились с использованием известняка, транспортируемого по реке.",
+        "correction": "Пирамиды Гизы, расположенные рядом с Нилом, строились с использованием известняка, перевозимого по реке.",
+        "description": "The participle 'транспортируемого' is overly formal and not idiomatic in Russian for describing the movement of goods by river. 'Перевозимого' is the standard and natural participle for this context. This improves both linguistic accuracy and naturalness.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Syntax",
+        "original": "Физические адаптации часто видны и непосредственно связаны с средой обитания.",
+        "correction": "Физические адаптации часто видны и непосредственно связаны со средой обитания.",
+        "description": "The preposition 'с' requires the instrumental case, so 'с средой' should be 'со средой'. This is a grammatical error affecting the sentence's correctness and clarity.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Горб верблюда хранит жир, позволяя ему выживать в пустыне без пищи на протяжении долгого времени.",
+        "correction": "Горб верблюда хранит жир, позволяя ему выживать в пустыне без пищи в течение долгого времени.",
+        "description": "The phrase 'на протяжении долгого времени' is less natural in this context; 'в течение долгого времени' is the standard way to express 'for a long time' when referring to duration. This improves grammatical and stylistic accuracy.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Поддержка процессов, требующих высокой энергозатраты, таких как движение и восстановление клеток.",
+        "correction": "Поддержка процессов, требующих высокой энергозатраты, таких как движение и восстановление клеток.",
+        "description": "The phrase 'требующих высокой энергозатраты' contains a grammatical error: the noun 'энергозатраты' should be in the genitive case ('высокой энергозатраты' → 'высокой энергозатраты'). The correct form is 'требующих высокой энергозатраты'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "медведи и пингвины",
+        "correction": "белые медведи и пингвины",
+        "description": "The phrase 'медведи и пингвины' is lexically imprecise in the context of polar regions. In Russian, 'медведи' without specification could refer to any bear species, but only polar bears ('белые медведи') inhabit the Arctic, while penguins are found in the Antarctic. For educational clarity and scientific accuracy, the bear species should be specified as 'белые медведи'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "расчёты",
+        "correction": "расчеты",
+        "description": "The word 'расчёты' uses the letter 'ё', which is often replaced by 'е' in formal Russian writing unless disambiguation is needed. In educational and technical contexts, it is standard to use 'е' unless the meaning is ambiguous. This is a minor orthographic issue.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Нерешённые конфликты могут вызывать стресс и негативные эмоции.",
+        "correction": "Нерешённые конфликты могут вызывать стресс и негативные эмоции.",
+        "description": "The word 'Нерешённые' is spelled correctly with the letter 'ё', which is the standard in educational and formal texts. However, in many Russian publications, 'ё' is often replaced with 'е' due to typographical conventions. For educational clarity and to avoid ambiguity, it is preferable to retain 'ё' in this context. No correction is needed, but educators should be aware of this orthographic convention.",
+        "severity": "MINOR"
+      }
+    ],
+    "localization": [
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Река Нил служила природным шоссе, облегчая транспортировку и торговлю.",
+        "correction": "Река Нил служила природной транспортной артерией, облегчая перевозку и торговлю.",
+        "description": "The term 'природное шоссе' is not a natural or standard expression in Russian for describing a river's role in transportation. 'Транспортная артерия' is a more culturally and contextually appropriate term. Additionally, 'перевозка' is more precise than 'транспортировка' in this context.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Фермеры использовали инструмент \"шадуф\", систему рычага для подъема воды из реки для орошения полей.",
+        "correction": "Земледельцы использовали инструмент \"шадуф\" — систему рычага для подъема воды из реки для орошения полей.",
+        "description": "The word 'фермеры' is an anglicism and not the most natural term for ancient Egyptian agricultural workers in Russian educational context. 'Земледельцы' is more historically and culturally appropriate. Also, the dash (—) is preferred for appositive explanations in Russian style.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Крысы кенгуру остаются под землей днем, чтобы избежать жары.",
+        "correction": "Кенгуровые крысы остаются под землей днем, чтобы избежать жары.",
+        "description": "The term 'крысы кенгуру' is a literal translation of 'kangaroo rats' and is not the standard zoological term in Russian. 'Кенгуровые крысы' is the accepted term, ensuring terminological accuracy and naturalness for Russian-speaking audiences.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Адаптации — это способ природы обеспечить, чтобы животные могли процветать даже в самых сложных условиях.",
+        "correction": "Адаптации — это способ, с помощью которого природа обеспечивает процветание животных даже в самых сложных условиях.",
+        "description": "The original sentence is grammatically correct but stylistically awkward for Russian. The correction provides a more natural and fluid expression, improving readability and localization quality.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Добро пожаловать в мир алгебры! 🌟 Алгебра — это раздел математики, который использует символы, обычно буквы, для представления чисел и их отношений. Сегодня мы познакомимся с основами: переменными, выражениями и простыми уравнениями. Эти понятия помогут вам решать задачи и строить сложные математические модели.",
+        "correction": "Добро пожаловать в мир алгебры! Алгебра — это раздел математики, который использует символы, обычно буквы, для представления чисел и их отношений. Сегодня мы познакомимся с основами: переменными, выражениями и простыми уравнениями. Эти понятия помогут вам решать задачи и строить сложные математические модели.",
+        "description": "The use of the emoji 🌟 at the beginning is not standard in Russian educational texts and may be perceived as informal or distracting in a formal learning context. Removing the emoji ensures the tone remains professional and culturally appropriate for Russian academic materials.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Поздравляем! Вы сделали первый шаг в изучении алгебры. Продолжайте практиковаться, чтобы укрепить свои знания!",
+        "correction": "Поздравляем! Вы сделали первый шаг в изучении алгебры. Продолжайте практиковаться, чтобы укрепить свои знания!",
+        "description": "While the congratulatory tone is generally acceptable, Russian educational materials often use a slightly more formal register, especially in written lessons. However, in this context, the informal encouragement is appropriate for younger audiences and does not require correction. No actionable change is needed, but educators should be aware of register when adapting for older or more formal audiences.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "энергетические станции",
+        "correction": "энергетические станции",
+        "description": "The phrase 'энергетические станции' is a common metaphor for mitochondria in Russian educational texts, but it may be considered slightly informal or oversimplified for advanced audiences. For introductory or school-level content, this is acceptable and culturally appropriate. No correction needed, but for higher education, consider using 'органеллы, обеспечивающие синтез АТФ' for greater precision.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "аппарат Гольджи",
+        "correction": "комплекс Гольджи",
+        "description": "The term 'аппарат Гольджи' is widely used in Russian school-level biology, but 'комплекс Гольджи' is considered more scientifically precise and is preferred in higher education and professional contexts. For consistency and accuracy, 'комплекс Гольджи' is recommended.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Обе клетки: имеют мембрану, цитоплазму и ядро.",
+        "correction": "И те, и другие клетки имеют мембрану, цитоплазму и ядро.",
+        "description": "The phrase 'Обе клетки' is unnatural in Russian and may cause confusion, as 'обе' is used for two items, but here it refers to two types of cells. The more natural and standard phrasing is 'И те, и другие клетки', which clearly distinguishes between plant and animal cells.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "🌿💡",
+        "correction": "",
+        "description": "The use of emoji in educational Russian-language scientific content is generally considered informal and may reduce the perceived seriousness or professionalism of the material. For Russian educational standards, especially in biology, it is preferable to avoid emojis and maintain a formal, academic tone.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "эндоплазматическому ретикулуму",
+        "correction": "эндоплазматическому ретикулуму (ЭПР)",
+        "description": "The term 'эндоплазматический ретикулум' is correct, but in Russian scientific and educational texts, it is standard to use the abbreviation 'ЭПР' after the first mention for clarity and consistency. This helps maintain professional terminology and aligns with local conventions.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "Например, подсолнух в вашем саду питается энергией, полученной хлоропластами.",
+        "correction": "Например, подсолнух получает энергию благодаря хлоропластам.",
+        "description": "The phrase 'в вашем саду' introduces a personalized, informal context that is less typical for Russian educational materials, which usually maintain a neutral, impersonal tone. Removing the direct reference to 'your garden' makes the example more universally applicable and culturally appropriate for Russian academic style.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Гражданское движение за права человека было переломным моментом в истории США.",
+        "correction": "Движение за гражданские права было переломным моментом в истории США.",
+        "description": "The phrase 'Гражданское движение за права человека' is an unnatural translation for 'Civil Rights Movement' in Russian. The standard and widely accepted term is 'Движение за гражданские права'. The current wording may confuse Russian-speaking audiences and does not reflect established terminology, affecting both clarity and cultural appropriateness.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "афроамериканцы боролись за прекращение расовой дискриминации и достижение равноправия.",
+        "correction": "афроамериканцы боролись за прекращение расовой дискриминации и достижение равноправия.",
+        "description": "While the sentence is linguistically correct, the phrase 'достижение равноправия' is somewhat formal and may sound less natural in educational Russian. A more natural alternative could be 'равные права' or 'равенство'. However, this is a minor stylistic issue and does not impede understanding.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Это движение изменило социальный, политический и культурный ландшафт страны, бросив вызов системным несправедливостям и вдохновив перемены через организованные протесты, юридические битвы и мужественное лидерство. 🌍",
+        "correction": "Это движение изменило социальный, политический и культурный ландшафт страны, бросив вызов системным несправедливостям и вдохновив перемены через организованные протесты, юридические битвы и мужественное лидерство.",
+        "description": "The use of the globe emoji (🌍) at the end of a formal educational introduction is culturally inappropriate for Russian academic content. Emojis are generally avoided in formal or educational Russian texts, as they can undermine the seriousness of the topic.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Ключевые события гражданского движения за права человека",
+        "correction": "Ключевые события движения за гражданские права",
+        "description": "The phrase 'гражданского движения за права человека' is a literal translation and not the standard Russian term for 'Civil Rights Movement'. The correct and widely accepted term is 'движение за гражданские права'. Using the literal translation may cause confusion and reduce the professionalism of the content.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Марш на Вашингтон (1963): Массовая демонстрация за гражданские права, где Мартин Лютер Кинг произнес свою знаменитую речь \"У меня есть мечта\".",
+        "correction": "Марш на Вашингтон (1963): Массовая демонстрация за гражданские права, на которой Мартин Лютер Кинг произнёс свою знаменитую речь «У меня есть мечта».",
+        "description": "The phrase 'где Мартин Лютер Кинг произнес свою знаменитую речь' is less natural in Russian; 'на которой' is the standard way to refer to events at which something occurred. Additionally, Russian quotation marks (« ») should be used instead of English-style double quotes for the speech title, and 'произнес' should use the correct Russian diacritic (ё).",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Закон о гражданских правах (1964): Запрет дискриминации по признакам расы, цвета кожи, религии, пола или национального происхождения.",
+        "correction": "Закон о гражданских правах (1964): Запрет дискриминации по признаку расы, цвета кожи, религии, пола или национального происхождения.",
+        "description": "The phrase 'по признакам' should be singular ('по признаку') to match Russian legal and academic style. This improves the naturalness and professionalism of the terminology.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Важные лидеры гражданского движения за права человека",
+        "correction": "Важные лидеры движения за гражданские права",
+        "description": "The phrase 'гражданского движения за права человека' is not the standard Russian term for 'Civil Rights Movement'. The correct term is 'движение за гражданские права'. Consistent use of established terminology is important for clarity and professionalism.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Мартин Лютер Кинг-младший: Лидер ненасильственного сопротивления, организатор ключевых событий, таких как бойкот автобусов и марш на Вашингтон.",
+        "correction": "Мартин Лютер Кинг-младший: Лидер ненасильственного сопротивления, организатор ключевых событий, таких как бойкот автобусов и Марш на Вашингтон.",
+        "description": "The event name 'марш на Вашингтон' should be capitalized as 'Марш на Вашингтон' to reflect its status as a proper noun and major historical event in Russian. This aligns with Russian conventions for naming significant events.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Малкольм Икс: Пропагандист защиты прав афроамериканцев любыми средствами.",
+        "correction": "Малкольм Икс: Активист, выступавший за защиту прав афроамериканцев любыми средствами.",
+        "description": "The word 'пропагандист' has a negative connotation in Russian, implying manipulation or biased advocacy. A more neutral and accurate term for Malcolm X in this context is 'активист', which better reflects his role and avoids unintended negative implications.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Джон Льюис: Участник организации поездок свободы и марша на Вашингтон, позже конгрессмен.",
+        "correction": "Джон Льюис: Организатор поездок свободы и Марша на Вашингтон, впоследствии конгрессмен.",
+        "description": "The phrase 'участник организации' is awkward and less natural in Russian. 'Организатор' is more precise and professional. Additionally, 'Марша на Вашингтон' should be capitalized as a proper noun, and 'позже' is better replaced with 'впоследствии' for formal style.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Влияние на американское общество",
+        "correction": "Влияние на общество США",
+        "description": "The phrase 'американское общество' is less commonly used in Russian academic writing. 'Общество США' is more precise and natural, aligning with standard Russian usage for referring to the United States.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Принятие закона о гражданских правах (1964) и закона о правах голосования (1965).",
+        "correction": "Принятие Закона о гражданских правах (1964) и Закона о правах голоса (1965).",
+        "description": "The names of major legislative acts should be capitalized in Russian. Additionally, 'Закон о правах голосования' is not the standard translation; 'Закон о правах голоса' is the accepted term for the Voting Rights Act.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Повышение осведомленности о системном расизме, вдохновение других групп на борьбу за права.",
+        "correction": "Повышение осведомлённости о системном расизме, вдохновение других групп на борьбу за свои права.",
+        "description": "The word 'осведомленности' should use the correct Russian diacritic (ё: 'осведомлённости'). Additionally, 'борьбу за права' is vague; 'борьбу за свои права' is more precise and natural in Russian.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "Культуры, такие как бананы, кофе и сахарный тростник, хорошо растут в тропиках.",
+        "correction": "Культуры, такие как бананы, кофе и сахарный тростник, хорошо растут в тропиках.",
+        "description": "While the sentence is linguistically correct, the examples of crops (bananas, coffee, sugarcane) are not typical for Russian agriculture and may not resonate with Russian learners. For better localization, consider including examples relevant to Russian-speaking regions or explaining that these are global tropical crops.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Дома с открытой вентиляцией для охлаждения.",
+        "correction": "Дома с открытой вентиляцией или большими окнами для естественного охлаждения.",
+        "description": "The phrase 'Дома с открытой вентиляцией для охлаждения' is somewhat unnatural in Russian and lacks clarity. Russian learners may better understand the concept if it is described as 'Дома с открытой вентиляцией или большими окнами для естественного охлаждения', which is a more natural and explanatory way to express the architectural adaptation to tropical climates.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "Сложно выращивать культуры, но картофель может расти летом.",
+        "correction": "Сложно выращивать культуры, но некоторые овощи, например картофель, могут расти летом.",
+        "description": "The statement 'картофель может расти летом' is misleading, as potato cultivation in polar regions is extremely limited and not typical. For cultural and scientific accuracy, it is better to generalize and mention that some vegetables, such as potatoes, can grow in short polar summers, but this is rare and depends on specific conditions.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Связь с стандартом NGSS (MS-ETS1-1): Понятия программирования, такие как переменные, типы данных и алгоритмы, помогают определять критерии и ограничения задачи.",
+        "correction": "Связь со стандартом NGSS (MS-ETS1-1): Понятия программирования, такие как переменные, типы данных и алгоритмы, помогают определять критерии и ограничения задачи.",
+        "description": "The phrase 'Связь с стандартом' uses the incorrect preposition 'с' instead of the correct 'со' before the word 'стандартом', which starts with a consonant cluster. This is a minor linguistic error affecting naturalness and professional tone. Additionally, the reference to NGSS (Next Generation Science Standards) is a US educational standard and may not be familiar to Russian-speaking learners. For improved localization, a brief explanation or adaptation to a local standard would enhance cultural appropriateness.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Format",
+        "original": "5.5",
+        "correction": "5,5",
+        "description": "The number '5.5' uses a period as the decimal separator, which is standard in English but not in Russian. Russian convention requires a comma as the decimal separator ('5,5'). This is a medium localization issue, as it may cause confusion for Russian-speaking learners.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Boolean",
+        "correction": "Булевый тип",
+        "description": "The term 'Boolean' is presented in English, while the rest of the content is in Russian. For consistency and naturalness, the Russian term 'булевый тип' or 'логический тип' should be used. This is a medium localization issue affecting terminology consistency.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "True",
+        "correction": "Истина",
+        "description": "The value 'True' is shown in English, but in Russian programming contexts, 'Истина' or 'true' (in lowercase, as per Python syntax) is preferred. If referencing Python code, 'True' is correct, but in explanatory text, 'Истина' is more natural for Russian learners. This is a minor style issue.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "значения типа \"истина/ложь\"",
+        "correction": "значения типа \"True/False\"",
+        "description": "The phrase uses the literal Russian translation 'истина/ложь' for boolean values, which is not standard in Russian programming terminology. The accepted terms are 'True/False' (in English) or 'логический тип', but when showing value examples, 'True/False' is preferred for clarity and consistency with Python syntax. This improves both technical accuracy and localization quality.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "for каждый студент в 5 студентах:",
+        "correction": "for каждый студент из 5 студентов:",
+        "description": "The phrase 'в 5 студентах' is unnatural and not idiomatic in Russian. The correct localized phrasing is 'из 5 студентов', which matches standard Russian usage for iterating over a group. This change improves the naturalness and clarity of the example for Russian learners.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "🌟",
+        "correction": "",
+        "description": "The use of the star emoji at the end of the introductory paragraph is not standard in Russian educational materials, especially in formal or semi-formal contexts. While emojis can be engaging for younger audiences, their use should be carefully considered for appropriateness and consistency. In this context, the emoji may detract from the professional tone of the lesson. It is recommended to remove the emoji to maintain a neutral and formal style suitable for educational content.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Используйте «Я»-утверждения:",
+        "correction": "Используйте «Я»-высказывания:",
+        "description": "The term '«Я»-утверждения' is a direct translation of the English 'I-statements', but it is not the most natural or commonly used term in Russian educational or psychological literature. The more accepted and natural term is '«Я»-высказывания'. Using the standard term improves clarity and aligns with local professional terminology.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Я чувствую себя неуслышанным, когда пытаюсь поделиться своими мыслями",
+        "correction": "Я чувствую себя неуслышанным, когда пытаюсь поделиться своими мыслями.",
+        "description": "The example sentence is missing a period at the end, which is required for proper punctuation in Russian. Additionally, the phrase is natural and appropriate, but ensure punctuation is consistent throughout examples for clarity and professionalism.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Сделайте глубокий вдох, если эмоции накаляются.",
+        "correction": "Сделайте глубокий вдох, если эмоции накаляются.",
+        "description": "The phrase is natural and appropriate for Russian educational content. However, in some contexts, a more formal alternative such as 'Постарайтесь успокоиться, если эмоции накаляются.' may be preferred. The current version is acceptable, but educators should consider the target audience's age and context.",
+        "severity": "MINOR"
+      }
+    ]
+  }
+}

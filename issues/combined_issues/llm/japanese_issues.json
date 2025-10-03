@@ -1,0 +1,375 @@
+{
+  "metadata": {
+    "label": "llm",
+    "label_normalized": "llm",
+    "label_key": "llm",
+    "language": "japanese",
+    "generated_at": "2025-10-03T15:57:57.583935",
+    "source_files": [
+      "evaluation_20251003_155701.json",
+      "evaluation_20251003_155705.json",
+      "evaluation_20251003_155708.json",
+      "evaluation_20251003_155712.json",
+      "evaluation_20251003_155717.json",
+      "evaluation_20251003_155723.json",
+      "evaluation_20251003_155727.json",
+      "evaluation_20251003_155729.json",
+      "evaluation_20251003_155734.json",
+      "evaluation_20251003_155738.json"
+    ],
+    "issue_counts": {
+      "linguistic": 10,
+      "localization": 33
+    }
+  },
+  "issues": {
+    "linguistic": [
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "エジプト人が小麦や大麦などの作物を栽培することを可能にしました。",
+        "correction": "エジプト人が小麦や大麦などの作物を栽培できるようになりました。",
+        "description": "The phrase uses the construction '栽培することを可能にしました', which is grammatically correct but somewhat unnatural and verbose in Japanese. The more natural and concise expression is '栽培できるようになりました', which better conveys the idea that the annual floods enabled Egyptians to cultivate crops. This correction improves both linguistic naturalness and clarity.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "依然として最大のピラミッドであり、古代エジプトの工学技術の証です。",
+        "correction": "現在も最大のピラミッドであり、古代エジプトの工学技術の証です。",
+        "description": "The use of '依然として' (still, as before) is not the most appropriate choice in this context. '現在も' (even now) is more natural and commonly used when referring to something that remains the largest to this day. This correction improves the linguistic precision and naturalness of the sentence.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "学者たちがそれを比較して翻訳することができました。",
+        "correction": "学者たちはそれを比較して翻訳することができました。",
+        "description": "The use of '学者たちが' is grammatically correct, but in Japanese, the subject marker 'は' is preferred here to emphasize the scholars as the topic of the sentence. Changing 'が' to 'は' improves the sentence's topic-comment structure and aligns with natural Japanese usage.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "鳥が冬に暖かい地域へ移動する行動。",
+        "correction": "鳥が冬に暖かい地域へ移動する。",
+        "description": "The phrase redundantly ends with '行動', which is unnecessary because the sentence already describes the action. In Japanese, it's more natural to simply state the action itself. Removing '行動' improves grammatical accuracy and naturalness.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "権利を求めるために疎外されたコミュニティが力を得ました。",
+        "correction": "権利を求めて疎外されていたコミュニティが力を得ました。",
+        "description": "The phrase '権利を求めるために疎外されたコミュニティ' is grammatically ambiguous and may mislead readers to think the communities were ostracized for the purpose of seeking rights. The intended meaning is that communities who had been ostracized gained empowerment by seeking rights. Changing 'ために' to 'て' and using the progressive '疎外されていた' clarifies the relationship and improves grammatical accuracy.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "モンゴメリーのバスの分離撤廃をもたらした一年間のボイコット。",
+        "correction": "モンゴメリーのバス分離を撤廃した一年間のボイコット。",
+        "description": "The phrase 'バスの分離撤廃' is awkward and may cause confusion. The correct grammatical structure is 'バス分離を撤廃した', which clearly indicates that the boycott led to the abolition of bus segregation. This correction improves clarity and grammatical accuracy.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "🌍",
+        "correction": "",
+        "description": "The globe emoji is used in the introductory sentence. While emojis are increasingly common in informal digital communication, their use in educational content—especially in Japanese—can be considered inappropriate for formal or academic contexts. This affects orthographic conventions and may reduce the perceived professionalism of the material. It is recommended to remove the emoji for a more formal and universally accepted presentation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "保存するデータは変更可能または固定のままです。",
+        "correction": "保存するデータは変更可能または固定です。",
+        "description": "The phrase '固定のままです' is grammatically awkward and redundant. '固定です' is sufficient and more natural. The use of 'のまま' implies a state remains unchanged, but in this context, simply stating 'fixed' is clearer and more accurate.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "アクティブリスニング",
+        "correction": "アクティブ・リスニング",
+        "description": "The term 'アクティブリスニング' is a loanword from English ('active listening') and should be written with a middle dot (・) between the two words in Katakana to follow Japanese orthographic conventions for compound loanwords. This improves readability and aligns with standard usage in educational and professional contexts.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "これらの戦略を学校のグループプロジェクト、家族の意見の相違、職場の状況などの現実世界の例に適用することで、衝突を解決する自信と効果的なコミュニケーション能力を身につけることができます。",
+        "correction": "これらの戦略を学校のグループプロジェクト、家族の意見の相違、職場の状況などの現実世界の例に適用することで、衝突を解決する自信や効果的なコミュニケーション能力を身につけることができます。",
+        "description": "The conjunction 'と' in '自信と効果的なコミュニケーション能力' implies both are acquired together, but in Japanese, 'や' is more appropriate when listing multiple, related but not strictly paired items. This improves the naturalness and clarity of the sentence.",
+        "severity": "MINOR"
+      }
+    ],
+    "localization": [
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "🌟",
+        "correction": "",
+        "description": "The use of the star emoji at the end of the introductory paragraph is not standard in formal Japanese educational content. While emojis can add visual interest, they may reduce the perceived professionalism and distract from the academic tone expected in educational materials. It is recommended to remove the emoji to maintain a consistent and formal style throughout the lesson.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "世界の七不思議の一つであるギザの大ピラミッド",
+        "correction": "世界七不思議の一つであるギザの大ピラミッド",
+        "description": "The phrase '世界の七不思議' is understandable but the more commonly accepted term in Japanese is '世界七不思議'. Removing the particle 'の' aligns with standard terminology and improves consistency with how this phrase is typically referenced in Japanese educational and academic contexts.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "動物の環境適応への旅へ！",
+        "correction": "動物の環境適応について学びましょう！",
+        "description": "The original phrase uses an exclamatory, somewhat poetic style ('旅へ！') that is less common in Japanese educational content introductions. A more natural and culturally appropriate expression for Japanese learners would be to invite them to learn or explore the topic directly, avoiding overly dramatic or metaphorical language. This improves the tone and aligns with standard educational style.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "ミツバチが「ワグルダンス」を行い、食糧の位置を伝える。",
+        "correction": "ミツバチが「ワグルダンス」をして、餌の位置を仲間に伝える。",
+        "description": "The term '食糧' is typically used for staple food or emergency supplies, not for animal food. For bees, '餌' is the standard term. Additionally, specifying '仲間に伝える' clarifies the social aspect, which is important in Japanese educational context. The verb '行う' is less natural than 'して' in this context.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "シャツ一枚の値段が`20`円で、3枚購入すると合計費用は:",
+        "correction": "シャツ一枚の値段が`2,000`円で、3枚購入すると合計費用は:",
+        "description": "The example uses '20円' as the price for one shirt, which is unrealistically low in the Japanese context and may confuse learners. For cultural appropriateness and realism, a more typical price such as '2,000円' should be used. This adjustment ensures the example is relatable and accurate for Japanese learners.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Format",
+        "original": "合計 = `3 * x = 3 * 20 = 60`円",
+        "correction": "合計 = `3 × x = 3 × 2,000 = 6,000`円",
+        "description": "The multiplication symbol '*' is used instead of the Japanese standard '×'. Additionally, the calculation should reflect the corrected shirt price for consistency and realism. Using '×' aligns with Japanese mathematical notation conventions and improves clarity for learners.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "楽しみながら新しいスキルを身につけましょう！ 🤓",
+        "correction": "楽しみながら新しいスキルを身につけましょう！",
+        "description": "The use of the '🤓' emoji may be considered informal or childish in Japanese educational materials, especially for older students or formal contexts. Removing the emoji maintains a more neutral and professional tone appropriate for a wide range of learners.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "オルガネラ",
+        "correction": "細胞小器官",
+        "description": "The term 'オルガネラ' is a direct katakana transliteration of 'organelle', which is sometimes used in Japanese scientific contexts but is less natural and less widely accepted in educational materials for general audiences. The standard and more natural Japanese term is '細胞小器官', which is clearer and more appropriate for educational content. Using '細胞小器官' ensures consistency and better comprehension for learners.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "核は細胞の脳のようなもので、すべてのプロセスを指揮し、細胞の運営のための指示を保存します。",
+        "correction": "核は細胞の司令塔のようなもので、すべてのプロセスを指揮し、細胞の運営のための情報を保存します。",
+        "description": "The metaphor '細胞の脳のようなもの' is not commonly used in Japanese biology education and may cause confusion, as '脳' (brain) is not directly analogous to the nucleus in scientific explanations. '司令塔' (command center) is a more culturally and scientifically appropriate metaphor in Japanese educational contexts. Additionally, '指示を保存します' (stores instructions) is less precise than '情報を保存します' (stores information), which better reflects the function of the nucleus.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "ミトコンドリアは発電所のようなもので、細胞が機能するためのエネルギーを生産します。",
+        "correction": "ミトコンドリアは発電所のようなもので、細胞が活動するためのエネルギーを生み出します。",
+        "description": "The phrase '細胞が機能するためのエネルギーを生産します' uses '機能する' (to function), which is less natural in Japanese scientific writing than '活動する' (to be active). Also, '生産します' (produces) is less commonly used for energy generation in this context than '生み出します' (generates/creates), which is more idiomatic and natural in Japanese biology education.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "LGBTQ+の権利",
+        "correction": "LGBTQの権利",
+        "description": "The use of the '+' symbol in 'LGBTQ+の権利' is not standard in Japanese educational or academic contexts. While 'LGBTQ+' is common in English, Japanese typically uses 'LGBT' or 'LGBTQ' without the '+'. The inclusion of '+' may confuse learners or seem unnatural. For clarity and naturalness, 'LGBTQの権利' is recommended.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "「公民権運動の母」として知られる。",
+        "correction": "「公民権運動の母」と呼ばれることもある。",
+        "description": "The phrase 'として知られる' is a direct translation of 'known as', but in Japanese, for nicknames or honorific titles, 'と呼ばれる' is more natural and idiomatic. This change improves the naturalness and localization quality of the text.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "フリーダム・ライド",
+        "correction": "フリーダム・ライダー",
+        "description": "In Japanese, the participants in the Freedom Rides are commonly referred to as 'フリーダム・ライダー' rather than 'フリーダム・ライド', which refers to the event itself. For consistency and accuracy, use 'フリーダム・ライダー' when describing the people involved.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "例: アマゾン熱帯雨林は熱帯気候帯に属しています。",
+        "correction": "例：アマゾン熱帯雨林は熱帯気候帯に属しています。",
+        "description": "The colon after '例' is a half-width colon, which is not standard in Japanese writing. Japanese educational and formal texts typically use the full-width colon '：' for such cases. This is a style and formatting issue that affects the naturalness and professionalism of the content.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "例: 熱帯雨林（多様な動植物が生息）。",
+        "correction": "例：熱帯雨林（多様な動植物が生息）。",
+        "description": "The colon after '例' should be a full-width colon '：' to conform to Japanese typographic standards. This improves the naturalness and consistency of the educational material.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "例: サハラ砂漠（乾燥に強い植物が生息）。",
+        "correction": "例：サハラ砂漠（乾燥に強い植物が生息）。",
+        "description": "The colon after '例' is a half-width colon, which is not standard in Japanese. It should be replaced with a full-width colon '：' for proper formatting in educational content.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "例: 落葉樹林（鹿やリスなどが生息）。",
+        "correction": "例：落葉樹林（鹿やリスなどが生息）。",
+        "description": "The colon after '例' should be a full-width colon '：' to match Japanese style conventions in formal writing.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "例: 針葉樹林（寒冷に適応した動物が生息）。",
+        "correction": "例：針葉樹林（寒冷に適応した動物が生息）。",
+        "description": "The colon after '例' is a half-width colon, which is not standard in Japanese. It should be replaced with a full-width colon '：' for proper formatting.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "例: 北極地域（ホッキョクグマなどが生息）。",
+        "correction": "例：北極地域（ホッキョクグマなどが生息）。",
+        "description": "The colon after '例' should be a full-width colon '：' to conform to Japanese typographic standards.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "例: アマゾン熱帯雨林は温暖な気温と多雨により数百万種の生物を支えています。",
+        "correction": "例：アマゾン熱帯雨林は温暖な気温と多雨により数百万種の生物を支えています。",
+        "description": "The colon after '例' should be a full-width colon '：' for consistency with Japanese formatting standards in educational content.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "例: 極地地域では暖房システムが重要で、熱帯地域では扇風機や軽い服装が一般的です。",
+        "correction": "例：極地地域では暖房システムが重要で、熱帯地域では扇風機や軽い服装が一般的です。",
+        "description": "The colon after '例' should be a full-width colon '：' to match Japanese style conventions in formal writing.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "プログラミングとは何かについて学び始めましょう！",
+        "correction": "プログラミングとは何かを学び始めましょう！",
+        "description": "The phrase uses 'について' which is less natural in this context. '何かを学び始めましょう' is a more idiomatic and natural way to express 'Let's start learning what programming is' in Japanese. The original is understandable but slightly awkward for native readers.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "アルゴリズムは、コンピューターがタスクを実行するために従う指示です。",
+        "correction": "アルゴリズムは、コンピューターがタスクを実行するために従う手順です。",
+        "description": "The word '指示' (instructions) is less precise than '手順' (procedure/steps) when describing algorithms in Japanese educational contexts. '手順' is the standard term for step-by-step processes, making the explanation clearer and more aligned with local terminology.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "ステップバイステップで問題を解決するためにアルゴリズムを作成します。",
+        "correction": "段階的に問題を解決するためにアルゴリズムを作成します。",
+        "description": "The use of 'ステップバイステップ' is an anglicism. '段階的に' is a natural Japanese equivalent and preferred in educational materials for clarity and cultural appropriateness.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "😊",
+        "correction": "",
+        "description": "The use of the emoji '😊' in an educational context may be considered informal and less professional in Japanese instructional materials, especially for adult learners or formal settings. It is recommended to remove the emoji to maintain a consistent and appropriate tone throughout the lesson.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "学生ですか = True",
+        "correction": "学生か = True",
+        "description": "The variable name '学生ですか' uses the polite question form 'ですか', which is unnatural for a variable name in Japanese programming contexts. Variable names should be concise and typically use plain forms, such as '学生か'. This correction improves naturalness and aligns with standard Japanese coding practices.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Format",
+        "original": "メッセージ = 挨拶 + \", \" + 名前  # \"こんにちは, アリス\"",
+        "correction": "メッセージ = 挨拶 + \"、\" + 名前  # \"こんにちは、アリス\"",
+        "description": "The example uses a half-width comma (\",\") for string concatenation, which is not standard in Japanese writing. Japanese text should use the full-width comma ('、') for naturalness and proper formatting. This correction ensures the example reflects authentic Japanese punctuation conventions.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "アクティブリスニングの技術：",
+        "correction": "アクティブ・リスニングのスキル：",
+        "description": "The word '技術' typically refers to technical skills or technology, which is less natural in the context of communication strategies. 'スキル' is more commonly used in Japanese educational and business contexts to refer to interpersonal or soft skills, making the expression more natural and culturally appropriate.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "気を散らさない。",
+        "correction": "注意をそらさない。",
+        "description": "The phrase '気を散らさない' is understandable but less natural in instructional Japanese. '注意をそらさない' is a more standard and natural way to express 'not getting distracted' in educational materials, improving the overall tone and clarity.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "家族の間での休日の計画に関する意見の相違がある場合、家族全員が好みを話し合い、毎年行き先を交代することで合意します。",
+        "correction": "家族の間での休日の計画に関する意見の相違がある場合、家族全員が希望を話し合い、毎年行き先を交代することで合意します。",
+        "description": "The word '好み' (preference) is less commonly used in the context of family decision-making about travel plans. '希望' (wish/desire) is more appropriate and natural in Japanese when discussing choices or requests in a group setting, especially in family scenarios.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "NGSSとの連携: HS-ETS1-1は、課題を分析し、解決策の定性的および定量的な基準と制約を特定することを強調しています。",
+        "correction": "NGSSとの連携: HS-ETS1-1は、課題を分析し、解決策の質的および量的な基準と制約を特定することを強調しています。",
+        "description": "The terms '定性的' and '定量的' are direct translations of 'qualitative' and 'quantitative', but in Japanese educational and scientific contexts, '質的' and '量的' are more natural and widely accepted. Using the more standard terminology improves clarity and aligns with local conventions for scientific discourse.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "このスキルは、複雑な問題を解決するために不可欠であり、証拠を評価し、バイアスを認識し、論理的な議論を構築することを含みます。",
+        "correction": "このスキルは、複雑な問題を解決するために不可欠であり、証拠を評価し、バイアスを認識し、論理的な議論を構築する能力を含みます。",
+        "description": "The phrase 'ことを含みます' is grammatically correct but less natural in formal educational Japanese. Replacing it with '能力を含みます' clarifies that these are abilities encompassed by critical thinking, improving the naturalness and professionalism of the expression.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "🌟",
+        "correction": "",
+        "description": "The use of the star emoji '🌟' in formal educational content may be considered too casual or informal for Japanese academic contexts. Removing it maintains a professional tone appropriate for the target audience.",
+        "severity": "MINOR"
+      }
+    ]
+  }
+}

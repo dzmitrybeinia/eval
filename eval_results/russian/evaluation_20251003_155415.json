@@ -1,0 +1,52 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "🌿💡",
+      "correction": "",
+      "description": "The use of emoji in educational Russian-language scientific content is generally considered informal and may reduce the perceived seriousness or professionalism of the material. For Russian educational standards, especially in biology, it is preferable to avoid emojis and maintain a formal, academic tone.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "эндоплазматическому ретикулуму",
+      "correction": "эндоплазматическому ретикулуму (ЭПР)",
+      "description": "The term 'эндоплазматический ретикулум' is correct, but in Russian scientific and educational texts, it is standard to use the abbreviation 'ЭПР' after the first mention for clarity and consistency. This helps maintain professional terminology and aligns with local conventions.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Например, подсолнух в вашем саду питается энергией, полученной хлоропластами.",
+      "correction": "Например, подсолнух получает энергию благодаря хлоропластам.",
+      "description": "The phrase 'в вашем саду' introduces a personalized, informal context that is less typical for Russian educational materials, which usually maintain a neutral, impersonal tone. Removing the direct reference to 'your garden' makes the example more universally applicable and culturally appropriate for Russian academic style.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Cell_Parts_1.llm.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T15:54:15.766527",
+    "model": "Azure OpenAI o3-mini",
+    "label": "llm",
+    "label_normalized": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

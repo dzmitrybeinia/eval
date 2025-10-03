@@ -1,0 +1,289 @@
+{
+  "metadata": {
+    "label": "slm",
+    "label_normalized": "slm",
+    "label_key": "slm",
+    "language": "french",
+    "generated_at": "2025-10-03T16:11:07.446446"
+  },
+  "top_error_patterns": [
+    {
+      "pattern_name": "Grammatical Agreement Errors",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "HIGH",
+      "frequency": "common",
+      "frequency_count": 3,
+      "description": "Frequent mistakes in agreement between adjectives, possessives, and nouns, leading to unclear or incorrect sentences.",
+      "examples": [
+        {
+          "wrong": "Les Égyptiens ont appris à exploiter les crues annuelles du Nil, qui apportaient des alluvions riche en nutriments à leurs champs.",
+          "correct": "Les Égyptiens ont appris à exploiter les crues annuelles du Nil, qui apportaient des alluvions riches en nutriments à leurs champs.",
+          "context": "Adjective agreement with plural noun."
+        },
+        {
+          "wrong": "maximiser leur chances de survie",
+          "correct": "maximiser leurs chances de survie",
+          "context": "Possessive adjective agreement with plural noun."
+        },
+        {
+          "wrong": "comme le comportement de hibernation des chauves-souris",
+          "correct": "comme le comportement d'hibernation des chauves-souris",
+          "context": "Mandatory contraction before vowel for grammatical correctness."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Orthographic Errors in Proper Nouns and Common Words",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "HIGH",
+      "frequency": "common",
+      "frequency_count": 3,
+      "description": "Recurring spelling mistakes in proper nouns and common words, including typographical errors and incorrect use of punctuation, which undermine clarity and professionalism.",
+      "examples": [
+        {
+          "wrong": "Marchi.e.",
+          "correct": "Marchiée",
+          "context": "Improper punctuation and spelling in a proper noun."
+        },
+        {
+          "wrong": "Marchi.e.e.",
+          "correct": "Marchiée",
+          "context": "Multiple periods and invalid word formation."
+        },
+        {
+          "wrong": "Imaginez si vous devaiez écrire une salutation pour un groupe de cinq amis...",
+          "correct": "Imaginez si vous deviez écrire une salutation pour un groupe de cinq amis...",
+          "context": "Spelling error in a common verb form."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Lexical Inaccuracy Affecting Comprehension",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "HIGH",
+      "frequency": "occasional",
+      "frequency_count": 2,
+      "description": "Incorrect word choices that distort meaning or context, especially in technical or instructional content, leading to misunderstanding.",
+      "examples": [
+        {
+          "wrong": "En Python, vous devez toujours déclarer le type de données d'une variable.",
+          "correct": "En Python, vous n'avez pas besoin de déclarer le type de données d'une variable.",
+          "context": "Incorrect technical statement about programming language requirements."
+        },
+        {
+          "wrong": "En attendant, montrer de l'empathie...",
+          "correct": "En écoutant, montrer de l'empathie...",
+          "context": "Literal translation resulting in semantic error; 'En attendant' does not fit the intended meaning."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Misrepresentation of Scientific or Cultural Concepts",
+      "category": "localization",
+      "subcategory": "Cultural",
+      "impact_level": "HIGH",
+      "frequency": "common",
+      "frequency_count": 2,
+      "description": "Recurring errors where localized content inaccurately describes scientific or cultural concepts, leading to confusion or misinformation. This includes anthropomorphizing plant biology and referencing non-existent historical events.",
+      "examples": [
+        {
+          "wrong": "La digestion des aliments est un processus qui se produit dans l'intestin grêle chez les humains et les animaux, tandis que dans les plantes, elle se produit dans des structures comme les glandes.",
+          "correct": "La digestion des aliments est un processus qui se produit principalement dans l'intestin grêle chez les humains et les animaux. Chez les plantes, il s'agit plutôt de la décomposition et de l'absorption des nutriments, qui ne se fait pas dans des glandes comme chez les animaux.",
+          "context": "Confuses plant biology by attributing animal digestive structures to plants."
+        },
+        {
+          "wrong": "Marchiée",
+          "correct": "",
+          "context": "References a non-existent historical event, causing cultural and educational confusion."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Non-idiomatic Lexical Choices",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "MEDIUM",
+      "frequency": "very_common",
+      "frequency_count": 4,
+      "description": "Use of words or phrases that are technically correct but not idiomatic or natural in French, reducing clarity and professional tone.",
+      "examples": [
+        {
+          "wrong": "pour naviguer dans les arbres",
+          "correct": "pour se déplacer dans les arbres",
+          "context": "Describing animal movement; 'naviguer' is less natural than 'se déplacer'."
+        },
+        {
+          "wrong": "Les courants océaniques sont essentiels dans la formation des climats régionaux.",
+          "correct": "Les courants océaniques jouent un rôle essentiel dans la formation des climats régionaux.",
+          "context": "Describing importance; 'sont essentiels dans' is less idiomatic than 'jouent un rôle essentiel dans'."
+        },
+        {
+          "wrong": "Déclarée avec une valeur entière",
+          "correct": "Initialisée avec une valeur entière",
+          "context": "Programming context; 'initialisée' is more precise than 'déclarée'."
+        },
+        {
+          "wrong": "comme des entiers, des flottants, des chaînes de caractères et des booléens",
+          "correct": "tels que des entiers, des flottants, des chaînes de caractères ou des booléens",
+          "context": "Listing examples; 'tels que' is more formal and precise than 'comme'."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Imprecise or Non-Standard Terminology",
+      "category": "localization",
+      "subcategory": "Terminology",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 2,
+      "description": "Use of terminology that is either imprecise or not standard in French educational/scientific contexts, leading to potential confusion or lack of clarity for learners.",
+      "examples": [
+        {
+          "wrong": "n’importe quel nombre",
+          "correct": "une valeur inconnue ou variable",
+          "context": "Algebraic variables; 'n’importe quel nombre' is too broad and not mathematically precise."
+        },
+        {
+          "wrong": "chauffe les côtes est-américaines et européennes",
+          "correct": "réchauffe les côtes de l'est de l'Amérique du Nord et de l'Europe",
+          "context": "Geographical/scientific description; 'chauffe' and 'côtes est-américaines' are not standard terminology."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Inappropriate verb choice in scientific contexts",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Use of verbs that do not fit scientific or technical contexts, leading to imprecise or unclear explanations.",
+      "examples": [
+        {
+          "wrong": "Les ribosomes travaillent en collant les acides aminés pour former des protéines...",
+          "correct": "Les ribosomes assemblent les acides aminés pour former des protéines...",
+          "context": "Describing biological processes in educational content"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Non-idiomatic lexical choices for standard expressions",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Use of words or phrases that are not idiomatic or standard in French, which can confuse learners and reduce clarity.",
+      "examples": [
+        {
+          "wrong": "l'égalité accréditée par la loi",
+          "correct": "l'égalité garantie par la loi",
+          "context": "Legal or civic terminology in quiz questions"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect use of relative pronouns for causal relationships",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Misuse of relative pronouns ('qui') instead of causal connectors ('ce qui'), leading to ambiguous or grammatically incorrect sentences.",
+      "examples": [
+        {
+          "wrong": "qui mènent à des climats plus secs, comme dans le désert d'Atacama.",
+          "correct": "ce qui mène à des climats plus secs, comme dans le désert d'Atacama.",
+          "context": "Explaining cause and effect in scientific or geographical contexts"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Unnecessary First-Person Perspective and Unnatural Style",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 1,
+      "description": "Use of first-person plural ('nous') and less natural expressions reduces objectivity and professionalism in educational content.",
+      "examples": [
+        {
+          "wrong": "nous permettent de répéter des opérations",
+          "correct": "permettent de répéter des opérations",
+          "context": "Programming explanation; first-person plural is less formal and neutral."
+        },
+        {
+          "wrong": "de manière efficiente",
+          "correct": "de manière efficace",
+          "context": "Describing code organization; 'efficace' is more natural and widely accepted in French."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect Preposition Usage",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "LOW",
+      "frequency": "common",
+      "frequency_count": 2,
+      "description": "Use of incorrect prepositions in set phrases, leading to minor grammatical errors and reduced clarity.",
+      "examples": [
+        {
+          "wrong": "inverse à celle effectuée",
+          "correct": "inverse de celle effectuée",
+          "context": "Mathematical explanation; 'de' is the correct preposition."
+        },
+        {
+          "wrong": "Dans Python",
+          "correct": "En Python",
+          "context": "Programming context; 'En' is the correct preposition for languages."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Terminology inconsistency and contextual mismatch",
+      "category": "localization",
+      "subcategory": "Terminology",
+      "impact_level": "LOW",
+      "frequency": "common",
+      "frequency_count": 2,
+      "description": "Use of terms or references that do not match the lesson context or standard French educational phrasing, leading to minor confusion or reduced clarity.",
+      "examples": [
+        {
+          "wrong": "la formule originale indique que chaque collation coûte 2 euros",
+          "correct": "la formule correcte est `Coût total = 2x`, chaque collation coûtant 2 euros",
+          "context": "References a 'formule originale' not present in the lesson, confusing learners."
+        },
+        {
+          "wrong": "Les vacuoles dans les cellules animales peuvent varier considérablement en taille et fonction",
+          "correct": "Les vacuoles des cellules animales peuvent varier considérablement en taille et en fonction",
+          "context": "Terminology and parallel structure for naturalness in French."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Non-idiomatic phrasing and style",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "LOW",
+      "frequency": "common",
+      "frequency_count": 2,
+      "description": "Use of literal or less idiomatic French expressions that reduce the naturalness and professional tone of explanations.",
+      "examples": [
+        {
+          "wrong": "Cette déclaration est exacte.",
+          "correct": "Cette affirmation est correcte.",
+          "context": "Use of 'déclaration' instead of 'affirmation' for true/false statements."
+        },
+        {
+          "wrong": "le programme est arrêté pendant que l'utilisateur fournit les informations requises",
+          "correct": "le programme attend que l'utilisateur saisisse les informations requises",
+          "context": "Literal phrasing instead of idiomatic French for program flow."
+        }
+      ]
+    }
+  ]
+}

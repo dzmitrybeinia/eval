@@ -1,0 +1,36 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "¡Bienvenidos! Hoy vamos a viajar en el tiempo para descubrir una de las civilizaciones más fascinantes de la historia: el Antiguo Egipto. Desde el majestuoso río Nilo hasta las impresionantes pirámides y los misteriosos jeroglíficos, exploraremos cómo esta cultura dejó una marca imborrable en el mundo. 🌍",
+      "correction": "¡Bienvenidos! Hoy vamos a viajar en el tiempo para descubrir una de las civilizaciones más fascinantes de la historia: el Antiguo Egipto. Desde el majestuoso río Nilo hasta las impresionantes pirámides y los misteriosos jeroglíficos, exploraremos cómo esta cultura dejó una marca imborrable en el mundo.",
+      "description": "The use of the globe emoji (🌍) at the end of the introduction is not standard in formal educational Spanish content and may be perceived as informal or distracting in academic contexts. Removing the emoji ensures the tone remains professional and culturally appropriate for educational materials.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Ancient_Egypt.llm.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-03T15:51:08.878908",
+    "model": "Azure OpenAI o3-mini",
+    "label": "llm",
+    "label_normalized": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.9,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.1,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

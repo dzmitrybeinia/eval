@@ -1,0 +1,296 @@
+{
+  "metadata": {
+    "label": "llm",
+    "label_normalized": "llm",
+    "label_key": "llm",
+    "language": "portuguese",
+    "generated_at": "2025-10-03T15:59:54.920090"
+  },
+  "top_error_patterns": [
+    {
+      "pattern_name": "Incorrect variable naming with spaces",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "HIGH",
+      "frequency": "rare",
+      "frequency_count": 1,
+      "description": "Variable names use spaces instead of underscores, violating both programming syntax and Portuguese orthographic conventions for multi-word identifiers.",
+      "examples": [
+        {
+          "wrong": "idade usuario",
+          "correct": "idade_usuario",
+          "context": "Variable naming in code snippets within quiz items"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Inappropriate Use of Emojis in Formal Educational Content",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "MEDIUM",
+      "frequency": "very_common",
+      "frequency_count": 6,
+      "description": "Emojis such as ✨, 🌍, 🎓, and 🌟 are frequently used in educational content, but they are considered informal and distracting in Brazilian Portuguese academic contexts. Their removal ensures a more professional and culturally appropriate tone.",
+      "examples": [
+        {
+          "wrong": "Bem-vindos ao fascinante mundo do Egito Antigo! ✨",
+          "correct": "Bem-vindos ao fascinante mundo do Egito Antigo!",
+          "context": "Introductory sentence in a history lesson"
+        },
+        {
+          "wrong": "Vamos explorar como essas adaptações permitem que os animais enfrentem os desafios do ambiente. 🌍",
+          "correct": "Vamos explorar como essas adaptações permitem que os animais enfrentem os desafios do ambiente.",
+          "context": "Conclusion of a biology explanation"
+        },
+        {
+          "wrong": "Vamos começar! 🎓",
+          "correct": "Vamos começar!",
+          "context": "Lesson opening statement"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Grammatical ambiguity or incorrect structure",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 3,
+      "description": "Sentences contain grammatical ambiguities or incorrect structures, such as missing prepositions, improper adjective/noun usage, or lack of parallelism, which affect clarity and correctness.",
+      "examples": [
+        {
+          "wrong": "Símbolos que representam valores desconhecidos ou variáveis.",
+          "correct": "Símbolos que representam valores desconhecidos ou que podem variar.",
+          "context": "Adjective 'variáveis' used as noun; parallel structure needed for clarity."
+        },
+        {
+          "wrong": "Lisossomos: Degradam materiais de resíduos...",
+          "correct": "Lisossomos: Degradam materiais residuais...",
+          "context": "Incorrect noun phrase; adjective 'residuais' should describe 'materiais'."
+        },
+        {
+          "wrong": "Trabalhem juntos para achar opções que atendam todos.",
+          "correct": "Trabalhem juntos para achar opções que atendam a todos.",
+          "context": "Missing preposition 'a' before 'todos' for correct indirect object."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Orthographic inconsistencies with hyphenation and pluralization",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 3,
+      "description": "Recurring minor orthographic issues, such as incorrect hyphenation (e.g., 'pré-existentes' instead of 'preexistentes') and incorrect singular/plural agreement (e.g., 'temperatura e precipitação' instead of 'temperaturas e precipitações'). These do not impede comprehension but affect standardization and professional tone.",
+      "examples": [
+        {
+          "wrong": "pré-existentes",
+          "correct": "preexistentes",
+          "context": "Hyphenation not in line with current orthographic rules."
+        },
+        {
+          "wrong": "temperatura e precipitação",
+          "correct": "temperaturas e precipitações",
+          "context": "Pluralization needed to match context of multiple climate features."
+        },
+        {
+          "wrong": "dessegregação",
+          "correct": "fim da segregação",
+          "context": "Rare term used; more natural alternatives preferred for clarity."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Insufficient Cultural Context for Historical Terms",
+      "category": "localization",
+      "subcategory": "Cultural",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 3,
+      "description": "Direct translations of American historical terms (e.g., 'Marcha sobre Washington', 'Lei dos Direitos Civis de 1964') may be unfamiliar to Brazilian learners. Adding parenthetical explanations or original English names improves comprehension and cultural fit.",
+      "examples": [
+        {
+          "wrong": "Lei dos Direitos Civis de 1964",
+          "correct": "Lei dos Direitos Civis de 1964 (Civil Rights Act of 1964)",
+          "context": "Reference to American legislation in a history lesson"
+        },
+        {
+          "wrong": "Lei de Direitos de Voto de 1965",
+          "correct": "Lei de Direitos de Voto de 1965 (Voting Rights Act of 1965)",
+          "context": "Reference to American legislation in a history lesson"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Non-Standard or Unfamiliar Terminology",
+      "category": "localization",
+      "subcategory": "Terminology",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 3,
+      "description": "Use of terms that are correct but not standard or familiar in Brazilian Portuguese educational contexts (e.g., 'Declarações Condicionais', 'Alpina (montanhosa)', 'ratos-canguru') can hinder comprehension. Prefer established terminology and consider brief explanations for less common terms.",
+      "examples": [
+        {
+          "wrong": "Declarações Condicionais",
+          "correct": "Estruturas condicionais",
+          "context": "Programming lesson terminology"
+        },
+        {
+          "wrong": "Alpina (montanhosa)",
+          "correct": "Alpina",
+          "context": "Climatology classification"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Ambiguous or incorrect pronoun/reference usage",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 2,
+      "description": "Ambiguous pronouns or references (e.g., 'sua', 'conectava-o') create confusion about the subject, reducing clarity and naturalness in Portuguese.",
+      "examples": [
+        {
+          "wrong": "A localização do Egito conectava-o a outras regiões...",
+          "correct": "A localização do Egito conectava o país a outras regiões...",
+          "context": "Use of pronoun 'o' is grammatically correct but stylistically awkward and less clear."
+        },
+        {
+          "wrong": "Adaptações dos animais são características ou comportamentos que aumentam sua capacidade...",
+          "correct": "Adaptações dos animais são características ou comportamentos que aumentam a capacidade dos animais...",
+          "context": "Pronoun 'sua' is ambiguous; specifying 'dos animais' clarifies the subject."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Inappropriate lexical choice for educational context",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Use of terms like 'aprendizado' instead of 'aula' or 'lição' is less natural in educational content, affecting localization fit and clarity.",
+      "examples": [
+        {
+          "wrong": "Neste aprendizado, exploraremos as principais organelas...",
+          "correct": "Nesta aula, exploraremos as principais organelas...",
+          "context": "Lexical choice 'aprendizado' is less idiomatic than 'aula' in this context."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Culturally Inappropriate Examples",
+      "category": "localization",
+      "subcategory": "Cultural",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Use of global references instead of locally relevant examples reduces relatability and educational impact for the target audience.",
+      "examples": [
+        {
+          "wrong": "A Floresta Amazônica representa uma zona tropical, enquanto o Deserto do Saara é um exemplo de zona seca.",
+          "correct": "A Floresta Amazônica representa uma zona tropical, enquanto o Sertão Nordestino é um exemplo de zona seca.",
+          "context": "Geographical examples in educational content for Brazilian learners."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Terminology Mismatch in Technical Contexts",
+      "category": "localization",
+      "subcategory": "Terminology",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Literal translations of technical terms that do not match industry-standard usage in the target language can hinder comprehension and consistency.",
+      "examples": [
+        {
+          "wrong": "Laços",
+          "correct": "Loops",
+          "context": "Programming terminology in educational materials."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Omission of Culturally Significant Roles",
+      "category": "localization",
+      "subcategory": "Terminology",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Excluding important social or cultural roles from lists or descriptions leads to historical and cultural inaccuracies.",
+      "examples": [
+        {
+          "wrong": "A sociedade era hierárquica, com o faraó no topo, seguido por sacerdotes, nobres, soldados, comerciantes e agricultores.",
+          "correct": "A sociedade era hierárquica, com o faraó no topo, seguido por sacerdotes, nobres, soldados, artesãos, comerciantes e agricultores.",
+          "context": "Descriptions of social hierarchies in historical educational content."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Literal Translation of Idiomatic Expressions",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Literal translations of English idioms, such as 'centro de controle', result in less natural phrasing in Brazilian Portuguese. Using idiomatic equivalents like 'centro de comando' improves clarity and professionalism.",
+      "examples": [
+        {
+          "wrong": "O núcleo é conhecido como o \"centro de controle\" da célula.",
+          "correct": "O núcleo é conhecido como o \"centro de comando\" da célula.",
+          "context": "Scientific explanation in biology"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Lexical imprecision in conjunction usage",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Use of conjunctions that imply exclusivity ('ou') where inclusivity ('e') is intended, leading to minor confusion about examples or lists.",
+      "examples": [
+        {
+          "wrong": "camaleões ou tigres",
+          "correct": "camaleões e tigres",
+          "context": "Both animals are examples; 'e' is more precise than 'ou'."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Grammatical ambiguity in attributive phrases",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Attributive phrases that lack clarity about agency or status, such as implying direct selection rather than perceived status, which can affect historical or factual accuracy.",
+      "examples": [
+        {
+          "wrong": "escolhidos pelos deuses",
+          "correct": "considerados escolhidos pelos deuses",
+          "context": "Clarifies that pharaohs were regarded as chosen, not directly selected."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Inconsistent Use of Plural vs. Singular in Greetings",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Greetings using the plural 'Bem-vindos' may not be appropriate when addressing an undefined or singular audience. The singular 'Bem-vindo' is more neutral and inclusive in Brazilian Portuguese educational introductions.",
+      "examples": [
+        {
+          "wrong": "Bem-vindos ao mundo da programação!",
+          "correct": "Bem-vindo ao mundo da programação!",
+          "context": "General lesson introduction"
+        }
+      ]
+    }
+  ]
+}

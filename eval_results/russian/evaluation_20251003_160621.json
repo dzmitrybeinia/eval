@@ -1,0 +1,84 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "В Бойкоте автобусов в Монтгомери был присоеднен только один человек.",
+      "correction": "В бойкоте автобусов в Монтгомери присоединился только один человек.",
+      "description": "The original sentence contains a spelling error in 'присоеднен' (should be 'присоединился') and incorrect capitalization of 'Бойкоте' (should be lowercase unless at the start of a sentence). The verb 'присоеднен' is not a valid form; the correct past tense verb is 'присоединился'. The sentence structure is also improved for naturalness.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "во время которого сотлала более сотня человек.",
+      "correction": "во время которого участвовала более сотни человек.",
+      "description": "The word 'сотлала' is a spelling error and not a valid Russian word. The correct verb is 'участвовала'. Additionally, 'более сотня человек' should be 'более сотни человек' to match the genitive case required after 'более'.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Это было ответом на несправедливую ситуацию, когда Роза Паркс уступила место белому пассажиру.",
+      "correction": "Это было ответом на несправедливую ситуацию, когда Роза Паркс отказалась уступить место белому пассажиру.",
+      "description": "The original sentence incorrectly states that Rosa Parks 'уступила место' (gave up her seat), when historically she refused to do so. The verb should be 'отказалась уступить место' to accurately reflect the event.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "Включение множества людей подчеркнуло коллективный и непрерымный характер протеста против несправедливости.",
+      "correction": "Включение множества людей подчеркнуло коллективный и непрерывный характер протеста против несправедливости.",
+      "description": "The word 'непрерымный' is a spelling error; the correct form is 'непрерывный'.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "это было действие Роза Паркс, которые были одной из лидеров, организовавших этот значительный акт сопротивления.",
+      "correction": "это было действие группы лидеров, среди которых была Роза Паркс, организовавших этот значительный акт сопротивления.",
+      "description": "The original sentence has a grammatical error: 'действие Роза Паркс, которые были одной из лидеров' mixes singular and plural forms incorrectly and misrepresents the historical fact. The correction clarifies that it was a group action and that Rosa Parks was among the leaders.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Принятие закона о гражданских прав в 1964 году значительно изменило юридическую картину США.",
+      "correction": "Принятие закона о гражданских правах в 1964 году значительно изменило юридическую картину США.",
+      "description": "The phrase 'закона о гражданских прав' is incorrect; the genitive plural form 'прав' should be 'правах'. The correct phrase is 'закона о гражданских правах'.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Это законодательство предотвратило расовую сегрегацию и обеспечило всем гражданам равенство в правах голосования.",
+      "correction": "Это законодательство предотвратило расовую сегрегацию и обеспечило всем гражданам равные права на голосование.",
+      "description": "The phrase 'равенство в правах голосования' is awkward and not idiomatic in Russian. The correct expression is 'равные права на голосование'.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Civil_Rights_Movement.slm.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T16:06:21.905520",
+    "model": "Azure OpenAI o3-mini",
+    "label": "slm",
+    "label_normalized": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 8.0,
+    "classification": "PROFESSIONAL",
+    "total_issues": 7,
+    "total_penalty": 2.0,
+    "issue_breakdown": {
+      "linguistic": 7,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 2.0,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

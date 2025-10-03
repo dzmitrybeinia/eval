@@ -1,0 +1,69 @@
+{
+  "metadata": {
+    "label": "slm",
+    "label_normalized": "slm",
+    "label_key": "slm",
+    "language": "japanese",
+    "generated_at": "2025-10-03T16:12:10.648613"
+  },
+  "top_error_patterns": [
+    {
+      "pattern_name": "Typographical and Orthographic Errors",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "HIGH",
+      "frequency": "common",
+      "frequency_count": 2,
+      "description": "Frequent typographical mistakes and incorrect use of punctuation disrupt comprehension and reduce professionalism. Examples include miswritten kanji and mixing Japanese and Western sentence-ending marks.",
+      "examples": [
+        {
+          "wrong": "方程式は2つの項が等しい状慁を表すものであり、それによって解を見つけるために使用されます。.",
+          "correct": "方程式は2つの項が等しい状態を表すものであり、それによって解を見つけるために使用されます。",
+          "context": "Typo in kanji ('状慁' instead of '状態') and mixed punctuation ('。.' at sentence end)"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Non-standard or Incorrect Terminology",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "HIGH",
+      "frequency": "common",
+      "frequency_count": 2,
+      "description": "Use of non-standard or incorrect terms for key concepts leads to confusion and misrepresentation of information. This includes invented or mistranslated words that do not exist in the target language.",
+      "examples": [
+        {
+          "wrong": "冷却帯の温度は非常に高いため、生物多様性が豊かです。.",
+          "correct": "寒帯の温度は非常に高いため、生物多様性が豊かです。",
+          "context": "Incorrect climate zone terminology ('冷却帯' instead of standard '寒帯')"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Double Ending Punctuation (。.)",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "MEDIUM",
+      "frequency": "very_common",
+      "frequency_count": 76,
+      "description": "Sentences end with both a Japanese full stop (。) and an English period (.), resulting in double punctuation. Only the Japanese full stop should be used at the end of Japanese sentences.",
+      "examples": [
+        {
+          "wrong": "ナイル川はエジプトの生涯にわたる経済発展の重要な要因でした。.",
+          "correct": "ナイル川はエジプトの生涯にわたる経済発展の重要な要因でした。",
+          "context": "Appears at the end of feedback sentences throughout quiz items."
+        },
+        {
+          "wrong": "動物は環境変化に適応せず、時間が経つと生存できることがあります。.",
+          "correct": "動物は環境変化に適応せず、時間が経つと生存できることがあります。",
+          "context": "Occurs in scientific explanations and general statements."
+        },
+        {
+          "wrong": "証拠は情報を導き出すために使用されるものであり、その信頼性を評価することは重要です。.",
+          "correct": "証拠は情報を導き出すために使用されるものであり、その信頼性を評価することは重要です。",
+          "context": "Found in argumentation and reasoning feedback."
+        }
+      ]
+    }
+  ]
+}

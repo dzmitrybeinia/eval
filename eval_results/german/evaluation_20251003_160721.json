@@ -1,0 +1,44 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Variablen sind flexibel und können mehr als einen Wert speichern.",
+      "correction": "Variablen sind flexibel und können nacheinander verschiedene Werte speichern.",
+      "description": "The original sentence suggests that a variable can simultaneously store more than one value, which is misleading in most programming languages, including Python. A variable can be reassigned to different values over time, but it does not hold multiple values at once unless it is a collection type. The correction clarifies this concept for educational accuracy.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "In Python werden Variablen dynamisch zugewiesen, was bedeutet, dass sie verschiedene Datentypen annehmen können, solange sie zu dem zugewiesenen Wert passen.",
+      "correction": "In Python werden Variablen dynamisch zugewiesen, was bedeutet, dass sie verschiedene Datentypen annehmen können, abhängig vom jeweils zugewiesenen Wert.",
+      "description": "The phrase 'solange sie zu dem zugewiesenen Wert passen' is somewhat unnatural and could be confusing for learners. The correction uses a more natural and clear expression, improving the educational tone and clarity for German-speaking audiences.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Coding_Basics.slm.md",
+    "language": "German",
+    "timestamp": "2025-10-03T16:07:21.716035",
+    "model": "Azure OpenAI o3-mini",
+    "label": "slm",
+    "label_normalized": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

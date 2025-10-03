@@ -1,0 +1,52 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "La digestion des aliments est un processus qui se produit dans l'intestin grêle chez les humains et les animaux, tandis que dans les plantes, elle se produit dans des structures comme les glandes.",
+      "correction": "La digestion des aliments est un processus qui se produit principalement dans l'intestin grêle chez les humains et les animaux. Chez les plantes, il s'agit plutôt de la décomposition et de l'absorption des nutriments, qui ne se fait pas dans des glandes comme chez les animaux.",
+      "description": "The original sentence inaccurately describes plant digestion as occurring in 'glandes', which is misleading and not scientifically accurate. Plants do not have digestive glands; nutrient breakdown and absorption occur differently. This is a cultural and scientific localization issue, as it may confuse learners about plant biology. Correction clarifies the distinction and avoids anthropomorphizing plant processes.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Les ribosomes travaillent en collant les acides aminés pour former des protéines, ce qui est essentiel pour la croissance, la réparation et les réponses immunitaires chez les organismes.",
+      "correction": "Les ribosomes assemblent les acides aminés pour former des protéines, ce qui est essentiel pour la croissance, la réparation et les réponses immunitaires chez les organismes.",
+      "description": "The verb 'collant' is not appropriate in this scientific context; 'assembler' is the correct term for describing how ribosomes link amino acids. This is a lexical and grammatical issue affecting precision and clarity.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Les vacuoles dans les cellules animales peuvent varier considérablement en taille et fonction selon le type de tissu.",
+      "correction": "Les vacuoles des cellules animales peuvent varier considérablement en taille et en fonction selon le type de tissu.",
+      "description": "The phrase 'taille et fonction' should use 'en taille et en fonction' for parallel structure and naturalness in French. This is a terminology and style issue affecting the natural flow of the sentence.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Cell_Parts.slm.md",
+    "language": "French",
+    "timestamp": "2025-10-03T16:05:06.330198",
+    "model": "Azure OpenAI o3-mini",
+    "label": "slm",
+    "label_normalized": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.4,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Zmienne to podstawowe elementy każdego programu. Są to etykiety, które przechowują dane w pamięci komputera i mogą być modyfikowane w trakcie działania programu.",
+      "correction": "Zmienne to podstawowe elementy każdego programu. Są to nazwy, które przechowują dane w pamięci komputera i mogą być modyfikowane w trakcie działania programu.",
+      "description": "The use of 'etykiety' to describe variables is a lexical inaccuracy. In Polish programming terminology, 'zmienne' are referred to as 'nazwy' or 'identyfikatory', not 'etykiety', which means 'labels' and may confuse learners. The rest of the sentence is linguistically correct.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Boolean (`bool`) : Wartości logiczne Prawda/Fałsz",
+      "correction": "Boolean (`bool`): Wartości logiczne: prawda/fałsz",
+      "description": "The phrase 'Prawda/Fałsz' is capitalized unnecessarily and lacks a colon for clarity. In Polish, logical values are typically written in lowercase ('prawda', 'fałsz') and separated by a slash or comma. Adding a colon after 'Wartości logiczne' improves readability and matches Polish educational style conventions.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "print(\"Za rok będziesz mieć \" + str(wiek_za_rok) + \" lat.\")",
+      "correction": "print(\"Za rok będziesz miał/miała \" + str(wiek_za_rok) + \" lat.\")",
+      "description": "The phrase 'będziesz mieć' is grammatically acceptable in spoken Polish, but in educational materials, especially for beginners, the standard forms 'będziesz miał' (for males) or 'będziesz miała' (for females) are preferred for clarity and correctness. The current form may cause confusion regarding gender agreement.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "W następnej lekcji nauczymy się używać instrukcji warunkowych i pętli, aby tworzyć bardziej dynamiczne i elastyczne programy.",
+      "correction": "W kolejnej lekcji nauczymy się używać instrukcji warunkowych i pętli, aby tworzyć bardziej dynamiczne i elastyczne programy.",
+      "description": "The phrase 'w następnej lekcji' is understandable, but 'w kolejnej lekcji' is more natural and commonly used in Polish educational contexts to indicate sequence. This improves the localization and naturalness of the text.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Computer_Programming.llm.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T15:52:28.633731",
+    "model": "Azure OpenAI o3-mini",
+    "label": "llm",
+    "label_normalized": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.4,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

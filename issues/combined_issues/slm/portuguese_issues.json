@@ -1,0 +1,223 @@
+{
+  "metadata": {
+    "label": "slm",
+    "label_normalized": "slm",
+    "label_key": "slm",
+    "language": "portuguese",
+    "generated_at": "2025-10-03T16:10:08.798121",
+    "source_files": [
+      "evaluation_20251003_160757.json",
+      "evaluation_20251003_160800.json",
+      "evaluation_20251003_160803.json",
+      "evaluation_20251003_160807.json",
+      "evaluation_20251003_160808.json",
+      "evaluation_20251003_160811.json",
+      "evaluation_20251003_160814.json",
+      "evaluation_20251003_160819.json",
+      "evaluation_20251003_160824.json",
+      "evaluation_20251003_160826.json"
+    ],
+    "issue_counts": {
+      "linguistic": 19,
+      "localization": 5
+    }
+  },
+  "issues": {
+    "linguistic": [
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "A arte egípcia servia múltiplos propósitos, não apenas decoração.",
+        "correction": "A arte egípcia servia a múltiplos propósitos, não apenas à decoração.",
+        "description": "The original sentence lacks the preposition 'a' before 'múltiplos propósitos' and 'à' before 'decoração', which are required for correct grammatical structure in Portuguese. The use of 'servir a' is standard, and the contraction 'à' (crase) is necessary before 'decoração' to indicate the feminine noun. This correction improves grammatical accuracy and naturalness.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Isso influenciou profundamente a estrutura social e o governo do Egito.",
+        "correction": "Isso influenciou profundamente a estrutura social e o governo do Egito Antigo.",
+        "description": "The original sentence omits 'Antigo' after 'Egito', which is necessary for clarity and consistency, as the context is specifically about Ancient Egypt. Adding 'Antigo' ensures precise reference and maintains terminological consistency throughout the lesson.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Camaleões são conhecidos por sua capacidade de se misturar com o entorno através de mudanças rápidas de cor. Essa característica ajuda a evitar predadores e a capturar presas, demonstrando uma adaptação estrutural que lhes proporciona sobrevivência.",
+        "correction": "Camaleões são conhecidos por sua capacidade de se misturar ao ambiente através de mudanças rápidas de cor. Essa característica ajuda a evitar predadores e a capturar presas, demonstrando uma adaptação estrutural que lhes proporciona sobrevivência.",
+        "description": "The word 'entorno' is less natural in Brazilian Portuguese for this context; 'ambiente' is the standard and more precise term when referring to an animal's surroundings. This correction improves lexical precision and naturalness, ensuring the text aligns with local usage.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Os ratos-canguru possuem um processo de eliminação de água muito eficiente. Eles conseguem absorver água suficiente da sua dieta, reduzindo assim a necessidade de consumo de água externo. Este é um exemplo fascinante da adaptação fisiológica que permite a vida em ambientes desafiadores.",
+        "correction": "Os ratos-canguru possuem um processo de eliminação de água muito eficiente. Eles conseguem absorver água suficiente de sua dieta, reduzindo assim a necessidade de consumo de água externo. Este é um exemplo fascinante da adaptação fisiológica que permite a vida em ambientes desafiadores.",
+        "description": "The phrase 'da sua dieta' should be 'de sua dieta' to maintain formal register and avoid unnecessary repetition of possessive pronouns, which is preferred in educational and scientific writing in Brazilian Portuguese. This correction improves grammatical accuracy and stylistic appropriateness.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Em álgebra, variáveis são usadas para representar valores desconhecidos, mas também podem representar qualquer tipo de entidade, como quantidades, quantidades de substâncias químicas, ou até mesmo conceitos abstratos. No entanto, é essencial que elas sigam as regras da aritmética quando realizam operações.",
+        "correction": "Em álgebra, variáveis são usadas para representar valores desconhecidos, mas também podem representar qualquer tipo de entidade, como quantidades, substâncias químicas ou até mesmo conceitos abstratos. No entanto, é essencial que elas sigam as regras da aritmética ao realizar operações.",
+        "description": "The phrase 'quantidades, quantidades de substâncias químicas' is redundant and should be streamlined for clarity. Additionally, 'quando realizam operações' is less idiomatic than 'ao realizar operações' in Brazilian Portuguese. These changes improve lexical precision and naturalness.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Syntax",
+        "original": "A álgebra é um ramo da matemática que inclui a formulação e resolução de problemas usando símbolos, variáveis e expressões. Embora envolva constantes, variáveis e equações, seu escopo vai além da 'manipulação' para incluir a construção, a compreensão e a análise de estruturas matemáticas.",
+        "correction": "A álgebra é um ramo da matemática que inclui a formulação e resolução de problemas usando símbolos, variáveis e expressões. Embora envolva constantes, variáveis e equações, seu escopo vai além da manipulação, incluindo a construção, compreensão e análise de estruturas matemáticas.",
+        "description": "The use of single quotation marks around 'manipulação' is unnecessary and non-standard in Portuguese educational texts. The phrase 'para incluir a construção, a compreensão e a análise' can be made more concise and natural by using 'incluindo' and omitting repeated articles. These changes improve syntactic flow and stylistic consistency.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "pelos mitocôndrias",
+        "correction": "pelas mitocôndrias",
+        "description": "The original text incorrectly uses the masculine article 'pelos' with the feminine noun 'mitocôndrias'. In Portuguese, 'mitocôndria' is a feminine noun, so the correct form is 'pelas mitocôndrias'. This error affects gender agreement and can confuse learners about proper noun-article concordance.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "A membrana celular é bastante selectiva na sua permissividade.",
+        "correction": "A membrana celular é bastante seletiva na sua permissividade.",
+        "description": "The word 'selectiva' uses the European Portuguese spelling. In Brazilian Portuguese, the correct spelling is 'seletiva'. This affects orthographic consistency and may cause confusion for learners in Brazil, where the lesson is intended.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "O retículo endoplasmático liso, sem ribossomos, é especializado na elaboração de proteínas que a célula vai liberar para fora.",
+        "correction": "O retículo endoplasmático liso, sem ribossomos, é especializado na elaboração de lipídios e no metabolismo de carboidratos, não na síntese de proteínas para secreção.",
+        "description": "This sentence contains a factual inaccuracy regarding cell biology terminology. The smooth endoplasmic reticulum (retículo endoplasmático liso) is not responsible for synthesizing proteins for secretion; that is the function of the rough endoplasmic reticulum. The smooth ER is involved in lipid synthesis and carbohydrate metabolism. This error could mislead learners about cellular functions.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Dr. King foi uma figura proeminente nos anos 60, defendendo a igualdade racial por meio de boatos pacíficos e discursos inspiradores.",
+        "correction": "Dr. King foi uma figura proeminente nos anos 60, defendendo a igualdade racial por meio de protestos pacíficos e discursos inspiradores.",
+        "description": "The word 'boatos' means 'rumors' in Portuguese, which is incorrect in this context. The intended meaning is 'protestos' (protests), referring to peaceful demonstrations led by Dr. King. This lexical error significantly alters the meaning and could confuse learners about the nature of the civil rights movement.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "O formador de zonas climáticas é influenciado por vários fatores como o aquecimento desigual da Terra, a rotação e a forma da Terra, e as correntes oceânicas.",
+        "correction": "A formação das zonas climáticas é influenciada por vários fatores, como o aquecimento desigual da Terra, a rotação e a forma do planeta, e as correntes oceânicas.",
+        "description": "The original sentence uses 'O formador de zonas climáticas', which is an incorrect lexical choice and does not convey the intended meaning. The correct term is 'A formação das zonas climáticas', which accurately refers to the process of climate zone formation. Additionally, 'forma da Terra' is better expressed as 'forma do planeta' for clarity and naturalness. These changes improve both linguistic accuracy and clarity.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Variáveis podem armazenar vários tipos de informações simultaneamente. Por exemplo, uma variável pode conter um número, uma string ou uma lista contendo vários dados. O tipo de informação que uma variável pode conter é determinado pelo tipo de dado que é atribuído a ela.",
+        "correction": "Variáveis podem armazenar diferentes tipos de informações, mas apenas um tipo de dado por vez. Por exemplo, uma variável pode conter um número, uma string ou uma lista, mas não múltiplos tipos simultaneamente. O tipo de informação que uma variável pode conter é determinado pelo tipo de dado atribuído a ela.",
+        "description": "The feedback incorrectly states that a variable can store multiple types of information simultaneously, which is misleading in most programming languages, including Python. Variables can only hold one value of a specific type at a time, although the value can be changed to another type if the language allows dynamic typing. The correction clarifies this concept for educational accuracy.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Syntax",
+        "original": "Os nomes devem começar com uma letra minúscula ou um underscore seguido de uma letra minúscula.",
+        "correction": "Os nomes devem começar com uma letra ou um underscore.",
+        "description": "The feedback incorrectly specifies that variable names must start with a lowercase letter or an underscore followed by a lowercase letter. In Python, variable names can start with any letter (uppercase or lowercase) or an underscore, not necessarily a lowercase letter. The correction provides the accurate rule for variable naming in Python.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Variáveis em um programa podem armazenar só uma vez.",
+        "correction": "Variáveis em um programa podem armazenar valores apenas uma vez.",
+        "description": "The phrase 'só uma vez' is not the most precise or natural way to express 'only once' in Brazilian Portuguese in this context. The correct and more formal expression is 'apenas uma vez'. Additionally, the sentence lacks clarity because it omits the word 'valores', which is essential for understanding what is being stored. The corrected version improves lexical precision and clarity.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Declarações condicionais e laços são essenciais para controlar o fluxo do programa e automatizar tarefas.",
+        "correction": "Declarações condicionais e laços são essenciais para controlar o fluxo do programa e automatizar tarefas.",
+        "description": "No linguistic or localization issues found. The sentence is grammatically correct, uses appropriate terminology, and is culturally appropriate for Brazilian Portuguese.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "A programação não é usada em muitas indústrias.",
+        "correction": "A programação não é utilizada em muitas indústrias.",
+        "description": "The verb 'usada' is acceptable, but 'utilizada' is more formal and commonly used in educational and professional contexts in Brazilian Portuguese. This correction enhances lexical precision and aligns with standard usage in instructional materials.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "como pode ser observado em situações comuns, como no ambiente escolar.",
+        "correction": "como pode ser observado em situações comuns, como no ambiente escolar.",
+        "description": "Although the sentence is grammatically correct, the repetition of 'como' in close proximity can lead to awkwardness and reduce clarity. For improved linguistic precision and style, consider rephrasing to avoid redundancy, such as: 'como pode ser observado em situações comuns no ambiente escolar.' This change streamlines the sentence and enhances readability.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Quando as pessoas permanecem calmas, elas podem ouvir melhor e entender melhor as perspectivas dos outros.",
+        "correction": "Quando as pessoas permanecem calmas, podem ouvir melhor e entender melhor as perspectivas dos outros.",
+        "description": "The use of the pronoun 'elas' is unnecessary and redundant after the subject 'as pessoas.' Omitting 'elas' improves sentence flow and aligns with standard Portuguese grammar, where the subject is already clear.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Fontes como estudos científicos revisados por pares são consideradas de alta confiabilidade devido ao seu rigor metodológico e revisão por pares.",
+        "correction": "Fontes como estudos científicos revisados por pares são consideradas altamente confiáveis devido ao seu rigor metodológico e revisão por pares.",
+        "description": "The phrase 'de alta confiabilidade' is grammatically correct but less natural in Brazilian Portuguese. The more idiomatic expression is 'altamente confiáveis.' This change improves lexical precision and naturalness, making the sentence flow better for native speakers.",
+        "severity": "MINOR"
+      }
+    ],
+    "localization": [
+      {
+        "category": "localization",
+        "subcategory": "Lexical",
+        "original": "Deserto do Saara, onde as temperaturas são extremamente baixas.",
+        "correction": "Deserto do Saara, onde as temperaturas podem ser extremamente altas durante o dia e baixas à noite.",
+        "description": "The original text states that temperatures in the Sahara Desert are 'extremamente baixas', which is misleading and culturally inaccurate. The Sahara is known for extreme temperature variations, with very high daytime temperatures and low nighttime temperatures. The correction provides a more accurate and culturally appropriate description.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Strings podem ser armazenados como números.",
+        "correction": "Strings podem ser armazenadas como números.",
+        "description": "The word 'Strings' should agree in gender and number with the rest of the sentence. In Brazilian Portuguese, 'string' is commonly treated as a feminine noun ('a string'), so the correct form is 'Strings podem ser armazenadas como números.' This correction improves naturalness and consistency with local usage.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "As habilidades de comunicação, como a escuta ativa e a empatia, são fundamentais para entender as necessidades e perspectivas dos outros, facilitando uma resolução harmoniosa dos conflitos.",
+        "correction": "As habilidades de comunicação, como a escuta ativa e a empatia, são fundamentais para entender as necessidades e perspectivas dos outros, facilitando uma resolução harmoniosa dos conflitos.",
+        "description": "The phrase 'resolução harmoniosa dos conflitos' is linguistically correct but may sound overly formal and less natural in the context of educational content for younger audiences. A more localized and natural expression would be 'solução pacífica dos conflitos,' which is commonly used in Brazilian Portuguese educational settings and better matches the tone expected in school environments.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Ao abrir espaço para a comunicação, as partes envolvidas podem entender melhor a perspectiva um do outro, potencialmente levando a uma solução que respeite as necessidades de todos os envolvidos.",
+        "correction": "Ao abrir espaço para a comunicação, as partes envolvidas podem entender melhor a perspectiva uma da outra, potencialmente levando a uma solução que respeite as necessidades de todos os envolvidos.",
+        "description": "The phrase 'a perspectiva um do outro' is a literal translation from English ('each other's perspective') and is not idiomatic in Portuguese. The correct and natural expression is 'a perspectiva uma da outra,' which better reflects standard usage and avoids anglicism.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Ao adotar estratégias para gerenciar diferenças, os participantes frequentemente se sentem mais compreendidos e valorizados, o que promove um ambiente de trabalho mais cooperativo.",
+        "correction": "Ao adotar estratégias para gerenciar diferenças, os participantes frequentemente se sentem mais compreendidos e valorizados, o que promove um ambiente mais cooperativo.",
+        "description": "The use of 'ambiente de trabalho' may not be appropriate in the context of school projects or educational settings, as it implies a professional workplace. For better localization and cultural appropriateness, 'ambiente mais cooperativo' is recommended, which is more inclusive and suitable for both school and work contexts.",
+        "severity": "MEDIUM"
+      }
+    ]
+  }
+}

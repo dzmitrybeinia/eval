@@ -1,0 +1,60 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "🌟",
+      "correction": "",
+      "description": "The use of the star emoji at the end of the introductory paragraph may be considered informal or out of place in educational content for Spanish-speaking audiences, especially in formal or academic contexts. It is recommended to remove the emoji to maintain a professional and neutral tone.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Sentirse dividido entre asistir a una fiesta o estudiar para un examen importante.",
+      "correction": "Sentirse dividido entre asistir a una fiesta o estudiar para un examen importante.",
+      "description": "While the sentence is grammatically correct, the use of 'dividido' may sound slightly unnatural in Spanish for expressing indecision. A more idiomatic expression would be 'dudar entre asistir a una fiesta o estudiar para un examen importante.' However, the original is acceptable and does not constitute a significant error.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Compromiso: Cada persona cede algo para llegar a un punto medio.",
+      "correction": "Compromiso: Cada persona cede algo para llegar a un acuerdo.",
+      "description": "The phrase 'llegar a un punto medio' is understandable but less idiomatic in Spanish than 'llegar a un acuerdo,' which is the standard term for reaching a compromise. Using 'acuerdo' improves naturalness and aligns with common usage in educational contexts.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Alejarse de una discusión y regresar más tarde con una mente más tranquila.",
+      "correction": "Alejarse de una discusión y regresar más tarde con la mente más tranquila.",
+      "description": "The phrase 'una mente más tranquila' is understandable but less natural in Spanish than 'la mente más tranquila.' Using the definite article 'la' is more idiomatic and improves the flow of the sentence.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Conflict_Resolution.llm.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-03T15:51:36.223937",
+    "model": "Azure OpenAI o3-mini",
+    "label": "llm",
+    "label_normalized": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

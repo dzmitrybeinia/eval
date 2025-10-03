@@ -1,0 +1,52 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Neste aprendizado, exploraremos as principais organelas de uma célula e entenderemos como elas trabalham juntas para manter a célula viva e funcionando.",
+      "correction": "Nesta aula, exploraremos as principais organelas de uma célula e entenderemos como elas trabalham juntas para manter a célula viva e funcionando.",
+      "description": "The word 'aprendizado' is not the most appropriate lexical choice in this educational context. In Brazilian Portuguese, 'aula' or 'lição' is more natural and commonly used to refer to a lesson or instructional segment. 'Aprendizado' refers to the process of learning, not the lesson itself. This affects both linguistic precision and localization naturalness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "O núcleo é conhecido como o \"centro de controle\" da célula.",
+      "correction": "O núcleo é conhecido como o \"centro de comando\" da célula.",
+      "description": "The phrase 'centro de controle' is a literal translation from English ('control center') and is less idiomatic in Brazilian Portuguese. 'Centro de comando' is a more natural and commonly used expression in scientific and educational contexts, improving localization and style.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Lisossomos: Degradam materiais de resíduos e reciclam partes antigas da célula.",
+      "correction": "Lisossomos: Degradam materiais residuais e reciclam partes antigas da célula.",
+      "description": "The phrase 'materiais de resíduos' is grammatically incorrect; the correct form is 'materiais residuais', which properly uses the adjective to describe the type of materials. This correction improves grammatical accuracy and clarity.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Cell_Parts.llm.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T15:56:18.695506",
+    "model": "Azure OpenAI o3-mini",
+    "label": "llm",
+    "label_normalized": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.4,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

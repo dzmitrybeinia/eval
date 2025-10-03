@@ -1,0 +1,68 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "desertos escaldantes até tundras árticas congelantes",
+      "correction": "desertos escaldantes até tundras árticas congelantes",
+      "description": "The phrase is linguistically correct, but the use of 'tundras árticas congelantes' is slightly redundant since 'árticas' already implies coldness. However, this is a stylistic choice and does not constitute an error. No correction needed.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Vamos explorar como essas adaptações permitem que os animais enfrentem os desafios do ambiente. 🌍",
+      "correction": "Vamos explorar como essas adaptações permitem que os animais enfrentem os desafios do ambiente.",
+      "description": "The use of the globe emoji (🌍) may not be appropriate in formal educational content for Brazilian Portuguese, as it can be perceived as informal or distracting in academic contexts. Removing the emoji improves the professional tone.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Adaptações dos animais são características ou comportamentos que aumentam sua capacidade de sobreviver e se reproduzir em um ambiente.",
+      "correction": "Adaptações dos animais são características ou comportamentos que aumentam a capacidade dos animais de sobreviver e se reproduzir em um ambiente.",
+      "description": "The use of 'sua capacidade' is ambiguous because 'sua' could refer to the reader or the animals. For clarity and grammatical precision, 'a capacidade dos animais' should be used to avoid confusion and ensure the subject is clear.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Camuflagem em animais como camaleões ou tigres, que se misturam ao ambiente para evitar predadores ou capturar presas.",
+      "correction": "Camuflagem em animais como camaleões e tigres, que se misturam ao ambiente para evitar predadores ou capturar presas.",
+      "description": "The use of 'ou' in 'camaleões ou tigres' suggests an exclusive choice, but both animals are examples of camouflage. 'E' is more appropriate to indicate that both are examples, improving lexical precision.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Ratos-canguru que sobrevivem sem beber água ao extrair umidade dos alimentos e produzir urina concentrada",
+      "correction": "Ratos-canguru que sobrevivem sem beber água ao extrair umidade dos alimentos e produzir urina concentrada",
+      "description": "The term 'ratos-canguru' is correct in Brazilian Portuguese for 'kangaroo rats', but it may be unfamiliar to some students. Consider adding a brief parenthetical explanation or image in educational materials to ensure comprehension, though the terminology itself is accurate.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Animal_Adaptations.llm.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T15:56:12.981637",
+    "model": "Azure OpenAI o3-mini",
+    "label": "llm",
+    "label_normalized": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.4,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

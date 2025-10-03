@@ -1,0 +1,199 @@
+{
+  "metadata": {
+    "label": "slm",
+    "label_normalized": "slm",
+    "label_key": "slm",
+    "language": "spanish",
+    "generated_at": "2025-10-03T16:10:08.757235",
+    "source_files": [
+      "evaluation_20251003_160240.json",
+      "evaluation_20251003_160242.json",
+      "evaluation_20251003_160245.json",
+      "evaluation_20251003_160246.json",
+      "evaluation_20251003_160248.json",
+      "evaluation_20251003_160251.json",
+      "evaluation_20251003_160253.json",
+      "evaluation_20251003_160258.json",
+      "evaluation_20251003_160300.json",
+      "evaluation_20251003_160304.json"
+    ],
+    "issue_counts": {
+      "linguistic": 16,
+      "localization": 5
+    }
+  },
+  "issues": {
+    "linguistic": [
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Proporcionando recursos esenciales como agua y nutrientes, permitió la agricultura, que sustenta el crecimiento de una civilización.",
+        "correction": "Proporcionando recursos esenciales como agua y nutrientes, permitió la agricultura, que sustentó el crecimiento de una civilización.",
+        "description": "The verb 'sustenta' is in the present tense, which creates a tense inconsistency with the rest of the sentence, which is in the past. It should be 'sustentó' to maintain past tense throughout the statement. This correction ensures proper verb tense agreement and improves clarity.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "lo cual es esencial para la camuflaje en su ambiente helado y para mantener calor.",
+        "correction": "lo cual es esencial para el camuflaje en su ambiente helado y para mantener el calor.",
+        "description": "There is a gender agreement error: 'la camuflaje' should be 'el camuflaje' because 'camuflaje' is masculine. Additionally, 'mantener calor' should be 'mantener el calor' to use the definite article appropriately. Both errors affect grammatical correctness and clarity.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "En el contexto de las ecuaciones simples, la variable representa un valor desconocido que necesita ser determinado. No puede ser cualquier número ya que es el elemento cuyo valor se busca resolver.",
+        "correction": "En el contexto de las ecuaciones simples, la variable representa un valor desconocido que necesita ser determinado. No puede ser cualquier número, ya que es el elemento cuyo valor se busca resolver.",
+        "description": "The original text is missing a comma before the conjunction 'ya que', which is required to separate the main clause from the explanatory subordinate clause. This punctuation error affects the clarity and flow of the sentence. The correction adds the necessary comma to improve grammatical accuracy.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "El clorofila dentro de los cloroplastos captura la energía solar, que es esencial para este proceso.",
+        "correction": "La clorofila dentro de los cloroplastos captura la energía solar, que es esencial para este proceso.",
+        "description": "The original sentence incorrectly uses the masculine article 'El' with the feminine noun 'clorofila'. In Spanish, 'clorofila' is feminine and requires the article 'La'. This error affects gender agreement and grammatical correctness.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Son de Reverde",
+        "correction": "Sueño de Rev. King",
+        "description": "The phrase 'Son de Reverde' is a lexical error and does not correspond to any known speech or concept related to Martin Luther King Jr. The intended reference is likely 'I Have a Dream' ('Tengo un sueño') or 'Sueño de Rev. King'. This error affects comprehension and credibility, as it misrepresents a key historical event and figure.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "No obstante, el verano puede ser bastante caluroso, pero no extremadamente.",
+        "correction": "No obstante, el verano puede ser bastante caluroso, pero no extremadamente caluroso.",
+        "description": "The sentence ends with 'no extremadamente', which is incomplete and lacks the noun or adjective it qualifies. The correct form is 'no extremadamente caluroso' to clarify what is not extreme. This improves clarity and grammatical completeness.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Sin variables, sería extremadamente limitado la capacidad de un programa para manejar información dinámica y adaptarse a diferentes situaciones.",
+        "correction": "Sin variables, sería extremadamente limitada la capacidad de un programa para manejar información dinámica y adaptarse a diferentes situaciones.",
+        "description": "There is a gender agreement error: 'limitado' should agree in gender with 'la capacidad', which is feminine. The correct form is 'limitada'. This error affects grammatical accuracy and clarity.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "En el lenguaje de programación, los enteros son capaces de almacenar números sin signo, lo que incluye valores positivos y negativos. Esto es fundamental para manejar operaciones matemáticas que requieren substractar o añadir cantidades de valor negativo.",
+        "correction": "En programación, los enteros son capaces de almacenar números con o sin signo, lo que incluye valores positivos y negativos. Esto es fundamental para manejar operaciones matemáticas que requieren restar o añadir cantidades de valor negativo.",
+        "description": "The phrase 'números sin signo' is incorrect in this context, as it means 'unsigned numbers', which only includes positive values. The correct explanation should mention that integers can be signed or unsigned, and that signed integers include both positive and negative values. Additionally, 'substractar' is not a correct Spanish verb; the proper term is 'restar'.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "En la programación, los nombres de variables deben comenzar con una letra o un guion bajo (_), no con un número. Esto ayuda a mantener la claridad y las convenciones de programación establecidas.",
+        "correction": "En programación, los nombres de variables deben comenzar con una letra o un guion bajo (_), no con un número. Esto ayuda a mantener la claridad y las convenciones de programación establecidas.",
+        "description": "The phrase 'En la programación' is less natural in Spanish; 'En programación' is the standard and more concise form used in educational and technical contexts. This improves the naturalness and professionalism of the text.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Las operaciones aritméticas, como la suma, resultan en tipos numéricos, no de tipo cadena. En el ejemplo proporcionado, la suma de dos enteros (5 + 3) da como resultado un entero (8), no una cadena.",
+        "correction": "Las operaciones aritméticas, como la suma, resultan en tipos numéricos, no en tipo cadena. En el ejemplo proporcionado, la suma de dos enteros (5 + 3) da como resultado un entero (8), no una cadena.",
+        "description": "The phrase 'no de tipo cadena' should be 'no en tipo cadena' to match standard Spanish usage when referring to data types. This correction improves lexical precision and clarity.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Esta afirmación es incorrecta porque las variables en programación pueden almacenar varios tipos de datos, incluyendo enteros, cadenas de texto, booleanos, y más. La versatilidad de las variables permite su uso en una amplia gama de aplicaciones, no limitándose solo a valores enteros.",
+        "correction": "Esta afirmación es incorrecta porque las variables en programación pueden almacenar varios tipos de datos, incluidos enteros, cadenas de texto, booleanos y más. La versatilidad de las variables permite su uso en una amplia gama de aplicaciones, no limitándose solo a valores enteros.",
+        "description": "The word 'incluyendo' should be 'incluidos' to agree with 'tipos de datos' (masculine plural). Also, the comma before 'y más' is unnecessary in Spanish. These changes improve grammatical agreement and naturalness.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Al reconocer y validar las sentimientos de una persona, se fomenta el respeto mutuo y se abre un camino para una resolución pacífica.",
+        "correction": "Al reconocer y validar los sentimientos de una persona, se fomenta el respeto mutuo y se abre un camino para una resolución pacífica.",
+        "description": "The noun 'sentimientos' is masculine plural, so the article should be 'los' instead of 'las'. This is a gender agreement error that affects grammatical correctness and clarity.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "El pensamiento crítico se caracteriza por una mente abierta y un escepticismo, lo que significa que se cuestionan las opiniones y se examinan las evidencias antes de llegar a conclusiones.",
+        "correction": "El pensamiento crítico se caracteriza por una mente abierta y escepticismo, lo que significa que se cuestionan las opiniones y se examinan las evidencias antes de llegar a conclusiones.",
+        "description": "The use of the article 'un' before 'escepticismo' is unnecessary and unidiomatic in Spanish when listing qualities. Removing 'un' results in a more natural and grammatically correct expression. No other linguistic or localization issues are present.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Esto puede influir en las decisiones de una manera que no refleje la realidad completa o las opciones disponibles.",
+        "correction": "Esto puede influir en las decisiones de una manera que no refleje completamente la realidad o las opciones disponibles.",
+        "description": "The phrase 'la realidad completa' is awkward and less idiomatic in Spanish. 'Refleje completamente la realidad' is a more natural and precise way to express the intended meaning. No other linguistic or localization issues are present.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Al examinar la autoría y el contexto de la información, se puede discernir si la evidencia apoya una conclusión lógica.",
+        "correction": "Al examinar la autoría y el contexto de la información, se puede discernir si la evidencia respalda una conclusión lógica.",
+        "description": "The verb 'apoyar' is commonly used for physical or emotional support, while 'respaldar' is more appropriate for the context of evidence supporting a conclusion. This correction improves lexical precision and naturalness.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Un argumento razonado debe considerar múltiples perspectivas, incluyendo contraargumentos, para demostrar una comprensión completa y robusta del tema.",
+        "correction": "Un argumento razonado debe considerar múltiples perspectivas, incluidos los contraargumentos, para demostrar una comprensión completa y robusta del tema.",
+        "description": "The participle 'incluyendo' should agree with the noun 'contraargumentos'; 'incluidos los contraargumentos' is the correct form for gender and number agreement. This correction addresses grammatical accuracy.",
+        "severity": "MINOR"
+      }
+    ],
+    "localization": [
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Sphinx",
+        "correction": "Esfinge",
+        "description": "The use of 'Sphinx' is an anglicism and not the standard term in Spanish. The correct term is 'Esfinge', which is widely recognized and culturally appropriate in Spanish-speaking contexts. Using the local term enhances naturalness and professional language usage.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "La declaración es incorrecta porque el álgebra no se usa para ajustar fracciones de ingredientes. En la cocina, las medidas suelen ser de tamaño entero, y el álgebra podría ser útil para planificar cantidades de ingredientes para un número diferente de servicios, no para ajustar fracciones exactas de una receta.",
+        "correction": "La declaración es incorrecta porque el álgebra puede utilizarse para ajustar cantidades de ingredientes, incluyendo fracciones, especialmente en recetas donde es necesario modificar proporciones. En la cocina, es común emplear el álgebra para calcular cantidades exactas, tanto enteras como fraccionarias, según el número de porciones deseadas.",
+        "description": "The feedback contains a cultural inaccuracy regarding the use of algebra in cooking. In Spanish-speaking contexts, it is common to use algebraic reasoning to adjust both whole and fractional ingredient quantities, especially when scaling recipes. The original statement incorrectly claims that algebra is not used for fractional adjustments, which may mislead learners about practical applications. The correction clarifies that algebra is indeed useful for calculating both whole and fractional ingredient amounts.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "Las zonas climáticas áridas, como el desierto del Sahara o el Outback australiano, se caracterizan por tener muy poca precipitación, lo que lleva a una vegetación escasa.",
+        "correction": "Las zonas climáticas áridas, como el desierto del Sahara o el desierto de Atacama, se caracterizan por tener muy poca precipitación, lo que lleva a una vegetación escasa.",
+        "description": "The use of 'Outback australiano' may not be the most culturally relevant example for Spanish-speaking learners. Replacing it with 'desierto de Atacama', a well-known arid region in Latin America, increases cultural appropriateness and relatability for the target audience.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Las zonas tropicales son conocidas por su clima caliente y húmedo, lo que favorece la formación de selvas y bosques densos.",
+        "correction": "Las zonas tropicales son conocidas por su clima cálido y húmedo, lo que favorece la formación de selvas y bosques densos.",
+        "description": "The term 'clima caliente' is less natural in Spanish when describing weather; 'clima cálido' is the standard and more professional term. This change improves the naturalness and consistency of terminology.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Esta declaración no refleja con precisión la relación entre programación y diseño.",
+        "correction": "Esta declaración no refleja con precisión la relación entre programación y el diseño de algoritmos.",
+        "description": "The phrase 'la relación entre programación y diseño' is vague and may cause confusion in the educational context. Specifying 'el diseño de algoritmos' clarifies the intended meaning and aligns with standard terminology in Spanish programming education, improving naturalness and precision.",
+        "severity": "MEDIUM"
+      }
+    ]
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Тропические зоны охлаждаются на протяжении всей года.",
+      "correction": "Тропические зоны охлаждаются на протяжении всего года.",
+      "description": "The phrase 'всей года' is incorrect due to the wrong case usage; 'год' should be in the genitive case ('всего года'). Additionally, the verb 'охлаждаются' is not the most precise choice for describing climate zones, as it implies active cooling rather than temperature changes. However, the main issue is the grammatical error in the noun phrase.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Охлаждение здесь происходит в основном из-за сезонных изменений, а не постоянной охладной температуры.",
+      "correction": "Охлаждение здесь происходит в основном из-за сезонных изменений, а не постоянной низкой температуры.",
+      "description": "The phrase 'постоянной охладной температуры' is incorrect; 'охладной' is not a standard Russian adjective. The correct term is 'низкой температуры' to convey 'low temperature.' This lexical error affects clarity and naturalness.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Амазонские тропические леса",
+      "correction": "Амазонские тропические леса",
+      "description": "While the term 'Амазонские тропические леса' is correct, it is more common in Russian educational contexts to use 'Амазонский дождевой лес' or 'Амазонские влажные леса.' The current term is understandable but could be improved for naturalness and consistency with standard Russian terminology.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "зимние холодания",
+      "correction": "зимние холода",
+      "description": "The word 'холодания' is not standard Russian; the correct term is 'холода' to refer to cold periods. This lexical error affects the naturalness and clarity of the statement.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "обильным осадком",
+      "correction": "обильными осадками",
+      "description": "The phrase 'обильным осадком' is incorrect due to the wrong case and number; 'осадками' should be in the instrumental plural to match 'обильными.' This error affects grammatical agreement and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "создает более мягкое климат",
+      "correction": "создает более мягкий климат",
+      "description": "The word 'климат' is masculine and requires the adjective 'мягкий' in the masculine form. The incorrect adjective ending affects grammatical agreement.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Вездовые течения на Земле не влияют на климат.",
+      "correction": "Водные течения на Земле не влияют на климат.",
+      "description": "The term 'вездовые течения' is not standard Russian and appears to be a mistranslation or typo. The correct term is 'водные течения' (water currents) or 'океанические течения' (ocean currents). This lexical error significantly affects comprehension.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Вездовые течения, такие как теплоидные течения и холодоносные течения, играют значительную роль в формировании климатических условий.",
+      "correction": "Водные течения, такие как теплые течения и холодные течения, играют значительную роль в формировании климатических условий.",
+      "description": "The terms 'вездовые течения,' 'теплоидные течения,' and 'холодоносные течения' are not standard in Russian. The correct terminology is 'водные течения,' 'теплые течения,' and 'холодные течения.' These lexical errors affect clarity and scientific accuracy.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Climate_Zones.slm.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T16:06:28.785497",
+    "model": "Azure OpenAI o3-mini",
+    "label": "slm",
+    "label_normalized": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 7.8,
+    "classification": "ACCEPTABLE",
+    "total_issues": 8,
+    "total_penalty": 2.2,
+    "issue_breakdown": {
+      "linguistic": 7,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 2.1,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

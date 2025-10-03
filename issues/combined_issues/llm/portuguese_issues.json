@@ -1,0 +1,279 @@
+{
+  "metadata": {
+    "label": "llm",
+    "label_normalized": "llm",
+    "label_key": "llm",
+    "language": "portuguese",
+    "generated_at": "2025-10-03T15:57:57.582102",
+    "source_files": [
+      "evaluation_20251003_155608.json",
+      "evaluation_20251003_155612.json",
+      "evaluation_20251003_155615.json",
+      "evaluation_20251003_155618.json",
+      "evaluation_20251003_155624.json",
+      "evaluation_20251003_155627.json",
+      "evaluation_20251003_155629.json",
+      "evaluation_20251003_155632.json",
+      "evaluation_20251003_155634.json",
+      "evaluation_20251003_155637.json"
+    ],
+    "issue_counts": {
+      "linguistic": 14,
+      "localization": 17
+    }
+  },
+  "issues": {
+    "linguistic": [
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "A localização do Egito conectava-o a outras regiões, promovendo comércio e intercâmbio cultural.",
+        "correction": "A localização do Egito conectava o país a outras regiões, promovendo comércio e intercâmbio cultural.",
+        "description": "The use of the pronoun 'conectava-o' is grammatically correct but stylistically awkward and less natural in Brazilian Portuguese. Replacing it with 'conectava o país' improves clarity and naturalness, making the sentence more idiomatic and easier to understand.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Os faraós eram líderes políticos e figuras divinas, escolhidos pelos deuses.",
+        "correction": "Os faraós eram líderes políticos e figuras divinas, considerados escolhidos pelos deuses.",
+        "description": "The phrase 'escolhidos pelos deuses' implies a direct selection, which is not entirely accurate in the context of Ancient Egyptian beliefs. Adding 'considerados' clarifies that the pharaohs were regarded as chosen by the gods, improving both grammatical precision and historical accuracy.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "desertos escaldantes até tundras árticas congelantes",
+        "correction": "desertos escaldantes até tundras árticas congelantes",
+        "description": "The phrase is linguistically correct, but the use of 'tundras árticas congelantes' is slightly redundant since 'árticas' already implies coldness. However, this is a stylistic choice and does not constitute an error. No correction needed.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Adaptações dos animais são características ou comportamentos que aumentam sua capacidade de sobreviver e se reproduzir em um ambiente.",
+        "correction": "Adaptações dos animais são características ou comportamentos que aumentam a capacidade dos animais de sobreviver e se reproduzir em um ambiente.",
+        "description": "The use of 'sua capacidade' is ambiguous because 'sua' could refer to the reader or the animals. For clarity and grammatical precision, 'a capacidade dos animais' should be used to avoid confusion and ensure the subject is clear.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Camuflagem em animais como camaleões ou tigres, que se misturam ao ambiente para evitar predadores ou capturar presas.",
+        "correction": "Camuflagem em animais como camaleões e tigres, que se misturam ao ambiente para evitar predadores ou capturar presas.",
+        "description": "The use of 'ou' in 'camaleões ou tigres' suggests an exclusive choice, but both animals are examples of camouflage. 'E' is more appropriate to indicate that both are examples, improving lexical precision.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "A álgebra é uma parte fascinante da matemática que utiliza símbolos, letras e números para representar relações e resolver problemas.",
+        "correction": "A álgebra é uma parte fascinante da matemática que utiliza símbolos, letras e números para representar relações e resolver problemas.",
+        "description": "No linguistic errors found. The sentence is correctly written in terms of spelling, accentuation, and punctuation. No correction needed.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Símbolos que representam valores desconhecidos ou variáveis.",
+        "correction": "Símbolos que representam valores desconhecidos ou que podem variar.",
+        "description": "The phrase 'valores desconhecidos ou variáveis' is grammatically ambiguous, as 'variáveis' is an adjective but used as a noun. For clarity and correctness, it should be 'valores desconhecidos ou que podem variar', which maintains parallel structure and precise meaning.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Neste aprendizado, exploraremos as principais organelas de uma célula e entenderemos como elas trabalham juntas para manter a célula viva e funcionando.",
+        "correction": "Nesta aula, exploraremos as principais organelas de uma célula e entenderemos como elas trabalham juntas para manter a célula viva e funcionando.",
+        "description": "The word 'aprendizado' is not the most appropriate lexical choice in this educational context. In Brazilian Portuguese, 'aula' or 'lição' is more natural and commonly used to refer to a lesson or instructional segment. 'Aprendizado' refers to the process of learning, not the lesson itself. This affects both linguistic precision and localization naturalness.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Lisossomos: Degradam materiais de resíduos e reciclam partes antigas da célula.",
+        "correction": "Lisossomos: Degradam materiais residuais e reciclam partes antigas da célula.",
+        "description": "The phrase 'materiais de resíduos' is grammatically incorrect; the correct form is 'materiais residuais', which properly uses the adjective to describe the type of materials. This correction improves grammatical accuracy and clarity.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "dessegregação",
+        "correction": "dessegregação",
+        "description": "The word 'dessegregação' is orthographically correct in Portuguese, but it is a rare term and may sound unnatural to Brazilian readers. The more commonly used term is 'fim da segregação' or 'abolição da segregação'. Using 'dessegregação' is not incorrect, but for clarity and naturalness, 'fim da segregação' is recommended.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "temperatura e precipitação",
+        "correction": "temperaturas e precipitações",
+        "description": "The nouns 'temperatura' and 'precipitação' should be in the plural form to agree with 'características climáticas semelhantes', which refers to multiple features. This ensures proper number agreement and clarity in the context of describing climate zones.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "idade usuario",
+        "correction": "idade_usuario",
+        "description": "The variable name 'idade usuario' contains a space, which is invalid in both Python syntax and standard Portuguese orthography for variable naming. The correct form uses an underscore to separate words, following both programming conventions and Portuguese readability standards.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Trabalhem juntos para achar opções que atendam todos.",
+        "correction": "Trabalhem juntos para achar opções que atendam a todos.",
+        "description": "The sentence is missing the preposition 'a' before 'todos', which is required in Brazilian Portuguese to indicate the indirect object. The correct form is 'atendam a todos'. This error affects grammatical accuracy and clarity.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Buscar informações que apoiem crenças pré-existentes.",
+        "correction": "Buscar informações que apoiem crenças preexistentes.",
+        "description": "The word 'pré-existentes' should be written as 'preexistentes' without the hyphen, according to the current Portuguese orthographic agreement. This is a minor orthographic error that does not affect comprehension but should be corrected for standardization.",
+        "severity": "MINOR"
+      }
+    ],
+    "localization": [
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Bem-vindos ao fascinante mundo do Egito Antigo! ✨ Neste estudo, exploraremos como esta civilização incrível moldou a história e deixou um legado duradouro. Prepare-se para descobrir a geografia, cultura, governo e as contribuições do Egito Antigo para o mundo moderno!",
+        "correction": "Bem-vindos ao fascinante mundo do Egito Antigo! Neste estudo, exploraremos como esta civilização incrível moldou a história e deixou um legado duradouro. Prepare-se para descobrir a geografia, cultura, governo e as contribuições do Egito Antigo para o mundo moderno!",
+        "description": "The use of the sparkle emoji (✨) in educational content may be considered informal and less appropriate for academic contexts in Brazilian Portuguese. Removing the emoji ensures a more professional and neutral tone, which is culturally expected in formal educational materials.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "A sociedade era hierárquica, com o faraó no topo, seguido por sacerdotes, nobres, soldados, comerciantes e agricultores.",
+        "correction": "A sociedade era hierárquica, com o faraó no topo, seguido por sacerdotes, nobres, soldados, artesãos, comerciantes e agricultores.",
+        "description": "The omission of 'artesãos' (artisans) from the social hierarchy is a cultural inaccuracy, as artisans played a significant role in Ancient Egyptian society. Including 'artesãos' ensures the content is both historically accurate and culturally appropriate for educational purposes.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Vamos explorar como essas adaptações permitem que os animais enfrentem os desafios do ambiente. 🌍",
+        "correction": "Vamos explorar como essas adaptações permitem que os animais enfrentem os desafios do ambiente.",
+        "description": "The use of the globe emoji (🌍) may not be appropriate in formal educational content for Brazilian Portuguese, as it can be perceived as informal or distracting in academic contexts. Removing the emoji improves the professional tone.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Ratos-canguru que sobrevivem sem beber água ao extrair umidade dos alimentos e produzir urina concentrada",
+        "correction": "Ratos-canguru que sobrevivem sem beber água ao extrair umidade dos alimentos e produzir urina concentrada",
+        "description": "The term 'ratos-canguru' is correct in Brazilian Portuguese for 'kangaroo rats', but it may be unfamiliar to some students. Consider adding a brief parenthetical explanation or image in educational materials to ensure comprehension, though the terminology itself is accurate.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Vamos começar! 🎓",
+        "correction": "Vamos começar!",
+        "description": "The use of the graduation cap emoji (🎓) may not be appropriate in formal educational content, especially for older students or in professional settings. Removing the emoji ensures a more neutral and universally accepted tone.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "O núcleo é conhecido como o \"centro de controle\" da célula.",
+        "correction": "O núcleo é conhecido como o \"centro de comando\" da célula.",
+        "description": "The phrase 'centro de controle' is a literal translation from English ('control center') and is less idiomatic in Brazilian Portuguese. 'Centro de comando' is a more natural and commonly used expression in scientific and educational contexts, improving localization and style.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "Marcha sobre Washington",
+        "correction": "Marcha sobre Washington",
+        "description": "While the term 'Marcha sobre Washington' is a direct translation of 'March on Washington', it may be unfamiliar to some Brazilian audiences who are not versed in American history. For improved localization, a brief parenthetical explanation such as '(Marcha em Washington, importante manifestação pelos direitos civis nos EUA)' could be added to clarify the event's significance and context for learners who may not recognize the reference.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "Lei dos Direitos Civis de 1964",
+        "correction": "Lei dos Direitos Civis de 1964 (Civil Rights Act of 1964)",
+        "description": "The term 'Lei dos Direitos Civis de 1964' is a correct translation, but adding the original English name in parentheses ('Civil Rights Act of 1964') would help Brazilian learners connect the local term to the well-known American legislation, improving comprehension and cross-cultural understanding.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "Lei de Direitos de Voto de 1965",
+        "correction": "Lei de Direitos de Voto de 1965 (Voting Rights Act of 1965)",
+        "description": "Similar to the previous item, including the original English name in parentheses ('Voting Rights Act of 1965') would enhance clarity and help learners recognize the historical reference, as the direct translation may not be immediately familiar.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "🌟",
+        "correction": "",
+        "description": "The use of the star emoji '🌟' in educational content may be perceived as informal or distracting in Brazilian academic contexts, especially in history lessons. It is recommended to remove the emoji to maintain a formal and professional tone appropriate for the subject matter.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Alpina (montanhosa)",
+        "correction": "Alpina",
+        "description": "The use of 'Alpina (montanhosa)' may cause confusion, as 'alpina' is the standard term in climatology for high-altitude climate zones. Adding '(montanhosa)' is unnecessary and could be misleading, since not all mountainous regions have an alpine climate. For educational clarity and terminological consistency, use only 'Alpina'.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "A Floresta Amazônica representa uma zona tropical, enquanto o Deserto do Saara é um exemplo de zona seca.",
+        "correction": "A Floresta Amazônica representa uma zona tropical, enquanto o Sertão Nordestino é um exemplo de zona seca.",
+        "description": "Using the Sahara Desert as an example of a dry zone is globally accurate, but for Brazilian learners, referencing the 'Sertão Nordestino' provides a more culturally relevant and locally meaningful example. This enhances relatability and educational impact for the target audience.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Bem-vindos ao mundo da programação!",
+        "correction": "Bem-vindo ao mundo da programação!",
+        "description": "The greeting uses the plural 'Bem-vindos', which is appropriate for addressing a group. However, in educational content where the audience may be singular or undefined, the singular 'Bem-vindo' is more neutral and commonly used in Brazilian Portuguese for general introductions. This change improves the naturalness and inclusivity of the tone.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Laços",
+        "correction": "Loops",
+        "description": "The term 'Laços' is a literal translation of 'loops' but is less commonly used in Brazilian Portuguese programming contexts. The term 'Loops' is widely accepted and used in technical documentation and educational materials in Brazil. Using 'Loops' ensures consistency with industry-standard terminology and improves comprehension for learners familiar with programming literature.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Declarações Condicionais",
+        "correction": "Estruturas condicionais",
+        "description": "The phrase 'Declarações Condicionais' is understandable but not the most natural or standard term in Brazilian Portuguese programming education. 'Estruturas condicionais' is the preferred term, aligning with how control flow statements are typically described in local textbooks and documentation. This change enhances the naturalness and professionalism of the content.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "🌟",
+        "correction": "",
+        "description": "The use of the star emoji at the end of the introductory paragraph may be considered informal or out of place in educational content for Brazilian Portuguese, especially in formal or academic contexts. It can detract from the professional tone expected in instructional materials. Removing the emoji will ensure the content maintains an appropriate and consistent style.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Prepare-se para desenvolver ferramentas que o ajudarão a analisar questões complexas e participar de discussões significativas! 🌟",
+        "correction": "Prepare-se para desenvolver ferramentas que o ajudarão a analisar questões complexas e participar de discussões significativas!",
+        "description": "The use of the emoji '🌟' at the end of an educational sentence may be considered informal and less appropriate for formal educational content in Brazilian Portuguese. Removing the emoji improves the professional tone and maintains consistency with the rest of the lesson.",
+        "severity": "MINOR"
+      }
+    ]
+  }
+}

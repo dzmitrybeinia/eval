@@ -1,0 +1,52 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "オルガネラ",
+      "correction": "細胞小器官",
+      "description": "The term 'オルガネラ' is a direct katakana transliteration of 'organelle', which is sometimes used in Japanese scientific contexts but is less natural and less widely accepted in educational materials for general audiences. The standard and more natural Japanese term is '細胞小器官', which is clearer and more appropriate for educational content. Using '細胞小器官' ensures consistency and better comprehension for learners.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "核は細胞の脳のようなもので、すべてのプロセスを指揮し、細胞の運営のための指示を保存します。",
+      "correction": "核は細胞の司令塔のようなもので、すべてのプロセスを指揮し、細胞の運営のための情報を保存します。",
+      "description": "The metaphor '細胞の脳のようなもの' is not commonly used in Japanese biology education and may cause confusion, as '脳' (brain) is not directly analogous to the nucleus in scientific explanations. '司令塔' (command center) is a more culturally and scientifically appropriate metaphor in Japanese educational contexts. Additionally, '指示を保存します' (stores instructions) is less precise than '情報を保存します' (stores information), which better reflects the function of the nucleus.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "ミトコンドリアは発電所のようなもので、細胞が機能するためのエネルギーを生産します。",
+      "correction": "ミトコンドリアは発電所のようなもので、細胞が活動するためのエネルギーを生み出します。",
+      "description": "The phrase '細胞が機能するためのエネルギーを生産します' uses '機能する' (to function), which is less natural in Japanese scientific writing than '活動する' (to be active). Also, '生産します' (produces) is less commonly used for energy generation in this context than '生み出します' (generates/creates), which is more idiomatic and natural in Japanese biology education.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Cell_Parts.llm.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-03T15:57:12.224328",
+    "model": "Azure OpenAI o3-mini",
+    "label": "llm",
+    "label_normalized": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.5,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

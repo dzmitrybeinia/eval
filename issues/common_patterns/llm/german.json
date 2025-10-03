@@ -1,0 +1,317 @@
+{
+  "metadata": {
+    "label": "llm",
+    "label_normalized": "llm",
+    "label_key": "llm",
+    "language": "german",
+    "generated_at": "2025-10-03T15:59:35.885917"
+  },
+  "top_error_patterns": [
+    {
+      "pattern_name": "Incorrect scientific terminology",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "HIGH",
+      "frequency": "common",
+      "frequency_count": 1,
+      "description": "Use of inaccurate or misleading scientific terms that do not align with standard German usage, potentially causing confusion about key concepts.",
+      "examples": [
+        {
+          "wrong": "Physikalische Anpassungen",
+          "correct": "Physiologische Anpassungen",
+          "context": "Biology quiz items discussing types of adaptations"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect grammatical gender for scientific nouns",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "HIGH",
+      "frequency": "common",
+      "frequency_count": 1,
+      "description": "Systematic misuse of articles with scientific terms, leading to confusion about grammatical gender and proper noun usage in German.",
+      "examples": [
+        {
+          "wrong": "das DNA",
+          "correct": "die DNA",
+          "context": "Quiz items referencing DNA in explanations or questions"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Inconsistent or Unlocalized Terminology",
+      "category": "localization",
+      "subcategory": "Terminology",
+      "impact_level": "MEDIUM",
+      "frequency": "very_common",
+      "frequency_count": 5,
+      "description": "English terms or direct translations are used without proper German equivalents or explanations, leading to confusion and reduced accessibility for learners unfamiliar with the source language or context.",
+      "examples": [
+        {
+          "wrong": "Student Nonviolent Coordinating Committee (SNCC)",
+          "correct": "Student Nonviolent Coordinating Committee (SNCC, Studentischer Ausschuss für gewaltfreie Koordination)",
+          "context": "US-specific organization name presented without German explanation"
+        },
+        {
+          "wrong": "Voting Rights Act von 1965",
+          "correct": "Wahlrechtsgesetz von 1965 (Voting Rights Act)",
+          "context": "Legal term translated directly with English title and German preposition"
+        },
+        {
+          "wrong": "Boolean: Wahrheitswerte (True oder False)",
+          "correct": "Boolean: Wahrheitswerte (Wahr oder Falsch)",
+          "context": "Programming terminology explained using English terms instead of German"
+        },
+        {
+          "wrong": "Kaktuszaunkönigin",
+          "correct": "Kaktuszaunkönig",
+          "context": "Incorrect gender and non-standard species name in German"
+        },
+        {
+          "wrong": "Globale Konflikte: Große gesellschaftliche oder politische Auseinandersetzungen.",
+          "correct": "Globale Konflikte: Internationale gesellschaftliche oder politische Auseinandersetzungen.",
+          "context": "Definition lacks specificity for 'global' in German educational context"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Inappropriate Use of Emojis in Formal Educational Content",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "MEDIUM",
+      "frequency": "very_common",
+      "frequency_count": 4,
+      "description": "Emojis such as 🌍, 🧮, and 🌟 are used in educational materials where a formal and professional tone is expected. Their inclusion can undermine seriousness and distract learners, making the content less suitable for German academic contexts.",
+      "examples": [
+        {
+          "wrong": "Willkommen zu einer Reise in die Welt des Alten Ägypten! 🌍",
+          "correct": "Willkommen zu einer Reise in die Welt des Alten Ägypten!",
+          "context": "Introductory sentence in a history quiz"
+        },
+        {
+          "wrong": "🧮",
+          "correct": "",
+          "context": "Introductory paragraph in a math quiz"
+        },
+        {
+          "wrong": "🌍",
+          "correct": "",
+          "context": "End of an introductory paragraph"
+        },
+        {
+          "wrong": "🌟",
+          "correct": "",
+          "context": "Motivational or highlight section in educational content"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Cultural Inaccuracy in Examples and Expressions",
+      "category": "localization",
+      "subcategory": "Cultural",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 2,
+      "description": "Examples or expressions do not align with cultural norms or standard phrasing in German, which may confuse learners or reduce the authenticity of the content.",
+      "examples": [
+        {
+          "wrong": "Bären schlafen den Winter über, um Energie zu sparen, wenn Nahrung knapp ist.",
+          "correct": "Bären halten während des Winters Winterschlaf, um Energie zu sparen, wenn Nahrung knapp ist.",
+          "context": "Non-standard phrasing for animal hibernation in German"
+        },
+        {
+          "wrong": "Erdnussbutter auf eine Scheibe streichen.",
+          "correct": "Butter auf eine Scheibe streichen.",
+          "context": "Food example not typical for German-speaking audiences"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect Use of Quotation Marks",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 2,
+      "description": "English-style double quotes (\" \") are used instead of German quotation marks („ “) in explanations and comments. This affects typographic correctness and cultural fit in German educational materials.",
+      "examples": [
+        {
+          "wrong": "Stell dir eine Box vor, die mit \"Punktestand\" beschriftet ist.",
+          "correct": "Stell dir eine Box vor, die mit „Punktestand“ beschriftet ist.",
+          "context": "Instructional sentence describing a labeled box"
+        },
+        {
+          "wrong": "print(\"Hallo, Welt!\")  # Zeigt \"Hallo, Welt!\" auf dem Bildschirm an",
+          "correct": "print(\"Hallo, Welt!\")  # Zeigt „Hallo, Welt!“ auf dem Bildschirm an",
+          "context": "Code comment explaining output"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Non-Standard Terminology Usage",
+      "category": "localization",
+      "subcategory": "Terminology",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 2,
+      "description": "English terms or phrases are used where established German terminology exists, reducing clarity and professional tone for German learners.",
+      "examples": [
+        {
+          "wrong": "LGBTQ+-Personen",
+          "correct": "LSBTIQ+-Personen",
+          "context": "Reference to gender and sexual diversity in social studies content"
+        },
+        {
+          "wrong": "Verwenden Sie „Ich“-Aussagen, um Ihre Gefühle auszudrücken.",
+          "correct": "Verwenden Sie Ich-Botschaften, um Ihre Gefühle auszudrücken.",
+          "context": "Instructional sentence in a psychology or communication lesson"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect compound noun formation",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 1,
+      "description": "Compound nouns are incorrectly split or hyphenated, violating German orthographic rules and reducing linguistic accuracy.",
+      "examples": [
+        {
+          "wrong": "Symbolschrift-System",
+          "correct": "Symbolschriftsystem",
+          "context": "Compound noun in educational content"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Use of unnecessary anglicisms",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 1,
+      "description": "English terms are used where standard German equivalents exist, leading to reduced clarity and professionalism in educational contexts.",
+      "examples": [
+        {
+          "wrong": "Real-World-Beispiel",
+          "correct": "Praxisbeispiel",
+          "context": "Example terminology in quiz items"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Missing prepositions in idiomatic expressions",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 1,
+      "description": "Idiomatic expressions lack required prepositions, resulting in incomplete or non-standard phrasing that affects comprehension.",
+      "examples": [
+        {
+          "wrong": "das ganze Jahr",
+          "correct": "das ganze Jahr über",
+          "context": "Temporal expression in descriptive sentences"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Inconsistent Use of Formal and Informal Address",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Switching between formal ('Sie') and informal ('du') forms disrupts tone consistency, which is important for educational content targeting specific age groups or learning contexts.",
+      "examples": [
+        {
+          "wrong": "Nutzen Sie die Gelegenheit, kleine Programme zu schreiben und zu experimentieren, wie Variablen und Datentypen zusammenarbeiten.",
+          "correct": "Nutze die Gelegenheit, kleine Programme zu schreiben und zu experimentieren, wie Variablen und Datentypen zusammenarbeiten.",
+          "context": "Formal address used in otherwise informal lesson"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect sentence-initial capitalization",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "LOW",
+      "frequency": "common",
+      "frequency_count": 1,
+      "description": "Sentences, especially imperatives, sometimes begin with a lowercase letter instead of the required uppercase, which violates German orthographic conventions.",
+      "examples": [
+        {
+          "wrong": "nimm einen Regenschirm.",
+          "correct": "Nimm einen Regenschirm.",
+          "context": "Imperative sentence at the start of a quiz item."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Imprecise verb choice for educational context",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "LOW",
+      "frequency": "common",
+      "frequency_count": 1,
+      "description": "Use of general verbs like 'machen' instead of more precise alternatives such as 'zubereiten' in instructional or educational contexts, reducing lexical accuracy.",
+      "examples": [
+        {
+          "wrong": "Ein Butterbrot machen.",
+          "correct": "Ein Butterbrot zubereiten.",
+          "context": "Instructional phrase describing food preparation."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Potential confusion with Eszett (ß) usage",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Words like 'Spaß' may be incorrectly spelled as 'Spass', especially after a long vowel, which is a common orthographic error in German.",
+      "examples": [
+        {
+          "wrong": "Spass",
+          "correct": "Spaß",
+          "context": "Noun referring to 'fun' in quiz content."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Missing Subject Pronoun in Explanatory Sentences",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Explanatory sentences omit the subject pronoun, which is less natural in German and can affect clarity for learners.",
+      "examples": [
+        {
+          "wrong": "Zersetzen Abfall und recyceln Materialien.",
+          "correct": "Sie zersetzen Abfall und recyceln Materialien.",
+          "context": "Science explanation about microorganisms"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect Currency Formatting",
+      "category": "localization",
+      "subcategory": "Format",
+      "impact_level": "LOW",
+      "frequency": "rare",
+      "frequency_count": 1,
+      "description": "A regular space is used between the number and the euro sign instead of a non-breaking space, which can cause formatting issues and is not typographically correct in German.",
+      "examples": [
+        {
+          "wrong": "20 €",
+          "correct": "20 €",
+          "context": "Price or currency value in a math or economics quiz"
+        }
+      ]
+    }
+  ]
+}

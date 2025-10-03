@@ -1,0 +1,52 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Su grueso pelaje y capa de grasa los mantienen calientes en el Ártico.",
+      "correction": "Su grueso pelaje y capa de grasa lo mantienen caliente en el Ártico.",
+      "description": "The pronoun 'los' is incorrect because it refers to 'oso polar', which is singular. It should be 'lo' to match the singular noun. Additionally, 'calientes' should be 'caliente' to agree in number with 'oso polar'. This error affects grammatical agreement and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "¡Bienvenidos a la fascinante exploración de cómo los animales logran sobrevivir en sus entornos! Descubriremos las increíbles adaptaciones físicas y comportamentales que permiten a los animales prosperar en diferentes ecosistemas del mundo. 🌍✨",
+      "correction": "¡Bienvenidos a la fascinante exploración de cómo los animales logran sobrevivir en sus entornos! Descubriremos las increíbles adaptaciones físicas y comportamentales que permiten a los animales prosperar en diferentes ecosistemas del mundo.",
+      "description": "The use of emojis (🌍✨) is not standard in formal educational Spanish content and may be considered informal or distracting in some cultural contexts. Removing them improves professionalism and aligns with formal register expectations for educational materials.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Comportamiento nocturno: Murciélagos y búhos cazan de noche para evitar depredadores.",
+      "correction": "Comportamiento nocturno: Murciélagos y búhos cazan de noche para evitar a los depredadores.",
+      "description": "The phrase 'evitar depredadores' is understandable but omits the article 'a los', which is more natural and standard in Spanish when referring to a specific group. Adding 'a los' improves the naturalness and consistency of terminology in educational Spanish.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Animal_Adaptations.llm.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-03T15:51:12.416498",
+    "model": "Azure OpenAI o3-mini",
+    "label": "llm",
+    "label_normalized": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

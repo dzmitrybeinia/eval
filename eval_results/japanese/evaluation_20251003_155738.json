@@ -1,0 +1,52 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "NGSSとの連携: HS-ETS1-1は、課題を分析し、解決策の定性的および定量的な基準と制約を特定することを強調しています。",
+      "correction": "NGSSとの連携: HS-ETS1-1は、課題を分析し、解決策の質的および量的な基準と制約を特定することを強調しています。",
+      "description": "The terms '定性的' and '定量的' are direct translations of 'qualitative' and 'quantitative', but in Japanese educational and scientific contexts, '質的' and '量的' are more natural and widely accepted. Using the more standard terminology improves clarity and aligns with local conventions for scientific discourse.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "このスキルは、複雑な問題を解決するために不可欠であり、証拠を評価し、バイアスを認識し、論理的な議論を構築することを含みます。",
+      "correction": "このスキルは、複雑な問題を解決するために不可欠であり、証拠を評価し、バイアスを認識し、論理的な議論を構築する能力を含みます。",
+      "description": "The phrase 'ことを含みます' is grammatically correct but less natural in formal educational Japanese. Replacing it with '能力を含みます' clarifies that these are abilities encompassed by critical thinking, improving the naturalness and professionalism of the expression.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "🌟",
+      "correction": "",
+      "description": "The use of the star emoji '🌟' in formal educational content may be considered too casual or informal for Japanese academic contexts. Removing it maintains a professional tone appropriate for the target audience.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Critical_Thinking_1.llm.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-03T15:57:38.196936",
+    "model": "Azure OpenAI o3-mini",
+    "label": "llm",
+    "label_normalized": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.4,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

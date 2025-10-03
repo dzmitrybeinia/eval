@@ -1,0 +1,52 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Starożytny Egipt to jedna z najstarszych cywilizacji w historii, która kwitła dzięki korzystnemu położeniu geograficznemu i wyjątkowej kulturze.",
+      "correction": "Starożytny Egipt to jedna z najstarszych cywilizacji w historii, która rozkwitła dzięki korzystnemu położeniu geograficznemu i wyjątkowej kulturze.",
+      "description": "The verb 'kwitła' is acceptable, but 'rozkwitła' is more natural and idiomatic in Polish when describing the flourishing of a civilization. This change improves the style and naturalness of the text, making it sound more professional and locally appropriate.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Hieroglify egipskie",
+      "correction": "Egipskie hieroglify",
+      "description": "The phrase 'Hieroglify egipskie' is understandable but less natural than 'Egipskie hieroglify', which is the standard and more commonly used term in Polish educational and academic contexts. This correction ensures consistency and professional terminology.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Ich sztuka była precyzyjna, symetryczna i kolorowa.",
+      "correction": "Ich sztuka cechowała się precyzją, symetrią i bogactwem kolorów.",
+      "description": "The original sentence is grammatically correct but stylistically simplistic. The correction uses a more natural and sophisticated expression, which is preferred in educational materials and better reflects the richness of ancient Egyptian art.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Ancient_Egypt.llm.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T15:52:02.621299",
+    "model": "Azure OpenAI o3-mini",
+    "label": "llm",
+    "label_normalized": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

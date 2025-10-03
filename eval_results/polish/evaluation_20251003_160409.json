@@ -1,0 +1,116 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "zmienne zazwyczni odnoszą się do zmiennych, które wymagają nazwy, aby wypadło się na jakąś wartość.",
+      "correction": "zmienne zazwyczaj odnoszą się do zmiennych, które wymagają nazwy, aby przypisać im jakąś wartość.",
+      "description": "The word 'zazwyczni' is a spelling error; the correct form is 'zazwyczaj'. Additionally, the phrase 'aby wypadło się na jakąś wartość' is ungrammatical and unclear; it should be 'aby przypisać im jakąś wartość' to accurately convey the intended meaning.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Bez nazwy, zmienna nie miałaby sposobu na inicjalizowanie lub użycie przez program, co skutkowałoby błędne działanie lub błąd kompilacji.",
+      "correction": "Bez nazwy zmienna nie miałaby sposobu na inicjalizację lub użycie przez program, co skutkowałoby błędnym działaniem lub błędem kompilacji.",
+      "description": "The phrase 'inicjalizowanie' should be 'inicjalizację' to match the noun form required by the context. 'Błędne działanie' should be 'błędnym działaniem' for correct case agreement, and 'błąd kompilacji' should be 'błędem kompilacji' for parallel structure.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Każdy zmienna w programie ma określony typ danych.",
+      "correction": "Każda zmienna w programie ma określony typ danych.",
+      "description": "The word 'każdy' does not agree in gender with 'zmienna', which is feminine. The correct form is 'każda zmienna'.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Ta faktualność opiera się na podstawowej wiedzy w kodowaniu, gdzie typ danych jest podstawowym elementem w tworzeniu i używaniu zmiennych.",
+      "correction": "Ta informacja opiera się na podstawowej wiedzy o kodowaniu, gdzie typ danych jest podstawowym elementem w tworzeniu i używaniu zmiennych.",
+      "description": "The word 'faktualność' is not a standard Polish word and is a lexical error. The correct term is 'informacja'. Also, 'wiedzy w kodowaniu' should be 'wiedzy o kodowaniu' for proper prepositional usage.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Łącząc różne przykłady z podanego kodu, można zauważyć, jak każda zmienna jest zarejestrowana z konkretnym typem danych, co jest niezbędne do poprawnego działania programu.",
+      "correction": "Łącząc różne przykłady z podanego kodu, można zauważyć, jak każda zmienna jest przypisana do konkretnego typu danych, co jest niezbędne do poprawnego działania programu.",
+      "description": "The phrase 'jest zarejestrowana z konkretnym typem danych' is unnatural and incorrect in this context. The correct expression is 'jest przypisana do konkretnego typu danych'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "w przykładzie z ciasto",
+      "correction": "w przykładzie z ciastem",
+      "description": "The phrase 'z ciasto' is incorrect due to case error; 'ciasto' should be in the instrumental case: 'z ciastem'.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "algorytmy zazwyczniowo używają języków programowania",
+      "correction": "algorytmy zazwyczaj używają języków programowania",
+      "description": "The word 'zazwyczniowo' is a spelling error; the correct form is 'zazwyczaj'.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "nie może obsługiwać złożonych instrukcji programowych potrzebnych do działania komputera.",
+      "correction": "nie może obsługiwać złożonych instrukcji programistycznych potrzebnych do działania komputera.",
+      "description": "The term 'instrukcji programowych' is less precise; 'instrukcji programistycznych' is the standard technical term in Polish for programming instructions.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "W podanym kodzie zmienna 'name' jest zdefiniowana jako string, co oznacza, że przechowuje dane tekstowe, a nie liczbę całkowitą.",
+      "correction": "W podanym kodzie zmienna 'name' jest zdefiniowana jako ciąg znaków, co oznacza, że przechowuje dane tekstowe, a nie liczbę całkowitą.",
+      "description": "The word 'string' is an English loanword; the correct Polish technical term is 'ciąg znaków'.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "liczby zmienniste",
+      "correction": "liczby zmiennoprzecinkowe",
+      "description": "The term 'liczby zmienniste' is incorrect; the standard Polish term for floating-point numbers is 'liczby zmiennoprzecinkowe'.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Ostateczne rodzaj przechowywanej informacji zależy od tego, jak zmienne są definiowane w języku programowania.",
+      "correction": "Ostateczny rodzaj przechowywanej informacji zależy od tego, jak zmienne są definiowane w języku programowania.",
+      "description": "The word 'Ostateczne' does not agree in gender and case with 'rodzaj', which is masculine singular nominative. The correct form is 'Ostateczny rodzaj'.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Coding_Basics.slm.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T16:04:09.758021",
+    "model": "Azure OpenAI o3-mini",
+    "label": "slm",
+    "label_normalized": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 7.4,
+    "classification": "ACCEPTABLE",
+    "total_issues": 11,
+    "total_penalty": 2.6,
+    "issue_breakdown": {
+      "linguistic": 11,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 2.6,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

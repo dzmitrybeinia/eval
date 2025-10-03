@@ -1,0 +1,52 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Marchi.e.",
+      "correction": "Marchiée",
+      "description": "The original text 'Marchi.e.' contains an incorrect use of punctuation and is not a valid French word or name. It appears to be a typographical error, possibly intended to be 'Marchiée' or another proper noun. This error affects comprehension and the credibility of the content. Correction is required to ensure proper spelling and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Marchi.e.e.",
+      "correction": "Marchiée",
+      "description": "The text 'Marchi.e.e.' is not a valid French word or name and contains multiple periods, which is incorrect orthographically. This error disrupts the flow and understanding of the sentence. It should be corrected to a proper noun or removed if not relevant.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Marchiée",
+      "correction": "",
+      "description": "The reference to 'Marchiée' is not recognized as a historical event in the context of the Civil Rights Movement. This creates confusion for learners and is culturally inappropriate, as it introduces a non-existent or irrelevant event. The content should reference actual historical events to maintain educational accuracy and cultural relevance.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Civil_Rights_Movement.slm.md",
+    "language": "French",
+    "timestamp": "2025-10-03T16:05:09.259189",
+    "model": "Azure OpenAI o3-mini",
+    "label": "slm",
+    "label_normalized": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.1,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.9,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.6,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

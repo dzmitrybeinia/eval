@@ -1,0 +1,60 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Река Нил обеспечивал водой, плодородной почвой и транспортной артерией, формируя развитие одной из самых выдающихся цивилизаций в истории.",
+      "correction": "Река Нил обеспечивала водой, плодородной почвой и транспортной артерией, формируя развитие одной из самых выдающихся цивилизаций в истории.",
+      "description": "The verb 'обеспечивал' is incorrectly used in masculine singular form, while the subject 'Река Нил' is feminine ('река'). The correct form is 'обеспечивала'. This grammatical error affects subject-verb agreement and can confuse learners about gender rules in Russian.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Река Нил служила природным шоссе, облегчая транспортировку и торговлю.",
+      "correction": "Река Нил служила природной транспортной артерией, облегчая перевозку и торговлю.",
+      "description": "The term 'природное шоссе' is not a natural or standard expression in Russian for describing a river's role in transportation. 'Транспортная артерия' is a more culturally and contextually appropriate term. Additionally, 'перевозка' is more precise than 'транспортировка' in this context.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Фермеры использовали инструмент \"шадуф\", систему рычага для подъема воды из реки для орошения полей.",
+      "correction": "Земледельцы использовали инструмент \"шадуф\" — систему рычага для подъема воды из реки для орошения полей.",
+      "description": "The word 'фермеры' is an anglicism and not the most natural term for ancient Egyptian agricultural workers in Russian educational context. 'Земледельцы' is more historically and culturally appropriate. Also, the dash (—) is preferred for appositive explanations in Russian style.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Пирамиды Гизы, расположенные рядом с Нилом, строились с использованием известняка, транспортируемого по реке.",
+      "correction": "Пирамиды Гизы, расположенные рядом с Нилом, строились с использованием известняка, перевозимого по реке.",
+      "description": "The participle 'транспортируемого' is overly formal and not idiomatic in Russian for describing the movement of goods by river. 'Перевозимого' is the standard and natural participle for this context. This improves both linguistic accuracy and naturalness.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Ancient_Egypt.llm.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T15:54:02.423030",
+    "model": "Azure OpenAI o3-mini",
+    "label": "llm",
+    "label_normalized": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.2,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.8,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.4,
+      "localization_penalty": 0.4,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}
