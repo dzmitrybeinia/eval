@@ -4,11 +4,14 @@ from __future__ import annotations
 
 import json
 import os
+from datetime import datetime
 from pathlib import Path
 from typing import Dict, Iterable, List, Optional
 
 from dotenv import load_dotenv
 from openai import AzureOpenAI
+
+from .labels import LabelInfo, ensure_label, sanitize_label
 
 
 class ErrorPatternAnalyzer:
@@ -36,27 +39,34 @@ class ErrorPatternAnalyzer:
         )
         self.deployment = os.getenv("DEPLOYMENT_NAME", "o3-mini")
 
-    def analyze(self, languages: Iterable[str] | None = None) -> List[str]:
-        languages_to_process = list(languages or self._discover_languages())
+    def analyze(
+        self, languages: Iterable[str] | None = None, *, label: LabelInfo | str
+    ) -> List[str]:
+        label_info = ensure_label(label)
+
+        languages_to_process = list(languages or self._discover_languages(label_info))
+        if not languages_to_process:
+            print(
+                f"⚠️  No aggregated issues found for label '{label_info.original}'."
+            )
+            return []
+
         processed: List[str] = []
         analyses: Dict[str, Dict] = {}
 
         for language in languages_to_process:
-            combined_issues = self._load_combined_issues(language)
+            combined_issues = self._load_combined_issues(language, label_info)
             if combined_issues is None:
                 continue
 
             reports = self._analyze_language(language, combined_issues)
-            if not reports:
-                continue
-
             merged = self._merge(reports)
             analyses[language] = merged
-            self._write_language_report(language, merged)
+            self._write_language_report(language, merged, label_info)
             processed.append(language)
 
         if analyses:
-            self._write_global_report(analyses)
+            self._write_global_report(analyses, label_info)
 
         return processed
 
@@ -191,39 +201,87 @@ class ErrorPatternAnalyzer:
         )
         return patterns
 
-    def _write_language_report(self, language: str, report: Dict) -> None:
-        self.patterns_dir.mkdir(parents=True, exist_ok=True)
-        out_path = self.patterns_dir / f"{language}.json"
+    def _write_language_report(
+        self, language: str, report: Dict, label: LabelInfo
+    ) -> None:
+        label_dir = self.patterns_dir / label.key
+        label_dir.mkdir(parents=True, exist_ok=True)
+        payload = {
+            "metadata": {
+                "label": label.original,
+                "label_normalized": label.normalized,
+                "label_key": label.key,
+                "language": language,
+                "generated_at": datetime.now().isoformat(),
+            },
+            "top_error_patterns": report.get("top_error_patterns", []),
+        }
+        out_path = label_dir / f"{language}.json"
         with open(out_path, "w", encoding="utf-8") as handle:
-            json.dump(report, handle, ensure_ascii=False, indent=2)
-        print(f"📄 Saved analysis for {language}")
+            json.dump(payload, handle, ensure_ascii=False, indent=2)
+        print(f"📄 Saved analysis for {language} (label: {label.original})")
 
-    def _write_global_report(self, analyses: Dict[str, Dict]) -> None:
+    def _write_global_report(self, analyses: Dict[str, Dict], label: LabelInfo) -> None:
         self.output_dir.mkdir(parents=True, exist_ok=True)
         out_path = self.output_dir / "all_common_issues.json"
 
-        existing: Dict[str, Dict] = {"languages": [], "analyses": {}}
+        payload: Dict[str, object] = {"labels": {}, "latest_label": label.key}
+
         if out_path.exists():
             try:
                 with open(out_path, "r", encoding="utf-8") as handle:
-                    data = json.load(handle)
-                    if isinstance(data, dict):
-                        existing = {
-                            "languages": data.get("languages", []),
-                            "analyses": data.get("analyses", {}),
-                        }
+                    existing = json.load(handle)
+                if isinstance(existing, dict) and isinstance(existing.get("labels"), dict):
+                    payload = existing
+                elif isinstance(existing, dict) and existing.get("analyses"):
+                    legacy_label = existing.get("label") or "legacy"
+                    legacy_entry = {
+                        "label": legacy_label,
+                        "label_normalized": legacy_label.lower(),
+                        "label_key": sanitize_label(existing.get("label_key", legacy_label)),
+                        "generated_at": existing.get("generated_at", ""),
+                        "languages": existing.get("languages", list(existing.get("analyses", {}).keys())),
+                        "analyses": existing.get("analyses", {}),
+                    }
+                    payload["labels"] = {legacy_entry["label_key"]: legacy_entry}
+                    payload["latest_label"] = legacy_entry["label_key"]
             except (OSError, json.JSONDecodeError):
                 pass
 
-        merged_analyses = existing["analyses"]
-        merged_analyses.update(analyses)
-        languages = sorted(merged_analyses.keys())
+        labels_dict = payload.setdefault("labels", {})
+        if not isinstance(labels_dict, dict):
+            labels_dict = {}
+            payload["labels"] = labels_dict
 
-        payload = {"languages": languages, "analyses": merged_analyses}
+        existing_entry = labels_dict.get(label.key)
+        merged_analyses: Dict[str, Dict]
+        if isinstance(existing_entry, dict) and isinstance(existing_entry.get("analyses"), dict):
+            merged_analyses = dict(existing_entry["analyses"])
+            merged_analyses.update(analyses)
+            existing_languages = existing_entry.get("languages", [])
+            if isinstance(existing_languages, list):
+                languages = {str(lang).lower() for lang in existing_languages}
+            else:
+                languages = set()
+        else:
+            merged_analyses = dict(analyses)
+            languages = set()
+
+        languages.update(lang.lower() for lang in analyses.keys())
+
+        labels_dict[label.key] = {
+            "label": label.original,
+            "label_normalized": label.normalized,
+            "label_key": label.key,
+            "generated_at": datetime.now().isoformat(),
+            "languages": sorted(languages),
+            "analyses": merged_analyses,
+        }
+        payload["latest_label"] = label.key
 
         with open(out_path, "w", encoding="utf-8") as handle:
             json.dump(payload, handle, ensure_ascii=False, indent=2)
-        print("🌍 Saved aggregated common issues report")
+        print(f"🌍 Saved aggregated common issues report (label: {label.original})")
 
     def _load_prompt(self) -> str:
         try:
@@ -231,25 +289,55 @@ class ErrorPatternAnalyzer:
         except FileNotFoundError as exc:
             raise FileNotFoundError(f"Error pattern prompt not found: {self.prompt_path}") from exc
 
-    def _load_combined_issues(self, language: str) -> Optional[Dict[str, List[Dict]]]:
-        combined_path = self.issues_dir / "combined_issues" / f"{language}_issues.json"
-        if not combined_path.exists():
-            print(f"⏭️  Skipping {language} - run issue aggregation first")
-            return None
-        try:
-            with open(combined_path, "r", encoding="utf-8") as handle:
-                return json.load(handle)
-        except (OSError, json.JSONDecodeError) as exc:
-            print(f"⚠️  Could not read {combined_path.name}: {exc}")
-            return None
+    def _load_combined_issues(
+        self, language: str, label: LabelInfo
+    ) -> Optional[Dict[str, List[Dict]]]:
+        combined_base = self.issues_dir / "combined_issues"
+        label_key = label.key
+        candidates = [combined_base / label_key / f"{language}_issues.json"]
 
-    def _discover_languages(self) -> List[str]:
-        combined_dir = self.issues_dir / "combined_issues"
-        if not combined_dir.exists():
+        # Fallback for legacy structure without label directories
+        candidates.append(combined_base / f"{language}_issues.json")
+
+        for combined_path in candidates:
+            if not combined_path.exists():
+                continue
+            try:
+                with open(combined_path, "r", encoding="utf-8") as handle:
+                    data = json.load(handle)
+            except (OSError, json.JSONDecodeError) as exc:
+                print(f"⚠️  Could not read {combined_path.name}: {exc}")
+                continue
+
+            metadata = data.get("metadata", {}) if isinstance(data, dict) else {}
+            stored_label = metadata.get("label")
+            stored_normalized = metadata.get("label_normalized")
+            if stored_label and stored_label != label.original and stored_normalized != label.normalized:
+                continue
+
+            issues_payload = data.get("issues") if isinstance(data, dict) else None
+            if isinstance(issues_payload, dict):
+                return issues_payload
+            if isinstance(data, dict):
+                return {
+                    key: value
+                    for key, value in data.items()
+                    if isinstance(value, list) and key in self.CATEGORIES
+                }
+            return data
+
+        print(
+            f"⏭️  Skipping {language} - run issue aggregation for label '{label.original}' first"
+        )
+        return None
+
+    def _discover_languages(self, label: LabelInfo) -> List[str]:
+        label_dir = self.issues_dir / "combined_issues" / label.key
+        if not label_dir.exists():
             return []
         languages = [
             path.stem.replace("_issues", "")
-            for path in sorted(combined_dir.glob("*_issues.json"))
+            for path in sorted(label_dir.glob("*_issues.json"))
         ]
         return languages
 

@@ -1,0 +1,68 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "округу",
+      "correction": "окружению",
+      "description": "The word 'округу' is a lexical error in this context. The intended meaning is 'environment' or 'surroundings', for which 'окружение' is the correct term in Russian. 'Округ' refers to an administrative district, which is not appropriate here.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "Физические адаптации часто видны и непосредственно связаны с средой обитания.",
+      "correction": "Физические адаптации часто видны и непосредственно связаны со средой обитания.",
+      "description": "The preposition 'с' should be used with the instrumental case, which requires 'со' before a word starting with 'с' for euphony. The correct phrase is 'со средой обитания'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Крысы кенгуру покидают свои толпады днем для избегания жары.",
+      "correction": "Крысы кенгуру покидают свои норы днем, чтобы избежать жары.",
+      "description": "The word 'толпады' is not a correct Russian word and appears to be a mistranslation or typo. The correct term for the underground burrows of kangaroo rats is 'норы'. Additionally, the phrase 'для избегания жары' is unnatural; 'чтобы избежать жары' is the standard construction.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "У пантепонов длинные конечности не развиваются для скорости, а для большего сила и устойчивости.",
+      "correction": "У пантепонов длинные конечности развиваются не для скорости, а для большей силы и устойчивости.",
+      "description": "The phrase 'для большего сила' is incorrect; 'сила' is feminine and requires 'большей силы' in the genitive case. Also, the word order is awkward; 'развиваются не для скорости, а для большей силы и устойчивости' is the correct and natural phrasing.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Это утверждение может запутать, так как оно не учтет их потребление воды, что является ключевым аспектом адаптации к пустыни.",
+      "correction": "Это утверждение может запутать, так как оно не учитывает их потребление воды, что является ключевым аспектом адаптации к пустыне.",
+      "description": "The verb 'не учтет' (future tense) is incorrect here; the present tense 'не учитывает' is appropriate. Also, 'адаптации к пустыни' is incorrect; the prepositional phrase should be 'к пустыне' (dative case).",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Animal_Adaptations.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T13:58:49.688618",
+    "model": "Azure OpenAI o3-mini",
+    "label": "v3",
+    "label_normalized": "v3"
+  },
+  "scores": {
+    "overall_quality_score": 8.7,
+    "classification": "PROFESSIONAL",
+    "total_issues": 5,
+    "total_penalty": 1.3,
+    "issue_breakdown": {
+      "linguistic": 5,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.3,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -42,16 +42,6 @@ def serve_dashboard(port: int = 8083, *, auto_open: bool = True) -> None:
     _serve_file("dashboard.html", port, auto_open=auto_open)
 
 
-def serve_issues_dashboard(port: int = 8084, *, auto_open: bool = True) -> None:
-    """Serve the issues dashboard, ensuring aggregated data exists."""
-    data_file = Path("issues/all/all_common_issues.json")
-    if not data_file.exists():
-        raise FileNotFoundError(
-            "issues/all/all_common_issues.json not found. Run analyze-error-patterns first."
-        )
-    _serve_file("common_issues_dashboard.html", port, auto_open=auto_open)
-
-
 def _serve_file(
     html_filename: str,
     start_port: int,

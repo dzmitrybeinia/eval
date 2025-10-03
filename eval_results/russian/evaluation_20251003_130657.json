@@ -1,0 +1,76 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "присоеднен",
+      "correction": "присоединён",
+      "description": "The word contains a spelling error: 'присоеднен' is missing the correct soft sign and the letter 'ё'. The correct form is 'присоединён', which is the past passive participle in masculine singular. This error affects the clarity and correctness of the statement.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "сотлала",
+      "correction": "составила",
+      "description": "The word 'сотлала' is a misspelling and does not exist in Russian. The intended word is 'составила', which means 'amounted to' or 'totaled'. This error significantly impairs comprehension.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "непрерымный",
+      "correction": "непрерывный",
+      "description": "The word 'непрерымный' is misspelled; the correct spelling is 'непрерывный', meaning 'continuous' or 'uninterrupted'. The error affects the accuracy and professionalism of the text.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Роза Паркс уступила место белому пассажиру",
+      "correction": "Роза Паркс отказалась уступить место белому пассажиру",
+      "description": "The phrase incorrectly states that Rosa Parks 'уступила место' (gave up her seat), while the historical fact is that she refused to give up her seat. The correct verb is 'отказалась уступить'. This is a factual and grammatical error that misrepresents the event.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "это было действие Роза Паркс, которые были одной из лидеров, организовавших этот значительный акт сопротивления",
+      "correction": "это было действие группы лидеров, включая Розу Паркс, которые организовали этот значительный акт сопротивления",
+      "description": "This sentence contains several grammatical errors: 'действие Роза Паркс' is incorrect because the action was not solely hers, and 'которые были одной из лидеров' mixes plural and singular forms incorrectly. The corrected version clarifies that it was a group action and maintains proper agreement.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "принятие закона о гражданских прав",
+      "correction": "принятие закона о гражданских правах",
+      "description": "The phrase uses the incorrect case: 'прав' is genitive plural, but the standard collocation is 'гражданских правах' (prepositional plural) after 'о'. This is a common case government error in Russian.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Civil_Rights_Movement.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T13:06:57.951176",
+    "model": "Azure OpenAI o3-mini",
+    "label": "v1",
+    "label_normalized": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 8.2,
+    "classification": "PROFESSIONAL",
+    "total_issues": 6,
+    "total_penalty": 1.8,
+    "issue_breakdown": {
+      "linguistic": 6,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.8,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

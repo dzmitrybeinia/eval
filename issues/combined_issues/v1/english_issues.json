@@ -1,0 +1,94 @@
+{
+  "metadata": {
+    "label": "v1",
+    "label_normalized": "v1",
+    "label_key": "v1",
+    "language": "english",
+    "generated_at": "2025-10-03T13:11:36.042385",
+    "source_files": [
+      "evaluation_20251003_130224.json",
+      "evaluation_20251003_130226.json",
+      "evaluation_20251003_130227.json",
+      "evaluation_20251003_130228.json",
+      "evaluation_20251003_130229.json",
+      "evaluation_20251003_130230.json",
+      "evaluation_20251003_130235.json",
+      "evaluation_20251003_130236.json",
+      "evaluation_20251003_130237.json"
+    ],
+    "issue_counts": {
+      "linguistic": 7,
+      "localization": 1
+    }
+  },
+  "issues": {
+    "linguistic": [
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical Precision",
+        "original": "Variables in algebra can be letters or symbols, and sometimes numbers.",
+        "correction": "Variables in algebra are typically represented by letters or symbols, not numbers.",
+        "description": "The feedback suggests that variables can be numbers, which is misleading. In algebra, variables are placeholders for unknown values and are conventionally represented by letters or symbols, not by numbers themselves.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical Precision",
+        "original": "Variables in algebra can be represented by letters, numbers, or symbols, depending on the context and the preference of the mathematician.",
+        "correction": "Variables in algebra are usually represented by letters or symbols, not numbers.",
+        "description": "This statement incorrectly implies that numbers can represent variables. In algebra, numbers are used as constants or coefficients, while variables are denoted by letters or symbols.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical Precision",
+        "original": "Variables can also take other forms such as Greek letters or Roman numerals, depending on the context.",
+        "correction": "Variables can also be represented by Greek letters or other symbols, but not Roman numerals.",
+        "description": "Roman numerals are not conventionally used as variable symbols in algebra; this could confuse learners about standard mathematical notation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical Precision",
+        "original": "Wash your hands to prevent infection.",
+        "correction": "Wash your hands thoroughly to prevent infection.",
+        "description": "Adding 'thoroughly' clarifies the instruction and emphasizes the importance of proper hand hygiene, which is critical in first aid scenarios.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical Precision",
+        "original": "Clean the wound using clean water to remove dirt or debris.",
+        "correction": "Clean the wound gently using clean water to remove dirt or debris.",
+        "description": "Including 'gently' provides a more precise instruction, as rough cleaning can cause further injury or pain.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical Precision",
+        "original": "Cool the burn under cool water for 10-15 minutes.",
+        "correction": "Cool the burn under running cool water for 10-15 minutes.",
+        "description": "Specifying 'running' cool water is the recommended first aid practice, as stagnant water may not be as effective in cooling and cleaning the burn.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical Precision",
+        "original": "Perform the Heimlich maneuver if the person cannot cough out the object.",
+        "correction": "Perform abdominal thrusts (Heimlich maneuver) if the person cannot cough out the object.",
+        "description": "Using both 'abdominal thrusts' and 'Heimlich maneuver' ensures terminology is clear and accessible for learners who may not be familiar with the term 'Heimlich maneuver.'",
+        "severity": "MINOR"
+      }
+    ],
+    "localization": [
+      {
+        "category": "localization",
+        "subcategory": "Terminology Consistency",
+        "original": "Heimlich maneuver",
+        "correction": "abdominal thrusts (Heimlich maneuver)",
+        "description": "The term 'Heimlich maneuver' may not be universally recognized; pairing it with 'abdominal thrusts' ensures consistency and clarity for a wider audience.",
+        "severity": "MINOR"
+      }
+    ]
+  }
+}

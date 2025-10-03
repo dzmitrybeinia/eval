@@ -1,0 +1,296 @@
+{
+  "metadata": {
+    "label": "v1",
+    "label_normalized": "v1",
+    "label_key": "v1",
+    "language": "portuguese",
+    "generated_at": "2025-10-03T13:13:54.480222"
+  },
+  "top_error_patterns": [
+    {
+      "pattern_name": "Lexical Misuse Leading to Factual Inaccuracy",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "HIGH",
+      "frequency": "very_common",
+      "frequency_count": 4,
+      "description": "Incorrect word choices or terminology that result in factual errors or mislead learners about key concepts.",
+      "examples": [
+        {
+          "wrong": "O retículo endoplasmático liso, sem ribossomos, é especializado na elaboração de proteínas que a célula vai liberar para fora.",
+          "correct": "O retículo endoplasmático liso, sem ribossomos, é especializado na síntese de lipídios e no metabolismo de carboidratos, não na elaboração de proteínas para secreção.",
+          "context": "Confusion between smooth and rough endoplasmic reticulum functions."
+        },
+        {
+          "wrong": "defendendo a igualdade racial por meio de boatos pacíficos e discursos inspiradores.",
+          "correct": "defendendo a igualdade racial por meio de protestos pacíficos e discursos inspiradores.",
+          "context": "Misuse of 'boatos' (rumors) instead of 'protestos' (protests) changes the meaning."
+        },
+        {
+          "wrong": "O conceito de zonas climáticas inclui a zona tropical, que é contrastante com regiões como o Deserto do Saara, onde as temperaturas são extremamente baixas.",
+          "correct": "O conceito de zonas climáticas inclui a zona tropical, que contrasta com regiões como o Deserto do Saara, onde as temperaturas são extremamente altas.",
+          "context": "Incorrect description of Sahara Desert temperatures and awkward phrasing."
+        },
+        {
+          "wrong": "Variáveis podem armazenar vários tipos de informações simultaneamente.",
+          "correct": "Variáveis podem armazenar diferentes tipos de informações, mas apenas um tipo de dado por vez.",
+          "context": "Incorrect explanation of variable data types in programming."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Grammatical Gender and Number Agreement Errors",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "HIGH",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Failure to match articles and nouns in gender and number, leading to ungrammatical and unclear sentences.",
+      "examples": [
+        {
+          "wrong": "pelos mitocôndrias",
+          "correct": "pelas mitocôndrias",
+          "context": "Mismatch between masculine article and feminine noun."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Lexical Imprecision and Unnatural Phrasing",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 3,
+      "description": "Use of imprecise, unnatural, or non-standard expressions that reduce clarity and do not align with common usage in educational or technical contexts.",
+      "examples": [
+        {
+          "wrong": "Símbolos que representam valores desconhecidos ou variáveis.",
+          "correct": "Símbolos que representam valores desconhecidos ou que podem variar.",
+          "context": "Imprecise use of 'variáveis' instead of clarifying the concept of changing values."
+        },
+        {
+          "wrong": "O formador de zonas climáticas é influenciado por vários fatores...",
+          "correct": "A formação das zonas climáticas é influenciada por vários fatores...",
+          "context": "Unnatural phrasing ('formador de zonas climáticas') instead of standard terminology."
+        },
+        {
+          "wrong": "as variáveis são tipadas",
+          "correct": "as variáveis devem receber valores compatíveis com seu tipo",
+          "context": "Misleading technical phrasing that does not fit the context of dynamically typed languages."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Gender Agreement Errors",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Incorrect agreement between nouns and adjectives or participles, which can cause confusion and reduce the professionalism of the text.",
+      "examples": [
+        {
+          "wrong": "Strings podem ser armazenados como números.",
+          "correct": "Strings podem ser armazenadas como números.",
+          "context": "Mismatch in gender agreement between 'strings' (feminine) and 'armazenados' (masculine)."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect or Overly Restrictive Grammar Rules",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Presentation of grammar or usage rules that are too restrictive or inaccurate, potentially misleading learners about correct language or coding conventions.",
+      "examples": [
+        {
+          "wrong": "Os nomes devem começar com uma letra minúscula ou um underscore seguido de uma letra minúscula.",
+          "correct": "Os nomes devem começar com uma letra ou um underscore.",
+          "context": "Incorrectly limits variable naming rules in Python."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Ambiguous or Unnatural Pronoun Use",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Use of ambiguous or overly formal pronouns that reduce clarity and do not match the expected tone for educational content in Brazilian Portuguese.",
+      "examples": [
+        {
+          "wrong": "ferramentas que o ajudarão a analisar questões complexas e participar de discussões significativas",
+          "correct": "ferramentas que ajudarão você a analisar questões complexas e a participar de discussões significativas",
+          "context": "Use of 'o' instead of the more direct and natural 'você'."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Regional Spelling Inconsistency",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Use of spelling conventions from a different Portuguese variant (e.g., European instead of Brazilian), which can distract or confuse the target audience.",
+      "examples": [
+        {
+          "wrong": "selectiva",
+          "correct": "seletiva",
+          "context": "European Portuguese spelling used in Brazilian Portuguese content."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Non-idiomatic or imprecise lexical choices",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "LOW",
+      "frequency": "common",
+      "frequency_count": 3,
+      "description": "Use of words or phrases that are understandable but not the most natural, idiomatic, or precise in Brazilian Portuguese, especially in educational or professional contexts.",
+      "examples": [
+        {
+          "wrong": "cenas cotidianas",
+          "correct": "cenas do cotidiano",
+          "context": "Describing everyday scenes in a formal educational context"
+        },
+        {
+          "wrong": "coletores de impostos",
+          "correct": "cobradores de impostos",
+          "context": "Referring to tax collectors in historical/governmental context"
+        },
+        {
+          "wrong": "revisados por pares",
+          "correct": "avaliados por pares",
+          "context": "Describing peer-reviewed studies in academic context"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Unnatural or Non-idiomatic Expressions",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "LOW",
+      "frequency": "common",
+      "frequency_count": 3,
+      "description": "Use of phrases or expressions that, while grammatically correct, are not idiomatic or natural in Brazilian Portuguese educational contexts. Adjusting these improves clarity and cultural fit.",
+      "examples": [
+        {
+          "wrong": "seguido por sacerdotes, nobres, soldados, comerciantes e agricultores.",
+          "correct": "seguido de sacerdotes, nobres, soldados, comerciantes e agricultores.",
+          "context": "Prepositional choice after 'seguido' for regional appropriateness."
+        },
+        {
+          "wrong": "misturar com o entorno através de mudanças rápidas de cor.",
+          "correct": "misturar ao ambiente por meio de mudanças rápidas de cor.",
+          "context": "More natural phrasing for describing chameleons' adaptation."
+        },
+        {
+          "wrong": "Use essas ferramentas para entender relações, fazer previsões e encontrar soluções na matemática e no mundo real.",
+          "correct": "Utilize esses conhecimentos para entender relações, fazer previsões e encontrar soluções na matemática e no dia a dia.",
+          "context": "Preferred verbs and expressions for educational instructions."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Minor orthographic omissions and article usage",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Omission of definite articles or minor orthographic elements that slightly affect the naturalness and correctness of the sentence.",
+      "examples": [
+        {
+          "wrong": "gordura para reter calor no Ártico",
+          "correct": "gordura para reter o calor no Ártico",
+          "context": "Describing animal adaptations; missing definite article before 'calor'"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Non-idiomatic collocations for emotional states",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Use of literal or less natural collocations to express emotional states, resulting in slightly awkward or non-idiomatic phrasing.",
+      "examples": [
+        {
+          "wrong": "sentimentos magoados",
+          "correct": "sentimentos feridos",
+          "context": "Referring to 'hurt feelings' in a social/emotional context"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Typographic conventions for punctuation spacing",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Missing spaces before and after dashes (travessão), which is a minor but recurring typographic issue in Brazilian Portuguese.",
+      "examples": [
+        {
+          "wrong": "adaptações especiais—mudanças",
+          "correct": "adaptações especiais — mudanças",
+          "context": "Explanatory phrases using dashes in educational content"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Ambiguous or Incomplete Terminology",
+      "category": "localization",
+      "subcategory": "Terminology",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Use of terms that are technically correct but may be ambiguous or less clear in the educational context. Expanding or clarifying terminology improves understanding.",
+      "examples": [
+        {
+          "wrong": "Laços",
+          "correct": "Laços de repetição",
+          "context": "Clarifies that 'laços' refers to programming loops, not bows or ties."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Inconsistent Address or Imperative Form",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Use of plural imperative when singular is more appropriate for the target audience, leading to inconsistency in tone and directness.",
+      "examples": [
+        {
+          "wrong": "Trabalhem juntos para encontrar soluções.",
+          "correct": "Trabalhe junto para encontrar soluções.",
+          "context": "Instruction should address the individual learner."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Inappropriate Use of Emojis in Formal Contexts",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Use of emojis that may not suit the formality or professionalism expected in educational content for certain audiences.",
+      "examples": [
+        {
+          "wrong": "🌟",
+          "correct": "",
+          "context": "Emoji may reduce seriousness in academic material."
+        }
+      ]
+    }
+  ]
+}

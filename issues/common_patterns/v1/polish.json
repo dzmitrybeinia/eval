@@ -1,0 +1,262 @@
+{
+  "metadata": {
+    "label": "v1",
+    "label_normalized": "v1",
+    "label_key": "v1",
+    "language": "polish",
+    "generated_at": "2025-10-03T13:12:21.027209"
+  },
+  "top_error_patterns": [
+    {
+      "pattern_name": "Lexical errors: use of non-existent or incorrect words",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "HIGH",
+      "frequency": "very_common",
+      "frequency_count": 17,
+      "description": "Frequent use of non-existent, mistranslated, or contextually incorrect words and terms, often leading to confusion or factual inaccuracy.",
+      "examples": [
+        {
+          "wrong": "Egipt nie był ozdobiony żarowiami...",
+          "correct": "Egipt nie był ozdobiony żarowcami...",
+          "context": "Use of non-existent word 'żarowiami' instead of a plausible term."
+        },
+        {
+          "wrong": "pery, mitochondria czy placoda",
+          "correct": "peroksysomy, mitochondria czy aparat Golgiego",
+          "context": "Incorrect or non-existent biological terms."
+        },
+        {
+          "wrong": "Stanach Ziemiańskich",
+          "correct": "Stanach Zjednoczonych",
+          "context": "Mistranslation of country name."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Spelling and morphological errors",
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "impact_level": "HIGH",
+      "frequency": "very_common",
+      "frequency_count": 12,
+      "description": "Frequent misspellings and use of non-existent word forms, often resulting in sentences that are hard to understand or ungrammatical.",
+      "examples": [
+        {
+          "wrong": "zazwyczniąją się",
+          "correct": "zazwyczaj utrzymują się",
+          "context": "Non-existent verb form, impairs comprehension."
+        },
+        {
+          "wrong": "Jeśl wątpiesz",
+          "correct": "Jeśli wątpisz",
+          "context": "Multiple spelling errors in a common phrase."
+        },
+        {
+          "wrong": "nawzajdzie",
+          "correct": "nawzajem",
+          "context": "Misspelling of a basic word."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Grammatical agreement errors",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "HIGH",
+      "frequency": "common",
+      "frequency_count": 9,
+      "description": "Frequent errors in gender, number, or case agreement between nouns, adjectives, and verbs, leading to ungrammatical and confusing sentences.",
+      "examples": [
+        {
+          "wrong": "W starożytnym Egipsku...",
+          "correct": "W starożytnym Egipcie...",
+          "context": "Incorrect locative case."
+        },
+        {
+          "wrong": "Każdy zmienna w programie...",
+          "correct": "Każda zmienna w programie...",
+          "context": "Gender agreement error."
+        },
+        {
+          "wrong": "Mitochondria jest głównym źródłem energii...",
+          "correct": "Mitochondria są głównym źródłem energii...",
+          "context": "Subject-verb agreement error."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect or unnatural collocations and idioms",
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "impact_level": "HIGH",
+      "frequency": "common",
+      "frequency_count": 6,
+      "description": "Use of incorrect or unnatural phrase structures, collocations, or idioms, resulting in awkward or incomprehensible sentences.",
+      "examples": [
+        {
+          "wrong": "aby wypadło się na jakąś wartość",
+          "correct": "aby odwołać się do jakiejś wartości",
+          "context": "Unnatural and incorrect phrase structure."
+        },
+        {
+          "wrong": "wykonywać decyzje",
+          "correct": "podejmować decyzje",
+          "context": "Incorrect verb-noun collocation."
+        },
+        {
+          "wrong": "nie chodzi o zniechęcanie stron do nieustanowania sporu",
+          "correct": "nie polega na zniechęcaniu stron do nieustanniania sporu",
+          "context": "Unidiomatic and grammatically incorrect construction."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Technical and scientific terminology errors",
+      "category": "linguistic",
+      "subcategory": "Terminology",
+      "impact_level": "HIGH",
+      "frequency": "occasional",
+      "frequency_count": 4,
+      "description": "Incorrect use or mistranslation of technical or scientific terms, which can mislead learners and undermine subject accuracy.",
+      "examples": [
+        {
+          "wrong": "liczby zmienniste",
+          "correct": "liczby zmiennoprzecinkowe",
+          "context": "Incorrect term for 'floating point numbers'."
+        },
+        {
+          "wrong": "równań jednoruchowe",
+          "correct": "równania jednorodnych",
+          "context": "Non-existent mathematical term."
+        },
+        {
+          "wrong": "'elektrarnicami komórki'",
+          "correct": "'elektrowniami komórki'",
+          "context": "Incorrect term for 'powerhouses of the cell'."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Inaccurate or Misleading Cultural References",
+      "category": "localization",
+      "subcategory": "Cultural",
+      "impact_level": "HIGH",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "The text introduces cultural or geographic references that are factually incorrect or irrelevant in the Polish context, leading to confusion and reduced credibility.",
+      "examples": [
+        {
+          "wrong": "Jaśne morze, jak przypomina miasto Jastrzębie-Zdroje, znane z żywiołów morskich, odgrywa znaczną rolę w regulacji klimatu.",
+          "correct": "Morza odgrywają znaczną rolę w regulacji klimatu.",
+          "context": "Incorrectly associates Jastrzębie-Zdroje with the sea, which is misleading for Polish learners."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect or unnatural lexical choices",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "MEDIUM",
+      "frequency": "very_common",
+      "frequency_count": 7,
+      "description": "Frequent use of incorrect words, awkward collocations, or nonstandard terms that reduce clarity and naturalness in Polish. These errors often result from literal translation or misunderstanding of context.",
+      "examples": [
+        {
+          "wrong": "przeznaczeń",
+          "correct": "tradycji",
+          "context": "Incorrect word for 'traditions' in the context of information transmission."
+        },
+        {
+          "wrong": "rzemion",
+          "correct": "rzemieni",
+          "context": "Wrong word form for 'leather straps' in a historical context."
+        },
+        {
+          "wrong": "popierają te umiejętności",
+          "correct": "posiadają te umiejętności",
+          "context": "Incorrect verb for 'possess skills'; 'popierać' means 'to support', not 'to have'."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Grammatical agreement and pronoun errors",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 4,
+      "description": "Mistakes in gender, case, or pronoun agreement that disrupt sentence correctness and clarity. Includes errors with prepositions and pronoun selection.",
+      "examples": [
+        {
+          "wrong": "z znakiem równości",
+          "correct": "ze znakiem równości",
+          "context": "Incorrect preposition form before a word starting with 'z'."
+        },
+        {
+          "wrong": "Ostateczne rodzaj przechowywanej informacji",
+          "correct": "Ostateczny rodzaj przechowywanej informacji",
+          "context": "Gender agreement error with 'rodzaj' (masculine noun)."
+        },
+        {
+          "wrong": "Obejmuje ono również liczby dziesiętne, tekst, i inne.",
+          "correct": "Obejmuje to również liczby dziesiętne, tekst i inne.",
+          "context": "Incorrect pronoun and unnecessary comma in enumeration."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Nonstandard or colloquial language in formal context",
+      "category": "linguistic",
+      "subcategory": "Style",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 2,
+      "description": "Use of informal, colloquial, or invented words that are not appropriate for educational or professional content.",
+      "examples": [
+        {
+          "wrong": "szacun",
+          "correct": "szacunek",
+          "context": "Colloquial abbreviation used instead of the formal term for 'respect'."
+        },
+        {
+          "wrong": "faktualność",
+          "correct": "informacja",
+          "context": "Nonstandard word used instead of the correct term for 'information'."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Punctuation and orthographic errors",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Missing or incorrect punctuation and prepositions, affecting sentence clarity and correctness.",
+      "examples": [
+        {
+          "wrong": "Dowód, że 'Ten krem przeciwsłoneczny jest bezpieczny, ponieważ jest na rynku przez wiele lat.",
+          "correct": "Dowód, że 'Ten krem przeciwsłoneczny jest bezpieczny, ponieważ jest na rynku od wielu lat.'",
+          "context": "Missing closing quotation mark and incorrect preposition in a justification statement."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Unlocalized Technical Terminology",
+      "category": "localization",
+      "subcategory": "Terminology",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "English technical terms are used instead of standard Polish equivalents, reducing clarity and accessibility for learners.",
+      "examples": [
+        {
+          "wrong": "system calls lub 'system calls'",
+          "correct": "wywołania systemowe",
+          "context": "Technical term left untranslated in quiz content"
+        }
+      ]
+    }
+  ]
+}

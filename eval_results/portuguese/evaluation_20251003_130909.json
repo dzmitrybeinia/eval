@@ -1,0 +1,44 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Símbolos que representam valores desconhecidos ou variáveis.",
+      "correction": "Símbolos que representam valores desconhecidos ou que podem variar.",
+      "description": "The phrase 'valores desconhecidos ou variáveis' is imprecise in Portuguese. The word 'variáveis' here is redundant and confusing, as it refers to the same concept as 'símbolos'. The correct expression should clarify that variables represent unknown values or values that can change. This correction improves clarity and aligns with standard mathematical terminology.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Compreender esses elementos básicos da álgebra é o primeiro passo para resolver problemas e explorar conceitos mais avançados. Use essas ferramentas para entender relações, fazer previsões e encontrar soluções na matemática e no mundo real.",
+      "correction": "Compreender esses elementos básicos da álgebra é o primeiro passo para resolver problemas e explorar conceitos mais avançados. Utilize esses conhecimentos para entender relações, fazer previsões e encontrar soluções na matemática e no dia a dia.",
+      "description": "The phrase 'Use essas ferramentas' is somewhat unnatural in Brazilian Portuguese educational contexts, where 'Utilize esses conhecimentos' is more idiomatic and appropriate. Additionally, 'no mundo real' is less commonly used in this context than 'no dia a dia', which is a more natural and culturally relevant way to refer to real-life situations in Brazilian Portuguese.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Basic_Algebra.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T13:09:09.722739",
+    "model": "Azure OpenAI o3-mini",
+    "label": "v1",
+    "label_normalized": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

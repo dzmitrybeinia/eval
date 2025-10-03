@@ -1,0 +1,410 @@
+{
+  "metadata": {
+    "label": "v1",
+    "label_normalized": "v1",
+    "label_key": "v1",
+    "language": "german",
+    "generated_at": "2025-10-03T13:13:35.392664"
+  },
+  "top_error_patterns": [
+    {
+      "pattern_name": "Lexical False Friends and Inaccurate Terminology",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "HIGH",
+      "frequency": "common",
+      "frequency_count": 5,
+      "description": "Use of false friends or inaccurate terms that distort meaning, especially in scientific and technical contexts.",
+      "examples": [
+        {
+          "wrong": "Physikalische Anpassungen",
+          "correct": "Physische Anpassungen",
+          "context": "Incorrect use of 'physikalisch' instead of 'physisch' for biological adaptations."
+        },
+        {
+          "wrong": "erfinden",
+          "correct": "finden",
+          "context": "Misuse of 'erfinden' (to invent) instead of 'finden' (to find) in mathematical context."
+        },
+        {
+          "wrong": "Akumu-Osiris",
+          "correct": "Osiris",
+          "context": "Non-existent or misleading term in historical/cultural context."
+        },
+        {
+          "wrong": "Ein Algorithmus benötigt Variablen, um Daten zu speichern und zu manipulieren.",
+          "correct": "Ein Algorithmus kann auch ohne Variablen ausgeführt werden, wenn keine Daten gespeichert oder verändert werden müssen.",
+          "context": "Overgeneralization and factual inaccuracy in technical explanation."
+        },
+        {
+          "wrong": "Datenbanken sind tatsächlich ein wichtiger Aspekt der Programmierung, der ... genutzt wird.",
+          "correct": "Datenbanken sind tatsächlich ein wichtiger Aspekt der Programmierung, die ... genutzt werden.",
+          "context": "Relative pronoun and verb do not agree with plural noun."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect Noun Gender and Agreement",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "HIGH",
+      "frequency": "common",
+      "frequency_count": 4,
+      "description": "Systematic errors in noun gender and article/pronoun agreement, leading to confusion and ungrammatical sentences.",
+      "examples": [
+        {
+          "wrong": "das DNA",
+          "correct": "die DNA",
+          "context": "Incorrect article for the feminine noun 'DNA'."
+        },
+        {
+          "wrong": "der Kaktuszaunkönigin",
+          "correct": "der Kaktuszaunkönig",
+          "context": "Mismatch between article and noun gender."
+        },
+        {
+          "wrong": "Ihr dicker Fell",
+          "correct": "Ihr dickes Fell",
+          "context": "Adjective does not agree with neuter noun 'Fell'."
+        },
+        {
+          "wrong": "Sein Führung",
+          "correct": "Seine Führung",
+          "context": "Possessive pronoun does not match feminine noun."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Misspelling of 'hauptsächlich'",
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "impact_level": "HIGH",
+      "frequency": "very_common",
+      "frequency_count": 3,
+      "description": "Frequent misspellings of the word 'hauptsächlich' (mainly/primarily) with non-existent forms, severely impacting comprehension.",
+      "examples": [
+        {
+          "wrong": "hauptseteig",
+          "correct": "hauptsächlich",
+          "context": "Used in quiz explanations to indicate primary focus."
+        },
+        {
+          "wrong": "hauesteig",
+          "correct": "hauptsächlich",
+          "context": "Appears in answer choices and explanations."
+        },
+        {
+          "wrong": "hauptseteled",
+          "correct": "hauptsächlich",
+          "context": "Found in multiple quiz items as a key term."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Syntactic and Semantic Confusion in Scientific Explanations",
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "impact_level": "HIGH",
+      "frequency": "occasional",
+      "frequency_count": 2,
+      "description": "Syntactic errors and semantic confusion in scientific contexts, leading to misleading or incorrect statements.",
+      "examples": [
+        {
+          "wrong": "Mitochondrien sind die Zelle, die für die Energieproduktion verantwortlich ist.",
+          "correct": "Mitochondrien sind die Zellorganellen, die für die Energieproduktion verantwortlich sind.",
+          "context": "Confuses organelles with cells and mismatches verb agreement."
+        },
+        {
+          "wrong": "Eine Zelle benötigt einen Zellkern, um ihre Funktionen zu steuern und als Zellkern bekannt.",
+          "correct": "Eine Zelle benötigt einen Zellkern, um ihre Funktionen zu steuern.",
+          "context": "Unclear and incorrect sentence structure in biological explanation."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect Prepositional and Case Usage",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "HIGH",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Errors in prepositional phrases and case usage, leading to ungrammatical constructions.",
+      "examples": [
+        {
+          "wrong": "in der Zellkern",
+          "correct": "im Zellkern",
+          "context": "Incorrect preposition and case for masculine noun."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Factual Inaccuracy in Descriptions",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "HIGH",
+      "frequency": "rare",
+      "frequency_count": 1,
+      "description": "Statements present factually incorrect information about key concepts, which can mislead learners and undermine trust in the content.",
+      "examples": [
+        {
+          "wrong": "Python ist eine Programmiersprache, die vor allem für ihre komplexe Syntax bekannt ist.",
+          "correct": "Python ist eine Programmiersprache, die vor allem für ihre einfache Syntax bekannt ist.",
+          "context": "Describing programming languages in quiz explanations"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Non-idiomatic or imprecise lexical choices",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 4,
+      "description": "Use of words or phrases that are understandable but not idiomatic or precise in German, especially in technical or educational contexts.",
+      "examples": [
+        {
+          "wrong": "allgemeine Programmiersprache",
+          "correct": "universelle Programmiersprache",
+          "context": "Describing programming languages"
+        },
+        {
+          "wrong": "Variable nur einen einzigen Datentyp zu einem Zeitpunkt halten.",
+          "correct": "Variable nur einen einzigen Datentyp zu einem Zeitpunkt speichern.",
+          "context": "Describing variable behavior in programming"
+        },
+        {
+          "wrong": "Einrückung ist entscheidend.",
+          "correct": "Die Einrückung ist entscheidend.",
+          "context": "General statements about programming syntax"
+        },
+        {
+          "wrong": "anfängerfreundliche Programmiersprache",
+          "correct": "einsteigerfreundliche Programmiersprache",
+          "context": "Describing programming languages for beginners"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Lexical Inaccuracy and False Friends",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 3,
+      "description": "Recurring use of literal translations or misleading word choices that do not reflect standard German usage or technical accuracy, leading to confusion or lack of clarity.",
+      "examples": [
+        {
+          "wrong": "Variablen können mehr als einen Wert haben.",
+          "correct": "Variablen können verschiedene Werte zu unterschiedlichen Zeitpunkten haben.",
+          "context": "Misleading statement about variable behavior in programming."
+        },
+        {
+          "wrong": "In Navigations-Apps ist die Berechnung der schnellsten Route tatsächlich eine Funktion von Algorithmen, nicht von Variablen.",
+          "correct": "In Navigations-Apps ist die Berechnung der schnellsten Route tatsächlich Aufgabe von Algorithmen, nicht von Variablen.",
+          "context": "Literal translation of 'function of algorithms' instead of idiomatic German."
+        },
+        {
+          "wrong": "Variable Zuweisung",
+          "correct": "Variablenzuweisung",
+          "context": "Incorrect compound noun formation for technical terminology."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect or missing hyphenation in compound nouns",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 2,
+      "description": "Compound nouns combining a foreign word (e.g., 'Python') and a German noun are missing the required hyphen, which is standard in German orthography.",
+      "examples": [
+        {
+          "wrong": "Python Einführung",
+          "correct": "Python-Einführung",
+          "context": "Section headings and topic titles"
+        },
+        {
+          "wrong": "Python Datentypen",
+          "correct": "Python-Datentypen",
+          "context": "Section headings and topic titles"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Inconsistent or Non-Standard Terminology",
+      "category": "localization",
+      "subcategory": "Terminology",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 2,
+      "description": "Recurring use of English terms or non-standard German terminology without explanation or localization, which can hinder comprehension and reduce the professional tone of educational content.",
+      "examples": [
+        {
+          "wrong": "Physikalische Anpassungen beziehen sich auf Veränderungen im Körperbau eines Tieres...",
+          "correct": "Physische Anpassungen beziehen sich auf Veränderungen im Körperbau eines Tieres...",
+          "context": "Incorrect scientific terminology; 'physikalisch' is not the standard term in this context."
+        },
+        {
+          "wrong": "Student Nonviolent Coordinating Committee (SNCC)",
+          "correct": "Student Nonviolent Coordinating Committee (SNCC, Studentisches gewaltfreies Koordinierungskomitee)",
+          "context": "English term used without German equivalent or explanation, reducing accessibility for learners."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Unidiomatic or Awkward Sentence Structure",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 2,
+      "description": "Sentences are translated too literally or structured in a way that is unnatural in German, affecting clarity and the professional tone of the content.",
+      "examples": [
+        {
+          "wrong": "In Python können Variablen sowohl eine einzelne Datenmenge, wie eine Zahl, als auch mehrere Daten sammeln, was als 'Listen' oder 'Dictionaries' bezeichnet wird.",
+          "correct": "In Python können Variablen entweder eine einzelne Datenmenge, wie eine Zahl, oder mehrere Daten speichern, zum Beispiel in sogenannten 'Listen' oder 'Dictionaries'.",
+          "context": "Literal translation and awkward structure make the explanation unclear for German learners."
+        },
+        {
+          "wrong": "Verwenden Sie „Ich“-Aussagen, um Ihre Gefühle auszudrücken.",
+          "correct": "Verwenden Sie „Ich-Botschaften“, um Ihre Gefühle auszudrücken.",
+          "context": "Non-standard phrasing; 'Ich-Botschaften' is the recognized term in German educational contexts."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Missing or Incorrect Prepositions",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Omission of required prepositions in set phrases, resulting in incomplete or non-idiomatic expressions that can hinder comprehension.",
+      "examples": [
+        {
+          "wrong": "Eis und Schnee bedecken die Region das ganze Jahr.",
+          "correct": "Eis und Schnee bedecken die Region das ganze Jahr über.",
+          "context": "Missing 'über' in a time expression."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Inconsistent Register (Formal vs. Informal Address)",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Use of informal address ('du/dir') in contexts where formal address ('Sie/Ihnen') is expected, reducing professionalism and consistency in educational materials.",
+      "examples": [
+        {
+          "wrong": "wird dir helfen",
+          "correct": "wird Ihnen helfen",
+          "context": "Informal pronoun used in a general educational context."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Non-idiomatic use of English abbreviations or terms",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "LOW",
+      "frequency": "common",
+      "frequency_count": 2,
+      "description": "Use of English abbreviations or terms where a localized German equivalent is standard, affecting naturalness and cultural fit.",
+      "examples": [
+        {
+          "wrong": "LGBTQ+-Personen",
+          "correct": "LSBTIQ+-Personen",
+          "context": "Use of English acronym instead of the culturally appropriate German version."
+        },
+        {
+          "wrong": "Boolean: Wahrheitswerte (True oder False)",
+          "correct": "Boolean: Wahrheitswerte (wahr oder falsch)",
+          "context": "English keywords used in explanatory parentheses instead of German equivalents."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect capitalization of adjectives in noun phrases",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Adjectives in German noun phrases are incorrectly capitalized, violating standard grammar rules.",
+      "examples": [
+        {
+          "wrong": "Tropische Klimazone",
+          "correct": "tropische Klimazone",
+          "context": "Geographical and scientific terminology"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Missing or incorrect punctuation in headings and lists",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Headings or introductory phrases for lists are missing a colon, which is standard in German for clarity and correct punctuation.",
+      "examples": [
+        {
+          "wrong": "Tipps für gute Kommunikation",
+          "correct": "Tipps für gute Kommunikation:",
+          "context": "Section headings introducing lists"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Inconsistent or incorrect infinitive constructions in lists",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Infinitive constructions in lists are not parallel or grammatically correct, affecting the flow and clarity of instructional content.",
+      "examples": [
+        {
+          "wrong": "Gefühle und Bedürfnisse respektvoll ausdrücken.",
+          "correct": "Gefühle und Bedürfnisse respektvoll auszudrücken.",
+          "context": "Bullet points under communication tips"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Unnecessary comma before 'und' in German",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Insertion of a comma before 'und' when connecting two main clauses with the same subject, which is not required in standard German and affects naturalness.",
+      "examples": [
+        {
+          "wrong": "Du hast bereits 12 €, und sparst jede Woche x €.",
+          "correct": "Du hast bereits 12 € und sparst jede Woche x €.",
+          "context": "Comma before 'und' in a compound sentence with the same subject."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Non-idiomatic string formatting in code examples",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Use of outdated or less idiomatic string formatting methods in code examples, rather than modern, more readable approaches preferred in current educational contexts.",
+      "examples": [
+        {
+          "wrong": "print(\"Mein Name ist \" + name + \" und ich bin \" + str(alter) + \" Jahre alt.\")",
+          "correct": "print(f\"Mein Name ist {name} und ich bin {alter} Jahre alt.\")",
+          "context": "String concatenation used instead of f-strings in Python code."
+        }
+      ]
+    }
+  ]
+}

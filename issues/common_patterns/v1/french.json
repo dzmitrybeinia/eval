@@ -1,0 +1,377 @@
+{
+  "metadata": {
+    "label": "v1",
+    "label_normalized": "v1",
+    "label_key": "v1",
+    "language": "french",
+    "generated_at": "2025-10-03T13:12:45.337833"
+  },
+  "top_error_patterns": [
+    {
+      "pattern_name": "Lexical inaccuracies and misuse of terms",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "HIGH",
+      "frequency": "common",
+      "frequency_count": 3,
+      "description": "Incorrect or inappropriate word choices, including the use of terms that do not fit the context or are not standard in French, leading to confusion or misinformation.",
+      "examples": [
+        {
+          "wrong": "La digestion des aliments est un processus qui se produit dans l'intestin grêle chez les humains et les animaux, tandis que dans les plantes, elle se produit dans des structures comme les glandes.",
+          "correct": "La digestion des aliments est un processus qui se produit dans l'intestin grêle chez les humains et les animaux, tandis que chez les plantes, il s'agit de la dégradation des substances dans des structures comme les vacuoles.",
+          "context": "Misuse of 'glandes' for plant biology, where 'vacuoles' is correct."
+        },
+        {
+          "wrong": "Marchi.e.",
+          "correct": "Marche",
+          "context": "Typographical or lexical error in naming historical events."
+        },
+        {
+          "wrong": "Marchi.e.e.",
+          "correct": "Marche",
+          "context": "Repeated lexical error in event names, causing confusion."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Spelling and typographical errors",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "HIGH",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Misspelled words or typographical mistakes that disrupt reading flow and comprehension, potentially leading to misunderstanding of key concepts.",
+      "examples": [
+        {
+          "wrong": "Imaginez si vous devaiez écrire une salutation pour un groupe de cinq amis, une boucle pourrait faire ce travail rapidement pour vous.",
+          "correct": "Imaginez si vous deviez écrire une salutation pour un groupe de cinq amis, une boucle pourrait faire ce travail rapidement pour vous.",
+          "context": "Typo in 'devaiez' instead of 'deviez' in instructional context."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Grammatical agreement errors",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "HIGH",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Incorrect agreement in gender or number between determiners and nouns, leading to ungrammatical and potentially confusing sentences.",
+      "examples": [
+        {
+          "wrong": "En programmation, on utilise les conditionnels pour afficher le même message quel que soit la valeur de la variable.",
+          "correct": "En programmation, on utilise les conditionnels pour afficher le même message quelle que soit la valeur de la variable.",
+          "context": "Incorrect gender agreement in 'quel que soit la valeur'."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Grammatical Agreement Errors",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 3,
+      "description": "Frequent mistakes in agreement between adjectives or possessive adjectives and the nouns they modify, leading to inaccuracies and reduced clarity.",
+      "examples": [
+        {
+          "wrong": "des alluvions riche en nutriments",
+          "correct": "des alluvions riches en nutriments",
+          "context": "Adjective 'riche' does not agree in number with plural noun 'alluvions'."
+        },
+        {
+          "wrong": "maximiser leur chances de survie",
+          "correct": "maximiser leurs chances de survie",
+          "context": "Possessive adjective 'leur' should agree in number with plural noun 'chances'."
+        },
+        {
+          "wrong": "valeurs Vrai ou Faux",
+          "correct": "valeurs vraies ou fausses",
+          "context": "Adjectives 'Vrai' and 'Faux' do not agree in gender and number with 'valeurs'."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Non-idiomatic or Awkward Syntax",
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 2,
+      "description": "Use of unnatural or confusing sentence structures that hinder comprehension and do not reflect standard French usage.",
+      "examples": [
+        {
+          "wrong": "Bosses stockant de la graisse pour survivre sans nourriture longtemps.",
+          "correct": "Bosses stockant de la graisse pour survivre longtemps sans nourriture.",
+          "context": "Adverb placement is unnatural, making the sentence awkward."
+        },
+        {
+          "wrong": "En attendant, montrer de l'empathie et une volonté de comprendre la perspective de l'autre peut créer un climat plus propice à une discussion constructive.",
+          "correct": "Montrer de l'empathie et une volonté de comprendre la perspective de l'autre peut créer un climat plus propice à une discussion constructive.",
+          "context": "Introductory phrase 'En attendant,' is syntactically incorrect and confusing in this context."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Non-idiomatic Scientific or Technical Terminology",
+      "category": "localization",
+      "subcategory": "Terminology",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 2,
+      "description": "Use of untranslated or literal English terms instead of established French equivalents, which can hinder comprehension and reduce localization quality.",
+      "examples": [
+        {
+          "wrong": "Student Nonviolent Coordinating Committee (SNCC)",
+          "correct": "Comité de coordination non-violente des étudiants (SNCC)",
+          "context": "Organization names left in English without French translation or explanation."
+        },
+        {
+          "wrong": "Freedom Rides",
+          "correct": "Voyages de la liberté",
+          "context": "Historical event names not localized, making them less accessible to French learners."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect Terminology",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Use of inaccurate or non-standard terms that do not match the intended meaning, especially in specialized or legal contexts.",
+      "examples": [
+        {
+          "wrong": "la situation de naissance",
+          "correct": "le sexe",
+          "context": "Incorrect translation of 'sex' in anti-discrimination law context."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Unnatural or Inaccurate Descriptions of Scientific Processes",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Use of literal or awkward expressions that do not align with standard French scientific language, affecting clarity and professionalism.",
+      "examples": [
+        {
+          "wrong": "Les ribosomes travaillent en collant les acides aminés...",
+          "correct": "Les ribosomes assemblent les acides aminés...",
+          "context": "Describing protein synthesis with non-standard verbs."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Cultural Mismatch in Everyday Terminology",
+      "category": "localization",
+      "subcategory": "Cultural",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Use of terms that are technically correct but not culturally or contextually appropriate for French, leading to confusion.",
+      "examples": [
+        {
+          "wrong": "hauteur = 1.65",
+          "correct": "taille = 1.65",
+          "context": "Referring to a person's height using 'hauteur' instead of the idiomatic 'taille'."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Lack of Localization for Input Format Instructions",
+      "category": "localization",
+      "subcategory": "Format",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Failure to clarify input conventions (e.g., decimal separator) that differ between source and target cultures, potentially causing user errors.",
+      "examples": [
+        {
+          "wrong": "num1 = float(input(\"Entrez un nombre : \"))",
+          "correct": "num1 = float(input(\"Entrez un nombre (utilisez un point pour les décimales) : \"))",
+          "context": "Not specifying the required decimal separator for French users in programming exercises."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect use of comma before 'et' in lists",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "LOW",
+      "frequency": "common",
+      "frequency_count": 1,
+      "description": "A comma is incorrectly placed before 'et' in a list, which is not standard in French punctuation and affects naturalness.",
+      "examples": [
+        {
+          "wrong": "les **constantes**, et les **équations simples**",
+          "correct": "les **constantes** et les **équations simples**",
+          "context": "Listing items in a sentence"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Missing preposition in parallel structures",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "LOW",
+      "frequency": "common",
+      "frequency_count": 1,
+      "description": "Omission of a required preposition in coordinated phrases, leading to ungrammatical or awkward constructions.",
+      "examples": [
+        {
+          "wrong": "en taille et fonction",
+          "correct": "en taille et en fonction",
+          "context": "Parallel structure in descriptive phrases"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Use of anglicisms instead of standard French terms",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "LOW",
+      "frequency": "common",
+      "frequency_count": 1,
+      "description": "Use of English-derived words where a standard French equivalent exists, reducing lexical precision and formality.",
+      "examples": [
+        {
+          "wrong": "déségrégation des bus",
+          "correct": "déségrégation des autobus",
+          "context": "Referring to public transportation in educational content"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Missing diacritical marks in common words",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "LOW",
+      "frequency": "common",
+      "frequency_count": 1,
+      "description": "Omission of required accents in French words, leading to spelling errors and reduced orthographic accuracy.",
+      "examples": [
+        {
+          "wrong": "connait",
+          "correct": "connaît",
+          "context": "Conjugated verb forms"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Inappropriate use of accented characters in code variable names",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "LOW",
+      "frequency": "common",
+      "frequency_count": 1,
+      "description": "Use of non-ASCII (accented) characters in variable names, which is discouraged in programming for portability and clarity.",
+      "examples": [
+        {
+          "wrong": "âge = 14",
+          "correct": "age = 14",
+          "context": "Python variable naming in code examples"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect currency formatting",
+      "category": "localization",
+      "subcategory": "Format",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Amounts are written with the word 'euros' instead of the standard '€' symbol with a space, which is the norm in French.",
+      "examples": [
+        {
+          "wrong": "Chaque collation coûte 2 euros et vous achetez `x` collations.",
+          "correct": "Chaque collation coûte 2 € et vous achetez `x` collations.",
+          "context": "Currency amounts in instructions or problem statements."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Non-standard mathematical notation",
+      "category": "localization",
+      "subcategory": "Format",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Mathematical expressions omit the required space between numbers and variables, which is standard in French notation.",
+      "examples": [
+        {
+          "wrong": "Distance = 60t",
+          "correct": "Distance = 60 t",
+          "context": "Algebraic equations in math problems."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Unexplained or untranslated acronyms",
+      "category": "localization",
+      "subcategory": "Terminology",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Acronyms from English are used without explanation or translation, which can hinder understanding for French readers.",
+      "examples": [
+        {
+          "wrong": "NAACP",
+          "correct": "NAACP (Association nationale pour la promotion des gens de couleur)",
+          "context": "References to organizations or entities in quiz content."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Non-idiomatic regional references",
+      "category": "localization",
+      "subcategory": "Terminology",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Geographical regions are described in a literal way rather than using the idiomatic French expression.",
+      "examples": [
+        {
+          "wrong": "l'est des États-Unis",
+          "correct": "la côte est des États-Unis",
+          "context": "Describing regions in geography or history questions."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Non-standard adaptation of English terms",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "English terms or abbreviations are used instead of the standard French equivalents, reducing naturalness.",
+      "examples": [
+        {
+          "wrong": "LGBTQ+",
+          "correct": "LGBT+",
+          "context": "References to social groups or communities."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect French punctuation spacing",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "French typographical rules require a space before exclamation marks, which is often omitted in localized content.",
+      "examples": [
+        {
+          "wrong": "print(\"Bonjour, \" + nom + \"!\")",
+          "correct": "print(\"Bonjour, \" + nom + \" !\")",
+          "context": "Punctuation in code examples or direct speech."
+        }
+      ]
+    }
+  ]
+}

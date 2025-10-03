@@ -1,0 +1,359 @@
+{
+  "metadata": {
+    "label": "v1",
+    "label_normalized": "v1",
+    "label_key": "v1",
+    "language": "german",
+    "generated_at": "2025-10-03T13:11:36.060414",
+    "source_files": [
+      "evaluation_20251003_130742.json",
+      "evaluation_20251003_130751.json",
+      "evaluation_20251003_130754.json",
+      "evaluation_20251003_130801.json",
+      "evaluation_20251003_130805.json",
+      "evaluation_20251003_130807.json",
+      "evaluation_20251003_130811.json",
+      "evaluation_20251003_130816.json",
+      "evaluation_20251003_130827.json",
+      "evaluation_20251003_130831.json"
+    ],
+    "issue_counts": {
+      "linguistic": 32,
+      "localization": 9
+    }
+  },
+  "issues": {
+    "linguistic": [
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "hauptseteig",
+        "correction": "hauptsächlich",
+        "description": "The word 'hauptseteig' is a misspelling and does not exist in German. The correct word is 'hauptsächlich', which means 'mainly' or 'primarily'. This spelling error significantly affects comprehension and must be corrected.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "hauesteig",
+        "correction": "hauptsächlich",
+        "description": "The word 'hauesteig' is a misspelling and does not exist in German. The intended word is 'hauptsächlich', meaning 'mainly' or 'primarily'. This error impairs understanding and should be corrected.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Akumu-Osiris",
+        "correction": "Osiris",
+        "description": "The term 'Akumu-Osiris' is not historically or culturally accurate in the context of ancient Egyptian religion. The correct reference should be 'Osiris', who was a central god. 'Akumu' is not recognized as a title or name associated with Osiris in Egyptology, and its use here is misleading.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Physikalische Anpassungen",
+        "correction": "Physische Anpassungen",
+        "description": "The term 'physikalische Anpassungen' is a false friend in German. The correct term for biological adaptations relating to the body is 'physische Anpassungen', not 'physikalisch', which refers to physics. This lexical error affects scientific accuracy and should be corrected throughout the content.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Kaktuszaunkönigin",
+        "correction": "Kaktuszaunkönig",
+        "description": "The correct German name for the cactus wren is 'Kaktuszaunkönig' (masculine), not 'Kaktuszaunkönigin' (feminine). This is a lexical and orthographic error, as the established term in German ornithology is masculine. Using the incorrect form may confuse learners and reduce scientific credibility.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "der Kaktuszaunkönigin hat Verhaltensweisen, die Schutz und Nahrungssuche ermöglichen.",
+        "correction": "der Kaktuszaunkönig hat Verhaltensweisen, die Schutz und Nahrungssuche ermöglichen.",
+        "description": "The sentence uses the incorrect noun form 'Kaktuszaunkönigin' (see previous issue) and the definite article 'der' does not agree with the feminine noun. The correct form is 'der Kaktuszaunkönig' (masculine nominative). This is a grammatical agreement error and should be corrected for accuracy.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Ihr dicker Fell ist eine physikalische Anpassung, die ihnen hilft, das extreme Klima zu überstehen.",
+        "correction": "Ihr dickes Fell ist eine physische Anpassung, die ihnen hilft, das extreme Klima zu überstehen.",
+        "description": "The adjective 'dicker' does not agree in gender and case with the neuter noun 'Fell'; it should be 'dickes Fell'. Additionally, 'physikalische Anpassung' should be 'physische Anpassung' (see previous issue). This sentence contains both adjective-noun agreement and lexical errors.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Variablen sind entscheidend für die Lösung von Gleichungen, da sie es uns ermöglichen, die Unbekannten zu erfinden.",
+        "correction": "Variablen sind entscheidend für die Lösung von Gleichungen, da sie es uns ermöglichen, die Unbekannten zu finden.",
+        "description": "The word 'erfinden' is a lexical error in this context. In German, 'erfinden' means 'to invent,' which is incorrect here. The intended meaning is 'to find' the unknowns, which should be 'finden.' This error affects the clarity and accuracy of the explanation.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "das DNA",
+        "correction": "die DNA",
+        "description": "The correct grammatical gender for 'DNA' in German is feminine, so the article should be 'die' instead of 'das'. Using the wrong article is a grammatical error that can confuse learners about proper noun gender.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Syntax",
+        "original": "die Anweisungen für die Herstellung von Proteinen und anderen wichtigen Molekülen enthält.",
+        "correction": "die Anweisungen für die Herstellung von Proteinen und anderen wichtigen Molekülen enthält.",
+        "description": "This relative clause is correct in structure, but the sentence as a whole is awkward because it repeats 'enthält' (contains) in a way that could confuse the subject. Consider rephrasing for clarity, e.g., 'Er enthält die genetische Information der Zelle: die DNA, welche die Anweisungen für die Herstellung von Proteinen und anderen wichtigen Molekülen liefert.' This improves clarity and flow.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "hauptseteled",
+        "correction": "hauptsächlich",
+        "description": "The word 'hauptseteled' is a misspelling and not a valid German word. The correct term is 'hauptsächlich', which means 'primarily'. This is a critical spelling error that affects comprehension.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "in der Zellkern",
+        "correction": "im Zellkern",
+        "description": "The preposition 'in' with the masculine noun 'Zellkern' requires the dative case and contraction: 'im Zellkern' (in dem Zellkern). Using 'in der Zellkern' is a grammatical error.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Syntax",
+        "original": "Mitochondrien sind die Zelle, die für die Energieproduktion verantwortlich ist.",
+        "correction": "Mitochondrien sind die Zellorganellen, die für die Energieproduktion verantwortlich sind.",
+        "description": "This sentence incorrectly refers to 'Mitochondrien' as 'die Zelle' (the cell), which is a semantic and syntactic error. Mitochondria are organelles, not cells. The verb should also agree in number: 'sind ... verantwortlich sind'.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Syntax",
+        "original": "Eine Zelle benötigt einen Zellkern, um ihre Funktionen zu steuern und als Zellkern bekannt.",
+        "correction": "Eine Zelle benötigt einen Zellkern, um ihre Funktionen zu steuern.",
+        "description": "The phrase 'und als Zellkern bekannt' is syntactically incorrect and semantically confusing. It suggests the cell is known as the nucleus, which is not accurate. The sentence should end after 'zu steuern' for clarity.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Sein Führung während des Marsches auf Washington ist in der Geschichte der Bewegung festgehalten.",
+        "correction": "Seine Führung während des Marsches auf Washington ist in der Geschichte der Bewegung festgehalten.",
+        "description": "The possessive pronoun 'Sein' is incorrectly used in the context of 'Führung', which is a feminine noun in German. The correct form is 'Seine Führung' to match the gender of the noun. This is a grammatical gender agreement error that affects the accuracy of the sentence.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Das ist richtig, weil die Tropische Klimazone durch ihre hohe Luftfeuchtigkeit und reichlichen Niederschläge gekennzeichnet ist, was ein wichtiger Faktor für ihre charakteristischen heißen Temperaturen ist.",
+        "correction": "Das ist richtig, weil die tropische Klimazone durch ihre hohe Luftfeuchtigkeit und reichlichen Niederschläge gekennzeichnet ist, was ein wichtiger Faktor für ihre charakteristischen heißen Temperaturen ist.",
+        "description": "The noun phrase 'Tropische Klimazone' incorrectly capitalizes the adjective 'Tropische.' In German, only the noun 'Klimazone' should be capitalized, while the adjective 'tropische' should remain lowercase. This is a common grammatical rule in German adjective-noun constructions.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Eis und Schnee bedecken die Region das ganze Jahr.",
+        "correction": "Eis und Schnee bedecken die Region das ganze Jahr über.",
+        "description": "The phrase 'das ganze Jahr' is missing the preposition 'über,' which is required in German to express 'throughout the whole year.' Omitting 'über' results in an incomplete and less idiomatic expression.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Programmieren mag anfangs komplex erscheinen, aber das Verständnis dieser Grundlagen wird dir helfen, Vertrauen zu gewinnen und dich auf fortgeschrittene Themen vorzubereiten.",
+        "correction": "Programmieren mag anfangs komplex erscheinen, aber das Verständnis dieser Grundlagen wird dir helfen, Vertrauen zu gewinnen und dich auf fortgeschrittene Themen vorzubereiten.",
+        "description": "The sentence uses the informal 'dir' in an otherwise neutral educational context. In German educational materials, especially those intended for a general or mixed-age audience, the formal 'Ihnen' is preferred for consistency and professionalism. The use of 'dir' may be appropriate for content specifically targeting children or teenagers, but if the audience is broader or undefined, the formal register should be used.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Variablen können mehr als einen Wert haben.",
+        "correction": "Variablen können verschiedene Werte zu unterschiedlichen Zeitpunkten haben.",
+        "description": "The original sentence is misleading from a programming perspective. In German, 'mehr als einen Wert haben' could be interpreted as a variable holding multiple values simultaneously, which is not accurate for standard variables (except for data structures like arrays). The correction clarifies that variables can take on different values at different times, which is the intended meaning.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Datenbanken sind tatsächlich ein wichtiger Aspekt der Programmierung, der zur Speicherung und Organisation großer Datenmengen, einschließlich Eingabe- und Ausgabedaten, genutzt wird.",
+        "correction": "Datenbanken sind tatsächlich ein wichtiger Aspekt der Programmierung, die zur Speicherung und Organisation großer Datenmengen, einschließlich Eingabe- und Ausgabedaten, genutzt werden.",
+        "description": "The original sentence uses 'der' to refer to 'Datenbanken', which is plural and feminine, so the relative pronoun and verb should agree in number and gender. The correct form is 'die ... genutzt werden' instead of 'der ... genutzt wird'.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "In Navigations-Apps ist die Berechnung der schnellsten Route tatsächlich eine Funktion von Algorithmen, nicht von Variablen.",
+        "correction": "In Navigations-Apps ist die Berechnung der schnellsten Route tatsächlich Aufgabe von Algorithmen, nicht von Variablen.",
+        "description": "The phrase 'eine Funktion von Algorithmen' is a literal translation from English ('a function of algorithms') and is not idiomatic in German. The more natural and precise expression is 'Aufgabe von Algorithmen'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Ein Algorithmus benötigt Variablen, um Daten zu speichern und zu manipulieren.",
+        "correction": "Ein Algorithmus kann auch ohne Variablen ausgeführt werden, wenn keine Daten gespeichert oder verändert werden müssen.",
+        "description": "The original statement is factually incorrect: not all algorithms require variables to function. Some simple algorithms (e.g., printing a fixed message) do not need variables. The correction provides a more accurate and nuanced explanation.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Variable Zuweisung",
+        "correction": "Variablenzuweisung",
+        "description": "The term 'Variable Zuweisung' is incorrect in German. Compound nouns should be written as a single word, so the correct form is 'Variablenzuweisung'. This ensures proper orthography and follows German compounding rules.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Python Einführung",
+        "correction": "Python-Einführung",
+        "description": "In German, compound nouns that combine a foreign word and a German noun should be hyphenated. 'Python Einführung' should be 'Python-Einführung' to follow standard orthographic conventions.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Python ist eine hochentwickelte, allgemeine Programmiersprache, die 1991 von Guido van Rossum entwickelt wurde.",
+        "correction": "Python ist eine hochentwickelte, universelle Programmiersprache, die 1991 von Guido van Rossum entwickelt wurde.",
+        "description": "The word 'allgemeine' is not the most precise translation for 'general-purpose' in the context of programming languages. 'Universelle' is the more accurate and commonly used term in German IT contexts.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Variable",
+        "correction": "Variable",
+        "description": "The word 'Variable' is correct in German, but it should always be capitalized as it is a noun. In the provided context, it is already capitalized, so no correction is needed. This is a confirmation of correct usage.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Python Datentypen",
+        "correction": "Python-Datentypen",
+        "description": "Compound nouns with a foreign word and a German noun should be hyphenated. 'Python Datentypen' should be 'Python-Datentypen' to follow German orthographic rules.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Variable nur einen einzigen Datentyp zu einem Zeitpunkt halten.",
+        "correction": "Variable nur einen einzigen Datentyp zu einem Zeitpunkt speichern.",
+        "description": "The verb 'halten' is not idiomatic in this context. The correct verb is 'speichern' when referring to variables storing data types in German programming terminology.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Einrückung ist entscheidend.",
+        "correction": "Die Einrückung ist entscheidend.",
+        "description": "The definite article 'Die' is required before 'Einrückung' to form a complete and grammatically correct sentence in German.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Python ist eine anfängerfreundliche Programmiersprache, die für viele Anwendungen genutzt wird.",
+        "correction": "Python ist eine einsteigerfreundliche Programmiersprache, die für viele Anwendungen genutzt wird.",
+        "description": "The term 'anfängerfreundlich' is understandable but 'einsteigerfreundlich' is the more idiomatic and widely used term in German educational and IT contexts.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Tipps für gute Kommunikation",
+        "correction": "Tipps für gute Kommunikation:",
+        "description": "The colon is missing at the end of the heading 'Tipps für gute Kommunikation'. In German, when introducing a list or set of instructions, a colon should be used for clarity and correct punctuation. This improves both readability and adherence to standard orthographic conventions.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Gefühle und Bedürfnisse respektvoll ausdrücken.",
+        "correction": "Gefühle und Bedürfnisse respektvoll auszudrücken.",
+        "description": "In the list under 'Klare Kommunikation', the infinitive construction should be used to match the parallel structure of the other bullet points (e.g., 'Aufmerksamkeit gegenüber Worten und Körpersprache des anderen', 'Sich in die Lage des anderen hineinversetzen'). The correct form is 'Gefühle und Bedürfnisse respektvoll auszudrücken.'",
+        "severity": "MINOR"
+      }
+    ],
+    "localization": [
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Physikalische Anpassungen beziehen sich auf Veränderungen im Körperbau eines Tieres, wie etwa die Entwicklung von dickem Fell bei Eisbären oder starke Krallen bei Adlern.",
+        "correction": "Physische Anpassungen beziehen sich auf Veränderungen im Körperbau eines Tieres, wie etwa die Entwicklung von dickem Fell bei Eisbären oder starker Krallen bei Adlern.",
+        "description": "The term 'physikalische Anpassungen' should be 'physische Anpassungen' for scientific accuracy. Additionally, 'starke Krallen' should be 'starker Krallen' to maintain parallel structure with 'dickem Fell'. This improves both terminology consistency and naturalness in German scientific language.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Du hast bereits 12 €, und sparst jede Woche x €.",
+        "correction": "Du hast bereits 12 € und sparst jede Woche x €.",
+        "description": "The comma before 'und' is not required in standard German when connecting two main clauses with the same subject. Removing the comma improves the naturalness and aligns with German style conventions.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Student Nonviolent Coordinating Committee (SNCC)",
+        "correction": "Student Nonviolent Coordinating Committee (SNCC, Studentisches gewaltfreies Koordinierungskomitee)",
+        "description": "The English name 'Student Nonviolent Coordinating Committee' is used without a German equivalent or explanation. For educational content in German, it is best practice to provide a localized or explanatory translation in parentheses to ensure comprehension for learners unfamiliar with the English term.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "LGBTQ+-Personen",
+        "correction": "LSBTIQ+-Personen",
+        "description": "The abbreviation 'LGBTQ+' is an English acronym. In German educational and social contexts, the more common and culturally appropriate abbreviation is 'LSBTIQ+'. Using the localized term improves naturalness and aligns with local conventions.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Boolean: Wahrheitswerte (True oder False)",
+        "correction": "Boolean: Wahrheitswerte (wahr oder falsch)",
+        "description": "The terms 'True' and 'False' are English keywords in Python, but in a German educational context, it is more natural and accessible to also provide the German equivalents 'wahr' and 'falsch' in parentheses. This ensures clarity for learners who may not be familiar with the English terms and improves localization quality.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "print(\"Mein Name ist \" + name + \" und ich bin \" + str(alter) + \" Jahre alt.\")",
+        "correction": "print(f\"Mein Name ist {name} und ich bin {alter} Jahre alt.\")",
+        "description": "While the original string concatenation is correct in Python, using f-strings is the more modern and idiomatic way to format strings in Python 3.6 and above. Introducing f-strings in educational content reflects current best practices and makes the code more readable and natural for learners.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Python ist eine Programmiersprache, die vor allem für ihre komplexe Syntax bekannt ist.",
+        "correction": "Python ist eine Programmiersprache, die vor allem für ihre einfache Syntax bekannt ist.",
+        "description": "The statement is factually incorrect and could mislead learners. Python is known for its simple syntax, not a complex one. This is a critical factual and stylistic issue in an educational context.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "In Python können Variablen sowohl eine einzelne Datenmenge, wie eine Zahl, als auch mehrere Daten sammeln, was als 'Listen' oder 'Dictionaries' bezeichnet wird.",
+        "correction": "In Python können Variablen entweder eine einzelne Datenmenge, wie eine Zahl, oder mehrere Daten speichern, zum Beispiel in sogenannten 'Listen' oder 'Dictionaries'.",
+        "description": "The original sentence is awkward and not idiomatic in German. The correction improves clarity and naturalness, and uses the correct verb 'speichern' for variables. It also clarifies the explanation for learners.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Verwenden Sie „Ich“-Aussagen, um Ihre Gefühle auszudrücken.",
+        "correction": "Verwenden Sie „Ich-Botschaften“, um Ihre Gefühle auszudrücken.",
+        "description": "The term 'Ich-Botschaften' is the standard and widely recognized term in German communication and conflict resolution contexts, rather than 'Ich-Aussagen'. Using 'Ich-Botschaften' ensures the terminology is natural, professional, and consistent with educational materials in German-speaking regions.",
+        "severity": "MEDIUM"
+      }
+    ]
+  }
+}

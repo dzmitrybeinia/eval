@@ -1,0 +1,199 @@
+{
+  "metadata": {
+    "label": "v1",
+    "label_normalized": "v1",
+    "label_key": "v1",
+    "language": "spanish",
+    "generated_at": "2025-10-03T13:11:36.045892",
+    "source_files": [
+      "evaluation_20251003_130248.json",
+      "evaluation_20251003_130253.json",
+      "evaluation_20251003_130257.json",
+      "evaluation_20251003_130259.json",
+      "evaluation_20251003_130303.json",
+      "evaluation_20251003_130305.json",
+      "evaluation_20251003_130311.json",
+      "evaluation_20251003_130314.json",
+      "evaluation_20251003_130327.json",
+      "evaluation_20251003_130330.json"
+    ],
+    "issue_counts": {
+      "linguistic": 12,
+      "localization": 9
+    }
+  },
+  "issues": {
+    "linguistic": [
+      {
+        "category": "linguistic",
+        "subcategory": "Syntax",
+        "original": "Proporcionando recursos esenciales como agua y nutrientes, permitió la agricultura, que sustenta el crecimiento de una civilización.",
+        "correction": "Proporcionó recursos esenciales como agua y nutrientes, lo que permitió la agricultura, que sustentó el crecimiento de una civilización.",
+        "description": "The original sentence incorrectly uses a present participle ('Proporcionando') at the beginning, which creates a dangling modifier and an awkward sentence structure. The main clause should be in the past tense to maintain consistency with the historical context. Additionally, 'sustenta' should be changed to 'sustentó' to match the past tense narrative. The corrected version improves clarity and grammatical accuracy.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Esto demuestra su avanzado conocimiento en organización de trabajo y planificación logística.",
+        "correction": "Esto demuestra su avanzado conocimiento de organización del trabajo y planificación logística.",
+        "description": "The preposition 'en' is incorrect in this context; the correct preposition is 'de' when referring to knowledge of a subject. Additionally, 'organización de trabajo' should be 'organización del trabajo' to specify the type of organization. These changes ensure proper grammatical structure and clarity.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "para la camuflaje en su ambiente helado y para mantener calor.",
+        "correction": "para el camuflaje en su ambiente helado y para mantener calor.",
+        "description": "The noun 'camuflaje' is masculine in Spanish, so the correct article is 'el' instead of 'la'. This is a grammatical gender agreement error. The rest of the sentence is correct.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "El clorofila dentro de los cloroplastos captura la energía solar, que es esencial para este proceso.",
+        "correction": "La clorofila dentro de los cloroplastos captura la energía solar, que es esencial para este proceso.",
+        "description": "The word 'clorofila' is a feminine noun in Spanish and should be preceded by the feminine article 'la' instead of the masculine 'el'. This is a gender agreement error that affects the grammatical correctness of the sentence.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Son de Reverde",
+        "correction": "Sueño de Martin Luther King",
+        "description": "The phrase 'Son de Reverde' is a lexical error and does not correspond to any known speech or phrase associated with Martin Luther King Jr. The intended reference is to his famous 'I Have a Dream' speech, which should be rendered as 'Sueño de Martin Luther King' or 'discurso 'Tengo un sueño''. This error affects comprehension and misrepresents a key historical reference.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Población limitada; estaciones de investigación y pesca pequeña escala.",
+        "correction": "Población limitada; estaciones de investigación y pesca a pequeña escala.",
+        "description": "The phrase 'pesca pequeña escala' is missing the preposition 'a' to form the correct expression 'a pequeña escala.' This is a set phrase in Spanish meaning 'on a small scale.' The omission affects grammatical correctness and clarity.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "rastrear cuántas monedas ha recogido el jugador",
+        "correction": "rastrear cuántas monedas ha recogido el jugador",
+        "description": "The verb 'rastrear' is technically correct but is more commonly used for 'tracking' in the sense of following a trail or searching. In the context of programming, a more natural verb would be 'llevar un registro de' or 'contar', as in 'llevar un registro de cuántas monedas ha recogido el jugador' or 'contar cuántas monedas ha recogido el jugador'. This would improve the naturalness and clarity of the explanation for Spanish-speaking learners.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Esta declaración no refleja con precisión la relación entre programación y diseño.",
+        "correction": "Esta declaración no refleja con precisión la relación entre algoritmos y variables en programación.",
+        "description": "The sentence 'Esta declaración no refleja con precisión la relación entre programación y diseño.' is imprecise in context. The statement being evaluated is about the relationship between algorithms and variables, not programming and design. The correction clarifies the intended meaning and improves the accuracy of the feedback.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "En el lenguaje de programación, los enteros son capaces de almacenar números sin signo, lo que incluye valores positivos y negativos.",
+        "correction": "En programación, los enteros son capaces de almacenar números con o sin signo, lo que incluye valores positivos y negativos.",
+        "description": "The phrase 'números sin signo' is incorrect in this context. In Spanish, 'sin signo' means 'unsigned', which refers to numbers that cannot be negative. The intended meaning is that integers can be either signed or unsigned, but the explanation should clarify that integers can represent both positive and negative values. The correction removes the misleading phrase and provides a more accurate description.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "substractar",
+        "correction": "restar",
+        "description": "The word 'substractar' is not a correct Spanish verb. The proper verb for 'to subtract' is 'restar'. Using 'substractar' is a lexical error and may confuse learners.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "las sentimientos",
+        "correction": "los sentimientos",
+        "description": "The phrase uses the incorrect article-noun gender agreement. 'Sentimientos' is masculine plural, so the correct article is 'los', not 'las'. This is a grammatical error that affects the accuracy and professionalism of the text.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "El pensamiento crítico se caracteriza por una mente abierta y un escepticismo, lo que significa que se cuestionan las opiniones y se examinan las evidencias antes de llegar a conclusiones.",
+        "correction": "El pensamiento crítico se caracteriza por una mente abierta y escepticismo, lo que significa que se cuestionan las opiniones y se examinan las evidencias antes de llegar a conclusiones.",
+        "description": "The use of the article 'un' before 'escepticismo' is unnecessary and unidiomatic in Spanish when listing qualities or characteristics. Removing the article results in a more natural and grammatically correct phrase. No other linguistic or localization issues are present in this sentence.",
+        "severity": "MINOR"
+      }
+    ],
+    "localization": [
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "El legado de la ingeniosidad egipcia en la ingeniería es evidente en monumentos como las pirámides y el Sphinx.",
+        "correction": "El legado de la ingeniosidad egipcia en la ingeniería es evidente en monumentos como las pirámides y la Esfinge.",
+        "description": "The use of 'Sphinx' is an anglicism; the correct and culturally appropriate term in Spanish is 'la Esfinge'. Using the local term ensures naturalness and respects Spanish language conventions.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Crear adaptaciones para climas tropicales no es una estrategia de supervivencia que los osos polares emplearían.",
+        "correction": "Desarrollar adaptaciones para climas tropicales no es una estrategia de supervivencia que los osos polares emplearían.",
+        "description": "The use of 'crear adaptaciones' is less natural in Spanish when referring to animals; 'desarrollar adaptaciones' is the more idiomatic and contextually appropriate expression in educational and scientific contexts.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "Necesitas 1.5 huevos.",
+        "correction": "Necesitas 2 huevos.",
+        "description": "The phrase 'Necesitas 1.5 huevos.' is culturally inappropriate because in Spanish-speaking contexts, recipes and daily cooking do not typically use fractional eggs. It is more natural and practical to round to the nearest whole egg or suggest an alternative, such as using 2 eggs or adjusting the recipe. This correction improves the cultural appropriateness and practicality of the example.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "La declaración es incorrecta porque el álgebra no se usa para ajustar fracciones de ingredientes. En la cocina, las medidas suelen ser de tamaño entero, y el álgebra podría ser útil para planificar cantidades de ingredientes para un número diferente de servicios, no para ajustar fracciones exactas de una receta.",
+        "correction": "La declaración es incorrecta porque, aunque el álgebra puede ayudar a ajustar cantidades en recetas, en la práctica culinaria las medidas suelen redondearse a números enteros o cantidades prácticas. Por lo tanto, el álgebra es útil para planificar porciones, pero no necesariamente para usar fracciones exactas de ingredientes como huevos.",
+        "description": "The feedback text overgeneralizes by stating that algebra is not used to adjust ingredient fractions, which is not entirely accurate. Algebra can be used for such adjustments, but in practice, ingredients like eggs are rounded to whole numbers. The correction clarifies the practical application of algebra in cooking, making the explanation more accurate and culturally relevant.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Ley de Derechos Electorales de 1965",
+        "correction": "Ley de Derecho al Voto de 1965",
+        "description": "The term 'Ley de Derechos Electorales de 1965' is not the standard or widely accepted translation for the Voting Rights Act of 1965 in Spanish. The correct and commonly used term is 'Ley de Derecho al Voto de 1965'. Using the standard term ensures consistency and clarity for Spanish-speaking audiences.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Outback australiano",
+        "correction": "interior de Australia",
+        "description": "The term 'Outback australiano' is an anglicism. While it may be understood by some Spanish speakers, the more natural and widely recognized term in Spanish is 'interior de Australia.' Using the localized term improves accessibility and cultural appropriateness for a general Spanish-speaking audience.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Prepárense para descubrir cómo los algoritmos, las variables y los bucles simples nos ayudan a construir soluciones efectivas y creativas.",
+        "correction": "Prepárate para descubrir cómo los algoritmos, las variables y los bucles simples nos ayudan a construir soluciones efectivas y creativas.",
+        "description": "The use of 'Prepárense' (plural) is inconsistent with the rest of the lesson, which uses a neutral or singular register. For educational content aimed at a general audience, it is more common and natural in Spanish to use the singular informal 'Prepárate' or a neutral form. Consistency in register improves the tone and approachability of the lesson.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "PARA número = 1 HASTA 10\n    IMPRIMIR número\nFIN PARA",
+        "correction": "PARA número = 1 HASTA 10\n    IMPRIMIR número\nFIN PARA",
+        "description": "The pseudocode uses 'PARA' and 'FIN PARA', which is understandable but not a standard pseudocode convention in Spanish educational contexts. More commonly, 'PARA' is replaced with 'para' or 'por', and 'FIN PARA' is often omitted or replaced with 'fin' or 'fin para'. However, this is a minor issue as the meaning is clear, but aligning with local educational conventions would improve clarity.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "reclamos",
+        "correction": "afirmaciones",
+        "description": "The term 'reclamos' is not the most appropriate word in this educational context. In Spanish, 'reclamos' typically refers to complaints or claims in a commercial or customer service context. The intended meaning here is 'claims' or 'assertions' in the sense of statements that may be questioned, for which 'afirmaciones' is the standard and more precise term in critical thinking and academic discourse.",
+        "severity": "MEDIUM"
+      }
+    ]
+  }
+}

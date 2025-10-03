@@ -1,0 +1,247 @@
+{
+  "metadata": {
+    "label": "v1",
+    "label_normalized": "v1",
+    "label_key": "v1",
+    "language": "french",
+    "generated_at": "2025-10-03T13:11:36.054434",
+    "source_files": [
+      "evaluation_20251003_130521.json",
+      "evaluation_20251003_130523.json",
+      "evaluation_20251003_130528.json",
+      "evaluation_20251003_130532.json",
+      "evaluation_20251003_130536.json",
+      "evaluation_20251003_130541.json",
+      "evaluation_20251003_130543.json",
+      "evaluation_20251003_130546.json",
+      "evaluation_20251003_130551.json",
+      "evaluation_20251003_130554.json"
+    ],
+    "issue_counts": {
+      "linguistic": 16,
+      "localization": 11
+    }
+  },
+  "issues": {
+    "linguistic": [
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "des alluvions riche en nutriments",
+        "correction": "des alluvions riches en nutriments",
+        "description": "The adjective 'riche' should agree in number with 'alluvions', which is plural. The correct form is 'riches'. This is a grammatical agreement error that affects the accuracy of the sentence.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "maximiser leur chances de survie",
+        "correction": "maximiser leurs chances de survie",
+        "description": "The possessive adjective 'leur' should agree in number with the plural noun 'chances'. The correct form is 'leurs chances'. This is a grammatical agreement error that affects the accuracy of the sentence.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Bosses stockant de la graisse pour survivre sans nourriture longtemps.",
+        "correction": "Bosses stockant de la graisse pour survivre longtemps sans nourriture.",
+        "description": "The phrase 'sans nourriture longtemps' is not idiomatic in French. The adverb 'longtemps' should precede 'sans nourriture' to form the natural expression 'survivre longtemps sans nourriture'. This improves both grammatical structure and naturalness.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Aujourd’hui, nous allons découvrir les **variables**, les **constantes**, et les **équations simples**, des concepts fondamentaux pour comprendre l’algèbre et résoudre des problèmes mathématiques.",
+        "correction": "Aujourd’hui, nous allons découvrir les **variables**, les **constantes** et les **équations simples**, des concepts fondamentaux pour comprendre l’algèbre et résoudre des problèmes mathématiques.",
+        "description": "In French, when listing items in a series, a comma before 'et' (the equivalent of the Oxford comma) is not standard. The comma before 'et' in 'les **constantes**, et les **équations simples**' should be removed for correct punctuation and natural French style.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "La digestion des aliments est un processus qui se produit dans l'intestin grêle chez les humains et les animaux, tandis que dans les plantes, elle se produit dans des structures comme les glandes.",
+        "correction": "La digestion des aliments est un processus qui se produit dans l'intestin grêle chez les humains et les animaux, tandis que chez les plantes, il s'agit de la dégradation des substances dans des structures comme les vacuoles.",
+        "description": "The term 'glandes' is not appropriate in the context of plant digestion, as plants do not have glands analogous to those in animals. The correct reference for intracellular digestion in plants is the vacuole, which is responsible for breaking down substances. This is a lexical inaccuracy that could mislead learners about plant cell biology.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Les vacuoles dans les cellules animales peuvent varier considérablement en taille et fonction selon le type de tissu.",
+        "correction": "Les vacuoles dans les cellules animales peuvent varier considérablement en taille et en fonction selon le type de tissu.",
+        "description": "The sentence is missing the preposition 'en' before 'fonction', which is required for parallel structure ('en taille et en fonction'). This is a grammatical error affecting the coordination of the sentence.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Marchi.e.",
+        "correction": "Marche",
+        "description": "The term 'Marchi.e.' is a typographical or lexical error. It appears to be a misspelling or incorrect rendering of 'Marche', as in 'Marche sur Washington'. This error affects comprehension and should be corrected to the proper term to maintain clarity and accuracy.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Marchi.e.e.",
+        "correction": "Marche",
+        "description": "The term 'Marchi.e.e.' is a typographical or lexical error. It does not correspond to any known historical event and is likely a mistaken rendering of 'Marche', as in 'Marche sur Washington'. This error can confuse learners and should be corrected for accuracy.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "la situation de naissance",
+        "correction": "le sexe",
+        "description": "The phrase 'la situation de naissance' is an incorrect translation of 'sex' in the context of anti-discrimination law. The correct term in French legal and social context is 'le sexe'. Using the wrong term can lead to misunderstanding of the law's scope and intent.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "la déségrégation des bus",
+        "correction": "la déségrégation des autobus",
+        "description": "The term 'bus' is an anglicism in French. The more appropriate and standard French term is 'autobus', especially in formal or educational contexts. Using 'autobus' ensures lexical precision and aligns with French language norms.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "connait",
+        "correction": "connaît",
+        "description": "The word 'connait' is missing the circumflex accent on the 'i'. In French, the correct spelling is 'connaît' (third person singular present of 'connaître'). This is a spelling error that affects orthographic accuracy.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Imaginez si vous devaiez écrire une salutation pour un groupe de cinq amis, une boucle pourrait faire ce travail rapidement pour vous.",
+        "correction": "Imaginez si vous deviez écrire une salutation pour un groupe de cinq amis, une boucle pourrait faire ce travail rapidement pour vous.",
+        "description": "There is a spelling error in the word 'devaiez', which should be 'deviez'. This is a typographical mistake that could confuse learners and should be corrected for clarity and accuracy.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "En programmation, on utilise les conditionnels pour afficher le même message quel que soit la valeur de la variable.",
+        "correction": "En programmation, on utilise les conditionnels pour afficher le même message quelle que soit la valeur de la variable.",
+        "description": "The phrase 'quel que soit la valeur' is incorrect because 'quel' must agree in gender and number with 'valeur', which is feminine singular. The correct form is 'quelle que soit la valeur'. This is a grammatical agreement error that affects the accuracy of the statement.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "âge = 14",
+        "correction": "age = 14",
+        "description": "The variable name 'âge' uses a non-ASCII character (accented 'â'), which is not recommended in Python variable naming conventions. While Python 3 supports Unicode in identifiers, it is best practice to use only ASCII characters for variable names to ensure code portability and avoid confusion for beginners.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "valeurs Vrai ou Faux",
+        "correction": "valeurs vraies ou fausses",
+        "description": "The phrase 'valeurs Vrai ou Faux' is incorrect because 'Vrai' and 'Faux' should be in lowercase and agree in gender and number with 'valeurs'. The correct form is 'valeurs vraies ou fausses', which matches the plural feminine noun 'valeurs'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Syntax",
+        "original": "En attendant, montrer de l'empathie et une volonté de comprendre la perspective de l'autre peut créer un climat plus propice à une discussion constructive.",
+        "correction": "Montrer de l'empathie et une volonté de comprendre la perspective de l'autre peut créer un climat plus propice à une discussion constructive.",
+        "description": "The phrase 'En attendant,' at the beginning of the sentence is syntactically incorrect and creates confusion, as it suggests waiting, which is not the intended meaning in this context. The sentence should start directly with 'Montrer de l'empathie...' to clearly convey that showing empathy and willingness to understand the other's perspective can foster a more constructive discussion.",
+        "severity": "MEDIUM"
+      }
+    ],
+    "localization": [
+      {
+        "category": "localization",
+        "subcategory": "Format",
+        "original": "Chaque collation coûte 2 euros et vous achetez `x` collations.",
+        "correction": "Chaque collation coûte 2 € et vous achetez `x` collations.",
+        "description": "In French, the currency symbol '€' is typically used after the amount with a non-breaking space, rather than spelling out 'euros'. Using '2 €' is the standard and more natural format in educational and professional contexts.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Format",
+        "original": "Si votre voiture roule à 60 km/h, la distance parcourue en `t` heures peut être représentée par l’équation `Distance = 60t`.",
+        "correction": "Si votre voiture roule à 60 km/h, la distance parcourue en `t` heures peut être représentée par l’équation `Distance = 60 t`.",
+        "description": "In French mathematical notation, a space is required between the number and the variable in algebraic expressions. Therefore, '60t' should be written as '60 t' to conform to French typographical standards.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Les ribosomes travaillent en collant les acides aminés pour former des protéines, ce qui est essentiel pour la croissance, la réparation et les réponses immunitaires chez les organismes.",
+        "correction": "Les ribosomes assemblent les acides aminés pour former des protéines, ce qui est essentiel pour la croissance, la réparation et les réponses immunitaires chez les organismes.",
+        "description": "The verb 'collant' (gluing) is not a natural or accurate way to describe the process of protein synthesis in French scientific language. The standard and more precise term is 'assembler' (to assemble), which better reflects the biological process and aligns with educational and scientific conventions.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Student Nonviolent Coordinating Committee (SNCC)",
+        "correction": "Comité de coordination non-violente des étudiants (SNCC)",
+        "description": "The name of the organization is left in English, which may hinder comprehension for learners unfamiliar with the original term. Providing the French equivalent or a brief explanation in French ensures clarity and better localization for the target audience.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Freedom Rides",
+        "correction": "Voyages de la liberté",
+        "description": "The term 'Freedom Rides' is not localized and may not be immediately understood by French-speaking learners. Using the French equivalent or providing a brief explanation would improve accessibility and cultural adaptation.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "NAACP",
+        "correction": "NAACP (Association nationale pour la promotion des gens de couleur)",
+        "description": "The acronym 'NAACP' is used without explanation. For a French-speaking audience, it is important to provide the full name in French or a brief description to ensure understanding of the organization's role and significance.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "LGBTQ+",
+        "correction": "LGBT+",
+        "description": "The term 'LGBTQ+' is more commonly used in English contexts, while 'LGBT+' is the standard and widely recognized form in French. Adapting to the local convention improves naturalness and reader comfort.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "l'est des États-Unis",
+        "correction": "la côte est des États-Unis",
+        "description": "The phrase 'l'est des États-Unis' is not the most natural or standard way to refer to the eastern region of the United States in French. The more idiomatic and widely accepted term is 'la côte est des États-Unis', which clearly refers to the eastern seaboard. This improves clarity and aligns with common French usage.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "hauteur = 1.65",
+        "correction": "taille = 1.65",
+        "description": "The use of 'hauteur' to represent a person's height is not idiomatic in French; 'taille' is the culturally and contextually appropriate term for human height. Using 'hauteur' may cause confusion, as it typically refers to the height of objects or structures, not people.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Format",
+        "original": "num1 = float(input(\"Entrez un nombre : \"))",
+        "correction": "num1 = float(input(\"Entrez un nombre (utilisez un point pour les décimales) : \"))",
+        "description": "In French-speaking regions, a comma is typically used as the decimal separator, but Python requires a period. To avoid confusion for French learners, it is important to clarify in the prompt that a period should be used for decimal numbers.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "print(\"Bonjour, \" + nom + \"!\")",
+        "correction": "print(\"Bonjour, \" + nom + \" !\")",
+        "description": "In French typography, a non-breaking space is required before exclamation marks. While Python's print function does not handle non-breaking spaces, a regular space should be added before the exclamation mark to follow French punctuation conventions.",
+        "severity": "MINOR"
+      }
+    ]
+  }
+}

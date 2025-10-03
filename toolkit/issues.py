@@ -3,10 +3,11 @@
 from __future__ import annotations
 
 import json
+from datetime import datetime
 from pathlib import Path
-from typing import Dict, Iterable, List
+from typing import Dict, Iterable, List, Optional, Tuple
 
-from .constants import SUPPORTED_LANGUAGES
+from .labels import LabelInfo, ensure_label
 
 
 class IssueAggregator:
@@ -18,40 +19,66 @@ class IssueAggregator:
         self.issues_dir = base_path / "issues"
         self.combined_dir = self.issues_dir / "combined_issues"
 
-    def aggregate(self, languages: Iterable[str] | None = None) -> List[str]:
-        languages_to_process = list(languages or self._discover_languages())
+    def aggregate(self, languages: Iterable[str] | None = None, *, label: LabelInfo | str) -> List[str]:
+        label_info = ensure_label(label)
+
+        languages_to_process = list(languages or self._discover_languages(label_info))
         processed: List[str] = []
 
+        if not languages_to_process:
+            print(
+                f"⚠️  No languages found with evaluation results for label '{label_info.original}'."
+            )
+            return processed
+
+        label_dir = self.combined_dir / label_info.key
+        label_dir.mkdir(parents=True, exist_ok=True)
+
         for language in languages_to_process:
-            combined = self._collect_language_issues(language)
-            if combined is None:
+            result = self._collect_language_issues(language, label_info)
+            if result is None:
                 continue
-            self.combined_dir.mkdir(parents=True, exist_ok=True)
-            output_file = self.combined_dir / f"{language}_issues.json"
+
+            combined, sources = result
+            metadata = {
+                "label": label_info.original,
+                "label_normalized": label_info.normalized,
+                "label_key": label_info.key,
+                "language": language,
+                "generated_at": datetime.now().isoformat(),
+                "source_files": sources,
+                "issue_counts": {name: len(items) for name, items in combined.items()},
+            }
+
+            payload = {"metadata": metadata, "issues": combined}
+            output_file = label_dir / f"{language}_issues.json"
             with open(output_file, "w", encoding="utf-8") as handle:
-                json.dump(combined, handle, ensure_ascii=False, indent=2)
-            print(f"🗂️  Aggregated issues for {language}")
+                json.dump(payload, handle, ensure_ascii=False, indent=2)
+            print(f"🗂️  Aggregated issues for {language} (label: {label_info.original})")
             processed.append(language)
 
         return processed
 
-    def _discover_languages(self) -> List[str]:
+    def _discover_languages(self, label: LabelInfo) -> List[str]:
         if not self.eval_results_dir.exists():
             return []
-        languages = [
-            path.name
-            for path in sorted(self.eval_results_dir.iterdir())
-            if path.is_dir()
-        ]
-        return languages or [lang for lang in SUPPORTED_LANGUAGES if lang != "english"]
 
-    def _collect_language_issues(self, language: str) -> Dict[str, List[Dict]] | None:
+        languages: List[str] = []
+        for path in sorted(self.eval_results_dir.iterdir()):
+            if path.is_dir() and self._language_has_label(path, label):
+                languages.append(path.name)
+        return languages
+
+    def _collect_language_issues(
+        self, language: str, label: LabelInfo
+    ) -> Optional[Tuple[Dict[str, List[Dict]], List[str]]]:
         language_dir = self.eval_results_dir / language
         if not language_dir.exists():
             print(f"⏭️  Skipping {language} - no evaluation results")
             return None
 
         combined: Dict[str, List[Dict]] = {"linguistic": [], "localization": []}
+        matched_files: List[str] = []
 
         for json_file in sorted(language_dir.glob("*.json")):
             try:
@@ -61,12 +88,54 @@ class IssueAggregator:
                 print(f"⚠️  Skipping {json_file.name} ({exc})")
                 continue
 
-            for issue in data.get("issues", []):
+            metadata = data.get("metadata", {})
+            label_matches = metadata.get("label") == label.original
+            normalized_matches = metadata.get("label_normalized") == label.normalized
+            if not (label_matches or normalized_matches):
+                continue
+
+            matched_files.append(json_file.name)
+            issues_payload = data.get("issues", [])
+
+            if isinstance(issues_payload, dict):
+                for category, entries in issues_payload.items():
+                    if category in combined and isinstance(entries, list):
+                        combined[category].extend(entries)
+                continue
+
+            if not isinstance(issues_payload, list):
+                continue
+
+            for issue in issues_payload:
+                if not isinstance(issue, dict):
+                    continue
                 category = issue.get("category")
                 if category in combined:
                     combined[category].append(issue)
 
-        return combined
+        if not matched_files:
+            print(
+                f"⏭️  Skipping {language} - no evaluation results with label '{label.original}'"
+            )
+            return None
+
+        return combined, matched_files
+
+    def _language_has_label(self, language_dir: Path, label: LabelInfo) -> bool:
+        for json_file in language_dir.glob("*.json"):
+            try:
+                with open(json_file, "r", encoding="utf-8") as handle:
+                    data = json.load(handle)
+            except (OSError, json.JSONDecodeError):
+                continue
+
+            metadata = data.get("metadata", {})
+            if metadata.get("label") == label.original:
+                return True
+            if metadata.get("label_normalized") == label.normalized:
+                return True
+
+        return False
 
 
 __all__ = ["IssueAggregator"]

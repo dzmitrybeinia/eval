@@ -1,0 +1,108 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Variable Zuweisung",
+      "correction": "Variablenzuweisung",
+      "description": "The term 'Variable Zuweisung' is incorrect in German. Compound nouns should be written as a single word, so the correct form is 'Variablenzuweisung'. This ensures proper orthography and follows German compounding rules.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Python Einführung",
+      "correction": "Python-Einführung",
+      "description": "In German, compound nouns that combine a foreign word and a German noun should be hyphenated. 'Python Einführung' should be 'Python-Einführung' to follow standard orthographic conventions.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Python ist eine hochentwickelte, allgemeine Programmiersprache, die 1991 von Guido van Rossum entwickelt wurde.",
+      "correction": "Python ist eine hochentwickelte, universelle Programmiersprache, die 1991 von Guido van Rossum entwickelt wurde.",
+      "description": "The word 'allgemeine' is not the most precise translation for 'general-purpose' in the context of programming languages. 'Universelle' is the more accurate and commonly used term in German IT contexts.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Python ist eine Programmiersprache, die vor allem für ihre komplexe Syntax bekannt ist.",
+      "correction": "Python ist eine Programmiersprache, die vor allem für ihre einfache Syntax bekannt ist.",
+      "description": "The statement is factually incorrect and could mislead learners. Python is known for its simple syntax, not a complex one. This is a critical factual and stylistic issue in an educational context.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Variable",
+      "correction": "Variable",
+      "description": "The word 'Variable' is correct in German, but it should always be capitalized as it is a noun. In the provided context, it is already capitalized, so no correction is needed. This is a confirmation of correct usage.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Python Datentypen",
+      "correction": "Python-Datentypen",
+      "description": "Compound nouns with a foreign word and a German noun should be hyphenated. 'Python Datentypen' should be 'Python-Datentypen' to follow German orthographic rules.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Variable nur einen einzigen Datentyp zu einem Zeitpunkt halten.",
+      "correction": "Variable nur einen einzigen Datentyp zu einem Zeitpunkt speichern.",
+      "description": "The verb 'halten' is not idiomatic in this context. The correct verb is 'speichern' when referring to variables storing data types in German programming terminology.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Einrückung ist entscheidend.",
+      "correction": "Die Einrückung ist entscheidend.",
+      "description": "The definite article 'Die' is required before 'Einrückung' to form a complete and grammatically correct sentence in German.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Python ist eine anfängerfreundliche Programmiersprache, die für viele Anwendungen genutzt wird.",
+      "correction": "Python ist eine einsteigerfreundliche Programmiersprache, die für viele Anwendungen genutzt wird.",
+      "description": "The term 'anfängerfreundlich' is understandable but 'einsteigerfreundlich' is the more idiomatic and widely used term in German educational and IT contexts.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "In Python können Variablen sowohl eine einzelne Datenmenge, wie eine Zahl, als auch mehrere Daten sammeln, was als 'Listen' oder 'Dictionaries' bezeichnet wird.",
+      "correction": "In Python können Variablen entweder eine einzelne Datenmenge, wie eine Zahl, oder mehrere Daten speichern, zum Beispiel in sogenannten 'Listen' oder 'Dictionaries'.",
+      "description": "The original sentence is awkward and not idiomatic in German. The correction improves clarity and naturalness, and uses the correct verb 'speichern' for variables. It also clarifies the explanation for learners.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Computer_Programming.md",
+    "language": "German",
+    "timestamp": "2025-10-03T13:08:27.114989",
+    "model": "Azure OpenAI o3-mini",
+    "label": "v1",
+    "label_normalized": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 8.6,
+    "classification": "PROFESSIONAL",
+    "total_issues": 10,
+    "total_penalty": 1.4,
+    "issue_breakdown": {
+      "linguistic": 8,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.9,
+      "localization_penalty": 0.5,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

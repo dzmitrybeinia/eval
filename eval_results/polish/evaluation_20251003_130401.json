@@ -1,0 +1,84 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Egipt nie był ozdobiony żarowiami, które odgrywały znaczną rolę w jego rozwoju.",
+      "correction": "Egipt nie był ozdobiony żarowcami, które odgrywały znaczną rolę w jego rozwoju.",
+      "description": "The word 'żarowiami' is not a correct Polish noun form and does not exist in the context of ancient Egypt. The intended word is likely 'żarowcami', but even this is not historically or contextually accurate for ancient Egypt. The sentence is misleading and contains a lexical error, as 'żarowce' (if meant as 'incandescent lamps') are anachronistic. The primary issue is the use of a non-existent or incorrect word form.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "W starożytnym Egipsku dobrze znane były żarowce, które służyły zarówno jako struktury ochronne, jak i miejsca kultu, co przyczyniło się do rozwoju społeczeństwa.",
+      "correction": "W starożytnym Egipcie dobrze znane były żarowce, które służyły zarówno jako struktury ochronne, jak i miejsca kultu, co przyczyniło się do rozwoju społeczeństwa.",
+      "description": "The phrase 'w starożytnym Egipsku' is a grammatical error; the correct locative form is 'w starożytnym Egipcie'. Additionally, the use of 'żarowce' is contextually and factually incorrect, as such objects did not exist in ancient Egypt. The primary issue is the incorrect noun case, which affects grammatical accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Hieroglify, znany również jako hieroglify, był systemem pisma używanym głównie do dokumentacji religijnych i ważnych wydarzeń politycznych.",
+      "correction": "Hieroglify, znane również jako pismo hieroglificzne, były systemem pisma używanym głównie do dokumentacji religijnych i ważnych wydarzeń politycznych.",
+      "description": "There is a gender and number agreement error: 'hieroglify' is plural and neuter, so the correct form is 'znane' and 'były', not 'znany' and 'był'. Additionally, the phrase 'znany również jako hieroglify' is redundant; a more accurate term would be 'pismo hieroglificzne'. The primary issue is agreement error, with a secondary issue of redundancy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "poniewaćż było ono skomplikowane i szybkie do nauczania.",
+      "correction": "ponieważ było ono skomplikowane i trudne do nauczania.",
+      "description": "The word 'poniewaćż' is a spelling error; the correct word is 'ponieważ'. Additionally, 'szybkie do nauczania' is semantically incorrect; the intended meaning is 'trudne do nauczania' (difficult to learn). The primary issue is a spelling error, with a secondary issue of incorrect word choice.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "To zwiększało efektywność przekazywania informacji w zakresie, który wymagał dokładnego przekazywania wierzeń i przeznaczeń.",
+      "correction": "To zwiększało efektywność przekazywania informacji w zakresie, który wymagał dokładnego przekazywania wierzeń i tradycji.",
+      "description": "The word 'przeznaczeń' is semantically incorrect in this context. The intended meaning is likely 'tradycji' (traditions) or 'przekonań' (beliefs), as 'przeznaczenie' means 'destiny' or 'fate', which does not fit the context of information transmission. The primary issue is incorrect word choice.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Egipcjanie używali rzemion do tworzenia złotych kul, które były zarówno dekoracyjne, jak i użyteczne.",
+      "correction": "Egipcjanie używali rzemieni do tworzenia złotych kul, które były zarówno dekoracyjne, jak i użyteczne.",
+      "description": "The word 'rzemion' is incorrect in this context. The correct word is 'rzemieni', which refers to leather straps or thongs. 'Rzemion' is the genitive plural form, but the accusative plural 'rzemienie' or instrumental plural 'rzemieniami' would be more appropriate depending on the sentence structure. The primary issue is incorrect word form.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Rzemion były jednym z zestawów narzędzi używanych w starożytnym Egipcie, a złoty był powszechnie używany ze względu na jego wyraźną wygląd i trwałość, co wspierało jego rolę zarówno w dziedzinie artystycznym, jak i funkcjonalnym.",
+      "correction": "Rzemienie były jednym z zestawów narzędzi używanych w starożytnym Egipcie, a złoto było powszechnie używane ze względu na swój wyjątkowy wygląd i trwałość, co wspierało jego rolę zarówno w dziedzinie artystycznej, jak i funkcjonalnej.",
+      "description": "Multiple lexical and grammatical errors: 'Rzemion' should be 'Rzemienie' (nominative plural), 'złoty' should be 'złoto' (the material, not the adjective), 'wyraźną wygląd' is incorrect and should be 'wyjątkowy wygląd', and 'w dziedzinie artystycznym' should be 'w dziedzinie artystycznej' (correct case and gender agreement). The primary issue is incorrect word choice and form, with secondary issues of agreement and naturalness.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Ancient_Egypt.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T13:04:01.210782",
+    "model": "Azure OpenAI o3-mini",
+    "label": "v1",
+    "label_normalized": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 8.1,
+    "classification": "PROFESSIONAL",
+    "total_issues": 7,
+    "total_penalty": 1.9,
+    "issue_breakdown": {
+      "linguistic": 7,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.9,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

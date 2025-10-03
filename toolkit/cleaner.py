@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import json
 import shutil
 from pathlib import Path
 from typing import Iterable
@@ -26,7 +27,10 @@ class DirectoryCleaner:
         return self._clean(self.markdown_quizzes_dir, language, "Markdown Quizzes")
 
     def clean_eval_results(self, language: str | None = None) -> bool:
-        return self._clean(self.eval_results_dir, language, "Evaluation Results")
+        cleaned = self._clean(self.eval_results_dir, language, "Evaluation Results")
+        if cleaned:
+            self._clean_related_issues(language)
+        return cleaned
 
     def clean_issues(self, language: str | None = None) -> bool:
         return self._clean(self.issues_dir, language, "Issues")
@@ -92,3 +96,177 @@ class DirectoryCleaner:
     @staticmethod
     def _is_empty(entries: Iterable[Path]) -> bool:
         return not any(True for _ in entries)
+
+    # ------------------------------------------------------------------
+    # Issues cleanup helpers
+
+    def _clean_related_issues(self, language: str | None) -> None:
+        if not self.issues_dir.exists():
+            return
+
+        if language is None:
+            print("🪣 Removing all cached issues to mirror evaluation cleanup…")
+            try:
+                shutil.rmtree(self.issues_dir)
+                print("✅ Issues cache removed")
+            except FileNotFoundError:
+                pass
+            return
+
+        language_key = language.lower()
+        print(f"🧽 Removing issues cached for {language.title()}…")
+        self._remove_combined_issue_files(language_key)
+        self._remove_pattern_files(language_key)
+        self._prune_aggregated_issues(language_key)
+        self._remove_legacy_issue_files(language_key)
+
+    def _remove_combined_issue_files(self, language: str) -> None:
+        combined_dir = self.issues_dir / "combined_issues"
+        if not combined_dir.exists():
+            return
+
+        # Label-aware directories
+        for label_dir in combined_dir.glob("*"):
+            if not label_dir.is_dir():
+                continue
+            target = label_dir / f"{language}_issues.json"
+            if target.exists():
+                target.unlink()
+            if self._is_empty(label_dir.iterdir()):
+                try:
+                    label_dir.rmdir()
+                except OSError:
+                    pass
+
+        # Legacy files stored directly under combined_issues
+        legacy_file = combined_dir / f"{language}_issues.json"
+        if legacy_file.exists():
+            legacy_file.unlink()
+
+        if self._is_empty(combined_dir.iterdir()):
+            try:
+                combined_dir.rmdir()
+            except OSError:
+                pass
+
+    def _remove_pattern_files(self, language: str) -> None:
+        patterns_dir = self.issues_dir / "common_patterns"
+        if not patterns_dir.exists():
+            return
+
+        for label_dir in patterns_dir.glob("*"):
+            if label_dir.is_dir():
+                target = label_dir / f"{language}.json"
+                if target.exists():
+                    target.unlink()
+                if self._is_empty(label_dir.iterdir()):
+                    try:
+                        label_dir.rmdir()
+                    except OSError:
+                        pass
+
+        legacy_pattern = patterns_dir / f"{language}.json"
+        if legacy_pattern.exists():
+            legacy_pattern.unlink()
+
+        if self._is_empty(patterns_dir.iterdir()):
+            try:
+                patterns_dir.rmdir()
+            except OSError:
+                pass
+
+    def _remove_legacy_issue_files(self, language: str) -> None:
+        legacy_paths = [
+            self.issues_dir / f"{language}.json",
+            self.issues_dir / f"{language}_issues.json",
+        ]
+        for legacy_path in legacy_paths:
+            if legacy_path.exists():
+                legacy_path.unlink()
+
+    def _prune_aggregated_issues(self, language: str) -> None:
+        all_dir = self.issues_dir / "all"
+        all_file = all_dir / "all_common_issues.json"
+        if not all_file.exists():
+            return
+
+        try:
+            with open(all_file, "r", encoding="utf-8") as handle:
+                data = json.load(handle)
+        except (OSError, json.JSONDecodeError):
+            try:
+                all_file.unlink()
+            except FileNotFoundError:
+                pass
+            return
+
+        changed = False
+
+        if isinstance(data, dict) and isinstance(data.get("labels"), dict):
+            labels: dict[str, dict] = data["labels"]
+            to_delete: list[str] = []
+
+            for key, entry in list(labels.items()):
+                if not isinstance(entry, dict):
+                    continue
+                entry_changed = False
+                analyses = entry.get("analyses")
+                if isinstance(analyses, dict) and language in analyses:
+                    del analyses[language]
+                    entry_changed = True
+
+                languages_field = entry.get("languages")
+                if isinstance(languages_field, list) and language in languages_field:
+                    entry["languages"] = [
+                        lang for lang in languages_field if lang != language
+                    ]
+                    entry_changed = True
+
+                if isinstance(analyses, dict) and not analyses:
+                    to_delete.append(key)
+
+                if entry_changed:
+                    changed = True
+
+            for key in to_delete:
+                labels.pop(key, None)
+                changed = True
+
+            if labels:
+                if data.get("latest_label") not in labels:
+                    data["latest_label"] = next(iter(labels.keys()))
+            else:
+                data = None
+
+        elif isinstance(data, dict) and isinstance(data.get("analyses"), dict):
+            analyses = data["analyses"]
+            if language in analyses:
+                del analyses[language]
+                changed = True
+
+            languages_field = data.get("languages")
+            if isinstance(languages_field, list) and language in languages_field:
+                data["languages"] = [
+                    lang for lang in languages_field if lang != language
+                ]
+                changed = True
+
+            if not analyses:
+                data = None
+
+        if not changed:
+            return
+
+        if data:
+            with open(all_file, "w", encoding="utf-8") as handle:
+                json.dump(data, handle, ensure_ascii=False, indent=2)
+        else:
+            try:
+                all_file.unlink()
+            except FileNotFoundError:
+                pass
+            if all_dir.exists() and self._is_empty(all_dir.iterdir()):
+                try:
+                    all_dir.rmdir()
+                except OSError:
+                    pass

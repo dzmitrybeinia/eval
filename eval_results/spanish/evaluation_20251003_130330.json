@@ -1,0 +1,44 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "El pensamiento crítico se caracteriza por una mente abierta y un escepticismo, lo que significa que se cuestionan las opiniones y se examinan las evidencias antes de llegar a conclusiones.",
+      "correction": "El pensamiento crítico se caracteriza por una mente abierta y escepticismo, lo que significa que se cuestionan las opiniones y se examinan las evidencias antes de llegar a conclusiones.",
+      "description": "The use of the article 'un' before 'escepticismo' is unnecessary and unidiomatic in Spanish when listing qualities or characteristics. Removing the article results in a more natural and grammatically correct phrase. No other linguistic or localization issues are present in this sentence.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "reclamos",
+      "correction": "afirmaciones",
+      "description": "The term 'reclamos' is not the most appropriate word in this educational context. In Spanish, 'reclamos' typically refers to complaints or claims in a commercial or customer service context. The intended meaning here is 'claims' or 'assertions' in the sense of statements that may be questioned, for which 'afirmaciones' is the standard and more precise term in critical thinking and academic discourse.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Critical_Thinking.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-03T13:03:30.143856",
+    "model": "Azure OpenAI o3-mini",
+    "label": "v1",
+    "label_normalized": "v1"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

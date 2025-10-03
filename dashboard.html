@@ -144,6 +144,17 @@
             overflow: hidden;
         }
 
+        .section-header-controls {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 15px;
+        }
+
+        .section-header-controls .control-group {
+            flex: 1 1 200px;
+        }
+
         .section-header {
             padding: 25px;
             background: #f8fafc;
@@ -380,6 +391,146 @@
             border-color: #667eea;
         }
 
+        .issues-meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            padding: 20px 25px 0;
+            font-size: 0.9rem;
+            color: #555;
+        }
+
+        .issues-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            padding: 20px 25px 30px;
+        }
+
+        .pattern-card {
+            background: white;
+            border: 1px solid #e1e8ed;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .pattern-header h3 {
+            font-size: 1.1rem;
+            margin-bottom: 10px;
+            color: #1f2937;
+        }
+
+        .pattern-badges {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 4px 10px;
+            border-radius: 999px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .badge-linguistic {
+            background: #fee2e2;
+            color: #b91c1c;
+        }
+
+        .badge-localization {
+            background: #fef3c7;
+            color: #92400e;
+        }
+
+        .badge-impact {
+            background: #dbeafe;
+            color: #1d4ed8;
+        }
+
+        .badge-frequency {
+            background: #ecfdf5;
+            color: #047857;
+        }
+
+        .badge-generic {
+            background: #ede9fe;
+            color: #5b21b6;
+        }
+
+        .pattern-description {
+            font-size: 0.95rem;
+            color: #4b5563;
+            line-height: 1.5;
+        }
+
+        .pattern-footer {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            font-size: 0.85rem;
+            color: #555;
+        }
+
+        .pattern-footer span {
+            background: #f8fafc;
+            padding: 6px 10px;
+            border-radius: 6px;
+        }
+
+        .pattern-examples {
+            border-top: 1px solid #e5e7eb;
+            padding-top: 12px;
+        }
+
+        .pattern-examples summary {
+            cursor: pointer;
+            font-weight: 600;
+            color: #4361ee;
+        }
+
+        .example-card {
+            margin-top: 12px;
+            padding: 12px;
+            border-radius: 8px;
+            background: #f9fafb;
+            border: 1px solid #e5e7eb;
+            font-size: 0.9rem;
+        }
+
+        .example-context {
+            font-style: italic;
+            color: #4b5563;
+            margin-bottom: 8px;
+        }
+
+        .example-bad {
+            background: #fee2e2;
+            padding: 8px;
+            border-radius: 6px;
+            margin-bottom: 8px;
+        }
+
+        .example-good {
+            background: #dcfce7;
+            padding: 8px;
+            border-radius: 6px;
+        }
+
+        .issues-empty {
+            padding: 40px;
+            text-align: center;
+            color: #666;
+            font-size: 0.95rem;
+        }
+
         @media (max-width: 768px) {
             .container {
                 padding: 10px;
@@ -425,13 +576,13 @@
                 </select>
             </div>
             
-            <button class="refresh-btn" onclick="loadReports()">🔄 Refresh Reports</button>
+            <button class="refresh-btn" onclick="refreshDashboard()">🔄 Refresh Reports</button>
         </div>
 
         <div class="stats-grid" id="statsGrid">
             <!-- Stats will be populated by JavaScript -->
         </div>
-
+        
         <div class="reports-section">
             <div class="section-header">
                 <h2>📊 Detailed Reports</h2>
@@ -456,17 +607,51 @@
                 </table>
             </div>
         </div>
+
+        <div class="reports-section" id="commonIssuesPanel">
+            <div class="section-header">
+                <h2>🧭 Common Issues &amp; Patterns</h2>
+                <div class="section-header-controls">
+                    <div class="control-group">
+                        <label for="commonIssuesLabel">Label (Version)</label>
+                        <select id="commonIssuesLabel">
+                            <option value="">Loading...</option>
+                        </select>
+                    </div>
+                    <div class="control-group">
+                        <label for="commonIssuesLanguage">Language</label>
+                        <select id="commonIssuesLanguage">
+                            <option value="">Loading...</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div id="commonIssuesContent">
+                <div class="loading">
+                    <div class="loading-spinner"></div>
+                    <div>Loading common issues...</div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <script>
         let allReports = [];
         let filteredReports = [];
+        let allCommonIssues = null;
+        let selectedCommonLabel = '';
+        let selectedCommonLanguage = '';
 
         // Initialize dashboard
         document.addEventListener('DOMContentLoaded', function() {
             setupEventListeners();
-            loadReports();
+            refreshDashboard();
         });
+
+        function refreshDashboard() {
+            loadReports();
+            loadCommonIssues();
+        }
 
         function setupEventListeners() {
             document.getElementById('languageFilter').addEventListener('change', filterReports);
@@ -499,6 +684,268 @@
                 console.error('Error loading reports:', error);
                 showError('Failed to load reports. Please check console for details.');
             }
+        }
+
+        async function loadCommonIssues() {
+            const content = document.getElementById('commonIssuesContent');
+            if (!content) {
+                return;
+            }
+
+            content.innerHTML = `
+                <div class="loading">
+                    <div class="loading-spinner"></div>
+                    <div>Loading common issues...</div>
+                </div>
+            `;
+
+            try {
+                const response = await fetch('issues/all/all_common_issues.json');
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}`);
+                }
+
+                allCommonIssues = await response.json();
+                populateCommonIssueControls();
+            } catch (error) {
+                console.error('Error loading common issues:', error);
+                content.innerHTML = '<div class="issues-empty">⚠️ Unable to load common issues. Ensure analyses have been generated.</div>';
+            }
+        }
+
+        function populateCommonIssueControls() {
+            const labelSelect = document.getElementById('commonIssuesLabel');
+            const languageSelect = document.getElementById('commonIssuesLanguage');
+
+            if (!labelSelect || !languageSelect || !allCommonIssues || !allCommonIssues.labels) {
+                return;
+            }
+
+            const labelKeys = Object.keys(allCommonIssues.labels);
+            if (labelKeys.length === 0) {
+                labelSelect.innerHTML = '<option value="">No labels found</option>';
+                languageSelect.innerHTML = '<option value="">–</option>';
+                const content = document.getElementById('commonIssuesContent');
+                if (content) {
+                    content.innerHTML = '<div class="issues-empty">No common issue reports available yet.</div>';
+                }
+                return;
+            }
+
+            const latest = allCommonIssues.latest_label;
+            if (!selectedCommonLabel || !allCommonIssues.labels[selectedCommonLabel]) {
+                if (latest && allCommonIssues.labels[latest]) {
+                    selectedCommonLabel = latest;
+                } else {
+                    selectedCommonLabel = labelKeys[labelKeys.length - 1];
+                }
+            }
+
+            labelSelect.innerHTML = labelKeys
+                .map(key => {
+                    const labelData = allCommonIssues.labels[key];
+                    const displayName = labelData && labelData.label ? labelData.label : key;
+                    const selected = key === selectedCommonLabel ? ' selected' : '';
+                    return `<option value="${key}"${selected}>${displayName}</option>`;
+                })
+                .join('');
+
+            labelSelect.onchange = event => {
+                selectedCommonLabel = event.target.value;
+                populateCommonLanguageOptions();
+            };
+
+            populateCommonLanguageOptions();
+        }
+
+        function populateCommonLanguageOptions() {
+            const languageSelect = document.getElementById('commonIssuesLanguage');
+            const content = document.getElementById('commonIssuesContent');
+
+            if (!languageSelect || !allCommonIssues || !allCommonIssues.labels) {
+                return;
+            }
+
+            const labelData = allCommonIssues.labels[selectedCommonLabel];
+            if (!labelData) {
+                languageSelect.innerHTML = '<option value="">–</option>';
+                if (content) {
+                    content.innerHTML = '<div class="issues-empty">No data for the selected label.</div>';
+                }
+                return;
+            }
+
+            const languages = Array.isArray(labelData.languages) ? [...labelData.languages].sort() : [];
+            if (!selectedCommonLanguage || !languages.includes(selectedCommonLanguage)) {
+                selectedCommonLanguage = languages[0] || '';
+            }
+
+            if (languages.length === 0) {
+                languageSelect.innerHTML = '<option value="">No languages</option>';
+                if (content) {
+                    content.innerHTML = '<div class="issues-empty">No languages available for this label.</div>';
+                }
+                return;
+            }
+
+            languageSelect.innerHTML = languages
+                .map(language => {
+                    const selected = language === selectedCommonLanguage ? ' selected' : '';
+                    return `<option value="${language}"${selected}>${language}</option>`;
+                })
+                .join('');
+
+            languageSelect.onchange = event => {
+                selectedCommonLanguage = event.target.value;
+                renderCommonIssues();
+            };
+
+            renderCommonIssues();
+        }
+
+        function renderCommonIssues() {
+            const content = document.getElementById('commonIssuesContent');
+            if (!content) {
+                return;
+            }
+
+            if (!allCommonIssues || !allCommonIssues.labels) {
+                content.innerHTML = '<div class="issues-empty">No common issue data available.</div>';
+                return;
+            }
+
+            const labelData = allCommonIssues.labels[selectedCommonLabel];
+            if (!labelData) {
+                content.innerHTML = '<div class="issues-empty">No data found for the selected label.</div>';
+                return;
+            }
+
+            if (!selectedCommonLanguage) {
+                content.innerHTML = '<div class="issues-empty">Select a language to view recurring issues.</div>';
+                return;
+            }
+
+            const analysis = labelData.analyses ? labelData.analyses[selectedCommonLanguage] : null;
+            const patterns = analysis && Array.isArray(analysis.top_error_patterns) ? analysis.top_error_patterns : [];
+
+            if (!patterns.length) {
+                content.innerHTML = `<div class="issues-empty">No recurring issues found for ${selectedCommonLanguage} (${labelData.label || selectedCommonLabel}).</div>`;
+                return;
+            }
+
+            const generatedAt = labelData.generated_at ? formatTimestamp(labelData.generated_at) : '';
+            const metaHtml = `
+                <div class="issues-meta">
+                    <span><strong>Label:</strong> ${labelData.label || selectedCommonLabel}</span>
+                    <span><strong>Language:</strong> ${selectedCommonLanguage}</span>
+                    ${generatedAt ? `<span><strong>Generated:</strong> ${generatedAt}</span>` : ''}
+                    <span><strong>Patterns:</strong> ${patterns.length}</span>
+                </div>
+            `;
+
+            const cardsHtml = patterns.map(pattern => renderPatternCard(pattern)).join('');
+            content.innerHTML = metaHtml + `<div class="issues-grid">${cardsHtml}</div>`;
+        }
+
+        function renderPatternCard(pattern) {
+            const categoryLabel = formatCategoryLabel(pattern.category);
+            let categoryClass = 'badge-generic';
+            if (pattern.category === 'localization') {
+                categoryClass = 'badge-localization';
+            } else if (pattern.category === 'linguistic') {
+                categoryClass = 'badge-linguistic';
+            }
+            const impactLabel = formatImpactLabel(pattern.impact_level);
+            const frequencyLabel = formatFrequencyLabel(pattern.frequency);
+            const frequencyCount = normalizeFrequencyCount(pattern.frequency_count);
+            const footerItems = [];
+
+            if (pattern.subcategory) {
+                footerItems.push(`<span>Subcategory: ${pattern.subcategory}</span>`);
+            }
+            if (frequencyCount !== null) {
+                footerItems.push(`<span>Occurrences: ${frequencyCount}</span>`);
+            }
+
+            const examplesHtml = renderPatternExamples(pattern.examples);
+
+            return `
+                <div class="pattern-card">
+                    <div class="pattern-header">
+                        <h3>${pattern.pattern_name || 'Unnamed pattern'}</h3>
+                        <div class="pattern-badges">
+                            ${categoryLabel ? `<span class="badge ${categoryClass}">${categoryLabel}</span>` : ''}
+                            ${impactLabel ? `<span class="badge badge-impact">${impactLabel}</span>` : ''}
+                            ${frequencyLabel ? `<span class="badge badge-frequency">${frequencyLabel}</span>` : ''}
+                        </div>
+                    </div>
+                    <p class="pattern-description">${pattern.description || 'No description provided.'}</p>
+                    ${footerItems.length ? `<div class="pattern-footer">${footerItems.join('')}</div>` : ''}
+                    ${examplesHtml}
+                </div>
+            `;
+        }
+
+        function renderPatternExamples(examples) {
+            if (!Array.isArray(examples) || examples.length === 0) {
+                return '';
+            }
+
+            const label = examples.length === 1 ? 'Show example' : `Show ${examples.length} examples`;
+            return `
+                <details class="pattern-examples">
+                    <summary>${label}</summary>
+                    ${examples.map(example => renderPatternExample(example)).join('')}
+                </details>
+            `;
+        }
+
+        function renderPatternExample(example) {
+            if (!example || typeof example !== 'object') {
+                return '';
+            }
+
+            const context = example.context ? `<div class="example-context">${example.context}</div>` : '';
+            const wrong = example.wrong ? `<div class="example-bad"><strong>Issue:</strong> ${example.wrong}</div>` : '';
+            const correct = example.correct ? `<div class="example-good"><strong>Improved:</strong> ${example.correct}</div>` : '';
+
+            if (!context && !wrong && !correct) {
+                return '';
+            }
+
+            return `<div class="example-card">${context}${wrong}${correct}</div>`;
+        }
+
+        function normalizeFrequencyCount(value) {
+            if (value === undefined || value === null) {
+                return null;
+            }
+            const numeric = Number(value);
+            return Number.isFinite(numeric) ? numeric : null;
+        }
+
+        function formatCategoryLabel(value) {
+            if (!value) {
+                return '';
+            }
+            return value.charAt(0).toUpperCase() + value.slice(1);
+        }
+
+        function formatImpactLabel(value) {
+            if (!value) {
+                return '';
+            }
+            return value.charAt(0).toUpperCase() + value.slice(1).toLowerCase();
+        }
+
+        function formatFrequencyLabel(value) {
+            if (!value) {
+                return '';
+            }
+            return value
+                .toString()
+                .replace(/_/g, ' ')
+                .replace(/\b\w/g, letter => letter.toUpperCase());
         }
 
         async function loadLanguageReports(language) {
@@ -1255,6 +1702,9 @@
 
         function formatTimestamp(timestamp) {
             const date = new Date(timestamp);
+            if (Number.isNaN(date.getTime())) {
+                return timestamp;
+            }
             return date.toLocaleDateString() + ' ' + date.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
         }
 

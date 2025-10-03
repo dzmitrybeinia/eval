@@ -1,0 +1,44 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "алгебраические выражения представляют собой математические уравнения, которые можно решить, подставляя значения переменным и выполняя соответствующие вычисления.",
+      "correction": "алгебраические выражения представляют собой математические выражения, которые можно вычислить, подставляя значения переменным и выполняя соответствующие вычисления.",
+      "description": "The original sentence incorrectly equates 'алгебраические выражения' (algebraic expressions) with 'математические уравнения' (mathematical equations). In Russian, as in English, 'выражение' (expression) and 'уравнение' (equation) are distinct concepts: an expression does not contain an equality sign and cannot be 'solved' but only 'evaluated' or 'calculated.' The correction replaces 'уравнения' with 'выражения' and changes 'решить' (to solve) to 'вычислить' (to calculate), ensuring precise terminology and preventing conceptual confusion for learners.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Это заключается в принципе обратности операций: если на одной стороне добавление, то на другой стороне вычитание.",
+      "correction": "Это основано на принципе сохранения равенства: если на одной стороне выполняется операция, то на другой стороне выполняется та же операция.",
+      "description": "The original sentence introduces the 'principle of inverse operations' in a way that may confuse Russian learners, as the standard explanation in Russian math education emphasizes maintaining equality by performing the same operation on both sides, not necessarily the inverse. The correction uses a more natural and educationally appropriate explanation for Russian-speaking students, focusing on the principle of maintaining equality, which aligns with local teaching conventions.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Basic_Algebra.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T13:58:54.491516",
+    "model": "Azure OpenAI o3-mini",
+    "label": "v3",
+    "label_normalized": "v3"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

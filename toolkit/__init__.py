@@ -7,7 +7,7 @@ from .evaluator import QuizEvaluator
 from .error_patterns import ErrorPatternAnalyzer
 from .issues import IssueAggregator
 from .scoring import SimpleScorer
-from .servers import serve_dashboard, serve_issues_dashboard
+from .servers import serve_dashboard
 
 __all__ = [
     "SUPPORTED_LANGUAGES",
@@ -18,5 +18,4 @@ __all__ = [
     "IssueAggregator",
     "ErrorPatternAnalyzer",
     "serve_dashboard",
-    "serve_issues_dashboard",
 ]

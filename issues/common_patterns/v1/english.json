@@ -1,0 +1,84 @@
+{
+  "metadata": {
+    "label": "v1",
+    "label_normalized": "v1",
+    "label_key": "v1",
+    "language": "english",
+    "generated_at": "2025-10-03T13:11:42.611218"
+  },
+  "top_error_patterns": [
+    {
+      "pattern_name": "Lack of Lexical Precision in Instructions",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "MEDIUM",
+      "frequency": "very_common",
+      "frequency_count": 5,
+      "description": "Instructions and explanations frequently omit precise or clarifying terms, leading to ambiguity or incomplete guidance for learners.",
+      "examples": [
+        {
+          "wrong": "Wash your hands to prevent infection.",
+          "correct": "Wash your hands thoroughly to prevent infection.",
+          "context": "First aid instructions lack adverbs that clarify the required action."
+        },
+        {
+          "wrong": "Clean the wound using clean water to remove dirt or debris.",
+          "correct": "Clean the wound gently using clean water to remove dirt or debris.",
+          "context": "Omission of 'gently' may result in rough or unsafe wound cleaning."
+        },
+        {
+          "wrong": "Cool the burn under cool water for 10-15 minutes.",
+          "correct": "Cool the burn under running cool water for 10-15 minutes.",
+          "context": "Missing 'running' reduces the effectiveness of the first aid advice."
+        },
+        {
+          "wrong": "Variables can also take other forms such as Greek letters or Roman numerals, depending on the context.",
+          "correct": "Variables can also be represented by Greek letters or other symbols, but not Roman numerals.",
+          "context": "Imprecise reference to Roman numerals may mislead learners about standard mathematical notation."
+        },
+        {
+          "wrong": "Perform the Heimlich maneuver if the person cannot cough out the object.",
+          "correct": "Perform abdominal thrusts (Heimlich maneuver) if the person cannot cough out the object.",
+          "context": "Lack of dual terminology may confuse learners unfamiliar with the term 'Heimlich maneuver.'"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Misrepresentation of Variable Notation in Algebra",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 2,
+      "description": "Statements inaccurately suggest that numbers can serve as variables in algebra, leading to confusion about standard mathematical conventions. Variables are typically denoted by letters or symbols, not numbers.",
+      "examples": [
+        {
+          "wrong": "Variables in algebra can be letters or symbols, and sometimes numbers.",
+          "correct": "Variables in algebra are typically represented by letters or symbols, not numbers.",
+          "context": "Explanation of variable representation in algebraic contexts"
+        },
+        {
+          "wrong": "Variables in algebra can be represented by letters, numbers, or symbols, depending on the context and the preference of the mathematician.",
+          "correct": "Variables in algebra are usually represented by letters or symbols, not numbers.",
+          "context": "Description of variable notation in educational content"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Inconsistent Use of Medical Terminology",
+      "category": "localization",
+      "subcategory": "Terminology",
+      "impact_level": "LOW",
+      "frequency": "rare",
+      "frequency_count": 1,
+      "description": "Medical terms are used without considering regional or international recognition, leading to potential confusion for some audiences.",
+      "examples": [
+        {
+          "wrong": "Heimlich maneuver",
+          "correct": "abdominal thrusts (Heimlich maneuver)",
+          "context": "Quiz content uses a term that may not be universally understood; adding a descriptive term improves clarity."
+        }
+      ]
+    }
+  ]
+}

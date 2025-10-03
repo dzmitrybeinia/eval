@@ -12,6 +12,9 @@ from typing import Dict, List, Optional
 from openai import AzureOpenAI
 
 from .constants import SUPPORTED_LANGUAGES
+from .error_patterns import ErrorPatternAnalyzer
+from .issues import IssueAggregator
+from .labels import LabelInfo, ensure_label
 from .scoring import SimpleScorer
 
 try:
@@ -37,8 +40,11 @@ class QuizEvaluator:
 
         self.scorer = SimpleScorer()
         self.prompt_builder = PromptBuilder()
+        self.issue_aggregator = IssueAggregator(base_path)
+        self.pattern_analyzer = ErrorPatternAnalyzer(base_dir=base_path)
 
-    def evaluate_language(self, language: str, label: str | None = None) -> bool:
+    def evaluate_language(self, language: str, label: LabelInfo | str) -> bool:
+        label_info = ensure_label(label)
         source_dir = self.markdown_dir / language
         if not source_dir.exists():
             print(f"❌ Markdown directory not found: {source_dir}")
@@ -53,11 +59,12 @@ class QuizEvaluator:
             return False
 
         print(f"📁 Found {len(md_files)} markdown file(s) in {source_dir}")
+        print(f"🏷️  Using label: {label_info.original}")
         evaluated = 0
 
         for md_file in md_files:
             print(f"🔄 Evaluating {md_file.name}...")
-            if self.evaluate_file(md_file, language, label):
+            if self.evaluate_file(md_file, language, label_info):
                 evaluated += 1
                 print(f"✅ Evaluated {md_file.name}")
             else:
@@ -70,13 +77,14 @@ class QuizEvaluator:
         success = evaluated > 0
         if success:
             self._refresh_file_index()
+            self._update_issue_data(label_info, [language])
         return success
 
-    def evaluate_all_languages(self, label: str | None = None) -> bool:
+    def evaluate_all_languages(self, label: LabelInfo | str) -> bool:
+        label_info = ensure_label(label)
         print("🌍 Starting evaluation for ALL supported languages")
         print(f"📋 Languages to process: {', '.join(lang.title() for lang in SUPPORTED_LANGUAGES)}")
-        if label:
-            print(f"🏷️  Label: {label}")
+        print(f"🏷️  Label: {label_info.original}")
         print("=" * 60)
 
         successful: list[str] = []
@@ -100,7 +108,7 @@ class QuizEvaluator:
                 skipped.append(language)
                 continue
 
-            if self.evaluate_language(language, label):
+            if self.evaluate_language(language, label_info):
                 successful.append(language)
                 total_files += len(md_files)
             else:
@@ -124,10 +132,14 @@ class QuizEvaluator:
                 print(f"   • {lang.title()}")
 
         print(f"\n📊 Total files evaluated: {total_files}")
-        print(f"🏷️  Label used: {label if label else 'None'}")
+        print(f"🏷️  Label used: {label_info.original}")
+
+        if successful:
+            self._update_issue_data(label_info, successful)
+
         return bool(successful)
 
-    def evaluate_file(self, md_file: Path, language: str, label: str | None = None) -> bool:
+    def evaluate_file(self, md_file: Path, language: str, label: LabelInfo) -> bool:
         try:
             with open(md_file, "r", encoding="utf-8") as handle:
                 content = handle.read()
@@ -217,7 +229,7 @@ class QuizEvaluator:
         response_text: str,
         md_file: Path,
         language: str,
-        label: str | None,
+        label: LabelInfo,
     ) -> Optional[Dict]:
         cleaned = self._clean_json_response(response_text)
         try:
@@ -247,8 +259,8 @@ class QuizEvaluator:
                 "model": "Azure OpenAI o3-mini",
             }
         )
-        if label:
-            metadata["label"] = label
+        metadata["label"] = label.original
+        metadata["label_normalized"] = label.normalized
 
         scores = self.scorer.calculate_score(evaluation_json.get("issues", []))
         evaluation_json["scores"] = scores
@@ -265,6 +277,29 @@ class QuizEvaluator:
         with open(result_path, "w", encoding="utf-8") as handle:
             json.dump(evaluation_json, handle, indent=2, ensure_ascii=False)
         print(f"💾 Evaluation saved: {result_filename}")
+
+    def _update_issue_data(self, label: LabelInfo, languages: List[str]) -> None:
+        if not languages:
+            return
+
+        try:
+            aggregated = self.issue_aggregator.aggregate(languages, label=label)
+        except Exception as exc:  # noqa: BLE001 - surface dependency failures gracefully
+            print(f"⚠️  Issue aggregation failed for label '{label.original}': {exc}")
+            return
+
+        if not aggregated:
+            print(f"⚠️  Issue aggregation produced no data for label '{label.original}'.")
+            return
+
+        try:
+            processed = self.pattern_analyzer.analyze(aggregated, label=label)
+        except Exception as exc:  # noqa: BLE001 - surface dependency failures gracefully
+            print(f"⚠️  Issue pattern analysis failed for label '{label.original}': {exc}")
+            return
+
+        if not processed:
+            print(f"⚠️  No common issue patterns generated for label '{label.original}'.")
 
     def refresh_file_index(self) -> None:
         """Rebuild the dashboard file index without running evaluations."""

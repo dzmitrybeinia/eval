@@ -1,0 +1,84 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "охладной температуры",
+      "correction": "постоянно низкой температуры",
+      "description": "The phrase uses the non-existent word 'охладной', which is not a correct adjective in Russian. The intended meaning is 'constantly low temperature'. The correct phrase should be 'постоянно низкой температуры'. This is a lexical error that affects clarity and correctness.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Амазонские тропические леса",
+      "correction": "Амазонские тропические леса",
+      "description": "While the phrase is linguistically correct, it is worth noting that the standard Russian term is 'Амазонский тропический лес' (singular) when referring to the Amazon Rainforest as a whole. However, 'Амазонские тропические леса' (plural) is not incorrect if referring to multiple forests in the Amazon region. This is a minor lexical nuance, but does not require correction unless singular is intended.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "зимние холодания",
+      "correction": "зимние холода",
+      "description": "The word 'холодания' is not standard in Russian. The correct term for 'cold periods' in winter is 'зимние холода'. This lexical error may confuse learners and should be corrected for clarity and naturalness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "обильным осадком",
+      "correction": "обильными осадками",
+      "description": "The phrase 'обильным осадком' is incorrect because 'осадки' is typically used in the plural form when referring to precipitation in general. The correct phrase is 'обильными осадками'. This is a lexical and grammatical error affecting agreement and naturalness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "создает более мягкое климат",
+      "correction": "создает более мягкий климат",
+      "description": "The word 'климат' is masculine, so the adjective should be 'мягкий', not 'мягкое'. This is a gender agreement error between the adjective and the noun.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Вездовые течения",
+      "correction": "Океанические течения",
+      "description": "The term 'вездовые течения' does not exist in Russian and is likely a mistranslation or typo for 'океанические течения' (ocean currents). This lexical error significantly affects comprehension.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "теплоидные течения и холодоносные течения",
+      "correction": "тёплые и холодные течения",
+      "description": "The terms 'теплоидные течения' and 'холодоносные течения' are not standard in Russian. The correct terms are 'тёплые течения' (warm currents) and 'холодные течения' (cold currents). Using non-standard terminology can confuse learners and reduce the educational value.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Climate_Zones.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T13:59:26.701245",
+    "model": "Azure OpenAI o3-mini",
+    "label": "v3",
+    "label_normalized": "v3"
+  },
+  "scores": {
+    "overall_quality_score": 8.3,
+    "classification": "PROFESSIONAL",
+    "total_issues": 7,
+    "total_penalty": 1.7,
+    "issue_breakdown": {
+      "linguistic": 7,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.7,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

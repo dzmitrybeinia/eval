@@ -1,0 +1,100 @@
+{
+  "metadata": {
+    "label": "v1",
+    "label_normalized": "v1",
+    "label_key": "v1",
+    "language": "japanese",
+    "generated_at": "2025-10-03T13:14:04.443066"
+  },
+  "top_error_patterns": [
+    {
+      "pattern_name": "Incorrect or Nonstandard Scientific Terminology",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "HIGH",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Use of nonstandard or incorrect scientific terms (e.g., '冷却帯') instead of established terminology (e.g., '極地帯'), leading to factual inaccuracies and confusion.",
+      "examples": [
+        {
+          "wrong": "冷却帯の温度は非常に高いため、生物多様性が豊かです。",
+          "correct": "極地帯の温度は非常に低いため、生物多様性は豊かではありません。",
+          "context": "Quiz item describing climate zones; incorrect term and factual error about polar regions."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect Technical Terminology",
+      "category": "localization",
+      "subcategory": "Lexical",
+      "impact_level": "HIGH",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Use of non-standard or incorrect technical terms that do not align with established terminology in Japanese, leading to confusion and reduced educational value.",
+      "examples": [
+        {
+          "wrong": "冷却帯",
+          "correct": "極地帯",
+          "context": "Referring to polar regions in geography or climatology content"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect Kanji or Loanword Usage",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 2,
+      "description": "Frequent use of incorrect kanji or non-standard loanwords leads to confusion and reduces clarity. This includes kanji errors and inaccurate transliterations of technical terms.",
+      "examples": [
+        {
+          "wrong": "状慁",
+          "correct": "状況",
+          "context": "Kanji error for 'situation' in a mathematical explanation"
+        },
+        {
+          "wrong": "パイプラインインターミディエンス",
+          "correct": "パイプラインインターミディエイト",
+          "context": "Incorrect loanword for 'pipeline intermediate' in a technical context"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Redundant or Incorrect Sentence-ending Periods",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "LOW",
+      "frequency": "very_common",
+      "frequency_count": 80,
+      "description": "Sentences end with multiple periods (e.g., '..', '。。', '。.'), or with a half-width period (.) after a full-width Japanese period (。). Japanese sentences should end with a single full-width period (。) only. This error is systematic and appears in various forms throughout the content.",
+      "examples": [
+        {
+          "wrong": "ナイル川はエジプトの生涯にわたる経済発展の重要な要因でした..",
+          "correct": "ナイル川はエジプトの生涯にわたる経済発展の重要な要因でした。",
+          "context": "Double half-width periods at the end of a sentence."
+        },
+        {
+          "wrong": "例えば、陸上動物が冬になると皮が退色することはありません。。",
+          "correct": "例えば、陸上動物が冬になると皮が退色することはありません。",
+          "context": "Double full-width periods at the end of a sentence."
+        },
+        {
+          "wrong": "動物は環境変化に適応せず、時間が経つと生存できることがあります。.",
+          "correct": "動物は環境変化に適応せず、時間が経つと生存できることがあります。",
+          "context": "Half-width period after a full-width period."
+        },
+        {
+          "wrong": "変数を既知の値に置き換えることで方程式を解くことができる.",
+          "correct": "変数を既知の値に置き換えることで方程式を解くことができる。",
+          "context": "Sentence ends with a half-width period instead of a full-width period."
+        },
+        {
+          "wrong": "公民権運動は、アメリカの社会の変化に直接的な法的解決をもたらしました。.",
+          "correct": "公民権運動は、アメリカの社会の変化に直接的な法的解決をもたらしました。",
+          "context": "Redundant half-width period after a full-width period."
+        }
+      ]
+    }
+  ]
+}

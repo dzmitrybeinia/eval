@@ -1,0 +1,343 @@
+{
+  "metadata": {
+    "label": "v3",
+    "label_normalized": "v3",
+    "label_key": "v3",
+    "language": "russian",
+    "generated_at": "2025-10-03T13:59:57.078278"
+  },
+  "top_error_patterns": [
+    {
+      "pattern_name": "Nonexistent or incorrect lexical items",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "HIGH",
+      "frequency": "very_common",
+      "frequency_count": 12,
+      "description": "Use of words or phrases that do not exist in Russian or are incorrect for the intended meaning, leading to confusion and loss of clarity.",
+      "examples": [
+        {
+          "wrong": "водоедло",
+          "correct": "водоснабжение",
+          "context": "Attempting to refer to water supply; 'водоедло' is not a Russian word."
+        },
+        {
+          "wrong": "толпады",
+          "correct": "норы",
+          "context": "Describing kangaroo rat burrows; 'толпады' is a mistranslation."
+        },
+        {
+          "wrong": "дележкам",
+          "correct": "мастерам",
+          "context": "Referring to craftsmen in a workshop; 'дележкам' is not appropriate."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect scientific terminology",
+      "category": "linguistic",
+      "subcategory": "Terminology",
+      "impact_level": "HIGH",
+      "frequency": "common",
+      "frequency_count": 6,
+      "description": "Misuse or confusion of scientific terms, leading to factual errors and misunderstanding of key concepts.",
+      "examples": [
+        {
+          "wrong": "алгебраические выражения представляют собой математические уравнения",
+          "correct": "алгебраические выражения представляют собой математические выражения",
+          "context": "Confusing 'expression' and 'equation' in math content."
+        },
+        {
+          "wrong": "монструм",
+          "correct": "кристы",
+          "context": "Incorrect term for mitochondrial structures."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Hybrid script and spelling errors",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "HIGH",
+      "frequency": "common",
+      "frequency_count": 5,
+      "description": "Mixing Latin and Cyrillic letters or incorrect spelling, which disrupts readability and comprehension.",
+      "examples": [
+        {
+          "wrong": "organеллы",
+          "correct": "органеллы",
+          "context": "Mixing Latin 'organ' with Cyrillic 'еллы' in scientific terminology."
+        },
+        {
+          "wrong": "обрабаatesть",
+          "correct": "обрабатывать",
+          "context": "Insertion of Latin letters in a Russian verb."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Gender and case agreement errors",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "HIGH",
+      "frequency": "common",
+      "frequency_count": 4,
+      "description": "Mistakes in gender or case agreement between nouns, adjectives, and pronouns, which reduce grammatical correctness and clarity.",
+      "examples": [
+        {
+          "wrong": "Эта утверждение верна",
+          "correct": "Это утверждение верно",
+          "context": "Gender agreement between pronoun and noun."
+        },
+        {
+          "wrong": "создает более мягкое климат",
+          "correct": "создает более мягкий климат",
+          "context": "Adjective-noun gender agreement."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Unnatural or incorrect syntactic constructions",
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "impact_level": "HIGH",
+      "frequency": "occasional",
+      "frequency_count": 3,
+      "description": "Use of unnatural or incorrect sentence structures that hinder comprehension and professional tone.",
+      "examples": [
+        {
+          "wrong": "подобно того, как каждый дележка в мастерской играет свою роль",
+          "correct": "подобно тому, как каждый мастер в мастерской играет свою роль",
+          "context": "Incorrect comparative construction and word choice."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Historical Period Mismatch",
+      "category": "localization",
+      "subcategory": "Cultural",
+      "impact_level": "HIGH",
+      "frequency": "rare",
+      "frequency_count": 1,
+      "description": "Incorrect localization of historical terms leads to cultural and factual inaccuracies, such as referencing the wrong era or civilization.",
+      "examples": [
+        {
+          "wrong": "Средневековые торговцы использовали реку Нил как основной маршрут для обмена продукцией и товарами.",
+          "correct": "Древнеегипетские торговцы использовали реку Нил как основной маршрут для обмена продукцией и товарами.",
+          "context": "Quiz item about Ancient Egypt mislabels traders as 'medieval', causing confusion and misrepresentation of historical facts."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect lexical choice or nonstandard terminology",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "MEDIUM",
+      "frequency": "very_common",
+      "frequency_count": 5,
+      "description": "Nonstandard or incorrect word choices that reduce clarity and naturalness, including scientific terms and idiomatic expressions.",
+      "examples": [
+        {
+          "wrong": "митохондры",
+          "correct": "митохондрии",
+          "context": "Incorrect scientific term for mitochondria."
+        },
+        {
+          "wrong": "зимние холодания",
+          "correct": "зимние холода",
+          "context": "Nonstandard word for 'cold periods' in winter."
+        },
+        {
+          "wrong": "обильным осадком",
+          "correct": "обильными осадками",
+          "context": "Incorrect singular form for precipitation."
+        },
+        {
+          "wrong": "пластинку для структуры",
+          "correct": "структурную опору",
+          "context": "Unidiomatic phrase for 'structural support.'"
+        },
+        {
+          "wrong": "адаптации к пустыни",
+          "correct": "адаптации к пустыне",
+          "context": "Incorrect case in prepositional phrase."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Syntax errors with prepositions and sentence structure",
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 3,
+      "description": "Systematic mistakes in sentence structure, especially with prepositions and word order, leading to awkward or incorrect phrasing.",
+      "examples": [
+        {
+          "wrong": "Физические адаптации часто видны и непосредственно связаны с средой обитания.",
+          "correct": "Физические адаптации часто видны и непосредственно связаны со средой обитания.",
+          "context": "Incorrect use of preposition before a word starting with 'с'."
+        },
+        {
+          "wrong": "где все решения, которые влияют на работу, делаются.",
+          "correct": "где принимаются все решения, влияющие на работу.",
+          "context": "Unidiomatic and awkward sentence structure."
+        },
+        {
+          "wrong": "Как переменные влияют работу цикла?.",
+          "correct": "Как переменные влияют на работу цикла?",
+          "context": "Missing preposition and incorrect punctuation in a question."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Grammatical agreement errors",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 2,
+      "description": "Mistakes in participle-noun or case agreement, affecting sentence correctness and professional tone.",
+      "examples": [
+        {
+          "wrong": "Хлоропласты являются ключевым компонентом в растительных клетках, способствующими фотосинтезу.",
+          "correct": "Хлоропласты являются ключевым компонентом в растительных клетках, способствующим фотосинтезу.",
+          "context": "Participle does not agree with noun in case and number."
+        },
+        {
+          "wrong": "которые могут быть храниты в переменной",
+          "correct": "которые могут быть хранены в переменной",
+          "context": "Incorrect passive participle form."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Spelling errors with unstressed vowels",
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "impact_level": "MEDIUM",
+      "frequency": "rare",
+      "frequency_count": 1,
+      "description": "Misspelling of words due to confusion with unstressed vowels, affecting professionalism and clarity.",
+      "examples": [
+        {
+          "wrong": "разраболены",
+          "correct": "разработаны",
+          "context": "Spelling error in a common verb."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Inaccurate Lexical Choice for Cultural Context",
+      "category": "localization",
+      "subcategory": "Lexical",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Use of terms that do not fit the historical or cultural context, leading to confusion or misrepresentation of concepts for Russian learners.",
+      "examples": [
+        {
+          "wrong": "товарищей",
+          "correct": "фермеров",
+          "context": "Referring to agricultural workers in Ancient Egypt; 'товарищей' is ideologically loaded and not contextually accurate."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Grammatical Agreement and Stylistic Formality",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Errors in gender and number agreement, combined with less formal or unnatural phrasing, reduce clarity and professionalism in educational content.",
+      "examples": [
+        {
+          "wrong": "прочную связи",
+          "correct": "прочные связи",
+          "context": "Mismatch in gender/number and lack of formal style in describing connections between regions."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Non-Standard Explanation of Educational Concepts",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Explanations that do not align with local educational conventions, potentially confusing learners by introducing unfamiliar terminology or logic.",
+      "examples": [
+        {
+          "wrong": "Это заключается в принципе обратности операций: если на одной стороне добавление, то на другой стороне вычитание.",
+          "correct": "Это основано на принципе сохранения равенства: если на одной стороне выполняется операция, то на другой стороне выполняется та же операция.",
+          "context": "Math concept explanation uses non-standard logic for Russian curriculum, reducing clarity for students."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Redundant use of 'более' with multiple adjectives",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "LOW",
+      "frequency": "common",
+      "frequency_count": 1,
+      "description": "Repeated use of 'более' before each adjective in comparative constructions reduces naturalness and clarity; 'более' should precede only the first adjective.",
+      "examples": [
+        {
+          "wrong": "более продуктивным и более креативным рабочим условиям",
+          "correct": "более продуктивным и креативным рабочим условиям",
+          "context": "Comparative adjectives in workplace descriptions"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Inconsistent use of 'ё' vs 'е' in formal writing",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "LOW",
+      "frequency": "common",
+      "frequency_count": 1,
+      "description": "The letter 'ё' is sometimes replaced with 'е' in informal contexts, but educational content should consistently use 'ё' to reinforce correct spelling and avoid ambiguity.",
+      "examples": [
+        {
+          "wrong": "Нерешенные конфликты могут вызывать стресс и негативные эмоции.",
+          "correct": "Нерешённые конфликты могут вызывать стресс и негативные эмоции.",
+          "context": "Spelling in educational materials"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Lexical nuance in singular vs plural for 'Амазонский тропический лес'",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Use of plural 'Амазонские тропические леса' is acceptable when referring to multiple forests, but singular 'Амазонский тропический лес' is standard for the Amazon Rainforest as a whole; consistency is preferred.",
+      "examples": [
+        {
+          "wrong": "Амазонские тропические леса",
+          "correct": "Амазонский тропический лес",
+          "context": "Naming geographical locations in quiz content"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect use of preposition before consonant cluster",
+      "category": "localization",
+      "subcategory": "Terminology",
+      "impact_level": "LOW",
+      "frequency": "rare",
+      "frequency_count": 1,
+      "description": "The preposition 'с' is used instead of 'со' before words starting with a consonant cluster, which affects the naturalness and correctness of Russian terminology.",
+      "examples": [
+        {
+          "wrong": "Связь с стандартом NGSS (MS-ETS1-1)",
+          "correct": "Связь со стандартом NGSS (MS-ETS1-1)",
+          "context": "Appears in references to standards in educational content."
+        }
+      ]
+    }
+  ]
+}
