@@ -203,11 +203,13 @@
         .language-spanish { background: #fef3c7; color: #92400e; }
         .language-polish { background: #fce7f3; color: #be185d; }
         .language-russian { background: #ecfdf5; color: #059669; }
+        .language-arabic { background: #fdf4ff; color: #86198f; }
         .language-serbian { background: #f3e8ff; color: #7c3aed; }
         .language-japanese { background: #ffedd5; color: #ea580c; }
         .language-french { background: #e0e7ff; color: #4338ca; }
         .language-german { background: #f1f5f9; color: #334155; }
         .language-portuguese { background: #fef2f2; color: #991b1b; }
+        .language-hebrew { background: #cffafe; color: #0f766e; }
 
         .score-badge {
             display: inline-block;
@@ -477,7 +479,7 @@
             
             try {
                 allReports = [];
-                const languages = ['english', 'spanish', 'polish', 'russian', 'serbian', 'japanese', 'french', 'german', 'portuguese'];
+                const languages = ['english', 'spanish', 'polish', 'french', 'russian', 'german', 'portuguese', 'japanese', 'serbian', 'arabic', 'hebrew'];
                 
                 for (const language of languages) {
                     try {
@@ -545,12 +547,14 @@
                 'english': ['evaluation_20250919_103527.json', 'evaluation_20250919_105122.json'],
                 'spanish': ['evaluation_20250919_103906.json'],
                 'polish': ['evaluation_20250919_103835.json'],
-                'russian': ['evaluation_20250919_103940.json', 'evaluation_20250919_110412.json'],
-                'serbian': ['evaluation_20250919_104018.json'],
-                'japanese': [],
                 'french': ['evaluation_20250919_123107.json'],
+                'russian': ['evaluation_20250919_103940.json', 'evaluation_20250919_110412.json'],
                 'german': [],
-                'portuguese': []
+                'portuguese': [],
+                'japanese': [],
+                'serbian': ['evaluation_20250919_104018.json'],
+                'arabic': [],
+                'hebrew': []
             };
             
             return knownFiles[language] || [];
