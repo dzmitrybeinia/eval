@@ -1,0 +1,75 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "не соответствует научным законом о телах",
+      "correction": "не соответствует научным законам о телах",
+      "description": "The phrase uses the incorrect case for the noun 'законам' (should be dative plural, not instrumental plural 'законом'). This is a grammatical error affecting the meaning and clarity of the sentence. The corrected form 'законам' properly matches the preposition 'соответствует', which requires the dative case.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "температура уменьшение способствует образованию твердого состояния",
+      "correction": "уменьшение температуры способствует образованию твердого состояния",
+      "description": "The phrase 'температура уменьшение' is ungrammatical in Russian. The correct construction is 'уменьшение температуры', which means 'decrease in temperature'. This error affects comprehension and the logical flow of the explanation.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "неразделяемых частиц",
+      "correction": "неразделимых частиц",
+      "description": "The word 'неразделяемых' is not appropriate in this scientific context. The correct term is 'неразделимых', meaning 'indivisible'. This improves lexical precision and scientific accuracy.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "сильно расположены",
+      "correction": "плотно расположены",
+      "description": "The phrase 'сильно расположены' is unnatural and imprecise in Russian. The correct scientific term is 'плотно расположены', meaning 'closely packed'. This correction enhances clarity and naturalness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "влияние, например, натяжения или проникания",
+      "correction": "воздействие, например, растяжения или проникновения",
+      "description": "The word 'влияние' is less precise than 'воздействие' in this context. Additionally, 'натяжения' and 'проникания' are not the most accurate terms; 'растяжения' (stretching) and 'проникновения' (penetration) are more appropriate for describing physical effects on solids. This correction improves scientific accuracy and clarity.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Твердые тела, как камни или здания, неизменны, пока не подвергаются силам, таким как удар или воздействие тепла.",
+      "correction": "Твердые тела, такие как камни или здания, сохраняют свою форму до тех пор, пока не подвергаются воздействию внешних сил, например удара или нагрева.",
+      "description": "The original sentence uses 'как камни или здания', which is less natural than 'такие как камни или здания'. The phrase 'неизменны' is less precise than 'сохраняют свою форму'. Additionally, 'воздействие тепла' is better localized as 'нагрева'. These changes improve the naturalness, clarity, and scientific accuracy of the explanation.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "States_of_Matter.slm.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T22:27:41.065387",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 8.6,
+    "classification": "PROFESSIONAL",
+    "total_issues": 6,
+    "total_penalty": 1.4,
+    "issue_breakdown": {
+      "linguistic": 5,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.2,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

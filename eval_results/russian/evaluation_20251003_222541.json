@@ -1,0 +1,75 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "фантатических миров",
+      "correction": "фантастических миров",
+      "description": "The word 'фантатических' is a spelling error; the correct form is 'фантастических', which means 'fantastic'. This error affects the clarity and professionalism of the statement.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "фатиках",
+      "correction": "фактах",
+      "description": "The word 'фатиках' is a lexical error, likely a misspelling or misselection for 'фактах' ('facts'). The intended meaning is that documentary literature is based on facts and real life, not 'фатиках', which is not a valid Russian word in this context.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "персонажев",
+      "correction": "персонажей",
+      "description": "The word 'персонажев' is an incorrect genitive plural form; the correct form is 'персонажей'. This grammatical error affects the accuracy and fluency of the sentence.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Идиот Донате Вашингтона",
+      "correction": "«Идиот» Фёдора Достоевского",
+      "description": "The reference 'Идиот Донате Вашингтона' is incorrect. 'Идиот' is a famous novel by Fyodor Dostoevsky, not Donate Washington. This is a factual and lexical error that misleads learners about Russian literature.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "продуманная литература",
+      "correction": "документальная литература",
+      "description": "The term 'продуманная литература' is not standard in Russian literary studies and may confuse learners. The correct term for non-fiction is 'документальная литература'. This affects the naturalness and professional terminology of the content.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "глубокий взаимодействие",
+      "correction": "глубокое взаимодействие",
+      "description": "The phrase 'глубокий взаимодействие' contains a gender agreement error. 'Взаимодействие' is neuter, so the adjective should be 'глубокое'. This affects grammatical correctness and clarity.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Fiction_vs_Nonfiction.slm.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T22:25:41.461111",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 8.2,
+    "classification": "PROFESSIONAL",
+    "total_issues": 6,
+    "total_penalty": 1.8,
+    "issue_breakdown": {
+      "linguistic": 5,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.5,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

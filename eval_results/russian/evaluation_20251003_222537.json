@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "основные эмоции, как указано, — это сильные погоня, которые человек может испытывать.",
+      "correction": "основные эмоции, как указано, — это сильные переживания, которые человек может испытывать.",
+      "description": "The word 'погоня' is a lexical error; it means 'chase' or 'pursuit' and is not appropriate in this context. The correct term is 'переживания', which means 'experiences' or 'feelings' and accurately describes emotions. This error affects comprehension and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "Счасть всегда приводит к положительным действиям и поступкам.",
+      "correction": "Счастье всегда приводит к положительным действиям и поступкам.",
+      "description": "The word 'Счасть' is a spelling error; the correct form is 'Счастье'. This mistake affects the grammatical correctness and clarity of the statement.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Счасть может иногда приводить к невнимательности или несчастным решениям, если человек не учитывает последствия своих действий.",
+      "correction": "Счастье может иногда приводить к невнимательности или несчастным решениям, если человек не учитывает последствия своих действий.",
+      "description": "The word 'Счасть' is incorrectly used instead of 'Счастье', which is the correct nominative form of the noun. This error impacts grammatical accuracy and overall comprehension.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Счасть — это сила мотивации, но он не является единственной фактором в принятии решений.",
+      "correction": "Счастье — это сила мотивации, но оно не является единственным фактором в принятии решений.",
+      "description": "There are two grammatical errors: 'Счасть' should be 'Счастье', and the pronoun 'он' should agree in gender and number with 'Счастье' (neuter), so it should be 'оно'. Additionally, 'единственной фактором' is incorrect; it should be 'единственным фактором' to match the neuter gender and instrumental case. These errors affect grammatical correctness and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Управление эмоциями включает в себя подальше всего от стрессовой ситуации.",
+      "correction": "Управление эмоциями включает в себя, прежде всего, отстранение от стрессовой ситуации.",
+      "description": "The phrase 'подальше всего' is a lexical and collocational error; it is not idiomatic or clear in Russian. The correct expression is 'прежде всего, отстранение от стрессовой ситуации' or 'уход от стрессовой ситуации'. This error affects the naturalness and clarity of the statement.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Emotions_and_Feelings.slm.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T22:25:37.296775",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 8.6,
+    "classification": "PROFESSIONAL",
+    "total_issues": 5,
+    "total_penalty": 1.4,
+    "issue_breakdown": {
+      "linguistic": 5,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.4,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

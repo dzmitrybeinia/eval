@@ -1,0 +1,35 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Model \"MyPlate\": Wizualny przewodnik stworzony przez USDA pokazuje, jak zrównoważyć talerz, wypełniając połowę owocami i warzywami, jedną czwartą zbożami i jedną czwartą białkami, z dodatkiem porcji nabiału.",
+      "correction": "Model talerza: Wizualny przewodnik pokazujący, jak zrównoważyć posiłek, wypełniając połowę talerza owocami i warzywami, jedną czwartą produktami zbożowymi i jedną czwartą produktami białkowymi, z dodatkiem porcji nabiału.",
+      "description": "The reference to the USDA 'MyPlate' model is culturally specific to the United States and may not be familiar or relevant to Polish learners. It is better to use a more neutral or locally adapted model, such as 'Model talerza', to ensure cultural appropriateness and comprehension. Additionally, the term 'zbożami' is less precise than 'produktami zbożowymi', and 'białkami' should be clarified as 'produktami białkowymi' for naturalness and clarity.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Healthy_Eating.llm.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T21:32:14.838780",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.8,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.2,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

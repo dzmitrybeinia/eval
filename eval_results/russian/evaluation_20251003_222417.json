@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "обеспечивать стабильное водоедло для орошения",
+      "correction": "обеспечивать стабильное водоснабжение для орошения",
+      "description": "The word 'водоедло' is incorrect and does not exist in Russian; the correct term is 'водоснабжение', which accurately conveys the meaning of water supply for irrigation. This lexical error affects comprehension and should be corrected.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "были разраболены для увеличения урожайности",
+      "correction": "были разработаны для увеличения урожайности",
+      "description": "The word 'разраболены' contains a spelling error; the correct form is 'разработаны'. This mistake affects the clarity and professionalism of the feedback.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Средневековые торговцы использовали реку Нил как основной маршрут для обмена продукцией и товарами.",
+      "correction": "Древнеегипетские торговцы использовали реку Нил как основной маршрут для обмена продукцией и товарами.",
+      "description": "The use of 'Средневековые торговцы' (medieval traders) is culturally inappropriate in the context of Ancient Egypt. The correct term is 'древнеегипетские торговцы', which accurately reflects the historical period discussed in the lesson.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Этот поток обеспечивал прочную связи между различными регионами",
+      "correction": "Этот поток обеспечивал прочные связи между различными регионами",
+      "description": "The phrase 'прочную связи' contains a grammatical error: the adjective 'прочную' is in the singular feminine accusative form, while 'связи' is plural. The correct form is 'прочные связи' to ensure proper agreement in number and case.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Ancient_Egypt.slm.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T22:24:17.505764",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 8.8,
+    "classification": "PROFESSIONAL",
+    "total_issues": 4,
+    "total_penalty": 1.2,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.9,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

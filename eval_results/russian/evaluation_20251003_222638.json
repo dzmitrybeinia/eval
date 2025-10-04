@@ -1,0 +1,107 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Весна ДПЧ была подготовлена в период потрясений Холокоста.",
+      "correction": "ВДПЧ была подготовлена в период потрясений Холокоста.",
+      "description": "The word 'Весна' is an incorrect lexical choice and does not make sense in this context. The correct abbreviation for 'Всеобщая декларация прав человека' is 'ВДПЧ'. This error affects the clarity and accuracy of the statement.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Эта заявка верна исторической ситуацией, когда ВДПЧ была разработана.",
+      "correction": "Это утверждение соответствует исторической ситуации, когда ВДПЧ была разработана.",
+      "description": "The word 'заявка' is a lexical error; the correct term in this context is 'утверждение'. Additionally, 'верна исторической ситуацией' is an unnatural phrase; 'соответствует исторической ситуации' is the standard expression.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "Все декларации права человека содержат в себе право на голос угнетающегося общества.",
+      "correction": "Не все декларации прав человека содержат право голоса для угнетённых групп.",
+      "description": "The original sentence has a syntactic error and awkward phrasing. 'Все декларации права человека' is incorrect; it should be 'Не все декларации прав человека'. The phrase 'право на голос угнетающегося общества' is unnatural and unclear; 'право голоса для угнетённых групп' is more precise.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Это утверждение не соответствует содержанию деклараций прав человека, которые подчеркивают равенство людей и защиту их основных прав. Например, Статья 3 обеспечивает право на жизнь и свободу, а не на усиление силы другого.",
+      "correction": "Это утверждение не соответствует содержанию деклараций прав человека, которые подчеркивают равенство людей и защиту их основных прав. Например, Статья 3 обеспечивает право на жизнь и свободу, а не на предоставление преимуществ одной группе над другой.",
+      "description": "The phrase 'усиление силы другого' is semantically inaccurate and unnatural in Russian. The corrected version clarifies the intended meaning and uses more precise terminology.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Всеобщая декларация прав человека не была подписана всеми наций РСФСР в 1970-х годах.",
+      "correction": "Всеобщая декларация прав человека не была подписана всеми нациями РСФСР в 1970-х годах.",
+      "description": "The word 'наций' is incorrectly declined; the correct form is 'нациями' (instrumental case). This error affects grammatical accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Всеобщая декларация прав человека была подписана всеми нациями РСФСР в 1977 году.",
+      "correction": "Всеобщая декларация прав человека была принята ООН в 1948 году, а не подписана нациями РСФСР в 1977 году.",
+      "description": "This sentence contains a factual inaccuracy: the Universal Declaration of Human Rights was adopted by the UN in 1948, not signed by RSFSR nations in 1977. The verb 'подписана' is incorrect; 'принята' is the proper term for international declarations.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "В 1990-х годах в Бразилии были значительные улучшения в отношении прав женщин на рынке трудоопределения, особенно в области развлекательной индустрии.",
+      "correction": "В 1990-х годах в Бразилии были значительные улучшения в отношении прав женщин на рынке труда, особенно в области развлекательной индустрии.",
+      "description": "The term 'рынке трудоопределения' is incorrect and unnatural in Russian. The standard term is 'рынке труда'.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Такие законы, как Политика обеспечения рабочих мест для женщин, были приняты для борьбы с этим неравенством.",
+      "correction": "Такие законы, как политика обеспечения рабочих мест для женщин, были приняты для борьбы с этим неравенством.",
+      "description": "The phrase 'Политика обеспечения рабочих мест для женщин' is capitalized as if it is a formal title, but it is not a specific law or policy name. In Russian, generic policy names should not be capitalized unless they are official titles.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Великая декларация прав человека действительно послужила основой для международных усилий по защите прав человека.",
+      "correction": "Всеобщая декларация прав человека действительно послужила основой для международных усилий по защите прав человека.",
+      "description": "The phrase 'Великая декларация прав человека' is incorrect; the proper name is 'Всеобщая декларация прав человека'. This error affects the accuracy and recognition of the document.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "Она подчеркивает важность прав человека и пообещала глобальную поддержку для их защиты и продвижения.",
+      "correction": "Она подчеркивает важность прав человека и обещает глобальную поддержку их защиты и продвижения.",
+      "description": "The verb 'пообещала' is in the past tense, which is inconsistent with the present tense used in the rest of the sentence. The correct form is 'обещает' to maintain tense consistency.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Human_Rights.slm.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T22:26:38.548922",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 7.4,
+    "classification": "ACCEPTABLE",
+    "total_issues": 10,
+    "total_penalty": 2.6,
+    "issue_breakdown": {
+      "linguistic": 10,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 2.6,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

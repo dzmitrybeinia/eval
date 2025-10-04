@@ -1,0 +1,75 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical|Grammar",
+      "original": "Учитывая эти концепции, понимание их значимого в контексте эффективной коммуникации и аргументации.",
+      "correction": "Учитывая эти концепции, понимание их значимости в контексте эффективной коммуникации и аргументации.",
+      "description": "The word 'значимого' is incorrectly used; the correct noun form is 'значимости' to express 'importance'. This is a lexical and grammatical error affecting clarity and correctness.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical|Grammar",
+      "original": "Этос является основой в аргументе, поскольку он устанавливает авторитета и усиливает доверие к аргументу. Соответственно, итоговая сила аргумента часто зависит от сочетания всестона, логоса и пафоса.",
+      "correction": "Этос является основой в аргументе, поскольку он устанавливает авторитет и усиливает доверие к аргументу. Соответственно, итоговая сила аргумента часто зависит от сочетания этоса, логоса и пафоса.",
+      "description": "The word 'авторитета' is incorrectly used in the genitive case; the nominative 'авторитет' is required as the direct object. 'Всестона' is a misspelling and should be 'этоса' to match the context of ethos, logos, and pathos. These errors impact both lexical precision and grammatical correctness.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling|Grammar",
+      "original": "Экологический ученый, рассмарив свой опыт в своей статье о климатических изменениях, избегает упоминания своих профессиональных заслуг и ссылается только на нереценсируемые исследования.",
+      "correction": "Экологический ученый, рассматривая свой опыт в своей статье о климатических изменениях, избегает упоминания своих профессиональных заслуг и ссылается только на нерецензируемые исследования.",
+      "description": "The participle 'рассмарив' is misspelled; the correct form is 'рассматривая'. 'Нереценсируемые' is also misspelled and should be 'нерецензируемые'. These spelling and grammatical errors significantly affect comprehension and professionalism.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling|Lexical",
+      "original": "В примере, ученый, рассмарив, на самом деле подчеркивает свои профессиональные заслуги, что противорежит утверждению.",
+      "correction": "В примере ученый, рассматривая, на самом деле подчеркивает свои профессиональные заслуги, что противоречит утверждению.",
+      "description": "The participle 'рассмарив' is misspelled and should be 'рассматривая'. The verb 'противорежит' is a misspelling of 'противоречит'. These errors affect both spelling and lexical accuracy, reducing clarity and correctness.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Эффективность элемента этиса заключается в подкреплении авторитета и надежд автора, что вовлекает читателя в поведение и усиливает убедительность аргумента.",
+      "correction": "Эффективность элемента этоса заключается в подкреплении авторитета и доверия к автору, что вовлекает читателя и усиливает убедительность аргумента.",
+      "description": "The word 'этиса' is a misspelling and should be 'этоса'. The phrase 'надежд автора' is semantically inaccurate; 'доверия к автору' is the correct expression in this context. The phrase 'вовлекает читателя в поведение' is unnatural; 'вовлекает читателя' is sufficient and more idiomatic.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "Письтемос обладает силой влиять на аудиторию благодаря использованию эмоциональных, логических и убедительных аргументов.",
+      "correction": "Письмо обладает силой влиять на аудиторию благодаря использованию эмоциональных, логических и убедительных аргументов.",
+      "description": "The word 'Письтемос' is a misspelling and should be 'Письмо'. This spelling error affects the clarity and professionalism of the feedback.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Persuasive_Writing.slm.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T22:27:05.264509",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 8.2,
+    "classification": "PROFESSIONAL",
+    "total_issues": 6,
+    "total_penalty": 1.8,
+    "issue_breakdown": {
+      "linguistic": 6,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.8,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

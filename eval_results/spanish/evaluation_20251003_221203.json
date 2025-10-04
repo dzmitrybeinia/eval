@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "La energía solar es generada por la radiación del sol, un proceso natural que no se agota con el tiempo. Su uso es sostenible, ya que el sol seguirá brillando, permitiendo la continua producción de energía.",
+      "correction": "La energía solar se genera por la radiación del sol, un proceso natural que no se agota con el tiempo. Su uso es sostenible, ya que el sol seguirá brillando, permitiendo la continua producción de energía.",
+      "description": "The passive construction 'es generada' is less natural in Spanish for general scientific explanations. The active voice 'se genera' is preferred for clarity and naturalness in educational contexts. This correction improves both linguistic accuracy and localization by aligning with standard Spanish usage in academic materials.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "La ubicación de recursos como petróleo o minerales en una región puede llevar a una mayor actividad económica y desarrollo, afectando de manera significativa el crecimiento económico y la posición de un país en el mercado global.",
+      "correction": "La ubicación de recursos como el petróleo o los minerales en una región puede llevar a una mayor actividad económica y desarrollo, afectando significativamente el crecimiento económico y la posición de un país en el mercado global.",
+      "description": "The original text lacks definite articles before 'petróleo' and 'minerales', which is required for naturalness in Spanish. Additionally, 'afectando de manera significativa' is wordy; 'afectando significativamente' is more concise and standard in educational Spanish. These changes enhance the natural flow and professional tone expected in localized educational content.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "El uso excesivo de los recursos naturales puede llevar a la degradación del medio ambiente, como la deforestación, la contaminación del agua, y la pérdida de biodiversidad. Estos impactos negativos pueden afectar la calidad de vida de las personas y la viabilidad de los ecosistemas.",
+      "correction": "El uso excesivo de los recursos naturales puede llevar a la degradación del medio ambiente, como la deforestación, la contaminación del agua y la pérdida de biodiversidad. Estos impactos negativos pueden afectar la calidad de vida de las personas y la viabilidad de los ecosistemas.",
+      "description": "The comma before 'y' in the list ('la contaminación del agua, y la pérdida de biodiversidad') is incorrect in Spanish. In Spanish, the serial comma is generally omitted before 'y' in lists. Removing the comma improves grammatical accuracy and aligns with standard Spanish punctuation rules.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Esta afirmación es verdadera porque la energía solar y eólica son fuentes de energía renovable que se pueden reabastecer naturalmente, a diferencia de los combustibles fósiles que se agotan con el uso.",
+      "correction": "Esta afirmación es correcta porque la energía solar y eólica son fuentes de energía renovable que se pueden reabastecer naturalmente, a diferencia de los combustibles fósiles que se agotan con el uso.",
+      "description": "In educational Spanish, 'correcta' is preferred over 'verdadera' when referring to the accuracy of a statement, as it is more formal and precise. This change improves the professional tone and aligns with standard terminology in academic contexts.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "La afirmación es incorrecta porque la deforestación tiene un impacto negativo significativo en los ecosistemas locales. Al eliminar árboles, se interrumpe el ciclo natural de carbono, lo que lleva a la liberación de dióxido de carbono y contribuye al cambio climático. Además, la deforestación puede resultar en la pérdida de biodiversidad y alteración de los patrones de precipitación, afectando la calidad del suelo y la disponibilidad de agua.",
+      "correction": "La afirmación es incorrecta porque la deforestación tiene un impacto negativo significativo en los ecosistemas locales. Al eliminar árboles, se interrumpe el ciclo natural del carbono, lo que lleva a la liberación de dióxido de carbono y contribuye al cambio climático. Además, la deforestación puede resultar en la pérdida de biodiversidad y la alteración de los patrones de precipitación, afectando la calidad del suelo y la disponibilidad de agua.",
+      "description": "The phrase 'ciclo natural de carbono' should be 'ciclo natural del carbono' to correctly use the definite article with the noun. Additionally, 'y alteración de los patrones de precipitación' should be 'y la alteración de los patrones de precipitación' for parallel structure and clarity. These corrections address grammatical agreement and improve sentence structure.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Natural_Resources.slm.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-03T22:12:03.511719",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.3,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 0.7,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.5,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

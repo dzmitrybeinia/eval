@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Les conflits peuvent être résolus grâce à la calme, l'écoute et les compromis.",
+      "correction": "Les conflits peuvent être résolus grâce au calme, à l'écoute et aux compromis.",
+      "description": "The original sentence contains errors in article usage and gender agreement. 'La calme' is incorrect because 'calme' is masculine in this context and should be preceded by 'au'. Similarly, 'à l'écoute' and 'aux compromis' require the correct prepositions and articles to ensure proper grammatical agreement. The corrected version uses 'au calme', 'à l'écoute', and 'aux compromis', which are the standard forms in French.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "En pratiquant ces compétences, les élèves peuvent développer des amitiés significatives et devenir des individus plus conscients socialement.",
+      "correction": "En pratiquant ces compétences, les élèves peuvent développer des amitiés solides et devenir des personnes plus conscientes socialement.",
+      "description": "The phrase 'des amitiés significatives' is a direct translation of 'meaningful friendships', which is less natural in French educational contexts. 'Des amitiés solides' is more idiomatic and culturally appropriate. Additionally, 'individus' is formal and impersonal; 'personnes' is more commonly used in French educational materials to refer to students in a relatable way.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Friendship_Skills.llm.md",
+    "language": "French",
+    "timestamp": "2025-10-03T21:35:36.545760",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "La branche exécutive, dirigée par le Président et le Cabinet, a pour rôle principal d'appliquer et d'interpréter les lois, tout comme les enseignants appliquent les règles dans une école.",
+      "correction": "La branche exécutive, dirigée par le Président et le Cabinet, a pour rôle principal d'appliquer les lois, tout comme les enseignants appliquent les règles dans une école.",
+      "description": "The phrase 'd'interpréter les lois' is inaccurate in this context. In the U.S. government, the executive branch is responsible for enforcing (applying) laws, not interpreting them; interpretation is the role of the judiciary. This lexical error could mislead learners about the separation of powers.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "tout comme les enseignants appliquent les règles dans une école.",
+      "correction": "tout comme les enseignants appliquent les règles dans une école.",
+      "description": "While the analogy to teachers applying rules is understandable, it may oversimplify the complexity of the executive branch's role in a way that is not fully appropriate for an educational context about government structure. Consider using a more precise analogy relevant to government functions for French-speaking learners.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Le président nomme effectivement des juges, mais il doit obtenir l'approbation du Sénat pour que les nommés prennent leur poste.",
+      "correction": "Le président nomme effectivement des juges, mais il doit obtenir l'approbation du Sénat pour que les personnes nommées prennent leur poste.",
+      "description": "The use of 'les nommés' is grammatically awkward and not standard in French. 'Les personnes nommées' or 'les candidats nommés' is more natural and precise, improving clarity and correctness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Le Sénat est composé de 100 membres, pas de 435. Le nombre de 435 correspond à la Chambre des représentants, qui est la plus grande chambre du Congrès.",
+      "correction": "Le Sénat est composé de 100 membres, pas de 435. Le nombre de 435 correspond à la Chambre des représentants, qui est la chambre basse du Congrès.",
+      "description": "The phrase 'la plus grande chambre du Congrès' is not the standard way to refer to the House of Representatives in French political terminology. 'La chambre basse du Congrès' is more accurate and aligns with established terminology for bicameral legislatures.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "La branche judiciaire, qui comprend la Cour suprême et d'autres tribunaux fédéraux, est principalement chargée de l'interprétation des lois et de la Constitution, de la résolution des conflits juridiques et de l'évaluation de la conformité des lois et des actions exécutives avec la Constitution. Elle n'a pas de pouvoir de légiférer; c'est le rôle du pouvoir législatif, qui est l'assemblée élue.",
+      "correction": "La branche judiciaire, qui comprend la Cour suprême et d'autres tribunaux fédéraux, est principalement chargée de l'interprétation des lois et de la Constitution, de la résolution des conflits juridiques et de l'évaluation de la conformité des lois et des actions exécutives avec la Constitution. Elle n'a pas le pouvoir de légiférer ; c'est le rôle du pouvoir législatif, qui est l'assemblée élue.",
+      "description": "The phrase 'n'a pas de pouvoir de légiférer' should be 'n'a pas le pouvoir de légiférer' for correct grammar. Additionally, a space is required before the semicolon in French punctuation conventions.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "En réalité, le pouvoir de déclarer la guerre est un frein au pouvoir exécutif, car il nécessite l'approbation du Congrès. Cette limitation assure un processus de décision collective pour les grandes décisions militaires.",
+      "correction": "En réalité, le pouvoir de déclarer la guerre appartient au Congrès, ce qui limite le pouvoir exécutif. Cette disposition assure un processus de décision collective pour les grandes décisions militaires.",
+      "description": "The phrase 'un frein au pouvoir exécutif' is stylistically awkward and not idiomatic in French political discourse. 'Appartient au Congrès, ce qui limite le pouvoir exécutif' is clearer and more natural, improving the educational quality and localization.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "La branche législative, composée du Congrès, a des pouvoirs qui peuvent limiter la branche exécutive. Par exemple, elle peut refuser de voter sur les nominations de la Cour suprême, qui doivent être confirmées par le Sénat.",
+      "correction": "La branche législative, composée du Congrès, a des pouvoirs qui peuvent limiter la branche exécutive. Par exemple, elle peut refuser de voter sur les nominations à la Cour suprême, qui doivent être confirmées par le Sénat.",
+      "description": "The phrase 'nominations de la Cour suprême' is incorrect; it should be 'nominations à la Cour suprême' to indicate appointments to the Supreme Court. This improves grammatical accuracy and clarity.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Government_Structure.slm.md",
+    "language": "French",
+    "timestamp": "2025-10-03T22:22:19.851823",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 8.9,
+    "classification": "PROFESSIONAL",
+    "total_issues": 7,
+    "total_penalty": 1.1,
+    "issue_breakdown": {
+      "linguistic": 4,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.7,
+      "localization_penalty": 0.4,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

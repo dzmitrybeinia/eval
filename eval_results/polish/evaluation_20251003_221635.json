@@ -1,0 +1,91 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Współpraca międzypolityczna przyczyniła się do opracowania PDPC.",
+      "correction": "Współpraca międzynarodowa przyczyniła się do opracowania PDPC.",
+      "description": "The phrase 'współpraca międzypolityczna' is not standard Polish and is a lexical and grammatical error. The correct term is 'współpraca międzynarodowa', which accurately reflects international cooperation. 'Międzypolityczna' is not a recognized word and may confuse learners.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Wraz z przyczynieniem się do złożonego dokumentu PDPC, uczestniczył wiele krajów i kultur.",
+      "correction": "W opracowaniu złożonego dokumentu PDPC uczestniczyło wiele krajów i kultur.",
+      "description": "The sentence contains multiple grammatical errors: 'Wraz z przyczynieniem się' is an unnatural and incorrect construction in Polish, and 'uczestniczył wiele krajów i kultur' lacks proper subject-verb agreement and case usage. The corrected version uses proper case and verb forms, resulting in a clear and natural sentence.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Każda osoba prawnie ma prawo do edukacji i zadowolonego życia.",
+      "correction": "Każda osoba ma prawo do edukacji i godnego życia.",
+      "description": "The phrase 'prawnie ma prawo' is redundant and awkward; 'zadowolonego życia' is not idiomatic in Polish and does not reflect the intended meaning of 'dignified life' as in the Universal Declaration. 'Godnego życia' is the standard and culturally appropriate term.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Ta stwierdzenie odzwierciedza jedną z kluczowych zasad Powszechnej Deklaracji Praw Człowieka, która podkreśla znaczenie edukacji i dobrobytu jako podstawowych praw człowieka.",
+      "correction": "To stwierdzenie odzwierciedla jedną z kluczowych zasad Powszechnej Deklaracji Praw Człowieka, która podkreśla znaczenie edukacji i dobrobytu jako podstawowych praw człowieka.",
+      "description": "The word 'ta stwierdzenie' is a gender agreement error; 'stwierdzenie' is neuter, so the correct form is 'to stwierdzenie'.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "To zasada jest podstawą wielu międzynarodowych polityk i porządku, a jej uznanie jest kluczowe dla rozumienia praw człowieka.",
+      "correction": "Ta zasada jest podstawą wielu międzynarodowych polityk i porządków, a jej uznanie jest kluczowe dla rozumienia praw człowieka.",
+      "description": "The phrase 'to zasada' should be 'ta zasada' due to gender agreement. Additionally, 'porządku' should be pluralized to 'porządków' to match 'polityk', ensuring parallel structure.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Obywatele zazwyczni powinni cierpieć, aby zachować prawa człowieka.",
+      "correction": "Zwykli obywatele nie powinni cierpieć, aby zachować prawa człowieka.",
+      "description": "The phrase 'obywatele zazwyczni' is a word order and lexical error; the correct term is 'zwykli obywatele'. The original sentence also implies that citizens should suffer, which is both linguistically and contextually incorrect. The correction provides the proper word order and negates the suffering, aligning with the intended meaning.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Wszystkie prawa człowieka są zakazane przeszkodzeniem jakimkolwiek formą cierpienia.",
+      "correction": "Wszystkie prawa człowieka zakazują jakiejkolwiek formy cierpienia.",
+      "description": "The sentence contains multiple grammatical errors: 'są zakazane przeszkodzeniem' is an incorrect construction, and 'jakimkolwiek formą' is a case error. The corrected version uses the proper verb and case structure for clarity and accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Obywatele są niezbędni w promowaniu i ochronie tych praw, nie cierpieniem.",
+      "correction": "Obywatele są niezbędni w promowaniu i ochronie tych praw, a nie w cierpieniu.",
+      "description": "The phrase 'nie cierpieniem' is an incorrect use of the instrumental case and does not fit the sentence structure. The corrected version uses a proper clause to contrast the roles of citizens.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Human_Rights_1.slm.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T22:16:35.395656",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 7.9,
+    "classification": "ACCEPTABLE",
+    "total_issues": 8,
+    "total_penalty": 2.1,
+    "issue_breakdown": {
+      "linguistic": 8,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 2.1,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

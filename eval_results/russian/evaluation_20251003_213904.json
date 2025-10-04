@@ -1,0 +1,83 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "ледерхозен",
+      "correction": "ледерхозен (Lederhosen)",
+      "description": "The term 'ледерхозен' is a transliteration of the German 'Lederhosen'. While transliteration is acceptable, it is best practice in educational content to provide the original term in parentheses for clarity, as this word is not widely known in Russian and may confuse learners. Adding the original term helps with understanding and cross-cultural learning.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "дирндли",
+      "correction": "дирндли (Dirndl)",
+      "description": "The word 'дирндли' is a transliteration of the German 'Dirndl'. For educational clarity and to avoid confusion, it is recommended to provide the original term in parentheses, as this is a specific cultural item not commonly known in Russian. This improves cultural understanding and terminology consistency.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "офренда",
+      "correction": "офренда (ofrenda)",
+      "description": "The term 'офренда' is a transliteration of the Spanish 'ofrenda'. For Russian learners, it is helpful to provide the original term in parentheses to clarify the meaning and origin, especially since this is a culturally specific concept. This enhances educational value and cross-cultural comprehension.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "пан де муэрто",
+      "correction": "пан де муэрто (pan de muerto)",
+      "description": "The phrase 'пан де муэрто' is a transliteration of the Spanish 'pan de muerto'. For clarity and educational purposes, the original term should be included in parentheses, as this is a unique cultural food item not familiar to most Russian speakers. This helps learners connect the Russian description to the authentic name.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "коксинья",
+      "correction": "коксинья (coxinha)",
+      "description": "The word 'коксинья' is a transliteration of the Brazilian Portuguese 'coxinha'. To improve understanding and maintain terminology consistency, the original term should be provided in parentheses, as this food item is not widely known in Russian-speaking contexts.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "ранголи",
+      "correction": "ранголи (rangoli)",
+      "description": "The term 'ранголи' is a transliteration of the Indian 'rangoli'. For educational clarity, the original term should be included in parentheses, as this is a culturally specific tradition unfamiliar to many Russian speakers. This supports better cross-cultural understanding.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "дия",
+      "correction": "дия (diya)",
+      "description": "The word 'дия' is a transliteration of the Indian 'diya'. To ensure clarity and support cultural learning, the original term should be provided in parentheses, as this is a specific item not commonly known in Russian.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Cultural_Celebrations.llm.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T21:39:04.019871",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.3,
+    "classification": "NATIVE",
+    "total_issues": 7,
+    "total_penalty": 0.7,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 7,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.7,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

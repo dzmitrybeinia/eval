@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Best Practices für Online-Verhalten",
+      "correction": "Best Practices für Online-Verhalten",
+      "description": "The phrase 'Best Practices' uses an English term in a German educational context. While 'Best Practices' is sometimes used in German business and tech circles, for educational clarity and linguistic accuracy, a German equivalent such as 'Bewährte Methoden' or 'Empfohlene Vorgehensweisen' would be more appropriate. This improves both lexical precision and localization, ensuring the terminology is accessible and natural for all learners.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Emojis klug einsetzen: Sie können den Ton verdeutlichen, sollten aber nicht übermäßig genutzt werden.",
+      "correction": "Emojis klug einsetzen: Sie können den Ton verdeutlichen, sollten aber nicht übermäßig verwendet werden.",
+      "description": "The verb 'genutzt werden' is less natural in this context; 'verwendet werden' is the standard and more idiomatic choice in German when referring to the use of emojis. This change enhances the naturalness and professional tone of the content.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Vermeide Caps Lock: Texte in Großbuchstaben können als aggressiv wahrgenommen werden.",
+      "correction": "Vermeide die Verwendung von Großbuchstaben: Texte in Großbuchstaben können als aggressiv wahrgenommen werden.",
+      "description": "The term 'Caps Lock' is an English keyboard reference. For broader accessibility and clarity in German, 'die Verwendung von Großbuchstaben' is more appropriate and avoids unnecessary anglicism. This correction ensures the terminology is clear and culturally adapted for German learners.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Digital_Etiquette.llm.md",
+    "language": "German",
+    "timestamp": "2025-10-03T21:43:30.157133",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

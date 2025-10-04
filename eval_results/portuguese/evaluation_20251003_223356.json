@@ -1,0 +1,35 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Ela é continuamente reabastecida pelo ciclo do processo de combinação-ionização da energia solar, diferente de combustíveis fósseis que são finitos.",
+      "correction": "Ela é continuamente reabastecida pelo ciclo natural da energia solar, diferente dos combustíveis fósseis, que são finitos.",
+      "description": "The phrase 'ciclo do processo de combinação-ionização da energia solar' is not a standard or accurate expression in Brazilian Portuguese and may confuse learners. The correct and natural way to express this concept is 'ciclo natural da energia solar.' Additionally, 'combustíveis fósseis' should be preceded by 'dos' for proper article usage, and a comma should be added before 'que são finitos' for clarity.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Natural_Resources.slm.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T22:33:56.718490",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.8,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.2,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

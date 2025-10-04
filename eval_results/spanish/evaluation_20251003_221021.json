@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "No se mantienen igual todo el año, ya que los cambios estacionales afectan el tipo de clima que experimentan.",
+      "correction": "No se mantienen iguales todo el año, ya que los cambios estacionales afectan el tipo de clima que experimentan.",
+      "description": "The adjective 'igual' should agree in number with 'zonas climáticas', which is plural. The correct form is 'iguales'. This ensures proper gender and number agreement, which is essential for grammatical accuracy in Spanish.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Las zonas climáticas áridas, como el desierto del Sahara o el Outback australiano, se caracterizan por tener muy poca precipitación, lo que lleva a una vegetación escasa.",
+      "correction": "Las zonas climáticas áridas, como el desierto del Sahara o el desierto de Atacama, se caracterizan por tener muy poca precipitación, lo que lleva a una vegetación escasa.",
+      "description": "The use of 'Outback australiano' as an example of an arid climate may not be culturally relevant for Spanish-speaking learners, as the Outback is not typically referenced in Spanish educational contexts. Replacing it with 'desierto de Atacama', a well-known arid region in Latin America, increases cultural appropriateness and relatability for the target audience.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "No obstante, el verano puede ser bastante caluroso, pero no extremadamente.",
+      "correction": "No obstante, el verano puede ser bastante caluroso, pero no extremadamente caluroso.",
+      "description": "The sentence ends with 'no extremadamente', which is incomplete and lacks the adjective it modifies. The correct form is 'no extremadamente caluroso' to maintain clarity and grammatical completeness.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Climate_Zones.slm.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-03T22:10:21.417694",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.4,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

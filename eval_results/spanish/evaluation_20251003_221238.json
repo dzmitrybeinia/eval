@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Acrónimos ayudan a simplificar y recordar información ordenada, como en la lista de planetas del sistema solar.",
+      "correction": "Los acrónimos ayudan a simplificar y recordar información ordenada, como en la lista de planetas del sistema solar.",
+      "description": "The original sentence is missing the definite article 'Los' before 'acró­nimos', which is required for grammatical correctness and naturalness in Spanish. The corrected version properly introduces the subject, improving clarity and adherence to standard Spanish syntax.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "La técnica Pomodoro es una estrategia ampliamente utilizada para mejorar la concentración y productividad. Al trabajar en un periodo de 25 minutos seguido de un descanso de 5 minutos, la mente puede mantenerse alerta y absorber mejor la información. Esta práctica ayuda a dividir las tareas en partes manejables, lo que facilita el manejo del tiempo.",
+      "correction": "La técnica Pomodoro es una estrategia ampliamente utilizada para mejorar la concentración y productividad. Al trabajar en un periodo de 25 minutos seguido de un descanso de 5 minutos, la mente puede mantenerse alerta y absorber mejor la información. Esta práctica ayuda a dividir las tareas en partes manejables, lo que facilita la gestión del tiempo.",
+      "description": "The term 'manejo del tiempo' is less commonly used in educational Spanish contexts compared to 'gestión del tiempo', which is the standard and more professional term for 'time management'. Replacing 'manejo' with 'gestión' improves terminology consistency and aligns with local educational standards.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Study_Skills.slm.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-03T22:12:38.518201",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

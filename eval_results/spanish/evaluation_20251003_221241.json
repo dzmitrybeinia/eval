@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Todos los ciudadanos de EE.UU, independientemente de su edad, tienen derecho a votar.",
+      "correction": "Todos los ciudadanos de EE.UU., independientemente de su edad, tienen derecho a votar.",
+      "description": "There is a missing period after 'EE.UU' in the abbreviation for 'Estados Unidos'. In Spanish, abbreviations such as 'EE.UU.' require a period after each letter to indicate the abbreviation is plural. This is a minor orthographic error but important for formal writing.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Aunque todos los ciudadanos de EE.UU tienen el derecho a votar, hay una edad mínima de 18 años que debe cumplirse para poder votar. Esto significa que los menores de edad no tienen la capacidad legal de votar en los Estados Unidos.",
+      "correction": "Aunque todos los ciudadanos de EE.UU. tienen el derecho a votar, hay una edad mínima de 18 años que debe cumplirse para poder votar. Esto significa que los menores de edad no tienen la capacidad legal de votar en los Estados Unidos.",
+      "description": "The explanation is accurate but could be improved for cultural clarity by specifying that voting age requirements may vary for different types of elections (e.g., some local elections may have different rules), though 18 is standard for federal elections. The text currently generalizes the rule, which is acceptable but could be more precise for educational purposes. Also, the period after 'EE.UU' should be included for correct abbreviation.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Voting_Process.slm.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-03T22:12:41.036397",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.8,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.2,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

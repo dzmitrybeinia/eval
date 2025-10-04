@@ -1,0 +1,75 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "A bondade frequentemente envolve considerar e atender às necessidades dos outros. Quando alguém se concentra exclusivamente em suas próprias necessidades, não está atendendo ao princípio de ter compaixão. O valor da bondade é amplificado quando também se inclina para ajudar os outros.",
+      "correction": "A bondade frequentemente envolve considerar e atender às necessidades dos outros. Quando alguém se concentra exclusivamente em suas próprias necessidades, não está seguindo o princípio da compaixão. O valor da bondade é amplificado quando também se dispõe a ajudar os outros.",
+      "description": "The phrase 'não está atendendo ao princípio de ter compaixão' is lexically awkward and not idiomatic in Brazilian Portuguese. The more natural and precise expression is 'não está seguindo o princípio da compaixão.' Additionally, 'se inclina para ajudar os outros' is an anglicism and should be replaced with 'se dispõe a ajudar os outros' for naturalness and clarity.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Ao demonstrar bondade, como ajudar um amigo com tarefas ou mostrar empatia, não só melhoramos nossas conexões pessoais, mas também contribuímos para um ambiente social mais harmonioso. Essas ações criam um ciclo de positividade que pode se espalhar, fortalecendo o tecido social como um todo.",
+      "correction": "Ao demonstrar bondade, como ajudar um amigo com tarefas ou mostrar empatia, não só melhoramos nossas conexões pessoais, mas também contribuímos para um ambiente social mais harmonioso. Essas ações criam um ciclo de positividade que pode se espalhar, fortalecendo o tecido social como um todo.",
+      "description": "No significant linguistic or localization issues found. The text is accurate, natural, and culturally appropriate.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "O efeito de cadeia da bondade é bem documentado. Ações consideradas bondade podem inspirar outros a agir de forma positiva, enfraquecendo as barreiras sociais e promovendo um sentido de comunidade. Por exemplo, um dia de limpeza não só melhora o ambiente, mas também fortalece os laços entre os moradores.",
+      "correction": "O efeito de cadeia da bondade é bem documentado. Ações consideradas bondosas podem inspirar outros a agir de forma positiva, enfraquecendo as barreiras sociais e promovendo um senso de comunidade. Por exemplo, um dia de limpeza não só melhora o ambiente, mas também fortalece os laços entre os moradores.",
+      "description": "The phrase 'Ações consideradas bondade' is incorrect; the adjective 'bondosas' should be used to describe actions. Additionally, 'sentido de comunidade' is less idiomatic than 'senso de comunidade' in Brazilian Portuguese.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "O contrário é verdadeiro. Ouvir contos de bondade ou ajudar nas tarefas diárias pode aumentar a felicidade e reduzir o estresse, o que é benéfico para a saúde mental e emocional.",
+      "correction": "O contrário é verdadeiro. Ouvir histórias de bondade ou ajudar nas tarefas diárias pode aumentar a felicidade e reduzir o estresse, o que é benéfico para a saúde mental e emocional.",
+      "description": "The word 'contos' typically refers to fictional stories or tales, which is not appropriate in this context. 'Histórias de bondade' is the correct term for real-life accounts or examples.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Uma interação simples como sorrir e cumprimentar pode aumentar positivamente a energia de um ambiente. Este comportamento é um exemplo de bondade diária que pode ser facilmente incorporado na rotina diária de alguém.",
+      "correction": "Uma interação simples como sorrir e cumprimentar pode aumentar positivamente a energia de um ambiente. Esse comportamento é um exemplo de bondade cotidiana que pode ser facilmente incorporado à rotina de qualquer pessoa.",
+      "description": "The use of 'este comportamento' is grammatically correct but less natural than 'esse comportamento' in Brazilian Portuguese for this context. 'Bondade diária' is understandable, but 'bondade cotidiana' is more idiomatic. 'Na rotina diária de alguém' is repetitive and less inclusive; 'à rotina de qualquer pessoa' is more natural and inclusive.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "A bondade é fundamental para fortalecer relacionamentos e construir comunidades. Atos de bondade, mesmo pequenos, podem ter um grande impacto em redes sociais, criando um efeito dominó positivo e promovendo um ambiente mais conectado.",
+      "correction": "A bondade é fundamental para fortalecer relacionamentos e construir comunidades. Atos de bondade, mesmo pequenos, podem ter um grande impacto nas redes sociais, criando um efeito dominó positivo e promovendo um ambiente mais conectado.",
+      "description": "The preposition 'em redes sociais' should be 'nas redes sociais' to indicate impact within social networks. This is a minor lexical preposition error.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Kindness_Matters.slm.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T22:33:49.448650",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.2,
+    "classification": "NATIVE",
+    "total_issues": 6,
+    "total_penalty": 0.8,
+    "issue_breakdown": {
+      "linguistic": 5,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.7,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

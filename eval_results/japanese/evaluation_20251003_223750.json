@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "フィクションは必ず真実の出来事である。.",
+      "correction": "フィクションは必ず真実の出来事である。",
+      "description": "The original sentence contains a double period (。.), which is incorrect in Japanese orthography. Only a single full-width period (。) should be used at the end of the sentence. This error affects the professionalism and clarity of the text.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "それにもかかわらず、現実世界の経験を元に物語が作られることもあります。.",
+      "correction": "それにもかかわらず、現実世界の経験を元に物語が作られることもあります。",
+      "description": "There is a double period (。.) at the end of the sentence, which is incorrect in Japanese writing conventions. Only a single full-width period (。) should be used. This minor orthographic error should be corrected for proper punctuation.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "ノンフィクション書は、実際の出来事や人物に基づいているため、歴史上の人物の生活を創作するのではありません。.",
+      "correction": "ノンフィクション書は、実際の出来事や人物に基づいているため、歴史上の人物の生活を創作するのではありません。",
+      "description": "The sentence ends with a double period (。.), which is not correct in Japanese orthography. Only a single full-width period (。) should be used at the end of the sentence. This affects the overall quality and professionalism of the content.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "ノンフィクションは実際の出来事や歴史的な人物、地理的な場所を含むことが多く、フィクションは完全に創造的な内容を扱うのに対しています。.",
+      "correction": "ノンフィクションは実際の出来事や歴史的な人物、地理的な場所を含むことが多く、フィクションは完全に創造的な内容を扱うのに対しています。",
+      "description": "The sentence ends with a double period (。.), which is incorrect in Japanese writing. Only a single full-width period (。) should be used. This is a minor orthographic issue that should be corrected for proper punctuation.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Fiction_vs_Nonfiction.slm.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-03T22:37:50.174986",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 4,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.4,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

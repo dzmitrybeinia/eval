@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "эмоционально подключиться к сюжету",
+      "correction": "эмоционально сопереживать сюжету",
+      "description": "The phrase 'эмоционально подключиться к сюжету' uses the verb 'подключиться', which is a technical term meaning 'to connect' (e.g., to a network) and is not idiomatic in Russian when referring to emotional engagement with a story. The more natural and precise expression is 'эмоционально сопереживать сюжету', which means to empathize or emotionally relate to the plot. This correction improves lexical precision and naturalness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "в сказке \"Три медведя\" конфликт возникает, когда девочка пробует вещи медведей без их разрешения, что приводит к их возвращению и неожиданной встрече.",
+      "correction": "в сказке \"Три медведя\" конфликт возникает, когда девочка пробует вещи медведей без их разрешения, что приводит к их возвращению и неожиданной встрече.",
+      "description": "While the text is linguistically correct, the example references 'Три медведя' (Three Bears), which is a Russian adaptation of the English tale 'Goldilocks and the Three Bears'. For Russian educational content, this is culturally appropriate, but it is important to clarify for learners that the story is an adaptation and may differ from the original. No correction needed, but a note for future content to ensure cultural context is clear.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Story_Elements.llm.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T21:41:27.381836",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

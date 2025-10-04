@@ -1,0 +1,155 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "zazwyczni do kilku godzin lub dni",
+      "correction": "zazwyczaj do kilku godzin lub dni",
+      "description": "The word 'zazwyczni' is a misspelling; the correct form is 'zazwyczaj', which means 'usually'. This is a significant orthographic error that affects comprehension.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Powyższa stwierdzenie przypisywa ona długotrwałej pamięci na miejsce krótkotrwanej, co nie jest dokładne.",
+      "correction": "Powyższe stwierdzenie przypisuje cechy długotrwałej pamięci krótkotrwałej, co nie jest dokładne.",
+      "description": "There are multiple grammatical errors: 'Powyższa stwierdzenie' should be 'Powyższe stwierdzenie' (neuter noun agreement), 'przypisywa ona' is incorrect and should be 'przypisuje cechy' for proper verb conjugation and clarity. The sentence structure is also awkward and unclear.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "krótkotrwanej",
+      "correction": "krótkotrwałej",
+      "description": "The word 'krótkotrwanej' is misspelled; the correct form is 'krótkotrwałej'. This error affects the genitive case ending and the use of the diacritic 'ł'.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Podzielenie informacji na mniejsze segmenty zazwyczniwuje się przy pomocy symbolu podziału.",
+      "correction": "Podzielenie informacji na mniejsze segmenty zazwyczaj odbywa się przy pomocy symbolu podziału.",
+      "description": "The word 'zazwyczniwuje' is not a valid Polish word; the correct phrase is 'zazwyczaj odbywa się'. This is a major orthographic and lexical error that impairs understanding.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "symbolu podziału",
+      "correction": "symbolu podziału (np. przecinek, myślnik, ukośnik)",
+      "description": "The term 'symbol podziału' is vague and not standard in Polish educational context. It should specify common symbols such as comma, dash, or slash to improve clarity and naturalness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "kropelka do oddzielenia kawałków",
+      "correction": "kropka do oddzielenia kawałków",
+      "description": "The word 'kropelka' (droplet) is a spelling and lexical error; the intended word is 'kropka' (dot/period), which is the correct punctuation mark for separating items.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "przyswaczalnej",
+      "correction": "przyswajalnej",
+      "description": "The word 'przyswaczalnej' is misspelled; the correct form is 'przyswajalnej'. This error affects the adjective formation and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "mózg łatwiej rozumie i zapamięta podzielone elementy",
+      "correction": "mózg łatwiej rozumie i zapamiętuje podzielone elementy",
+      "description": "The verb 'zapamięta' (will remember) is in the future tense, which is inconsistent with 'rozumie' (understands, present tense). The correct form is 'zapamiętuje' to maintain tense consistency.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "wzmocnić słowo/koncepcję związki",
+      "correction": "wzmocnić związki słów/koncepcji",
+      "description": "The phrase 'słowo/koncepcję związki' is grammatically incorrect and awkward. The correct phrase is 'związki słów/koncepcji', which properly expresses the intended meaning.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "żywnych obrazów",
+      "correction": "żywych obrazów",
+      "description": "The word 'żywnych' is a misspelling; the correct adjective is 'żywych' (vivid). This error affects the meaning and clarity of the sentence.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Jest to powszechne strategia edukacyjna",
+      "correction": "Jest to powszechna strategia edukacyjna",
+      "description": "The adjective 'powszechne' should agree in gender with 'strategia', which is feminine; the correct form is 'powszechna'.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "spaced repetition jest tak efektywne, że używana jest tylko raz w ciągu nauki.",
+      "correction": "spaced repetition jest tak efektywna, że używana jest tylko raz w trakcie nauki.",
+      "description": "The adjective 'efektywne' should agree in gender with 'spaced repetition', which is feminine in Polish ('efektywna'). Also, 'w ciągu nauki' is less natural than 'w trakcie nauki'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "zazwyczni używana jest wielokrotnie z odstępami",
+      "correction": "zazwyczaj używana jest wielokrotnie z odstępami",
+      "description": "The word 'zazwyczni' is a misspelling; the correct form is 'zazwyczaj'. This error affects clarity and correctness.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "czasiem nauki",
+      "correction": "czasem nauki",
+      "description": "The word 'czasiem' is a misspelling; the correct form is 'czasem'. This error affects the instrumental case ending and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Through chunking, czyli podzielenie informacji na mniejsze, łatwiejsze do zapamiętania części, można zwięksić procesy poznawcze, co skutkuje lepszą gromadzeniem pamięci.",
+      "correction": "Chunking, czyli podzielenie informacji na mniejsze, łatwiejsze do zapamiętania części, może zwiększyć procesy poznawcze, co skutkuje lepszym zapamiętywaniem.",
+      "description": "The sentence starts with 'Through chunking', which is an English phrase and not appropriate in Polish. The verb 'zwięksić' is a misspelling; the correct form is 'zwiększyć'. 'Lepszą gromadzeniem pamięci' is incorrect; the correct phrase is 'lepszym zapamiętywaniem'. Multiple lexical and grammatical errors affect clarity and naturalness.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "To technika, która korzysta z naturalnej struktury pamięci ludzkiej, a nie z konieczności wymagającej.",
+      "correction": "To technika, która wykorzystuje naturalną strukturę pamięci ludzkiej, a nie wymaga dodatkowego wysiłku.",
+      "description": "The phrase 'a nie z konieczności wymagającej' is grammatically incorrect and unclear. The verb 'korzysta' should be replaced with 'wykorzystuje' for better precision. The sentence should be rephrased for clarity and naturalness.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Memory_Techniques.slm.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T22:16:50.601047",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 5.7,
+    "classification": "POOR",
+    "total_issues": 16,
+    "total_penalty": 4.3,
+    "issue_breakdown": {
+      "linguistic": 15,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 4.1,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

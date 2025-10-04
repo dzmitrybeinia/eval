@@ -1,0 +1,75 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "グローバル貿易は国境を越えて商品、サービス、資本が交換されることを指します。.",
+      "correction": "グローバル貿易は国境を越えて商品、サービス、資本が交換されることを指します。",
+      "description": "There is a redundant period at the end of the sentence (Japanese full stop '。' followed by an English period '.'). Only the Japanese full stop should be used. This affects orthographic correctness and should be corrected for proper punctuation.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "グローバル貿易は経済成長を消減させることがあります。.",
+      "correction": "グローバル貿易は経済成長を消減させることがあります。",
+      "description": "The sentence ends with both a Japanese full stop '。' and an English period '.', which is incorrect. Only the Japanese full stop should be used for proper punctuation in Japanese writing.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "グローバル貿易は経済成長を消減させることがあります。.",
+      "correction": "グローバル貿易は経済成長を減少させることがあります。",
+      "description": "The word '消減' is not a standard or natural Japanese term for 'decrease' in this context. The correct and commonly used term is '減少'. Using '消減' may confuse learners and is not appropriate for educational content.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "グローバル貿易は、すべての国に均等な経済的利益をもたらします。.",
+      "correction": "グローバル貿易は、すべての国に均等な経済的利益をもたらします。",
+      "description": "There is a redundant period at the end of the sentence (Japanese full stop '。' followed by an English period '.'). Only the Japanese full stop should be used for correct punctuation.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "WTOは各国の経済に対して独自の財政支援を行います。.",
+      "correction": "WTOは各国の経済に対して独自の財政支援を行います。",
+      "description": "The sentence ends with both a Japanese full stop '。' and an English period '.', which is incorrect. Only the Japanese full stop should be used for proper punctuation in Japanese writing.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "グローバル貿易は、経済発展だけでなく文化の衝突をもたらします。.",
+      "correction": "グローバル貿易は、経済発展だけでなく文化の衝突をもたらします。",
+      "description": "There is a redundant period at the end of the sentence (Japanese full stop '。' followed by an English period '.'). Only the Japanese full stop should be used for correct punctuation.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Global_Trade.slm.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-03T22:38:22.205568",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.3,
+    "classification": "NATIVE",
+    "total_issues": 6,
+    "total_penalty": 0.7,
+    "issue_breakdown": {
+      "linguistic": 6,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.7,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

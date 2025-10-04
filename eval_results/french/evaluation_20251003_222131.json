@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Le biais de confirmation est un type de biais cognitif qui a tendance à favoriser les informations qui confirment nos croyances préexistantes tout en ignorant ou minimisant les preuves qui les contredisent. Ce biais peut significativement affecter notre manière de traiter de nouvelles informations, car il peut conduire à une interprétation sélective et à une prise de décision biaisée.",
+      "correction": "Le biais de confirmation est un type de biais cognitif qui tend à favoriser les informations confirmant nos croyances préexistantes tout en ignorant ou en minimisant les preuves qui les contredisent. Ce biais peut affecter de manière significative notre façon de traiter de nouvelles informations, car il peut conduire à une interprétation sélective et à une prise de décision biaisée.",
+      "description": "The phrase 'a tendance à favoriser' is wordy and less idiomatic in French; 'tend à favoriser' is more concise and natural. 'Les informations qui confirment' can be streamlined to 'les informations confirmant' for better flow. 'Notre manière de traiter' is less idiomatic than 'notre façon de traiter'. 'Significativement affecter' is less natural than 'affecter de manière significative'. These changes improve lexical precision and naturalness, enhancing clarity and idiomatic expression.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Une preuve peut prendre de nombreuses formes : faits concrets, statistiques, exemples concrets, ou témoignages d'experts. Une citation seule peut être pertinente, mais elle doit répondre aux autres critères comme la crédibilité de la source et l'exactitude pour être considérée comme une preuve solide.",
+      "correction": "Une preuve peut prendre de nombreuses formes : faits, statistiques, exemples concrets ou témoignages d'experts. Une citation seule peut être pertinente, mais elle doit répondre à d'autres critères tels que la crédibilité de la source et l'exactitude pour être considérée comme une preuve solide.",
+      "description": "The repetition of 'concrets' in 'faits concrets, statistiques, exemples concrets' is redundant; 'faits' alone suffices. 'Répondre aux autres critères comme' should be 'répondre à d'autres critères tels que' for more precise and formal language. These changes improve lexical precision and stylistic clarity.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "Un argument logique est considéré comme solide et convaincant lorsqu'il est bien construit avec des preuves fiables, un raisonnement clair, et une réponse appropriée aux contre-arguments. La clarté et la pertinence des preuves, ainsi que la manière dont l'argumentateur relie les preuves aux conclusions, jouent un rôle vital dans l'évaluation de la force de l'argument.",
+      "correction": "Un argument logique est considéré comme solide et convaincant lorsqu'il est bien construit, avec des preuves fiables, un raisonnement clair et une réponse appropriée aux contre-arguments. La clarté et la pertinence des preuves, ainsi que la façon dont l'argumentateur relie les preuves aux conclusions, jouent un rôle essentiel dans l'évaluation de la force de l'argument.",
+      "description": "The comma before 'et' in the list 'un raisonnement clair, et une réponse appropriée' is unnecessary in French. 'La manière dont' can be replaced by 'la façon dont' for more idiomatic expression. 'Un rôle vital' is less common than 'un rôle essentiel' in formal French. These changes improve syntactic accuracy and lexical naturalness.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Bien que les biais puissent influencer notre jugement, ils ne le font pas toujours. Il est important d'être conscient des biais potentiels et d'examiner les informations de manière critique pour arriver à une compréhension plus équilibrée.",
+      "correction": "Bien que les biais puissent influencer notre jugement, ce n'est pas toujours le cas. Il est important d'être conscient des biais potentiels et d'examiner les informations de manière critique afin d'arriver à une compréhension plus équilibrée.",
+      "description": "The phrase 'ils ne le font pas toujours' is less idiomatic than 'ce n'est pas toujours le cas' in French. 'Pour arriver à une compréhension plus équilibrée' can be improved to 'afin d'arriver à une compréhension plus équilibrée' for better stylistic flow. These changes enhance lexical precision and naturalness.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Critical_Thinking.slm.md",
+    "language": "French",
+    "timestamp": "2025-10-03T22:21:31.976803",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 4,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.5,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

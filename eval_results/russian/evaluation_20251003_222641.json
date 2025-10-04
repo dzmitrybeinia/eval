@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "приверяют к позитивным отношениям в сообществе",
+      "correction": "приводят к позитивным отношениям в сообществе",
+      "description": "The word 'приверяют' is a lexical error; it is not a standard Russian verb and does not convey the intended meaning. The correct verb is 'приводят', which means 'lead to' or 'result in', and fits the context of positive relationships in the community. This error affects comprehension and should be corrected for clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "так как оно заставляет нас активно сознаемо задуматься о чувствах других",
+      "correction": "так как оно заставляет нас активно и осознанно задуматься о чувствах других",
+      "description": "The phrase 'активно сознаемо' is ungrammatical and unnatural in Russian. The correct collocation is 'активно и осознанно', which means 'actively and consciously'. This correction improves both grammatical accuracy and naturalness of expression.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Согласование также важное качество",
+      "correction": "Согласование также является важным качеством",
+      "description": "The phrase 'Согласование также важное качество' lacks the necessary verb and proper case agreement. The corrected version 'Согласование также является важным качеством' includes the verb 'является' and the instrumental case 'важным качеством', which is required after 'являться'. This correction ensures grammatical correctness and clarity.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Kindness_Matters.slm.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T22:26:41.568035",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.2,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.8,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.8,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

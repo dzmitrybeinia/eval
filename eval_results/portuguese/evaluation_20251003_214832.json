@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Cornell Notes",
+      "correction": "Método Cornell",
+      "description": "The term 'Cornell Notes' is presented in English within a Portuguese educational context. For Brazilian Portuguese audiences, it is more natural and locally accepted to use 'Método Cornell' or 'Notas Cornell' to refer to this note-taking strategy. Using the English term may reduce accessibility and naturalness for learners unfamiliar with English terminology.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Survey, Question, Read, Recite, Review",
+      "correction": "Explorar, Questionar, Ler, Recitar, Revisar",
+      "description": "The SQ3R method steps are listed in English, which is not appropriate for a Brazilian Portuguese educational context. The terms should be localized to their standard Portuguese equivalents to ensure comprehension and cultural relevance. Using English terms may hinder understanding for learners who are not familiar with English.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Study_Skills.llm.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T21:48:32.645740",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.4,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

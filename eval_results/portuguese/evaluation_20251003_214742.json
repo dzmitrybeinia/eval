@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "drum machines",
+      "correction": "caixas de ritmos",
+      "description": "The term 'drum machines' is left in English within a Portuguese context. For Brazilian Portuguese audiences, the locally accepted term is 'caixas de ritmos'. Using the English term may reduce clarity and naturalness for learners unfamiliar with music technology jargon.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "sampling",
+      "correction": "sampleamento",
+      "description": "The word 'sampling' is presented in English, which may not be immediately clear to all Brazilian Portuguese learners. The more natural and locally accepted term is 'sampleamento'. This improves comprehension and aligns with industry-standard terminology in Brazil.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "DJing",
+      "correction": "discotecagem",
+      "description": "The term 'DJing' is an anglicism that can be replaced with the more natural and widely used Brazilian Portuguese term 'discotecagem'. This enhances the cultural appropriateness and naturalness of the content for local learners.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "Sinfonia nº 40",
+      "correction": "Sinfonia nº 40",
+      "description": "While the use of 'nº' for numbering is acceptable in Brazilian Portuguese, the full format for classical works often includes the key (e.g., 'Sinfonia nº 40 em Sol menor'). Including the key would provide greater clarity and align with local conventions for referencing classical music pieces.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "Sinfonia nº 9",
+      "correction": "Sinfonia nº 9",
+      "description": "Similar to the previous issue, the reference to Beethoven's 'Sinfonia nº 9' would be more complete and locally conventional if the key and opus number were included (e.g., 'Sinfonia nº 9 em Ré menor, Op. 125'). This enhances precision and educational value.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Music_Genres.llm.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T21:47:42.378373",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.2,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 0.8,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 5,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.8,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

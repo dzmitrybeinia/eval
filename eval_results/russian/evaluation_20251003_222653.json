@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Киберугрозы обычно не способны нанести значительный вреда.",
+      "correction": "Киберугрозы обычно не способны нанести значительный вред.",
+      "description": "The word 'вреда' is incorrectly used in the accusative case; it should be 'вред' (accusative singular, masculine noun) after 'нанести'. This is a grammatical error affecting noun case agreement and must be corrected for proper Russian syntax.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Вирусное ПО обычно негативно влияет на компьютер, иногда сказывая неприятные последствия, такие как замедление производительности или утечка личных данных.",
+      "correction": "Вирусное ПО обычно негативно влияет на компьютер, иногда вызывая неприятные последствия, такие как замедление производительности или утечка личных данных.",
+      "description": "The verb 'сказывая' is incorrectly used here; the correct verb is 'вызывая' to indicate that the software causes negative consequences. 'Сказываться' means 'to have an effect' but is not idiomatic in this context. This is a lexical error affecting the naturalness and clarity of the statement.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Приложения Android, как и любой другой операционный системный дистрибутив, могут иметь возможность получать обновления безопасности через Google Play Store.",
+      "correction": "Приложения Android, как и любое другое программное обеспечение, могут получать обновления безопасности через Google Play Store.",
+      "description": "The phrase 'операционный системный дистрибутив' is not appropriate in this context. The correct term is 'программное обеспечение' (software), which is standard and clear for Russian speakers. The original wording is a lexical and terminology error that may confuse learners.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Online_Safety.slm.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T22:26:53.586589",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.3,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.7,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.7,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

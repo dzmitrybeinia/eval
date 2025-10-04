@@ -1,0 +1,75 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Błędy są zawsódami, które powinniśmy unikawać.",
+      "correction": "Błędy są przeszkodami, których powinniśmy unikać.",
+      "description": "The word 'zawsódami' is a misspelling and not a valid Polish word; the intended meaning is likely 'przeszkodami' (obstacles). Additionally, 'unikawać' is a misspelling of 'unikać'. Both errors significantly affect comprehension and grammatical correctness.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Akceptując błędy jako punktowy punkt rozwijania, możemy nauczyć się, co działa i jak poprawić nasze podejście.",
+      "correction": "Akceptując błędy jako punkt wyjścia do rozwoju, możemy nauczyć się, co działa i jak poprawić nasze podejście.",
+      "description": "The phrase 'punktowy punkt rozwijania' is grammatically incorrect and unnatural in Polish. The correct expression should be 'punkt wyjścia do rozwoju', which accurately conveys the idea of using mistakes as a starting point for growth.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Znajmując sposoby rozciągnięcia się poza komfortową zakończoną myślą, podejście rozwojowe pozwala na rozmieszczenie możliwości rozwiązywania problemów.",
+      "correction": "Poznając sposoby wyjścia poza strefę komfortu, podejście rozwojowe pozwala na poszukiwanie różnych możliwości rozwiązywania problemów.",
+      "description": "The phrase 'Znajmując sposoby rozciągnięcia się poza komfortową zakończoną myślą' is semantically and syntactically incorrect; 'znajmując' is not used in this context, and 'komfortowa zakończona myśl' is unnatural. 'Rozmieszczenie możliwości rozwiązywania problemów' is also incorrect; 'poszukiwanie różnych możliwości rozwiązywania problemów' is the proper phrase.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Podejście rozwojowe jest postrzegane jako koncepcja pozytywnej, skupionej na rozszerzaniu możliwości przez działania i rozumowanie.",
+      "correction": "Podejście rozwojowe jest postrzegane jako pozytywna koncepcja, skupiona na rozszerzaniu możliwości poprzez działania i rozumowanie.",
+      "description": "The phrase 'koncepcja pozytywnej, skupionej' is grammatically incorrect due to gender and case mismatch. The correct form is 'pozytywna koncepcja, skupiona', ensuring proper adjective-noun agreement.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Sugeruje, że w porządku z rozwiązywaniem problemów, szczególnie jeśli jest to trudne, wartościowo jest uzyskana.",
+      "correction": "Sugeruje, że rozwiązywanie problemów, szczególnie gdy jest trudne, jest wartościowe.",
+      "description": "The sentence structure is incorrect and unnatural. 'W porządku z rozwiązywaniem problemów' and 'wartościowo jest uzyskana' do not make sense in Polish. The corrected version conveys the intended meaning in a grammatically correct and natural way.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Sugeruje, że podwajanie się poprzez wyzwania, a nie odpustanie, może prowadzić do wzrostu umiejętności i osobistego rozwoju, co jest przeciwnym do założenia, że jest to skomplikowane i nie jest przydatne.",
+      "correction": "Sugeruje, że podejmowanie wyzwań, a nie poddawanie się, może prowadzić do wzrostu umiejętności i osobistego rozwoju, co jest przeciwne założeniu, że jest to skomplikowane i nieprzydatne.",
+      "description": "The phrase 'podwajanie się poprzez wyzwania' is a lexical error; the intended meaning is 'podejmowanie wyzwań'. 'Odpustanie' is not a valid Polish word; the correct term is 'poddawanie się'. The sentence also contains unnatural phrasing that affects clarity.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Growth_Mindset.slm.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T22:16:14.497243",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 8.2,
+    "classification": "PROFESSIONAL",
+    "total_issues": 6,
+    "total_penalty": 1.8,
+    "issue_breakdown": {
+      "linguistic": 6,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.8,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

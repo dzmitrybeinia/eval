@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Junkfood und zuckerhaltige Snacks können Energieabfälle und Konzentrationsprobleme verursachen.",
+      "correction": "Fett- und zuckerreiche Snacks können Energieabfälle und Konzentrationsprobleme verursachen.",
+      "description": "The term 'Junkfood' is an anglicism and is less commonly used in educational German texts, especially for younger audiences or formal contexts. A more natural and culturally appropriate expression would be 'fett- und zuckerreiche Snacks' or 'ungesunde Snacks'. This improves the naturalness and clarity of the content for German-speaking learners.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Wo möglich, auf unverarbeitete Lebensmittel zurückgreifen.",
+      "correction": "Wo möglich, unverarbeitete Lebensmittel wählen.",
+      "description": "The phrase 'auf ... zurückgreifen' is slightly formal and less natural in everyday German, especially in educational contexts for younger audiences. 'Unverarbeitete Lebensmittel wählen' is a more direct and natural way to encourage healthy choices, improving the tone and accessibility of the content.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Healthy_Eating.llm.md",
+    "language": "German",
+    "timestamp": "2025-10-03T21:44:13.510421",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

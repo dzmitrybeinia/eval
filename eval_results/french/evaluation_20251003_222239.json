@@ -1,0 +1,35 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Il est crucial de préserver votre confidentialité en ligne pour protéger vous-même et votre famille.",
+      "correction": "Il est crucial de préserver votre confidentialité en ligne pour vous protéger, ainsi que votre famille.",
+      "description": "The original sentence contains a grammatical error in the reflexive construction 'protéger vous-même', which is incorrect in French. The correct form is 'vous protéger'. Additionally, the phrase 'protéger vous-même et votre famille' is awkward; 'vous protéger, ainsi que votre famille' is more natural and clear. This correction improves both grammatical accuracy and clarity.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Online_Safety.slm.md",
+    "language": "French",
+    "timestamp": "2025-10-03T22:22:39.305595",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "これにより、助けることができる状況に己がることが保証されます。",
+      "correction": "これにより、助けることができる状況に身を置くことが保証されます。",
+      "description": "The phrase '己がる' is not a correct or standard Japanese expression. The intended meaning is to ensure that one is in a position to help, which should be expressed as '身を置く'. This correction improves grammatical accuracy and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "紙箊",
+      "correction": "包帯",
+      "description": "The term '紙箊' is not a standard Japanese word and appears to be a misspelling or incorrect kanji usage. The correct term for a bandage in Japanese is '包帯'. This correction ensures proper terminology and orthographic accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "。.",
+      "correction": "。",
+      "description": "The use of both a Japanese full stop '。' and an English period '.' at the end of sentences is incorrect. Only the Japanese full stop '。' should be used in Japanese text. This correction applies to all instances where '。.' appears.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "First_Aid_Basics.slm.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-03T22:37:59.960596",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.3,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.7,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.7,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

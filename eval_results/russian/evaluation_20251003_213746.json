@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Река Нил обеспечивал водой, плодородной почвой и транспортной артерией, формируя развитие одной из самых выдающихся цивилизаций в истории.",
+      "correction": "Река Нил обеспечивала водой, плодородной почвой и транспортной артерией, формируя развитие одной из самых выдающихся цивилизаций в истории.",
+      "description": "The verb 'обеспечивал' is incorrectly conjugated for the feminine noun 'река'. It should be 'обеспечивала' to agree in gender and number. This grammatical error affects the sentence's correctness and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Река Нил служила природным шоссе, облегчая транспортировку и торговлю.",
+      "correction": "Река Нил служила природной транспортной артерией, облегчая перевозку и торговлю.",
+      "description": "The term 'природным шоссе' is not a natural or standard expression in Russian for describing a river's role in transportation. 'Природная транспортная артерия' is a more culturally appropriate and commonly used term. Additionally, 'перевозка' is more precise than 'транспортировка' in this context.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Фермеры использовали инструмент \"шадуф\", систему рычага для подъема воды из реки для орошения полей.",
+      "correction": "Фермеры использовали инструмент «шадуф» — систему рычага для подъема воды из реки и орошения полей.",
+      "description": "The sentence uses double 'для' constructions, which is stylistically awkward in Russian. Replacing the comma with an em dash and restructuring the sentence improves naturalness and flow. Also, Russian typographic standards prefer « » for quotes.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "Река Нил протяженностью более 4 000 километров является самой длинной рекой на Земле и служила источником жизни для Древнего Египта.",
+      "correction": "Река Нил протяжённостью более 4000 километров является самой длинной рекой на Земле и служила источником жизни для Древнего Египта.",
+      "description": "The number '4 000' uses a space as a thousands separator, which is acceptable, but in Russian educational and scientific texts, it is more common to write '4000' without a space. Also, the word 'протяженностью' should use the correct diacritic: 'протяжённостью'.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Ancient_Egypt.llm.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T21:37:46.050111",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.3,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.7,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.4,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

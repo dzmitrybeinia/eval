@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "リファイン",
+      "correction": "改良",
+      "description": "The term 'リファイン' is a katakana loanword from English ('refine') and is not commonly used in Japanese design or engineering contexts. The more natural and widely accepted term is '改良', which better fits the professional and educational tone of the content. Using '改良' improves clarity and aligns with standard Japanese terminology.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "🌟",
+      "correction": "",
+      "description": "The use of the star emoji '🌟' in educational content may be considered informal and less appropriate for professional or academic materials in Japanese. While emojis can add friendliness, they may detract from the seriousness and credibility of the lesson, especially for older students or formal settings. It is recommended to remove the emoji for a more neutral and professional tone.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Design_Process.llm.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-03T21:50:19.859567",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

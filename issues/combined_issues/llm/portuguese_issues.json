@@ -1,25 +1,63 @@
 {
   "metadata": {
     "label": "llm",
-    "label_normalized": "llm",
-    "label_key": "llm",
     "language": "portuguese",
-    "generated_at": "2025-10-03T15:57:57.582102",
+    "generated_at": "2025-10-03T21:53:25.229387",
     "source_files": [
-      "evaluation_20251003_155608.json",
-      "evaluation_20251003_155612.json",
-      "evaluation_20251003_155615.json",
-      "evaluation_20251003_155618.json",
-      "evaluation_20251003_155624.json",
-      "evaluation_20251003_155627.json",
-      "evaluation_20251003_155629.json",
-      "evaluation_20251003_155632.json",
-      "evaluation_20251003_155634.json",
-      "evaluation_20251003_155637.json"
+      "evaluation_20251003_214605.json",
+      "evaluation_20251003_214611.json",
+      "evaluation_20251003_214613.json",
+      "evaluation_20251003_214616.json",
+      "evaluation_20251003_214621.json",
+      "evaluation_20251003_214623.json",
+      "evaluation_20251003_214626.json",
+      "evaluation_20251003_214628.json",
+      "evaluation_20251003_214630.json",
+      "evaluation_20251003_214634.json",
+      "evaluation_20251003_214636.json",
+      "evaluation_20251003_214640.json",
+      "evaluation_20251003_214645.json",
+      "evaluation_20251003_214648.json",
+      "evaluation_20251003_214652.json",
+      "evaluation_20251003_214656.json",
+      "evaluation_20251003_214700.json",
+      "evaluation_20251003_214702.json",
+      "evaluation_20251003_214704.json",
+      "evaluation_20251003_214707.json",
+      "evaluation_20251003_214709.json",
+      "evaluation_20251003_214711.json",
+      "evaluation_20251003_214713.json",
+      "evaluation_20251003_214716.json",
+      "evaluation_20251003_214719.json",
+      "evaluation_20251003_214722.json",
+      "evaluation_20251003_214727.json",
+      "evaluation_20251003_214730.json",
+      "evaluation_20251003_214732.json",
+      "evaluation_20251003_214733.json",
+      "evaluation_20251003_214738.json",
+      "evaluation_20251003_214742.json",
+      "evaluation_20251003_214745.json",
+      "evaluation_20251003_214749.json",
+      "evaluation_20251003_214751.json",
+      "evaluation_20251003_214757.json",
+      "evaluation_20251003_214800.json",
+      "evaluation_20251003_214802.json",
+      "evaluation_20251003_214807.json",
+      "evaluation_20251003_214809.json",
+      "evaluation_20251003_214814.json",
+      "evaluation_20251003_214817.json",
+      "evaluation_20251003_214819.json",
+      "evaluation_20251003_214821.json",
+      "evaluation_20251003_214829.json",
+      "evaluation_20251003_214832.json",
+      "evaluation_20251003_214835.json",
+      "evaluation_20251003_214837.json",
+      "evaluation_20251003_214841.json",
+      "evaluation_20251003_214844.json"
     ],
     "issue_counts": {
-      "linguistic": 14,
-      "localization": 17
+      "linguistic": 58,
+      "localization": 102
     }
   },
   "issues": {
@@ -37,7 +75,7 @@
         "subcategory": "Grammar",
         "original": "Os faraós eram líderes políticos e figuras divinas, escolhidos pelos deuses.",
         "correction": "Os faraós eram líderes políticos e figuras divinas, considerados escolhidos pelos deuses.",
-        "description": "The phrase 'escolhidos pelos deuses' implies a direct selection, which is not entirely accurate in the context of Ancient Egyptian beliefs. Adding 'considerados' clarifies that the pharaohs were regarded as chosen by the gods, improving both grammatical precision and historical accuracy.",
+        "description": "The phrase 'escolhidos pelos deuses' implies a literal selection process, which may misrepresent the historical belief. Adding 'considerados' clarifies that the pharaohs were regarded as chosen by the gods, improving grammatical precision and semantic accuracy.",
         "severity": "MINOR"
       },
       {
@@ -45,7 +83,7 @@
         "subcategory": "Orthography",
         "original": "desertos escaldantes até tundras árticas congelantes",
         "correction": "desertos escaldantes até tundras árticas congelantes",
-        "description": "The phrase is linguistically correct, but the use of 'tundras árticas congelantes' is slightly redundant since 'árticas' already implies coldness. However, this is a stylistic choice and does not constitute an error. No correction needed.",
+        "description": "The phrase is linguistically correct, but the use of 'tundras árticas congelantes' is slightly redundant since 'árticas' already implies coldness. However, this is a stylistic choice and not an error. No correction needed.",
         "severity": "MINOR"
       },
       {
@@ -53,15 +91,31 @@
         "subcategory": "Grammar",
         "original": "Adaptações dos animais são características ou comportamentos que aumentam sua capacidade de sobreviver e se reproduzir em um ambiente.",
         "correction": "Adaptações dos animais são características ou comportamentos que aumentam a capacidade dos animais de sobreviver e se reproduzir em um ambiente.",
-        "description": "The use of 'sua capacidade' is ambiguous because 'sua' could refer to the reader or the animals. For clarity and grammatical precision, 'a capacidade dos animais' should be used to avoid confusion and ensure the subject is clear.",
+        "description": "The use of 'sua capacidade' creates ambiguity regarding the referent (whose capacity). Replacing with 'a capacidade dos animais' clarifies the subject and improves grammatical precision.",
         "severity": "MEDIUM"
       },
       {
         "category": "linguistic",
-        "subcategory": "Lexical",
-        "original": "Camuflagem em animais como camaleões ou tigres, que se misturam ao ambiente para evitar predadores ou capturar presas.",
-        "correction": "Camuflagem em animais como camaleões e tigres, que se misturam ao ambiente para evitar predadores ou capturar presas.",
-        "description": "The use of 'ou' in 'camaleões ou tigres' suggests an exclusive choice, but both animals are examples of camouflage. 'E' is more appropriate to indicate that both are examples, improving lexical precision.",
+        "subcategory": "Orthography",
+        "original": "ex.: pelagem ou garras",
+        "correction": "exemplo: pelagem ou garras",
+        "description": "The abbreviation 'ex.' is not standard in Brazilian Portuguese educational texts. Using 'exemplo:' is clearer and more appropriate for the context.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Estratégias de caça, como lobos que caçam em grupos para capturar presas de forma eficiente.",
+        "correction": "Estratégias de caça, como lobos que caçam em grupo para capturar presas de forma eficiente.",
+        "description": "The phrase 'em grupos' is acceptable, but 'em grupo' is more idiomatic in Brazilian Portuguese when referring to animals hunting together. This improves naturalness and grammatical accuracy.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Ratos-canguru que sobrevivem sem beber água ao extrair umidade dos alimentos e produzir urina concentrada;",
+        "correction": "Ratos-canguru que sobrevivem sem beber água, extraindo umidade dos alimentos e produzindo urina concentrada;",
+        "description": "The original sentence uses 'ao extrair' and 'produzir' in a way that can be improved for clarity and parallel structure. Changing to 'extraindo' and 'produzindo' creates a clearer, more natural sequence of actions.",
         "severity": "MINOR"
       },
       {
@@ -69,7 +123,7 @@
         "subcategory": "Orthography",
         "original": "A álgebra é uma parte fascinante da matemática que utiliza símbolos, letras e números para representar relações e resolver problemas.",
         "correction": "A álgebra é uma parte fascinante da matemática que utiliza símbolos, letras e números para representar relações e resolver problemas.",
-        "description": "No linguistic errors found. The sentence is correctly written in terms of spelling, accentuation, and punctuation. No correction needed.",
+        "description": "No linguistic or orthographic errors are present in this sentence. The use of accent marks and spelling is correct. No correction needed.",
         "severity": "MINOR"
       },
       {
@@ -77,63 +131,399 @@
         "subcategory": "Grammar",
         "original": "Símbolos que representam valores desconhecidos ou variáveis.",
         "correction": "Símbolos que representam valores desconhecidos ou que podem variar.",
-        "description": "The phrase 'valores desconhecidos ou variáveis' is grammatically ambiguous, as 'variáveis' is an adjective but used as a noun. For clarity and correctness, it should be 'valores desconhecidos ou que podem variar', which maintains parallel structure and precise meaning.",
+        "description": "The phrase 'valores desconhecidos ou variáveis' is grammatically ambiguous, as 'variáveis' is an adjective but is used as a noun. For clarity and grammatical correctness, it should be 'valores desconhecidos ou que podem variar', which matches the definition provided earlier and maintains proper agreement.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Degradam materiais de resíduos e reciclam partes antigas da célula.",
+        "correction": "Degradam materiais residuais e reciclam partes antigas da célula.",
+        "description": "The phrase 'materiais de resíduos' is incorrect; the proper term is 'materiais residuais', which means waste materials. The original wording is a literal translation and does not conform to standard Portuguese usage.",
         "severity": "MEDIUM"
       },
       {
         "category": "linguistic",
         "subcategory": "Lexical",
-        "original": "Neste aprendizado, exploraremos as principais organelas de uma célula e entenderemos como elas trabalham juntas para manter a célula viva e funcionando.",
-        "correction": "Nesta aula, exploraremos as principais organelas de uma célula e entenderemos como elas trabalham juntas para manter a célula viva e funcionando.",
-        "description": "The word 'aprendizado' is not the most appropriate lexical choice in this educational context. In Brazilian Portuguese, 'aula' or 'lição' is more natural and commonly used to refer to a lesson or instructional segment. 'Aprendizado' refers to the process of learning, not the lesson itself. This affects both linguistic precision and localization naturalness.",
-        "severity": "MEDIUM"
-      },
-      {
-        "category": "linguistic",
-        "subcategory": "Grammar",
-        "original": "Lisossomos: Degradam materiais de resíduos e reciclam partes antigas da célula.",
-        "correction": "Lisossomos: Degradam materiais residuais e reciclam partes antigas da célula.",
-        "description": "The phrase 'materiais de resíduos' is grammatically incorrect; the correct form is 'materiais residuais', which properly uses the adjective to describe the type of materials. This correction improves grammatical accuracy and clarity.",
-        "severity": "MEDIUM"
-      },
-      {
-        "category": "linguistic",
-        "subcategory": "Orthography",
         "original": "dessegregação",
-        "correction": "dessegregação",
-        "description": "The word 'dessegregação' is orthographically correct in Portuguese, but it is a rare term and may sound unnatural to Brazilian readers. The more commonly used term is 'fim da segregação' or 'abolição da segregação'. Using 'dessegregação' is not incorrect, but for clarity and naturalness, 'fim da segregação' is recommended.",
+        "correction": "fim da segregação",
+        "description": "The word 'dessegregação' is not commonly used in Brazilian Portuguese and may sound unnatural or overly technical. The more natural and widely understood phrase is 'fim da segregação', which better conveys the intended meaning in a clear and accessible way.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "autossuficiência",
+        "correction": "autossuficiência",
+        "description": "The spelling 'autossuficiência' is correct according to the Portuguese Language Orthographic Agreement. No correction is needed, but it is important to note that this word is sometimes misspelled as 'auto-suficiência'.",
         "severity": "MINOR"
       },
       {
         "category": "linguistic",
         "subcategory": "Orthography",
-        "original": "temperatura e precipitação",
-        "correction": "temperaturas e precipitações",
-        "description": "The nouns 'temperatura' and 'precipitação' should be in the plural form to agree with 'características climáticas semelhantes', which refers to multiple features. This ensures proper number agreement and clarity in the context of describing climate zones.",
+        "original": "Aquecimento Desigual",
+        "correction": "Aquecimento desigual",
+        "description": "In Brazilian Portuguese, only the first word of a section title or bullet point should be capitalized unless it is a proper noun. 'Desigual' should not be capitalized here, as it is not a proper noun. This improves orthographic consistency and aligns with standard formatting conventions.",
         "severity": "MINOR"
       },
       {
         "category": "linguistic",
         "subcategory": "Orthography",
-        "original": "idade usuario",
-        "correction": "idade_usuario",
-        "description": "The variable name 'idade usuario' contains a space, which is invalid in both Python syntax and standard Portuguese orthography for variable naming. The correct form uses an underscore to separate words, following both programming conventions and Portuguese readability standards.",
-        "severity": "HIGH"
+        "original": "Verdadeiro ou Falso.",
+        "correction": "Verdadeiro ou falso.",
+        "description": "The word 'Falso' is unnecessarily capitalized. In Portuguese, adjectives and common nouns should not be capitalized unless they begin a sentence. This correction ensures proper orthographic standards.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Este é o laço número",
+        "correction": "Este é o laço número",
+        "description": "The word 'laço' is used here to mean 'loop' in programming. While 'laço' is a valid term in Brazilian Portuguese for 'loop', it can sometimes be confused with 'laço' meaning 'bow' or 'tie'. However, in the context of programming, 'laço' is accepted and correct. No orthographic error is present, but educators should clarify the meaning to avoid confusion for beginners.",
+        "severity": "MINOR"
       },
       {
         "category": "linguistic",
         "subcategory": "Grammar",
         "original": "Trabalhem juntos para achar opções que atendam todos.",
         "correction": "Trabalhem juntos para achar opções que atendam a todos.",
-        "description": "The sentence is missing the preposition 'a' before 'todos', which is required in Brazilian Portuguese to indicate the indirect object. The correct form is 'atendam a todos'. This error affects grammatical accuracy and clarity.",
+        "description": "The sentence is missing the preposition 'a' before 'todos', which is required for correct grammatical structure in Brazilian Portuguese. The verb 'atender' in this context requires the preposition to indicate the indirect object. This error affects grammatical accuracy and should be corrected.",
         "severity": "MEDIUM"
       },
       {
         "category": "linguistic",
         "subcategory": "Orthography",
-        "original": "Buscar informações que apoiem crenças pré-existentes.",
-        "correction": "Buscar informações que apoiem crenças preexistentes.",
-        "description": "The word 'pré-existentes' should be written as 'preexistentes' without the hyphen, according to the current Portuguese orthographic agreement. This is a minor orthographic error that does not affect comprehension but should be corrected for standardization.",
+        "original": "O Dia dos Mortos no México é uma tradição de honra aos entes queridos falecidos, celebrado com altares decorados, flores, caveiras de açúcar e desfiles.",
+        "correction": "O Dia dos Mortos no México é uma tradição de homenagem aos entes queridos falecidos, celebrado com altares decorados, flores, caveiras de açúcar e desfiles.",
+        "description": "The phrase 'tradição de honra aos entes queridos falecidos' is not idiomatic in Portuguese. The correct and natural expression is 'tradição de homenagem aos entes queridos falecidos.' This correction improves lexical precision and naturalness, ensuring the text is both linguistically accurate and culturally appropriate.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "A estrutura do DNA é um formato de dupla hélice, semelhante a uma escada torcida.",
+        "correction": "A estrutura do DNA é uma dupla hélice, semelhante a uma escada torcida.",
+        "description": "The phrase 'um formato de dupla hélice' is not idiomatic in Brazilian Portuguese scientific writing. The correct and natural expression is 'uma dupla hélice', which directly refers to the structure without unnecessary wording. This improves lexical precision and clarity.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "A replicação é \"semi-conservativa\", pois cada nova molécula contém uma fita original e uma recém-sintetizada.",
+        "correction": "A replicação é \"semiconservativa\", pois cada nova molécula contém uma fita original e uma recém-sintetizada.",
+        "description": "The term 'semi-conservativa' should be written as 'semiconservativa' in Brazilian Portuguese, following standard scientific terminology and correct compound word formation. This ensures grammatical and terminological accuracy.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "café da manhã",
+        "correction": "café da manhã",
+        "description": "The phrase 'café da manhã' is correct in Brazilian Portuguese for 'breakfast.' However, in some educational contexts, especially for younger audiences or in certain regions, 'desjejum' may be used as a more formal or technical term. No orthographic error is present, but educators should be aware of regional preferences. No correction needed.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "A escolha ideal integra emoção e lógica, garantindo satisfação e estabilidade.",
+        "correction": "A escolha ideal integra emoção e lógica, garantindo satisfação e estabilidade.",
+        "description": "The sentence is grammatically correct, with proper verb conjugation and agreement. However, the use of 'integra' (singular) matches 'a escolha ideal' (singular), and 'garantindo' correctly refers to the result of the integration. No correction needed.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Compreender a ciência por trás da tomada de decisões nos capacita a controlar nossas escolhas e navegar pela vida com maior confiança e clareza.",
+        "correction": "Compreender a ciência por trás da tomada de decisões nos capacita a controlar nossas escolhas e navegar pela vida com mais confiança e clareza.",
+        "description": "The phrase 'com maior confiança e clareza' is grammatically correct, but 'com mais confiança e clareza' is more idiomatic in Brazilian Portuguese. The use of 'maior' is acceptable but less natural in this context. Correction improves naturalness and idiomatic usage.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Construção de um protótipo de carro movido a energia solar para testar sua eficiência energética.",
+        "correction": "Construção de um protótipo de carro movido à energia solar para testar sua eficiência energética.",
+        "description": "The sentence is missing the mandatory crase ('à') in 'movido à energia solar', as the verb 'movido' requires the preposition 'a' followed by the feminine noun 'energia', resulting in the contraction 'à'. This is a common orthographic error in Portuguese and affects grammatical correctness.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Redesenhar a estrutura de uma ponte após testes revelarem fraquezas em sua capacidade de suporte.",
+        "correction": "Redesenhar a estrutura de uma ponte após os testes revelarem fraquezas em sua capacidade de suporte.",
+        "description": "The sentence omits the definite article 'os' before 'testes', which is required for grammatical correctness in this context. In Portuguese, when referring to specific tests previously mentioned, the definite article should be used. This omission affects the clarity and grammatical accuracy of the sentence.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Cyberbullying",
+        "correction": "cyberbullying",
+        "description": "The term 'Cyberbullying' appears capitalized in several places, but in Brazilian Portuguese, loanwords such as 'cyberbullying' should be written in lowercase unless they begin a sentence or are part of a title. This ensures orthographic consistency and aligns with standard usage in educational contexts.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Usar ferramentas como dedos ou tecidos para suavizar traços.",
+        "correction": "Usar ferramentas como dedos ou papel para suavizar traços.",
+        "description": "The use of 'tecidos' (fabrics) is not standard in Brazilian Portuguese drawing terminology for blending or smudging. The more common and precise term is 'papel' (paper), such as 'papel higiênico' or 'papel toalha', or 'esfuminho' (blending stump). Using 'tecidos' may confuse learners and does not reflect typical practice. This is a lexical and terminology issue affecting clarity and professional accuracy.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Adicione linhas de contorno cruzadas para mostrar as curvas e dobras da pele, tornando o desenho mais realista.",
+        "correction": "Adicione linhas de contorno cruzadas para mostrar as curvas e as dobras da pele, tornando o desenho mais realista.",
+        "description": "There is a missing article before 'dobras' in the phrase 'as curvas e dobras da pele'. In Portuguese, when listing two nouns with a shared article, the article should be repeated if the nouns are not closely related or to avoid ambiguity. The correct form is 'as curvas e as dobras da pele'. This is a grammar issue affecting clarity and correctness.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Autorregulação é a capacidade de gerenciar suas emoções e comportamentos de forma produtiva e apropriada.",
+        "correction": "Autorregulação é a capacidade de gerenciar suas emoções e comportamentos de maneira produtiva e apropriada.",
+        "description": "The use of 'de forma' is grammatically correct but less idiomatic in Brazilian Portuguese compared to 'de maneira', which is more natural in this context. This lexical choice improves the flow and naturalness of the sentence.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Como ele é expressado?",
+        "correction": "Como ele é expresso?",
+        "description": "The verb 'expressado' is incorrect in Brazilian Portuguese; the correct past participle is 'expresso'. The phrase should use 'expresso' to maintain proper lexical and grammatical accuracy. Additionally, this correction ensures the sentence aligns with standard usage for describing how emotions are manifested.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "O Coração Delator",
+        "correction": "O Coração Denunciador",
+        "description": "The title 'O Coração Delator' is a literal translation of Edgar Allan Poe's 'The Tell-Tale Heart', but the most widely accepted and published translation in Brazilian Portuguese is 'O Coração Denunciador'. Using the standard title improves lexical precision and aids recognition among Brazilian readers.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Sinto muito por sua prova. Deve ser bem decepcionante. Posso ajudar de alguma forma?",
+        "correction": "Sinto muito pelo resultado da sua prova. Deve ser bem decepcionante. Posso ajudar de alguma forma?",
+        "description": "The phrase 'por sua prova' is ambiguous and not idiomatic in Brazilian Portuguese. The correct and natural way to express empathy regarding someone's performance in a test is 'pelo resultado da sua prova'. This correction improves clarity and aligns with standard usage.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "O ponto marcado por um lápis no papel é um exemplo de ponto.",
+        "correction": "O ponto marcado por um lápis no papel é um exemplo de ponto.",
+        "description": "No linguistic errors found. The sentence is grammatically correct and uses proper spelling and punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Um ângulo é formado quando duas linhas ou raios se encontram em um ponto chamado vértice.",
+        "correction": "Um ângulo é formado quando duas linhas ou dois raios se encontram em um ponto chamado vértice.",
+        "description": "The phrase 'duas linhas ou raios' lacks parallel structure and agreement. It should be 'duas linhas ou dois raios' to maintain grammatical consistency and clarity.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Encargado de criar e aprovar leis.",
+        "correction": "Responsável por criar e aprovar leis.",
+        "description": "The word 'Encargado' is a Spanish loanword and not standard in Brazilian Portuguese. The correct term is 'Responsável', which is the appropriate and natural word choice in this context. This lexical error affects the clarity and professionalism of the educational content.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Ela persistiu, aprendeu com os feedbacks e continuou tentando até que seu trabalho fosse publicado.",
+        "correction": "Ela persistiu, aprendeu com os retornos e continuou tentando até que seu trabalho fosse publicado.",
+        "description": "The word 'feedbacks' is an unnecessary anglicism and is not standard in Brazilian Portuguese. The correct and natural term is 'retornos' or 'comentários'. Using 'retornos' ensures lexical precision and maintains the professional tone expected in educational content.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Syntax",
+        "original": "Os alimentos são mais do que algo que consumimos—they são o combustível para todos os processos do nosso corpo.",
+        "correction": "Os alimentos são mais do que algo que consumimos — eles são o combustível para todos os processos do nosso corpo.",
+        "description": "The sentence contains an English dash ('they') instead of the correct Portuguese pronoun 'eles' and uses an incorrect dash format. The dash should be spaced according to Portuguese typographic conventions, and the pronoun must agree with 'alimentos'. This affects both grammatical accuracy and naturalness.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Brócolis cozido no vapor",
+        "correction": "Brócolis cozido no vapor",
+        "description": "No error detected. The phrase is correctly spelled and formatted according to Brazilian Portuguese orthographic rules.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Agrupamento divide informações complexas em unidades menores e mais gerenciáveis.",
+        "correction": "O agrupamento divide informações complexas em unidades menores e mais gerenciáveis.",
+        "description": "The sentence 'Agrupamento divide informações complexas em unidades menores e mais gerenciáveis.' lacks the definite article 'O' before 'agrupamento', which is required for proper grammatical structure in Brazilian Portuguese when introducing a concept in this context. Adding 'O' clarifies the subject and improves sentence flow.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "eólica",
+        "correction": "eólica",
+        "description": "The word 'eólica' is correctly spelled and accented in Brazilian Portuguese. However, in the context 'energia solar, eólica e hidrelétrica', the use of 'eólica' as a noun is acceptable, but it is more precise to use 'energia eólica' to maintain parallelism with 'energia solar' and 'energia hidrelétrica'. This is a minor stylistic improvement rather than a strict linguistic error.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Defender políticas e práticas ambientais.",
+        "correction": "Defender políticas e práticas ambientais.",
+        "description": "The phrase is grammatically correct. However, in Brazilian Portuguese, 'defender' in this context is acceptable, but 'promover' or 'adotar' might be more commonly used when referring to environmental policies and practices. This is a minor lexical nuance, not a strict error.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Ameaças cibernéticas são atividades maliciosas que visam roubar, danificar ou interromper informações e sistemas digitais.",
+        "correction": "Ameaças cibernéticas são atividades maliciosas que visam roubar, danificar ou interromper informações e sistemas digitais.",
+        "description": "No linguistic errors found in this sentence. The orthography, punctuation, and accentuation are correct. No correction needed.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Desconfie de mensagens urgentes pedindo informações ou pagamentos.",
+        "correction": "Desconfie de mensagens urgentes que peçam informações ou pagamentos.",
+        "description": "The original sentence uses a gerund ('pedindo') which is grammatically acceptable, but the use of the subjunctive ('que peçam') is more precise and formal in this context, improving grammatical accuracy and clarity.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "não metais",
+        "correction": "não-metais",
+        "description": "The term 'não metais' should be hyphenated as 'não-metais' according to Brazilian Portuguese orthographic rules for compound nouns. This ensures correct spelling and clarity in scientific terminology.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "semimetais",
+        "correction": "semi-metais",
+        "description": "The correct spelling in Brazilian Portuguese for this scientific term is 'semi-metais' with a hyphen, following the orthographic rules for prefixes. This improves lexical precision and aligns with standard chemistry terminology.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Construindo Argumentos Convincente com Ethos, Pathos e Logos",
+        "correction": "Construindo Argumentos Convincentes com Ethos, Pathos e Logos",
+        "description": "The word 'Convincente' is incorrectly used in the singular form, while 'Argumentos' is plural. Adjectives in Portuguese must agree in number with the nouns they modify. The correct form is 'Convincentes' to match the plural 'Argumentos'. This error affects grammatical agreement and clarity.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Limerique",
+        "correction": "Limerique",
+        "description": "The term 'Limerique' is a direct adaptation of the English 'limerick' and is not widely accepted or standard in Brazilian Portuguese. The more commonly used term is 'limerique' (without the accent), but even this is rare and not officially recognized by major dictionaries. For educational content, it is important to clarify that this is a borrowed term and provide context for its usage, as it may not be familiar to all readers. Additionally, the spelling should remain consistent throughout the lesson.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Que sonhava que comia seu sapato.",
+        "correction": "Que sonhava que comia o seu sapato.",
+        "description": "In Brazilian Portuguese, the use of the definite article 'o' before 'seu sapato' is more natural and grammatically correct, especially in poetic or narrative contexts. Omitting the article can make the sentence sound abrupt or less idiomatic.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "artigo de notícias",
+        "correction": "artigo de notícia",
+        "description": "In Brazilian Portuguese, 'notícia' is typically used in the singular when referring to a news article ('artigo de notícia'). The plural form 'notícias' is used when referring to multiple news items or articles. In this context, the singular is more precise and idiomatic, improving the linguistic accuracy and naturalness of the phrase.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Estatísticas sobre aumento de temperatura, exemplos de espécies afetadas e citações de cientistas.",
+        "correction": "Estatísticas sobre o aumento da temperatura, exemplos de espécies afetadas e citações de cientistas.",
+        "description": "The phrase 'aumento de temperatura' is missing the definite article 'o' and the preposition 'da' to indicate 'the increase in temperature' ('o aumento da temperatura'). This omission affects grammatical correctness and clarity, as the article and preposition are required for proper noun phrase construction in Portuguese.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "É a partir de uma observação que surgem perguntas e curiosidade para investigar mais.",
+        "correction": "É a partir de uma observação que surgem perguntas e curiosidades para investigar mais.",
+        "description": "The noun 'curiosidade' should be in the plural form 'curiosidades' to maintain parallelism and agreement with 'perguntas', as both are items that arise from observation. This correction improves grammatical accuracy and clarity.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "gás hélio",
+        "correction": "gás hélio",
+        "description": "Although 'gás hélio' is technically correct, the more natural and precise term in Brazilian Portuguese is simply 'hélio' when referring to the element as an example of a gas. The use of 'gás' before 'hélio' is redundant, as 'hélio' is universally understood as a gas in this context. However, this is a minor stylistic improvement rather than a strict linguistic error.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "O tema de *O Sol é para Todos* é justiça e a importância da empatia.",
+        "correction": "O tema de *O Sol É Para Todos* é justiça e a importância da empatia.",
+        "description": "The book title 'O Sol é para Todos' should be capitalized according to Brazilian Portuguese title conventions, where all principal words in a title are capitalized. This improves orthographic accuracy and aligns with standard publishing practices.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "O tema de *O Doador de Memórias* é o valor da individualidade e os perigos da conformidade.",
+        "correction": "O tema de *O Doador de Memórias* é o valor da individualidade e os perigos da conformidade.",
+        "description": "The book title 'O Doador de Memórias' is correctly capitalized, following Brazilian Portuguese conventions for titles. No correction needed, but this confirms proper orthographic usage.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "O Islamismo é a segunda maior religião, com mais de 1,9 bilhões de seguidores.",
+        "correction": "O Islamismo é a segunda maior religião, com mais de 1,9 bilhão de seguidores.",
+        "description": "The word 'bilhões' should be singular ('bilhão') because it refers to the quantity '1,9', which is less than 2 and in Portuguese, numbers between 1 and 2 use the singular form. This is a common rule for units of measurement and large numbers in Portuguese.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Fundado por Siddhartha Gautama (Buda) no século V–IV a.C. na Índia.",
+        "correction": "Fundado por Siddhartha Gautama (Buda) nos séculos V–IV a.C. na Índia.",
+        "description": "The correct form is 'nos séculos V–IV a.C.' because the reference is to a period spanning two centuries, requiring the plural 'séculos'.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "O Islamismo influenciou profundamente a arquitetura, ciência e leis.",
+        "correction": "O Islamismo influenciou profundamente a arquitetura, a ciência e as leis.",
+        "description": "The sentence omits the definite articles before 'ciência' and 'leis', which is required for proper enumeration in Portuguese. The corrected version adds 'a' before 'ciência' and 'as' before 'leis' to ensure grammatical accuracy and naturalness.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "É a segunda maior religião do mundo, com mais de 1,8 bilhões de seguidores.",
+        "correction": "É a segunda maior religião do mundo, com mais de 1,8 bilhão de seguidores.",
+        "description": "The word 'bilhões' should be singular ('bilhão') because it refers to '1,8', which in Portuguese is treated as a singular quantity (one point eight billion). The plural form is only used for numbers greater than one in whole numbers.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "É praticado por mais de 1 bilhão de pessoas, principalmente na Índia e Nepal.",
+        "correction": "É praticado por mais de 1 bilhão de pessoas, principalmente na Índia e no Nepal.",
+        "description": "The sentence omits the definite article 'no' before 'Nepal', which is required for correct prepositional use in Portuguese when referring to countries. The corrected version adds 'no Nepal' for grammatical accuracy.",
         "severity": "MINOR"
       }
     ],
@@ -151,7 +541,7 @@
         "subcategory": "Terminology",
         "original": "A sociedade era hierárquica, com o faraó no topo, seguido por sacerdotes, nobres, soldados, comerciantes e agricultores.",
         "correction": "A sociedade era hierárquica, com o faraó no topo, seguido por sacerdotes, nobres, soldados, artesãos, comerciantes e agricultores.",
-        "description": "The omission of 'artesãos' (artisans) from the social hierarchy is a cultural inaccuracy, as artisans played a significant role in Ancient Egyptian society. Including 'artesãos' ensures the content is both historically accurate and culturally appropriate for educational purposes.",
+        "description": "The omission of 'artesãos' (artisans) from the social structure list is a cultural inaccuracy, as artisans played a significant role in Ancient Egyptian society. Including 'artesãos' ensures the terminology is historically and culturally accurate for educational purposes.",
         "severity": "MEDIUM"
       },
       {
@@ -159,15 +549,15 @@
         "subcategory": "Style",
         "original": "Vamos explorar como essas adaptações permitem que os animais enfrentem os desafios do ambiente. 🌍",
         "correction": "Vamos explorar como essas adaptações permitem que os animais enfrentem os desafios do ambiente.",
-        "description": "The use of the globe emoji (🌍) may not be appropriate in formal educational content for Brazilian Portuguese, as it can be perceived as informal or distracting in academic contexts. Removing the emoji improves the professional tone.",
+        "description": "The use of the globe emoji (🌍) may not be appropriate for formal educational content in Brazilian Portuguese, as it can be perceived as informal or distracting in academic contexts. Removing the emoji improves the professional tone.",
         "severity": "MINOR"
       },
       {
         "category": "localization",
         "subcategory": "Terminology",
-        "original": "Ratos-canguru que sobrevivem sem beber água ao extrair umidade dos alimentos e produzir urina concentrada",
-        "correction": "Ratos-canguru que sobrevivem sem beber água ao extrair umidade dos alimentos e produzir urina concentrada",
-        "description": "The term 'ratos-canguru' is correct in Brazilian Portuguese for 'kangaroo rats', but it may be unfamiliar to some students. Consider adding a brief parenthetical explanation or image in educational materials to ensure comprehension, though the terminology itself is accurate.",
+        "original": "Camuflagem em animais como camaleões ou tigres, que se misturam ao ambiente para evitar predadores ou capturar presas.",
+        "correction": "Camuflagem em animais como camaleões ou tigres, que se misturam ao ambiente para evitar predadores ou capturar presas.",
+        "description": "The terminology and examples are appropriate for Brazilian Portuguese and culturally relevant. No correction needed.",
         "severity": "MINOR"
       },
       {
@@ -175,16 +565,24 @@
         "subcategory": "Style",
         "original": "Vamos começar! 🎓",
         "correction": "Vamos começar!",
-        "description": "The use of the graduation cap emoji (🎓) may not be appropriate in formal educational content, especially for older students or in professional settings. Removing the emoji ensures a more neutral and universally accepted tone.",
+        "description": "The use of the graduation cap emoji (🎓) may not be appropriate in formal educational content for Brazilian Portuguese, as it can be perceived as informal or playful. Removing the emoji ensures a more professional and culturally neutral tone.",
         "severity": "MINOR"
       },
       {
         "category": "localization",
         "subcategory": "Style",
-        "original": "O núcleo é conhecido como o \"centro de controle\" da célula.",
-        "correction": "O núcleo é conhecido como o \"centro de comando\" da célula.",
-        "description": "The phrase 'centro de controle' is a literal translation from English ('control center') and is less idiomatic in Brazilian Portuguese. 'Centro de comando' is a more natural and commonly used expression in scientific and educational contexts, improving localization and style.",
-        "severity": "MINOR"
+        "original": "Neste aprendizado, exploraremos as principais organelas de uma célula e entenderemos como elas trabalham juntas para manter a célula viva e funcionando.",
+        "correction": "Nesta aula, exploraremos as principais organelas de uma célula e entenderemos como elas trabalham juntas para manter a célula viva e funcionando.",
+        "description": "The use of 'aprendizado' is unnatural in this educational context; 'aula' or 'lição' is the standard term for a lesson in Brazilian Portuguese. 'Aprendizado' refers to the process of learning, not the lesson itself. This affects the naturalness and professionalism of the content.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Este aprendizado se concentra nas células eucarióticas, que possuem organelas especializadas, cada uma com uma função específica.",
+        "correction": "Esta aula se concentra nas células eucarióticas, que possuem organelas especializadas, cada uma com uma função específica.",
+        "description": "The term 'aprendizado' is again used in place of 'aula', which is the appropriate term for a lesson or instructional unit in Brazilian Portuguese. This impacts the clarity and localization quality of the educational material.",
+        "severity": "MEDIUM"
       },
       {
         "category": "localization",
@@ -196,26 +594,18 @@
       },
       {
         "category": "localization",
-        "subcategory": "Cultural",
-        "original": "Lei dos Direitos Civis de 1964",
-        "correction": "Lei dos Direitos Civis de 1964 (Civil Rights Act of 1964)",
-        "description": "The term 'Lei dos Direitos Civis de 1964' is a correct translation, but adding the original English name in parentheses ('Civil Rights Act of 1964') would help Brazilian learners connect the local term to the well-known American legislation, improving comprehension and cross-cultural understanding.",
-        "severity": "MINOR"
+        "subcategory": "Terminology",
+        "original": "SNCC",
+        "correction": "SNCC (Comitê Coordenador Estudantil Não-Violento)",
+        "description": "The acronym 'SNCC' may not be immediately recognizable to Brazilian learners. For clarity and improved localization, it is recommended to provide the full name in Portuguese after the acronym: 'SNCC (Comitê Coordenador Estudantil Não-Violento)'. This ensures comprehension and maintains educational value.",
+        "severity": "MEDIUM"
       },
       {
         "category": "localization",
         "subcategory": "Cultural",
-        "original": "Lei de Direitos de Voto de 1965",
-        "correction": "Lei de Direitos de Voto de 1965 (Voting Rights Act of 1965)",
-        "description": "Similar to the previous item, including the original English name in parentheses ('Voting Rights Act of 1965') would enhance clarity and help learners recognize the historical reference, as the direct translation may not be immediately familiar.",
-        "severity": "MINOR"
-      },
-      {
-        "category": "localization",
-        "subcategory": "Style",
-        "original": "🌟",
-        "correction": "",
-        "description": "The use of the star emoji '🌟' in educational content may be perceived as informal or distracting in Brazilian academic contexts, especially in history lessons. It is recommended to remove the emoji to maintain a formal and professional tone appropriate for the subject matter.",
+        "original": "testes de alfabetização",
+        "correction": "testes de alfabetização (literacy tests)",
+        "description": "The term 'testes de alfabetização' refers to 'literacy tests', a specific historical practice in the United States used to disenfranchise African Americans. Adding the English term in parentheses helps clarify the concept for Brazilian learners who may not be familiar with this aspect of American history.",
         "severity": "MINOR"
       },
       {
@@ -223,39 +613,423 @@
         "subcategory": "Terminology",
         "original": "Alpina (montanhosa)",
         "correction": "Alpina",
-        "description": "The use of 'Alpina (montanhosa)' may cause confusion, as 'alpina' is the standard term in climatology for high-altitude climate zones. Adding '(montanhosa)' is unnecessary and could be misleading, since not all mountainous regions have an alpine climate. For educational clarity and terminological consistency, use only 'Alpina'.",
+        "description": "The use of 'Alpina (montanhosa)' may cause confusion, as 'alpina' is the standard term in climatology for high-altitude climates, and the parenthetical 'montanhosa' is redundant and not commonly used in Brazilian educational materials. Removing the parenthesis ensures terminology consistency and aligns with local standards.",
         "severity": "MINOR"
-      },
-      {
-        "category": "localization",
-        "subcategory": "Cultural",
-        "original": "A Floresta Amazônica representa uma zona tropical, enquanto o Deserto do Saara é um exemplo de zona seca.",
-        "correction": "A Floresta Amazônica representa uma zona tropical, enquanto o Sertão Nordestino é um exemplo de zona seca.",
-        "description": "Using the Sahara Desert as an example of a dry zone is globally accurate, but for Brazilian learners, referencing the 'Sertão Nordestino' provides a more culturally relevant and locally meaningful example. This enhances relatability and educational impact for the target audience.",
-        "severity": "MEDIUM"
       },
       {
         "category": "localization",
         "subcategory": "Style",
         "original": "Bem-vindos ao mundo da programação!",
         "correction": "Bem-vindo ao mundo da programação!",
-        "description": "The greeting uses the plural 'Bem-vindos', which is appropriate for addressing a group. However, in educational content where the audience may be singular or undefined, the singular 'Bem-vindo' is more neutral and commonly used in Brazilian Portuguese for general introductions. This change improves the naturalness and inclusivity of the tone.",
+        "description": "The greeting uses the plural 'Bem-vindos', which is appropriate for addressing a group. However, in educational content where the audience may be a single learner or a general audience, the singular 'Bem-vindo' is more neutral and commonly used in Brazilian Portuguese for lesson introductions. This change improves the naturalness and inclusivity of the tone.",
         "severity": "MINOR"
       },
       {
         "category": "localization",
-        "subcategory": "Terminology",
-        "original": "Laços",
-        "correction": "Loops",
-        "description": "The term 'Laços' is a literal translation of 'loops' but is less commonly used in Brazilian Portuguese programming contexts. The term 'Loops' is widely accepted and used in technical documentation and educational materials in Brazil. Using 'Loops' ensures consistency with industry-standard terminology and improves comprehension for learners familiar with programming literature.",
-        "severity": "MEDIUM"
+        "subcategory": "Style",
+        "original": "Use letras minúsculas e underscores para facilitar a leitura (ex.: `idade_usuario`).",
+        "correction": "Use letras minúsculas e sublinhados para facilitar a leitura (ex.: `idade_usuario`).",
+        "description": "The term 'underscores' is an English loanword. The natural and standard term in Brazilian Portuguese is 'sublinhados'. Using the local equivalent improves clarity and professionalism.",
+        "severity": "MINOR"
       },
       {
         "category": "localization",
         "subcategory": "Terminology",
         "original": "Declarações Condicionais",
         "correction": "Estruturas condicionais",
-        "description": "The phrase 'Declarações Condicionais' is understandable but not the most natural or standard term in Brazilian Portuguese programming education. 'Estruturas condicionais' is the preferred term, aligning with how control flow statements are typically described in local textbooks and documentation. This change enhances the naturalness and professionalism of the content.",
+        "description": "The term 'Declarações Condicionais' is less commonly used in Brazilian Portuguese programming education. The standard term is 'Estruturas condicionais' or simply 'Condicionais'. Using the more natural and widely accepted terminology improves clarity and aligns with local educational standards.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "🌟",
+        "correction": "",
+        "description": "The use of the star emoji at the end of the introductory paragraph may be considered informal and potentially inappropriate for educational content aimed at older students or professional settings. It is recommended to remove the emoji to maintain a neutral and professional tone throughout the lesson.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Prepare-se para desenvolver ferramentas que o ajudarão a analisar questões complexas e participar de discussões significativas! 🌟",
+        "correction": "Prepare-se para desenvolver habilidades que o ajudarão a analisar questões complexas e participar de discussões significativas!",
+        "description": "The use of 'ferramentas' (tools) is less natural in Brazilian Portuguese in this educational context; 'habilidades' (skills) is more appropriate and commonly used when referring to cognitive abilities. Additionally, the star emoji 🌟 may be considered informal or unnecessary in professional educational materials, potentially reducing the perceived seriousness of the lesson.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Viés: É a inclinação ou tendência de favorecer uma perspectiva ou ideia em detrimento de outras, muitas vezes de forma injusta ou preconceituosa.",
+        "correction": "Viés: Inclinação ou tendência de favorecer uma perspectiva ou ideia em detrimento de outras, muitas vezes de forma injusta ou preconceituosa.",
+        "description": "The phrase 'É a inclinação ou tendência...' is slightly redundant and less direct than standard definitions in Brazilian Portuguese educational materials. Removing 'É a' creates a more concise and professional definition, aligning with local academic style.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Um artigo de opinião que apresenta apenas um lado de um debate sem considerar perspectivas opostas.",
+        "correction": "Um artigo de opinião que apresenta apenas um lado de um debate, sem considerar perspectivas opostas.",
+        "description": "A comma is needed before 'sem considerar perspectivas opostas' to improve clarity and match standard punctuation conventions in Brazilian Portuguese, enhancing readability and professionalism.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Relatos anedóticos em redes sociais.",
+        "correction": "Depoimentos pessoais em redes sociais.",
+        "description": "The term 'relatos anedóticos' is technically correct but less commonly used in everyday Brazilian Portuguese. 'Depoimentos pessoais' is a more natural and widely understood term for informal evidence in social media contexts.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "O Carnaval no Brasil é uma celebração vibrante que ocorre antes da Quaresma no calendário cristão.",
+        "correction": "O Carnaval no Brasil é uma celebração vibrante que ocorre antes da Quaresma, período que antecede a Páscoa no calendário cristão.",
+        "description": "The original text assumes that all readers understand what 'Quaresma' refers to, which may not be the case for learners unfamiliar with Christian traditions. For educational clarity and cultural appropriateness, it is important to briefly explain that 'Quaresma' is the period leading up to Easter in the Christian calendar. This helps avoid cultural ambiguity and ensures the content is accessible to a diverse audience.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "O DNA, ou ácido desoxirribonucleico, é a molécula que contém as instruções para a vida. Presente em quase todas as células de organismos vivos, ele atua como um plano para construir e manter a vida. Vamos explorar sua estrutura, função e o processo de replicação, que garante a transmissão precisa das informações genéticas durante a divisão celular. 🌟",
+        "correction": "O DNA, ou ácido desoxirribonucleico, é a molécula que contém as instruções para a vida. Presente em quase todas as células de organismos vivos, ele atua como um plano para construir e manter a vida. Vamos explorar sua estrutura, função e o processo de replicação, que garante a transmissão precisa das informações genéticas durante a divisão celular.",
+        "description": "The use of the star emoji (🌟) at the end of the introduction is not appropriate for formal educational content in Brazilian Portuguese, as it may reduce the perceived seriousness and professionalism of the material. Removing the emoji ensures the tone remains suitable for academic contexts.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "Decidir entre estudar para uma prova ou ir a uma festa.",
+        "correction": "Decidir entre estudar para uma prova ou ir a uma festa.",
+        "description": "The example of choosing between studying for a test or going to a party is culturally appropriate for Brazilian students and reflects common scenarios. However, the use of 'festa' may not resonate with all age groups or educational settings. Consider specifying the type of event (e.g., 'evento social') for broader applicability. No linguistic errors present.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "homeostase cerebral",
+        "correction": "homeostase cerebral",
+        "description": "The term 'homeostase cerebral' is not commonly used in everyday Brazilian Portuguese; 'homeostase' typically refers to physiological balance. For clarity, consider rephrasing as 'homeostase do cérebro' or explaining the concept further for educational audiences. No linguistic errors present.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Esse equilíbrio promove produtividade e bem-estar.",
+        "correction": "Esse equilíbrio promove produtividade e bem-estar.",
+        "description": "The sentence uses a formal register appropriate for educational content. However, the phrase 'produtividade e bem-estar' may benefit from further contextualization depending on the target audience (e.g., students vs. professionals). No linguistic errors present.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Testar a durabilidade de um smartphone simulando quedas e impactos.",
+        "correction": "Testar a durabilidade de um celular simulando quedas e impactos.",
+        "description": "The term 'smartphone' is an anglicism and, while increasingly common, 'celular' is the standard and more widely accepted term in Brazilian Portuguese for mobile phones. Using 'celular' ensures better localization and naturalness for the target audience.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Evitar escrever em CAIXA ALTA, que pode parecer gritar.",
+        "correction": "Evite escrever em caixa alta, pois pode parecer que você está gritando.",
+        "description": "The original sentence uses an imperative structure that is less direct and employs 'CAIXA ALTA' in all caps, which is unnecessary and visually jarring in Brazilian Portuguese educational materials. The correction uses a more natural imperative ('Evite'), clarifies the meaning, and avoids the use of all caps for the term itself, improving both style and clarity.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Respeitar opiniões diferentes das suas.",
+        "correction": "Respeite opiniões diferentes das suas.",
+        "description": "The original uses an infinitive form, which is less engaging and less common in Brazilian Portuguese educational instructions. The correction uses the imperative form ('Respeite'), which is more direct and natural for instructional content, improving the tone and style.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Format",
+        "original": "Nome completo, endereço ou número de telefone.",
+        "correction": "Nome completo, endereço residencial ou número de telefone.",
+        "description": "The term 'endereço' is ambiguous and could refer to email or physical address. In the context of online safety, specifying 'endereço residencial' clarifies the intended meaning and aligns with best practices in Brazilian Portuguese educational materials.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Fotos ou vídeos pessoais que possam ser mal utilizados.",
+        "correction": "Fotos ou vídeos pessoais que possam ser usados de forma inadequada.",
+        "description": "The phrase 'mal utilizados' is grammatically correct but less natural in Brazilian Portuguese. 'Usados de forma inadequada' is a more idiomatic and commonly used expression in educational and safety contexts.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Evite compartilhar excessivamente, mesmo com pessoas de confiança.",
+        "correction": "Evite compartilhar em excesso, mesmo com pessoas de confiança.",
+        "description": "The adverb 'excessivamente' is technically correct but less natural in this context. 'Compartilhar em excesso' is the preferred and more idiomatic expression in Brazilian Portuguese, improving the naturalness of the advice.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Imagine uma esfera. Para torná-la tridimensional, sombreie o lado mais distante da fonte de luz mais escuro, gradualmente clareando os tons próximos à luz.",
+        "correction": "Imagine uma esfera. Para torná-la tridimensional, sombreie o lado oposto à fonte de luz de forma mais escura, gradualmente clareando os tons próximos à luz.",
+        "description": "The phrase 'o lado mais distante da fonte de luz mais escuro' is awkward and not idiomatic in Brazilian Portuguese. The more natural and clear expression is 'o lado oposto à fonte de luz de forma mais escura'. This improves the style and naturalness of the explanation, making it easier for learners to understand and follow the instructions.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Bem-vindos à aula sobre inteligência emocional! 🌟 Hoje, vamos explorar como reconhecer, entender e gerenciar suas emoções, além de aprender a compreender os sentimentos dos outros. Prepare-se para descobrir os cinco componentes essenciais da inteligência emocional que podem transformar suas interações e ajudar você a alcançar seus objetivos.",
+        "correction": "Bem-vindos à aula sobre inteligência emocional! Hoje, vamos explorar como reconhecer, entender e gerenciar suas emoções, além de aprender a compreender os sentimentos dos outros. Prepare-se para descobrir os cinco componentes essenciais da inteligência emocional que podem transformar suas interações e ajudar você a alcançar seus objetivos.",
+        "description": "The use of the emoji '🌟' in educational content may be considered informal and less professional in Brazilian Portuguese academic contexts. Removing the emoji ensures a more neutral and formal tone, which is appropriate for educational materials.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Durante um debate acalorado, a autorregulação ajuda você a pausar antes de responder, garantindo que suas palavras sejam pensadas e respeitosas.",
+        "correction": "Durante um debate acalorado, a autorregulação ajuda você a pausar antes de responder, garantindo que suas palavras sejam ponderadas e respeitosas.",
+        "description": "The term 'pensadas' is understandable but 'ponderadas' is the more idiomatic and culturally appropriate term in Brazilian Portuguese for describing thoughtful speech. This change enhances the naturalness and professionalism of the content.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Use pensamentos positivos, como dizer: \"Eu consigo lidar com isso.\"",
+        "correction": "Use pensamentos positivos, como dizer: \"Eu posso lidar com isso.\"",
+        "description": "The phrase 'Eu consigo lidar com isso' is understandable but less natural in Brazilian Portuguese for self-encouragement. 'Eu posso lidar com isso' is more idiomatic and commonly used in educational and supportive contexts, enhancing the naturalness and motivational tone for young learners.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Não ficção",
+        "correction": "Não-ficção",
+        "description": "The term 'não ficção' should be hyphenated as 'não-ficção' according to Brazilian Portuguese orthographic conventions for compound nouns. This ensures consistency and aligns with standard usage in educational and literary contexts.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Format",
+        "original": "Mantenha aquecedores a pelo menos três pés de distância de objetos inflamáveis e desligue-os ao sair do cômodo.",
+        "correction": "Mantenha aquecedores a pelo menos um metro de distância de objetos inflamáveis e desligue-os ao sair do cômodo.",
+        "description": "The use of 'três pés' (three feet) is not standard in Brazilian Portuguese, where the metric system is used. The correct and culturally appropriate unit is 'um metro'. This change ensures the content is localized for Brazilian audiences and avoids confusion.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Aplique pomada antibiótica.",
+        "correction": "Aplique pomada antibiótica, se disponível.",
+        "description": "The instruction to apply antibiotic ointment may not be culturally appropriate for all Brazilian contexts, as such ointments are not always readily available or recommended for self-care without medical advice. Adding 'se disponível' clarifies that this step is optional and dependent on availability, making the guidance more suitable for the local audience.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Format",
+        "original": "ligue para o 192 ou peça para alguém fazer isso.",
+        "correction": "Ligue para o 192 ou peça para alguém ligar.",
+        "description": "The phrase 'peça para alguém fazer isso' is vague and could be more precise. Specifying 'ligar' makes the instruction clearer and more direct, which is important in emergency situations. This improves clarity and aligns with standard Brazilian emergency communication practices.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "Uma moeda de 25 centavos vale 1/4 de um dólar.",
+        "correction": "Uma moeda de 25 centavos vale 1/4 de um real.",
+        "description": "The example uses 'dólar' and '25 centavos', which is culturally inappropriate for Brazilian Portuguese educational content. The local currency is 'real', and the coin denominations differ. For Brazilian students, referencing '1/4 de um real' is more relevant and accurate. No linguistic errors are present, but the cultural reference should be localized.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Vamos brincar de pega-pega porque é meu favorito!",
+        "correction": "Vamos brincar de pega-pega porque é o meu favorito!",
+        "description": "The phrase 'é meu favorito' lacks the definite article 'o', which is required for naturalness in Brazilian Portuguese when referring to a favorite item. The corrected version 'é o meu favorito' is more idiomatic and culturally appropriate.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Estes são os blocos fundamentais para resolver problemas matemáticos e do dia a dia! 🧮",
+        "correction": "Estes são os elementos fundamentais para resolver problemas matemáticos e do cotidiano! 🧮",
+        "description": "The phrase 'blocos fundamentais' is a literal translation of 'building blocks' and sounds unnatural in Brazilian Portuguese for educational content. 'Elementos fundamentais' is the standard and more natural term. Additionally, 'do dia a dia' is less formal than 'do cotidiano', which is preferred in educational contexts. The emoji is acceptable for young audiences but should be used with awareness of the target age group.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Normalmente identificada por duas letras maiúsculas (Linha AB) ou uma letra minúscula.",
+        "correction": "Normalmente identificada por duas letras maiúsculas (AB) ou por uma letra minúscula.",
+        "description": "The use of 'Linha AB' is not standard in Brazilian Portuguese geometry terminology. The correct and natural way is to refer to the line simply as 'AB' or by a lowercase letter. The phrase 'por uma letra minúscula' clarifies the convention and improves consistency with local educational standards.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "Exemplos incluem os Estados Unidos importando eletrônicos da China e exportando produtos agrícolas como trigo e milho, ou a Alemanha exportando carros e importando matérias-primas como petróleo.",
+        "correction": "Exemplos incluem o Brasil importando eletrônicos da China e exportando produtos agrícolas como soja e café, ou a Alemanha exportando carros e importando matérias-primas como petróleo.",
+        "description": "The examples provided focus on the United States and Germany, which may not be as relatable for Brazilian learners. For improved cultural relevance and engagement, it is recommended to use Brazil as the primary example, highlighting typical Brazilian exports and imports such as soy and coffee. This adjustment makes the content more locally meaningful and educational for the target audience.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "NAFTA",
+        "correction": "USMCA (Acordo Estados Unidos-México-Canadá)",
+        "description": "The term 'NAFTA' is outdated, as the agreement was replaced by the USMCA (United States-Mexico-Canada Agreement) in 2020. For accuracy and current relevance, the updated name should be used. Additionally, providing the Portuguese translation or explanation of the acronym enhances clarity for Brazilian learners.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "União Europeia, que promove o livre movimento de bens e serviços entre seus membros.",
+        "correction": "União Europeia, que promove o livre movimento de bens, serviços, pessoas e capitais entre seus membros.",
+        "description": "The description of the European Union omits the free movement of people and capital, which are key aspects of the EU's single market. Including these elements provides a more complete and accurate representation, aligning with educational standards and improving the content's informativeness.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Câmara dos Representantes",
+        "correction": "Câmara dos Deputados",
+        "description": "The term 'Câmara dos Representantes' is a literal translation of 'House of Representatives', but in Brazilian Portuguese, the standard term for a legislative lower house is 'Câmara dos Deputados'. Using the correct terminology ensures consistency and aligns with local expectations for educational content.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Checks and Balances",
+        "correction": "sistema de freios e contrapesos",
+        "description": "The phrase 'checks and balances' is presented in English within a Portuguese-language educational context. The established and natural translation in Brazilian Portuguese is 'sistema de freios e contrapesos'. Using the English term may confuse learners and reduces the localization quality of the content.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "Michael Jordan, considerado um dos maiores jogadores de basquete de todos os tempos, foi cortado do time de basquete da escola. Em vez de desistir, ele trabalhou mais duro, praticou mais e se tornou uma lenda no esporte.",
+        "correction": "Michael Jordan, considerado um dos maiores jogadores de basquete de todos os tempos, foi cortado do time de basquete da escola. Em vez de desistir, ele se dedicou ainda mais, praticou intensamente e se tornou uma lenda no esporte.",
+        "description": "The phrase 'trabalhou mais duro' and 'praticou mais' are direct translations of 'worked harder' and 'practiced more', which can sound unnatural in Brazilian Portuguese. 'Se dedicou ainda mais' and 'praticou intensamente' are more idiomatic and culturally appropriate expressions for perseverance and effort in Brazilian educational contexts. This adjustment improves the naturalness and resonance of the example for local learners.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Em vez de desistir, ela trabalhou mais duro, aprendeu com seus contratempos e permaneceu comprometida em melhorar suas habilidades.",
+        "correction": "Em vez de desistir, ela se dedicou ainda mais, aprendeu com seus contratempos e manteve o compromisso de aprimorar suas habilidades.",
+        "description": "The phrase 'trabalhou mais duro' is a literal translation from English and is less idiomatic in Brazilian Portuguese. 'Se dedicou ainda mais' and 'manteve o compromisso de aprimorar suas habilidades' are more natural and culturally appropriate, enhancing the style and tone of the message.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "peixe gordo",
+        "correction": "peixes oleosos",
+        "description": "The term 'peixe gordo' is a literal translation of 'fatty fish' and is not commonly used in Brazilian Portuguese. The culturally and scientifically accepted term is 'peixes oleosos', which refers to fish rich in healthy fats such as salmon and sardines.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Vamos explorar a história da DUDH, seus princípios fundamentais e como ela influenciou sociedades ao redor do mundo. 🌍",
+        "correction": "Vamos explorar a história da DUDH, seus princípios fundamentais e como ela influenciou sociedades ao redor do mundo.",
+        "description": "The use of the globe emoji (🌍) at the end of the sentence is not appropriate for formal educational content in Brazilian Portuguese. Emojis can undermine the seriousness and professionalism of the topic, especially when discussing human rights. Removing the emoji ensures the tone remains formal and suitable for the context.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Ela também empoderou movimentos pelos direitos civis, igualdade de gênero e justiça social.",
+        "correction": "Ela também fortaleceu movimentos pelos direitos civis, igualdade de gênero e justiça social.",
+        "description": "The term 'empoderou' is a direct loan from English ('empower') and, while increasingly used in Brazilian Portuguese, it can sound unnatural or overly trendy in formal educational contexts. 'Fortaleceu' is a more established and natural term in Portuguese for describing the impact on social movements, ensuring professional and culturally appropriate language.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Sorrir e cumprimentar calorosamente.",
+        "correction": "Sorrir e cumprimentar de forma calorosa.",
+        "description": "The phrase 'cumprimentar calorosamente' is not the most natural collocation in Brazilian Portuguese. The adverb 'calorosamente' is rarely used in everyday speech for greetings; 'de forma calorosa' or 'com simpatia' would be more idiomatic and culturally appropriate. This adjustment improves the naturalness and localization quality of the text.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "Minha Velha Mãe Estudada Jamais Saberá Usar Nada",
+        "correction": "Minha Velha Mãe Estudou Jantar Sem Usar Nada",
+        "description": "The original mnemonic for the planets, 'Minha Velha Mãe Estudada Jamais Saberá Usar Nada', is not a widely recognized or standard mnemonic in Brazilian Portuguese. It may confuse learners due to its lack of cultural familiarity and naturalness. A more common and culturally appropriate mnemonic is 'Minha Velha Mãe Estudou Jantar Sem Usar Nada', which is easier to remember and more frequently used in educational contexts in Brazil. This correction improves cultural relevance and aids memorization.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "drum machines",
+        "correction": "caixas de ritmos",
+        "description": "The term 'drum machines' is left in English within a Portuguese context. For Brazilian Portuguese audiences, the locally accepted term is 'caixas de ritmos'. Using the English term may reduce clarity and naturalness for learners unfamiliar with music technology jargon.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "sampling",
+        "correction": "sampleamento",
+        "description": "The word 'sampling' is presented in English, which may not be immediately clear to all Brazilian Portuguese learners. The more natural and locally accepted term is 'sampleamento'. This improves comprehension and aligns with industry-standard terminology in Brazil.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "DJing",
+        "correction": "discotecagem",
+        "description": "The term 'DJing' is an anglicism that can be replaced with the more natural and widely used Brazilian Portuguese term 'discotecagem'. This enhances the cultural appropriateness and naturalness of the content for local learners.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Format",
+        "original": "Sinfonia nº 40",
+        "correction": "Sinfonia nº 40",
+        "description": "While the use of 'nº' for numbering is acceptable in Brazilian Portuguese, the full format for classical works often includes the key (e.g., 'Sinfonia nº 40 em Sol menor'). Including the key would provide greater clarity and align with local conventions for referencing classical music pieces.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Format",
+        "original": "Sinfonia nº 9",
+        "correction": "Sinfonia nº 9",
+        "description": "Similar to the previous issue, the reference to Beethoven's 'Sinfonia nº 9' would be more complete and locally conventional if the key and opus number were included (e.g., 'Sinfonia nº 9 em Ré menor, Op. 125'). This enhances precision and educational value.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Usar fontes de energia renováveis, como solar e eólica.",
+        "correction": "Usar fontes de energia renovável, como energia solar e energia eólica.",
+        "description": "The phrase 'fontes de energia renováveis, como solar e eólica' is understandable but lacks naturalness and parallel structure in Brazilian Portuguese. The more idiomatic and precise way is to specify 'energia solar' and 'energia eólica', which aligns with local educational style and terminology. This improves clarity and professionalism.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Evite informações fáceis de adivinhar.",
+        "correction": "Evite informações fáceis de serem adivinhadas.",
+        "description": "The original phrase is understandable but slightly unnatural in Brazilian Portuguese. The recommended correction uses the passive construction 'de serem adivinhadas', which is more idiomatic and aligns with local style conventions.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Pegada digital",
+        "correction": "Pegada digital",
+        "description": "The term 'pegada digital' is correct and widely used in Brazilian Portuguese. No terminology issue found. No correction needed.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Fique informado e seguro!",
+        "correction": "Mantenha-se informado e seguro!",
+        "description": "The original phrase is understandable but 'Mantenha-se informado e seguro!' is more natural and commonly used in Brazilian Portuguese for calls to action, improving the style and tone.",
         "severity": "MINOR"
       },
       {
@@ -263,15 +1037,311 @@
         "subcategory": "Style",
         "original": "🌟",
         "correction": "",
-        "description": "The use of the star emoji at the end of the introductory paragraph may be considered informal or out of place in educational content for Brazilian Portuguese, especially in formal or academic contexts. It can detract from the professional tone expected in instructional materials. Removing the emoji will ensure the content maintains an appropriate and consistent style.",
+        "description": "The use of the star emoji '🌟' in educational content may be considered informal and less appropriate for academic materials in Brazilian Portuguese. It is recommended to remove the emoji to maintain a professional and neutral tone.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Neste aprendizado, exploraremos como usar as estratégias de ethos, pathos e logos para criar argumentos convincentes e eficazes.",
+        "correction": "Nesta aula, exploraremos como usar as estratégias de ethos, pathos e logos para criar argumentos convincentes e eficazes.",
+        "description": "The term 'aprendizado' is not the most natural or standard way to refer to a lesson or instructional session in Brazilian Portuguese educational contexts. 'Aula' is the preferred term for a lesson or class, making the content more culturally appropriate and professional.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "testes padronizados",
+        "correction": "provas padronizadas",
+        "description": "The term 'testes' is technically correct but less commonly used in Brazilian educational contexts compared to 'provas', which is the standard term for formal assessments in schools. Using 'provas padronizadas' improves naturalness and aligns with local terminology.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "Havia um homem de Peru,",
+        "correction": "Havia um homem do Peru,",
+        "description": "The phrase 'de Peru' is ambiguous in Portuguese and could be misinterpreted as referring to the bird (turkey) rather than the country. The correct and culturally appropriate form is 'do Peru' to clearly indicate the country. This ensures the example aligns with local conventions and avoids confusion.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "pentâmetro iâmbico",
+        "correction": "pentâmetro iâmbico",
+        "description": "The term 'pentâmetro iâmbico' is a direct translation of 'iambic pentameter' and is not commonly used in Brazilian Portuguese poetry education. While technically correct, it may be unfamiliar to students. Consider providing a brief explanation or using more accessible terminology, such as 'versos de dez sílabas poéticas com ritmo alternado', to improve comprehension.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Comprando cartas com objetivos específicos.",
+        "correction": "Comprando cartas com objetivos específicos.",
+        "description": "The term 'comprando cartas' is not the most natural or accurate way to describe drawing cards in Brazilian Portuguese. The verb 'comprar' literally means 'to buy,' but in the context of card games, the standard term is 'comprar cartas,' which means 'to draw cards.' However, for educational clarity and to avoid confusion with purchasing, it is better to use 'comprar cartas (ou seja, retirar cartas do baralho)' or simply 'retirar cartas.' This ensures the terminology is clear and culturally appropriate for learners who may not be familiar with gaming jargon.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "skimming",
+        "correction": "leitura dinâmica",
+        "description": "The term 'skimming' is used in English to describe a reading technique, but in Brazilian Portuguese, the direct use of 'skimming' is uncommon and may sound unnatural or overly technical to learners. The more culturally appropriate and widely understood term is 'leitura dinâmica', which conveys the intended meaning in a natural way. Using the English term without adaptation can hinder comprehension and reduce the educational effectiveness of the content.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "scanning",
+        "correction": "leitura seletiva",
+        "description": "The term 'scanning' is borrowed directly from English and, while sometimes used in academic contexts, is not the most natural or widely recognized term in Brazilian Portuguese for this reading strategy. 'Leitura seletiva' is a more appropriate and familiar term for the target audience, ensuring better understanding and cultural alignment. Using 'scanning' without explanation or adaptation may confuse learners and reduce the clarity of the lesson.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Essas técnicas irão ajudá-lo a analisar textos com confiança e eficiência. 📚",
+        "correction": "Essas técnicas irão ajudá-lo a analisar textos com confiança e eficiência.",
+        "description": "The use of the book emoji (📚) at the end of a formal educational sentence may be considered informal or unprofessional in Brazilian Portuguese academic contexts. While emojis can add visual interest, they are generally avoided in formal instructional materials to maintain a professional tone and ensure cultural appropriateness.",
         "severity": "MINOR"
       },
       {
         "category": "localization",
         "subcategory": "Style",
-        "original": "Prepare-se para desenvolver ferramentas que o ajudarão a analisar questões complexas e participar de discussões significativas! 🌟",
-        "correction": "Prepare-se para desenvolver ferramentas que o ajudarão a analisar questões complexas e participar de discussões significativas!",
-        "description": "The use of the emoji '🌟' at the end of an educational sentence may be considered informal and less appropriate for formal educational content in Brazilian Portuguese. Removing the emoji improves the professional tone and maintains consistency with the rest of the lesson.",
+        "original": "Vamos embarcar em uma jornada para descobrir como cientistas investigam fenômenos e chegam a conclusões usando os passos do método científico! 🌟",
+        "correction": "Vamos embarcar em uma jornada para descobrir como cientistas investigam fenômenos e chegam a conclusões usando os passos do método científico!",
+        "description": "The use of the star emoji (🌟) may be considered informal or distracting in educational content for older students or professional settings. Removing it ensures a more neutral and universally appropriate tone for educational materials.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Elas reduzem o esforço necessário para realizar tarefas e estão presentes em muitos objetos do cotidiano.",
+        "correction": "Elas reduzem o esforço necessário para realizar tarefas e estão presentes em muitos objetos do dia a dia.",
+        "description": "The phrase 'objetos do cotidiano' is grammatically correct but less natural in Brazilian Portuguese for educational contexts. 'Objetos do dia a dia' is the preferred, more idiomatic expression for everyday objects, improving the naturalness and localization quality.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Exemplos do cotidiano incluem gangorras, pés-de-cabra e tesouras.",
+        "correction": "Exemplos do dia a dia incluem gangorras, pés-de-cabra e tesouras.",
+        "description": "The term 'cotidiano' is less commonly used in Brazilian Portuguese for everyday examples in educational materials. 'Dia a dia' is more natural and widely understood, enhancing localization and reader engagement.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Exemplos incluem mastros de bandeira, guindastes e varais.",
+        "correction": "Exemplos incluem mastros de bandeira, guindastes e varais de roupa.",
+        "description": "The word 'varais' alone may be ambiguous for younger learners. Specifying 'varais de roupa' clarifies the reference and aligns with common usage in Brazilian Portuguese, improving localization and comprehension.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Exemplos incluem rampas, escorregadores e estradas inclinadas.",
+        "correction": "Exemplos incluem rampas, escorregadores e ladeiras.",
+        "description": "The term 'estradas inclinadas' is technically correct but less natural in Brazilian Portuguese. 'Ladeiras' is the standard term for sloped roads, making the content more relatable and culturally appropriate.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Exemplos incluem machados, facas e calços de porta.",
+        "correction": "Exemplos incluem machados, facas e cunhas de porta.",
+        "description": "The term 'calços de porta' is understandable but 'cunhas de porta' is more precise and directly relates to the concept of a wedge, improving terminology consistency and educational clarity.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Exemplos incluem tampas de potes, lâmpadas e parafusos para madeira.",
+        "correction": "Exemplos incluem tampas de potes, lâmpadas e parafusos de madeira.",
+        "description": "The phrase 'parafusos para madeira' is less idiomatic than 'parafusos de madeira', which is the standard term in Brazilian Portuguese for wood screws, enhancing localization and technical accuracy.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Exemplos incluem pneus de carros, maçanetas e carrinhos de mão.",
+        "correction": "Exemplos incluem pneus de carro, maçanetas e carrinhos de mão.",
+        "description": "The plural 'pneus de carros' is less natural than 'pneus de carro', which is the common way to refer to car tires in Brazilian Portuguese, improving localization and naturalness.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Vamos explorar juntos a história, os desafios e as tecnologias que moldaram a exploração espacial, conectando esses conceitos aos princípios científicos do movimento orbital. 🚀",
+        "correction": "Vamos explorar a história, os desafios e as tecnologias que moldaram a exploração espacial, conectando esses conceitos aos princípios científicos do movimento orbital.",
+        "description": "The use of 'juntos' and the rocket emoji introduces an informal and conversational tone that may not be appropriate for educational content aimed at a broad audience, especially in formal or academic contexts. Removing 'juntos' and the emoji creates a more neutral and professional style, which is preferable for educational materials.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Foguetes modernos, como o Falcon Heavy da SpaceX, são mais eficientes e reutilizáveis, reduzindo os custos das missões espaciais.",
+        "correction": "Foguetes modernos, como o Falcon Heavy da SpaceX, são mais eficientes e reutilizáveis, reduzindo os custos das missões espaciais.",
+        "description": "While the terminology is accurate, referencing 'Falcon Heavy da SpaceX' may not be fully localized for a Brazilian audience, as SpaceX is a US-based company and local examples or broader context (such as mentioning international or Brazilian contributions to rocket technology) could enhance cultural relevance. However, the text is linguistically correct and the issue is minor.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "luzes de neon",
+        "correction": "lâmpadas de neon",
+        "description": "The phrase 'luzes de neon' is understandable but less natural in Brazilian Portuguese. The standard and more commonly used term is 'lâmpadas de neon' when referring to neon lights as an example of plasma. This correction improves the naturalness and clarity of the content for Brazilian learners.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "A Menina e o Porquinho",
+        "correction": "A Menina e o Porquinho (Charlotte's Web)",
+        "description": "The title 'A Menina e o Porquinho' is a localized version of 'Charlotte's Web', but it may not be immediately recognizable to all Brazilian students, as the original English title is often referenced in educational contexts. Adding the original title in parentheses increases clarity and helps learners connect the example to international references, improving educational value and consistency.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "Em *Harry Potter*, Harry é o protagonista, enquanto Voldemort é o antagonista.",
+        "correction": "Em *Harry Potter*, Harry é o protagonista, enquanto Voldemort é o antagonista.",
+        "description": "The use of 'Harry Potter' as an example is culturally appropriate for Brazilian audiences, as the series is widely known. However, the explanation could be enhanced by mentioning the Portuguese translation of character names if relevant, but in this case, the original names are standard in Brazil.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "Em *A Teia de Charlotte*, Wilbur, o porco, é o personagem principal, e Charlotte, a aranha, é sua amiga.",
+        "correction": "Em *A Teia de Charlotte*, Wilbur, o porco, é o personagem principal, e Charlotte, a aranha, é sua amiga.",
+        "description": "The example uses the Brazilian Portuguese title 'A Teia de Charlotte', which is appropriate. The character names are kept in their original form, which is standard in Brazilian editions. No correction needed, but this confirms good localization practice.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "O cenário de *Jogos Vorazes* é um futuro distópico em Panem.",
+        "correction": "O cenário de *Jogos Vorazes* é um futuro distópico em Panem.",
+        "description": "The example uses the localized title 'Jogos Vorazes', which is correct for Brazilian Portuguese. The reference to 'Panem' is appropriate as it is the official name in the series and recognized by Brazilian readers.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "Em *Anne de Green Gables*, o cenário é a comunidade rural de Avonlea no final do século XIX.",
+        "correction": "Em *Anne de Green Gables*, o cenário é a comunidade rural de Avonlea no final do século XIX.",
+        "description": "The title 'Anne de Green Gables' is not localized; the Brazilian edition is usually titled 'Anne de Green Gables' or 'Anne de Avonlea'. Consider using the most common Brazilian title for better localization, but the current usage is acceptable.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "Em *O Rei Leão*, o enredo segue a jornada de Simba desde a perda de seu pai até recuperar seu lugar como rei.",
+        "correction": "Em *O Rei Leão*, o enredo segue a jornada de Simba desde a perda de seu pai até recuperar seu lugar como rei.",
+        "description": "The title 'O Rei Leão' is correctly localized for Brazilian audiences. The example is culturally relevant and widely recognized.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "Em *Extraordinário*, o enredo gira em torno de Auggie navegando pela vida como uma criança com uma diferença facial.",
+        "correction": "Em *Extraordinário*, o enredo gira em torno de Auggie navegando pela vida como uma criança com uma diferença facial.",
+        "description": "The title 'Extraordinário' is the correct Brazilian Portuguese translation of 'Wonder'. The example is appropriate and uses terminology familiar to Brazilian readers.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "Conflito interno: Em *O Resgate*, Brian luta contra o medo e a solidão enquanto sobrevive na natureza.",
+        "correction": "Conflito interno: Em *O Resgate*, Brian luta contra o medo e a solidão enquanto sobrevive na natureza.",
+        "description": "The title 'O Resgate' may refer to 'Hatchet' by Gary Paulsen, which is known in Brazil as 'O Resgate'. The example is appropriate, but consider clarifying the reference for educational purposes.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "Conflito externo: Em *Percy Jackson e os Olimpianos*, Percy enfrenta monstros e deuses para completar sua missão.",
+        "correction": "Conflito externo: Em *Percy Jackson e os Olimpianos*, Percy enfrenta monstros e deuses para completar sua missão.",
+        "description": "The title 'Percy Jackson e os Olimpianos' is correctly localized for Brazilian readers. The example is culturally relevant and uses terminology familiar to the target audience.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Cornell Notes",
+        "correction": "Método Cornell",
+        "description": "The term 'Cornell Notes' is presented in English within a Portuguese educational context. For Brazilian Portuguese audiences, it is more natural and locally accepted to use 'Método Cornell' or 'Notas Cornell' to refer to this note-taking strategy. Using the English term may reduce accessibility and naturalness for learners unfamiliar with English terminology.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Survey, Question, Read, Recite, Review",
+        "correction": "Explorar, Questionar, Ler, Recitar, Revisar",
+        "description": "The SQ3R method steps are listed in English, which is not appropriate for a Brazilian Portuguese educational context. The terms should be localized to their standard Portuguese equivalents to ensure comprehension and cultural relevance. Using English terms may hinder understanding for learners who are not familiar with English.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "estações eleitorais",
+        "correction": "locais de votação",
+        "description": "The term 'estações eleitorais' is a literal translation of 'polling stations' and is not commonly used in Brazilian Portuguese. The culturally appropriate and standard term is 'locais de votação', which is widely understood and used in Brazil. Using the correct terminology ensures clarity and naturalness for the target audience.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Format",
+        "original": "cédulas enviadas pelo correio",
+        "correction": "voto por correspondência",
+        "description": "The phrase 'cédulas enviadas pelo correio' is a literal translation and not the standard way to refer to mail-in voting in Brazilian Portuguese. The accepted term is 'voto por correspondência', which aligns with local conventions and improves comprehension.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "registro de eleitores",
+        "correction": "alistamento eleitoral",
+        "description": "The term 'registro de eleitores' is a direct translation of 'voter registration' but the standard term in Brazilian Portuguese is 'alistamento eleitoral'. Using the correct term ensures cultural appropriateness and aligns with local electoral terminology.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Jogos de realidade virtual (VR) usam IA para criar ambientes interativos e realistas.",
+        "correction": "Jogos de realidade virtual (RV) usam IA para criar ambientes interativos e realistas.",
+        "description": "The abbreviation 'VR' is in English, while the standard in Brazilian Portuguese is 'RV' for 'realidade virtual'. Using the local abbreviation ensures consistency and naturalness for the target audience.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "NGSS HS-ETS1-4",
+        "correction": "NGSS HS-ETS1-4",
+        "description": "The reference to 'NGSS HS-ETS1-4' is a US educational standard. For Brazilian audiences, this may be unfamiliar and could benefit from a brief explanation or contextualization, such as clarifying that it is a US science education standard. However, the text does not contain a linguistic error.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "O Cristianismo é a maior religião mundial, com mais de 2 bilhões de seguidores.",
+        "correction": "O Cristianismo é a maior religião do mundo, com mais de 2 bilhões de seguidores.",
+        "description": "The phrase 'maior religião mundial' is not idiomatic in Brazilian Portuguese. The more natural and culturally appropriate expression is 'maior religião do mundo'. This change improves the naturalness and clarity of the text for the target audience.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "A vida, morte e ressurreição de Jesus são centrais para a salvação.",
+        "correction": "A vida, morte e ressurreição de Jesus são centrais para a doutrina da salvação.",
+        "description": "The phrase 'centrais para a salvação' may be ambiguous for learners unfamiliar with Christian doctrine. Specifying 'doutrina da salvação' clarifies the concept and aligns with terminology commonly used in educational and religious contexts in Brazil.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Format",
+        "original": "Fundado pelo Profeta Muhammad no século VII.",
+        "correction": "Fundado pelo Profeta Maomé no século VII.",
+        "description": "The name 'Muhammad' is commonly localized as 'Maomé' in Brazilian Portuguese, especially in educational contexts. Using the localized name improves cultural relevance and comprehension for the target audience.",
         "severity": "MINOR"
       }
     ]

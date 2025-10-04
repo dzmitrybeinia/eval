@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Периодическая таблица — это один из важнейших инструментов в химии, который помогает организовать все известные элементы по их свойствам.",
+      "correction": "Периодическая таблица — один из важнейших инструментов химии, помогающий организовать все известные элементы по их свойствам.",
+      "description": "The original sentence uses a redundant construction with 'это' and 'который', which is less natural in Russian educational style. Removing 'это' and restructuring the sentence improves conciseness and naturalness, aligning with standard Russian scientific writing.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Элементы располагаются в строках (периодах) и столбцах (группах или семействах).",
+      "correction": "Элементы располагаются в строках (периодах) и столбцах (группах или семействах).",
+      "description": "No grammatical errors are present. The sentence correctly uses plural forms and prepositional case. However, the term 'семействах' is less commonly used in modern Russian chemistry; 'группах' is standard. For consistency, consider omitting 'семействах' unless specifically discussed in the lesson.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Атомная масса: Средняя масса атомов элемента, включая изотопы.",
+      "correction": "Атомная масса: Средняя масса атомов элемента с учетом изотопов.",
+      "description": "The phrase 'включая изотопы' is understandable but less precise than 'с учетом изотопов', which is the standard terminology in Russian scientific texts. This correction improves professional language usage and aligns with local conventions.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Периодическая таблица — это мощный инструмент для понимания поведения элементов и их взаимодействий, который заложил основу для изучения химических реакций и соединений.",
+      "correction": "Периодическая таблица — мощный инструмент для понимания поведения элементов и их взаимодействий, заложивший основу для изучения химических реакций и соединений.",
+      "description": "The original sentence uses a relative clause with 'который', which is grammatically correct but stylistically cumbersome in Russian scientific writing. Restructuring the sentence to use a participial phrase ('заложивший основу') improves flow and naturalness.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Periodic_Table.llm.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T21:40:41.849542",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

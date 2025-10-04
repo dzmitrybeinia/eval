@@ -1,0 +1,35 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Równania jednoruchowe",
+      "correction": "Równania jednomianowe",
+      "description": "The term 'jednoruchowe' is not a standard or correct term in Polish mathematics for equations requiring a single operation. The proper term is 'jednomianowe' (single-step equations) or 'równania z jedną niewiadomą' depending on context. The use of 'jednoruchowe' is a lexical error and may confuse learners, as it is not recognized in educational or mathematical literature.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Basic_Algebra.llm.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T21:30:43.020873",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

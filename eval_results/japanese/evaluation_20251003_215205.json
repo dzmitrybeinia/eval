@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "音節パターンは5-7-5。",
+      "correction": "音数パターンは5-7-5。",
+      "description": "The term '音節' (syllable) is incorrect in the context of Japanese poetry, where '音数' (mora count) is the accurate term for describing the structure of haiku. Using '音節' may cause confusion, as Japanese haiku is based on morae, not syllables. This lexical error affects the technical accuracy of the explanation.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "韻律は弱強五歩格（1行に10音節、ストレスが交互に変化）。",
+      "correction": "韻律は弱強五歩格（1行に10音節、強弱のアクセントが交互に現れる英語詩のリズム）。",
+      "description": "The explanation of '弱強五歩格' (iambic pentameter) lacks sufficient localization for Japanese learners, as the concept of stress-based meter is not native to Japanese poetry. Adding a brief clarification about the nature of English poetic rhythm improves cultural appropriateness and comprehension.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "夢が現実になったことを知った。",
+      "correction": "夢が現実になったと知った。",
+      "description": "The use of 'ことを知った' is awkward and overly formal in this context. In Japanese, 'と知った' is more natural when expressing realization of a fact, especially in narrative or poetic contexts. This grammatical issue affects the naturalness and clarity of the sentence.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "私は自分を祝う、そして自分を歌う、そして私が仮定するものはあなたも仮定する、私に属するすべての原子はあなたにも良いものとして属する。",
+      "correction": "私は自分を祝福し、自分を歌う。私が仮定するものはあなたも仮定する。私に属するすべての原子は、あなたにも属する。",
+      "description": "The translation of Walt Whitman's poem is overly literal and does not reflect natural Japanese poetic style. Phrasing such as '祝う' and '良いものとして属する' is awkward and unpoetic. Adjusting to '祝福し' and simplifying the structure improves both style and readability, making the excerpt more suitable for Japanese literary context.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Poetry_Forms.llm.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-03T21:52:05.009636",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.1,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.9,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.5,
+      "localization_penalty": 0.4,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Гражданское движение за права человека было переломным моментом в истории США.",
+      "correction": "Гражданское движение за права афроамериканцев было переломным моментом в истории США.",
+      "description": "The phrase 'движение за права человека' is not the standard Russian term for the US Civil Rights Movement, which specifically refers to the struggle of African Americans for civil rights. The more culturally and historically accurate term is 'движение за права афроамериканцев'. This correction ensures the content is contextually precise and aligns with Russian educational conventions.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Бойкот автобусов в Монтгомери (1955-1956): Годичный бойкот общественных автобусов после отказа Розы Паркс уступить место белому пассажиру.",
+      "correction": "Бойкот автобусов в Монтгомери (1955–1956): Годовой бойкот общественных автобусов после отказа Розы Паркс уступить место белому пассажиру.",
+      "description": "The word 'годичный' is not the most natural choice in Russian for describing a year-long event; 'годовой' is the standard term for duration. Additionally, the dash between years should be an en dash (–) according to Russian typographic norms.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Мартин Лютер Кинг-младший",
+      "correction": "Мартин Лютер Кинг-младший",
+      "description": "While the translation is linguistically correct, Russian style guides recommend omitting the hyphen in 'младший' when used as a suffix to a name. The more natural form is 'Мартин Лютер Кинг младший'.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Марш на Вашингтон (1963): Массовая демонстрация за гражданские права, где Мартин Лютер Кинг произнес свою знаменитую речь \"У меня есть мечта\".",
+      "correction": "Марш на Вашингтон (1963): Массовая демонстрация за гражданские права, на которой Мартин Лютер Кинг произнёс свою знаменитую речь «У меня есть мечта».",
+      "description": "The preposition 'где' is less precise than 'на которой' for describing an event context in Russian. Also, Russian quotation marks (« ») should be used instead of English-style double quotes for the speech title. The verb 'произнес' should have the correct stress mark for educational clarity.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Принятие закона о гражданских правах (1964) и закона о правах голосования (1965).",
+      "correction": "Принятие Закона о гражданских правах (1964) и Закона о правах голоса (1965).",
+      "description": "Official names of laws in Russian are capitalized and should use the standard term 'Закон о правах голоса' for the Voting Rights Act. The original uses a lowercase and a less common phrase for the second law.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Civil_Rights_Movement.llm.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T21:38:37.046092",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.0,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 1.0,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.4,
+      "localization_penalty": 0.6,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

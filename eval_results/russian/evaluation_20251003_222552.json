@@ -1,0 +1,115 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Первая помощь может оказать не только медицинским специалистам, но и любым человеком, который осведомлен о основах помощи.",
+      "correction": "Первую помощь могут оказать не только медицинские специалисты, но и любой человек, который осведомлён об основах помощи.",
+      "description": "This sentence contains several grammatical errors: incorrect case usage ('оказать' should be 'могут оказать', and 'медицинским специалистам' should be 'медицинские специалисты'), incorrect subject-verb agreement, and incorrect preposition ('о основах' should be 'об основах'). The corrected version uses proper case, agreement, and preposition.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Их роль не ограничивается только медицинским специалистом, а включает широкое сообщество, способное предоставить первую помощь.",
+      "correction": "Их роль не ограничивается только медицинскими специалистами, а включает широкое сообщество, способное предоставить первую помощь.",
+      "description": "The phrase 'медицинским специалистом' is incorrectly used in the singular instrumental case, while the context requires the plural instrumental 'медицинскими специалистами'. This error affects clarity and grammatical correctness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Нанесите масло на рану для защита от инфекции.",
+      "correction": "Нанесите масло на рану для защиты от инфекции.",
+      "description": "The word 'защита' is incorrectly used in the nominative case; it should be in the genitive case 'защиты' after the preposition 'для'. This is a basic case error affecting grammatical accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Наносить масло на рану не рекомендуется, так как это может затруднить очистку раны и увеличить риск инфекции.",
+      "correction": "Наносить масло на рану не рекомендуется, так как это может затруднить очистку раны и увеличить риск инфекции.",
+      "description": "No linguistic errors found. The sentence is grammatically correct and clear.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Вместо этого следует промыть рану чистой водой и мягким мылом, а затем нанести антибактериальную мазь.",
+      "correction": "Вместо этого следует промыть рану чистой водой и мягким мылом, а затем нанести антибактериальную мазь.",
+      "description": "No linguistic errors found. The sentence is grammatically correct and natural.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Удушье может быть признано следующими симптомами: затрудненное дыхание, синюшность губ, и синяк на руках.",
+      "correction": "Удушье может быть распознано по следующим симптомам: затруднённое дыхание, синюшность губ и синяки на руках.",
+      "description": "The verb 'признано' is a false friend and should be replaced with 'распознано' for correct meaning. 'Синяк на руках' should be pluralized to 'синяки на руках' for naturalness, and 'затрудненное' should use the correct diacritic 'ё'. The comma before 'и' is unnecessary in Russian lists.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Ваши сигналы удушья точно описаны, и их распознавание важно для быстрого вмешательства.",
+      "correction": "Симптомы удушья точно описаны, и их распознавание важно для быстрого вмешательства.",
+      "description": "The phrase 'Ваши сигналы удушья' is unnatural and incorrect in Russian medical context; 'симптомы удушья' is the standard term. This correction improves both lexical precision and naturalness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Симптомы удушья требуют немедленной обратной поддержки и профессиональной помощи.",
+      "correction": "Симптомы удушья требуют немедленной поддержки и профессиональной помощи.",
+      "description": "The phrase 'обратной поддержки' is not idiomatic or standard in Russian medical context. 'Поддержки' alone is sufficient and correct. This correction improves clarity and naturalness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Умные устройства могут предоставлять помощи в раннем обнаружении сердечных прикалываний.",
+      "correction": "Умные устройства могут помогать в раннем обнаружении сердечных приступов.",
+      "description": "The phrase 'предоставлять помощи' is incorrect; 'помогать' is the correct verb. 'Сердечных прикалываний' is a mistranslation and should be 'сердечных приступов' (heart attacks). This is a critical lexical error affecting comprehension.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Системы мониторинга здоровья, такие как фитнес-трекеры, способны выявлять изменения в частоте сердечного ритма, которые могут указывать на сердечные прикалывания.",
+      "correction": "Системы мониторинга здоровья, такие как фитнес-трекеры, способны выявлять изменения в частоте сердечного ритма, которые могут указывать на сердечные приступы.",
+      "description": "The term 'сердечные прикалывания' is a mistranslation and should be 'сердечные приступы'. This is a critical lexical error that could mislead learners about medical terminology.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Это позволяет быстро реагировать на критические ситуации, предоставляя помощи до прибытия медицинской помощи.",
+      "correction": "Это позволяет быстро реагировать на критические ситуации, оказывая помощь до прибытия медицинской помощи.",
+      "description": "The phrase 'предоставляя помощи' is incorrect; the correct form is 'оказывая помощь'. This is a verb usage error affecting grammatical accuracy.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "First_Aid_Basics.slm.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T22:25:52.949206",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 7.4,
+    "classification": "ACCEPTABLE",
+    "total_issues": 11,
+    "total_penalty": 2.6,
+    "issue_breakdown": {
+      "linguistic": 11,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 2.6,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

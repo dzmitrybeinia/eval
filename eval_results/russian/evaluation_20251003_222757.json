@@ -1,0 +1,99 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "верию",
+      "correction": "веру",
+      "description": "The word 'верию' is an incorrect form; the correct accusative singular form is 'веру'. This is a grammatical error affecting noun declension and lexical precision.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "верию в единственное божественное существо",
+      "correction": "веру в единственное божественное существо",
+      "description": "The phrase contains the incorrect word 'верию' instead of 'веру', which is the correct accusative case for 'вера'. This impacts grammatical accuracy and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "взимает монотеизм",
+      "correction": "признаёт монотеизм",
+      "description": "The verb 'взимает' is a false friend and means 'collects (fees/taxes)' in Russian, which is semantically incorrect in this context. The correct verb is 'признаёт' or 'исповедует', meaning 'professes' or 'recognizes' monotheism.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "единообразии божественного порядка",
+      "correction": "единстве божественного порядка",
+      "description": "The word 'единообразие' means 'uniformity', which is not appropriate in the context of monotheism. The correct term is 'единство', meaning 'oneness' or 'unity', which better reflects the theological concept.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "сансатрана",
+      "correction": "сансара",
+      "description": "The term 'сансатрана' is incorrect and does not exist in Russian religious terminology. The correct term for the cycle of birth and rebirth in Hinduism is 'сансара'.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "карама",
+      "correction": "карма",
+      "description": "The word 'карама' is a misspelling of 'карма', which is the correct term for the concept of actions and their consequences in Hinduism.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "Это противоречит идею неизменной судьбы.",
+      "correction": "Это противоречит идее неизменной судьбы.",
+      "description": "The noun 'идею' is in the accusative case, but the preposition 'противоречит' requires the dative case, so it should be 'идее'. This is a grammatical error affecting case usage.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "уменedянию",
+      "correction": "уменьшению",
+      "description": "The word 'уменedянию' contains a non-Russian character sequence and is a misspelling. The intended word is 'уменьшению', meaning 'reduction'. However, the context suggests the intended meaning might be 'умиротворению' (calming) or 'пониманию' (understanding). The sentence should be clarified for accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "Буддизм пообещал своими практиками, что привело к уменedянию и пониманию жизни.",
+      "correction": "Буддизм через свои практики способствует умиротворению и пониманию жизни.",
+      "description": "The sentence is syntactically incorrect: 'пообещал своими практиками, что привело к...' is unnatural and confusing. The corrected version uses a more natural construction, clarifying the causal relationship and improving readability.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "World_Religions.slm.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T22:27:57.086139",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 7.4,
+    "classification": "ACCEPTABLE",
+    "total_issues": 9,
+    "total_penalty": 2.6,
+    "issue_breakdown": {
+      "linguistic": 9,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 2.6,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

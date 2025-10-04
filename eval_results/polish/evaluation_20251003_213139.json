@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Tekstura odnosi się do sposobu, w jaki powierzchnia wygląda lub sprawia wrażenie, że mogłaby wyglądać.",
+      "correction": "Tekstura odnosi się do sposobu, w jaki powierzchnia wygląda lub sprawia wrażenie, że mogłaby być odczuwana.",
+      "description": "The phrase 'sprawia wrażenie, że mogłaby wyglądać' is semantically inaccurate in Polish. The concept of 'texture' in art refers to how a surface looks or feels, not how it could look. The correct expression should indicate the impression of how a surface could be felt ('mogłaby być odczuwana'), which is the standard way to describe texture in Polish art terminology. This correction improves both lexical precision and clarity.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Stippling: używanie małych kropek do tworzenia głębi lub miękkości.",
+      "correction": "Stippling: używanie małych kropek do tworzenia głębi lub miękkości (technika punktowania).",
+      "description": "The term 'stippling' is presented in English without a Polish equivalent, which may reduce accessibility for learners unfamiliar with the term. Adding the Polish term 'technika punktowania' in parentheses ensures terminology consistency and improves localization quality, making the content more culturally appropriate for Polish learners.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Drawing_Techniques.llm.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T21:31:39.360560",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

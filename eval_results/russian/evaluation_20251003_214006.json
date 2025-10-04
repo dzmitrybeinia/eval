@@ -1,0 +1,75 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Всемирная торговая организация (ВТО)",
+      "correction": "Всемирная торговая организация (ВТО)",
+      "description": "The abbreviation 'ВТО' is correctly used for 'Всемирная торговая организация'. However, in Russian, it is standard to introduce the full name first, followed by the abbreviation in parentheses, which is done correctly here. No orthographic errors are present, but this is a good example of proper abbreviation introduction for educational purposes.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Россия экспортирует природный газ в Европу и импортирует электронику из Китая.",
+      "correction": "Россия экспортирует природный газ в Европу и импортирует электронику из Китая.",
+      "description": "The example is culturally appropriate and reflects real trade relationships. However, for a broader educational context, it would be beneficial to mention other major Russian exports and imports to avoid reinforcing a narrow view of trade. Consider including additional examples for a more balanced perspective.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Торговля включала шелк, специи, чай и драгоценные металлы. Также происходил культурный обмен, включая технологии и религии.",
+      "correction": "Торговля включала шелк, специи, чай и драгоценные металлы. Также происходил культурный обмен, включая технологии и религии.",
+      "description": "The sentence structure and case usage are correct. However, the phrase 'включая технологии и религии' could be clarified for educational purposes, as 'технологии' and 'религии' are abstract nouns and may require further explanation in the context of cultural exchange. No grammatical errors, but consider expanding for clarity.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Мы употребляем продукты, которые импортируются из других стран.",
+      "correction": "Мы потребляем продукты, которые импортируются из других стран.",
+      "description": "The verb 'употреблять' is more commonly used for substances like food, drink, or medicine, and can sound unnatural in the context of general product consumption. 'Потреблять' is the standard term for consuming goods in economic contexts. This correction improves the naturalness and professionalism of the language.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Энергоресурсы, такие как нефть, поддерживают промышленность и транспорт.",
+      "correction": "Энергоресурсы, такие как нефть, обеспечивают работу промышленности и транспорта.",
+      "description": "The verb 'поддерживают' is grammatically correct but semantically less precise in this context. 'Обеспечивают работу' more accurately conveys that energy resources enable the functioning of industry and transport. This correction improves lexical precision and clarity.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "с 130 г. до н.э. до 1453 г. н.э.",
+      "correction": "с 130 г. до н. э. до 1453 г. н. э.",
+      "description": "In Russian, the abbreviations 'до н. э.' and 'н. э.' should be separated by spaces after each period for proper formatting. This correction aligns with Russian typographic standards for historical dates.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Global_Trade.llm.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T21:40:06.619883",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.2,
+    "classification": "NATIVE",
+    "total_issues": 6,
+    "total_penalty": 0.8,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.4,
+      "localization_penalty": 0.4,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

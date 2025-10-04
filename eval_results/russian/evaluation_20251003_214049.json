@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Лягушка скок в воду —",
+      "correction": "Лягушка прыг — в воду —",
+      "description": "The word 'скок' is a noun meaning 'jump' and is not used as a verb in Russian poetic context. The correct form should use an interjection or verb to indicate the action, such as 'прыг'. Additionally, the dash is correctly used for emphasis, but the main issue is the unnatural use of 'скок' in this context.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "В ночной переполох,",
+      "correction": "В ночном переполохе,",
+      "description": "The phrase 'В ночной переполох' is grammatically incorrect because 'переполох' is a masculine noun and requires the prepositional case after 'в', resulting in 'в ночном переполохе'. The original uses nominative case and incorrect adjective agreement.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "И понял: сон был не пустой.",
+      "correction": "И понял: сон был не простой.",
+      "description": "The phrase 'сон был не пустой' is unnatural in Russian; the standard idiomatic expression is 'сон был не простой' or 'сон был не обычный'. The original phrase is a literal translation from English and does not convey the intended meaning in Russian.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Poetry_Forms.llm.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T21:40:49.552196",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.3,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.7,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.5,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "ограничения или ограничения",
+      "correction": "ограничения",
+      "description": "The phrase 'ограничения или ограничения' is redundant and unnatural in Russian. Only 'ограничения' should be used to refer to constraints or limitations in the design process. This repetition may confuse learners and does not reflect standard Russian terminology for design criteria.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Design_Process.llm.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T21:39:20.051268",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.8,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.2,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

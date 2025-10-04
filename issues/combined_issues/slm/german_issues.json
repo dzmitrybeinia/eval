@@ -1,25 +1,63 @@
 {
   "metadata": {
     "label": "slm",
-    "label_normalized": "slm",
-    "label_key": "slm",
     "language": "german",
-    "generated_at": "2025-10-03T16:10:08.792784",
+    "generated_at": "2025-10-03T22:42:23.449774",
     "source_files": [
-      "evaluation_20251003_160658.json",
-      "evaluation_20251003_160702.json",
-      "evaluation_20251003_160706.json",
-      "evaluation_20251003_160710.json",
-      "evaluation_20251003_160712.json",
-      "evaluation_20251003_160719.json",
-      "evaluation_20251003_160721.json",
-      "evaluation_20251003_160726.json",
-      "evaluation_20251003_160729.json",
-      "evaluation_20251003_160731.json"
+      "evaluation_20251003_222839.json",
+      "evaluation_20251003_222846.json",
+      "evaluation_20251003_222848.json",
+      "evaluation_20251003_222851.json",
+      "evaluation_20251003_222852.json",
+      "evaluation_20251003_222906.json",
+      "evaluation_20251003_222912.json",
+      "evaluation_20251003_222916.json",
+      "evaluation_20251003_222919.json",
+      "evaluation_20251003_222921.json",
+      "evaluation_20251003_222925.json",
+      "evaluation_20251003_222927.json",
+      "evaluation_20251003_222933.json",
+      "evaluation_20251003_222938.json",
+      "evaluation_20251003_222941.json",
+      "evaluation_20251003_222946.json",
+      "evaluation_20251003_222948.json",
+      "evaluation_20251003_222950.json",
+      "evaluation_20251003_222952.json",
+      "evaluation_20251003_222953.json",
+      "evaluation_20251003_223000.json",
+      "evaluation_20251003_223003.json",
+      "evaluation_20251003_223006.json",
+      "evaluation_20251003_223011.json",
+      "evaluation_20251003_223013.json",
+      "evaluation_20251003_223016.json",
+      "evaluation_20251003_223021.json",
+      "evaluation_20251003_223026.json",
+      "evaluation_20251003_223029.json",
+      "evaluation_20251003_223031.json",
+      "evaluation_20251003_223035.json",
+      "evaluation_20251003_223038.json",
+      "evaluation_20251003_223040.json",
+      "evaluation_20251003_223044.json",
+      "evaluation_20251003_223047.json",
+      "evaluation_20251003_223052.json",
+      "evaluation_20251003_223058.json",
+      "evaluation_20251003_223059.json",
+      "evaluation_20251003_223103.json",
+      "evaluation_20251003_223107.json",
+      "evaluation_20251003_223109.json",
+      "evaluation_20251003_223112.json",
+      "evaluation_20251003_223117.json",
+      "evaluation_20251003_223120.json",
+      "evaluation_20251003_223125.json",
+      "evaluation_20251003_223128.json",
+      "evaluation_20251003_223132.json",
+      "evaluation_20251003_223135.json",
+      "evaluation_20251003_223138.json",
+      "evaluation_20251003_223140.json"
     ],
     "issue_counts": {
-      "linguistic": 28,
-      "localization": 4
+      "linguistic": 124,
+      "localization": 38
     }
   },
   "issues": {
@@ -37,7 +75,7 @@
         "subcategory": "Spelling",
         "original": "hauesteig",
         "correction": "hauptsächlich",
-        "description": "The word 'hauesteig' is a misspelling and does not exist in German. The intended word is 'hauptsächlich', which means 'mainly' or 'primarily'. This error impairs understanding and must be corrected.",
+        "description": "The word 'hauesteig' is a misspelling and does not exist in German. The intended word is 'hauptsächlich'. This error impairs understanding and must be corrected.",
         "severity": "HIGH"
       },
       {
@@ -45,31 +83,39 @@
         "subcategory": "Lexical",
         "original": "Stellvertreter des Göttervaters, Akumu-Osiris",
         "correction": "Stellvertreter des Gottes Osiris",
-        "description": "The term 'Akumu-Osiris' is not historically or culturally accurate in the context of ancient Egyptian religion. Osiris is the correct deity referenced as the god of the afterlife. 'Göttervater' is also not a standard term in Egyptology; 'Gott' or 'Götter' would be more appropriate. This correction ensures both lexical precision and cultural accuracy.",
+        "description": "The term 'Göttervater' is not standard in the context of ancient Egyptian religion, and 'Akumu-Osiris' is not a recognized name in Egyptology. The correct reference is 'Osiris', who was a central deity. This lexical error could mislead learners and should be corrected for accuracy.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Physikalische Anpassungen beziehen sich auf Veränderungen im Körperbau eines Tieres, wie etwa die Entwicklung von dickem Fell bei Eisbären oder starke Krallen bei Adlern.",
+        "correction": "Physikalische Anpassungen beziehen sich auf Veränderungen im Körperbau eines Tieres, wie etwa die Entwicklung von dickem Fell bei Eisbären oder starken Krallen bei Adlern.",
+        "description": "The phrase 'starke Krallen bei Adlern' contains an error in adjective-noun agreement. 'Krallen' is plural, so the adjective should be 'starken' instead of 'starke'. This is a grammatical issue affecting gender and number agreement.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Der Polarfuchs und die Kaktuszaunkönigin haben physische und Verhaltensanpassungen, um in ihren jeweiligen Umgebungen zu überleben.",
+        "correction": "Der Polarfuchs und die Kaktuszaunkönigin haben körperliche und Verhaltensanpassungen, um in ihren jeweiligen Umgebungen zu überleben.",
+        "description": "The term 'physische Anpassungen' is less natural in German scientific usage than 'körperliche Anpassungen' when referring to animal adaptations. 'Körperlich' is the standard term for physical traits in zoology and biology, making the correction necessary for lexical precision and naturalness.",
         "severity": "MEDIUM"
       },
       {
         "category": "linguistic",
         "subcategory": "Lexical",
-        "original": "Physikalische Anpassungen beinhalten immer Veränderungen im Verhalten von Tieren.",
-        "correction": "Physikalische Anpassungen beinhalten immer Veränderungen am Körperbau von Tieren.",
-        "description": "The original statement incorrectly uses 'Verhalten' (behavior) in the context of 'physikalische Anpassungen' (physical adaptations). Physical adaptations refer to changes in the body structure, not behavior. The corrected version replaces 'Verhalten' with 'Körperbau' to accurately reflect the intended meaning. This is a lexical error that could mislead learners about the distinction between physical and behavioral adaptations.",
+        "original": "Der Polarfuchs hat körperliche Merkmale, die ihm helfen, im Winter zu überleben, und der Kaktuszaunkönigin hat Verhaltensweisen, die Schutz und Nahrungssuche ermöglichen.",
+        "correction": "Der Polarfuchs hat körperliche Merkmale, die ihm helfen, im Winter zu überleben, und die Kaktuszaunkönigin hat Verhaltensweisen, die Schutz und Nahrungssuche ermöglichen.",
+        "description": "The sentence incorrectly uses 'der Kaktuszaunkönigin' instead of 'die Kaktuszaunkönigin'. 'Kaktuszaunkönigin' is feminine, so the definite article must be 'die'. This is a grammatical error in gender agreement.",
         "severity": "HIGH"
-      },
-      {
-        "category": "linguistic",
-        "subcategory": "Grammar",
-        "original": "Der Polarfuchs und die Kaktuszaunkönigin haben physische und Verhaltensanpassungen, um in ihren jeweiligen Umgebungen zu überleben.",
-        "correction": "Der Polarfuchs und die Kaktuszaunkönigin haben physische und Verhaltensanpassungen, um in ihren jeweiligen Umgebungen zu überleben.",
-        "description": "The sentence is grammatically correct, but the noun 'Kaktuszaunkönigin' is not standard in German. The correct term for the bird is 'Kaktuszaunkönig'. Using the feminine form 'Königin' is a lexical error and may confuse learners, as it does not refer to the actual species. The rest of the sentence is accurate in terms of grammar and structure.",
-        "severity": "MEDIUM"
       },
       {
         "category": "linguistic",
         "subcategory": "Orthography",
         "original": "Ihr dicker Fell ist eine physikalische Anpassung, die ihnen hilft, das extreme Klima zu überstehen.",
         "correction": "Ihr dickes Fell ist eine physikalische Anpassung, die ihnen hilft, das extreme Klima zu überstehen.",
-        "description": "The phrase 'Ihr dicker Fell' contains a gender agreement error. 'Fell' is a neuter noun in German, so the correct adjective ending is 'dickes', not 'dicker'. This is a grammatical and orthographic issue that affects the accuracy of the sentence.",
+        "description": "The phrase 'Ihr dicker Fell' contains an error in adjective-noun agreement. 'Fell' is neuter ('das Fell'), so the adjective should be 'dickes' instead of 'dicker'. This is a grammatical issue affecting gender and case agreement.",
         "severity": "HIGH"
       },
       {
@@ -77,47 +123,23 @@
         "subcategory": "Lexical",
         "original": "Variablen sind entscheidend für die Lösung von Gleichungen, da sie es uns ermöglichen, die Unbekannten zu erfinden.",
         "correction": "Variablen sind entscheidend für die Lösung von Gleichungen, da sie es uns ermöglichen, die Unbekannten zu finden.",
-        "description": "The word 'erfinden' is incorrect in this context; it means 'to invent' rather than 'to find'. The correct verb is 'finden', which means 'to find' or 'to determine'. This lexical error could confuse learners about the role of variables in equations.",
+        "description": "The word 'erfinden' is a lexical error; it means 'to invent' rather than 'to find'. The correct verb in this context is 'finden', which means 'to find' or 'determine' unknowns in equations. This error affects the semantic accuracy and could confuse learners about the mathematical process.",
         "severity": "HIGH"
       },
       {
         "category": "linguistic",
-        "subcategory": "Grammar",
-        "original": "In der Gleichung 12 + x = 20 repräsentiert der Term 'x' die zusätzlichen Geldbeträge, die benötigt werden, um das Buch zu kaufen, nicht die Gesamtkosten des Buches.",
-        "correction": "In der Gleichung 12 + x = 20 repräsentiert der Term 'x' den zusätzlichen Geldbetrag, der benötigt wird, um das Buch zu kaufen, nicht die Gesamtkosten des Buches.",
-        "description": "The plural 'die zusätzlichen Geldbeträge' is incorrect because the equation refers to a single unknown amount. The singular 'den zusätzlichen Geldbetrag' is grammatically and contextually correct. This improves precision and clarity.",
-        "severity": "MEDIUM"
-      },
-      {
-        "category": "linguistic",
-        "subcategory": "Lexical|Grammar",
-        "original": "sie sind hauptseteled in der ATP-Produktion, die Energie liefert.",
-        "correction": "sie sind hauptsächlich an der ATP-Produktion beteiligt, die Energie liefert.",
-        "description": "The word 'hauptseteled' is a misspelling and not a valid German word; the correct term is 'hauptsächlich'. The phrase 'in der ATP-Produktion' should be clarified to 'an der ATP-Produktion beteiligt' for proper lexical and grammatical usage. This correction improves both word choice and sentence structure.",
+        "subcategory": "Lexical|Grammar|Orthography",
+        "original": "Mitochondrien tragen nicht zur DNA-Bildung bei; sie sind hauptseteled in der ATP-Produktion, die Energie liefert. DNA-Synthese findet in der Zellkern statt.",
+        "correction": "Mitochondrien tragen nicht zur DNA-Bildung bei; sie sind hauptsächlich an der ATP-Produktion beteiligt, die Energie liefert. Die DNA-Synthese findet im Zellkern statt.",
+        "description": "The original text contains a spelling error ('hauptseteled' should be 'hauptsächlich'), incorrect preposition usage ('in der Zellkern' should be 'im Zellkern'), and a lexical inaccuracy ('hauptsächlich an der ATP-Produktion beteiligt' is the correct phrase for describing the mitochondria's role). These errors affect both clarity and grammatical correctness.",
         "severity": "HIGH"
       },
       {
         "category": "linguistic",
         "subcategory": "Grammar|Lexical",
-        "original": "DNA-Synthese findet in der Zellkern statt.",
-        "correction": "DNA-Synthese findet im Zellkern statt.",
-        "description": "The preposition 'in' with 'Zellkern' requires the dative case, so 'im Zellkern' is correct instead of 'in der Zellkern'. Additionally, 'Zellkern' is masculine, so the article must be 'im' (in dem). This correction addresses both case usage and article agreement.",
-        "severity": "HIGH"
-      },
-      {
-        "category": "linguistic",
-        "subcategory": "Grammar|Lexical",
-        "original": "Eine Zelle benötigt einen Zellkern, um ihre Funktionen zu steuern und als Zellkern bekannt.",
-        "correction": "Eine Zelle benötigt einen Zellkern, um ihre Funktionen zu steuern.",
-        "description": "The phrase 'und als Zellkern bekannt' is grammatically incorrect and semantically unclear, as it does not logically follow in this context. The sentence should end after 'zu steuern' to maintain clarity and correctness.",
-        "severity": "MEDIUM"
-      },
-      {
-        "category": "linguistic",
-        "subcategory": "Grammar|Lexical",
-        "original": "Mitochondrien sind die Zelle, die für die Energieproduktion verantwortlich ist.",
-        "correction": "Mitochondrien sind die Zellbestandteile, die für die Energieproduktion verantwortlich sind.",
-        "description": "The sentence incorrectly refers to 'Mitochondrien' (plural) as 'die Zelle' (singular), which is a grammatical error. The correct term is 'Zellbestandteile' (cell components), and the verb should agree in plural form: 'verantwortlich sind'.",
+        "original": "Eine Zelle benötigt einen Zellkern, um ihre Funktionen zu steuern und als Zellkern bekannt. Mitochondrien sind die Zelle, die für die Energieproduktion verantwortlich ist. Die Zusammenarbeit von Zellbestandteilen ist entscheidend für die Gesundheit und das Funktionieren der Zelle.",
+        "correction": "Eine Zelle benötigt einen Zellkern, um ihre Funktionen zu steuern. Mitochondrien sind die Zellorganellen, die für die Energieproduktion verantwortlich sind. Die Zusammenarbeit der Zellbestandteile ist entscheidend für die Gesundheit und das Funktionieren der Zelle.",
+        "description": "The original text contains grammatical and lexical errors: 'und als Zellkern bekannt' is an incorrect and confusing phrase, and 'Mitochondrien sind die Zelle' is incorrect; mitochondria are organelles, not cells. The corrected version clarifies the meaning and uses proper terminology. Additionally, 'Zusammenarbeit von Zellbestandteilen' should use the genitive 'Zusammenarbeit der Zellbestandteile' for standard German.",
         "severity": "HIGH"
       },
       {
@@ -133,7 +155,7 @@
         "subcategory": "Grammar",
         "original": "Einige Klimazonen wie die trockenen oder ariden zeichnen sich durch eine geringe Menge an Niederschlag aus, die über den Jahresverlauf hinweg variiert.",
         "correction": "Einige Klimazonen wie die trockenen oder ariden zeichnen sich durch eine geringe Menge an Niederschlag aus, die im Jahresverlauf variiert.",
-        "description": "The phrase 'über den Jahresverlauf hinweg variiert' is unnecessarily wordy and less idiomatic in German. 'Im Jahresverlauf variiert' is the standard and more natural expression. This improves clarity and linguistic precision.",
+        "description": "The phrase 'über den Jahresverlauf hinweg' is unnecessarily wordy and less idiomatic in German. 'Im Jahresverlauf' is the standard and more natural expression. This improves clarity and linguistic precision.",
         "severity": "MINOR"
       },
       {
@@ -141,7 +163,7 @@
         "subcategory": "Grammar",
         "original": "Die Temperatur in Klimazonen variiert nicht nur aufgrund der Breite, sondern auch durch andere Faktoren wie Höhe, Entfernung von Wasserflächen oder geographische Merkmale.",
         "correction": "Die Temperatur in Klimazonen variiert nicht nur aufgrund der Breite, sondern auch aufgrund anderer Faktoren wie Höhe, Entfernung von Wasserflächen oder geographischer Merkmale.",
-        "description": "The phrase 'auch durch andere Faktoren' is grammatically incorrect; the correct preposition is 'aufgrund' to match the earlier part of the sentence. Additionally, 'geographische Merkmale' should be in the genitive case: 'geographischer Merkmale'.",
+        "description": "The preposition 'durch' is incorrect in this context; 'aufgrund' should be used for both clauses to maintain parallel structure and correct case usage. Additionally, 'geographische Merkmale' should be in the genitive form 'geographischer Merkmale' to match the preceding 'wie'.",
         "severity": "MEDIUM"
       },
       {
@@ -149,7 +171,7 @@
         "subcategory": "Grammar",
         "original": "In höheren Lagen über dem Meeresspiegel sinkt die Temperatur tendenziell, ein Phänomen, das als Temperaturgradient bezeichnet wird.",
         "correction": "In höheren Lagen über dem Meeresspiegel sinkt die Temperatur tendenziell – ein Phänomen, das als Temperaturgradient bezeichnet wird.",
-        "description": "The comma before 'ein Phänomen' should be replaced with an em dash or a semicolon to properly separate the main clause from the explanatory clause, improving sentence structure and readability.",
+        "description": "A comma before 'ein Phänomen' is grammatically permissible, but a dash is more appropriate to indicate an explanatory clause, improving sentence structure and clarity.",
         "severity": "MINOR"
       },
       {
@@ -157,39 +179,71 @@
         "subcategory": "Grammar",
         "original": "Der Einfluss von solchen Meeresströmungen auf das Wetter und Klima lässt sich anhand des Temperaturunterschieds entlang der Küste erkennen.",
         "correction": "Der Einfluss solcher Meeresströmungen auf Wetter und Klima lässt sich anhand des Temperaturunterschieds entlang der Küste erkennen.",
-        "description": "The phrase 'von solchen Meeresströmungen' is incorrect; the genitive 'solcher Meeresströmungen' is required. Also, 'auf das Wetter und Klima' should be 'auf Wetter und Klima' for parallel structure and conciseness.",
+        "description": "The phrase 'von solchen Meeresströmungen' is incorrect; 'solcher Meeresströmungen' is the correct genitive form after 'Einfluss'. Also, articles before 'Wetter und Klima' are unnecessary and less idiomatic in German.",
         "severity": "MEDIUM"
-      },
-      {
-        "category": "linguistic",
-        "subcategory": "Grammar",
-        "original": "Das Vorhandensein von Wasserflächen wie Ozeanen oder großen Seen kann die Niederschlagsmuster eines Gebiets beeinflussen.",
-        "correction": "Das Vorhandensein von Wasserflächen wie Ozeanen oder großen Seen kann das Niederschlagsmuster eines Gebiets beeinflussen.",
-        "description": "The plural 'Niederschlagsmuster' is less idiomatic in this context; the singular 'Niederschlagsmuster' is preferred when referring to the general pattern for a region.",
-        "severity": "MINOR"
       },
       {
         "category": "linguistic",
         "subcategory": "Grammar",
         "original": "Dieses Phänomen ist nicht auf heiße Sommer oder kalte Winter beschränkt, sondern beeinflusst das gesamte Klima signifikant durch die Zusatzversorgung von Feuchtigkeit.",
         "correction": "Dieses Phänomen ist nicht auf heiße Sommer oder kalte Winter beschränkt, sondern beeinflusst das gesamte Klima signifikant durch die zusätzliche Versorgung mit Feuchtigkeit.",
-        "description": "The phrase 'Zusatzversorgung von Feuchtigkeit' is awkward and not standard German. 'Zusätzliche Versorgung mit Feuchtigkeit' is the correct and natural expression.",
+        "description": "The phrase 'Zusatzversorgung von Feuchtigkeit' is awkward and not idiomatic. 'Zusätzliche Versorgung mit Feuchtigkeit' is the correct and natural expression. This correction improves both grammar and lexical precision.",
         "severity": "MEDIUM"
       },
       {
         "category": "linguistic",
         "subcategory": "Grammar",
         "original": "Das ist richtig, weil die Tropische Klimazone durch ihre hohe Luftfeuchtigkeit und reichlichen Niederschläge gekennzeichnet ist, was ein wichtiger Faktor für ihre charakteristischen heißen Temperaturen ist.",
-        "correction": "Das ist richtig, weil die tropische Klimazone durch ihre hohe Luftfeuchtigkeit und reichlichen Niederschlägen gekennzeichnet ist, was ein wichtiger Faktor für ihre charakteristisch heißen Temperaturen ist.",
-        "description": "The noun 'tropische Klimazone' should not be capitalized as an adjective. 'Reichlichen Niederschlägen' requires dative case after 'durch', and 'charakteristisch heißen Temperaturen' is the correct adjective-noun combination.",
+        "correction": "Das ist richtig, weil die tropische Klimazone durch ihre hohe Luftfeuchtigkeit und reichlichen Niederschläge gekennzeichnet ist, was ein wichtiger Faktor für ihre charakteristisch heißen Temperaturen ist.",
+        "description": "The word 'Tropische' should not be capitalized as an adjective; only nouns are capitalized in German. Also, 'charakteristischen heißen Temperaturen' should be 'charakteristisch heißen Temperaturen' to match the correct adjective ending after 'für'.",
         "severity": "MEDIUM"
       },
       {
         "category": "linguistic",
         "subcategory": "Lexical",
+        "original": "Variablen können nur mit Zahlenwerten gefüllt werden.",
+        "correction": "Variablen können nur mit Zahlenwerten belegt werden.",
+        "description": "The use of 'gefüllt werden' is not idiomatic in the context of programming. The correct term in German for assigning a value to a variable is 'belegt werden' or 'zugewiesen werden'. 'Gefüllt' is more commonly used for containers or physical objects, not for variables in programming. This affects clarity and technical accuracy.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "solange sie zu dem zugewiesenen Wert passen.",
+        "correction": "solange sie zum zugewiesenen Wert passen.",
+        "description": "The preposition 'zu' should be followed by the dative case, so 'zum' (zu dem) is correct. While 'zu dem' is not strictly incorrect, 'zum' is the standard contraction and preferred in formal written German, improving grammatical correctness and naturalness.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Jede Variable muss einen Datentyp haben.",
+        "correction": "Jede Variable muss einen Datentyp besitzen.",
+        "description": "While 'haben' is grammatically correct, 'besitzen' is more precise in technical contexts when referring to properties or attributes of objects such as variables. This improves lexical precision and technical accuracy.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Syntax",
+        "original": "Syntax beeinflusst, wie Programme auf verschiedenen Plattformen ausgeführt werden.",
+        "correction": "Die Syntax beeinflusst, wie Programme auf verschiedenen Plattformen ausgeführt werden.",
+        "description": "The definite article 'Die' is missing at the beginning of the sentence. In German, sentences starting with a noun should include the appropriate article for clarity and grammatical correctness.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Ein Programm kann ohne Variablen nicht funktionieren.",
+        "correction": "Ein Programm kann ohne Variablen nicht ausgeführt werden.",
+        "description": "While 'funktionieren' is understandable, 'ausgeführt werden' is more precise in the context of programming, as it refers specifically to the execution of a program. This improves technical accuracy and clarity.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
         "original": "Variablen sind flexibel und können mehr als einen Wert speichern.",
-        "correction": "Variablen sind flexibel und können nacheinander verschiedene Werte speichern.",
-        "description": "The original sentence suggests that a variable can simultaneously store more than one value, which is misleading in most programming languages, including Python. A variable can be reassigned to different values over time, but it does not hold multiple values at once unless it is a collection type. The correction clarifies this concept for educational accuracy.",
+        "correction": "Variablen sind flexibel und können verschiedene Werte speichern.",
+        "description": "The phrase 'mehr als einen Wert speichern' could be misinterpreted as a variable holding multiple values simultaneously, which is not accurate for most programming languages. 'Verschiedene Werte speichern' clarifies that a variable can be reassigned to different values over time, improving semantic accuracy.",
         "severity": "MEDIUM"
       },
       {
@@ -197,7 +251,7 @@
         "subcategory": "Lexical",
         "original": "Variablen können mehr als einen Wert haben.",
         "correction": "Variablen können im Laufe eines Programms verschiedene Werte annehmen.",
-        "description": "The original sentence is misleading from a technical perspective. In programming, a variable can only hold one value at a time, but this value can change during program execution. The phrase 'mehr als einen Wert haben' could be interpreted as a variable holding multiple values simultaneously, which is incorrect. The correction clarifies that variables can take on different values over time, which is the intended meaning.",
+        "description": "The original sentence is misleading from a technical perspective. In programming, a variable can only hold one value at a time, but this value can change during program execution. The phrase 'mehr als einen Wert haben' could be interpreted as a variable holding multiple values simultaneously, which is incorrect. The correction clarifies that variables can take on different values over time, which is accurate and precise.",
         "severity": "MEDIUM"
       },
       {
@@ -205,7 +259,7 @@
         "subcategory": "Lexical",
         "original": "Datenbanken sind tatsächlich ein wichtiger Aspekt der Programmierung, der zur Speicherung und Organisation großer Datenmengen, einschließlich Eingabe- und Ausgabedaten, genutzt wird.",
         "correction": "Datenbanken sind tatsächlich ein wichtiger Aspekt der Programmierung, die zur Speicherung und Organisation großer Datenmengen, einschließlich Eingabe- und Ausgabedaten, genutzt werden.",
-        "description": "The original sentence incorrectly uses 'der' to refer to 'Datenbanken', which is plural and feminine. The relative pronoun should be 'die' to match the gender and number of 'Datenbanken'. This is a grammatical error affecting agreement.",
+        "description": "The original sentence incorrectly uses 'der' to refer to 'Datenbanken', which is plural and feminine. The relative pronoun should be 'die' to match the gender and number of 'Datenbanken'. This is a grammatical error affecting agreement between the noun and the relative clause.",
         "severity": "HIGH"
       },
       {
@@ -213,39 +267,791 @@
         "subcategory": "Lexical",
         "original": "In Navigations-Apps ist die Berechnung der schnellsten Route tatsächlich eine Funktion von Algorithmen, nicht von Variablen.",
         "correction": "In Navigations-Apps ist die Berechnung der schnellsten Route tatsächlich Aufgabe von Algorithmen, nicht von Variablen.",
-        "description": "The phrase 'eine Funktion von Algorithmen' is a literal translation from English ('a function of algorithms') and is unnatural in German in this context. The more idiomatic expression is 'Aufgabe von Algorithmen', which better conveys that algorithms are responsible for the calculation.",
+        "description": "The phrase 'eine Funktion von Algorithmen' is a literal translation from English ('a function of algorithms') and is not idiomatic in German. The more natural and precise expression is 'Aufgabe von Algorithmen', which better conveys that algorithms are responsible for route calculation.",
         "severity": "MEDIUM"
       },
       {
         "category": "linguistic",
         "subcategory": "Lexical",
         "original": "Ein Algorithmus benötigt Variablen, um Daten zu speichern und zu manipulieren.",
-        "correction": "Ein Algorithmus benötigt Variablen, um Daten zu speichern und zu verarbeiten.",
-        "description": "The verb 'manipulieren' can have a negative connotation in German and is less commonly used in educational contexts for programming basics. 'Verarbeiten' is more neutral and appropriate for describing what algorithms do with data.",
-        "severity": "MINOR"
+        "correction": "Ein Algorithmus kann auch ohne Variablen ausgeführt werden, wenn er keine Daten speichern oder verändern muss.",
+        "description": "The original statement is factually incorrect. Not all algorithms require variables; some, such as simple procedures or mathematical formulas, can operate without storing or manipulating data. The correction provides a more accurate and nuanced explanation.",
+        "severity": "HIGH"
       },
       {
         "category": "linguistic",
         "subcategory": "Lexical",
-        "original": "In Python können Variablen sowohl eine einzelne Datenmenge, wie eine Zahl, als auch mehrere Daten sammeln, was als 'Listen' oder 'Dictionaries' bezeichnet wird.",
-        "correction": "In Python können Variablen sowohl eine einzelne Datenmenge, wie eine Zahl, als auch mehrere Daten speichern, was als 'Listen' oder 'Dictionaries' bezeichnet wird.",
-        "description": "The use of 'sammeln' is not precise in this context. The correct verb is 'speichern', which accurately describes the ability of variables to store data. 'Sammeln' implies collecting, which is less appropriate for describing variable assignment in programming. This correction improves lexical precision and technical accuracy.",
+        "original": "Python ist eine Programmiersprache, die vor allem für ihre komplexe Syntax bekannt ist.",
+        "correction": "Python ist eine Programmiersprache, die vor allem für ihre einfache Syntax bekannt ist.",
+        "description": "The statement incorrectly describes Python as being known for its 'komplexe Syntax' (complex syntax), which is factually inaccurate and misleading. The correct lexical choice is 'einfache Syntax' (simple syntax), as Python is widely recognized for its readable and straightforward syntax, making it accessible for beginners. This error affects the accuracy and clarity of the educational content.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Durch die Kultivierung aktiver Zuhörfähigkeiten können Personen besser das gemeinte Gesagte anderer verstehen und somit Missverständnisse minimieren, die oft zu Konflikten führen.",
+        "correction": "Durch die Kultivierung aktiver Zuhörfähigkeiten können Personen besser das Gesagte anderer verstehen und somit Missverständnisse minimieren, die oft zu Konflikten führen.",
+        "description": "The phrase 'das gemeinte Gesagte' is semantically awkward and redundant in German. 'Das Gesagte' sufficiently conveys the intended meaning. Removing 'gemeinte' improves clarity and naturalness, ensuring the sentence is both linguistically correct and stylistically appropriate.",
         "severity": "MEDIUM"
       },
       {
         "category": "linguistic",
         "subcategory": "Lexical",
-        "original": "das gemeinte Gesagte",
-        "correction": "das Gemeinte",
-        "description": "The phrase 'das gemeinte Gesagte' is awkward and redundant in German. 'Gesagte' already refers to what is said, and 'gemeint' to what is meant. The standard and natural German expression is simply 'das Gemeinte', which clearly conveys the intended meaning. This correction improves lexical precision and naturalness.",
+        "original": "Direkte Konfrontation kann manchmal zu weiteren Konflikten führen. Effektive Konfliktlösung beinhaltet oft eine sanfte Kommunikation und das Verständnis der Perspektive des anderen.",
+        "correction": "Direkte Konfrontation kann manchmal zu weiteren Konflikten führen. Effektive Konfliktlösung beinhaltet oft eine einfühlsame Kommunikation und das Verständnis der Perspektive des anderen.",
+        "description": "The term 'sanfte Kommunikation' is not idiomatic in German for conflict resolution contexts. 'Einfühlsame Kommunikation' is the more precise and natural term, aligning with professional and educational standards for describing empathetic communication.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Genetisches Fallacy",
+        "correction": "genetischer Fehlschluss",
+        "description": "The phrase 'Genetisches Fallacy' incorrectly mixes German and English terminology. The correct German term for 'genetic fallacy' is 'genetischer Fehlschluss'. This correction ensures proper lexical choice and maintains linguistic consistency within the German educational context.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Durch das Zerlegen von Behauptungen auf ihre grundlegenden Teile, können wir die Struktur und die Unterstützungskontexte besser verstehen.",
+        "correction": "Durch das Zerlegen von Behauptungen in ihre grundlegenden Teile können wir die Struktur und die Unterstützungskontexte besser verstehen.",
+        "description": "The preposition 'auf' is incorrect in this context; the correct preposition is 'in' when referring to breaking something down into its components. Additionally, there should be no comma after 'Teile' because the subordinate clause does not require separation here. This correction improves grammatical accuracy and sentence flow.",
         "severity": "MEDIUM"
       },
       {
         "category": "linguistic",
         "subcategory": "Grammar",
-        "original": "zu einem gemeinsamen Verständnis führen",
-        "correction": "zu gegenseitigem Verständnis führen",
-        "description": "The phrase 'zu einem gemeinsamen Verständnis führen' is grammatically correct but less precise in the context of conflict resolution. 'Gegenseitiges Verständnis' is the standard term in German for mutual understanding, especially in interpersonal relationships. This correction enhances lexical precision and aligns with common usage in educational and psychological contexts.",
+        "original": "Dieses Beispiel veranschaulicht einen logischen Fehler, der als 'Genetisches Fallacy' bekannt ist, bei dem ein Argument aufgrund seiner Herkunft oder seiner Ästhetik als ungültig abgetan wird.",
+        "correction": "Dieses Beispiel veranschaulicht einen logischen Fehler, der als 'genetischer Fehlschluss' bekannt ist, bei dem ein Argument aufgrund seiner Herkunft oder seiner Ästhetik als ungültig abgetan wird.",
+        "description": "This sentence contains the incorrect term 'Genetisches Fallacy' (see above) and also uses the phrase 'aufgrund seiner Herkunft oder seiner Ästhetik', which is grammatically correct but could be improved for clarity. The main issue is the incorrect terminology, which is addressed in the correction.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "hauptseteilig",
+        "correction": "hauptsächlich",
+        "description": "The word 'hauptseteilig' is a misspelling and does not exist in German. The correct term is 'hauptsächlich', which means 'mainly' or 'primarily'. This error affects the clarity and professionalism of the feedback.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "hauptsetein",
+        "correction": "hauptsächlichen",
+        "description": "The word 'hauptsetein' is a misspelling and not a valid German word. The intended meaning is 'hauptsächlichen', which is the correct adjective form for 'main' or 'primary'. This error impacts the grammatical correctness and comprehension of the statement.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Die DNA-Struktur besteht aus zwei verschiedenen Arten von Molekülen: Desoxyribose-Zucker und Phosphatgruppen, die die beiden Seiten der Doppelhelix bilden. Die stickstoffhaltigen Basen, Adenin (A), Thymin (T), Cytosin (C) und Guanin (G), paaren sich auf der Innenseite und tragen zur Stabilität bei durch Wasserstoffbrücken.",
+        "correction": "Die DNA-Struktur besteht aus zwei verschiedenen Arten von Molekülen: Desoxyribose und Phosphatgruppen, die die beiden Seiten der Doppelhelix bilden. Die stickstoffhaltigen Basen, Adenin (A), Thymin (T), Cytosin (C) und Guanin (G), paaren sich auf der Innenseite und tragen durch Wasserstoffbrücken zur Stabilität bei.",
+        "description": "The term 'Desoxyribose-Zucker' is redundant, as 'Desoxyribose' already refers to a sugar. The phrase 'tragen zur Stabilität bei durch Wasserstoffbrücken' is syntactically awkward; the correct word order is 'tragen durch Wasserstoffbrücken zur Stabilität bei.' These corrections improve lexical precision and sentence structure for clarity and naturalness.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Obwohl DNA-Mutationen manchmal zu genetischen Erkrankungen wie Mukoviszidose führen können, sind nicht alle Mutationen schädlich. Einige können neutral sein oder sogar vorteilhaft sein, wie beispielsweise bei der natürlichen Variation innerhalb einer Population. Mutationen sind ein grundlegendes Konzept in der Genetik, das sowohl negative als auch positive Auswirkungen auf den Organismus haben kann.",
+        "correction": "Obwohl DNA-Mutationen manchmal zu genetischen Erkrankungen wie Mukoviszidose führen können, sind nicht alle Mutationen schädlich. Einige können neutral oder sogar vorteilhaft sein, wie beispielsweise bei der natürlichen Variation innerhalb einer Population. Mutationen sind ein grundlegendes Konzept in der Genetik, das sowohl negative als auch positive Auswirkungen auf den Organismus haben kann.",
+        "description": "The phrase 'neutral sein oder sogar vorteilhaft sein' is repetitive; omitting the second 'sein' creates a more natural and concise sentence. This correction enhances lexical precision and improves the flow of the text.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Die DNA-Replikation findet im Zellkern statt, nicht in den Mitochondrien. Mitochondrien haben ihre eigene DNA, die sich unabhängig von der eukaryotischen DNA-Replikationsmechanik vermehrt. Die Hauptaktivität der DNA-Replikation, die von Enzymen wie Helikasen und DNA-Polymerasen durchgeführt wird, ist eine kritische Phase der Zellteilung und stellt sicher, dass jede neue Zelle eine identische Kopie der genetischen Information erhält.",
+        "correction": "Die DNA-Replikation findet im Zellkern statt, nicht in den Mitochondrien. Mitochondrien haben ihre eigene DNA, die sich unabhängig von der eukaryotischen DNA-Replikation vermehrt. Die Hauptaktivität der DNA-Replikation, die von Enzymen wie Helikasen und DNA-Polymerasen durchgeführt wird, ist eine kritische Phase der Zellteilung und stellt sicher, dass jede neue Zelle eine identische Kopie der genetischen Information erhält.",
+        "description": "The term 'DNA-Replikationsmechanik' is not standard in German scientific usage; 'DNA-Replikation' is the correct and commonly accepted term. This correction ensures the use of industry-standard terminology and improves clarity.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Diese Aussage ist falsch, da genetische Tests tatsächlich wertvolle Informationen liefern können. Sie sind entscheidend für die präzise Diagnose genetischer Störungen, die Einschätzung des Risikos für bestimmte Krankheiten und die Planung angemessener medizinischer Interventionen. Genetische Tests sind ein wichtiges Instrument in der modernen Medizin zur Personalisierung der Behandlung und zur Förderung der präventiven Gesundheitsvorsorge.",
+        "correction": "Diese Aussage ist falsch, da genetische Tests tatsächlich wertvolle Informationen liefern können. Sie sind entscheidend für die präzise Diagnose genetischer Erkrankungen, die Einschätzung des Risikos für bestimmte Krankheiten und die Planung angemessener medizinischer Interventionen. Genetische Tests sind ein wichtiges Instrument in der modernen Medizin zur Personalisierung der Behandlung und zur Förderung der präventiven Gesundheitsvorsorge.",
+        "description": "The term 'genetischer Störungen' is less precise than 'genetischer Erkrankungen' in this context, as 'Erkrankungen' is the standard term for diseases in medical German. This correction improves lexical precision and aligns with professional terminology.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Die Bewertung der Optionen ist ein kritischer Schritt in der Entscheidungsfindungsprozess, der jedoch nicht als letzter Schritt endet. Nach der Bewertung der Optionen folgt die Auswahl der beste Option und das Handeln. Der letzte Schritt ist das Reflexieren über das Ergebnis und das Erlernen daraus.",
+        "correction": "Die Bewertung der Optionen ist ein kritischer Schritt im Entscheidungsfindungsprozess, der jedoch nicht der letzte Schritt ist. Nach der Bewertung der Optionen folgt die Auswahl der besten Option und das Handeln. Der letzte Schritt ist das Reflektieren über das Ergebnis und das Lernen daraus.",
+        "description": "Multiple grammatical errors are present: 'in der Entscheidungsfindungsprozess' should be 'im Entscheidungsfindungsprozess' due to the correct case and preposition usage; 'die Auswahl der beste Option' requires the genitive 'der besten Option' for proper gender and case agreement; 'das Reflexieren' is not idiomatic, the correct term is 'das Reflektieren'; 'das Erlernen daraus' is awkward, 'das Lernen daraus' is more natural. These errors affect clarity and grammatical correctness.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Behaucht Entscheidungen erfordern oft Zeit zum Überlegen. Unter Druck kann die Qualität der Entscheidungen beeinträchtigt sein. Es ist wichtig, die Möglichkeit einer schnellen Antwort gegen die Notwendigkeit einer gründlichen Reflexion abzuwägen.",
+        "correction": "Überlegte Entscheidungen erfordern oft Zeit zum Überlegen. Unter Druck kann die Qualität der Entscheidungen beeinträchtigt sein. Es ist wichtig, die Möglichkeit einer schnellen Antwort gegen die Notwendigkeit einer gründlichen Reflexion abzuwägen.",
+        "description": "The word 'Behaucht' is incorrect and does not exist in German in this context. The intended meaning is 'Überlegte Entscheidungen' (considered decisions). This lexical error significantly impairs comprehension.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Syntax",
+        "original": "Der Überheblichkeitsfehler ist eine Art von Überzeugungsfehler, der vorkommen kann, aber nicht zwangsläufig jeden Zeitpunkt über jede neue Fähigkeit oder Lernleistung.",
+        "correction": "Der Überheblichkeitsfehler ist eine Art von Überzeugungsfehler, der vorkommen kann, aber nicht zwangsläufig bei jeder neuen Fähigkeit oder Lernleistung.",
+        "description": "The phrase 'nicht zwangsläufig jeden Zeitpunkt über jede neue Fähigkeit oder Lernleistung' is syntactically incorrect and unclear. The correct construction is 'nicht zwangsläufig bei jeder neuen Fähigkeit oder Lernleistung', which properly expresses the intended meaning.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Entscheidungsfindung umfasst den Prozess, bei dem alle Optionen sorgfältig abgewogen und bewertet werden, bevor eine informierte Entscheidung getroffen wird. Es geht nicht um die Eile, sondern um die Qualität der Entscheidung, die auf einer gründlichen Bewertung der Vor- und Nachteile basiert.",
+        "correction": "Entscheidungsfindung umfasst den Prozess, bei dem alle Optionen sorgfältig abgewogen und bewertet werden, bevor eine informierte Entscheidung getroffen wird. Es geht nicht um die Eile, sondern um die Qualität der Entscheidung, die auf einer gründlichen Bewertung der Vor- und Nachteile basiert.",
+        "description": "No linguistic or localization errors found. All nouns are correctly capitalized, and the sentence structure is appropriate.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Testen von Designlösungen ist ein kritischer und obligatorischer Schritt im Designprozess. Ohne das Testen zu veranstalten, bleibt die Wirksamkeit der Lösung unbewertet.",
+        "correction": "Testen von Designlösungen ist ein kritischer und obligatorischer Schritt im Designprozess. Ohne das Testen bleibt die Wirksamkeit der Lösung unbewertet.",
+        "description": "The phrase 'das Testen zu veranstalten' is grammatically incorrect in German. The verb 'veranstalten' (to organize/host) is not appropriate in this context; 'Testen' is not something that is 'organized' but rather 'conducted' or simply 'done.' The correct construction is 'Ohne das Testen' to indicate 'without testing.' This correction improves grammatical accuracy and clarity.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Syntax",
+        "original": "Eine Person sollte immer in ihrem eigenen Online-Nachrichten antworten.",
+        "correction": "Eine Person sollte immer auf ihre eigenen Online-Nachrichten antworten.",
+        "description": "The original sentence contains a syntactic error: 'in ihrem eigenen Online-Nachrichten antworten' is incorrect in German. The correct preposition is 'auf', and the noun 'Online-Nachrichten' should be in the accusative plural form 'ihre eigenen Online-Nachrichten'. The corrected sentence is 'Eine Person sollte immer auf ihre eigenen Online-Nachrichten antworten.' This change ensures proper prepositional usage and noun case agreement.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Obwohl man möglicherweise sicher in den Umgang mit persönlichen Informationen fühlt, bleibt es wichtig, die Privatsphäre anderer zu schützen.",
+        "correction": "Obwohl man sich möglicherweise im Umgang mit persönlichen Informationen sicher fühlt, bleibt es wichtig, die Privatsphäre anderer zu schützen.",
+        "description": "The original sentence has a grammatical error in the reflexive verb construction and prepositional phrase. 'Sicher in den Umgang mit persönlichen Informationen fühlt' is incorrect. The correct form is 'sich sicher fühlt' and the prepositional phrase should be 'im Umgang mit persönlichen Informationen'. The corrected sentence is 'Obwohl man sich möglicherweise im Umgang mit persönlichen Informationen sicher fühlt, bleibt es wichtig, die Privatsphäre anderer zu schützen.'",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Schraffieren ist die Technik, die Licht- und Schattenbereiche durch Verwendung von Farben zu erfassen.",
+        "correction": "Schraffieren ist die Technik, Licht- und Schattenbereiche durch die Verwendung von Linien zu erfassen.",
+        "description": "The original sentence incorrectly states that 'Schraffieren' uses colors to capture light and shadow areas. Lexically, 'Schraffieren' refers to the use of lines, not colors, for shading. This is a semantic error that could mislead learners about the technique.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Schattierung ist ein grundlegender Aspekt der Zeichentechniken, der nicht nur der natürlichen Schatten im Outdoor-Szenario zugeordnet wird.",
+        "correction": "Schattierung ist ein grundlegender Aspekt der Zeichentechniken, der nicht nur natürlichen Schatten im Außenbereich zugeordnet wird.",
+        "description": "The phrase 'der nicht nur der natürlichen Schatten im Outdoor-Szenario zugeordnet wird' contains a grammatical error: the article 'der' is incorrectly used with the plural noun 'Schatten'. It should be 'nicht nur natürlichen Schatten'. Additionally, 'Outdoor-Szenario' is an unnecessary anglicism; 'Außenbereich' is more natural and appropriate in German educational contexts.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Einfühlen von Empathie kann die Qualität von zwischenmenschlichen Beziehungen verbessern.",
+        "correction": "Empathie kann die Qualität von zwischenmenschlichen Beziehungen verbessern.",
+        "description": "The phrase 'Einfühlen von Empathie' is redundant and unnatural in German. 'Empathie' alone sufficiently conveys the intended meaning. The use of 'Einfühlen' with 'Empathie' is a lexical error, as 'Empathie' already means the ability to empathize. The corrected version is more idiomatic and clear.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Emotionen sind universelle Erfahrungen, die Menschen überall auf der Welt teilen. Ihre Verarbeitung und Ausprägung können kulturell beeinflusst werden, aber die grundlegenden Emotionen selbst sind in allen Gesellschaften erlebt.",
+        "correction": "Emotionen sind universelle Erfahrungen, die Menschen überall auf der Welt teilen. Ihre Verarbeitung und Ausprägung können kulturell beeinflusst werden, aber die grundlegenden Emotionen selbst werden in allen Gesellschaften erlebt.",
+        "description": "The verb 'erlebt' in the phrase 'die grundlegenden Emotionen selbst sind in allen Gesellschaften erlebt' is incorrectly used in the passive construction. In German, the correct passive form requires 'werden erlebt' instead of 'sind erlebt'. This error affects grammatical accuracy and may cause confusion for learners.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Ein 'Die Geschichte von Hans und die Katze' ist ein Beispiel für Fiktion.",
+        "correction": "'Die Geschichte von Hans und die Katze' ist ein Beispiel für Fiktion.",
+        "description": "The use of 'Ein' before the quoted title is grammatically incorrect in German. When referring to a specific work by its title, the indefinite article 'Ein' should not be used. The correct form is to state the title directly, as in: 'Die Geschichte von Hans und die Katze ist ein Beispiel für Fiktion.' This correction improves grammatical accuracy and aligns with standard German usage for referencing titles.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "In einem Brandnotfall ist es äußerst riskant, versuchen, das Feuer selbst zu löschen.",
+        "correction": "In einem Brandnotfall ist es äußerst riskant, zu versuchen, das Feuer selbst zu löschen.",
+        "description": "The infinitive construction 'versuchen, das Feuer selbst zu löschen' is incorrect in German. The correct form is 'zu versuchen, das Feuer selbst zu löschen' because the infinitive with 'zu' is required after 'riskant ist'. This error affects grammatical accuracy and sentence structure.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Versuche, das Feuer zu löschen, können zu zusätzlichen Gefahren führen und das Risiko für die eigenen Leben erhöhen.",
+        "correction": "Versuche, das Feuer zu löschen, können zu zusätzlichen Gefahren führen und das Risiko für das eigene Leben erhöhen.",
+        "description": "The phrase 'für die eigenen Leben' is incorrect because 'Leben' is a singular noun in this context and should be preceded by 'das eigene' instead of the plural 'die eigenen'. This error affects grammatical agreement and clarity.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Verwendung von Feuerlöscher ist die erste Maßnahme, wenn man ein Feuer entdeckt.",
+        "correction": "Die Verwendung eines Feuerlöschers ist die erste Maßnahme, wenn man ein Feuer entdeckt.",
+        "description": "The phrase 'Verwendung von Feuerlöscher' is grammatically incorrect. The correct form is 'Die Verwendung eines Feuerlöschers', using the definite article and the genitive case for the noun. This error affects grammatical correctness and clarity.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Feuerlöscher sind für kleine Brände vorgesehen und sollten nur dann verwendet werden, wenn es sicher ist, dies zu tun, und wenn die Feuerwehr nicht in der Lage ist, schnell zu reagieren.",
+        "correction": "Feuerlöscher sind für kleine Brände vorgesehen und sollten nur dann verwendet werden, wenn es sicher ist, dies zu tun.",
+        "description": "The clause 'und wenn die Feuerwehr nicht in der Lage ist, schnell zu reagieren' is misleading and could imply that fire extinguishers should only be used if the fire department cannot respond quickly, which is not standard safety advice. The sentence should focus on safety and appropriateness of extinguisher use. This correction improves both linguistic clarity and localization accuracy.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Bei einem Erstickungsanfall ist es entscheidend, die Person in eine Hocke zu legen, um den Luftweg zu öffnen. Haltet die Person nicht fest, sondern helfen Sie, indem Sie sie in eine Hocke bringen und ihre Brust auf- und abwärts bewegen, um den Atemweg zu lüften.",
+        "correction": "Bei einem Erstickungsanfall ist es entscheidend, die Person in eine aufrechte Position zu bringen, um die Atemwege zu öffnen. Halten Sie die Person nicht fest, sondern helfen Sie, indem Sie sie aufrecht hinsetzen und ihre Atmung beobachten.",
+        "description": "The original text contains a grammatical inconsistency in the use of 'Haltet' (informal plural imperative) and 'helfen Sie' (formal singular imperative) within the same instruction, which disrupts register consistency. Additionally, the advice to 'die Person in eine Hocke zu legen' and 'ihre Brust auf- und abwärts bewegen, um den Atemweg zu lüften' is medically inaccurate and could be dangerous. The correction provides a linguistically consistent formal register and medically appropriate first aid advice.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Die Reinigung der Hände vor der Erst-Hilfe-Behandlung ist entscheidend, um Infektionen zu verhindern.",
+        "correction": "Die Reinigung der Hände vor der Erste-Hilfe-Behandlung ist entscheidend, um Infektionen zu verhindern.",
+        "description": "The compound noun 'Erst-Hilfe-Behandlung' is incorrect; the standard term is 'Erste-Hilfe-Behandlung'. This lexical error affects clarity and professionalism, as 'Erste Hilfe' is the accepted terminology in German for first aid.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Die Wissenslage über Erste Hilfe kann den Erfolg bei der ersten Reaktion auf Notfälle erheblich beeinflussen.",
+        "correction": "Das Wissen über Erste Hilfe kann den Erfolg bei der ersten Reaktion auf Notfälle erheblich beeinflussen.",
+        "description": "The word 'Wissenslage' is semantically inaccurate in this context; 'Wissenslage' refers to the general state of knowledge, not an individual's knowledge. The correct term is 'Das Wissen', which precisely conveys the intended meaning.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Empathie bedeutet, dass wir immer mit dem Urteilen der anderen Menschen umgehen.",
+        "correction": "Empathie bedeutet, dass wir immer mit den Urteilen anderer Menschen umgehen.",
+        "description": "The phrase 'mit dem Urteilen der anderen Menschen' is incorrect in German. The correct form is 'mit den Urteilen anderer Menschen', as 'Urteilen' should be plural and in the dative case, and 'anderer Menschen' is the standard genitive construction. Additionally, the statement is semantically inaccurate, as empathy does not inherently involve dealing with others' judgments. However, the primary issue is linguistic.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Syntax",
+        "original": "Aktives Zuhören bedeutet, sich volle Aufmerksamkeit zu schenken und Ablenkungen wie Handys auszuschalten.",
+        "correction": "Aktives Zuhören bedeutet, dem Gespräch volle Aufmerksamkeit zu schenken und Ablenkungen wie Handys auszuschalten.",
+        "description": "The phrase 'sich volle Aufmerksamkeit zu schenken' is syntactically incorrect. In German, one 'schenkt' (gives) attention to someone or something, not to oneself in this context. The correct construction is 'dem Gespräch volle Aufmerksamkeit zu schenken', which clarifies the recipient of the attention.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Es geht nicht darum, Ablenkungen zu ignorieren, sondern sie zu minimieren, um vollständig zuzuhören.",
+        "correction": "Es geht nicht darum, Ablenkungen zu ignorieren, sondern sie zu vermeiden, um vollständig zuzuhören.",
+        "description": "The verb 'minimieren' is technically correct but less natural in this context. 'Vermeiden' is the more idiomatic choice in German when referring to distractions in the context of active listening.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Es ist wichtig, während eines Streits den Raum für den anderen zu gewinnen.",
+        "correction": "Es ist wichtig, während eines Streits dem anderen Raum zu geben.",
+        "description": "The phrase 'den Raum für den anderen zu gewinnen' is a literal translation from English and is not idiomatic in German. The correct and natural expression is 'dem anderen Raum zu geben', which accurately conveys the intended meaning of allowing the other person space to express themselves.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Es geht darum, dem Sprecher volle Aufmerksamkeit zu schenken und nicht den eigenen Gedanken innezuwohnen.",
+        "correction": "Es geht darum, dem Sprecher volle Aufmerksamkeit zu schenken und sich nicht in den eigenen Gedanken zu verlieren.",
+        "description": "The phrase 'den eigenen Gedanken innezuwohnen' is awkward and not idiomatic in German. The standard expression is 'sich in den eigenen Gedanken zu verlieren', which better communicates the idea of being distracted by one's own thoughts.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "Empathie bedeutet, dass wir unsere eigenen Probleme immer zuerst priorieren müssen.",
+        "correction": "Empathie bedeutet, dass wir unsere eigenen Probleme immer zuerst priorisieren müssen.",
+        "description": "The verb 'priorieren' is a misspelling; the correct German verb is 'priorisieren'. This is a spelling error that affects the professionalism and clarity of the statement.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Es ist ungenau zu sagen, dass er nur nationalen Handel umfasst.",
+        "correction": "Es ist ungenau zu sagen, dass er nur nationalen Handel umfasst.",
+        "description": "The phrase 'nur nationalen Handel' is semantically imprecise in this context. The intended meaning is that global trade does not only involve domestic trade. A more precise wording would be 'nur den Handel mit nationalen Produkten' or 'nur den Handel innerhalb eines Landes'. The current wording could confuse learners about the distinction between national and international trade.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Zudem muss ein veto eines Bundesgesetzes durch ein Zweidrittelmehrheit in beiden Kammern des Kongresses aufgehoben werden, um Gesetze zu verabschieden.",
+        "correction": "Zudem muss ein Veto eines Bundesgesetzes durch eine Zweidrittelmehrheit in beiden Kammern des Kongresses aufgehoben werden, um Gesetze zu verabschieden.",
+        "description": "There are two linguistic errors: 'veto' should be capitalized as 'Veto' because it is a noun in German, and 'ein Zweidrittelmehrheit' should be 'eine Zweidrittelmehrheit' to match the feminine gender of 'Mehrheit'. Both errors affect grammatical correctness and noun capitalization.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Syntax",
+        "original": "Gesetzesinitiativen und -vorschläge gehen primär durch die Legislative, den Kongress, über.",
+        "correction": "Gesetzesinitiativen und -vorschläge gehen primär von der Legislative, dem Kongress, aus.",
+        "description": "The phrase 'gehen primär durch die Legislative, den Kongress, über' is syntactically incorrect and unnatural in German. The correct construction is 'gehen primär von der Legislative, dem Kongress, aus', which properly expresses the origin of legislative initiatives.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Die Anzahl der Richter am Obersten Gerichtshof ist abwechslungsartig und nicht fester.",
+        "correction": "Die Anzahl der Richter am Obersten Gerichtshof ist nicht festgelegt.",
+        "description": "The word 'abwechslungsartig' is a lexical error; it is not appropriate in this context. The correct term is 'nicht festgelegt', which accurately conveys that the number of judges is not fixed. The phrase 'nicht fester' is also incorrect; 'festgelegt' is the proper adjective.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Im Gegensatz dazu wird die Amtszeit von 14 Jahren durch eine Amtszeit von 18 Jahren für Richter, die von Präsidenten ernannt werden, und eine Amtszeit von 10 Jahren für Amtsinhaber des Obersten Gerichtshofs angegeben.",
+        "correction": "Im Gegensatz dazu werden Richter am Obersten Gerichtshof auf Lebenszeit ernannt.",
+        "description": "The sentence contains factual and lexical inaccuracies. The US Supreme Court justices are appointed for life, not for 14, 18, or 10 years. The phrase 'Amtsinhaber des Obersten Gerichtshofs' is also misleading, as all justices are appointed for life. The correction provides the accurate information and proper terminology.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Syntax",
+        "original": "da der Kongress das Gesetzgebungsrecht hat und der Präsident das Veto kann, was dazu führen kann, dass der Kongress eine Zweidrittelmehrheit benötigt, um das Veto zu überstimmen.",
+        "correction": "da der Kongress das Gesetzgebungsrecht hat und der Präsident ein Veto einlegen kann, was dazu führen kann, dass der Kongress eine Zweidrittelmehrheit benötigt, um das Veto zu überstimmen.",
+        "description": "The phrase 'der Präsident das Veto kann' is syntactically incorrect. The correct expression is 'der Präsident ein Veto einlegen kann', which properly uses the verb and noun combination in German.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Die legislative Gewalt liegt bei der Gesetzgebung bei der Bundesversammlung, die aus dem Kongress besteht.",
+        "correction": "Die legislative Gewalt liegt bei der Gesetzgebung beim Kongress.",
+        "description": "The original sentence incorrectly uses 'Bundesversammlung' to refer to the US Congress. 'Bundesversammlung' is a German term for a specific German political body and is not appropriate in the context of US government structure. The correct term is 'Kongress'. Additionally, the phrase 'liegt bei der Gesetzgebung bei der Bundesversammlung' is redundant and awkward; it should be simplified to 'liegt bei der Gesetzgebung beim Kongress'.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "hauptseteiglich",
+        "correction": "hauptsächlich",
+        "description": "The word 'hauptseteiglich' is a misspelling and does not exist in German. The correct word is 'hauptsächlich', meaning 'primarily'. This spelling error significantly affects comprehension.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Der Präsident, der Exekutivzweig, kann Gesetzentwürfe vorschlagen, aber nicht schreiben.",
+        "correction": "Der Präsident, als Teil des Exekutivzweigs, kann Gesetzentwürfe vorschlagen, aber nicht verfassen.",
+        "description": "The phrase 'der Präsident, der Exekutivzweig' is misleading, as the president is not the entire executive branch but a part of it. Additionally, 'schreiben' is not the most precise verb for legislative drafting; 'verfassen' is more appropriate in this context.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Lehrende Herausforderungen bedeuten, dass man nicht zurückweicht.",
+        "correction": "Herausfordernde Aufgaben bedeuten, dass man nicht zurückweicht.",
+        "description": "The original sentence uses 'Lehrende Herausforderungen', which is grammatically incorrect and semantically unclear in German. 'Lehrende' is a present participle meaning 'teaching', which does not fit the intended meaning. The correct phrase should be 'Herausfordernde Aufgaben' or 'Herausforderungen', meaning 'challenging tasks' or 'challenges'. This correction addresses both the grammatical error and improves clarity.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "hauptseteilt",
+        "correction": "hauptsächlich",
+        "description": "The word 'hauptseteilt' is a misspelling and does not exist in German. The correct term is 'hauptsächlich', which means 'mainly' or 'primarily'. This error affects comprehension and should be corrected for clarity and accuracy.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Lebensmitteln",
+        "correction": "Lebensmittel",
+        "description": "In the phrase 'Vielfalt an Lebensmitteln', the word 'Lebensmitteln' is in dative plural due to the preposition 'an'. However, in standard German, 'Vielfalt an Lebensmittel' (accusative plural) is more commonly used in this context to indicate a variety of foods. While not strictly incorrect, using 'Lebensmittel' improves naturalness and aligns with typical usage.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Diese grundlegenden Prinzipien sind international anerkannt, was darauf hinweist, dass die grundlegenden Merkmale der Menschenrechte nicht von einem Land zum anderen stark variieren.",
+        "correction": "Diese grundlegenden Prinzipien sind international anerkannt, was darauf hinweist, dass die grundlegenden Merkmale der Menschenrechte nicht von Land zu Land stark variieren.",
+        "description": "The phrase 'von einem Land zum anderen' is grammatically correct but stylistically awkward in German. The more natural and idiomatic expression is 'von Land zu Land'. This correction improves the fluency and clarity of the sentence while maintaining grammatical accuracy.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Freundlichkeit gewährt sich durch Selbstbehauptung.",
+        "correction": "Freundlichkeit zeigt sich durch Selbstbehauptung.",
+        "description": "The verb 'gewährt sich' is incorrect in this context. In German, 'gewähren' means 'to grant' and is not reflexive in this sense. The correct verb is 'zeigt sich', which means 'is shown' or 'is demonstrated'. This correction improves the lexical precision and ensures the sentence is grammatically and semantically accurate.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Dividierend Informationen in kleinere Abschnitte verbessert das Erinnern.",
+        "correction": "Das Aufteilen von Informationen in kleinere Abschnitte verbessert das Erinnern.",
+        "description": "The word 'Dividierend' is not a correct German participle or verb form for this context. The proper expression is 'Das Aufteilen von Informationen', which accurately conveys the act of dividing information. Additionally, the sentence structure is improved for clarity and naturalness.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "lebendigen Beatst",
+        "correction": "lebendigen Beats",
+        "description": "The word 'Beatst' is a spelling error; the correct plural form is 'Beats'. This affects the clarity and professionalism of the statement.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "hauptsanto",
+        "correction": "hauptsächlich",
+        "description": "The word 'hauptsanto' is not a valid German word and appears to be a typographical or lexical error. The correct term is 'hauptsächlich', which means 'mainly' or 'primarily'. This error significantly impacts comprehension.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Die Musikgenre Rockmusik hat eine entscheidende Rolle in der Darstellung und Entwicklung der Jugendkultur gespielt, was von ihrem Aufstieg in den 1950ern bis zu ihrer Rolle in verschiedenen gesellschaftlichen Bewegungen reicht.",
+        "correction": "Das Musikgenre Rockmusik hat eine entscheidende Rolle in der Darstellung und Entwicklung der Jugendkultur gespielt, was von ihrem Aufstieg in den 1950ern bis zu ihrer Rolle in verschiedenen gesellschaftlichen Bewegungen reicht.",
+        "description": "The phrase 'Die Musikgenre Rockmusik' is grammatically incorrect. 'Genre' is neuter ('das Genre'), and the correct phrase is 'Das Musikgenre Rockmusik'. This error affects grammatical agreement and clarity.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "einer Stadt in New York",
+        "correction": "einem Stadtteil von New York",
+        "description": "The phrase 'einer Stadt in New York' incorrectly refers to the Bronx as a city, when it is actually a borough (Stadtteil) of New York City. This is a lexical and factual error affecting accuracy.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Erneuerbare Ressourcen wie Solarenergie und Windenergie aus natürlichen Prozessen stammen, die sich im Laufe der Zeit wieder auffüllen können.",
+        "correction": "Erneuerbare Ressourcen wie Solarenergie und Windenergie stammen aus natürlichen Prozessen, die sich im Laufe der Zeit wieder auffüllen können.",
+        "description": "The original sentence contains a word order error: the verb 'stammen' should directly follow the subject 'Erneuerbare Ressourcen wie Solarenergie und Windenergie' in the main clause. The corrected sentence places the verb in the correct position, improving grammatical accuracy and clarity.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Syntax",
+        "original": "Es ist sicher, alle persönlichen Daten, die du online teilst, niemandem zuzufügen.",
+        "correction": "Es ist sicher, alle persönlichen Daten, die du online teilst, niemandem preiszugeben.",
+        "description": "The sentence contains a syntactic and lexical error. The verb 'zufügen' is incorrect in this context; the correct verb is 'preisgeben' or 'weiterzugeben', which means 'to disclose' or 'to share'. 'Zufügen' means 'to inflict', which does not fit the intended meaning. Additionally, the sentence structure is confusing and does not clearly convey the intended message about sharing personal data online. The corrected version uses 'preiszugeben' to accurately express the idea of disclosing personal data.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Elemente in der zweiten Periode haben tatsächlich drei Valenzelektronen. Zum Beispiel hat Magnesium (Mg) drei Valenzelektronen und reagiert mit anderen Elementen wie Sauerstoff (O) zu Magnesiumoxid (MgO).",
+        "correction": "Elemente in der zweiten Periode haben tatsächlich zwei Valenzelektronen. Zum Beispiel hat Magnesium (Mg) zwei Valenzelektronen und reagiert mit anderen Elementen wie Sauerstoff (O) zu Magnesiumoxid (MgO).",
+        "description": "The feedback incorrectly states that elements in the second period have three valence electrons and uses magnesium (Mg) as an example. Magnesium is not in the second period; it is in the third period and has two valence electrons. Elements in the second period have between one and eight valence electrons depending on the group, but the statement and example are factually incorrect. This is a critical scientific inaccuracy that affects comprehension and credibility.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Dies liegt daran, dass jedes Element in einer Periode ein Elektron mehr hat als das vorhergehende Element. Dieses Elektron wird zur äußeren Schale hinzugefügt, was die zunehmende Anzahl der Protonen in jeder Periode widerspiegelt.",
+        "correction": "Dies liegt daran, dass jedes Element in einer Periode ein Proton mehr im Atomkern hat als das vorhergehende Element. Die Anzahl der Elektronen entspricht der Anzahl der Protonen, wodurch die steigende Protonenzahl in jeder Periode erklärt wird.",
+        "description": "The feedback incorrectly states that each element in a period has one more electron than the previous and that this electron is added to the outer shell, which is misleading. The defining property is the increase in proton number in the nucleus, not just the electron configuration. The explanation should focus on the atomic number (proton count) as the basis for the periodic table's order. This is a scientific inaccuracy that could confuse learners.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Syntax",
+        "original": "In Gruppe 1, auch bekannt als Alkalimetalle, nimmt die Reaktivität mit zunehmender Atomnummer zu, da die Elektronen in äußere Schalen hinzukommen. Gruppe 2, die Erdalkalimetalle, sind aufgrund ihrer zusätzlichen inneren Elektronenschale weniger reaktiv als Gruppe 1.",
+        "correction": "In Gruppe 1, auch bekannt als Alkalimetalle, nimmt die Reaktivität mit zunehmender Atomnummer zu, da die Valenzelektronen weiter vom Kern entfernt sind. Gruppe 2, die Erdalkalimetalle, sind aufgrund ihrer zusätzlichen inneren Elektronenschale weniger reaktiv als die Elemente der Gruppe 1.",
+        "description": "The phrase 'da die Elektronen in äußere Schalen hinzukommen' is syntactically awkward and scientifically imprecise. The correct explanation is that the valence electrons are further from the nucleus, which increases reactivity in Group 1. Additionally, the comparison should specify 'die Elemente der Gruppe 1' for clarity and grammatical correctness.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Überzeugungsschreibweise",
+        "correction": "Überzeugendes Schreiben",
+        "description": "The term 'Überzeugungsschreibweise' is not a standard or natural expression in German. The correct and widely accepted term is 'Überzeugendes Schreiben', which accurately conveys the concept of persuasive writing. Using the correct terminology improves clarity and aligns with educational standards.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Die Struktur wird durch die kürzere zweite Zeile von neun Silben gekennzeichnet, nicht fünf.",
+        "correction": "Die Struktur wird durch die mittlere Zeile mit sieben Silben gekennzeichnet, nicht fünf.",
+        "description": "The original sentence incorrectly states that the second line of a Haiku has nine syllables, which is factually wrong. The correct number is seven syllables. This is a lexical error affecting the accuracy of the educational content.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Freie Verse sind dafür bekannt, dass sie keinen festen Reimschema, Metrum oder Struktur haben, was sie sehr flexibel macht.",
+        "correction": "Freie Verse sind dafür bekannt, dass sie kein festes Reimschema, Metrum oder feste Struktur haben, was sie sehr flexibel macht.",
+        "description": "The phrase 'keinen festen Reimschema' is incorrect because 'Reimschema' is neuter ('das Reimschema'), so the correct form is 'kein festes Reimschema'. Additionally, for parallelism and clarity, 'feste Struktur' should be used instead of just 'Struktur'. This is a grammatical and lexical issue affecting agreement and naturalness.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Ein Limerick besteht aus fünfzehn Silben, nicht aus zehn.",
+        "correction": "Ein Limerick besteht nicht aus zehn Silben.",
+        "description": "The original sentence incorrectly states that a Limerick consists of fifteen syllables, which is factually inaccurate. Limericks do not have a fixed total syllable count; the syllable count varies by line. The correction removes the incorrect information and maintains factual accuracy.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "bestimmige",
+        "correction": "bestimmte",
+        "description": "The word 'bestimmige' is a spelling error; the correct form is 'bestimmte'. 'Bestimmte' is the proper adjective form in German for 'specific' or 'certain'. This error affects both the statement and the feedback, and should be corrected in both instances to maintain linguistic accuracy.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Da es vier Asse in einem Standarddeck mit 52 Karten gibt, beträgt die Wahrscheinlichkeit 4/52, was vereinfacht zu 1/13 oder ungefähr 7,69 %.",
+        "correction": "Da es vier Asse in einem Standarddeck mit 52 Karten gibt, beträgt die Wahrscheinlichkeit 4/52, was vereinfacht zu 1/13 oder ungefähr 7,69 %. Daher ist die Aussage, dass die Wahrscheinlichkeit ein Drittel beträgt, falsch.",
+        "description": "The feedback provides the correct calculation but does not address the error in the statement, which incorrectly claims the probability is one third. For educational clarity, the feedback should explicitly state that the correct probability is 1/13, not one third, to prevent misunderstanding.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Scannen bezieht sich auf ein schnelles Überfliegen eines Textes, um spezifische Informationen zu finden, ohne den Text vollständig zu lesen.",
+        "correction": "Scannen bezieht sich auf das schnelle Überfliegen eines Textes, um spezifische Informationen zu finden, ohne den Text vollständig zu lesen.",
+        "description": "The phrase 'ein schnelles Überfliegen' should use the neuter article 'das' instead of 'ein', because 'Überfliegen' is a neuter noun in German. This ensures correct article-noun agreement and maintains linguistic accuracy.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Indem man aktiv mit dem Text interagiert, indem man beispielsweise Notizen macht oder Fragen zu dem Stoff stellt, kann das Verständnis und die Gedächtnisleistung verbessert werden.",
+        "correction": "Indem man aktiv mit dem Text interagiert, beispielsweise indem man Notizen macht oder Fragen zu dem Stoff stellt, kann das Verständnis und die Gedächtnisleistung verbessert werden.",
+        "description": "The sentence contains a redundancy with the repeated use of 'indem man'. For correct German syntax and style, the second 'indem man' should be integrated as a subordinate clause: 'beispielsweise indem man Notizen macht...'. This improves sentence flow and clarity.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Die falsche Aussage liegt darin, dass das Formulieren einer Hypothese nicht der letzte Schritt in der wissenschaftlichen Methode ist.",
+        "correction": "Die falsche Aussage besteht darin, dass das Formulieren einer Hypothese nicht der letzte Schritt in der wissenschaftlichen Methode ist.",
+        "description": "The verb 'liegt' is not idiomatic in this context; the standard German expression is 'besteht darin'. This correction improves grammatical accuracy and naturalness, ensuring the sentence is both correct and clear for educational purposes.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Die Kraft, die auf einen Hebel angewendet wird, wird als Schubkraft oder moment bezeichnet.",
+        "correction": "Die Kraft, die auf einen Hebel angewendet wird, wird als Kraft oder Moment bezeichnet.",
+        "description": "The term 'Schubkraft' is incorrect in the context of levers; the correct term is 'Kraft' or 'Moment'. 'Schubkraft' refers to thrust force, which is not appropriate here. Additionally, 'moment' should be capitalized as 'Moment' since it is a noun in German.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Der Schubkraft erzeugt ein Drehmoment, das die Bewegung des Hebels antreibt.",
+        "correction": "Die Kraft erzeugt ein Drehmoment, das die Bewegung des Hebels antreibt.",
+        "description": "The definite article 'Der' does not agree with the feminine noun 'Kraft'; it should be 'Die Kraft'. Also, 'Schubkraft' is not the correct term in this context, and should be replaced with 'Kraft'.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "moment",
+        "correction": "Moment",
+        "description": "The noun 'Moment' must be capitalized in German according to standard orthography rules.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "In Wirklichkeit bewegen sich die Achse, wenn das Rad rotiert.",
+        "correction": "In Wirklichkeit bewegt sich die Achse, wenn das Rad rotiert.",
+        "description": "The verb 'bewegen' is incorrectly conjugated for the singular noun 'die Achse'. It should be 'bewegt sich' instead of 'bewegen sich'.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Die Drehmomentumübertragung erfolgt durch die Rotation des Rades.",
+        "correction": "Die Drehmomentübertragung erfolgt durch die Rotation des Rades.",
+        "description": "The compound noun 'Drehmomentumübertragung' is incorrect; the correct term is 'Drehmomentübertragung'.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Wenn das Rad stillsteht, bleibt auch die Achse in Position, was den angewendeten Kräften keine Bewegung ermöglicht.",
+        "correction": "Wenn das Rad stillsteht, bleibt auch die Achse in Position, wodurch keine Bewegung ermöglicht wird.",
+        "description": "The phrase 'was den angewendeten Kräften keine Bewegung ermöglicht' is grammatically awkward and unclear. It should be rephrased to 'wodurch keine Bewegung ermöglicht wird' for clarity and correct sentence structure.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Rollen sind so konstruiert, dass sie die Mechanik des Hebens erleichtern.",
+        "correction": "Kräne sind so konstruiert, dass sie die Mechanik des Hebens erleichtern.",
+        "description": "The word 'Rollen' (rollers) is incorrect in this context; the statement is about 'Kräne' (cranes). The subject should match the context of the question.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "da die Wandkraft über die Distanz erhöht wird, wodurch weniger Kraft pro Schritt notwendig ist.",
+        "correction": "da die aufzubringende Kraft über eine längere Distanz verteilt wird, wodurch weniger Kraft pro Schritt notwendig ist.",
+        "description": "The term 'Wandkraft' is incorrect and does not fit the context; the correct expression is 'die aufzubringende Kraft über eine längere Distanz verteilt wird'.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Die Schub von Raketen kann durch die Verwendung von Elektrizität anstelle von Treibstoff erhöht werden.",
+        "correction": "Der Schub von Raketen kann durch die Verwendung von Elektrizität anstelle von Treibstoff erhöht werden.",
+        "description": "The original sentence incorrectly uses 'Die Schub', which is a gender and case error. 'Schub' is a masculine noun in German and requires the masculine article 'Der'. This error affects grammatical correctness and could confuse learners about noun gender and article usage.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Das erste Newtons Gesetz, auch als Trägheitsgesetz, besagt, dass ein sich bewegender Gegenstand in Bewegung bleibt, es sei denn, er wird durch äußere Kräfte beeinflusst.",
+        "correction": "Das erste Newtonsche Gesetz, auch als Trägheitsgesetz, besagt, dass ein sich bewegender Gegenstand in Bewegung bleibt, es sei denn, er wird durch äußere Kräfte beeinflusst.",
+        "description": "The phrase 'Das erste Newtons Gesetz' is grammatically incorrect. In German, the correct form is 'Das erste Newtonsche Gesetz' to indicate the law attributed to Newton. This error affects the technical terminology and grammatical structure, potentially leading to misunderstanding of scientific terms.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Flüssigkeiten haben das Eigenschaft, dass sie eindeutig definierte Volumina besitzen, aber nicht die Form.",
+        "correction": "Flüssigkeiten haben die Eigenschaft, dass sie eindeutig definierte Volumina besitzen, aber nicht die Form.",
+        "description": "The definite article 'das' is incorrect here; it should be 'die' to match the feminine noun 'Eigenschaft'. This is a grammatical gender agreement error that affects the clarity and correctness of the sentence.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Sie können sich ausbreiten, um die Form ihres Behälters zu erfüllen.",
+        "correction": "Sie können sich ausbreiten, um die Form ihres Behälters anzunehmen.",
+        "description": "The verb 'erfüllen' is not idiomatic in this context. The correct collocation is 'die Form ... anzunehmen' when describing how liquids adapt to the shape of their container. This lexical error affects the naturalness and precision of the explanation.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "die geringe stöchiometrische Spannung zwischen ihnen",
+        "correction": "die geringe zwischenmolekulare Anziehung zwischen ihnen",
+        "description": "The term 'stöchiometrische Spannung' is incorrect and misleading in this context. The correct scientific terminology is 'zwischenmolekulare Anziehung' to describe the forces between liquid particles. This lexical error impacts scientific accuracy and comprehension.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Gase zeichnen sich durch ein frei bewegendes Teilchen aus und nehmen den gesamten Raum des Behälters ein.",
+        "correction": "Gase zeichnen sich durch frei bewegliche Teilchen aus und nehmen den gesamten Raum des Behälters ein.",
+        "description": "The phrase 'ein frei bewegendes Teilchen' incorrectly uses the singular form, implying only one particle. The correct plural form is 'frei bewegliche Teilchen', as gases consist of many particles. This grammatical error affects scientific accuracy and clarity.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Wenn Wasser gefriert, gewinnen die Wassermoleküle tatsächlich Energie.",
+        "correction": "Wenn Wasser gefriert, verlieren die Wassermoleküle tatsächlich Energie.",
+        "description": "The verb 'gewinnen' (to gain) is incorrect in this context. During freezing, water molecules lose energy, not gain it. This is a critical scientific and grammatical error that misrepresents the physical process.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Wenn die Energie hingegen gewonnen wird, werden die Moleküle schneller und können sich zu einer Flüssigkeit oder einem Gas verdünnen.",
+        "correction": "Wenn hingegen Energie aufgenommen wird, bewegen sich die Moleküle schneller und können in einen flüssigen oder gasförmigen Zustand übergehen.",
+        "description": "The phrase 'zu einer Flüssigkeit oder einem Gas verdünnen' is incorrect and unidiomatic. The correct scientific expression is 'in einen flüssigen oder gasförmigen Zustand übergehen'. Additionally, 'Energie gewonnen wird' should be 'Energie aufgenommen wird' for scientific accuracy. These lexical errors affect both clarity and scientific correctness.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Die Einleitung einer Geschichte befasst sich hauptseteilt mit der Einführung der Charaktere, des Schauplatzes und der Hintergrundgeschichte, nicht mit der Charakterentwicklung.",
+        "correction": "Die Einleitung einer Geschichte befasst sich hauptsächlich mit der Einführung der Charaktere, des Schauplatzes und der Hintergrundgeschichte, nicht mit der Charakterentwicklung.",
+        "description": "The word 'hauptseteilt' is a misspelling and should be 'hauptsächlich'. This is a significant orthographic error that affects comprehension and professionalism. The rest of the sentence is grammatically correct and contextually appropriate.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Konflikte in Geschichten können verschiedene Arten haben und sind nicht auf menschliche Figuren beschränkt. Sie können zwischen Figuren, der Natur oder einem Charakter und seinen inneren Zügen auftreten.",
+        "correction": "Konflikte in Geschichten können verschiedene Arten haben und sind nicht auf menschliche Figuren beschränkt. Sie können zwischen Figuren, der Natur oder einem Charakter und seinen inneren Konflikten auftreten.",
+        "description": "The phrase 'seinen inneren Zügen' is a lexical error; the correct term in German for 'inner struggles' is 'innere Konflikte'. 'Züge' does not convey the intended meaning in this context and may confuse learners.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Versuche, nicht zu überfordern, indem du all deine Lernaktivitäten auf einen Tag legst.",
+        "correction": "Versuche, dich nicht zu überfordern, indem du all deine Lernaktivitäten auf einen Tag legst.",
+        "description": "The reflexive pronoun 'dich' is missing after 'überfordern'. In German, 'sich überfordern' is the correct reflexive construction when referring to oneself. Without 'dich', the sentence is grammatically incorrect and unclear about who is being overwhelmed.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Die Zusammenfassung spielt eine entscheidende Rolle, da sie die Hauptpunkte unter die Lupe nimmt und die eigentlichen Lektionen zusammenfasst.",
+        "correction": "Die Zusammenfassung spielt eine entscheidende Rolle, da sie die Hauptpunkte zusammenfasst und die wichtigsten Lektionen hervorhebt.",
+        "description": "The phrase 'unter die Lupe nimmt' is idiomatic but not appropriate in this educational context, as it implies close scrutiny rather than summarizing. 'Die eigentlichen Lektionen zusammenfasst' is redundant after 'Hauptpunkte zusammenfasst'; instead, 'die wichtigsten Lektionen hervorhebt' is clearer and more precise.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Die Priorisierung von Aufgaben ist ein wesentlicher Bestandteil des Stressmanagements, da das Identifizieren und Konzentrieren auf den wichtigsten Aufgabenbereich ermöglicht, mehr Zeit für die Aufgaben zu verwenden, die wirklich Priorität haben.",
+        "correction": "Die Priorisierung von Aufgaben ist ein wesentlicher Bestandteil des Stressmanagements, da das Identifizieren und Konzentrieren auf die wichtigsten Aufgaben ermöglicht, mehr Zeit für die Aufgaben zu verwenden, die wirklich Priorität haben.",
+        "description": "The phrase 'auf den wichtigsten Aufgabenbereich' is grammatically incorrect because 'Aufgabenbereich' is singular, but the context requires the plural 'die wichtigsten Aufgaben'. This correction ensures proper agreement and clarity.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Jeder Bürger muss sich vor den Wahlbeginn registrieren lassen.",
+        "correction": "Jeder Bürger muss sich vor dem Wahlbeginn registrieren lassen.",
+        "description": "The preposition 'vor' requires the dative case, so 'den Wahlbeginn' should be 'dem Wahlbeginn'. This is a grammatical error affecting case usage and must be corrected for proper German syntax.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "In vielen Ländern bieten Wahlberechtigten die Möglichkeit, ihre Stimme auch per Brief oder Fax abzugeben, wenn sie nicht persönlich teilnehmen können.",
+        "correction": "In vielen Ländern haben Wahlberechtigte die Möglichkeit, ihre Stimme auch per Briefwahl abzugeben, wenn sie nicht persönlich teilnehmen können.",
+        "description": "The phrase 'bieten Wahlberechtigten die Möglichkeit' is grammatically incorrect because 'Wahlberechtigten' is dative plural, but the sentence structure requires the nominative plural 'Wahlberechtigte' as the subject. The correct construction is 'Wahlberechtigte haben die Möglichkeit'. This correction ensures proper subject-verb agreement and case usage.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Künstliche Intelligenz kann nur menschlichen Intelligenz bei einfachen Aufgaben wie Zählen und Wegrechnen ersetzen.",
+        "correction": "Künstliche Intelligenz kann nur menschliche Intelligenz bei einfachen Aufgaben wie Zählen und Wegrechnen ersetzen.",
+        "description": "The phrase 'menschlichen Intelligenz' incorrectly uses the dative/genitive ending instead of the accusative form 'menschliche Intelligenz', which is required as the direct object in this sentence. This is a grammatical error affecting gender and case agreement.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Wegrechnen",
+        "correction": "Subtrahieren",
+        "description": "The term 'Wegrechnen' is not standard in educational or technical German and may confuse learners. 'Subtrahieren' is the correct mathematical term for subtraction and is more appropriate in this context.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Christentum entstand vor etwa 2000 Jahren im Nahen Osten, nicht im antiken Rom.",
+        "correction": "Das Christentum entstand vor etwa 2000 Jahren im Nahen Osten, nicht im antiken Rom.",
+        "description": "The sentence is missing the definite article 'Das' at the beginning, which is required for proper sentence structure in German. All nouns are correctly capitalized, and the rest of the sentence is grammatically correct. Adding 'Das' ensures the sentence is complete and adheres to standard German syntax.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Der Ursprung des Judentums wird historisch mit den biblischen Figuren Abraham und Moses in Verbindung gebracht und ist somit nicht auf die moderne Zeit beschränkt.",
+        "correction": "Der Ursprung des Judentums wird historisch mit den biblischen Figuren Abraham und Mose in Verbindung gebracht und ist somit nicht auf die moderne Zeit beschränkt.",
+        "description": "The name 'Moses' should be localized to the standard German form 'Mose' when referring to the biblical figure in educational content. This ensures lexical precision and consistency with German-language religious studies. The rest of the sentence is linguistically correct.",
         "severity": "MINOR"
       }
     ],
@@ -253,34 +1059,306 @@
       {
         "category": "localization",
         "subcategory": "Style",
-        "original": "Gleichungen hingegen würden das Gleichheitszeichen enthalten, um eine Lösung zu finden.",
-        "correction": "Gleichungen hingegen enthalten das Gleichheitszeichen, um eine Lösung zu finden.",
-        "description": "The use of 'würden' (would) is unnecessary and unnatural in this context. In educational German, the present tense is preferred for general truths. This improves the naturalness and clarity of the explanation.",
-        "severity": "MINOR"
-      },
-      {
-        "category": "localization",
-        "subcategory": "Style",
         "original": "Strömungen wie der Golfstrom spielen eine entscheidende Rolle bei der Moderation der Temperaturen in Küstengebieten.",
         "correction": "Strömungen wie der Golfstrom spielen eine entscheidende Rolle bei der Regulierung der Temperaturen in Küstengebieten.",
-        "description": "The term 'Moderation der Temperaturen' is an anglicism and not idiomatic in German scientific or educational contexts. 'Regulierung der Temperaturen' is the standard and natural term in German climatology.",
+        "description": "The term 'Moderation' is an anglicism and not commonly used in this scientific context in German. 'Regulierung' is the standard and natural term for describing the effect of ocean currents on temperature.",
         "severity": "MEDIUM"
       },
       {
         "category": "localization",
-        "subcategory": "Style",
-        "original": "In Python werden Variablen dynamisch zugewiesen, was bedeutet, dass sie verschiedene Datentypen annehmen können, solange sie zu dem zugewiesenen Wert passen.",
-        "correction": "In Python werden Variablen dynamisch zugewiesen, was bedeutet, dass sie verschiedene Datentypen annehmen können, abhängig vom jeweils zugewiesenen Wert.",
-        "description": "The phrase 'solange sie zu dem zugewiesenen Wert passen' is somewhat unnatural and could be confusing for learners. The correction uses a more natural and clear expression, improving the educational tone and clarity for German-speaking audiences.",
+        "subcategory": "Terminology",
+        "original": "Zahlen mit Dezimalstellen",
+        "correction": "Dezimalzahlen",
+        "description": "The phrase 'Zahlen mit Dezimalstellen' is understandable but not the standard technical term in German programming contexts. 'Dezimalzahlen' is the correct and commonly used term for numbers with decimal places, ensuring professional and localized terminology.",
         "severity": "MINOR"
       },
       {
         "category": "localization",
         "subcategory": "Terminology",
-        "original": "was als 'Listen' oder 'Dictionaries' bezeichnet wird",
-        "correction": "was als 'Listen' oder 'Wörterbücher' bezeichnet wird",
-        "description": "The term 'Dictionaries' is an English loanword. In German technical contexts, 'Wörterbuch' is the standard translation for Python's dictionary data type. Using the German term ensures consistency and naturalness for German-speaking learners.",
+        "original": "booleschen Wert",
+        "correction": "Booleschen Wert",
+        "description": "In German technical writing, 'Booleschen Wert' should be capitalized as 'Booleschen' is derived from the proper noun 'Boole'. This ensures correct terminology and professional style in educational content.",
         "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "In Python können Variablen sowohl eine einzelne Datenmenge, wie eine Zahl, als auch mehrere Daten sammeln, was als 'Listen' oder 'Dictionaries' bezeichnet wird. Dies ermöglicht die Speicherung von mehreren Werten in einer einzigen Variablen, was die Flexibilität und den Umfang dessen, was mit Variablen in Python erreicht werden kann, erheblich erweitert.",
+        "correction": "In Python können Variablen sowohl eine einzelne Datenmenge, wie eine Zahl, als auch mehrere Daten speichern, beispielsweise in sogenannten Listen oder Dictionaries. Dies ermöglicht die Speicherung mehrerer Werte in einer einzigen Variablen und erhöht die Flexibilität und den Umfang dessen, was mit Variablen in Python erreicht werden kann.",
+        "description": "The original feedback uses the verb 'sammeln' (to collect), which is less natural in the context of programming. The more appropriate term is 'speichern' (to store), which aligns with standard German technical terminology. Additionally, the phrase 'was als 'Listen' oder 'Dictionaries' bezeichnet wird' is awkward; 'beispielsweise in sogenannten Listen oder Dictionaries' is clearer and more idiomatic. These changes improve the naturalness and professionalism of the explanation, making it more suitable for German-speaking learners.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "die Unterstützungskontexte",
+        "correction": "die unterstützenden Kontexte",
+        "description": "The term 'Unterstützungskontexte' is not a standard or natural expression in German academic language. 'Unterstützende Kontexte' is more idiomatic and better reflects the intended meaning of supporting contexts in argument analysis.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Die Bewertung verschiedener Alternativen ist der Schlüssel zur Identifizierung der effektivsten Entscheidung. Durch die Untersuchung von Optionen erkennt man die Vor- und Nachteile, was zu fundierteren und informierteren Entscheidungen führt.",
+        "correction": "Die Bewertung verschiedener Alternativen ist der Schlüssel zur Identifizierung der besten Entscheidung. Durch die Untersuchung von Optionen erkennt man die Vor- und Nachteile, was zu fundierteren und informierteren Entscheidungen führt.",
+        "description": "The use of 'effektivsten Entscheidung' is less idiomatic in German educational context; 'besten Entscheidung' is more natural and commonly used. This improves the style and naturalness of the feedback.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Durch die Anpassung von Designs an das Feedback erhalten die Designer die Möglichkeit, ihre Arbeit zu verbessern.",
+        "correction": "Durch die Anpassung ihrer Designs an das Feedback haben Designer die Möglichkeit, ihre Arbeit zu verbessern.",
+        "description": "The original sentence uses 'Durch die Anpassung von Designs an das Feedback erhalten die Designer die Möglichkeit, ihre Arbeit zu verbessern,' which is understandable but slightly unnatural in German educational style. The phrase 'ihre Designs' is more idiomatic and personal, and 'haben Designer die Möglichkeit' is a more direct and natural way to express the opportunity. This correction enhances the naturalness and professional tone of the feedback.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Das Gegenteil der Wahrheit, schlechte digitale Etikette trägt oft zu negativen Ergebnissen bei.",
+        "correction": "Im Gegenteil, schlechte digitale Etikette führt oft zu negativen Ergebnissen.",
+        "description": "The original sentence uses an unnatural phrase 'Das Gegenteil der Wahrheit', which is not idiomatic in German. The more natural and culturally appropriate expression is 'Im Gegenteil'. Additionally, 'trägt zu negativen Ergebnissen bei' is less direct than 'führt zu negativen Ergebnissen', which is clearer and more commonly used in educational contexts.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Dies kann zu einer stärkeren und unterstützenderen Online-Kompetenz führen.",
+        "correction": "Dies kann zu einer stärkeren und unterstützenden Online-Gemeinschaft führen.",
+        "description": "The term 'Online-Kompetenz' is not the most natural choice in this context. The intended meaning is about fostering a supportive online community, not individual digital skills. 'Online-Gemeinschaft' is the culturally and contextually appropriate term for describing a positive network environment.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Dies führt zu einem Gefühl der Vertrautheit und der stärksten Beziehungen.",
+        "correction": "Dies führt zu einem Gefühl der Vertrautheit und zu stärkeren Beziehungen.",
+        "description": "The phrase 'der stärksten Beziehungen' is awkward and overly absolute in this context. In German educational content, it is more natural to use 'zu stärkeren Beziehungen' to indicate improvement rather than an absolute superlative. This adjustment improves the style and naturalness of the feedback.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Klasse B Feuerlöscher sind speziell für Brände mit brennbaren Flüssigkeiten wie Öl und Benzin entwickelt, nicht ausschließlich für die Küche.",
+        "correction": "Klasse B Feuerlöscher sind speziell für Brände mit brennbaren Flüssigkeiten wie Öl und Benzin entwickelt und daher nicht unbedingt für die Küche geeignet.",
+        "description": "The phrase 'nicht ausschließlich für die Küche' is misleading and could cause confusion. In German fire safety terminology, it is clearer to state that Klasse B extinguishers are not necessarily suitable for kitchen fires, as kitchen fires often involve fats and oils requiring a Klasse F extinguisher. This correction improves technical accuracy and local fire safety standards.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Jedoch sollten Brände in der Küche mit einem Klasse A Feuerlöscher begonnen werden, wenn sie mit brennbarem Material wie Papier oder Holz entstehen.",
+        "correction": "Brände in der Küche sollten mit einem geeigneten Feuerlöscher, wie einem Klasse F Feuerlöscher bei Fettbränden, bekämpft werden. Bei Bränden mit Papier oder Holz kann ein Klasse A Feuerlöscher verwendet werden.",
+        "description": "The original text suggests starting with a Klasse A extinguisher in the kitchen, which is misleading for German fire safety standards. Kitchen fires often involve fats and oils, requiring a Klasse F extinguisher. This correction provides accurate, locally accepted terminology and improves safety guidance.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "Brüche repräsentieren Teile eines Ganzen, und da ein Ganzes ein komplettes Stück darstellt, kann ein Bruch nicht größer als ein Ganzes sein. Brüche werden verwendet, um Teile eines Ganzen zu beschreiben, die kleiner als das Ganze sein können, wie z. B. ein halber Apfel oder ein Viertel einer Pizza.",
+        "correction": "Brüche repräsentieren Teile eines Ganzen, aber ein Bruch kann auch größer als ein Ganzes sein, wenn der Zähler größer als der Nenner ist. Zum Beispiel ist 5/4 größer als 1. Brüche werden verwendet, um Teile eines Ganzen zu beschreiben, aber auch Mengen, die größer als ein Ganzes sind.",
+        "description": "The feedback contains a factual error regarding fractions: it incorrectly states that a fraction cannot be greater than a whole, which is misleading in mathematical education. This is a cultural and conceptual localization issue, as German math curricula recognize improper fractions (e.g., 5/4 > 1). The explanation should clarify that fractions can represent quantities greater than one when the numerator exceeds the denominator. This correction is critical for accurate mathematical understanding.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Lexical",
+        "original": "Ein spitzer Winkel hat immer eine Maßeinheit von 90 Grad.",
+        "correction": "Ein spitzer Winkel hat immer eine Maßeinheit von weniger als 90 Grad.",
+        "description": "The statement incorrectly defines a 'spitzer Winkel' (acute angle) as always having a measure of 90 degrees. In German geometry terminology, a 'spitzer Winkel' is any angle less than 90 degrees. This is a semantic error affecting the accuracy of the educational content and may mislead learners about fundamental geometric concepts.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Lexical",
+        "original": "In der Geometrie wird ein spitzer Winkel spezifisch durch eine Maßeinheit von genau 90 Grad definiert.",
+        "correction": "In der Geometrie wird ein spitzer Winkel als ein Winkel mit weniger als 90 Grad definiert.",
+        "description": "This feedback sentence incorrectly states that an acute angle is defined by exactly 90 degrees, which is factually wrong in both German and international geometry standards. The correct definition is that an acute angle is less than 90 degrees. This error impacts the clarity and correctness of the educational explanation.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Dieses Wachstum führt oft zu verbesserten Lebensbedingungen und bietet mehr Chancen für Beschäftigung und Innovation.",
+        "correction": "Dieses Wachstum führt oft zu verbesserten Lebensbedingungen und bietet mehr Chancen für Beschäftigung und Innovation.",
+        "description": "The phrase 'verbesserte Lebensbedingungen' and 'mehr Chancen für Beschäftigung und Innovation' are appropriate, but the overall sentence structure is somewhat formal and abstract. For educational content aimed at a general audience, a more accessible and concrete style would improve engagement, such as providing examples of how trade affects daily life.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "Der Kongress von Nordamerika bezieht sich in diesem Zusammenhang auf den Kongress der Vereinigten Staaten, und die Formulierung der Frage scheint einen Widerspruch zu enthalten.",
+        "correction": "Der Kongress in diesem Zusammenhang bezieht sich auf den Kongress der Vereinigten Staaten.",
+        "description": "The phrase 'Kongress von Nordamerika' is culturally inappropriate and misleading, as it does not exist in the context of US government. The correct term is 'Kongress der Vereinigten Staaten'. The original sentence also contains unnecessary commentary about a contradiction, which should be omitted for clarity and educational focus.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "In Deutschland ist die Anzahl der Senatoren nicht festgelegt und variiert je nach Bundesland. Im Gegensatz zur Struktur der US-Regierung, wo es genau zwei Senatoren pro Bundesstaat gibt, gibt es in Deutschland keine direkte Entsprechung in der Bundespolitik.",
+        "correction": "Im Senat der Vereinigten Staaten gibt es genau zwei Senatoren pro Bundesstaat, insgesamt 100 Senatoren. In Deutschland gibt es keine direkte Entsprechung zum US-Senat.",
+        "description": "The feedback incorrectly discusses the German system, which is irrelevant to the US government lesson. This confuses learners and is culturally inappropriate for the context. The explanation should focus on the US Senate structure and clarify the lack of a direct German equivalent, without introducing unnecessary details about German federal states.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "Der Präsident von Deutschland, ähnlich wie der Präsident der Vereinigten Staaten, hat die Macht, Gesetze des Parlaments zu blockieren.",
+        "correction": "Der Präsident der Vereinigten Staaten kann Gesetze des Kongresses durch ein Veto blockieren.",
+        "description": "The feedback incorrectly references the German president, which is misleading in the context of US government. The German president does not have a comparable veto power. The explanation should focus solely on the US president's powers to avoid cultural confusion.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Ein Misserfolg kann in einem Wachstumsmentalitätsansatz als ein Lernchance gesehen werden.",
+        "correction": "Ein Misserfolg kann im Rahmen einer Wachstumsmentalität als eine Lernchance gesehen werden.",
+        "description": "The phrase 'Wachstumsmentalitätsansatz' is an unnatural compound in German and does not reflect standard usage. The more natural and culturally appropriate expression is 'im Rahmen einer Wachstumsmentalität'. Additionally, 'ein Lernchance' should be 'eine Lernchance' to match the feminine gender of 'Chance'. This correction improves both naturalness and grammatical accuracy.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "mentale Wohlfahrt",
+        "correction": "mentale Gesundheit",
+        "description": "The term 'mentale Wohlfahrt' is not idiomatic in German. The standard and natural expression is 'mentale Gesundheit' for 'mental health'. Using 'mentale Gesundheit' ensures the feedback is culturally appropriate and easily understood by native speakers.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Die Verabschiedung der AEMR im Jahr 1948 markiert einen bedeutenden Wendepunkt in der Menschenrechtsgeschichte.",
+        "correction": "Die Verabschiedung der Allgemeinen Erklärung der Menschenrechte (AEMR) im Jahr 1948 markiert einen bedeutenden Wendepunkt in der Geschichte der Menschenrechte.",
+        "description": "The abbreviation 'AEMR' is used without first introducing the full term, which may confuse learners unfamiliar with the acronym. For educational clarity and consistency, the full term should be introduced before the abbreviation. Additionally, 'Menschenrechtsgeschichte' is less common than 'Geschichte der Menschenrechte', which is the standard phrasing in German academic and educational contexts.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Artikel 26 der Allgemeinen Erklärung der Menschenrechte (AEMR) behandelt das Recht auf Bildung.",
+        "correction": "Artikel 26 der Allgemeinen Erklärung der Menschenrechte behandelt das Recht auf Bildung.",
+        "description": "The abbreviation '(AEMR)' is unnecessary here because the full term has already been introduced in the statement and is clear from context. Removing the redundant abbreviation improves readability and maintains consistency in terminology usage.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Die Allgemeine Erklärung der Menschenrechte (AEMR) hat vielmehr die Rechte und Freiheiten betont, die von souveränen Regierungen geschützt werden sollen, was in vielen Fällen zu einer Stärkung der nationalen Souveränität führte, da sie als Maßstab für das nationale Recht diente.",
+        "correction": "Die Allgemeine Erklärung der Menschenrechte hat vielmehr die Rechte und Freiheiten betont, die von souveränen Regierungen geschützt werden sollen, was in vielen Fällen zu einer Stärkung der nationalen Souveränität führte, da sie als Maßstab für das nationale Recht diente.",
+        "description": "The use of the abbreviation '(AEMR)' is redundant because the full term has already been introduced and is clear from context. Removing the abbreviation streamlines the sentence and aligns with best practices for educational content, ensuring clarity and consistency.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "wie ein Lächeln oder das Aufnehmen einer Last",
+        "correction": "wie ein Lächeln oder das Helfen bei einer Aufgabe",
+        "description": "The phrase 'das Aufnehmen einer Last' is literal and may sound unnatural or overly formal in German educational content. 'Das Helfen bei einer Aufgabe' is a more natural and culturally appropriate way to express helping someone, which aligns better with everyday German usage and educational tone.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Dieses Prinzip der positiven Rückkopplung ist ein universelles Phänomen, das auch in anderen kulturellen Kontexten beobachtet wird.",
+        "correction": "Dieses Prinzip der positiven Rückmeldung ist ein universelles Phänomen, das auch in anderen kulturellen Kontexten beobachtet wird.",
+        "description": "The term 'Rückkopplung' is primarily used in technical or scientific contexts (e.g., feedback loops in engineering). For psychological or social contexts, 'Rückmeldung' is the more natural and widely accepted term in German, making the statement clearer and more appropriate for educational content.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Indem man sich beispielhaft den Einkaufslisten oder historischen Ereignissen vorstellt, wird das Verständnis und die Erinnerung verbessert.",
+        "correction": "Indem man sich beispielsweise eine Einkaufsliste oder ein historisches Ereignis vorstellt, wird das Verständnis und die Erinnerung verbessert.",
+        "description": "The phrase 'beispielhaft den Einkaufslisten oder historischen Ereignissen' is awkward and unnatural in German. 'Beispielhaft' should be replaced with 'beispielsweise', and the nouns should be singular for a more natural and idiomatic expression. This improves the style and readability for German learners.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Verkleidungen und Kleidungsstile werden oft durch die Musikszene inspiriert, was zeigt, dass die Popmusik einen direkten Einfluss auf das Design und die Trends in der Modewelt hat.",
+        "correction": "Kleidungsstile werden oft durch die Musikszene inspiriert, was zeigt, dass die Popmusik einen direkten Einfluss auf das Design und die Trends in der Modewelt hat.",
+        "description": "The term 'Verkleidungen' (costumes/disguises) is not commonly used in the context of fashion influenced by pop music in German. 'Kleidungsstile' (clothing styles) is more appropriate and natural for this context. Removing 'Verkleidungen' improves cultural appropriateness and naturalness.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Solarenergie eine erneuerbare Ressource ist",
+        "correction": "Solarenergie eine erneuerbare Energiequelle ist",
+        "description": "The term 'erneuerbare Ressource' is less commonly used in German when referring to energy sources; 'erneuerbare Energiequelle' is the standard and more natural term in educational and scientific contexts. This correction improves terminology consistency and naturalness for German-speaking learners.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Ihre Erschöpfung ist nicht 'schnell', sondern ein langfristiger Prozess, der durch menschliche Aktivitäten beschleunigt wird.",
+        "correction": "Ihre Erschöpfung erfolgt nicht schnell, sondern ist ein langfristiger Prozess, der durch menschliche Aktivitäten beschleunigt wird.",
+        "description": "The use of quotation marks around 'schnell' is stylistically awkward and unnecessary in German educational content. Replacing the phrase with 'erfolgt nicht schnell' provides a more natural and professional tone, improving readability and style.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Obwohl die Teilung von Informationen online ein gewünschtes Verhalten sein kann, ist es wichtig, die Sensibilität und potenzielle Gefahren zu verstehen.",
+        "correction": "Obwohl das Teilen von Informationen online manchmal sinnvoll sein kann, ist es wichtig, die Sensibilität und potenziellen Gefahren zu verstehen.",
+        "description": "The phrase 'die Teilung von Informationen' is an unnatural calque from English; the more natural German expression is 'das Teilen von Informationen'. Additionally, 'potenzielle Gefahren' should be pluralized as 'potenziellen Gefahren' to match the adjective ending with the plural noun. The correction improves the naturalness and grammatical accuracy of the feedback.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Sie verwenden oft Formulierungen und Designs, die ein Gefühl von Vertrauenswürdigkeit vermitteln, was sie für Benutzer ansprechend macht.",
+        "correction": "Sie verwenden oft Formulierungen und Designs, die ein Gefühl von Vertrauenswürdigkeit vermitteln, wodurch sie für Benutzer glaubwürdig erscheinen.",
+        "description": "The phrase 'was sie für Benutzer ansprechend macht' is not idiomatic in German for describing phishing emails. A more natural expression is 'wodurch sie für Benutzer glaubwürdig erscheinen', which better conveys the intended meaning that phishing emails appear trustworthy to users. This correction enhances the naturalness and clarity of the statement.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Gruppe 18 des Periodensystems besteht aus Edelgasen, die häufig in der Erdatmosphäre vorkommen. Diese Gase sind nicht leicht reaktiv und verändern sich nicht leicht zu anderen Substanzen. Ihre Stabilität und Nichtreaktivität machen sie zu wertvollen Komponenten in vielen natürlichen und industriellen Prozessen, wie zum Beispiel in der Luft, die wir atmen und in der uns umgebenden Atmosphäre.",
+        "correction": "Gruppe 18 des Periodensystems besteht aus Edelgasen, die häufig in der Erdatmosphäre vorkommen. Diese Gase sind sehr reaktionsträge und verändern sich kaum zu anderen Substanzen. Ihre Stabilität und Reaktionsträgheit machen sie zu wertvollen Komponenten in vielen natürlichen und industriellen Prozessen, wie zum Beispiel in der Luft, die wir atmen und in der uns umgebenden Atmosphäre.",
+        "description": "The term 'nicht leicht reaktiv' and 'Nichtreaktivität' are less natural in German scientific usage. The standard term is 'reaktionsträge' for describing noble gases. Using 'reaktionsträge' and 'Reaktionsträgheit' improves the naturalness and professionalism of the terminology, aligning with German chemistry education standards.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Lexical",
+        "original": "ist die Wahrscheinlichkeit, dass eine bestimmige Zahl erscheint, eine Frage der Vergangenheit.",
+        "correction": "ist die Wahrscheinlichkeit, dass eine bestimmte Zahl erscheint, unabhängig von vergangenen Würfen.",
+        "description": "The phrase 'eine Frage der Vergangenheit' is unnatural and misleading in German in this context. It suggests that the probability is determined by past events, which contradicts the intended meaning that each dice roll is independent. A more natural and accurate expression is 'unabhängig von vergangenen Würfen', which clearly communicates the concept of independence in probability games.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "wie die NASA-Space Shuttle",
+        "correction": "wie das Space Shuttle der NASA",
+        "description": "The phrase 'wie die NASA-Space Shuttle' is unnatural in German and does not follow standard terminology or word order. The correct and commonly accepted form is 'das Space Shuttle der NASA'. This improves clarity and aligns with local usage of technical terms.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Das bloße Lesen ohne das Erarbeiten von Anmerkungen oder das Fragen nach Kontexten kann das Verständnis nicht erheblich verbessern.",
+        "correction": "Das bloße Lesen ohne das Erstellen von Anmerkungen oder das Nachfragen zu Kontexten kann das Verständnis nicht erheblich verbessern.",
+        "description": "The term 'Erarbeiten von Anmerkungen' is unnatural in German educational style; 'Erstellen von Anmerkungen' is the standard phrase for making notes. Similarly, 'das Fragen nach Kontexten' is awkward; 'das Nachfragen zu Kontexten' is more idiomatic and natural.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "In vielen Ländern bieten Wahlberechtigten die Möglichkeit, ihre Stimme auch per Brief oder Fax abzugeben, wenn sie nicht persönlich teilnehmen können.",
+        "correction": "In vielen Ländern haben Wahlberechtigte die Möglichkeit, ihre Stimme auch per Briefwahl abzugeben, wenn sie nicht persönlich teilnehmen können.",
+        "description": "The original sentence incorrectly uses 'Fax' as a voting method, which is not a standard or widely accepted way to cast votes in German-speaking countries. The term 'Briefwahl' is the culturally appropriate and legally recognized method for absentee voting. Additionally, 'Wahlberechtigten bieten' is grammatically incorrect; the correct subject is 'Wahlberechtigte haben die Möglichkeit'. This correction addresses both the cultural inaccuracy and the grammatical error.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Unvoreingenommene Entwicklungsprozesse sind essentiell, um Bias zu vermeiden und die Privatsphäre zu schützen.",
+        "correction": "Unvoreingenommene Entwicklungsprozesse sind essentiell, um Verzerrungen zu vermeiden und die Privatsphäre zu schützen.",
+        "description": "The use of 'Bias' is an anglicism; the standard German term 'Verzerrungen' should be used for clarity and naturalness in educational content. This improves localization quality and ensures terminology is accessible to all learners.",
+        "severity": "MEDIUM"
       }
     ]
   }

@@ -1,0 +1,83 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "prelecency",
+      "correction": "prelekcje",
+      "description": "The word 'prelecency' is a misspelling and does not exist in Polish. The correct term is 'prelekcje', which means lectures or talks. This error affects the clarity and professionalism of the feedback.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Oświecają nasze myśli i pomagają wierzyć w różne stwierdzenia lub wykonywać decyzje.",
+      "correction": "Oświecają nasze myśli i pomagają wierzyć w różne stwierdzenia lub podejmować decyzje.",
+      "description": "The phrase 'wykonywać decyzje' is incorrect in Polish; the proper collocation is 'podejmować decyzje' (to make decisions). This lexical error may confuse learners and should be corrected for naturalness and accuracy.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "To praktyczne zastosowanie umiejętności rozumieć i stawiać wartość na argumenty.",
+      "correction": "To praktyczne zastosowanie umiejętności rozumienia i oceniania wartości argumentów.",
+      "description": "The phrase 'umiejętności rozumieć i stawiać wartość na argumenty' is grammatically incorrect. The correct form is 'umiejętności rozumienia i oceniania wartości argumentów', using the genitive case and proper verbal nouns. This improves grammatical accuracy and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Ponowny rozwód z powodu uprzedzenia selekcyjnego w relacji może prowadzić do kompromisów w zrozumieniu związków.",
+      "correction": "Ponowny rozwód z powodu uprzedzenia selekcyjnego w relacji może prowadzić do kompromisów w zrozumieniu relacji.",
+      "description": "The use of 'zrozumieniu związków' is awkward and semantically unclear in this context. 'Zrozumieniu relacji' is more precise and natural, as 'relacja' refers to relationships in general, matching the context of the statement.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "To może wpłynąć na zdanej się o relacji, potencjalnie wpływając na decyzje o związkach.",
+      "correction": "To może wpłynąć na zdanie o relacji, potencjalnie wpływając na decyzje dotyczące związków.",
+      "description": "The phrase 'zdanej się o relacji' is grammatically incorrect; the correct form is 'zdanie o relacji'. Additionally, 'decyzje o związkach' should be 'decyzje dotyczące związków' for proper case usage and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "Dowód, że 'Ten krem przeciwsłoneczny jest bezpieczny, ponieważ jest na rynku przez wiele lat.",
+      "correction": "Dowód, że 'Ten krem przeciwsłoneczny jest bezpieczny, ponieważ jest na rynku od wielu lat.'",
+      "description": "The phrase 'przez wiele lat' is less natural in this context; 'od wielu lat' is the standard way to express duration in Polish when referring to something being available for a long time. This correction improves sentence naturalness and clarity.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Krytyczne myślenie nie polega na odrzucaniu wszystkich wiadomości, ale raczej na dokładnej analizie informacji.",
+      "correction": "Krytyczne myślenie nie polega na odrzucaniu wszystkich wiadomości, lecz na dokładnej analizie informacji.",
+      "description": "While 'ale raczej' is understandable, the more natural and stylistically appropriate conjunction in Polish is 'lecz', which better contrasts the two clauses. This is a minor stylistic improvement.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Critical_Thinking.slm.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T22:14:23.320364",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 8.5,
+    "classification": "PROFESSIONAL",
+    "total_issues": 7,
+    "total_penalty": 1.5,
+    "issue_breakdown": {
+      "linguistic": 7,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.5,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

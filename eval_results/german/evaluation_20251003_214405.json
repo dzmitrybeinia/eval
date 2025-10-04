@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Checks and Balances",
+      "correction": "Gewaltenkontrolle und Machtbalance",
+      "description": "The term 'Checks and Balances' is used untranslated throughout the lesson. While it is a well-known concept in US political science, the use of the English phrase may be unfamiliar or unnatural for German learners, especially in educational contexts. A localized equivalent such as 'Gewaltenkontrolle und Machtbalance' or simply 'Gewaltenkontrolle' would improve clarity and cultural appropriateness. The English term can be introduced once, but should be explained and then replaced with the German equivalent in subsequent uses.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Wenn der Kongress ein Gesetz verabschiedet, muss es vom Präsidenten (Exekutive) genehmigt oder abgelehnt werden.",
+      "correction": "Wenn der Kongress ein Gesetz verabschiedet, muss es vom Präsidenten (der Exekutive) genehmigt oder abgelehnt werden.",
+      "description": "The parenthetical '(Exekutive)' is ambiguous and could be misread as the law being approved by the executive branch as a whole, rather than specifically by the President. For grammatical clarity, 'vom Präsidenten (der Exekutive)' should be used to indicate that the President, as the head of the executive branch, is responsible. This improves both grammatical precision and semantic clarity.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Im wegweisenden Fall *Brown v. Board of Education* entschied der Oberste Gerichtshof, dass Rassentrennung in Schulen verfassungswidrig ist, und hob damit Gesetze auf, die gegen die US-Verfassung verstießen.",
+      "correction": "Im wegweisenden Fall *Brown v. Board of Education* entschied der Oberste Gerichtshof der Vereinigten Staaten, dass Rassentrennung in Schulen verfassungswidrig ist, und hob damit Gesetze auf, die gegen die US-Verfassung verstießen.",
+      "description": "The reference to 'Oberster Gerichtshof' may be unclear to German learners unfamiliar with US institutions. Specifying 'Oberste Gerichtshof der Vereinigten Staaten' provides necessary cultural context and avoids confusion with the German Supreme Court. This enhances cultural appropriateness and educational clarity.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Das Verständnis der Gewaltenteilung und der Checks and Balances ist entscheidend, um zu schätzen, wie die US-Regierung funktioniert und individuelle Freiheiten schützt.",
+      "correction": "Das Verständnis der Gewaltenteilung und der Gewaltenkontrolle ist entscheidend, um zu verstehen, wie die US-Regierung funktioniert und individuelle Freiheiten schützt.",
+      "description": "The phrase 'um zu schätzen, wie die US-Regierung funktioniert' is unnatural in German; 'schätzen' in this context is a false friend and should be replaced with 'verstehen'. Additionally, 'Checks and Balances' should be localized as 'Gewaltenkontrolle' for naturalness and clarity. This correction addresses both lexical precision and style for a more idiomatic and educationally appropriate expression.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Government_Structure.llm.md",
+    "language": "German",
+    "timestamp": "2025-10-03T21:44:05.714227",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.5,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

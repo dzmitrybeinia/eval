@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Elemente in der zweiten Periode haben tatsächlich drei Valenzelektronen. Zum Beispiel hat Magnesium (Mg) drei Valenzelektronen und reagiert mit anderen Elementen wie Sauerstoff (O) zu Magnesiumoxid (MgO).",
+      "correction": "Elemente in der zweiten Periode haben tatsächlich zwei Valenzelektronen. Zum Beispiel hat Magnesium (Mg) zwei Valenzelektronen und reagiert mit anderen Elementen wie Sauerstoff (O) zu Magnesiumoxid (MgO).",
+      "description": "The feedback incorrectly states that elements in the second period have three valence electrons and uses magnesium (Mg) as an example. Magnesium is not in the second period; it is in the third period and has two valence electrons. Elements in the second period have between one and eight valence electrons depending on the group, but the statement and example are factually incorrect. This is a critical scientific inaccuracy that affects comprehension and credibility.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Gruppe 18 des Periodensystems besteht aus Edelgasen, die häufig in der Erdatmosphäre vorkommen. Diese Gase sind nicht leicht reaktiv und verändern sich nicht leicht zu anderen Substanzen. Ihre Stabilität und Nichtreaktivität machen sie zu wertvollen Komponenten in vielen natürlichen und industriellen Prozessen, wie zum Beispiel in der Luft, die wir atmen und in der uns umgebenden Atmosphäre.",
+      "correction": "Gruppe 18 des Periodensystems besteht aus Edelgasen, die häufig in der Erdatmosphäre vorkommen. Diese Gase sind sehr reaktionsträge und verändern sich kaum zu anderen Substanzen. Ihre Stabilität und Reaktionsträgheit machen sie zu wertvollen Komponenten in vielen natürlichen und industriellen Prozessen, wie zum Beispiel in der Luft, die wir atmen und in der uns umgebenden Atmosphäre.",
+      "description": "The term 'nicht leicht reaktiv' and 'Nichtreaktivität' are less natural in German scientific usage. The standard term is 'reaktionsträge' for describing noble gases. Using 'reaktionsträge' and 'Reaktionsträgheit' improves the naturalness and professionalism of the terminology, aligning with German chemistry education standards.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Dies liegt daran, dass jedes Element in einer Periode ein Elektron mehr hat als das vorhergehende Element. Dieses Elektron wird zur äußeren Schale hinzugefügt, was die zunehmende Anzahl der Protonen in jeder Periode widerspiegelt.",
+      "correction": "Dies liegt daran, dass jedes Element in einer Periode ein Proton mehr im Atomkern hat als das vorhergehende Element. Die Anzahl der Elektronen entspricht der Anzahl der Protonen, wodurch die steigende Protonenzahl in jeder Periode erklärt wird.",
+      "description": "The feedback incorrectly states that each element in a period has one more electron than the previous and that this electron is added to the outer shell, which is misleading. The defining property is the increase in proton number in the nucleus, not just the electron configuration. The explanation should focus on the atomic number (proton count) as the basis for the periodic table's order. This is a scientific inaccuracy that could confuse learners.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "In Gruppe 1, auch bekannt als Alkalimetalle, nimmt die Reaktivität mit zunehmender Atomnummer zu, da die Elektronen in äußere Schalen hinzukommen. Gruppe 2, die Erdalkalimetalle, sind aufgrund ihrer zusätzlichen inneren Elektronenschale weniger reaktiv als Gruppe 1.",
+      "correction": "In Gruppe 1, auch bekannt als Alkalimetalle, nimmt die Reaktivität mit zunehmender Atomnummer zu, da die Valenzelektronen weiter vom Kern entfernt sind. Gruppe 2, die Erdalkalimetalle, sind aufgrund ihrer zusätzlichen inneren Elektronenschale weniger reaktiv als die Elemente der Gruppe 1.",
+      "description": "The phrase 'da die Elektronen in äußere Schalen hinzukommen' is syntactically awkward and scientifically imprecise. The correct explanation is that the valence electrons are further from the nucleus, which increases reactivity in Group 1. Additionally, the comparison should specify 'die Elemente der Gruppe 1' for clarity and grammatical correctness.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Periodic_Table.slm.md",
+    "language": "German",
+    "timestamp": "2025-10-03T22:30:58.593873",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.1,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.9,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.8,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

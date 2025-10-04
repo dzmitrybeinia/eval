@@ -1,0 +1,99 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Тропические зоны охлаждаются на протяжении всей года.",
+      "correction": "Тропические зоны охлаждаются на протяжении всего года.",
+      "description": "The phrase 'всей года' is incorrect due to the wrong case usage; 'год' should be in the genitive case ('всего года'). Additionally, the verb 'охлаждаются' is not appropriate for describing the climate in tropical zones, as it implies a continuous cooling process, which is not accurate. The sentence should use a verb that better reflects the climatic conditions, such as 'остаются теплыми' or 'не охлаждаются'.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Охлаждение здесь происходит в основном из-за сезонных изменений, а не постоянной охладной температуры.",
+      "correction": "Охлаждение здесь происходит в основном из-за сезонных изменений, а не постоянной низкой температуры.",
+      "description": "The phrase 'постоянной охладной температуры' is incorrect; 'охладной' is not a standard Russian adjective. The correct term is 'низкой температуры' to convey 'low temperature'. This lexical error affects clarity and naturalness.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Амазонские тропические леса",
+      "correction": "Амазонские влажные тропические леса",
+      "description": "While 'Амазонские тропические леса' is understandable, the more precise and locally accepted term is 'Амазонские влажные тропические леса' to emphasize the rainforest aspect, which is standard in Russian educational and scientific contexts.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "зимние холодания",
+      "correction": "зимние холода",
+      "description": "The word 'холодания' is not standard Russian; the correct term is 'холода' to refer to cold periods in winter. This lexical error affects the naturalness and clarity of the statement.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "обильным осадком",
+      "correction": "обильными осадками",
+      "description": "The phrase 'обильным осадком' uses the singular form incorrectly; the plural 'обильными осадками' is required to match the context and standard usage in Russian.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "создает более мягкое климат",
+      "correction": "создает более мягкий климат",
+      "description": "The phrase 'более мягкое климат' contains a gender agreement error; 'климат' is masculine and should be 'мягкий'. This affects grammatical correctness and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Вездовые течения",
+      "correction": "Водные течения",
+      "description": "The term 'Вездовые течения' is not standard or correct in Russian. The proper term is 'Водные течения' or 'океанические течения' when referring to water currents. This lexical error significantly affects comprehension.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "теплоидные течения и холодоносные течения",
+      "correction": "теплые течения и холодные течения",
+      "description": "The terms 'теплоидные' and 'холодоносные' are not standard Russian. The correct terms are 'теплые течения' and 'холодные течения' for describing warm and cold currents. This lexical error impacts clarity and professionalism.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "что, в свою очередь, влияет на климат региона.",
+      "correction": "что в свою очередь влияет на климат региона.",
+      "description": "The comma after 'что' is unnecessary and incorrect in this subordinate clause. Russian punctuation rules do not require a comma here, and its presence disrupts the sentence flow.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Climate_Zones.slm.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T22:24:54.615905",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 7.8,
+    "classification": "ACCEPTABLE",
+    "total_issues": 9,
+    "total_penalty": 2.2,
+    "issue_breakdown": {
+      "linguistic": 8,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 2.1,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

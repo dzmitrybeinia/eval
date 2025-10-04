@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "акроним \"МОЭС\" помогает запомнить названия Великих озёр: Мичиган, Онтарио, Эри, Супериор.",
+      "correction": "акроним \"МОЭС\" помогает запомнить названия Великих озёр: Мичиган, Онтарио, Эри, Супериор, Гурон.",
+      "description": "The example uses the acronym 'МОЭС' to help remember the names of the Great Lakes, but omits 'Гурон' (Huron), which is one of the five Great Lakes. This is a factual and cultural inaccuracy, as the standard Russian mnemonic for the Great Lakes should include all five lakes. The omission may confuse learners and reduce the educational value of the example.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "123-456-7890",
+      "correction": "8 (123) 456-78-90",
+      "description": "The phone number example uses the North American format '123-456-7890', which is not standard or familiar for Russian audiences. For Russian localization, phone numbers should follow the Russian format, such as '8 (123) 456-78-90'. This ensures cultural relevance and helps learners relate the example to their everyday experience.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Memory_Techniques.llm.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T21:40:25.467390",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.5,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

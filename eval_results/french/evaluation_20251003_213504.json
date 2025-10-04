@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "De petits choix comme ce que manger au petit déjeuner, à des décisions plus importantes comme choisir une activité après l'école.",
+      "correction": "De petits choix comme ce que vous allez manger au petit déjeuner, à des décisions plus importantes comme le choix d'une activité après l'école.",
+      "description": "The sentence is a fragment and lacks a main verb, making it syntactically incomplete. The phrase 'ce que manger au petit déjeuner' is missing a subject and auxiliary verb, which is required for clarity and grammatical correctness. Additionally, 'comme choisir une activité après l'école' should be rephrased for parallel structure and clarity. The correction provides a complete sentence with proper verb usage and parallelism.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Comment cette décision affectera-t-elle vous et les autres ?",
+      "correction": "Comment cette décision vous affectera-t-elle, vous et les autres ?",
+      "description": "The pronoun 'vous' is incorrectly placed after the inversion, which is not standard in French interrogative structure. For clarity and grammatical accuracy, 'vous' should be placed before the verb in the inversion, and a comma should separate 'vous et les autres' for better readability.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Inscrivez-vous et participez aux réunions ou pratiques.",
+      "correction": "Inscrivez-vous et participez aux réunions ou aux entraînements.",
+      "description": "The term 'pratiques' is a calque from English ('practices') and is not commonly used in French to refer to sports or club meetings. The more natural and culturally appropriate term in French is 'entraînements' for sports or 'réunions' for clubs. Using 'entraînements' ensures the text aligns with local usage and avoids anglicisms.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "La prise de décision est une compétence qui se développe avec la pratique. En suivant un processus clair et en réfléchissant à vos choix, vous pouvez prendre de meilleures décisions qui correspondent à vos objectifs et vos valeurs.",
+      "correction": "La prise de décision est une compétence qui se développe avec la pratique. En suivant un processus clair et en réfléchissant à vos choix, vous pouvez prendre de meilleures décisions qui correspondent à vos objectifs et à vos valeurs.",
+      "description": "The phrase 'qui correspondent à vos objectifs et vos valeurs' lacks the preposition 'à' before 'vos valeurs', which is required for correct parallel structure in French. The correction adds 'à' to ensure proper grammatical agreement and clarity.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Decision_Making.llm.md",
+    "language": "French",
+    "timestamp": "2025-10-03T21:35:04.213811",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.2,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.8,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.6,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

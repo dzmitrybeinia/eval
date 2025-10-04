@@ -1,0 +1,35 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "L'affirmation est incorrecte car les pratiques durables impliquent de privilégier les sources d'énergie renouvelables, telles que l'énergie solaire, éolienne et hydraulique, plutôt que les énergies fossiles qui sont finies et contributent à l'épuisement des ressources naturelles.",
+      "correction": "L'affirmation est incorrecte car les pratiques durables impliquent de privilégier les sources d'énergie renouvelables, telles que l'énergie solaire, éolienne et hydraulique, plutôt que les énergies fossiles qui sont finies et contribuent à l'épuisement des ressources naturelles.",
+      "description": "The original text contains a verb conjugation error: 'contributent' should be 'contribuent' to match the third person plural form of 'contribuer'. This affects grammatical accuracy and may hinder comprehension. No localization issues are present.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Natural_Resources.slm.md",
+    "language": "French",
+    "timestamp": "2025-10-03T22:22:37.738390",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

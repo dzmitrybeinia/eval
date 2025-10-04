@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Vamos explorar a história da DUDH, seus princípios fundamentais e como ela influenciou sociedades ao redor do mundo. 🌍",
+      "correction": "Vamos explorar a história da DUDH, seus princípios fundamentais e como ela influenciou sociedades ao redor do mundo.",
+      "description": "The use of the globe emoji (🌍) at the end of the sentence is not appropriate for formal educational content in Brazilian Portuguese. Emojis can undermine the seriousness and professionalism of the topic, especially when discussing human rights. Removing the emoji ensures the tone remains formal and suitable for the context.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Ela também empoderou movimentos pelos direitos civis, igualdade de gênero e justiça social.",
+      "correction": "Ela também fortaleceu movimentos pelos direitos civis, igualdade de gênero e justiça social.",
+      "description": "The term 'empoderou' is a direct loan from English ('empower') and, while increasingly used in Brazilian Portuguese, it can sound unnatural or overly trendy in formal educational contexts. 'Fortaleceu' is a more established and natural term in Portuguese for describing the impact on social movements, ensuring professional and culturally appropriate language.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Human_Rights.llm.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T21:47:32.494681",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.8,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.2,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

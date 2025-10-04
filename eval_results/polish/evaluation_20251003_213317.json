@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "neony",
+      "correction": "lampy neonowe",
+      "description": "The word 'neony' is used as an example of plasma, but in Polish, 'neony' typically refers to neon signs rather than the physical objects containing plasma. The correct term is 'lampy neonowe', which more accurately describes the devices where plasma is present. This correction improves scientific precision and clarity.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "telewizory plazmowe",
+      "correction": "telewizory plazmowe (obecnie rzadko używane)",
+      "description": "The mention of 'telewizory plazmowe' as a common application of plasma is outdated, as plasma TVs are now rarely used in Poland and globally. Adding a note clarifies the current relevance and prevents misleading students about modern technology trends.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "woda zamarza w lód",
+      "correction": "woda zamarza na lód",
+      "description": "The phrase 'woda zamarza w lód' uses the incorrect preposition 'w'. In Polish, the correct expression is 'zamarza na lód', which properly reflects the transformation of water into ice. This correction addresses a grammatical error in case and preposition usage.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "gaz w neonówce staje się plazmą dzięki przepływowi prądu",
+      "correction": "gaz w lampie neonowej staje się plazmą dzięki przepływowi prądu",
+      "description": "The term 'neonówka' is colloquial and less appropriate for educational content. The correct scientific term is 'lampa neonowa'. This correction improves register and precision, ensuring the terminology matches the educational context.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Słońce",
+      "correction": "Słońce (gwiazda, nie planeta)",
+      "description": "While 'Słońce' is a valid example of plasma, it is important to clarify that it is a star, not a planet, as some students may confuse these terms. Adding this note increases scientific accuracy and prevents misconceptions.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "States_of_Matter.llm.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T21:33:17.890965",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.1,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 0.9,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.7,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

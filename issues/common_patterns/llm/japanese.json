@@ -1,308 +1,586 @@
 {
   "metadata": {
     "label": "llm",
-    "label_normalized": "llm",
-    "label_key": "llm",
     "language": "japanese",
-    "generated_at": "2025-10-03T16:00:16.354153"
+    "generated_at": "2025-10-03T21:58:25.686117"
   },
   "top_error_patterns": [
     {
-      "pattern_name": "Incorrect colon formatting after '例'",
-      "category": "localization",
-      "subcategory": "Style",
-      "impact_level": "MEDIUM",
+      "pattern_name": "Incorrect grammatical forms and verb usage",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "HIGH",
       "frequency": "very_common",
-      "frequency_count": 8,
-      "description": "Use of half-width colon ':' after '例' instead of the Japanese standard full-width colon '：' in examples. This affects the professionalism and typographic consistency of educational content.",
+      "frequency_count": 3,
+      "description": "Frequent misuse of passive forms, adjectives, and action verbs leads to unclear or incorrect meaning, affecting comprehension and professional tone.",
       "examples": [
         {
-          "wrong": "例: アマゾン熱帯雨林は熱帯気候帯に属しています。",
-          "correct": "例：アマゾン熱帯雨林は熱帯気候帯に属しています。",
-          "context": "Example sentences in science and geography lessons"
+          "wrong": "他人が聞かれ、価値を感じるようにする。",
+          "correct": "他人が聞いてもらい、価値を感じるようにする。",
+          "context": "Incorrect passive verb form used in explanations."
         },
         {
-          "wrong": "例: 熱帯雨林（多様な動植物が生息）。",
-          "correct": "例：熱帯雨林（多様な動植物が生息）。",
-          "context": "Example lists in biology content"
+          "wrong": "平和で尊重のある方法",
+          "correct": "平和的で尊重のある方法",
+          "context": "Improper adjective form in descriptive sentences."
+        },
+        {
+          "wrong": "減少、再利用、リサイクル、再生可能エネルギーへの切り替え",
+          "correct": "減らす、再利用、リサイクル、再生可能エネルギーへの切り替え",
+          "context": "Incorrect noun used instead of action verb in strategy lists."
         }
       ]
     },
     {
-      "pattern_name": "Awkward or unnatural grammatical constructions",
+      "pattern_name": "Misuse of technical terminology",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "HIGH",
+      "frequency": "common",
+      "frequency_count": 3,
+      "description": "Incorrect or non-standard terms for scientific and educational concepts reduce clarity and accuracy, especially in subject-specific contexts.",
+      "examples": [
+        {
+          "wrong": "三角形は3つの直線と3つの角を持つ形状です。",
+          "correct": "三角形は3つの辺と3つの角を持つ形状です。",
+          "context": "Non-standard term for geometric sides in math explanations."
+        },
+        {
+          "wrong": "族1の元素である水素（H）やナトリウム（Na）は非常に反応性が高い金属です。",
+          "correct": "族1の元素である水素（H）やナトリウム（Na）は非常に反応性が高い元素です。",
+          "context": "Incorrect classification of hydrogen as a metal in science content."
+        },
+        {
+          "wrong": "音節パターンは5-7-5。",
+          "correct": "音数パターンは5-7-5。",
+          "context": "Wrong technical term for haiku structure in literature explanations."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect use of suffixes in institutional terminology",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "HIGH",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Non-standard suffixes or word endings in institutional names cause confusion and reduce professionalism in headings and lists.",
+      "examples": [
+        {
+          "wrong": "行政府門",
+          "correct": "行政府",
+          "context": "Improper suffix used for government branch in section headings."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Unlocalized Emergency Service Numbers",
+      "category": "localization",
+      "subcategory": "Format",
+      "impact_level": "HIGH",
+      "frequency": "common",
+      "frequency_count": 1,
+      "description": "Use of foreign emergency numbers (e.g., '911') instead of the Japanese standard ('119'), leading to confusion and lack of cultural fit.",
+      "examples": [
+        {
+          "wrong": "911",
+          "correct": "119",
+          "context": "Emergency contact information in quiz questions or explanations"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Nonstandard Terminology for Key Concepts",
+      "category": "localization",
+      "subcategory": "Terminology",
+      "impact_level": "HIGH",
+      "frequency": "common",
+      "frequency_count": 1,
+      "description": "Use of direct katakana transliterations for important terms (e.g., 'サイバーブリング') instead of widely accepted Japanese terminology, reducing clarity and naturalness.",
+      "examples": [
+        {
+          "wrong": "サイバーブリング",
+          "correct": "ネットいじめ",
+          "context": "Quiz content discussing cyberbullying or related social issues"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Unnatural or awkward grammatical constructions",
       "category": "linguistic",
       "subcategory": "Grammar",
       "impact_level": "MEDIUM",
       "frequency": "very_common",
-      "frequency_count": 5,
-      "description": "Sentences frequently use unnatural grammatical structures, such as redundant phrases, incorrect conjunctions, or topic markers, which reduce clarity and naturalness in Japanese.",
+      "frequency_count": 22,
+      "description": "Frequent use of grammatically correct but unnatural or awkward phrasing, including incorrect verb forms, particles, or sentence endings. These constructions reduce readability and sound non-native.",
       "examples": [
         {
-          "wrong": "依然として最大のピラミッドであり、古代エジプトの工学技術の証です。",
-          "correct": "現在も最大のピラミッドであり、古代エジプトの工学技術の証です。",
-          "context": "Use of '依然として' instead of the more natural '現在も' when describing something that remains the largest."
+          "wrong": "栽培することを可能にしました。",
+          "correct": "栽培できるようになりました。",
+          "context": "Describing new abilities or possibilities"
         },
         {
-          "wrong": "学者たちがそれを比較して翻訳することができました。",
-          "correct": "学者たちはそれを比較して翻訳することができました。",
-          "context": "Incorrect use of subject marker 'が' instead of topic marker 'は' for emphasis."
+          "wrong": "持つことができます。",
+          "correct": "持つことがあります。",
+          "context": "Describing geometric properties"
         },
         {
-          "wrong": "鳥が冬に暖かい地域へ移動する行動。",
-          "correct": "鳥が冬に暖かい地域へ移動する。",
-          "context": "Redundant use of '行動' at the end of an action description."
-        },
-        {
-          "wrong": "モンゴメリーのバスの分離撤廃をもたらした一年間のボイコット。",
-          "correct": "モンゴメリーのバス分離を撤廃した一年間のボイコット。",
-          "context": "Awkward noun phrase construction causing confusion."
-        },
-        {
-          "wrong": "保存するデータは変更可能または固定のままです。",
-          "correct": "保存するデータは変更可能または固定です。",
-          "context": "Unnatural use of 'のまま' in describing data states."
+          "wrong": "夢が現実になったことを知った。",
+          "correct": "夢が現実になったと知った。",
+          "context": "Expressing realization or knowledge"
         }
       ]
     },
     {
-      "pattern_name": "Non-standard or unnatural terminology usage",
+      "pattern_name": "Non-standard use of emojis in educational content",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "MEDIUM",
+      "frequency": "very_common",
+      "frequency_count": 18,
+      "description": "Emojis such as 🌟, 🌍, 🌏, 😊, ✨, 📚, 🚀, 🌱, 🌈, and 📖 are frequently used in lesson introductions and explanations, but are considered informal and unprofessional in Japanese educational materials, especially for formal or academic contexts.",
+      "examples": [
+        {
+          "wrong": "🌟感情知能は私たちの日々の生活をより豊かにする力を秘めています！",
+          "correct": "感情知能は私たちの日々の生活をより豊かにする力を秘めています！",
+          "context": "Lesson introduction with star emoji"
+        },
+        {
+          "wrong": "このレッスンでは、気候帯がどのように生態系や人々の活動に影響を与えるかを学びます🌍。",
+          "correct": "このレッスンでは、気候帯がどのように生態系や人々の活動に影響を与えるかを学びます。",
+          "context": "Lesson summary with globe emoji"
+        },
+        {
+          "wrong": "今日は、バイアスの特定、証拠の評価、論理的結論の形成という重要なスキルを学びます。これらは、日常生活や学問的成功、そして市民としての責任ある議論に不可欠なものです。✨",
+          "correct": "今日は、バイアスの特定、証拠の評価、論理的結論の形成という重要なスキルを学びます。これらは、日常生活や学問的成功、そして市民としての責任ある議論に不可欠なものです。",
+          "context": "Lesson summary with sparkle emoji"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect punctuation: Western colon (:) instead of Japanese full-width colon (：)",
       "category": "localization",
       "subcategory": "Terminology",
       "impact_level": "MEDIUM",
       "frequency": "very_common",
-      "frequency_count": 5,
-      "description": "Use of direct translations, katakana loanwords, or non-standard terms that are less natural or less accepted in Japanese educational contexts. This affects clarity and can confuse learners.",
+      "frequency_count": 16,
+      "description": "The Western colon (:) is used in headings, examples, and lists, but Japanese educational content requires the full-width colon (：) for proper punctuation and naturalness.",
+      "examples": [
+        {
+          "wrong": "熱帯気候: 高温多湿で赤道付近に位置。",
+          "correct": "熱帯気候：高温多湿で赤道付近に位置します。",
+          "context": "Climate zone description"
+        },
+        {
+          "wrong": "例: アマゾン熱帯雨林は熱帯気候帯に属しています。",
+          "correct": "例：アマゾン熱帯雨林は熱帯気候帯に属しています。",
+          "context": "Example sentence"
+        },
+        {
+          "wrong": "農業: 気候帯に応じた作物が栽培される（例: 温帯地域では小麦、熱帯地域では稲）。",
+          "correct": "農業：気候帯に応じた作物が栽培される（例：温帯地域では小麦、熱帯地域では稲）。",
+          "context": "List of examples"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Unnatural or inconsistent terminology",
+      "category": "localization",
+      "subcategory": "Terminology",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 14,
+      "description": "Direct translations, loanwords, or verbose expressions are used instead of standard Japanese terms, reducing clarity and professionalism. Examples include '仮想アシスタント' vs. 'バーチャルアシスタント', '敵役' vs. '悪役', and missing parenthetical explanations for foreign concepts.",
+      "examples": [
+        {
+          "wrong": "敵役",
+          "correct": "悪役",
+          "context": "Story character terminology"
+        },
+        {
+          "wrong": "仮想アシスタント",
+          "correct": "バーチャルアシスタント",
+          "context": "Technology terminology"
+        },
+        {
+          "wrong": "エトス、パトス、ロゴス",
+          "correct": "エトス（信頼性）、パトス（感情）、ロゴス（論理）",
+          "context": "Foreign concept explanation"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Unnatural Loanword Usage",
+      "category": "localization",
+      "subcategory": "Terminology",
+      "impact_level": "MEDIUM",
+      "frequency": "very_common",
+      "frequency_count": 12,
+      "description": "Frequent use of direct English loanwords (katakana) instead of standard Japanese terms, leading to unnatural or unclear expressions in educational contexts.",
       "examples": [
         {
           "wrong": "オルガネラ",
           "correct": "細胞小器官",
-          "context": "Scientific term for 'organelle' in biology lessons"
+          "context": "Biology terminology in science content"
         },
         {
-          "wrong": "食糧",
-          "correct": "餌",
-          "context": "Describing bee food in animal behavior examples"
+          "wrong": "ダブルベース",
+          "correct": "コントラバス",
+          "context": "Music instrument names"
         },
         {
-          "wrong": "LGBTQ+の権利",
-          "correct": "LGBTQの権利",
-          "context": "Social studies or rights-related content"
-        },
-        {
-          "wrong": "学生ですか = True",
-          "correct": "学生か = True",
-          "context": "Variable naming in programming examples"
-        },
-        {
-          "wrong": "定性的および定量的な基準",
-          "correct": "質的および量的な基準",
-          "context": "Scientific or educational standards explanations"
+          "wrong": "スーツ",
+          "correct": "マーク",
+          "context": "Card game terminology"
         }
       ]
     },
     {
-      "pattern_name": "Anglicisms and unnatural expressions",
-      "category": "localization",
-      "subcategory": "Style",
-      "impact_level": "MEDIUM",
-      "frequency": "occasional",
-      "frequency_count": 3,
-      "description": "Direct translations or anglicisms (e.g., 'ステップバイステップ', 'について') are used instead of natural Japanese expressions, reducing clarity and cultural fit.",
-      "examples": [
-        {
-          "wrong": "ステップバイステップで問題を解決するためにアルゴリズムを作成します。",
-          "correct": "段階的に問題を解決するためにアルゴリズムを作成します。",
-          "context": "Programming and algorithm explanations"
-        },
-        {
-          "wrong": "プログラミングとは何かについて学び始めましょう！",
-          "correct": "プログラミングとは何かを学び始めましょう！",
-          "context": "Lesson introductions"
-        }
-      ]
-    },
-    {
-      "pattern_name": "Terminology inconsistency",
-      "category": "localization",
-      "subcategory": "Terminology",
-      "impact_level": "MEDIUM",
-      "frequency": "occasional",
-      "frequency_count": 3,
-      "description": "Non-standard or less natural terminology is used, such as incorrect set phrases or technical terms, which can confuse learners and reduce localization quality.",
-      "examples": [
-        {
-          "wrong": "世界の七不思議の一つであるギザの大ピラミッド",
-          "correct": "世界七不思議の一つであるギザの大ピラミッド",
-          "context": "History and world wonders references"
-        },
-        {
-          "wrong": "アクティブリスニングの技術：",
-          "correct": "アクティブ・リスニングのスキル：",
-          "context": "Communication skills lessons"
-        }
-      ]
-    },
-    {
-      "pattern_name": "Unnatural or verbose grammatical constructions",
-      "category": "linguistic",
-      "subcategory": "Grammar",
-      "impact_level": "MEDIUM",
-      "frequency": "common",
-      "frequency_count": 2,
-      "description": "Use of grammatically correct but unnatural or verbose expressions that reduce clarity and naturalness in Japanese. More concise and idiomatic phrasing improves comprehension.",
-      "examples": [
-        {
-          "wrong": "栽培することを可能にしました",
-          "correct": "栽培できるようになりました",
-          "context": "Describing the effect of annual floods on crop cultivation"
-        },
-        {
-          "wrong": "権利を求めるために疎外されたコミュニティ",
-          "correct": "権利を求めて疎外されていたコミュニティ",
-          "context": "Describing communities gaining empowerment"
-        }
-      ]
-    },
-    {
-      "pattern_name": "Unnatural or culturally inappropriate style/metaphor",
+      "pattern_name": "Unnatural sentence fragments and register",
       "category": "localization",
       "subcategory": "Style",
       "impact_level": "MEDIUM",
       "frequency": "common",
-      "frequency_count": 2,
-      "description": "Use of exclamatory, poetic, or metaphors that are uncommon or confusing in Japanese educational content, reducing clarity and professionalism.",
+      "frequency_count": 12,
+      "description": "Sentence fragments, plain forms, or abrupt expressions are used instead of complete, polite, and natural sentences expected in Japanese educational materials. This affects clarity and tone.",
+      "examples": [
+        {
+          "wrong": "「公民権運動の母」として知られる。",
+          "correct": "「公民権運動の母」として知られています。",
+          "context": "Biographical description"
+        },
+        {
+          "wrong": "コーネル式やアウトライン形式を活用。",
+          "correct": "コーネル式やアウトライン形式を活用する。",
+          "context": "Instructional sentence"
+        },
+        {
+          "wrong": "日記を書く。",
+          "correct": "日記を書いたりする。",
+          "context": "List of example actions"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Nonstandard or Unnatural Style",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "MEDIUM",
+      "frequency": "very_common",
+      "frequency_count": 10,
+      "description": "Literal translations, awkward phrasing, or use of expressions that do not match Japanese educational or literary style, affecting readability and tone.",
       "examples": [
         {
           "wrong": "動物の環境適応への旅へ！",
           "correct": "動物の環境適応について学びましょう！",
-          "context": "Quiz introductions or topic headers"
+          "context": "Quiz introductions"
         },
         {
-          "wrong": "核は細胞の脳のようなもので、すべてのプロセスを指揮し、細胞の運営のための指示を保存します。",
-          "correct": "核は細胞の司令塔のようなもので、すべてのプロセスを指揮し、細胞の運営のための情報を保存します。",
-          "context": "Biology explanations using metaphors"
+          "wrong": "小さな進歩でも祝う。",
+          "correct": "小さな進歩でも喜ぶ。",
+          "context": "Personal growth and encouragement"
+        },
+        {
+          "wrong": "活気のある民主主義",
+          "correct": "活発な民主主義",
+          "context": "Civic education"
         }
       ]
     },
     {
-      "pattern_name": "Incorrect orthographic conventions for loanwords",
+      "pattern_name": "Lexical imprecision and nonstandard terminology",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 8,
+      "description": "Use of words or phrases that are technically correct but not standard in educational, scientific, or cultural contexts. This includes misuse of terms and failure to use established Japanese equivalents.",
+      "examples": [
+        {
+          "wrong": "読む力を高める",
+          "correct": "読解力を高める",
+          "context": "Educational terminology for reading comprehension"
+        },
+        {
+          "wrong": "ドライバー（車輪と軸またはねじ）",
+          "correct": "ドライバー（ねじ）",
+          "context": "Science education: classification of simple machines"
+        },
+        {
+          "wrong": "贈り物",
+          "correct": "おくりもの",
+          "context": "Book title: using official translation"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Particle Omission or Misuse",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "MEDIUM",
+      "frequency": "very_common",
+      "frequency_count": 7,
+      "description": "Particles such as 'は', 'には', and 'での' are frequently omitted or incorrectly used, leading to unnatural or ambiguous sentences. Proper particle usage is essential for clarity and grammatical accuracy in Japanese.",
+      "examples": [
+        {
+          "wrong": "不正義に直面した際の即時行動と自衛の必要性を強調しました。",
+          "correct": "不正義に直面した際には即時行動と自衛の必要性を強調しました。",
+          "context": "Missing 'には' after '際' clarifies the conditional context."
+        },
+        {
+          "wrong": "自分のオンライン行動と他者への影響を批判的に考えることが大切です。",
+          "correct": "自分のオンラインでの行動と他者への影響を批判的に考えることが大切です。",
+          "context": "Missing 'での' after 'オンライン' for correct modification."
+        },
+        {
+          "wrong": "公式のように見えるメールでパスワードを要求された場合、送信者の正体を確認しましょう。",
+          "correct": "公式のように見えるメールでパスワードを要求された場合は、送信者の正体を確認しましょう。",
+          "context": "Missing 'は' after '場合' for conditional clause."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Cultural Inappropriateness or Lack of Localization",
+      "category": "localization",
+      "subcategory": "Cultural",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 7,
+      "description": "Examples, terms, or explanations that do not fit Japanese cultural context, causing confusion or reducing relatability for learners.",
+      "examples": [
+        {
+          "wrong": "七面鳥サンドイッチ",
+          "correct": "チキンサンドイッチ",
+          "context": "Food examples unfamiliar to Japanese learners"
+        },
+        {
+          "wrong": "ネイティブアメリカン",
+          "correct": "先住民",
+          "context": "Referring to indigenous peoples in history lessons"
+        },
+        {
+          "wrong": "20円で、3枚購入すると合計費用は:",
+          "correct": "2,000円で、3枚購入すると合計費用は:",
+          "context": "Unrealistic pricing in math problems"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Orthographic errors and unnatural set phrases",
       "category": "linguistic",
       "subcategory": "Orthography",
       "impact_level": "MEDIUM",
-      "frequency": "occasional",
-      "frequency_count": 1,
-      "description": "Loanwords in Katakana are sometimes written without the required middle dot (・) between compound words, which is standard in Japanese orthography. This affects readability and professional tone.",
+      "frequency": "common",
+      "frequency_count": 6,
+      "description": "Incorrect use of set phrases, punctuation, or loanwords, leading to unnatural or nonstandard written Japanese. This includes misuse of particles in set phrases and inappropriate punctuation.",
+      "examples": [
+        {
+          "wrong": "世界の七不思議",
+          "correct": "世界七不思議",
+          "context": "Set phrase for 'Seven Wonders of the World'"
+        },
+        {
+          "wrong": "滅菌バンデージ",
+          "correct": "滅菌包帯",
+          "context": "Medical terminology"
+        },
+        {
+          "wrong": "\\。",
+          "correct": "。",
+          "context": "Punctuation after math expressions"
+        }
+      ]
+    },
+    {
+      "pattern_name": "List and Compound Predicate Errors",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 6,
+      "description": "Errors in listing actions or predicates, such as incorrect use of the te-form, missing commas, or improper verb forms, affect sentence flow and clarity.",
+      "examples": [
+        {
+          "wrong": "感情は、私たちが周囲の出来事にどのように感じて反応するかを教えてくれる大切な部分です。",
+          "correct": "感情は、私たちが周囲の出来事にどのように感じ、反応するかを教えてくれる大切な部分です。",
+          "context": "Incorrect te-form for listing actions."
+        },
+        {
+          "wrong": "教育的目的: 教える、説明する、証拠を提供するために使用される。",
+          "correct": "教育的目的: 教えたり、説明したり、証拠を提供したりするために使用される。",
+          "context": "Missing '-たり' form for listing multiple actions."
+        },
+        {
+          "wrong": "読むほど、さまざまな種類のテキストを理解し分析する能力が向上します。",
+          "correct": "読むほど、さまざまな種類のテキストを理解し、分析する能力が向上します。",
+          "context": "Missing comma between compound verbs."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Orthographic Convention Violations",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 5,
+      "description": "Non-standard orthographic forms, such as missing middle dots in loanwords, incorrect use of half-width punctuation, and inappropriate symbols (e.g., emojis), reduce professionalism and readability.",
       "examples": [
         {
           "wrong": "アクティブリスニング",
           "correct": "アクティブ・リスニング",
-          "context": "Educational terminology for 'active listening'"
-        }
-      ]
-    },
-    {
-      "pattern_name": "Culturally unrealistic examples",
-      "category": "localization",
-      "subcategory": "Cultural",
-      "impact_level": "MEDIUM",
-      "frequency": "occasional",
-      "frequency_count": 1,
-      "description": "Use of examples or values that do not fit Japanese cultural or economic context, potentially confusing learners.",
-      "examples": [
+          "context": "Missing middle dot in compound loanword."
+        },
         {
-          "wrong": "シャツ一枚の値段が`20`円で、3枚購入すると合計費用は:",
-          "correct": "シャツ一枚の値段が`2,000`円で、3枚購入すると合計費用は:",
-          "context": "Math or economics word problems"
-        }
-      ]
-    },
-    {
-      "pattern_name": "Incorrect Japanese punctuation/formatting",
-      "category": "localization",
-      "subcategory": "Format",
-      "impact_level": "MEDIUM",
-      "frequency": "occasional",
-      "frequency_count": 1,
-      "description": "Use of half-width punctuation or non-standard formatting that does not match Japanese writing conventions, affecting readability and authenticity.",
-      "examples": [
-        {
-          "wrong": "メッセージ = 挨拶 + \", \" + 名前  # \"こんにちは, アリス\"",
-          "correct": "メッセージ = 挨拶 + \"、\" + 名前  # \"こんにちは、アリス\"",
-          "context": "Programming or string concatenation examples"
-        }
-      ]
-    },
-    {
-      "pattern_name": "Use of emojis in formal educational content",
-      "category": "localization",
-      "subcategory": "Style",
-      "impact_level": "LOW",
-      "frequency": "common",
-      "frequency_count": 4,
-      "description": "Emojis such as 🌟, 🤓, 😊 are used in educational materials, which is considered informal and unprofessional in Japanese academic contexts. Their removal is recommended for a consistent and appropriate tone.",
-      "examples": [
-        {
-          "wrong": "楽しみながら新しいスキルを身につけましょう！ 🤓",
-          "correct": "楽しみながら新しいスキルを身につけましょう！",
-          "context": "Lesson introductions and motivational statements"
+          "wrong": "魔法学校に通う若い魔法使いの物語（例:『ハリー・ポッター』）。",
+          "correct": "魔法学校に通う若い魔法使いの物語（例：『ハリー・ポッター』）。",
+          "context": "Half-width colon used instead of full-width."
         },
         {
           "wrong": "🌟",
           "correct": "",
-          "context": "Decorative use at the end of paragraphs"
+          "context": "Emoji used in formal educational content."
+        },
+        {
+          "wrong": "11.2km/s",
+          "correct": "11.2km／s",
+          "context": "Half-width slash used in units instead of full-width."
         }
       ]
     },
     {
-      "pattern_name": "Unnatural or less idiomatic phrasing",
+      "pattern_name": "Incorrect or Ambiguous Scientific/Technical Terminology",
+      "category": "localization",
+      "subcategory": "Terminology",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 5,
+      "description": "Use of ambiguous, incorrect, or nonstandard terms in scientific, technical, or academic contexts, reducing clarity and accuracy.",
+      "examples": [
+        {
+          "wrong": "星や雷",
+          "correct": "恒星や雷",
+          "context": "Physics/science explanations"
+        },
+        {
+          "wrong": "州間通商",
+          "correct": "州際通商",
+          "context": "Legal and government terminology"
+        },
+        {
+          "wrong": "裁判官は大統領によって任命され",
+          "correct": "連邦裁判官は大統領によって任命され",
+          "context": "Government structure explanations"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Cultural and terminology mismatches",
+      "category": "linguistic",
+      "subcategory": "Cultural",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 3,
+      "description": "Use of terms or descriptions that do not align with Japanese cultural, religious, or scientific standards, affecting localization fit and learner comprehension.",
+      "examples": [
+        {
+          "wrong": "死を称えるヴェーサックの祝祭",
+          "correct": "入滅を称えるヴェーサックの祝祭",
+          "context": "Buddhist terminology for Buddha's passing"
+        },
+        {
+          "wrong": "金曜の夕方から土曜の夕方まで",
+          "correct": "金曜の日没から土曜の日没まで",
+          "context": "Religious observance timing"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Sentence Fragments and Missing Copula",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 3,
+      "description": "Several sentences are fragments lacking a verb or copula ('です'), resulting in incomplete statements. This affects readability and consistency, especially in educational contexts.",
+      "examples": [
+        {
+          "wrong": "話す猫が謎を解く短編小説。",
+          "correct": "話す猫が謎を解く短編小説です。",
+          "context": "Missing 'です' at the end to complete the sentence."
+        },
+        {
+          "wrong": "植物の成長について説明する科学教科書。",
+          "correct": "植物の成長について説明する科学教科書です。",
+          "context": "Fragment without copula; needs 'です' for completion."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Unexplained Abbreviations or Foreign Concepts",
+      "category": "localization",
+      "subcategory": "Terminology",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 2,
+      "description": "Use of abbreviations or foreign educational concepts without explanation, leading to potential confusion for Japanese learners.",
+      "examples": [
+        {
+          "wrong": "NGSSとの連携",
+          "correct": "NGSS（次世代科学基準）との連携",
+          "context": "References to US educational standards"
+        },
+        {
+          "wrong": "感情知能（EI）",
+          "correct": "感情知能（EQ）",
+          "context": "Abbreviations for emotional intelligence"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Unnatural or overly formal verb and word choices",
       "category": "localization",
       "subcategory": "Style",
       "impact_level": "LOW",
-      "frequency": "occasional",
-      "frequency_count": 4,
-      "description": "Phrases that are grammatically correct but less natural or idiomatic in Japanese, affecting the smoothness and professionalism of the text.",
+      "frequency": "common",
+      "frequency_count": 10,
+      "description": "Verbs and expressions such as '比較します', '必要です', '使用します', and '学びが深まります' are used where more natural, idiomatic, or softer alternatives are preferred in Japanese educational style.",
       "examples": [
         {
-          "wrong": "ミトコンドリアは発電所のようなもので、細胞が機能するためのエネルギーを生産します。",
-          "correct": "ミトコンドリアは発電所のようなもので、細胞が活動するためのエネルギーを生み出します。",
-          "context": "Biology explanations"
+          "wrong": "分母が同じ場合は、分子を比較します。",
+          "correct": "分母が同じ場合は、分子を比べます。",
+          "context": "Math instruction"
         },
         {
-          "wrong": "「公民権運動の母」として知られる。",
-          "correct": "「公民権運動の母」と呼ばれることもある。",
-          "context": "Historical figure descriptions"
+          "wrong": "クラスメートとのグループプロジェクトでは、積極的に意見を共有し、意見の違いを尊重しながら解決することが必要です。",
+          "correct": "クラスメートとのグループプロジェクトでは、積極的に意見を共有し、意見の違いを尊重しながら解決することが大切です。",
+          "context": "Group work advice"
+        },
+        {
+          "wrong": "学びが深まります",
+          "correct": "理解が深まります",
+          "context": "Learning outcome statement"
         }
       ]
     },
     {
-      "pattern_name": "Inappropriate conjunction usage in lists",
+      "pattern_name": "Lexical and Terminology Inaccuracy",
       "category": "linguistic",
-      "subcategory": "Grammar",
+      "subcategory": "Lexical",
       "impact_level": "LOW",
       "frequency": "occasional",
-      "frequency_count": 1,
-      "description": "Lists of related items use 'と' instead of 'や', which is less natural when enumerating multiple, loosely related items in Japanese.",
+      "frequency_count": 3,
+      "description": "Use of non-standard or less natural terminology, such as incorrect device names or verb choices, can reduce clarity and professional tone.",
       "examples": [
         {
-          "wrong": "衝突を解決する自信と効果的なコミュニケーション能力を身につけることができます。",
-          "correct": "衝突を解決する自信や効果的なコミュニケーション能力を身につけることができます。",
-          "context": "Listing multiple skills acquired through strategies."
-        }
-      ]
-    },
-    {
-      "pattern_name": "Use of emoji in formal educational content",
-      "category": "linguistic",
-      "subcategory": "Orthography",
-      "impact_level": "LOW",
-      "frequency": "occasional",
-      "frequency_count": 1,
-      "description": "Emoji are used in introductory sentences, which is inappropriate for formal or academic Japanese content and affects perceived professionalism.",
-      "examples": [
+          "wrong": "探知機全体は10年ごとに交換する。",
+          "correct": "探知機本体は10年ごとに交換する。",
+          "context": "Non-standard device terminology."
+        },
         {
-          "wrong": "🌍",
-          "correct": "",
-          "context": "Globe emoji used in educational material introduction."
+          "wrong": "感情的な洞察を行動や意思決定に活用する。",
+          "correct": "感情的な洞察を行動や意思決定に活かす。",
+          "context": "Less natural verb choice for 'apply insights'."
         }
       ]
     }

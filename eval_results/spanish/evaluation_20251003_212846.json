@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Mnemonics",
+      "correction": "Mnemotecnia",
+      "description": "The term 'Mnemonics' is used in the Spanish content, but the correct and widely accepted Spanish term is 'mnemotecnia'. Using the English term may confuse learners and is not culturally appropriate for educational material in Spanish. The correction ensures terminology is consistent and natural for Spanish-speaking audiences.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Fragmentación",
+      "correction": "Fragmentación (o agrupamiento)",
+      "description": "While 'fragmentación' is understandable, the more commonly used term in Spanish cognitive psychology and educational contexts is 'agrupamiento' (chunking). Adding 'agrupamiento' in parentheses clarifies the concept and aligns with standard terminology, improving clarity and localization quality.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "¡Bienvenidos a una aventura para mejorar tu memoria!",
+      "correction": "¡Bienvenidos a una aventura para mejorar su memoria!",
+      "description": "The sentence uses 'tu' (informal singular) after 'Bienvenidos' (plural), resulting in a register inconsistency. For educational content addressing a group, the formal plural 'su' should be used to maintain tone consistency and politeness appropriate for a lesson introduction.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Visualización: Viendo la Información en tu Mente",
+      "correction": "Visualización: Imaginando la información en tu mente",
+      "description": "The phrase 'Viendo la Información en tu Mente' is a literal translation from English and sounds unnatural in Spanish. 'Imaginando la información en tu mente' is a more idiomatic and culturally appropriate way to express the concept of visualization in Spanish educational contexts.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Memory_Techniques_1.llm.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-03T21:28:46.180957",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.2,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.8,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 4,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.8,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "フィクションは想像力によって創作された書き物です。",
+      "correction": "フィクションは想像力によって創作された作品です。",
+      "description": "The word '書き物' is not the most appropriate term for fiction in Japanese, as it typically refers to written documents or writings, not literary works. '作品' is the standard term for creative works, including fiction. This correction improves lexical precision and aligns with common usage in educational and literary contexts.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "ジャンル: ファンタジー、SF、ミステリー、ロマンス、冒険など。",
+      "correction": "ジャンル: ファンタジー、SF、ミステリー、ロマンス、冒険など。",
+      "description": "While the genre list is accurate, 'SF' is commonly used in Japanese for 'science fiction', but some educational contexts may prefer 'サイエンス・フィクション' for clarity. However, 'SF' is widely accepted and natural in Japanese pop culture and literature, so no correction is needed. The terminology is consistent and culturally appropriate.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "登場人物や舞台、出来事は実際には存在しないことが多いですが、時には現実の経験を基にすることもあります。",
+      "correction": "登場人物や舞台、出来事は実際には存在しないことが多いですが、時には現実の経験に基づくこともあります。",
+      "description": "The phrase '現実の経験を基にする' is grammatically understandable but less natural than '現実の経験に基づく'. The latter is the standard collocation for 'based on real experiences' in Japanese, improving both grammatical accuracy and naturalness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "フィクションは想像や創作による物語で、ノンフィクションは事実や実際の出来事に基づいたものです。",
+      "correction": "フィクションは想像や創作による物語で、ノンフィクションは事実や実際の出来事に基づく作品です。",
+      "description": "The use of 'もの' for nonfiction is vague and less formal. '作品' is more precise and appropriate for educational content, ensuring consistency and professionalism in terminology.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "魔法学校に通う若い魔法使いの物語（例:『ハリー・ポッター』）。",
+      "correction": "魔法学校に通う若い魔法使いの物語（例：『ハリー・ポッター』）。",
+      "description": "The colon after '例' should be a full-width Japanese colon '：' instead of the half-width English colon ':'. This is a standard orthographic convention in Japanese writing.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "話す猫が謎を解く短編小説。",
+      "correction": "話す猫が謎を解く短編小説です。",
+      "description": "The sentence lacks a verb, making it a fragment. Adding 'です' completes the sentence and maintains consistency with the previous example, improving grammatical accuracy and readability.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "📚✨",
+      "correction": "",
+      "description": "The use of emojis in educational Japanese content may be considered informal or distracting in some academic contexts. While increasingly common in digital materials, their appropriateness depends on the target audience. For formal educational materials, it is recommended to omit emojis.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "ノンフィクションは事実、実際の出来事、実在の人物に基づいた書き物です。",
+      "correction": "ノンフィクションは事実、実際の出来事、実在の人物に基づく作品です。",
+      "description": "Similar to the fiction section, '書き物' is not the most appropriate term for nonfiction. '作品' is more suitable and commonly used for literary and educational works, improving lexical precision and consistency.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "教育的目的: 教える、説明する、証拠を提供するために使用される。",
+      "correction": "教育的目的: 教えたり、説明したり、証拠を提供したりするために使用される。",
+      "description": "The list of verbs should use the '-たり' form to indicate multiple actions in Japanese. This improves grammatical accuracy and naturalness in listing purposes.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "正確な情報や実際の経験に依存する。",
+      "correction": "正確な情報や実際の経験に基づく。",
+      "description": "The phrase '依存する' (to depend on) is less appropriate than '基づく' (to be based on) in this context. '基づく' is the standard expression for nonfiction content relying on facts and experiences.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "植物の成長について説明する科学教科書。",
+      "correction": "植物の成長について説明する科学教科書です。",
+      "description": "The sentence is a fragment and should be completed with 'です' to match the previous example and maintain grammatical consistency.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "| **側面**      | **フィクション**           | **ノンフィクション**         |\n|---------------|---------------------------|-----------------------------|\n| **目的**      | 楽しませたり、創造性を刺激する | 情報を提供したり教育する     |\n| **内容**      | 想像されたもの、作り話       | 事実や現実                   |\n| **例**        | 小説、短編小説             | 伝記、教科書                 |",
+      "correction": "| 側面      | フィクション           | ノンフィクション         |\n|-----------|---------------------|---------------------|\n| 目的      | 楽しませたり、創造性を刺激する | 情報を提供したり、教育する     |\n| 内容      | 想像されたもの、作り話       | 事実や現実                   |\n| 例        | 小説、短編小説             | 伝記、教科書                 |",
+      "description": "The table uses markdown bold formatting (**text**) which is not standard in Japanese educational materials. Removing the bold formatting and using plain text improves localization and readability. Additionally, a comma should be added between '情報を提供したり' and '教育する' for clarity.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Fiction_vs_Nonfiction.llm.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-03T21:50:47.566086",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 8.4,
+    "classification": "PROFESSIONAL",
+    "total_issues": 12,
+    "total_penalty": 1.6,
+    "issue_breakdown": {
+      "linguistic": 8,
+      "localization": 4,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.2,
+      "localization_penalty": 0.4,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Mitochondria nazywane są \"elektrowniami\" komórki, ponieważ produkują energię.",
+      "correction": "Mitochondria nazywane są „elektrowniami” komórki, ponieważ produkują energię.",
+      "description": "The original text uses straight quotation marks (\") instead of Polish typographic quotation marks („ ”) when referring to 'elektrowniami'. In Polish educational and scientific writing, it is standard to use the typographic quotation marks for clarity and professionalism. This is a stylistic localization issue, not a linguistic error, and correcting it improves the naturalness and professionalism of the content.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Cell_Parts.llm.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T21:30:44.621085",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.9,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.1,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

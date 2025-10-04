@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical Precision",
+      "original": "In DNA, the sequence of nitrogenous bases can be read in a direction only.",
+      "correction": "In DNA, the sequence of nitrogenous bases can be read in only one direction.",
+      "description": "The phrase 'in a direction only' is awkward and unclear. The intended meaning is that DNA is read in only one direction, which should be explicitly stated for clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Regional",
+      "original": "Złamanie DNA może prowadzić do nowych cech biologicznych.",
+      "correction": "DNA breakage can lead to new biological traits.",
+      "description": "The statement is in Polish, not English, which is inconsistent with the rest of the quiz and may confuse learners expecting English content. All content should be in English for consistency and accessibility.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Regional",
+      "original": "Warstwa znaczenia DNA polega na przekazywaniu genetycznych informacji przez pokolenia, co jest kluczowe dla przejawiania życia poprzez podziały komórek. Zmiany w jego strukturze, często nazywane mutacjami, mogą prowadzić do nowych cech, które mogą wpłynąć na rozwój organizmu. To zrozumienie jest kluczowe dla różnych dziedzin nauki, w tym biologii, medycyny i nauki kryminalnej.",
+      "correction": "The significance of DNA lies in transmitting genetic information across generations, which is crucial for the manifestation of life through cell division. Changes in its structure, often called mutations, can lead to new traits that may affect organism development. This understanding is key in various scientific fields, including biology, medicine, and forensic science.",
+      "description": "The feedback is in Polish, not English, which disrupts the educational flow and accessibility for English-speaking learners. All feedback should be provided in English for consistency.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "DNA_Basics.slm.md",
+    "language": "English",
+    "timestamp": "2025-10-03T22:08:45.901913",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.1,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.9,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.6,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

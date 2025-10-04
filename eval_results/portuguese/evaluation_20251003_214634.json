@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Prepare-se para desenvolver ferramentas que o ajudarão a analisar questões complexas e participar de discussões significativas! 🌟",
+      "correction": "Prepare-se para desenvolver habilidades que o ajudarão a analisar questões complexas e participar de discussões significativas!",
+      "description": "The use of 'ferramentas' (tools) is less natural in Brazilian Portuguese in this educational context; 'habilidades' (skills) is more appropriate and commonly used when referring to cognitive abilities. Additionally, the star emoji 🌟 may be considered informal or unnecessary in professional educational materials, potentially reducing the perceived seriousness of the lesson.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Viés: É a inclinação ou tendência de favorecer uma perspectiva ou ideia em detrimento de outras, muitas vezes de forma injusta ou preconceituosa.",
+      "correction": "Viés: Inclinação ou tendência de favorecer uma perspectiva ou ideia em detrimento de outras, muitas vezes de forma injusta ou preconceituosa.",
+      "description": "The phrase 'É a inclinação ou tendência...' is slightly redundant and less direct than standard definitions in Brazilian Portuguese educational materials. Removing 'É a' creates a more concise and professional definition, aligning with local academic style.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Um artigo de opinião que apresenta apenas um lado de um debate sem considerar perspectivas opostas.",
+      "correction": "Um artigo de opinião que apresenta apenas um lado de um debate, sem considerar perspectivas opostas.",
+      "description": "A comma is needed before 'sem considerar perspectivas opostas' to improve clarity and match standard punctuation conventions in Brazilian Portuguese, enhancing readability and professionalism.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Relatos anedóticos em redes sociais.",
+      "correction": "Depoimentos pessoais em redes sociais.",
+      "description": "The term 'relatos anedóticos' is technically correct but less commonly used in everyday Brazilian Portuguese. 'Depoimentos pessoais' is a more natural and widely understood term for informal evidence in social media contexts.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Critical_Thinking.llm.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T21:46:34.124159",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 4,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.5,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

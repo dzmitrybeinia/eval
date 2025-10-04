@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Dziś dowiemy się, jak rozwijać skuteczne umiejętności nauki, które pomogą Wam osiągać sukcesy akademickie.",
+      "correction": "Dziś dowiemy się, jak rozwijać skuteczne umiejętności nauki, które pomogą Wam osiągać sukcesy akademickie.",
+      "description": "The sentence is grammatically correct, but the phrase 'umiejętności nauki' is semantically awkward in Polish. A more natural expression would be 'umiejętności uczenia się', which better reflects the intended meaning of 'learning skills'. This is a lexical precision issue affecting clarity and naturalness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Korzystaj z planera lub narzędzi cyfrowych, aby zaplanować codzienne, tygodniowe i miesięczne obowiązki.",
+      "correction": "Korzystaj z kalendarza lub narzędzi cyfrowych, aby zaplanować codzienne, tygodniowe i miesięczne obowiązki.",
+      "description": "The term 'planer' is an anglicism and not widely used in standard Polish. The more natural and commonly accepted term is 'kalendarz', which aligns with local terminology and improves cultural appropriateness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Używaj symboli, podkreśleń lub kolorowego kodowania, aby wyróżnić istotne punkty.",
+      "correction": "Używaj symboli, podkreśleń lub kolorów, aby wyróżnić istotne punkty.",
+      "description": "The phrase 'kolorowego kodowania' is a direct translation of 'color coding' and sounds unnatural in Polish educational context. 'Kolorów' is a more natural and idiomatic way to express the idea, improving the style and tone.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Pisz własnymi słowami, aby poprawić zrozumienie.",
+      "correction": "Pisz własnymi słowami, aby lepiej zrozumieć materiał.",
+      "description": "While grammatically correct, the phrase 'poprawić zrozumienie' is less idiomatic in Polish. 'Lepiej zrozumieć materiał' is a more natural and precise way to convey the intended meaning, addressing both lexical and stylistic issues.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Study_Skills.llm.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T21:33:25.186766",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Lasst uns diese Fähigkeiten in unserem Alltag anwenden, um starke und glückliche Beziehungen zu schaffen!",
+      "correction": "Lasst uns diese Fähigkeiten in unserem Alltag anwenden, um starke und glückliche Beziehungen zu schaffen!",
+      "description": "The sentence is linguistically correct, but the use of the exclamation mark at the end is slightly informal for educational content aimed at a general audience. In formal educational materials, a period is often preferred to maintain a neutral tone. However, since the content is motivational and directed at students, the exclamation mark is acceptable. No correction needed.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Freundschaften sind ein wertvoller Bestandteil unseres Lebens 🌟.",
+      "correction": "Freundschaften sind ein wertvoller Bestandteil unseres Lebens.",
+      "description": "The use of the star emoji (🌟) is not standard in formal German educational materials and may be perceived as informal or distracting in some cultural contexts. Removing the emoji ensures the content maintains a professional and neutral tone appropriate for educational settings.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Kopfnicken oder „Ich verstehe“ sagen, um Aufmerksamkeit zu zeigen.",
+      "correction": "Kopfnicken oder „Ich verstehe“ sagen, um Aufmerksamkeit zu zeigen.",
+      "description": "The phrase is linguistically correct, but the use of 'Ich verstehe' as a standard confirmation phrase may sound slightly formal or unnatural in everyday German conversation among children or teenagers. More natural alternatives could be 'Okay', 'Alles klar', or 'Verstehe'. However, 'Ich verstehe' is acceptable in educational contexts.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Tief durchatmen und Schreien oder Schuldzuweisungen vermeiden.",
+      "correction": "Tief durchatmen und Schreien oder Schuldzuweisungen vermeiden.",
+      "description": "The phrase is linguistically correct, but the direct mention of 'Schreien' (screaming) may be considered too strong or negative for younger audiences in German educational materials. A softer alternative could be 'laut werden' or 'laute Worte vermeiden'. However, the current wording is clear and understandable.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Wenn ein Freund traurig ist, weil er ein Spiel verloren hat, kannst du Empathie zeigen, indem du sagst: „Ich weiß, du bist enttäuscht. Das habe ich auch schon erlebt.“",
+      "correction": "Wenn ein Freund traurig ist, weil er ein Spiel verloren hat, kannst du Empathie zeigen, indem du sagst: „Ich weiß, du bist enttäuscht. Das habe ich auch schon erlebt.“",
+      "description": "The example is linguistically correct and culturally appropriate. However, the phrase 'Das habe ich auch schon erlebt.' is slightly formal and may sound less natural among children. A more colloquial alternative could be 'Das kenne ich auch.' or 'Das ist mir auch schon passiert.' The current version is still acceptable for educational purposes.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Friendship_Skills.llm.md",
+    "language": "German",
+    "timestamp": "2025-10-03T21:43:55.470272",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 4,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.4,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "O Verso Livre é conhecido por sua liberdade de forma e estrutura, muitas vezes refletindo a cadência natural da fala. Ele não segue uma estrutura de dez sílabas, que é característica da forma poética haica japonês.",
+      "correction": "O Verso Livre é conhecido por sua liberdade de forma e estrutura, muitas vezes refletindo a cadência natural da fala. Ele não segue uma estrutura de dez sílabas, que é característica da forma poética haikai japonês.",
+      "description": "The term 'haica japonês' is incorrect; the correct term in Brazilian Portuguese is 'haikai japonês'. This lexical error could cause confusion regarding the poetic form being referenced. The rest of the sentence is linguistically and culturally appropriate.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "O Haikai é, na verdade, uma forma poética japonesa conhecida por suas breves e centrais, muitas vezes focando em natureza ou emoções, e segue um padrão de sílabas de 5-7-5.",
+      "correction": "O Haikai é, na verdade, uma forma poética japonesa conhecida por seus versos breves e concisos, muitas vezes focando na natureza ou emoções, e segue um padrão de sílabas de 5-7-5.",
+      "description": "The phrase 'por suas breves e centrais' is grammatically incorrect and semantically unclear. The correct expression is 'por seus versos breves e concisos', which accurately describes the haikai's characteristics. Additionally, 'focando em natureza' should be 'focando na natureza' for proper prepositional use.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Poetry_Forms.slm.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T22:34:09.811243",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.6,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

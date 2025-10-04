@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "¡Prepárate para descubrir el fascinante mundo de las emociones! 😊",
+      "correction": "¡Prepárate para descubrir el fascinante mundo de las emociones!",
+      "description": "The use of the emoji '😊' at the end of the sentence may be considered informal and less appropriate for educational content aimed at a general audience, especially in formal or academic contexts. Removing the emoji maintains a professional tone and ensures the style is consistent with the rest of the lesson.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "el cambio de patrones de pensamiento negativos por positivos (reencuadre cognitivo)",
+      "correction": "el cambio de patrones de pensamiento negativos por positivos (reestructuración cognitiva)",
+      "description": "The term 'reencuadre cognitivo' is less commonly used in Spanish-speaking psychology contexts compared to 'reestructuración cognitiva', which is the standard term for 'cognitive restructuring'. Using the more widely accepted terminology improves clarity and aligns with professional standards in Spanish-language mental health education.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Emotions_and_Feelings.llm.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-03T21:27:45.835145",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

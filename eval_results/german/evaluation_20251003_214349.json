@@ -1,0 +1,75 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Erste Hilfe ist die unmittelbare Versorgung einer verletzten oder erkrankten Person, bevor professionelle Hilfe eintrifft.",
+      "correction": "Erste Hilfe ist die unmittelbare Versorgung einer verletzten oder erkrankten Person, bevor professionelle Hilfe eintrifft.",
+      "description": "No linguistic errors found. All nouns are correctly capitalized, and the sentence structure is appropriate. No correction needed.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Verletzungen am Verschlimmern hindern.",
+      "correction": "Verletzungen am Verschlimmern hindern.",
+      "description": "No linguistic errors detected. The phrase uses correct noun capitalization and verb form. No correction needed.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Die Verbrennung unter kühles (nicht kaltes) Wasser halten (10–20 Minuten).",
+      "correction": "Die Verbrennung unter lauwarmes (nicht kaltes) Wasser halten (10–20 Minuten).",
+      "description": "The term 'kühles Wasser' is less precise in German first aid context. 'Lauwarmes Wasser' is the more culturally and medically appropriate term for burn treatment in German-speaking regions. This correction improves clarity and aligns with local first aid guidelines.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Die Beine leicht anheben, um die Durchblutung des Gehirns zu verbessern.",
+      "correction": "Die Beine leicht anheben, um die Durchblutung des Gehirns zu verbessern.",
+      "description": "No grammatical errors found. The sentence uses correct case, verb form, and noun capitalization. No correction needed.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Heimlich-Manöver",
+      "correction": "Heimlich-Handgriff",
+      "description": "The term 'Heimlich-Manöver' is less commonly used in German first aid education. 'Heimlich-Handgriff' is the standard and widely accepted term in German-speaking countries for the abdominal thrust technique. This correction ensures terminology consistency and cultural appropriateness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Durch Übung und Verständnis können Schüler zur Sicherheit ihrer Gemeinschaft beitragen.",
+      "correction": "Durch Übung und Verständnis können Schüler zur Sicherheit ihrer Gemeinschaft beitragen.",
+      "description": "No orthographic errors detected. All nouns are correctly capitalized and the sentence structure is appropriate. No correction needed.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "First_Aid_Basics.llm.md",
+    "language": "German",
+    "timestamp": "2025-10-03T21:43:49.056332",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.2,
+    "classification": "NATIVE",
+    "total_issues": 6,
+    "total_penalty": 0.8,
+    "issue_breakdown": {
+      "linguistic": 4,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.4,
+      "localization_penalty": 0.4,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

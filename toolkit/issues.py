@@ -42,8 +42,6 @@ class IssueAggregator:
             combined, sources = result
             metadata = {
                 "label": label_info.original,
-                "label_normalized": label_info.normalized,
-                "label_key": label_info.key,
                 "language": language,
                 "generated_at": datetime.now().isoformat(),
                 "source_files": sources,
@@ -90,8 +88,7 @@ class IssueAggregator:
 
             metadata = data.get("metadata", {})
             label_matches = metadata.get("label") == label.original
-            normalized_matches = metadata.get("label_normalized") == label.normalized
-            if not (label_matches or normalized_matches):
+            if not label_matches:
                 continue
 
             matched_files.append(json_file.name)
@@ -131,8 +128,6 @@ class IssueAggregator:
 
             metadata = data.get("metadata", {})
             if metadata.get("label") == label.original:
-                return True
-            if metadata.get("label_normalized") == label.normalized:
                 return True
 
         return False

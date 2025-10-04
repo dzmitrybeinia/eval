@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "dispositifs mnémotechniques",
+      "correction": "moyens mnémotechniques",
+      "description": "The term 'dispositifs mnémotechniques' is not the most natural or commonly used in French educational contexts. 'Moyens mnémotechniques' or simply 'mnémotechniques' is preferred for clarity and naturalness. The current term may sound overly technical or artificial to native speakers.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "\"ROYGBIV\" représente les couleurs de l'arc-en-ciel : Rouge, Orange, Jaune, Vert, Bleu, Indigo, Violet.",
+      "correction": "\"VIBJOR\" représente les couleurs de l'arc-en-ciel : Violet, Indigo, Bleu, Vert, Jaune, Orange, Rouge.",
+      "description": "The acronym 'ROYGBIV' is an English mnemonic and does not correspond to the French order or initial letters of the rainbow colors. In French, the order and initials differ, and a French-specific mnemonic such as 'VIBJOR' or another locally used phrase should be used to ensure cultural relevance and comprehension.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "pour se rappeler Mercure, Vénus, Terre, Mars, Jupiter, Saturne, Uranus, Neptune.",
+      "correction": "pour se souvenir de Mercure, Vénus, Terre, Mars, Jupiter, Saturne, Uranus, Neptune.",
+      "description": "The verb 'se rappeler' is incorrectly used here; it requires a direct object, not a preposition. The correct verb in this context is 'se souvenir de', which properly takes 'de' before the list of planets. This is a common grammatical error in French.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Mon Vieux Extraordinaire Merveilleux Juste Sur Une Nappe",
+      "correction": "Mais Où Est Donc Ornicar",
+      "description": "The mnemonic 'Mon Vieux Extraordinaire Merveilleux Juste Sur Une Nappe' is not a widely recognized or standard French mnemonic for the planets. For educational clarity and cultural appropriateness, a more familiar or standard mnemonic should be used, or the phrase should be explained as a custom mnemonic.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Memory_Techniques.llm.md",
+    "language": "French",
+    "timestamp": "2025-10-03T21:36:04.336398",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.1,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.9,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.7,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

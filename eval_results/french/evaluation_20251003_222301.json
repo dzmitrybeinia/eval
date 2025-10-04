@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Les machines simples sont capables d'augmenter l'énergie que nous utilisons pour accomplir une tâche.",
+      "correction": "Les machines simples sont capables de faciliter l'utilisation de l'énergie que nous utilisons pour accomplir une tâche.",
+      "description": "The original statement contains a semantic inaccuracy: 'augmenter l'énergie' implies that simple machines increase the amount of energy, which is scientifically incorrect. The correct concept is that simple machines facilitate or optimize the use of energy, not increase it. This lexical error could mislead learners about the physical principles involved.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "Les machines simples, comme les poulies et les leviathés, sont conçues pour rendre les tâches plus faciles en divisant la force nécessaire.",
+      "correction": "Les machines simples, comme les poulies et les leviers, sont conçues pour rendre les tâches plus faciles en divisant la force nécessaire.",
+      "description": "The word 'leviathés' is a spelling error; the correct term is 'leviers'. This mistake affects comprehension and the accuracy of technical terminology, as 'leviathés' is not a recognized word in French and could confuse learners about the types of simple machines.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "La balançoire est en fait un exemple de machine à levier, qui fonctionne sur le principe de la puissance mécanique multipliée par un bras de levier.",
+      "correction": "La balançoire est en fait un exemple de machine à levier, qui fonctionne sur le principe de la force mécanique appliquée à un bras de levier.",
+      "description": "The phrase 'puissance mécanique multipliée par un bras de levier' is not standard in French educational contexts for simple machines. The correct terminology is 'force mécanique appliquée à un bras de levier'. Using 'puissance' instead of 'force' may confuse learners, as 'puissance' refers to power, not force, in physics. This affects the naturalness and technical accuracy of the explanation.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Simple_Machines.slm.md",
+    "language": "French",
+    "timestamp": "2025-10-03T22:23:01.546629",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.2,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.8,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.6,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

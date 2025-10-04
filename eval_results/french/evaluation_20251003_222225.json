@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Les aliments de différentes couleurs contiennent généralement différents vitamines et minéraux essentiels à votre santé.",
+      "correction": "Les aliments de différentes couleurs contiennent généralement différentes vitamines et minéraux essentiels à votre santé.",
+      "description": "The adjective 'différents' should agree in gender and number with 'vitamines', which is feminine plural. The correct form is 'différentes vitamines'. This error affects grammatical agreement and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Il est essentiel de choisir des produits laitiers avec une teneur élevée en matières grasses pour bénéficier de cet aspect nutritionnel.",
+      "correction": "Il est essentiel de choisir des produits laitiers adaptés à vos besoins nutritionnels, en tenant compte de leur teneur en matières grasses.",
+      "description": "The original sentence may mislead learners by implying that only high-fat dairy products are nutritionally beneficial, which is not culturally or scientifically accurate in French dietary education. The correction provides a more neutral and culturally appropriate recommendation, reflecting the diversity of dietary needs and official guidelines.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Healthy_Eating.slm.md",
+    "language": "French",
+    "timestamp": "2025-10-03T22:22:25.618414",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

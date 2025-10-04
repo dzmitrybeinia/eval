@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Encargado de criar e aprovar leis.",
+      "correction": "Responsável por criar e aprovar leis.",
+      "description": "The word 'Encargado' is a Spanish loanword and not standard in Brazilian Portuguese. The correct term is 'Responsável', which is the appropriate and natural word choice in this context. This lexical error affects the clarity and professionalism of the educational content.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Câmara dos Representantes",
+      "correction": "Câmara dos Deputados",
+      "description": "The term 'Câmara dos Representantes' is a literal translation of 'House of Representatives', but in Brazilian Portuguese, the standard term for a legislative lower house is 'Câmara dos Deputados'. Using the correct terminology ensures consistency and aligns with local expectations for educational content.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Checks and Balances",
+      "correction": "sistema de freios e contrapesos",
+      "description": "The phrase 'checks and balances' is presented in English within a Portuguese-language educational context. The established and natural translation in Brazilian Portuguese is 'sistema de freios e contrapesos'. Using the English term may confuse learners and reduces the localization quality of the content.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Government_Structure.llm.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T21:47:22.253994",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.3,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.7,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.4,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

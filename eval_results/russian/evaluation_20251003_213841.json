@@ -1,0 +1,75 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Амазонские тропические леса — дом для разнообразных растений и животных.",
+      "correction": "Амазонские тропические леса — место обитания разнообразных растений и животных.",
+      "description": "The phrase 'дом для разнообразных растений и животных' is a literal translation of 'home for various plants and animals' and is not the most natural or precise way to express this idea in Russian scientific or educational context. 'Место обитания' is the standard term used to describe habitats in Russian, making the sentence more accurate and professional.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Культуры, такие как бананы, кофе и сахарный тростник, хорошо растут в тропиках.",
+      "correction": "Культуры, такие как бананы, кофе и сахарный тростник, хорошо произрастают в тропиках.",
+      "description": "The verb 'растут' is commonly used in everyday speech, but in educational and scientific contexts, 'произрастают' is the more precise and professional term for describing how crops grow in a particular climate zone. This improves the naturalness and terminological accuracy of the content.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Лиственные леса сбрасывают листья осенью и снова отращивают весной.",
+      "correction": "Лиственные леса сбрасывают листья осенью и вновь образуют листву весной.",
+      "description": "The phrase 'снова отращивают' is not standard in Russian scientific or educational texts when referring to trees regrowing leaves. 'Вновь образуют листву' is the accepted terminology, making the sentence more natural and professional.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Дома с открытой вентиляцией для охлаждения.",
+      "correction": "Дома с естественной вентиляцией для охлаждения.",
+      "description": "The phrase 'открытая вентиляция' is not commonly used in Russian to describe architectural features in tropical climates. 'Естественная вентиляция' is the standard term, making the description more culturally and professionally appropriate.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Дома с отоплением зимой и охлаждением летом.",
+      "correction": "Дома с отоплением зимой и кондиционированием воздуха летом.",
+      "description": "The phrase 'охлаждение летом' is vague and not the standard way to describe climate control in Russian homes. 'Кондиционирование воздуха' is the accepted term for air conditioning, making the sentence clearer and more culturally appropriate.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Дома с хорошей теплоизоляцией и специализированная одежда для сохранения тепла.",
+      "correction": "Дома с хорошей теплоизоляцией и специальной одеждой для сохранения тепла.",
+      "description": "The phrase 'специализированная одежда' is not commonly used in Russian to refer to clothing for cold climates. 'Специальная одежда' is the standard term, making the sentence more natural and culturally appropriate.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Climate_Zones.llm.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T21:38:41.924259",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.3,
+    "classification": "NATIVE",
+    "total_issues": 6,
+    "total_penalty": 0.7,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 5,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.5,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

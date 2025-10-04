@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "Proteínas são a principal fonte de energia para atividades diárias e não são importantes para o crescimento e reparo dos tecidos.",
+      "correction": "Proteínas não são a principal fonte de energia para atividades diárias e são importantes para o crescimento e reparo dos tecidos.",
+      "description": "The original statement contains a syntactic ambiguity due to the use of 'e' (and) which connects two contradictory ideas, making the sentence misleading. The correction clarifies the intended meaning by properly negating the first clause and affirming the second, improving both logical coherence and linguistic accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Alimentos ricos em açúcar, como doces e alguns lanches, não são considerados parte dos principais grupos alimentares devido ao seu alto teor calórico e baixo valor nutricional. Ao escolher lanches, é melhor optar por opções que incluam frutas, vegetais ou grãos integrais.",
+      "correction": "Alimentos ricos em açúcar, como doces e alguns lanches, não fazem parte dos principais grupos alimentares devido ao seu alto teor calórico e baixo valor nutricional. Ao escolher lanches, prefira opções com frutas, vegetais ou grãos integrais.",
+      "description": "The original feedback uses a formal and somewhat repetitive style ('optar por opções que incluam'), which can be streamlined for naturalness and clarity in Brazilian Portuguese. The correction uses more concise and natural expressions ('não fazem parte', 'prefira opções com'), improving readability and aligning with local stylistic conventions.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Uma refeição equilibrada deve incluir uma variedade de grupos alimentares para atender às necessidades energéticas e nutricionais do corpo. A exclusão de carboidratos, vitaminas, minerais e água resultaria em uma dieta incompleta e potencialmente desequilibrada.",
+      "correction": "Uma refeição equilibrada deve incluir uma variedade de grupos alimentares para atender às necessidades energéticas e nutricionais do corpo. A exclusão de carboidratos, vitaminas, minerais e água resultaria em uma dieta incompleta e potencialmente desequilibrada.",
+      "description": "No linguistic or localization errors found. The text demonstrates correct grammar, spelling, and natural style for educational content in Brazilian Portuguese.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Proteínas desempenham um papel crucial na síntese de compostos como queratina, que é a principal proteína presente no cabelo. Portanto, uma ingestão adequada de proteínas é importante para o crescimento e manutenção de um cabelo saudável.",
+      "correction": "Proteínas desempenham um papel crucial na síntese de compostos como a queratina, que é a principal proteína presente no cabelo. Portanto, uma ingestão adequada de proteínas é importante para o crescimento e manutenção de um cabelo saudável.",
+      "description": "The original text omits the definite article 'a' before 'queratina', which is required in Brazilian Portuguese for clarity and correctness when referring to specific compounds. The correction adds the article, improving lexical precision and grammatical accuracy.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Healthy_Eating.slm.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T22:33:36.914858",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.5,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

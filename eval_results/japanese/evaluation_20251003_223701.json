@@ -1,0 +1,75 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "承認学校での卒業式に参加するか、卒業後の快適な旅行に出発する選択肢があるとしましょう。.",
+      "correction": "承認学校での卒業式に参加するか、卒業後の快適な旅行に出発する選択肢があるとしましょう。",
+      "description": "There is an unnecessary period after the Japanese full stop (。), resulting in '。.'. This is a punctuation error and should be corrected to a single Japanese full stop at the end of the sentence.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "この状況では、学生は自身の価値観、将来への投資、および個人的な喜びをバランスを取りながら意思決定することを強いられます。このような状況は、論理的推論が感情的な欲求を取り扱う際の意思決定において重要な役割を果たします。この種の決定は、日常生活で頻繁に遭遇され、それに対処する能力を形成します。.",
+      "correction": "この状況では、学生は自身の価値観、将来への投資、および個人的な喜びをバランスを取りながら意思決定することを強いられます。このような状況は、論理的推論が感情的な欲求を取り扱う際の意思決定において重要な役割を果たします。この種の決定は、日常生活で頻繁に遭遇され、それに対処する能力を形成します。",
+      "description": "There is an unnecessary period after the Japanese full stop (。), resulting in '。.'. This is a punctuation error and should be corrected to a single Japanese full stop at the end of the sentence.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "論理的推論は、情報と事実に基づいたステップごとの決定プロセスであり、感情や感情が直接的に影響を与えません。感情的影響は別の考慮事項であり、意思決定には論理的な考慮が必要です。.",
+      "correction": "論理的推論は、情報と事実に基づいたステップごとの決定プロセスであり、感情や感情が直接的に影響を与えません。感情的影響は別の考慮事項であり、意思決定には論理的な考慮が必要です。",
+      "description": "There is an unnecessary period after the Japanese full stop (。), resulting in '。.'. This is a punctuation error and should be corrected to a single Japanese full stop at the end of the sentence.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "感情は意思決定に大きな影響を与えることがありますが、それが常に最善の選択を導くわけではないこともあります。例えば、緊急時には落ち着いた判断が必要な場合があります。.",
+      "correction": "感情は意思決定に大きな影響を与えることがありますが、それが常に最善の選択を導くわけではないこともあります。例えば、緊急時には落ち着いた判断が必要な場合があります。",
+      "description": "There is an unnecessary period after the Japanese full stop (。), resulting in '。.'. This is a punctuation error and should be corrected to a single Japanese full stop at the end of the sentence.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "財務計画は、長期的な財政的目標を考慮し、個人的な恩恵よりも経済的な利益を優先することが一般的です。.",
+      "correction": "財務計画は、長期的な財政的目標を考慮し、個人的な恩恵よりも経済的な利益を優先することが一般的です。",
+      "description": "There is an unnecessary period after the Japanese full stop (。), resulting in '。.'. This is a punctuation error and should be corrected to a single Japanese full stop at the end of the sentence.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "この声明は誤解を招く可能性があります。意思決定には、目標や結果、リスク評価、そして個人的な価値観などのさまざんな要素が含まれています。健康行動を選択する際には、例えば、身体的な利点（論理的推論）と個人的な健康の欲求やモチベーション（感情的影響）を考慮することも含まれます。.",
+      "correction": "この声明は誤解を招く可能性があります。意思決定には、目標や結果、リスク評価、そして個人的な価値観などのさまざんな要素が含まれています。健康行動を選択する際には、例えば、身体的な利点（論理的推論）と個人的な健康の欲求やモチベーション（感情的影響）を考慮することも含まれます。",
+      "description": "There is an unnecessary period after the Japanese full stop (。), resulting in '。.'. This is a punctuation error and should be corrected to a single Japanese full stop at the end of the sentence.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Decision_Making.slm.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-03T22:37:01.961715",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 6,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 6,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.6,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

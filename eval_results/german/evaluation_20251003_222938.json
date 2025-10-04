@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Die Bewertung der Optionen ist ein kritischer Schritt in der Entscheidungsfindungsprozess, der jedoch nicht als letzter Schritt endet. Nach der Bewertung der Optionen folgt die Auswahl der beste Option und das Handeln. Der letzte Schritt ist das Reflexieren über das Ergebnis und das Erlernen daraus.",
+      "correction": "Die Bewertung der Optionen ist ein kritischer Schritt im Entscheidungsfindungsprozess, der jedoch nicht der letzte Schritt ist. Nach der Bewertung der Optionen folgt die Auswahl der besten Option und das Handeln. Der letzte Schritt ist das Reflektieren über das Ergebnis und das Lernen daraus.",
+      "description": "Multiple grammatical errors are present: 'in der Entscheidungsfindungsprozess' should be 'im Entscheidungsfindungsprozess' due to the correct case and preposition usage; 'die Auswahl der beste Option' requires the genitive 'der besten Option' for proper gender and case agreement; 'das Reflexieren' is not idiomatic, the correct term is 'das Reflektieren'; 'das Erlernen daraus' is awkward, 'das Lernen daraus' is more natural. These errors affect clarity and grammatical correctness.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Behaucht Entscheidungen erfordern oft Zeit zum Überlegen. Unter Druck kann die Qualität der Entscheidungen beeinträchtigt sein. Es ist wichtig, die Möglichkeit einer schnellen Antwort gegen die Notwendigkeit einer gründlichen Reflexion abzuwägen.",
+      "correction": "Überlegte Entscheidungen erfordern oft Zeit zum Überlegen. Unter Druck kann die Qualität der Entscheidungen beeinträchtigt sein. Es ist wichtig, die Möglichkeit einer schnellen Antwort gegen die Notwendigkeit einer gründlichen Reflexion abzuwägen.",
+      "description": "The word 'Behaucht' is incorrect and does not exist in German in this context. The intended meaning is 'Überlegte Entscheidungen' (considered decisions). This lexical error significantly impairs comprehension.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "Der Überheblichkeitsfehler ist eine Art von Überzeugungsfehler, der vorkommen kann, aber nicht zwangsläufig jeden Zeitpunkt über jede neue Fähigkeit oder Lernleistung.",
+      "correction": "Der Überheblichkeitsfehler ist eine Art von Überzeugungsfehler, der vorkommen kann, aber nicht zwangsläufig bei jeder neuen Fähigkeit oder Lernleistung.",
+      "description": "The phrase 'nicht zwangsläufig jeden Zeitpunkt über jede neue Fähigkeit oder Lernleistung' is syntactically incorrect and unclear. The correct construction is 'nicht zwangsläufig bei jeder neuen Fähigkeit oder Lernleistung', which properly expresses the intended meaning.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Entscheidungsfindung umfasst den Prozess, bei dem alle Optionen sorgfältig abgewogen und bewertet werden, bevor eine informierte Entscheidung getroffen wird. Es geht nicht um die Eile, sondern um die Qualität der Entscheidung, die auf einer gründlichen Bewertung der Vor- und Nachteile basiert.",
+      "correction": "Entscheidungsfindung umfasst den Prozess, bei dem alle Optionen sorgfältig abgewogen und bewertet werden, bevor eine informierte Entscheidung getroffen wird. Es geht nicht um die Eile, sondern um die Qualität der Entscheidung, die auf einer gründlichen Bewertung der Vor- und Nachteile basiert.",
+      "description": "No linguistic or localization errors found. All nouns are correctly capitalized, and the sentence structure is appropriate.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Die Bewertung verschiedener Alternativen ist der Schlüssel zur Identifizierung der effektivsten Entscheidung. Durch die Untersuchung von Optionen erkennt man die Vor- und Nachteile, was zu fundierteren und informierteren Entscheidungen führt.",
+      "correction": "Die Bewertung verschiedener Alternativen ist der Schlüssel zur Identifizierung der besten Entscheidung. Durch die Untersuchung von Optionen erkennt man die Vor- und Nachteile, was zu fundierteren und informierteren Entscheidungen führt.",
+      "description": "The use of 'effektivsten Entscheidung' is less idiomatic in German educational context; 'besten Entscheidung' is more natural and commonly used. This improves the style and naturalness of the feedback.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Decision_Making.slm.md",
+    "language": "German",
+    "timestamp": "2025-10-03T22:29:38.714663",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.0,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 1.0,
+    "issue_breakdown": {
+      "linguistic": 4,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.9,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

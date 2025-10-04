@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Obywatele muszą się zarejestrować, aby potwierdzić swoją uprawnienia do głosowania.",
+      "correction": "Obywatele muszą się zarejestrować, aby potwierdzić swoje uprawnienia do głosowania.",
+      "description": "The noun 'uprawnienia' requires the possessive pronoun 'swoje' in the accusative plural form to agree in case and number. The original uses 'swoją', which is accusative singular feminine and does not match the plural noun. This is a grammatical error affecting noun-pronoun agreement.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Terminy rejestracji różnią się w zależności od stanu.",
+      "correction": "Terminy rejestracji różnią się w zależności od województwa.",
+      "description": "The term 'stan' is a direct translation of 'state' from English, which is not appropriate in the Polish context, as Poland is divided into 'województwa' (provinces/voivodeships), not states. This is a localization issue affecting the naturalness and accuracy of terminology for the Polish audience.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Podczas wyborów prezydenckich wyborcy wybierają spośród kandydatów różnych partii politycznych, takich jak Partia Demokratyczna czy Republikańska.",
+      "correction": "Podczas wyborów prezydenckich wyborcy wybierają spośród kandydatów różnych partii politycznych, takich jak Platforma Obywatelska czy Prawo i Sprawiedliwość.",
+      "description": "The example references American political parties ('Partia Demokratyczna', 'Republikańska'), which are not relevant in the Polish context. For educational content aimed at Polish learners, it is more culturally appropriate to use examples of Polish political parties. This is a cultural localization issue.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "Wyborca w Warszawie może zarejestrować się online, zbadać kandydatów na burmistrza, zagłosować osobiście w lokalnym punkcie wyborczym, a następnie dowiedzieć się o wynikach z wiadomości.",
+      "correction": "Wyborca w Warszawie może zarejestrować się online, zbadać kandydatów na prezydenta miasta, zagłosować osobiście w lokalnym punkcie wyborczym, a następnie dowiedzieć się o wynikach z wiadomości.",
+      "description": "The term 'burmistrz' refers to the mayor of a smaller town in Poland, while the correct title for the mayor of Warsaw is 'prezydent miasta'. This is a localization issue related to the use of accurate official titles in the Polish administrative context.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Voting_Process.llm.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T21:33:29.847291",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.1,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.9,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.6,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

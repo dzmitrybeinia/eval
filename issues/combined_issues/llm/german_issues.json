@@ -1,35 +1,73 @@
 {
   "metadata": {
     "label": "llm",
-    "label_normalized": "llm",
-    "label_key": "llm",
     "language": "german",
-    "generated_at": "2025-10-03T15:57:57.578335",
+    "generated_at": "2025-10-03T21:53:25.212759",
     "source_files": [
-      "evaluation_20251003_155516.json",
-      "evaluation_20251003_155520.json",
-      "evaluation_20251003_155522.json",
-      "evaluation_20251003_155525.json",
-      "evaluation_20251003_155529.json",
-      "evaluation_20251003_155531.json",
-      "evaluation_20251003_155537.json",
-      "evaluation_20251003_155540.json",
-      "evaluation_20251003_155541.json",
-      "evaluation_20251003_155544.json"
+      "evaluation_20251003_214228.json",
+      "evaluation_20251003_214231.json",
+      "evaluation_20251003_214234.json",
+      "evaluation_20251003_214236.json",
+      "evaluation_20251003_214246.json",
+      "evaluation_20251003_214248.json",
+      "evaluation_20251003_214250.json",
+      "evaluation_20251003_214253.json",
+      "evaluation_20251003_214256.json",
+      "evaluation_20251003_214258.json",
+      "evaluation_20251003_214300.json",
+      "evaluation_20251003_214306.json",
+      "evaluation_20251003_214308.json",
+      "evaluation_20251003_214322.json",
+      "evaluation_20251003_214327.json",
+      "evaluation_20251003_214330.json",
+      "evaluation_20251003_214331.json",
+      "evaluation_20251003_214335.json",
+      "evaluation_20251003_214338.json",
+      "evaluation_20251003_214341.json",
+      "evaluation_20251003_214345.json",
+      "evaluation_20251003_214349.json",
+      "evaluation_20251003_214350.json",
+      "evaluation_20251003_214355.json",
+      "evaluation_20251003_214359.json",
+      "evaluation_20251003_214400.json",
+      "evaluation_20251003_214405.json",
+      "evaluation_20251003_214408.json",
+      "evaluation_20251003_214410.json",
+      "evaluation_20251003_214413.json",
+      "evaluation_20251003_214416.json",
+      "evaluation_20251003_214421.json",
+      "evaluation_20251003_214423.json",
+      "evaluation_20251003_214430.json",
+      "evaluation_20251003_214433.json",
+      "evaluation_20251003_214435.json",
+      "evaluation_20251003_214438.json",
+      "evaluation_20251003_214440.json",
+      "evaluation_20251003_214446.json",
+      "evaluation_20251003_214449.json",
+      "evaluation_20251003_214452.json",
+      "evaluation_20251003_214456.json",
+      "evaluation_20251003_214458.json",
+      "evaluation_20251003_214502.json",
+      "evaluation_20251003_214504.json",
+      "evaluation_20251003_214509.json",
+      "evaluation_20251003_214513.json",
+      "evaluation_20251003_214515.json",
+      "evaluation_20251003_214519.json",
+      "evaluation_20251003_214522.json"
     ],
     "issue_counts": {
-      "linguistic": 8,
-      "localization": 21
+      "linguistic": 51,
+      "localization": 113
     }
   },
   "issues": {
     "linguistic": [
       {
         "category": "linguistic",
-        "subcategory": "Orthography",
+        "subcategory": "Lexical",
         "original": "Die Hieroglyphen, ein Symbolschrift-System, wurden für religiöse Texte und Aufzeichnungen verwendet.",
-        "correction": "Die Hieroglyphen, ein Symbolschriftsystem, wurden für religiöse Texte und Aufzeichnungen verwendet.",
-        "description": "The compound noun 'Symbolschrift-System' should be written as a single word 'Symbolschriftsystem' according to German orthographic rules for compound nouns. This improves linguistic accuracy and adheres to standard spelling conventions.",
+        "correction": "Die Hieroglyphen, ein Schriftsystem aus Symbolen, wurden für religiöse Texte und Aufzeichnungen verwendet.",
+        "description": "The term 'Symbolschrift-System' is not standard in German; 'Schriftsystem aus Symbolen' or simply 'Schriftsystem' is more accurate and natural. This correction improves lexical precision and aligns with commonly accepted terminology in German educational contexts.",
         "severity": "MEDIUM"
       },
       {
@@ -37,23 +75,23 @@
         "subcategory": "Lexical",
         "original": "Physikalische Anpassungen",
         "correction": "Physiologische Anpassungen",
-        "description": "The term 'Physikalische Anpassungen' is a lexical error. In German biology, 'physikalisch' refers to physical properties (physics), while 'physiologisch' or 'körperliche Anpassungen' are the correct terms for biological adaptations related to the body structure or function. This error could mislead learners about scientific terminology.",
+        "description": "The term 'Physikalische Anpassungen' is a lexical error. In German biology, 'physiologische Anpassungen' or 'körperliche Anpassungen' are the correct terms for physical adaptations. 'Physikalisch' refers to physics, not biological traits. This affects clarity and scientific accuracy.",
         "severity": "HIGH"
       },
       {
         "category": "linguistic",
         "subcategory": "Orthography",
-        "original": "Real-World-Beispiel",
-        "correction": "Praxisbeispiel",
-        "description": "The term 'Real-World-Beispiel' is an anglicism and not standard in German educational language. 'Praxisbeispiel' or 'Beispiel aus der Praxis' are more natural and widely accepted in German, ensuring lexical precision and better comprehension for learners.",
-        "severity": "MEDIUM"
+        "original": "Kaktuszaunkönigin",
+        "correction": "Kaktuszaunkönig",
+        "description": "The noun 'Kaktuszaunkönigin' is incorrect. The correct German name for the bird is 'Kaktuszaunkönig' (Cactus Wren). All German nouns must be capitalized, which is correct here, but the gender and species name are wrong, affecting lexical precision and scientific accuracy.",
+        "severity": "HIGH"
       },
       {
         "category": "linguistic",
         "subcategory": "Lexical",
         "original": "das DNA",
         "correction": "die DNA",
-        "description": "The phrase uses the incorrect article 'das' for 'DNA'. In German, 'DNA' is feminine and requires the article 'die'. This is a lexical and gender agreement error that could confuse learners about proper noun gender usage.",
+        "description": "The noun 'DNA' in German is feminine and should be preceded by the article 'die' instead of 'das'. This is a lexical error affecting gender agreement. The correct phrase is 'die DNA'.",
         "severity": "HIGH"
       },
       {
@@ -66,76 +104,428 @@
       },
       {
         "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Ein Butterbrot machen.",
+        "correction": "Ein Butterbrot zubereiten.",
+        "description": "The verb 'machen' is less precise in this context. 'Zubereiten' is the more appropriate verb for preparing food in German, especially in educational or instructional contexts. This correction improves lexical precision and naturalness.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
         "subcategory": "Orthography",
-        "original": "Programmieren macht Spaß!",
-        "correction": "Programmieren macht Spaß!",
-        "description": "The word 'Spaß' is correctly spelled with the Eszett (ß), which is appropriate after a long vowel. No correction is needed, but this is a common area for mistakes in German orthography. Ensure that 'Spaß' is not written as 'Spass', which would be incorrect in standard German.",
+        "original": "Variable Zuweisung",
+        "correction": "Variablenzuweisung",
+        "description": "The term 'Variable Zuweisung' is incorrect due to improper compound noun formation. In German, compound nouns should be written as a single word. The correct form is 'Variablenzuweisung'. This ensures proper orthography and follows standard German spelling conventions.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Unser Produkt ist wissenschaftlich bewiesen wirksam!",
+        "correction": "Unser Produkt ist wissenschaftlich als wirksam bewiesen!",
+        "description": "The original sentence contains a grammatical error in word order and construction. In German, 'wissenschaftlich bewiesen' should be followed by 'als wirksam' to clarify what has been proven. The corrected version 'Unser Produkt ist wissenschaftlich als wirksam bewiesen!' properly conveys that the product's effectiveness has been scientifically proven. This correction improves clarity and grammatical accuracy.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Kulturelle Feierlichkeiten sind entscheidend für die Ausdruck von Identität, Werten und Gemeinschaft.",
+        "correction": "Kulturelle Feierlichkeiten sind entscheidend für den Ausdruck von Identität, Werten und Gemeinschaft.",
+        "description": "The phrase 'für die Ausdruck' incorrectly uses the feminine article 'die' with the masculine noun 'Ausdruck'. The correct form is 'für den Ausdruck', matching the accusative case and gender of 'Ausdruck'. This grammatical error affects clarity and correctness.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Optionenbewertung",
+        "correction": "Bewertung von Optionen",
+        "description": "The compound noun 'Optionenbewertung' is not standard in German and sounds unnatural. The more idiomatic and correct expression is 'Bewertung von Optionen'. This improves clarity and aligns with common German usage.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Pro-und-Kontra-Listen",
+        "correction": "Pro-und-Kontra-Listen",
+        "description": "The hyphenation in 'Pro-und-Kontra-Listen' is correct, but the capitalization of 'Pro' and 'Kontra' should be maintained as they are nouns. No correction needed, but this is a minor point to reinforce proper noun capitalization in compound nouns.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "mangelnde Organisation",
+        "correction": "mangelnde Organisation",
+        "description": "The phrase 'mangelnde Organisation' is correctly spelled and capitalized, as 'Organisation' is a noun and must be capitalized in German. No linguistic errors are present in this text span.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Designer überprüfen, ob ihre Lösungen die gewünschten Ziele erreichen und das Problem effektiv lösen.",
+        "correction": "Designer überprüfen, ob ihre Lösungen die gewünschten Ziele erreichen und das Problem effektiv lösen.",
+        "description": "The sentence is grammatically correct, with proper verb placement and agreement. No linguistic errors are present.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Ein Designer könnte ein Modell mit mehreren Fächern und gepolsterten Trägern skizzieren und ein leichtes, langlebiges Material für den Prototyp auswählen.",
+        "correction": "Ein Designer könnte ein Modell mit mehreren Fächern und gepolsterten Trägern skizzieren und ein leichtes, langlebiges Material für den Prototyp auswählen.",
+        "description": "All nouns are correctly capitalized and compound nouns are properly formed. No orthographic errors are present.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Best Practices für Online-Verhalten",
+        "correction": "Best Practices für Online-Verhalten",
+        "description": "The phrase 'Best Practices' uses an English term in a German educational context. While 'Best Practices' is sometimes used in German business and tech circles, for educational clarity and linguistic accuracy, a German equivalent such as 'Bewährte Methoden' or 'Empfohlene Vorgehensweisen' would be more appropriate. This improves both lexical precision and localization, ensuring the terminology is accessible and natural for all learners.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "wie z. B. tiefes Atmen oder zusätzliche Vorbereitung.",
+        "correction": "wie zum Beispiel tiefes Atmen oder zusätzliche Vorbereitung.",
+        "description": "The abbreviation 'z. B.' for 'zum Beispiel' is correct, but in educational content, especially for learners, it is preferable to write out 'zum Beispiel' in full for clarity and formality. This avoids confusion and maintains a consistent register.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Ein historischer Roman, der das Leben während des Bürgerkriegs imaginiert.",
+        "correction": "Ein historischer Roman, der das Leben während des Bürgerkriegs beschreibt.",
+        "description": "The verb 'imaginiert' is not idiomatic in this context. In German, 'ein historischer Roman' typically 'beschreibt' or 'stellt dar' das Leben während des Bürgerkriegs, rather than 'imaginiert' it. The use of 'imaginiert' is a calque from English and is not standard in German narrative descriptions. This affects both grammatical correctness and naturalness.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Feuer ist eine unverzichtbare Energiequelle, kann jedoch auch eine ernsthafte Gefahr darstellen, wenn wir nicht wissen, wie wir es sicher verhindern und darauf reagieren können.",
+        "correction": "Feuer ist eine unverzichtbare Energiequelle, kann jedoch auch eine ernsthafte Gefahr darstellen, wenn wir nicht wissen, wie wir es sicher vermeiden und darauf reagieren können.",
+        "description": "The verb 'verhindern' is incorrect in this context. In German, 'verhindern' means 'to prevent' something from happening, but it is not idiomatic to say 'Feuer verhindern.' The correct verb is 'vermeiden' (to avoid), which fits the context of fire safety. This is a lexical and collocational error affecting clarity and naturalness.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Erste Hilfe ist die unmittelbare Versorgung einer verletzten oder erkrankten Person, bevor professionelle Hilfe eintrifft.",
+        "correction": "Erste Hilfe ist die unmittelbare Versorgung einer verletzten oder erkrankten Person, bevor professionelle Hilfe eintrifft.",
+        "description": "No linguistic errors found. All nouns are correctly capitalized, and the sentence structure is appropriate. No correction needed.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Verletzungen am Verschlimmern hindern.",
+        "correction": "Verletzungen am Verschlimmern hindern.",
+        "description": "No linguistic errors detected. The phrase uses correct noun capitalization and verb form. No correction needed.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Die Beine leicht anheben, um die Durchblutung des Gehirns zu verbessern.",
+        "correction": "Die Beine leicht anheben, um die Durchblutung des Gehirns zu verbessern.",
+        "description": "No grammatical errors found. The sentence uses correct case, verb form, and noun capitalization. No correction needed.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Durch Übung und Verständnis können Schüler zur Sicherheit ihrer Gemeinschaft beitragen.",
+        "correction": "Durch Übung und Verständnis können Schüler zur Sicherheit ihrer Gemeinschaft beitragen.",
+        "description": "No orthographic errors detected. All nouns are correctly capitalized and the sentence structure is appropriate. No correction needed.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Bruchteil",
+        "correction": "Bruchteil",
+        "description": "No error found. The compound noun 'Bruchteil' is correctly written as a single word, following German orthographic rules for compound nouns.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Lasst uns diese Fähigkeiten in unserem Alltag anwenden, um starke und glückliche Beziehungen zu schaffen!",
+        "correction": "Lasst uns diese Fähigkeiten in unserem Alltag anwenden, um starke und glückliche Beziehungen zu schaffen!",
+        "description": "The sentence is linguistically correct, but the use of the exclamation mark at the end is slightly informal for educational content aimed at a general audience. In formal educational materials, a period is often preferred to maintain a neutral tone. However, since the content is motivational and directed at students, the exclamation mark is acceptable. No correction needed.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Typen: Gleichseitig (gleiche Seiten), Gleichschenklig (zwei gleiche Seiten), Ungleichseitig (keine gleichen Seiten).",
+        "correction": "Typen: Gleichseitig (alle Seiten gleich), Gleichschenklig (zwei Seiten gleich), Ungleichseitig (alle Seiten unterschiedlich).",
+        "description": "The original text uses 'gleiche Seiten' and 'keine gleichen Seiten' for triangle types, which is imprecise and could cause confusion. 'Gleichseitig' should be defined as 'alle Seiten gleich' for clarity, and 'Ungleichseitig' as 'alle Seiten unterschiedlich' to avoid ambiguity. This correction improves lexical precision and clarity for educational purposes.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Der Handelsbilanz misst die Differenz zwischen den Importen und Exporten eines Landes:",
+        "correction": "Die Handelsbilanz misst die Differenz zwischen den Importen und Exporten eines Landes:",
+        "description": "The original sentence incorrectly uses the masculine article 'Der' with the noun 'Handelsbilanz', which is feminine in German and requires 'Die'. This is a grammatical gender agreement error. Additionally, the verb 'misst' is correctly conjugated, and the rest of the sentence is accurate. Correction improves grammatical accuracy and ensures proper noun-article agreement.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Wenn der Kongress ein Gesetz verabschiedet, muss es vom Präsidenten (Exekutive) genehmigt oder abgelehnt werden.",
+        "correction": "Wenn der Kongress ein Gesetz verabschiedet, muss es vom Präsidenten (der Exekutive) genehmigt oder abgelehnt werden.",
+        "description": "The parenthetical '(Exekutive)' is ambiguous and could be misread as the law being approved by the executive branch as a whole, rather than specifically by the President. For grammatical clarity, 'vom Präsidenten (der Exekutive)' should be used to indicate that the President, as the head of the executive branch, is responsible. This improves both grammatical precision and semantic clarity.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "dass keine Zweig zu mächtig wird",
+        "correction": "dass kein Zweig zu mächtig wird",
+        "description": "The indefinite article 'keine' is incorrectly used with the masculine noun 'Zweig'. The correct form is 'kein Zweig', matching the gender and case. This error affects grammatical agreement and clarity. No other linguistic or localization issues are present in this span.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Internationalen Pakt über bürgerliche und politische Rechte (IPbpR)",
+        "correction": "Internationaler Pakt über bürgerliche und politische Rechte (IPbpR)",
+        "description": "The phrase uses the incorrect case for 'Internationaler Pakt'. As the subject of the sentence, the nominative case 'Internationaler Pakt' should be used instead of the accusative 'Internationalen Pakt'. This is a grammatical error affecting the accuracy of the terminology.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Ursprung in europäischen Traditionen, entwickelt während Mittelalter, Renaissance, Barock, Klassik und Romantik.",
+        "correction": "Ursprung in europäischen Traditionen, entwickelt während des Mittelalters, der Renaissance, des Barock, der Klassik und der Romantik.",
+        "description": "The original sentence omits the definite articles and the genitive case required for historical periods in German ('während des Mittelalters', etc.). This is a grammatical error affecting case and article usage. The corrected version properly uses the genitive case and definite articles for each period, improving linguistic accuracy and clarity.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Trug zur Überwindung rassischer Barrieren und kulturellem Austausch bei.",
+        "correction": "Trug zur Überwindung rassischer Barrieren und zum kulturellen Austausch bei.",
+        "description": "The original sentence incorrectly mixes the dative case after 'zur Überwindung' and 'kulturellem Austausch'. The correct form is 'zum kulturellen Austausch' to match the dative case and article usage. This is a grammatical and orthographic error that affects clarity and correctness.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Texte drücken oft Rebellion, Liebe oder gesellschaftliche Kommentare aus.",
+        "correction": "Texte drücken oft Rebellion, Liebe oder gesellschaftliche Kommentare aus.",
+        "description": "Although the sentence is grammatically correct, the word 'Kommentare' is semantically imprecise in this context. In German, 'Kommentare' typically refers to commentary or remarks, not social commentary as a theme in lyrics. A more precise term would be 'gesellschaftliche Themen' or 'gesellschaftliche Kritik'. This is a minor lexical issue.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Nicht erneuerbare Ressourcen",
+        "correction": "Nicht-erneuerbare Ressourcen",
+        "description": "In German, compound adjectives preceding nouns are typically hyphenated for clarity, especially in educational and scientific contexts. 'Nicht erneuerbare Ressourcen' should be written as 'Nicht-erneuerbare Ressourcen' to follow standard orthographic conventions and avoid ambiguity. This improves readability and aligns with formal German usage.",
         "severity": "MINOR"
       },
       {
         "category": "linguistic",
         "subcategory": "Lexical",
-        "original": "Ein Butterbrot machen.",
-        "correction": "Ein Butterbrot zubereiten.",
-        "description": "The verb 'machen' is acceptable in colloquial German, but 'zubereiten' is more precise and natural in educational contexts when referring to preparing food. This correction improves lexical precision and aligns with standard usage.",
+        "original": "Systemstörungen",
+        "correction": "Systemmanipulationen",
+        "description": "The term 'Systemstörungen' (system disruptions) is not the most precise or standard term in the context of cyber threats. In German cybersecurity terminology, 'Systemmanipulationen' (system manipulations) or 'Systemangriffe' (system attacks) are more accurate and commonly used to describe malicious actions targeting systems. Using the correct technical term improves clarity and aligns with industry standards.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Es reagiert leicht mit anderen Elementen, z. B. um Kochsalz (Natriumchlorid) zu bilden.",
+        "correction": "Es reagiert leicht mit anderen Elementen, z. B., um Kochsalz (Natriumchlorid) zu bilden.",
+        "description": "The abbreviation 'z. B.' (zum Beispiel) should be followed by a comma when it introduces a subordinate clause. The original sentence omits this comma, which is required by German punctuation rules for clarity and correctness.",
         "severity": "MINOR"
       },
       {
         "category": "linguistic",
         "subcategory": "Orthography",
-        "original": "nimm einen Regenschirm.",
-        "correction": "Nimm einen Regenschirm.",
-        "description": "The imperative sentence should begin with a capital letter ('Nimm'), as per German orthographic rules. This correction ensures proper noun capitalization and sentence structure.",
+        "original": "Poetry ist eine besondere Form der Literatur, die Gefühle, Ideen und Geschichten durch sorgfältig gewählte Worte, Rhythmus und Bilder ausdrückt.",
+        "correction": "Poesie ist eine besondere Form der Literatur, die Gefühle, Ideen und Geschichten durch sorgfältig gewählte Worte, Rhythmus und Bilder ausdrückt.",
+        "description": "The word 'Poetry' is an anglicism and should be replaced with the correct German term 'Poesie' to maintain linguistic accuracy and avoid unnecessary loanwords. This correction also improves localization by using the standard German terminology for the subject matter.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Ein Frosch springt hinein—",
+        "correction": "Ein Frosch springt hinein –",
+        "description": "The dash used here is an English em dash (—), which is not standard in German orthography. In German, a spaced en dash (–) is preferred for this context. This correction ensures proper punctuation according to German typographic conventions.",
         "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Er erwachte erschrocken,",
+        "correction": "Er erwachte erschrocken auf,",
+        "description": "The verb 'erwachen' is commonly used with the particle 'auf' in German ('aufwachen'), especially in the context of waking up from sleep. The original phrasing is understandable but less idiomatic. Adding 'auf' makes the sentence more natural and grammatically correct.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Sample Space",
+        "correction": "Ergebnisraum",
+        "description": "The term 'Sample Space' is presented in parentheses after 'Ereignisraum'. In German mathematical terminology, 'Ergebnisraum' is the standard term, and 'Sample Space' is unnecessary and may confuse learners. Remove the English term to maintain lexical precision and consistency with German educational standards.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Standarddeck",
+        "correction": "Standardspielkarten-Deck",
+        "description": "The term 'Standarddeck' is an anglicism and not the most natural or precise term in German. For clarity and lexical precision, use 'Standardspielkarten-Deck' or simply 'Kartenspiel' to refer to a standard deck of playing cards.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Aktives Lesen ist eine tiefgehende Lesestrategie, die darauf abzielt, das Textverständnis und die Behaltensleistung zu verbessern.",
+        "correction": "Aktives Lesen ist eine tiefgehende Lesestrategie, die darauf abzielt, das Textverständnis und die Behaltensleistung zu verbessern.",
+        "description": "The word 'Behaltensleistung' is not standard in German educational terminology. The more commonly accepted term is 'Gedächtnisleistung' or 'Merkfähigkeit'. 'Behalten' is a verb, and its nominalization as 'Behaltensleistung' is awkward and not widely used. This affects both lexical precision and terminology consistency, as learners may not recognize or understand the term. Correction: Replace 'Behaltensleistung' with 'Gedächtnisleistung' for clarity and standard usage.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "systematischen Schritt-für-Schritt-Prozess",
+        "correction": "systematischen Schritt-für-Schritt-Prozess",
+        "description": "The phrase 'Schritt-für-Schritt-Prozess' is correctly written as a compound noun with hyphens, following German orthographic rules for multi-part compounds. However, the word 'Prozess' should be capitalized as it is a noun, which is already correct here. No correction needed, but this is a good example for learners of proper compound noun formation and capitalization in German.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Wenn du bemerkst, dass eine Pflanze in deinem Garten schneller wächst als andere, kannst du mit der wissenschaftlichen Methode systematisch untersuchen, warum dies geschieht.",
+        "correction": "Wenn du bemerkst, dass eine Pflanze in deinem Garten schneller wächst als andere, kannst du mit der wissenschaftlichen Methode systematisch untersuchen, warum das geschieht.",
+        "description": "In the clause 'warum dies geschieht', the pronoun 'dies' is used to refer to the situation of one plant growing faster than others. In German, 'das' is more natural and idiomatic in this context, as it refers to the previously mentioned fact or situation. 'Dies' is more formal and less commonly used in spoken or educational German for such references. The sentence is otherwise grammatically correct, but replacing 'dies' with 'das' improves naturalness and clarity.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Hochgeschwindigkeitsabgase",
+        "correction": "Hochgeschwindigkeits-Abgase",
+        "description": "The compound noun 'Hochgeschwindigkeitsabgase' should be hyphenated as 'Hochgeschwindigkeits-Abgase' to improve readability and clarity, especially in technical contexts. While German allows long compounds, the Duden recommends hyphenation for clarity when the first part is itself a compound or when the word becomes difficult to parse. This is a minor orthographic improvement.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Die ISS nutzt Technologien zur Wiederverwertung von Wasser und Luft, um ihre Besatzung zu versorgen.",
+        "correction": "Die ISS nutzt Technologien zur Wiederverwertung von Wasser und Luft, um die Besatzung zu versorgen.",
+        "description": "The use of 'ihre Besatzung' is grammatically correct, but in formal scientific writing, 'die Besatzung' is preferred for clarity and neutrality. The possessive pronoun 'ihre' can be ambiguous, especially when multiple subjects are discussed. This correction improves precision and reduces potential confusion.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Geschichtelemente Einführung",
+        "correction": "Geschichtelemente-Einführung",
+        "description": "In German, compound nouns should be written as a single word or, if used as a heading or theme, with a hyphen to clarify the compound structure. The original phrase lacks a hyphen, which can cause confusion and does not follow standard German orthographic conventions for compound nouns in thematic headings.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Phantásien",
+        "correction": "Phantásien",
+        "description": "The word 'Phantásien' is spelled correctly with an accent as it appears in Michael Ende's 'Die unendliche Geschichte.' However, in standard German, accents are not typically used on the letter 'a.' This is a stylistic choice from the original work, so it is not an orthographic error in this context, but educators should clarify that this is a literary exception and not standard German spelling.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Geschichtelemente",
+        "correction": "Geschichtselemente",
+        "description": "The compound noun 'Geschichtelemente' is missing the connecting 's' that is standard in German compound formation. The correct form is 'Geschichtselemente.' This error affects the lexical precision and orthographic correctness of the term.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Wichtige Punkte statt alles aufschreiben.",
+        "correction": "Wichtige Punkte statt alles aufschreiben.",
+        "description": "The phrase 'Wichtige Punkte statt alles aufschreiben.' is missing a verb in the second clause, which makes the sentence incomplete and potentially confusing. For clarity and grammatical correctness, it should be 'Wichtige Punkte aufschreiben, statt alles aufzuschreiben.' This ensures parallel structure and clear meaning.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Briefwahl oder Abstimmung von Abwesenden für diejenigen, die nicht persönlich teilnehmen können.",
+        "correction": "Briefwahl oder Abstimmung für Abwesende für diejenigen, die nicht persönlich teilnehmen können.",
+        "description": "The phrase 'Abstimmung von Abwesenden' is not idiomatic in German. The correct term is 'Abstimmung für Abwesende' or simply 'Briefwahl' for absentee voting. This correction improves lexical precision and naturalness.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Bar/Bat Mitzwa",
+        "correction": "Bar/Bat Mizwa",
+        "description": "The correct German spelling for the Jewish coming-of-age ceremony is 'Mizwa', not 'Mitzwa'. The use of 'Mitzwa' is a common misspelling influenced by English transliteration. This error affects orthographic accuracy and should be corrected for proper German usage.",
+        "severity": "MEDIUM"
       }
     ],
     "localization": [
       {
         "category": "localization",
         "subcategory": "Style",
-        "original": "Willkommen zu einer Reise in die Welt des Alten Ägypten! 🌍",
-        "correction": "Willkommen zu einer Reise in die Welt des Alten Ägypten!",
-        "description": "The use of the globe emoji '🌍' is not standard in formal German educational content and may be perceived as informal or distracting. Removing the emoji ensures a more professional and culturally appropriate tone for the target audience.",
+        "original": "Willkommen zu einer Reise in die Welt des Alten Ägypten! 🌍 Diese faszinierende Zivilisation, die sich entlang des Nils erstreckte, hat mit ihrer einzigartigen Geographie, lebendigen Kultur und beeindruckenden Errungenschaften die Geschichte der Menschheit geprägt. Lass uns gemeinsam mehr über diese außergewöhnliche Epoche erfahren!",
+        "correction": "Willkommen zu einer Reise in die Welt des Alten Ägypten! Diese faszinierende Zivilisation, die sich entlang des Nils erstreckte, hat mit ihrer einzigartigen Geographie, lebendigen Kultur und beeindruckenden Errungenschaften die Geschichte der Menschheit geprägt. Lass uns gemeinsam mehr über diese außergewöhnliche Epoche erfahren!",
+        "description": "The use of the globe emoji (🌍) in educational German content is generally considered informal and may not align with standard academic style conventions. Removing the emoji ensures a more professional and culturally appropriate tone for educational materials.",
         "severity": "MINOR"
       },
       {
         "category": "localization",
         "subcategory": "Terminology",
-        "original": "Kaktuszaunkönigin",
-        "correction": "Kaktuszaunkönig",
-        "description": "The bird species referenced is 'Kaktuszaunkönig' (Cactus Wren), which is masculine in German. The use of 'Kaktuszaunkönigin' is incorrect and not standard in German ornithology. This affects terminology consistency and may confuse learners about the correct name of the species.",
-        "severity": "MEDIUM"
+        "original": "Die Pyramiden von Gizeh und Tempel wie Karnak sind Meisterwerke der Ingenieurskunst und des Designs.",
+        "correction": "Die Pyramiden von Gizeh und Tempel wie Karnak sind Meisterwerke der Ingenieurskunst und des Designs.",
+        "description": "The term 'Designs' is an anglicism and, while increasingly used in German, 'Gestaltung' or 'Baukunst' would be more appropriate in an educational context discussing ancient architecture. However, since 'Designs' is not incorrect, this is a minor localization issue regarding terminology naturalness.",
+        "severity": "MINOR"
       },
       {
         "category": "localization",
         "subcategory": "Cultural",
         "original": "Bären schlafen den Winter über, um Energie zu sparen, wenn Nahrung knapp ist.",
         "correction": "Bären halten während des Winters Winterschlaf, um Energie zu sparen, wenn Nahrung knapp ist.",
-        "description": "The phrase 'Bären schlafen den Winter über' is not the most natural or accurate way to describe hibernation in German. The standard expression is 'Winterschlaf halten'. This correction improves cultural and scientific accuracy, ensuring learners use the proper terminology for animal behavior.",
+        "description": "The phrase 'Bären schlafen den Winter über' is not culturally or scientifically precise. In German educational contexts, 'Winterschlaf halten' is the standard expression for hibernation. The original wording may mislead learners about the biological process.",
         "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Eulen jagen nachts, um Konkurrenz und Feinde zu vermeiden.",
+        "correction": "Eulen jagen nachts, um Konkurrenz und Fressfeinden auszuweichen.",
+        "description": "The term 'Feinde' is less precise in biological context; 'Fressfeinde' is the standard term for predators in German biology education. This correction improves scientific accuracy and naturalness for the target audience.",
+        "severity": "MINOR"
       },
       {
         "category": "localization",
         "subcategory": "Style",
         "original": "🧮",
         "correction": "",
-        "description": "The use of the abacus emoji in the introductory paragraph may not be appropriate for all German educational contexts, especially in formal or academic materials. While emojis can make content more engaging, their inclusion in educational texts should be carefully considered to maintain professionalism and clarity. Removing the emoji would ensure a more neutral and universally accepted style.",
+        "description": "The use of the abacus emoji (🧮) in an educational German context may be perceived as informal or childish, which can undermine the professional tone expected in instructional materials. For German educational content, especially at the introductory level, it is preferable to avoid emojis unless the target audience is very young children and the overall style is playful. Removing the emoji will ensure a more neutral and professional presentation.",
         "severity": "MINOR"
       },
       {
         "category": "localization",
-        "subcategory": "Format",
-        "original": "20 €",
-        "correction": "20 €",
-        "description": "The space between the number and the euro sign should be a non-breaking space (as per German typographic standards), not a regular space. This ensures proper currency formatting and prevents line breaks between the number and the symbol.",
-        "severity": "MINOR"
+        "subcategory": "Terminology",
+        "original": "Real-World-Beispiel",
+        "correction": "Praxisbeispiel",
+        "description": "The term 'Real-World-Beispiel' is an anglicism and not standard in German educational materials. The more natural and widely accepted term in German is 'Praxisbeispiel' or 'Beispiel aus der Praxis'. Using the correct terminology improves the naturalness and professionalism of the content, ensuring it aligns with local educational standards.",
+        "severity": "MEDIUM"
       },
       {
         "category": "localization",
         "subcategory": "Style",
         "original": "Sie sind wie winzige Fabriken, die lebenswichtige Prozesse durchführen, um das Leben aufrechtzuerhalten.",
-        "correction": "Sie sind wie winzige Fabriken, die lebenswichtige Prozesse durchführen, damit das Leben erhalten bleibt.",
-        "description": "The phrase 'um das Leben aufrechtzuerhalten' is understandable but slightly formal and less idiomatic in German educational contexts. 'Damit das Leben erhalten bleibt' is more natural and commonly used in German science education, improving the style and tone for the target audience.",
+        "correction": "Sie sind wie winzige Fabriken, die lebenswichtige Prozesse durchführen, um das Leben zu erhalten.",
+        "description": "The phrase 'das Leben aufrechtzuerhalten' is understandable but slightly formal and less natural in educational German. 'Das Leben zu erhalten' is a more idiomatic and natural expression in this context, improving the style and tone for a German-speaking audience.",
         "severity": "MINOR"
       },
       {
@@ -143,8 +533,8 @@
         "subcategory": "Style",
         "original": "Zersetzen Abfall und recyceln Materialien.",
         "correction": "Sie zersetzen Abfall und recyceln Materialien.",
-        "description": "The sentence lacks a subject pronoun, which is less natural in German explanatory writing. Adding 'Sie' at the beginning aligns with standard German sentence structure and improves clarity and naturalness for learners.",
-        "severity": "MINOR"
+        "description": "The sentence lacks a subject pronoun, which is necessary for natural and grammatically complete German. Adding 'Sie' at the beginning makes the sentence stylistically appropriate and clear, aligning with standard German educational writing.",
+        "severity": "MEDIUM"
       },
       {
         "category": "localization",
@@ -159,63 +549,39 @@
         "subcategory": "Terminology",
         "original": "Student Nonviolent Coordinating Committee (SNCC)",
         "correction": "Student Nonviolent Coordinating Committee (SNCC, Studentischer Ausschuss für gewaltfreie Koordination)",
-        "description": "The English name 'Student Nonviolent Coordinating Committee (SNCC)' is used without any explanation or translation. For German educational audiences, it is best practice to provide a brief German equivalent or explanation in parentheses to ensure clarity and accessibility, especially for learners unfamiliar with US-specific organizations.",
+        "description": "The English name 'Student Nonviolent Coordinating Committee (SNCC)' is used without any explanation or translation. For German educational audiences, it is best practice to provide a brief translation or explanation in parentheses to ensure comprehension and maintain consistency with other translated terms. This helps learners unfamiliar with the English acronym understand its meaning and relevance.",
         "severity": "MEDIUM"
       },
       {
         "category": "localization",
         "subcategory": "Terminology",
         "original": "Voting Rights Act von 1965",
-        "correction": "Wahlrechtsgesetz von 1965 (Voting Rights Act)",
-        "description": "The term 'Voting Rights Act von 1965' uses a direct English title with a German preposition. For clarity and consistency in German educational content, the German equivalent 'Wahlrechtsgesetz von 1965' should be used, with the original English name in parentheses for reference. This ensures the terminology is accessible and natural for German learners.",
-        "severity": "MEDIUM"
+        "correction": "Voting Rights Act von 1965 (Gesetz über das Wahlrecht von 1965)",
+        "description": "The term 'Voting Rights Act von 1965' is presented in English with only partial localization. For clarity and accessibility in German educational content, it is recommended to provide a parenthetical translation or explanation, such as 'Gesetz über das Wahlrecht von 1965', to ensure all learners understand the reference and its significance.",
+        "severity": "MINOR"
       },
       {
         "category": "localization",
         "subcategory": "Terminology",
         "original": "LGBTQ+-Personen",
         "correction": "LSBTIQ+-Personen",
-        "description": "The abbreviation 'LGBTQ+' is the English standard, but in German, the more commonly accepted abbreviation is 'LSBTIQ+'. Using the German version ensures cultural and terminological consistency and improves the naturalness of the content for German-speaking audiences.",
-        "severity": "MINOR"
+        "description": "The acronym 'LGBTQ+' is used in its English form. In German, the more commonly accepted and culturally appropriate acronym is 'LSBTIQ+', which stands for 'Lesbisch, Schwul, Bisexuell, Trans*, Inter*, Queer'. Using the German version ensures consistency with local terminology and increases accessibility for learners.",
+        "severity": "MEDIUM"
       },
       {
         "category": "localization",
         "subcategory": "Terminology",
         "original": "Boolean: Wahrheitswerte (True oder False)",
         "correction": "Boolean: Wahrheitswerte (Wahr oder Falsch)",
-        "description": "The terms 'True' and 'False' are English and may be unfamiliar to beginners in a German educational context. For clarity and localization, use the German equivalents 'Wahr' and 'Falsch' when explaining Boolean values, while noting that programming languages use 'True' and 'False' in code.",
+        "description": "The terms 'True' and 'False' are English and may not be immediately clear to beginners in a German educational context. For introductory lessons, it is more culturally appropriate and pedagogically effective to use the German equivalents 'Wahr' and 'Falsch' when explaining Boolean values, while still referencing the English terms as used in code. This ensures clarity and supports learners who may not be familiar with English programming terminology.",
         "severity": "MEDIUM"
       },
       {
         "category": "localization",
         "subcategory": "Style",
-        "original": "Stell dir eine Box vor, die mit \"Punktestand\" beschriftet ist.",
-        "correction": "Stell dir eine Box vor, die mit „Punktestand“ beschriftet ist.",
-        "description": "German typographic conventions use German quotation marks („ “) instead of English-style double quotes (\" \"). For educational materials, it is preferable to use the correct German quotation marks to ensure professional and culturally appropriate presentation.",
-        "severity": "MINOR"
-      },
-      {
-        "category": "localization",
-        "subcategory": "Style",
-        "original": "print(\"Hallo, Welt!\")  # Zeigt \"Hallo, Welt!\" auf dem Bildschirm an",
-        "correction": "print(\"Hallo, Welt!\")  # Zeigt „Hallo, Welt!“ auf dem Bildschirm an",
-        "description": "In the comment, the output text is enclosed in English-style double quotes. For German educational content, use German quotation marks („Hallo, Welt!“) in comments and explanations, while keeping the code syntax unchanged.",
-        "severity": "MINOR"
-      },
-      {
-        "category": "localization",
-        "subcategory": "Style",
-        "original": "print(Hallo, Welt!)  # Fehler, da der Text nicht in Anführungszeichen steht",
-        "correction": "print(Hallo, Welt!)  # Fehler, da der Text nicht in Anführungszeichen steht",
-        "description": "Although the code example is intentionally incorrect, the comment uses the phrase 'Anführungszeichen'. For clarity, it is good practice to specify 'deutsche Anführungszeichen („ “)' when teaching German learners, but the current usage is acceptable. No correction needed, but consider specifying the type of quotation marks for clarity.",
-        "severity": "MINOR"
-      },
-      {
-        "category": "localization",
-        "subcategory": "Cultural",
-        "original": "Stell dir vor, du schreibst ein Rezept. Variablen sind wie die Zutaten, Datentypen sind die Kategorien der Zutaten (z. B. Flüssigkeiten, Feststoffe), und Syntax ist das Format der Rezeptanweisungen.",
-        "correction": "Stell dir vor, du schreibst ein Rezept. Variablen sind wie die Zutaten, Datentypen sind die Kategorien der Zutaten (z. B. Flüssigkeiten, Feststoffe), und Syntax ist das Format der Rezeptanweisungen.",
-        "description": "The analogy of a recipe is culturally appropriate and easily understood in German-speaking contexts. No correction needed, but ensure that examples remain relevant to the target audience and avoid references that may not be universally familiar.",
+        "original": "Programmieren mag anfangs komplex erscheinen, aber das Verständnis dieser Grundlagen wird dir helfen, Vertrauen zu gewinnen und dich auf fortgeschrittene Themen vorzubereiten.",
+        "correction": "Programmieren mag anfangs komplex erscheinen, aber das Verständnis dieser Grundlagen wird Ihnen helfen, Vertrauen zu gewinnen und sich auf fortgeschrittene Themen vorzubereiten.",
+        "description": "The sentence uses the informal 'du' form ('dir', 'dich'), which may not be appropriate for all educational contexts, especially in formal or mixed-age settings. For broader applicability and professionalism, the formal 'Sie' form ('Ihnen', 'sich') is recommended. This change ensures the content is suitable for a wider audience and maintains a consistent, respectful tone throughout the lesson.",
         "severity": "MINOR"
       },
       {
@@ -223,15 +589,607 @@
         "subcategory": "Cultural",
         "original": "Erdnussbutter auf eine Scheibe streichen.",
         "correction": "Butter auf eine Scheibe streichen.",
-        "description": "The use of 'Erdnussbutter' (peanut butter) in the example for making a sandwich is not culturally typical in German-speaking countries, where 'Butterbrot' traditionally refers to bread with butter. This may confuse learners or feel unnatural. Replacing 'Erdnussbutter' with 'Butter' aligns the example with local expectations and improves cultural appropriateness.",
+        "description": "The use of 'Erdnussbutter' (peanut butter) in the example for making a sandwich is not culturally typical in German-speaking countries, where 'Butterbrot' traditionally refers to bread with regular butter. This may cause confusion or reduce relatability for learners. Replacing 'Erdnussbutter' with 'Butter' aligns the example with local expectations and improves cultural appropriateness.",
         "severity": "MEDIUM"
       },
       {
         "category": "localization",
         "subcategory": "Style",
-        "original": "Nutzen Sie die Gelegenheit, kleine Programme zu schreiben und zu experimentieren, wie Variablen und Datentypen zusammenarbeiten. Mit Python sind die Möglichkeiten endlos!",
-        "correction": "Nutze die Gelegenheit, kleine Programme zu schreiben und zu experimentieren, wie Variablen und Datentypen zusammenarbeiten. Mit Python sind die Möglichkeiten endlos!",
-        "description": "The use of the formal 'Sie' form is inconsistent with the rest of the lesson, which uses a neutral and informal tone suitable for educational content aimed at beginners or younger learners. Switching to the informal 'du' form ('Nutze') ensures tone consistency and better localization for the target audience. No linguistic errors are present, but the style should be adapted for naturalness and audience appropriateness.",
+        "original": "Mit dem Verständnis dieser Grundlagen habt ihr den ersten Schritt zum Programmieren gemacht!",
+        "correction": "Mit dem Verständnis dieser Grundlagen habt ihr den ersten Schritt zum Programmieren getan!",
+        "description": "The phrase 'den ersten Schritt zum Programmieren gemacht' is understandable but less idiomatic in German. The more natural expression is 'den ersten Schritt zum Programmieren getan.' This adjustment enhances the style and idiomaticity of the closing statement.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Mit Python sind die Möglichkeiten endlos!",
+        "correction": "Mit Python stehen Ihnen viele Möglichkeiten offen!",
+        "description": "The phrase 'Mit Python sind die Möglichkeiten endlos!' uses an idiomatic expression that may sound exaggerated or promotional in educational German contexts. A more natural and culturally appropriate phrasing is 'Mit Python stehen Ihnen viele Möglichkeiten offen!', which maintains enthusiasm but aligns better with standard educational tone in German.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "🌟",
+        "correction": "",
+        "description": "The use of the star emoji in educational German content may be considered informal and potentially distracting, especially in formal or academic contexts. It is recommended to remove the emoji to maintain a professional tone and ensure the content is culturally appropriate for educational settings.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "„Ich“-Aussagen",
+        "correction": "Ich-Botschaften",
+        "description": "The term '„Ich“-Aussagen' is understandable but 'Ich-Botschaften' is the more widely accepted and standard term in German educational and psychological contexts. Using 'Ich-Botschaften' ensures consistency with professional terminology and improves the naturalness of the content.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "🌟",
+        "correction": "",
+        "description": "The use of the star emoji in an educational German context may be considered informal and potentially distracting, especially in formal or academic materials. For German educational content, it is generally preferable to avoid emojis unless the target audience is young children or the context is intentionally casual. Removing the emoji will improve the professional tone and ensure cultural appropriateness.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Bereit, Neues zu lernen? 😊",
+        "correction": "Bist du bereit, Neues zu lernen?",
+        "description": "The use of the emoji '😊' and the informal, fragmentary question 'Bereit, Neues zu lernen?' is more typical of English digital communication and may be considered too casual or unprofessional in German educational contexts. A full sentence with appropriate register is preferred for clarity and naturalness.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Format",
+        "original": "CO2-Fußabdruck",
+        "correction": "CO₂-Fußabdruck",
+        "description": "The chemical formula for carbon dioxide should use the proper subscript '₂' (CO₂) according to scientific and educational standards in German. This improves technical accuracy and aligns with local conventions.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Lasst uns gemeinsam die faszinierende Struktur der DNA, ihre Funktion als Träger genetischer Daten und den Prozess ihrer Replikation erkunden! 🧬",
+        "correction": "Lassen Sie uns gemeinsam die faszinierende Struktur der DNA, ihre Funktion als Träger genetischer Daten und den Prozess ihrer Replikation erkunden! 🧬",
+        "description": "The use of 'Lasst uns' employs the informal plural imperative, which is more suitable for casual or peer-to-peer communication. In educational content, especially for a broad or adult audience, the formal 'Lassen Sie uns' is preferred to maintain a professional and inclusive tone. The rest of the sentence is linguistically correct.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "In der Landwirtschaft wird durch genetische Modifikation resistentere Ernte erzeugt.",
+        "correction": "In der Landwirtschaft werden durch genetische Modifikation resistentere Pflanzen erzeugt.",
+        "description": "The term 'Ernte' refers to the harvest or the act of harvesting, not the crops themselves. The correct term in this context is 'Pflanzen' (plants) or 'Kulturen' (crops), which are genetically modified to be more resistant. This improves clarity and aligns with standard scientific terminology in German.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Diese Fähigkeiten werden euch helfen, Entscheidungen selbstbewusst und verantwortungsvoll anzugehen. 🌟",
+        "correction": "Diese Fähigkeiten werden euch helfen, Entscheidungen selbstbewusst und verantwortungsvoll anzugehen.",
+        "description": "The use of the emoji '🌟' is not standard in formal German educational content and may be perceived as informal or unprofessional. Removing the emoji ensures the tone remains appropriate for an academic context.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Bestätigungsfehler",
+        "correction": "Bestätigungsfehler (Confirmation Bias)",
+        "description": "While 'Bestätigungsfehler' is a direct translation, the term 'Confirmation Bias' is more widely recognized in academic and psychological contexts. Adding the English term in parentheses increases clarity and aligns with terminology standards in German educational materials.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Überheblichkeitsfehler",
+        "correction": "Selbstüberschätzungsfehler",
+        "description": "The term 'Überheblichkeitsfehler' is not standard in German psychology or decision-making literature. The correct term for 'overconfidence bias' is 'Selbstüberschätzungsfehler'. Using the standard term improves professional accuracy and consistency.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Ankerfehler",
+        "correction": "Ankereffekt",
+        "description": "The term 'Ankerfehler' is not commonly used in German; the standard term is 'Ankereffekt' for 'anchoring bias'. This correction ensures the use of accepted terminology in educational and psychological contexts.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Verfügbarkeitsfehler",
+        "correction": "Verfügbarkeitsheuristik",
+        "description": "The term 'Verfügbarkeitsfehler' is not standard; 'Verfügbarkeitsheuristik' is the accepted term for 'availability bias' in German psychology. Using the correct term improves clarity and aligns with professional standards.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Kreativität steht im Vordergrund – es gibt keine schlechten Ideen.",
+        "correction": "Kreativität steht im Vordergrund – es gibt keine schlechten Ideen.",
+        "description": "While the sentence is linguistically correct, the phrase 'es gibt keine schlechten Ideen' may be perceived as overly informal or motivational in some educational contexts. For a more neutral and professional tone, consider rephrasing to 'Alle Ideen sind willkommen.'",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Feedback von Benutzern sammeln.",
+        "correction": "Rückmeldungen von Nutzern sammeln.",
+        "description": "The use of 'Feedback' and 'Benutzern' is understandable, but 'Rückmeldungen von Nutzern sammeln' is a more natural and locally accepted terminology in German educational contexts. 'Feedback' is an anglicism and 'Nutzer' is more commonly used than 'Benutzer' in design-related fields.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Stellen Sie sich vor, Sie entwerfen einen Rucksack für Schüler.",
+        "correction": "Stellen Sie sich vor, Sie entwerfen einen Rucksack für Schülerinnen und Schüler.",
+        "description": "The phrase 'Schüler' is gender-neutral in some contexts, but for inclusivity and modern educational standards, 'Schülerinnen und Schüler' is preferred to address all genders.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Format",
+        "original": "🌟",
+        "correction": "",
+        "description": "The use of the star emoji '🌟' may not be appropriate in formal educational materials, as it can be perceived as informal or distracting. Consider removing it for a more professional presentation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Emojis klug einsetzen: Sie können den Ton verdeutlichen, sollten aber nicht übermäßig genutzt werden.",
+        "correction": "Emojis klug einsetzen: Sie können den Ton verdeutlichen, sollten aber nicht übermäßig verwendet werden.",
+        "description": "The verb 'genutzt werden' is less natural in this context; 'verwendet werden' is the standard and more idiomatic choice in German when referring to the use of emojis. This change enhances the naturalness and professional tone of the content.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Vermeide Caps Lock: Texte in Großbuchstaben können als aggressiv wahrgenommen werden.",
+        "correction": "Vermeide die Verwendung von Großbuchstaben: Texte in Großbuchstaben können als aggressiv wahrgenommen werden.",
+        "description": "The term 'Caps Lock' is an English keyboard reference. For broader accessibility and clarity in German, 'die Verwendung von Großbuchstaben' is more appropriate and avoids unnecessary anglicism. This correction ensures the terminology is clear and culturally adapted for German learners.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Übung ist der Schlüssel – experimentieren Sie mit diesen Methoden, um Ihren eigenen künstlerischen Stil zu entdecken!",
+        "correction": "Übung ist der Schlüssel – probieren Sie diese Methoden aus, um Ihren eigenen künstlerischen Stil zu entdecken!",
+        "description": "The phrase 'experimentieren Sie mit diesen Methoden' is understandable but slightly unnatural in German educational context. 'Probieren Sie diese Methoden aus' is more idiomatic and commonly used in instructional materials, making the style more natural and culturally appropriate for German learners.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Emotional Intelligence (EI) ist die Fähigkeit, die eigenen Emotionen zu verstehen, zu steuern und auszudrücken sowie die Emotionen anderer zu erkennen und darauf zu reagieren.",
+        "correction": "Emotionale Intelligenz (EI) ist die Fähigkeit, die eigenen Emotionen zu verstehen, zu steuern und auszudrücken sowie die Emotionen anderer zu erkennen und darauf zu reagieren.",
+        "description": "The term 'Emotional Intelligence' is presented in English within a German-language educational context. For consistency and naturalness, the German term 'Emotionale Intelligenz' should be used throughout, especially in introductory definitions. This ensures the terminology aligns with local expectations and maintains professional language standards.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Stell dir vor, du bist frustriert während eines Gruppenprojekts.",
+        "correction": "Stell dir vor, du bist während eines Gruppenprojekts frustriert.",
+        "description": "The phrase 'du bist frustriert während eines Gruppenprojekts' is understandable but slightly unnatural in German word order. Placing 'während eines Gruppenprojekts' earlier in the sentence improves flow and aligns with native stylistic preferences. This enhances readability and naturalness for German learners.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Wenn ein Freund nach einer schlechten Note traurig ist, ermöglicht dir Empathie, zuzuhören, Unterstützung anzubieten und ihm das Gefühl zu geben, verstanden zu werden.",
+        "correction": "Wenn ein Freund nach einer schlechten Note traurig ist, hilft dir Empathie, zuzuhören, Unterstützung anzubieten und ihm das Gefühl zu geben, verstanden zu werden.",
+        "description": "The verb 'ermöglicht' is technically correct but less idiomatic in this context. 'Hilft' is more natural and commonly used in German when describing how empathy assists in responding to others' emotions. This change improves the naturalness and accessibility of the example.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Das Verständnis deiner eigenen Emotionen kann helfen, sie besser zu steuern.",
+        "correction": "Das Verständnis der eigenen Emotionen kann helfen, sie besser zu steuern.",
+        "description": "The use of 'deiner' introduces an informal, direct address (du-form) in a context that otherwise maintains a neutral, educational tone. For educational content intended for a general audience, it is more appropriate to use the impersonal 'der eigenen Emotionen' to maintain consistency and professionalism. This change also avoids abrupt register shifts and ensures the content is suitable for all learners.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Wenn du Wut verspürst, kannst du beispielsweise tief durchatmen, um dich zu beruhigen, bevor du reagierst.",
+        "correction": "Wenn man Wut verspürt, kann man beispielsweise tief durchatmen, um sich zu beruhigen, bevor man reagiert.",
+        "description": "The sentence uses the informal 'du' form, which is inconsistent with the otherwise neutral and impersonal style of the lesson. Switching to the impersonal 'man' form ensures a consistent, professional tone appropriate for educational materials and avoids unnecessary informality.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Ebenso kann das Erkennen der Emotionen anderer, wie Traurigkeit, durch Unterstützung die Beziehungen stärken.",
+        "correction": "Ebenso kann das Erkennen der Emotionen anderer, wie Traurigkeit, durch Unterstützung Beziehungen stärken.",
+        "description": "The definite article 'die' before 'Beziehungen' is unnecessary and slightly unnatural in this context. Removing it improves the flow and naturalness of the sentence, making it more idiomatic in German educational writing.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "Eine Biografie von Martin Luther King Jr., die sein Leben und seine Errungenschaften beschreibt.",
+        "correction": "Eine Biografie über Martin Luther King Jr., die sein Leben und seine Errungenschaften beschreibt.",
+        "description": "The preposition 'von' is not the most natural choice in German for biographies; 'über' is preferred when referring to the subject of a biography. This is a localization issue affecting the naturalness and cultural appropriateness of the expression.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Romane wie *Harry Potter* von J.K. Rowling.",
+        "correction": "Romane wie *Harry Potter* von J.K. Rowling.",
+        "description": "While the sentence is linguistically correct, the use of 'Harry Potter' as an example in educational German content may not be locally relevant for all audiences, especially younger learners who may be more familiar with German children's literature. Consider including a German example such as 'Die unendliche Geschichte' by Michael Ende for better cultural resonance.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "PASS-Methode",
+        "correction": "P.A.S.S.-Methode",
+        "description": "The acronym 'PASS' is an English mnemonic for fire extinguisher use. In German fire safety training, the equivalent is often 'P.A.S.S.' with periods to indicate the acronym, or a localized mnemonic such as 'ALLES' or 'R.A.S.S.' may be used. Using 'PASS' without periods may confuse learners and does not fully localize the concept. Consider using the German standard or clarifying the acronym.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Format",
+        "original": "Notrufnummer wählen (112).",
+        "correction": "Notrufnummer 112 wählen.",
+        "description": "The format 'Notrufnummer wählen (112)' is not standard in German emergency instructions. The number should be presented directly after the term, e.g., 'Notrufnummer 112 wählen.' This improves clarity and matches German conventions for presenting emergency numbers.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Kochgeräte niemals unbeaufsichtigt lassen.",
+        "correction": "Kochgeräte sollten niemals unbeaufsichtigt bleiben.",
+        "description": "The imperative form is acceptable, but the modal construction 'sollten niemals unbeaufsichtigt bleiben' is more typical in German safety instructions, providing a slightly more formal and instructive tone. This enhances the professional style and aligns with local expectations for educational content.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Die Verbrennung unter kühles (nicht kaltes) Wasser halten (10–20 Minuten).",
+        "correction": "Die Verbrennung unter lauwarmes (nicht kaltes) Wasser halten (10–20 Minuten).",
+        "description": "The term 'kühles Wasser' is less precise in German first aid context. 'Lauwarmes Wasser' is the more culturally and medically appropriate term for burn treatment in German-speaking regions. This correction improves clarity and aligns with local first aid guidelines.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Heimlich-Manöver",
+        "correction": "Heimlich-Handgriff",
+        "description": "The term 'Heimlich-Manöver' is less commonly used in German first aid education. 'Heimlich-Handgriff' is the standard and widely accepted term in German-speaking countries for the abdominal thrust technique. This correction ensures terminology consistency and cultural appropriateness.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Brüche helfen uns, Dinge gleichmäßig zu teilen und zu verstehen. 🥧",
+        "correction": "Brüche helfen uns, Dinge gleichmäßig zu teilen und zu verstehen.",
+        "description": "The use of the pizza emoji (🥧) is informal and may not be appropriate for all educational contexts, especially in formal or printed materials. Removing the emoji ensures a more neutral and professional tone suitable for a wide range of learners.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Freundschaften sind ein wertvoller Bestandteil unseres Lebens 🌟.",
+        "correction": "Freundschaften sind ein wertvoller Bestandteil unseres Lebens.",
+        "description": "The use of the star emoji (🌟) is not standard in formal German educational materials and may be perceived as informal or distracting in some cultural contexts. Removing the emoji ensures the content maintains a professional and neutral tone appropriate for educational settings.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Kopfnicken oder „Ich verstehe“ sagen, um Aufmerksamkeit zu zeigen.",
+        "correction": "Kopfnicken oder „Ich verstehe“ sagen, um Aufmerksamkeit zu zeigen.",
+        "description": "The phrase is linguistically correct, but the use of 'Ich verstehe' as a standard confirmation phrase may sound slightly formal or unnatural in everyday German conversation among children or teenagers. More natural alternatives could be 'Okay', 'Alles klar', or 'Verstehe'. However, 'Ich verstehe' is acceptable in educational contexts.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Tief durchatmen und Schreien oder Schuldzuweisungen vermeiden.",
+        "correction": "Tief durchatmen und Schreien oder Schuldzuweisungen vermeiden.",
+        "description": "The phrase is linguistically correct, but the direct mention of 'Schreien' (screaming) may be considered too strong or negative for younger audiences in German educational materials. A softer alternative could be 'laut werden' or 'laute Worte vermeiden'. However, the current wording is clear and understandable.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Wenn ein Freund traurig ist, weil er ein Spiel verloren hat, kannst du Empathie zeigen, indem du sagst: „Ich weiß, du bist enttäuscht. Das habe ich auch schon erlebt.“",
+        "correction": "Wenn ein Freund traurig ist, weil er ein Spiel verloren hat, kannst du Empathie zeigen, indem du sagst: „Ich weiß, du bist enttäuscht. Das habe ich auch schon erlebt.“",
+        "description": "The example is linguistically correct and culturally appropriate. However, the phrase 'Das habe ich auch schon erlebt.' is slightly formal and may sound less natural among children. A more colloquial alternative could be 'Das kenne ich auch.' or 'Das ist mir auch schon passiert.' The current version is still acceptable for educational purposes.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Beispiel: Ein Stück Pizza.",
+        "correction": "Beispiel: Die Spitze eines Bleistifts.",
+        "description": "While 'Ein Stück Pizza' is understandable, it is less universally relatable and may not be the most neutral example for all German-speaking learners. 'Die Spitze eines Bleistifts' is a more standard and educationally appropriate example for a spitzer Winkel, ensuring cultural neutrality and relevance in a classroom context.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Beispiel: Eine Uhr.",
+        "correction": "Beispiel: Ein Münze.",
+        "description": "The example 'Eine Uhr' for a circle may be confusing, as not all clocks are circular. 'Ein Münze' (a coin) is a more universally recognized circular object and is culturally neutral, making the example clearer and more appropriate for educational content.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Format",
+        "original": "Winkel werden in Grad (°) gemessen.",
+        "correction": "Winkel werden in Grad (°) gemessen.",
+        "description": "Although the sentence is linguistically correct, the use of the degree symbol (°) should be checked for proper spacing in German educational materials. In formal German, a non-breaking space is often used before the degree symbol (e.g., '90 °'). However, in this context, the usage is acceptable and does not require correction, but attention to formatting conventions is recommended for future materials.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Checks and Balances",
+        "correction": "Gewaltenkontrolle und Machtbalance",
+        "description": "The term 'Checks and Balances' is used untranslated throughout the lesson. While it is a well-known concept in US political science, the use of the English phrase may be unfamiliar or unnatural for German learners, especially in educational contexts. A localized equivalent such as 'Gewaltenkontrolle und Machtbalance' or simply 'Gewaltenkontrolle' would improve clarity and cultural appropriateness. The English term can be introduced once, but should be explained and then replaced with the German equivalent in subsequent uses.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "Im wegweisenden Fall *Brown v. Board of Education* entschied der Oberste Gerichtshof, dass Rassentrennung in Schulen verfassungswidrig ist, und hob damit Gesetze auf, die gegen die US-Verfassung verstießen.",
+        "correction": "Im wegweisenden Fall *Brown v. Board of Education* entschied der Oberste Gerichtshof der Vereinigten Staaten, dass Rassentrennung in Schulen verfassungswidrig ist, und hob damit Gesetze auf, die gegen die US-Verfassung verstießen.",
+        "description": "The reference to 'Oberster Gerichtshof' may be unclear to German learners unfamiliar with US institutions. Specifying 'Oberste Gerichtshof der Vereinigten Staaten' provides necessary cultural context and avoids confusion with the German Supreme Court. This enhances cultural appropriateness and educational clarity.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Das Verständnis der Gewaltenteilung und der Checks and Balances ist entscheidend, um zu schätzen, wie die US-Regierung funktioniert und individuelle Freiheiten schützt.",
+        "correction": "Das Verständnis der Gewaltenteilung und der Gewaltenkontrolle ist entscheidend, um zu verstehen, wie die US-Regierung funktioniert und individuelle Freiheiten schützt.",
+        "description": "The phrase 'um zu schätzen, wie die US-Regierung funktioniert' is unnatural in German; 'schätzen' in this context is a false friend and should be replaced with 'verstehen'. Additionally, 'Checks and Balances' should be localized as 'Gewaltenkontrolle' for naturalness and clarity. This correction addresses both lexical precision and style for a more idiomatic and educationally appropriate expression.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Checks and Balances",
+        "correction": "Gewaltenteilung und gegenseitige Kontrolle",
+        "description": "The English term 'Checks and Balances' is used in quotation marks throughout the content. While it is sometimes referenced in German political discourse, a more natural and educationally appropriate translation for German learners is 'Gewaltenteilung und gegenseitige Kontrolle'. This improves comprehension and aligns with standard German terminology for the concept. No linguistic errors are present in this span.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Format",
+        "original": "Zwei-Drittel-Mehrheit",
+        "correction": "Zweidrittelmehrheit",
+        "description": "The term 'Zwei-Drittel-Mehrheit' is formatted with unnecessary hyphens. In standard German, 'Zweidrittelmehrheit' is written as a single compound noun without hyphens, following orthographic conventions for compound words. This improves naturalness and consistency. No linguistic errors are present in this span.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Anstrengung glauben",
+        "correction": "An die Anstrengung glauben",
+        "description": "The phrase 'Anstrengung glauben' is unnatural and not idiomatic in German. The intended meaning is to believe in the value of effort. The corrected version 'An die Anstrengung glauben' is more natural, but even better would be 'An die Kraft der Anstrengung glauben' or 'Daran glauben, dass Anstrengung zum Erfolg führt.' This issue affects clarity and naturalness, and may confuse learners about standard German phrasing.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Bemühen wertschätzen und schätzen.",
+        "correction": "Bemühungen wertschätzen und feiern.",
+        "description": "The phrase 'Bemühen wertschätzen und schätzen' is redundant and stylistically awkward. 'Bemühungen wertschätzen und feiern' is more idiomatic and natural in German, clearly expressing the idea of appreciating and celebrating efforts. This improves the overall tone and readability.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Junkfood und zuckerhaltige Snacks können Energieabfälle und Konzentrationsprobleme verursachen.",
+        "correction": "Fett- und zuckerreiche Snacks können Energieabfälle und Konzentrationsprobleme verursachen.",
+        "description": "The term 'Junkfood' is an anglicism and is less commonly used in educational German texts, especially for younger audiences or formal contexts. A more natural and culturally appropriate expression would be 'fett- und zuckerreiche Snacks' or 'ungesunde Snacks'. This improves the naturalness and clarity of the content for German-speaking learners.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Wo möglich, auf unverarbeitete Lebensmittel zurückgreifen.",
+        "correction": "Wo möglich, unverarbeitete Lebensmittel wählen.",
+        "description": "The phrase 'auf ... zurückgreifen' is slightly formal and less natural in everyday German, especially in educational contexts for younger audiences. 'Unverarbeitete Lebensmittel wählen' is a more direct and natural way to encourage healthy choices, improving the tone and accessibility of the content.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Internationalen Pakt über wirtschaftliche, soziale und kulturelle Rechte (IPwSKR)",
+        "correction": "Internationaler Pakt über wirtschaftliche, soziale und kulturelle Rechte (IPwSKR)",
+        "description": "The abbreviation 'IPwSKR' is not the standard German abbreviation for 'Internationaler Pakt über wirtschaftliche, soziale und kulturelle Rechte'. The commonly accepted abbreviation is 'IPWSKR' or 'UN-Sozialpakt'. Using a non-standard abbreviation may cause confusion for German-speaking learners and reduce the professionalism of the content.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "🌍 In dieser Lektion werden wir die Prinzipien der Allgemeinen Erklärung der Menschenrechte (AEMR) untersuchen und ihre Bedeutung für Gesellschaften weltweit beleuchten.",
+        "correction": "In dieser Lektion werden wir die Prinzipien der Allgemeinen Erklärung der Menschenrechte (AEMR) untersuchen und ihre Bedeutung für Gesellschaften weltweit beleuchten.",
+        "description": "The use of the globe emoji '🌍' at the beginning of a formal educational text is not standard in German academic writing and may be perceived as informal or unprofessional. Removing the emoji improves the tone and maintains the expected register for educational content.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Freundlichkeit ist wie ein magisches Werkzeug, das die Welt zu einem besseren Ort macht.",
+        "correction": "Freundlichkeit ist wie ein Zauber, der die Welt zu einem besseren Ort macht.",
+        "description": "The phrase 'magisches Werkzeug' is a literal translation of 'magical tool' and sounds unnatural in German educational context. 'Zauber' is a more culturally appropriate and natural metaphor for German learners, conveying the intended meaning in a way that resonates better with local style and tone.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Freundlichkeit wirkt wie ein Wellen-Effekt: Eine kleine Tat kann viele andere inspirieren und positive Energie verbreiten.",
+        "correction": "Freundlichkeit wirkt wie eine Welle: Eine kleine Tat kann viele andere inspirieren und positive Energie verbreiten.",
+        "description": "The term 'Wellen-Effekt' is a direct translation of 'ripple effect' and is not commonly used in German. 'Welle' is a more natural and idiomatic expression in German, making the metaphor clearer and more culturally appropriate for the target audience.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Denkt an Freundlichkeit wie Sonnenlicht – sie erhellt alles, was sie berührt, und hilft Menschen, zu wachsen.",
+        "correction": "Denkt an Freundlichkeit wie an Sonnenlicht – sie erhellt alles, was sie berührt, und hilft Menschen, zu wachsen.",
+        "description": "The phrase 'Denkt an Freundlichkeit wie Sonnenlicht' is missing the preposition 'an', which is necessary for natural German expression in this simile. The corrected version improves the naturalness and clarity of the metaphor.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Stellt euch Freundlichkeit als Samen vor – durch unsere Handlungen pflanzen wir sie und helfen, eine bessere Welt zu schaffen.",
+        "correction": "Stellt euch Freundlichkeit wie einen Samen vor – durch unsere Handlungen pflanzen wir ihn und helfen, eine bessere Welt zu schaffen.",
+        "description": "The original uses 'als Samen', which is less idiomatic in German for metaphors. 'Wie einen Samen' is the standard way to introduce a metaphor, and the pronoun 'ihn' correctly refers to 'Samen' (masculine noun), improving both naturalness and grammatical agreement.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Freundlichkeit ist eine tägliche Wahl.",
+        "correction": "Freundlichkeit ist eine Entscheidung, die wir jeden Tag treffen.",
+        "description": "The phrase 'eine tägliche Wahl' is a literal translation of 'a daily choice' and is not idiomatic in German. The corrected version uses a more natural and culturally appropriate expression, making the message clearer and more relatable for German learners.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Format",
+        "original": "1234567890 wird zu 123-456-7890.",
+        "correction": "1234567890 wird zu 123 456 7890.",
+        "description": "The phone number formatting '123-456-7890' uses the US/English convention with hyphens, which is not standard in German. In German, phone numbers are typically grouped with spaces or sometimes slashes, not hyphens. This is a localization issue affecting cultural appropriateness and clarity for German learners.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "Mit „HOMES“ die Großen Seen (Huron, Ontario, Michigan, Erie, Superior) merken.",
+        "correction": "Mit einem Akronym wie „HOMES“ die Großen Seen (Huron, Ontario, Michigan, Erie, Superior) merken.",
+        "description": "The example 'HOMES' for the Great Lakes is a US-centric mnemonic and may not be familiar or relevant to German learners. While the explanation is linguistically correct, the cultural reference could be replaced with a more locally relevant mnemonic or an additional explanation for context. This affects the cultural appropriateness of the educational content.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Künstler wie Michael Jackson, Madonna, Taylor Swift und BTS prägen Popmusik.",
+        "correction": "Künstler wie Michael Jackson, Madonna, Taylor Swift und BTS prägen die Popmusik.",
+        "description": "The original sentence omits the definite article 'die' before 'Popmusik', which is standard in German when referring to a genre in a general sense. Including the article improves naturalness and aligns with German stylistic conventions. This is a medium localization issue affecting style and tone.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "Hip-Hop wurde zu einem globalen Phänomen, das marginalisierte Stimmen stärkt.",
+        "correction": "Hip-Hop wurde zu einem globalen Phänomen, das marginalisierten Stimmen Gehör verschafft.",
+        "description": "The phrase 'marginalisierte Stimmen stärkt' is a direct translation from English and sounds unnatural in German. A more culturally appropriate and idiomatic expression is 'verschafft Gehör', which better conveys the idea of giving marginalized voices a platform. This is a medium localization issue related to cultural appropriateness and naturalness.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Nuklearressourcen",
+        "correction": "Kernbrennstoffe",
+        "description": "The term 'Nuklearressourcen' is not commonly used in German educational or scientific contexts. The standard term is 'Kernbrennstoffe' when referring to uranium and other materials used for nuclear energy. Using 'Kernbrennstoffe' ensures terminological accuracy and aligns with local expectations in German-speaking regions.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Unbegrenzte Energiequelle von der Sonne.",
+        "correction": "Unerschöpfliche Energiequelle von der Sonne.",
+        "description": "The phrase 'Unbegrenzte Energiequelle' is a literal translation of 'unlimited energy source' and is less natural in German. 'Unerschöpfliche Energiequelle' is the preferred term in German educational materials, conveying the intended meaning more idiomatically and professionally.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "🌐",
+        "correction": "",
+        "description": "The globe emoji at the end of the introductory paragraph may be considered informal or distracting in educational content aimed at a general or formal audience. For German educational materials, especially in formal or instructional contexts, emojis are typically avoided to maintain a professional tone. Removing the emoji would enhance the appropriateness and professionalism of the lesson.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Das Periodensystem ist wie eine Landkarte für Chemiker: Es zeigt alle bekannten Elemente und wie sie miteinander verbunden sind.",
+        "correction": "Das Periodensystem ist wie eine Landkarte für Chemikerinnen und Chemiker: Es zeigt alle bekannten Elemente und wie sie miteinander verbunden sind.",
+        "description": "The original text uses the masculine form 'Chemiker', which is not gender-neutral. In educational contexts in German, it is increasingly standard to use gender-inclusive language, such as 'Chemikerinnen und Chemiker', to ensure all learners feel represented. This correction improves cultural appropriateness and inclusivity.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Edelgase wie Neon und Argon werden in Beleuchtungssystemen verwendet, da sie nicht mit dem Material im Inneren der Lampe reagieren.",
+        "correction": "Edelgase wie Neon und Argon werden in Beleuchtungssystemen verwendet, da sie nicht mit den Materialien im Inneren der Lampe reagieren.",
+        "description": "The phrase 'dem Material' uses the singular, but in the context of lighting systems, multiple materials are typically present inside a lamp. Using the plural 'den Materialien' is more natural and contextually accurate for German-speaking learners, improving the localization quality.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "In dieser Lektion lernen wir, wie man Argumente entwickelt, Beweise effektiv einsetzt und Schlussfolgerungen formuliert, die Eindruck hinterlassen. 🖊️",
+        "correction": "In dieser Lektion lernen wir, wie man Argumente entwickelt, Beweise effektiv einsetzt und Schlussfolgerungen formuliert, die Eindruck hinterlassen.",
+        "description": "The use of the pen emoji (🖊️) at the end of the sentence is not standard in formal German educational content and may be perceived as informal or distracting. Removing the emoji ensures the tone remains professional and appropriate for the context.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Laut EPA-Daten reduziert Recycling die Abfallmenge auf Deponien um 30 %.",
+        "correction": "Laut Umweltbundesamt-Daten reduziert Recycling die Abfallmenge auf Deponien um 30 %.",
+        "description": "The reference to 'EPA' (Environmental Protection Agency) is a US-specific institution and may not be familiar or relevant to German learners. For better localization and cultural appropriateness, it is recommended to use 'Umweltbundesamt', which is the German federal environmental agency.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Shakespearean Sonett",
+        "correction": "Shakespeare-Sonett",
+        "description": "The term 'Shakespearean Sonett' is a direct translation from English and is not the standard German terminology. The correct term is 'Shakespeare-Sonett', which is widely accepted in German literary studies. This correction improves both terminology consistency and cultural appropriateness.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Petrarchan Sonett",
+        "correction": "Petrarca-Sonett",
+        "description": "The term 'Petrarchan Sonett' is a literal translation from English and does not reflect the standard German usage. The correct term is 'Petrarca-Sonett', which aligns with German literary terminology and enhances localization quality.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Freie Verse sind Gedichte, die keinem festen Reimschema, Metrum oder Struktur folgen.",
+        "correction": "Freie Verse sind Gedichte, die keinem festen Reimschema, keinem festen Metrum und keiner festen Struktur folgen.",
+        "description": "The original sentence uses parallelism but omits the repetition of 'keinem festen' before 'Metrum' and 'Struktur', which is stylistically preferred in German for clarity and emphasis. This correction improves the naturalness and readability of the sentence.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "🎲✨",
+        "correction": "",
+        "description": "The use of emojis in educational content may not align with formal German educational style, especially in introductory sections. While emojis can add engagement, their use should be carefully considered for appropriateness in the context and audience. In formal lessons, it is recommended to omit emojis to maintain a professional tone.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Roulette und Blackjack",
+        "correction": "Roulette und Black Jack",
+        "description": "The spelling 'Blackjack' is an anglicism; in German, the game is commonly referred to as 'Black Jack' (with a space). This ensures consistency with locally accepted terminology in gaming contexts.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Diese Techniken ermöglichen es Ihnen, klüger zu lesen, nicht härter.",
+        "correction": "Diese Techniken ermöglichen es Ihnen, effizienter zu lesen, nicht härter.",
+        "description": "The phrase 'klüger zu lesen, nicht härter' is a direct translation of the English idiom 'work smarter, not harder', which is not idiomatic in German. The use of 'klüger' in this context is unnatural and may sound awkward to native speakers. A more natural and culturally appropriate expression would be 'effizienter zu lesen, nicht härter', which conveys the intended meaning in a way that aligns with German style and tone.",
         "severity": "MEDIUM"
       },
       {
@@ -239,24 +1197,184 @@
         "subcategory": "Style",
         "original": "🌟",
         "correction": "",
-        "description": "The use of the star emoji in educational German content may be considered informal and less appropriate for formal or academic settings. It can detract from the professional tone expected in instructional materials. Removing the emoji will ensure the content maintains a suitable level of formality and is culturally appropriate for German educational contexts.",
+        "description": "The use of the star emoji '🌟' in educational German content may be considered informal and less appropriate for formal or academic contexts. While emojis can enhance engagement in some settings, their use should be carefully considered for the target audience and context. For a lesson on scientific methodology, it is recommended to remove the emoji to maintain a professional tone.",
         "severity": "MINOR"
       },
       {
         "category": "localization",
-        "subcategory": "Terminology",
-        "original": "Globale Konflikte: Große gesellschaftliche oder politische Auseinandersetzungen.",
-        "correction": "Globale Konflikte: Internationale gesellschaftliche oder politische Auseinandersetzungen.",
-        "description": "The term 'globale Konflikte' is defined as 'Große gesellschaftliche oder politische Auseinandersetzungen,' which could be interpreted as large-scale conflicts within a society rather than between nations. For clarity and alignment with standard German educational terminology, 'internationale' should be used to specify that global conflicts typically refer to issues between countries or on an international scale.",
+        "subcategory": "Style",
+        "original": "Erkläre dein Experiment und deine Ergebnisse deinen Mitschülern.",
+        "correction": "Erkläre dein Experiment und deine Ergebnisse deinen Mitschülerinnen und Mitschülern.",
+        "description": "The phrase 'deinen Mitschülern' uses the generic masculine form, which is increasingly considered non-inclusive in contemporary German educational contexts. To ensure gender-inclusive language, especially in school settings, it is recommended to use 'Mitschülerinnen und Mitschülern'. This change reflects current best practices for inclusivity and aligns with modern localization standards in German educational materials.",
         "severity": "MEDIUM"
       },
       {
         "category": "localization",
         "subcategory": "Style",
-        "original": "Verwenden Sie „Ich“-Aussagen, um Ihre Gefühle auszudrücken.",
-        "correction": "Verwenden Sie Ich-Botschaften, um Ihre Gefühle auszudrücken.",
-        "description": "The phrase '„Ich“-Aussagen' is understandable but 'Ich-Botschaften' is the standard term in German educational and psychological contexts for expressing personal feelings and needs. Using the established term improves clarity and aligns with professional language usage in German-speaking regions.",
+        "original": "In dieser Lektion werden wir die sechs Haupttypen einfacher Maschinen kennenlernen und herausfinden, wie sie unseren Alltag erleichtern. 🌟",
+        "correction": "In dieser Lektion werden wir die sechs Haupttypen einfacher Maschinen kennenlernen und herausfinden, wie sie unseren Alltag erleichtern.",
+        "description": "The use of the star emoji (🌟) is not standard in German educational materials and may be perceived as informal or distracting in a formal learning context. Removing the emoji ensures the tone remains professional and appropriate for educational content.",
         "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Türknäufe",
+        "correction": "Türgriffe",
+        "description": "The term 'Türknäufe' is less commonly used in German and may not be immediately understood by all learners, especially younger audiences. 'Türgriffe' is the more standard and widely recognized term for door handles in German, ensuring better comprehension and consistency.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Widerstandsbänder",
+        "correction": "Widerstandsbänder (Resistance Bands)",
+        "description": "The term 'Widerstandsbänder' is correct in German, but in the context of space training equipment, it may be unfamiliar to some learners. Adding the English term in parentheses clarifies the meaning and ensures consistency with international terminology, especially for educational content aimed at a broad audience.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Bereit, die Wissenschaft hinter den Sternen zu entdecken?",
+        "correction": "Bereit, die Wissenschaft des Universums zu entdecken?",
+        "description": "The phrase 'die Wissenschaft hinter den Sternen' is a literal translation of the English idiom 'science behind the stars,' which is not idiomatic in German. 'Die Wissenschaft des Universums' is a more natural and culturally appropriate expression for German-speaking audiences, avoiding unnecessary anglicism.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "🌟",
+        "correction": "",
+        "description": "The use of the star emoji in an educational German science lesson may be considered informal and less appropriate for academic content. Removing the emoji would maintain a more professional and neutral tone suitable for educational materials.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Plasma-Fernseher und Neonlichter",
+        "correction": "Plasmafernseher und Neonlichter",
+        "description": "The term 'Plasma-Fernseher' should be written as the compound noun 'Plasmafernseher' according to German orthographic conventions. This ensures consistency and naturalness in terminology, aligning with standard German usage for technical devices.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Das Verständnis dieser Bausteine wird dir helfen, ein besserer Leser und Schreiber zu werden.",
+        "correction": "Das Verständnis dieser Bausteine wird dir helfen, besser lesen und schreiben zu können.",
+        "description": "The phrase 'ein besserer Leser und Schreiber zu werden' is understandable but sounds slightly unnatural in German educational style. A more idiomatic and natural expression would be 'besser lesen und schreiben zu können,' which is commonly used in German educational contexts and avoids the awkward nominalization of 'Schreiber.'",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Fallende Handlung",
+        "correction": "abfallende Handlung",
+        "description": "The term 'Fallende Handlung' is understandable but not the most commonly used terminology in German literary analysis. The standard term is 'abfallende Handlung,' which is more widely accepted in German educational materials and literary studies.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Auflösung",
+        "correction": "Lösung",
+        "description": "While 'Auflösung' is used in some contexts, 'Lösung' is the more standard term for the resolution phase in German narrative structure. Using 'Lösung' ensures consistency with German literary terminology and improves clarity for learners.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Das Verständnis dieser Elemente hilft dir, Geschichten besser zu analysieren und zu genießen – und sogar deine eigenen zu erschaffen!",
+        "correction": "Das Verständnis dieser Elemente hilft dir, Geschichten besser zu analysieren und zu genießen – und sogar eigene Geschichten zu schreiben!",
+        "description": "The phrase 'deine eigenen zu erschaffen' is understandable but less idiomatic in German educational style. 'Eigene Geschichten zu schreiben' is a more natural and commonly used expression in German, especially in educational contexts, and avoids the awkward use of 'erschaffen' for story writing.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "🌟",
+        "correction": "",
+        "description": "The use of the star emoji '🌟' in educational German content may be considered informal and less appropriate for academic materials, especially in higher education contexts. It is recommended to remove the emoji to maintain a professional and neutral tone.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Planer verwenden",
+        "correction": "Kalender oder Terminplaner verwenden",
+        "description": "The term 'Planer' is an anglicism and may not be immediately clear to all German-speaking learners. Using 'Kalender' or 'Terminplaner' is more standard and widely understood in German educational contexts.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Ein Schüler",
+        "correction": "Eine Schülerin oder ein Schüler",
+        "description": "The phrase 'Ein Schüler' uses the masculine form and may unintentionally exclude female learners. For inclusivity and gender neutrality, it is recommended to use 'Eine Schülerin oder ein Schüler' or a gender-neutral alternative.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Notizen machen",
+        "correction": "Notizen anfertigen",
+        "description": "The phrase 'Notizen machen' is commonly used in spoken German, but 'Notizen anfertigen' is more formal and appropriate for written educational materials.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Lass uns entdecken, wie jede Stimme zählt! 🗳️",
+        "correction": "Lasst uns entdecken, wie jede Stimme zählt! 🗳️",
+        "description": "The phrase uses the informal singular 'Lass uns', which is less appropriate for educational content addressing a general audience. The plural 'Lasst uns' is more inclusive and standard in German educational materials. Additionally, the use of the ballot emoji is acceptable, but the register should be consistent and appropriately formal for the context.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "🌟",
+        "correction": "",
+        "description": "The use of the star emoji in educational German content may be considered informal and less appropriate for professional or academic settings. It can detract from the seriousness of the topic and may not align with the expectations of German-speaking learners in formal contexts. Removing the emoji would improve the tone and maintain a more neutral, professional style.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Verarbeitung natürlicher Sprache (NLP)",
+        "correction": "Verarbeitung natürlicher Sprache (VNS)",
+        "description": "While 'NLP' is widely recognized in technical circles, the German equivalent 'VNS' (Verarbeitung natürlicher Sprache) is sometimes preferred in educational contexts to maintain consistency with German terminology. Using the German abbreviation can enhance clarity and localization for learners who may not be familiar with English technical terms.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Streaming-Dienste wie Netflix schlagen Filme und Serien basierend auf individuellen Interessen vor.",
+        "correction": "Streaming-Dienste wie Netflix empfehlen Filme und Serien basierend auf individuellen Interessen.",
+        "description": "The verb 'schlagen ... vor' is correct, but 'empfehlen' is more natural and commonly used in German for recommendations in this context. Adjusting the verb improves the naturalness and localization quality of the sentence.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "Ein virtueller Assistent wie Siri oder Alexa, der Sprachbefehle versteht und reagiert.",
+        "correction": "Ein virtueller Assistent wie Siri oder Alexa, der Sprachbefehle versteht und darauf reagiert.",
+        "description": "The phrase 'versteht und reagiert' is understandable, but 'darauf reagiert' is more idiomatic in German, clarifying that the assistant responds to the commands. This adjustment improves the naturalness and clarity for German-speaking learners.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "koscher",
+        "correction": "koscher (Speisegesetze)",
+        "description": "While 'koscher' is a recognized term in German, its use as a parenthetical explanation for 'Speisegesetze' may be unclear to learners unfamiliar with Jewish dietary laws. For educational clarity and localization, it is recommended to briefly define 'koscher' or use 'koschere Speisegesetze' to ensure the term is contextually understood.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "St. Paul",
+        "correction": "Paulus",
+        "description": "The use of 'St. Paul' reflects an anglicized form. In German educational and religious contexts, 'Paulus' is the standard and culturally appropriate term for the apostle. Using 'Paulus' ensures consistency and naturalness in German-language content.",
+        "severity": "MEDIUM"
       }
     ]
   }

@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Es esencial obtener el consentimiento de todas las partes involucradas antes de compartir cualquier imagen o información personal.",
+      "correction": "Es esencial obtener el consentimiento de todas las partes involucradas antes de compartir cualquier imagen o información personal.",
+      "description": "No linguistic errors are present in this sentence. The use of 'consentimiento' and 'involucradas' is correct, and accent marks are properly placed. The sentence is grammatically accurate and clear.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Descargar contenido de internet sin autorización o cuando está marcado como 'restringido' puede infringir leyes de derechos de autor y comprometer la integridad digital. Es esencial respetar las señales de advertencia y buscar permiso o alternativas legales.",
+      "correction": "Descargar contenido de internet sin autorización o cuando está marcado como 'restringido' puede infringir leyes de derechos de autor y comprometer la integridad digital. Es esencial respetar las señales de advertencia y buscar permiso o alternativas legales.",
+      "description": "The use of 'internet' is acceptable in Spanish, but in some regions, 'Internet' is capitalized as a proper noun. The style is formal and appropriate for educational content. No major localization issues, but capitalization of 'Internet' could be considered for consistency with standard Spanish usage.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "El ciberacoso puede ocurrir en varios entornos digitales, no solo en las redes sociales. Esto incluye foros en línea, chats grupales, correos electrónicos, y mensajes instantáneos. Es importante estar atento al comportamiento en todos los lugares donde se utiliza la tecnología.",
+      "correction": "El ciberacoso puede ocurrir en varios entornos digitales, no solo en las redes sociales. Esto incluye foros en línea, chats grupales, correos electrónicos y mensajes instantáneos. Es importante estar atento al comportamiento en todos los lugares donde se utiliza la tecnología.",
+      "description": "The comma before 'y mensajes instantáneos' is unnecessary according to Spanish punctuation rules. Removing it improves grammatical accuracy. All other elements are correct.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Compartir información personal en línea con personas que no conocemos puede poner en riesgo la privacidad y seguridad. Es importante estar cauteloso y considerar las posibles consecuencias antes de compartir datos personales.",
+      "correction": "Compartir información personal en línea con personas que no conocemos puede poner en riesgo la privacidad y la seguridad. Es importante ser cauteloso y considerar las posibles consecuencias antes de compartir datos personales.",
+      "description": "The phrase 'la privacidad y seguridad' lacks the article 'la' before 'seguridad', which is required for correct coordination. Additionally, 'estar cauteloso' is not idiomatic in Spanish; the correct expression is 'ser cauteloso'. Both corrections improve grammatical and idiomatic accuracy.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Digital_Etiquette.slm.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-03T22:11:01.945350",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.4,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

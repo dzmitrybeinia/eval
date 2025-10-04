@@ -1,0 +1,123 @@
+{
+  "metadata": {
+    "label": "v7",
+    "language": "hebrew",
+    "generated_at": "2025-10-04T14:53:09.055579",
+    "source_files": [
+      "evaluation_20251004_145309.json"
+    ],
+    "issue_counts": {
+      "linguistic": 13,
+      "localization": 0
+    }
+  },
+  "issues": {
+    "linguistic": [
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "בעלי חיים התפתחו בדרכים מדהימים לשרוד בסביבות שלהם, מתכונות פיזיולוגיות כמו הסוואה ועד אסטרטגיות התנהגותי כמו נדידה.",
+        "correction": "בעלי חיים התפתחו בדרכים מדהימות לשרוד בסביבות שלהם, מתכונות פיזיולוגיות כמו הסוואה ועד אסטרטגיות התנהגותיות כמו נדידה.",
+        "description": "There are two gender agreement errors: 'מדהימים' should be 'מדהימות' to match the feminine noun 'דרכים', and 'התנהגותי' should be 'התנהגותיות' to agree with the plural feminine 'אסטרטגיות'. These errors affect grammatical correctness and clarity.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "הסתגלויות אלו מפתח להבנה איך מינים שורדים באקוסיסטמות שונות.",
+        "correction": "הסתגלויות אלו הן מפתח להבנה איך מינים שורדים באקוסיסטמות שונות.",
+        "description": "The copula 'הן' is missing before 'מפתח', which is required for grammatical completeness. Without it, the sentence is ungrammatical and unclear.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "סקירה הסתגלויות בעלי חיים",
+        "correction": "סקירת הסתגלויות בעלי חיים",
+        "description": "The noun 'סקירה' should be in construct state ('סקירת') to properly combine with 'הסתגלויות בעלי חיים'. This is a construct state (סמיכות) error.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "הסתגלויות הוא תכונות או התנהגויות שעוזרים אורגניזמים לשרוד ולהתרבות בסביבתם.",
+        "correction": "הסתגלויות הן תכונות או התנהגויות שעוזרות לאורגניזמים לשרוד ולהתרבות בסביבתם.",
+        "description": "Multiple agreement errors: 'הסתגלויות' is plural and feminine, so the copula should be 'הן' not 'הוא'. The verb 'עוזרים' should be 'עוזרות' to agree with the feminine plural subject. Also, 'אורגניזמים' should have the definite article 'לאורגניזמים' for clarity.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "הם מתפתח במשך דורות דרך תהליך הברירה הטבעי.",
+        "correction": "הן מתפתחות במשך דורות דרך תהליך הברירה הטבעית.",
+        "description": "The pronoun 'הם' should be 'הן' to match the feminine plural 'הסתגלויות'. The verb 'מתפתח' should be 'מתפתחות' for correct agreement. Also, 'הברירה הטבעי' should be 'הברירה הטבעית' for feminine agreement.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "מאפיינים של גוף בעל חיים, כמו פרווה, טפרים או צוואר ארוך.",
+        "correction": "מאפיינים של גוף בעל חיים, כמו פרווה, טפרים או צוואר ארוך.",
+        "description": "No linguistic errors found. The phrase is grammatically correct and clear.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "פעולות שבעלי חיים עושים, כמו תרדמה או נדידה.",
+        "correction": "פעולות שבעלי חיים עושים, כמו תרדמה או נדידה.",
+        "description": "No linguistic errors found. The sentence is grammatically correct and natural.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "לשועל הארקטי יש פרווה לבן שמתחבר עם השלג, ועוזר לו להימנע מטורפים.",
+        "correction": "לשועל הארקטי יש פרווה לבנה שמתחברת עם השלג, ועוזרת לו להימנע מטורפים.",
+        "description": "Gender agreement errors: 'פרווה' is feminine, so 'לבן' should be 'לבנה' and 'שמתחבר' should be 'שמתחברת'. Also, 'ועוזר' should be 'ועוזרת' to agree with 'פרווה'.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "ציפורים נודדות דרומה לחורף כדי לברוח קור ולמצוא אוכל.",
+        "correction": "ציפורים נודדות דרומה לחורף כדי לברוח מהקור ולמצוא אוכל.",
+        "description": "Missing definite article: 'לברוח קור' should be 'לברוח מהקור' for correct Hebrew syntax and clarity.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "פיזי מול התנהגותי",
+        "correction": "פיזי מול התנהגותי",
+        "description": "No linguistic errors found. The phrase is clear and correct.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "הסתגלויות התנהגותיות הם שינויים פיזיים שבעל חיים עובר כדי לשרוד יותר טוב בסביבתו.",
+        "correction": "הסתגלויות התנהגותיות הן שינויים פיזיים שבעל חיים עובר כדי לשרוד טוב יותר בסביבתו.",
+        "description": "Copula agreement: 'הסתגלויות התנהגותיות' is feminine plural, so 'הם' should be 'הן'. Also, 'יותר טוב' should be 'טוב יותר' for correct word order.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "הסתגלויות התנהגותיות מתייחס לפעולות או התנהגויות, לא לשינויים פיזיים.",
+        "correction": "הסתגלויות התנהגותיות מתייחסות לפעולות או התנהגויות, לא לשינויים פיזיים.",
+        "description": "Verb agreement error: 'מתייחס' should be 'מתייחסות' to match the feminine plural subject 'הסתגלויות התנהגותיות'.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "ציפורים שנודדות כדי לברוח מהקור זה הסתגלות התנהגותי, לא פיזית.",
+        "correction": "ציפורים שנודדות כדי לברוח מהקור זו הסתגלות התנהגותית, לא פיזית.",
+        "description": "Copula and adjective agreement: 'זה הסתגלות' should be 'זו הסתגלות' (feminine), and 'התנהגותי' should be 'התנהגותית' to agree with 'הסתגלות'.",
+        "severity": "HIGH"
+      }
+    ],
+    "localization": []
+  }
+}

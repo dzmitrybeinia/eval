@@ -1,0 +1,83 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Einige Klimazonen wie die trockenen oder ariden zeichnen sich durch eine geringe Menge an Niederschlag aus, die über den Jahresverlauf hinweg variiert.",
+      "correction": "Einige Klimazonen wie die trockenen oder ariden zeichnen sich durch eine geringe Menge an Niederschlag aus, die im Jahresverlauf variiert.",
+      "description": "The phrase 'über den Jahresverlauf hinweg' is unnecessarily wordy and less idiomatic in German. 'Im Jahresverlauf' is the standard and more natural expression. This improves clarity and linguistic precision.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Die Temperatur in Klimazonen variiert nicht nur aufgrund der Breite, sondern auch durch andere Faktoren wie Höhe, Entfernung von Wasserflächen oder geographische Merkmale.",
+      "correction": "Die Temperatur in Klimazonen variiert nicht nur aufgrund der Breite, sondern auch aufgrund anderer Faktoren wie Höhe, Entfernung von Wasserflächen oder geographischer Merkmale.",
+      "description": "The preposition 'durch' is incorrect in this context; 'aufgrund' should be used for both clauses to maintain parallel structure and correct case usage. Additionally, 'geographische Merkmale' should be in the genitive form 'geographischer Merkmale' to match the preceding 'wie'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "In höheren Lagen über dem Meeresspiegel sinkt die Temperatur tendenziell, ein Phänomen, das als Temperaturgradient bezeichnet wird.",
+      "correction": "In höheren Lagen über dem Meeresspiegel sinkt die Temperatur tendenziell – ein Phänomen, das als Temperaturgradient bezeichnet wird.",
+      "description": "A comma before 'ein Phänomen' is grammatically permissible, but a dash is more appropriate to indicate an explanatory clause, improving sentence structure and clarity.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Strömungen wie der Golfstrom spielen eine entscheidende Rolle bei der Moderation der Temperaturen in Küstengebieten.",
+      "correction": "Strömungen wie der Golfstrom spielen eine entscheidende Rolle bei der Regulierung der Temperaturen in Küstengebieten.",
+      "description": "The term 'Moderation' is an anglicism and not commonly used in this scientific context in German. 'Regulierung' is the standard and natural term for describing the effect of ocean currents on temperature.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Der Einfluss von solchen Meeresströmungen auf das Wetter und Klima lässt sich anhand des Temperaturunterschieds entlang der Küste erkennen.",
+      "correction": "Der Einfluss solcher Meeresströmungen auf Wetter und Klima lässt sich anhand des Temperaturunterschieds entlang der Küste erkennen.",
+      "description": "The phrase 'von solchen Meeresströmungen' is incorrect; 'solcher Meeresströmungen' is the correct genitive form after 'Einfluss'. Also, articles before 'Wetter und Klima' are unnecessary and less idiomatic in German.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Dieses Phänomen ist nicht auf heiße Sommer oder kalte Winter beschränkt, sondern beeinflusst das gesamte Klima signifikant durch die Zusatzversorgung von Feuchtigkeit.",
+      "correction": "Dieses Phänomen ist nicht auf heiße Sommer oder kalte Winter beschränkt, sondern beeinflusst das gesamte Klima signifikant durch die zusätzliche Versorgung mit Feuchtigkeit.",
+      "description": "The phrase 'Zusatzversorgung von Feuchtigkeit' is awkward and not idiomatic. 'Zusätzliche Versorgung mit Feuchtigkeit' is the correct and natural expression. This correction improves both grammar and lexical precision.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Das ist richtig, weil die Tropische Klimazone durch ihre hohe Luftfeuchtigkeit und reichlichen Niederschläge gekennzeichnet ist, was ein wichtiger Faktor für ihre charakteristischen heißen Temperaturen ist.",
+      "correction": "Das ist richtig, weil die tropische Klimazone durch ihre hohe Luftfeuchtigkeit und reichlichen Niederschläge gekennzeichnet ist, was ein wichtiger Faktor für ihre charakteristisch heißen Temperaturen ist.",
+      "description": "The word 'Tropische' should not be capitalized as an adjective; only nouns are capitalized in German. Also, 'charakteristischen heißen Temperaturen' should be 'charakteristisch heißen Temperaturen' to match the correct adjective ending after 'für'.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Climate_Zones.slm.md",
+    "language": "German",
+    "timestamp": "2025-10-03T22:29:06.179352",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 8.8,
+    "classification": "PROFESSIONAL",
+    "total_issues": 7,
+    "total_penalty": 1.2,
+    "issue_breakdown": {
+      "linguistic": 6,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.0,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

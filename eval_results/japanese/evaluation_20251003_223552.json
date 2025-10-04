@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "細胞の中で、核は二重の膜に囲まれています。.",
+      "correction": "細胞の中で、核は二重の膜に囲まれています。",
+      "description": "There is an unnecessary period after the Japanese full stop at the end of the sentence. Japanese sentences should end with a single full-width period (。), not a combination of Japanese and Western periods. This affects orthographic correctness and should be corrected for proper punctuation.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "細胞の核には、細胞の遺伝情報を守り、細胞の活動をコントロールする重要な役割を果たします。この説明は、細胞の核の基本的な特性を正確に捉えています。.",
+      "correction": "細胞の核には、細胞の遺伝情報を守り、細胞の活動をコントロールする重要な役割を果たします。この説明は、細胞の核の基本的な特性を正確に捉えています。",
+      "description": "There is an unnecessary period after the Japanese full stop at the end of the sentence. Japanese sentences should end with a single full-width period (。), not a combination of Japanese and Western periods. This affects orthographic correctness and should be corrected for proper punctuation.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "ミトコンドリアは細胞内のリン脂肪である。.",
+      "correction": "ミトコンドリアは細胞内のリン脂質である。",
+      "description": "The term 'リン脂肪' is incorrect in this scientific context. The correct term for phospholipid in Japanese is 'リン脂質'. Additionally, there is an unnecessary period after the Japanese full stop at the end of the sentence. Both lexical and orthographic issues are present, but the lexical error is primary as it affects scientific accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "ミトコンドリアは細胞質の中で独特の構造を持ち、その主要な機能は細胞呼吸におけるエネルギー変換であり、細胞内のリン脂肪ではありません。.",
+      "correction": "ミトコンドリアは細胞質の中で独特の構造を持ち、その主要な機能は細胞呼吸におけるエネルギー変換であり、細胞内のリン脂肪ではありません。",
+      "description": "There is an unnecessary period after the Japanese full stop at the end of the sentence. Japanese sentences should end with a single full-width period (。), not a combination of Japanese and Western periods. This affects orthographic correctness and should be corrected for proper punctuation.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Cell_Parts.slm.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-03T22:35:52.528911",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 4,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.6,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

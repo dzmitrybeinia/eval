@@ -1,0 +1,107 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Bienvenue dans le monde passionnant de Python, un langage de programmation apprécié pour sa simplicité et sa polyvalence.",
+      "correction": "Bienvenue dans l’univers passionnant de Python, un langage de programmation apprécié pour sa simplicité et sa polyvalence.",
+      "description": "The use of 'monde' is less natural in French educational contexts when introducing a programming language. 'Univers' is more idiomatic and commonly used in French to refer to the domain or field of a subject, especially in technology or science. This change improves the naturalness and cultural appropriateness of the introduction.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Préparez-vous à explorer comment ces concepts peuvent être utilisés pour créer des programmes utiles et interactifs. 🚀",
+      "correction": "Préparez-vous à découvrir comment ces concepts peuvent être utilisés pour créer des programmes utiles et interactifs.",
+      "description": "The phrase 'explorer comment' is less idiomatic in French educational style; 'découvrir comment' is more natural and commonly used in instructional contexts. Additionally, the rocket emoji 🚀, while not incorrect, may be considered informal or unnecessary in formal educational materials. Removing it aligns the tone with standard French educational content.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Les variables sont comme des boîtes où l'on peut ranger des informations.",
+      "correction": "Les variables sont comme des boîtes dans lesquelles on peut ranger des informations.",
+      "description": "The use of 'où' to refer to 'boîtes' is grammatically acceptable but less precise in formal French. 'Dans lesquelles' is preferred for clarity and formality in educational materials, ensuring the analogy is clear and natural for French learners.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Python propose plusieurs types de données pour représenter différents types d'informations :",
+      "correction": "Python propose plusieurs types de données pour représenter diverses informations :",
+      "description": "The repetition of 'types' in 'types de données' and 'types d'informations' is stylistically awkward in French. Replacing 'différents types d'informations' with 'diverses informations' avoids redundancy and improves the flow and naturalness of the sentence.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "- **Booléen (`bool`)** : valeurs Vrai ou Faux.",
+      "correction": "- **Booléen (`bool`)** : valeurs vraies ou fausses.",
+      "description": "In French, 'vrai' and 'faux' should be in lowercase when referring to boolean values, and the plural form 'valeurs vraies ou fausses' is more accurate and natural in this context. This change aligns with standard terminology in French programming education.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Les opérations d'entrée/sortie permettent aux programmes de communiquer avec l'utilisateur.",
+      "correction": "Les opérations d'entrée/sortie permettent au programme de communiquer avec l'utilisateur.",
+      "description": "The plural 'programmes' is less natural in this context, as the explanation refers to the general concept of a program interacting with a user. Using the singular 'programme' is more idiomatic and aligns with standard French educational phrasing.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "En combinant les concepts de variables, types de données et opérations d'entrée/sortie, vous pouvez créer un programme interactif, comme un calculateur basique.",
+      "correction": "En combinant les concepts de variables, de types de données et d'opérations d'entrée/sortie, vous pouvez créer un programme interactif, comme une calculatrice basique.",
+      "description": "The phrase 'variables, types de données et opérations d'entrée/sortie' lacks the preposition 'de' before each item, which is required for parallel structure in French. Additionally, 'calculateur' is a literal translation from English and is not commonly used in French for a simple arithmetic tool; 'calculatrice' is the standard term for a calculator in French.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "print(\"Bienvenue dans le calculateur !\")",
+      "correction": "print(\"Bienvenue dans la calculatrice !\")",
+      "description": "The term 'calculateur' is not the standard French word for a calculator; 'calculatrice' is the correct and commonly used term for a basic arithmetic tool. This correction ensures the terminology is natural and culturally appropriate for French learners.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "num1 = float(input(\"Entrez le premier nombre : \"))\nnum2 = float(input(\"Entrez le deuxième nombre : \"))",
+      "correction": "num1 = float(input(\"Entrez le premier nombre : \"))\nnum2 = float(input(\"Entrez le second nombre : \"))",
+      "description": "While 'deuxième' is not incorrect, 'second' is preferred in French when referring to only two items, as it implies there are no further items beyond the second. This change improves the naturalness and clarity of the instruction.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "print(\"Quotient :\", num1 / num2)",
+      "correction": "print(\"Quotient :\", num1 / num2)",
+      "description": "No correction needed; the terminology and phrasing are appropriate. This entry is included to confirm that no issues were found in this specific line.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Computer_Programming.llm.md",
+    "language": "French",
+    "timestamp": "2025-10-03T21:34:45.404765",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 8.8,
+    "classification": "PROFESSIONAL",
+    "total_issues": 10,
+    "total_penalty": 1.2,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 10,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 1.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

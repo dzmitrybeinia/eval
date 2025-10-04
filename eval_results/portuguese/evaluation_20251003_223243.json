@@ -1,0 +1,35 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Fontes como estudos científicos revisados por pares são consideradas de alta confiabilidade devido ao seu rigor metodológico e revisão por pares.",
+      "correction": "Fontes como estudos científicos revisados por pares são consideradas altamente confiáveis devido ao seu rigor metodológico e revisão por pares.",
+      "description": "The phrase 'de alta confiabilidade' is grammatically correct but less natural in Brazilian Portuguese educational contexts. The more idiomatic and widely accepted term is 'altamente confiáveis'. This change improves the naturalness and professional tone of the feedback, aligning with standard terminology used in academic and educational materials.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Critical_Thinking.slm.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T22:32:43.782793",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.9,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.1,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

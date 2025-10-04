@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "La probabilité d'un événement peut être supérieure à 1.",
+      "correction": "La probabilité d'un événement peut dépasser 1.",
+      "description": "The original uses 'supérieure à 1', which is correct, but 'dépasser 1' is slightly more precise in mathematical contexts. However, this is a minor lexical improvement and not strictly necessary. No grammatical or spelling errors are present.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "Chaque face d'un dé standard est numérotée de 1 à 6. Il y a trois nombres impairs (1, 3, 5) et trois nombres pairs (2, 4, 6). Par conséquent, la probabilité de tomber sur un nombre impair est la même que celle de tomber sur un nombre pair, soit 3/6 ou 1/2, ce qui donne une probabilité de 50 % pour chaque cas.",
+      "correction": "Chaque face d'un dé standard est numérotée de 1 à 6. Il y a trois nombres impairs (1, 3, 5) et trois nombres pairs (2, 4, 6). Par conséquent, la probabilité d'obtenir un nombre impair est la même que celle d'obtenir un nombre pair, soit 3/6 ou 1/2, ce qui donne une probabilité de 50 % pour chaque cas.",
+      "description": "The phrase 'tomber sur un nombre impair' is colloquial and less precise in mathematical French. 'Obtenir un nombre impair' is the standard terminology in probability contexts. This correction improves lexical precision and aligns with educational standards. No grammatical errors are present.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Chaque lancer d'un dé est un événement indépendant, ce qui signifie que le résultat d'un lancer n'affecte pas celui d'un autre. Par conséquent, on ne peut pas prédire le résultat d'un lancer en fonction des lancements précédents.",
+      "correction": "Chaque lancer de dé est un événement indépendant, ce qui signifie que le résultat d'un lancer n'affecte pas celui d'un autre. Par conséquent, on ne peut pas prédire le résultat d'un lancer en fonction des lancements précédents.",
+      "description": "The phrase 'lancer d'un dé' is grammatically awkward; the standard form is 'lancer de dé'. This correction improves grammatical accuracy and naturalness. All other elements are correct.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Cette déclaration est vraie car un tableau est un moyen efficace de visualiser les résultats possibles d'un événement simple comme lancer un dé. En comptant le nombre de fois où chaque résultat apparaît, on peut calculer la probabilité en divisant ce nombre par le nombre total de résultats possibles, qui est de six pour un dé standard.",
+      "correction": "Cette affirmation est vraie car un tableau est un moyen efficace de visualiser les résultats possibles d'un événement simple comme lancer un dé. En comptant le nombre de fois où chaque résultat apparaît, on peut calculer la probabilité en divisant ce nombre par le nombre total de résultats possibles, qui est de six pour un dé standard.",
+      "description": "The word 'déclaration' is less appropriate in this context; 'affirmation' is the standard term for a true/false statement in educational French. This correction improves lexical precision and aligns with pedagogical norms. No grammatical errors are present.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Probability_Games.slm.md",
+    "language": "French",
+    "timestamp": "2025-10-03T22:22:52.523176",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 4,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.6,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

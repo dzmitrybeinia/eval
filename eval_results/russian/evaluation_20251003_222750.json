@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Машинное обучение является значительной частью искусственного интеллекта и включает обучение машин на основе данных.",
+      "correction": "Машинное обучение является значительной частью искусственного интеллекта и включает обучение машин на основе данных.",
+      "description": "The sentence is grammatically correct, but the phrase 'обучение машин' is less natural in Russian. The more idiomatic expression is 'обучение машин' or 'обучение машин на данных', but 'машинное обучение' already covers this meaning. No critical linguistic errors, but stylistic improvement could be made by avoiding redundancy.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Хотя предсказания будущего все еще могут включать научные модели, ИИ играет роль в этих предсказаниях.",
+      "correction": "Хотя прогнозы погоды по-прежнему основаны на научных моделях, ИИ играет важную роль в этих прогнозах.",
+      "description": "The phrase 'предсказания будущего' is not idiomatic in Russian when referring to weather forecasting. The standard term is 'прогнозы погоды'. Additionally, 'играет роль' is vague; 'играет важную роль' is more natural and precise. These changes improve clarity and naturalness for Russian-speaking learners.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Это применение ИИ в рабочие процессы является значимым развитием технологий, предлагая новые возможности и улучшение существующих процессов.",
+      "correction": "Такое применение ИИ в рабочих процессах является значимым этапом развития технологий, предлагая новые возможности и улучшение существующих процессов.",
+      "description": "The phrase 'Это применение ИИ в рабочие процессы' is awkward and ungrammatical; 'такое применение ИИ в рабочих процессах' is the correct form. Also, 'значимым развитием технологий' is better expressed as 'значимым этапом развития технологий' for clarity and idiomatic usage.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Эта способность призвана повышать точность и эффективность в различных областях, таких как распознавание лиц или предсказание погоды.",
+      "correction": "Эта способность направлена на повышение точности и эффективности в различных областях, таких как распознавание лиц или прогнозирование погоды.",
+      "description": "The phrase 'призвана повышать' is not idiomatic in this context; 'направлена на повышение' is more natural. Additionally, 'предсказание погоды' should be 'прогнозирование погоды' for technical accuracy in Russian meteorological terminology.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "What_is_AI.slm.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T22:27:50.805117",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.3,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.7,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.5,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

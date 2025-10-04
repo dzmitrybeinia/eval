@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Fikcja to pisanie wyimaginowane, które bawi lub inspiruje, podczas gdy literatura faktu to pisanie faktyczne, które informuje lub edukuje.",
+      "correction": "Fikcja to wyimaginowane pisanie, które bawi lub inspiruje, podczas gdy literatura faktu to faktyczne pisanie, które informuje lub edukuje.",
+      "description": "The original sentence uses 'pisanie wyimaginowane' and 'pisanie faktyczne', which is an unnatural word order in Polish. Adjectives should precede the noun in this context ('wyimaginowane pisanie', 'faktyczne pisanie'). This improves grammatical correctness and naturalness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Teksty informacyjne: książki naukowe, historyczne lub encyklopedie.",
+      "correction": "Teksty informacyjne: książki popularnonaukowe, historyczne lub encyklopedie.",
+      "description": "The term 'książki naukowe' is not the most appropriate for educational context aimed at general readers; 'książki popularnonaukowe' is the standard Polish term for non-fiction books intended for a broad audience. This correction improves terminology consistency and cultural appropriateness.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Zrozumienie różnic między fikcją a literaturą faktu pomoże Wam wybrać odpowiedni rodzaj książki w zależności od potrzeb i zainteresowań.",
+      "correction": "Zrozumienie różnic między fikcją a literaturą faktu pomoże wybrać odpowiedni rodzaj książki w zależności od potrzeb i zainteresowań.",
+      "description": "The use of 'Wam' (second person plural, informal) may not be appropriate for all educational contexts, especially in written materials intended for a general audience. Omitting 'Wam' makes the sentence more neutral and universally applicable, improving style and tone.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Fiction_vs_Nonfiction.llm.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T21:31:47.763416",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

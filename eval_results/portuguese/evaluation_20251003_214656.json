@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Usar ferramentas como dedos ou tecidos para suavizar traços.",
+      "correction": "Usar ferramentas como dedos ou papel para suavizar traços.",
+      "description": "The use of 'tecidos' (fabrics) is not standard in Brazilian Portuguese drawing terminology for blending or smudging. The more common and precise term is 'papel' (paper), such as 'papel higiênico' or 'papel toalha', or 'esfuminho' (blending stump). Using 'tecidos' may confuse learners and does not reflect typical practice. This is a lexical and terminology issue affecting clarity and professional accuracy.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Imagine uma esfera. Para torná-la tridimensional, sombreie o lado mais distante da fonte de luz mais escuro, gradualmente clareando os tons próximos à luz.",
+      "correction": "Imagine uma esfera. Para torná-la tridimensional, sombreie o lado oposto à fonte de luz de forma mais escura, gradualmente clareando os tons próximos à luz.",
+      "description": "The phrase 'o lado mais distante da fonte de luz mais escuro' is awkward and not idiomatic in Brazilian Portuguese. The more natural and clear expression is 'o lado oposto à fonte de luz de forma mais escura'. This improves the style and naturalness of the explanation, making it easier for learners to understand and follow the instructions.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Adicione linhas de contorno cruzadas para mostrar as curvas e dobras da pele, tornando o desenho mais realista.",
+      "correction": "Adicione linhas de contorno cruzadas para mostrar as curvas e as dobras da pele, tornando o desenho mais realista.",
+      "description": "There is a missing article before 'dobras' in the phrase 'as curvas e dobras da pele'. In Portuguese, when listing two nouns with a shared article, the article should be repeated if the nouns are not closely related or to avoid ambiguity. The correct form is 'as curvas e as dobras da pele'. This is a grammar issue affecting clarity and correctness.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Drawing_Techniques.llm.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T21:46:56.760388",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "No se trata exclusivamente de la administración de medicamentos, aunque esto puede ser una parte de la asistencia avanzada.",
+      "correction": "No se trata exclusivamente de la administración de medicamentos, aunque esto puede ser parte de la asistencia avanzada.",
+      "description": "The phrase 'puede ser una parte de la asistencia avanzada' contains a lexical redundancy. In Spanish, 'ser parte de' is more natural and idiomatic than 'ser una parte de.' The correction improves the naturalness and clarity of the sentence.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "usar un paño limpio para evitar infección.",
+      "correction": "usar un paño limpio para evitar infecciones.",
+      "description": "The phrase 'evitar infección' is not fully natural in Spanish; the plural 'infecciones' is more commonly used in medical contexts to refer to the general risk of infection. This correction improves the professional tone and aligns with standard medical terminology.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "El uso de hielo directo no se recomienda, ya que puede causar más daño en la piel.",
+      "correction": "El uso de hielo directo no se recomienda, ya que puede causar más daño a la piel.",
+      "description": "The preposition 'en' in 'daño en la piel' is less precise than 'a la piel' in Spanish when referring to harm caused to a body part. The correction improves grammatical accuracy and idiomatic usage.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "La maniobra de Heimlich se utiliza para tratar un ahogamiento grave cuando la persona aún está consciente y puede toser.",
+      "correction": "La maniobra de Heimlich se utiliza para tratar una obstrucción grave de las vías respiratorias cuando la persona aún está consciente y puede toser.",
+      "description": "The term 'ahogamiento grave' is not the most accurate in Spanish for the context of the Heimlich maneuver. The correct terminology is 'obstrucción grave de las vías respiratorias,' which specifically refers to choking. This correction addresses both lexical precision and medical accuracy.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "No se requiere para personas que están conscientes y respirando normalmente.",
+      "correction": "No se requiere en personas que están conscientes y respiran normalmente.",
+      "description": "The phrase 'para personas que están conscientes y respirando normalmente' is grammatically awkward. The correction 'en personas que están conscientes y respiran normalmente' uses the present tense for 'respirar' to match the ongoing state and improves grammatical flow.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "permitir que respire sola y buscar ayuda médica inmediatamente.",
+      "correction": "permitir que respire por sí misma y buscar ayuda médica inmediatamente.",
+      "description": "The phrase 'respire sola' is less formal and may sound ambiguous. The standard medical expression is 'respire por sí misma,' which is clearer and more professional in Spanish medical contexts.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "First_Aid_Basics.slm.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-03T22:11:22.656504",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.3,
+    "classification": "NATIVE",
+    "total_issues": 6,
+    "total_penalty": 0.7,
+    "issue_breakdown": {
+      "linguistic": 4,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.5,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

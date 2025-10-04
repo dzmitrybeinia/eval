@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Isso ocorreu após a Segunda Guerra Mundial, que destacou a necessidade de uma estrutura global para garantir os direitos humanos.",
+      "correction": "Isso ocorreu após a Segunda Guerra Mundial, que evidenciou a necessidade de uma estrutura global para garantir os direitos humanos.",
+      "description": "The word 'destacou' is not incorrect, but 'evidenciou' is a more precise and contextually appropriate verb in this sentence, as it better conveys the idea that the war made the need for a global human rights framework evident. This improves lexical precision and clarity.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "De acordo com os princípios fundamentais da DUDH, os artigos 18 e 19 protegem a liberdade de pensamento e religião, garantindo que esses direitos sejam invioláveis para todos os seres humanos.",
+      "correction": "De acordo com os princípios fundamentais da DUDH, os artigos 18 e 19 protegem a liberdade de expressão e religião, garantindo que esses direitos sejam invioláveis para todos os seres humanos.",
+      "description": "The feedback refers to 'liberdade de pensamento', but the statement is about 'liberdade de expressão'. For consistency and clarity, the terminology should match the statement and the actual content of the DUDH, which protects both freedom of expression and religion. This correction ensures terminological consistency and accurate reference to the rights discussed.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "A afirmação é falsa. Embora a DUDH tenha grande influência e inspiração para muitas constituições e leis ao redor do mundo, nem todos os países a adotaram como direito constitucional. Alguns países optaram por seguir outros padrões ou adotar apenas partes da DUDH.",
+      "correction": "A afirmação é falsa. Embora a DUDH exerça grande influência e sirva de inspiração para muitas constituições e leis ao redor do mundo, nem todos os países a adotaram como direito constitucional. Alguns países optaram por seguir outros padrões ou adotar apenas partes da DUDH.",
+      "description": "The verbs 'tenha' and 'inspiração' are not incorrect, but 'exerça' and 'sirva de inspiração' are more idiomatic and precise in Brazilian Portuguese. This correction improves grammatical accuracy and naturalness of expression.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Este documento de grande importância estabeleceu os direitos fundamentais que todos os seres humanos devem ser livres para apreciar e exercer.",
+      "correction": "Este documento de grande importância estabeleceu os direitos fundamentais que todos os seres humanos devem ser livres para exercer.",
+      "description": "The verb 'apreciar' is not appropriate in this context. The correct collocation is 'exercer direitos', not 'apreciar direitos'. Removing 'apreciar' ensures lexical precision and avoids semantic inaccuracy.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Este documento histórico estabelece os direitos humanos fundamentais reconhecidos globalmente.",
+      "correction": "Este documento histórico estabelece os direitos humanos fundamentais reconhecidos internacionalmente.",
+      "description": "The term 'globalmente' is understandable, but 'internacionalmente' is the standard and more precise term in Brazilian Portuguese when referring to recognition among nations. This correction improves lexical precision and aligns with common usage in educational and legal contexts.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Human_Rights.slm.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T22:33:42.572094",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.3,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 0.7,
+    "issue_breakdown": {
+      "linguistic": 4,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.5,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

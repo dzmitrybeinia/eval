@@ -1,77 +1,137 @@
 {
   "metadata": {
     "label": "llm",
-    "label_normalized": "llm",
-    "label_key": "llm",
     "language": "german",
-    "generated_at": "2025-10-03T15:59:35.885917"
+    "generated_at": "2025-10-03T21:56:54.614992"
   },
   "top_error_patterns": [
     {
-      "pattern_name": "Incorrect scientific terminology",
-      "category": "linguistic",
-      "subcategory": "Lexical",
+      "pattern_name": "Unlocalized or Inaccurate Terminology",
+      "category": "localization",
+      "subcategory": "Terminology",
       "impact_level": "HIGH",
-      "frequency": "common",
-      "frequency_count": 1,
-      "description": "Use of inaccurate or misleading scientific terms that do not align with standard German usage, potentially causing confusion about key concepts.",
+      "frequency": "very_common",
+      "frequency_count": 18,
+      "description": "Frequent use of English terms, direct translations, or non-standard terminology instead of accepted German equivalents, reducing clarity and professionalism.",
       "examples": [
         {
-          "wrong": "Physikalische Anpassungen",
-          "correct": "Physiologische Anpassungen",
-          "context": "Biology quiz items discussing types of adaptations"
+          "wrong": "Real-World-Beispiel",
+          "correct": "Praxisbeispiel",
+          "context": "Anglicism used instead of standard German term in educational context."
+        },
+        {
+          "wrong": "LGBTQ+-Personen",
+          "correct": "LSBTIQ+-Personen",
+          "context": "English acronym used instead of culturally accepted German version."
+        },
+        {
+          "wrong": "Heimlich-Manöver",
+          "correct": "Heimlich-Handgriff",
+          "context": "Non-standard term for first aid technique."
         }
       ]
     },
     {
-      "pattern_name": "Incorrect grammatical gender for scientific nouns",
+      "pattern_name": "Incorrect grammatical gender agreement",
       "category": "linguistic",
-      "subcategory": "Lexical",
+      "subcategory": "Grammar",
       "impact_level": "HIGH",
-      "frequency": "common",
-      "frequency_count": 1,
-      "description": "Systematic misuse of articles with scientific terms, leading to confusion about grammatical gender and proper noun usage in German.",
+      "frequency": "very_common",
+      "frequency_count": 4,
+      "description": "Frequent mismatches between articles or pronouns and the grammatical gender of nouns, leading to confusion and reduced linguistic accuracy.",
       "examples": [
         {
           "wrong": "das DNA",
           "correct": "die DNA",
-          "context": "Quiz items referencing DNA in explanations or questions"
+          "context": "Incorrect article for feminine noun 'DNA'"
+        },
+        {
+          "wrong": "Der Handelsbilanz misst...",
+          "correct": "Die Handelsbilanz misst...",
+          "context": "Incorrect masculine article for feminine noun 'Handelsbilanz'"
+        },
+        {
+          "wrong": "dass keine Zweig zu mächtig wird",
+          "correct": "dass kein Zweig zu mächtig wird",
+          "context": "Incorrect feminine article for masculine noun 'Zweig'"
+        },
+        {
+          "wrong": "für die Ausdruck",
+          "correct": "für den Ausdruck",
+          "context": "Incorrect feminine article for masculine noun 'Ausdruck' in accusative case"
         }
       ]
     },
     {
-      "pattern_name": "Inconsistent or Unlocalized Terminology",
-      "category": "localization",
-      "subcategory": "Terminology",
-      "impact_level": "MEDIUM",
-      "frequency": "very_common",
-      "frequency_count": 5,
-      "description": "English terms or direct translations are used without proper German equivalents or explanations, leading to confusion and reduced accessibility for learners unfamiliar with the source language or context.",
+      "pattern_name": "Lexical errors due to false friends or anglicisms",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "HIGH",
+      "frequency": "common",
+      "frequency_count": 3,
+      "description": "Use of incorrect terms or direct translations from English that do not fit German scientific or cultural context, reducing clarity and professionalism.",
       "examples": [
         {
-          "wrong": "Student Nonviolent Coordinating Committee (SNCC)",
-          "correct": "Student Nonviolent Coordinating Committee (SNCC, Studentischer Ausschuss für gewaltfreie Koordination)",
-          "context": "US-specific organization name presented without German explanation"
+          "wrong": "Physikalische Anpassungen",
+          "correct": "Physiologische Anpassungen",
+          "context": "Incorrect use of 'physikalisch' instead of 'physiologisch' for biological adaptations"
         },
         {
-          "wrong": "Voting Rights Act von 1965",
-          "correct": "Wahlrechtsgesetz von 1965 (Voting Rights Act)",
-          "context": "Legal term translated directly with English title and German preposition"
-        },
-        {
-          "wrong": "Boolean: Wahrheitswerte (True oder False)",
-          "correct": "Boolean: Wahrheitswerte (Wahr oder Falsch)",
-          "context": "Programming terminology explained using English terms instead of German"
+          "wrong": "Poetry ist eine besondere Form der Literatur...",
+          "correct": "Poesie ist eine besondere Form der Literatur...",
+          "context": "Use of English 'Poetry' instead of German 'Poesie'"
         },
         {
           "wrong": "Kaktuszaunkönigin",
           "correct": "Kaktuszaunkönig",
-          "context": "Incorrect gender and non-standard species name in German"
+          "context": "Incorrect species/gender name for bird; lexical inaccuracy"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Omission or misuse of articles and case in complex noun phrases",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "HIGH",
+      "frequency": "occasional",
+      "frequency_count": 2,
+      "description": "Missing or incorrect definite articles and case endings in multi-part noun phrases, especially with historical periods or abstract nouns, leading to ambiguity.",
+      "examples": [
+        {
+          "wrong": "entwickelt während Mittelalter, Renaissance, Barock, Klassik und Romantik.",
+          "correct": "entwickelt während des Mittelalters, der Renaissance, des Barock, der Klassik und der Romantik.",
+          "context": "Missing genitive case and definite articles for historical periods"
         },
         {
-          "wrong": "Globale Konflikte: Große gesellschaftliche oder politische Auseinandersetzungen.",
-          "correct": "Globale Konflikte: Internationale gesellschaftliche oder politische Auseinandersetzungen.",
-          "context": "Definition lacks specificity for 'global' in German educational context"
+          "wrong": "Trug zur Überwindung rassischer Barrieren und kulturellem Austausch bei.",
+          "correct": "Trug zur Überwindung rassischer Barrieren und zum kulturellen Austausch bei.",
+          "context": "Incorrect dative case and article usage in compound phrase"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Non-Standard or Unidiomatic German Phrasing",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "MEDIUM",
+      "frequency": "very_common",
+      "frequency_count": 18,
+      "description": "Sentences often use phrasing that is understandable but less idiomatic or natural in German, affecting readability and professional tone. Corrections involve more typical word order, verb choice, or expressions.",
+      "examples": [
+        {
+          "wrong": "Mit dem Verständnis dieser Grundlagen habt ihr den ersten Schritt zum Programmieren gemacht!",
+          "correct": "Mit dem Verständnis dieser Grundlagen habt ihr den ersten Schritt zum Programmieren getan!",
+          "context": "Closing statements in programming lessons"
+        },
+        {
+          "wrong": "Das Verständnis dieser Bausteine wird dir helfen, ein besserer Leser und Schreiber zu werden.",
+          "correct": "Das Verständnis dieser Bausteine wird dir helfen, besser lesen und schreiben zu können.",
+          "context": "Literacy skill explanations"
+        },
+        {
+          "wrong": "Wo möglich, auf unverarbeitete Lebensmittel zurückgreifen.",
+          "correct": "Wo möglich, unverarbeitete Lebensmittel wählen.",
+          "context": "Nutrition advice"
         }
       ]
     },
@@ -81,235 +141,430 @@
       "subcategory": "Style",
       "impact_level": "MEDIUM",
       "frequency": "very_common",
-      "frequency_count": 4,
-      "description": "Emojis such as 🌍, 🧮, and 🌟 are used in educational materials where a formal and professional tone is expected. Their inclusion can undermine seriousness and distract learners, making the content less suitable for German academic contexts.",
+      "frequency_count": 15,
+      "description": "Emojis such as 🌍, 🌟, 🧮, 🖊️, 🎲✨, and 🥧 are frequently used in educational materials, but are considered informal and unprofessional in German academic contexts. Their removal improves the tone and cultural appropriateness.",
       "examples": [
         {
           "wrong": "Willkommen zu einer Reise in die Welt des Alten Ägypten! 🌍",
           "correct": "Willkommen zu einer Reise in die Welt des Alten Ägypten!",
-          "context": "Introductory sentence in a history quiz"
+          "context": "Introductory paragraphs in history lessons"
         },
         {
-          "wrong": "🧮",
-          "correct": "",
-          "context": "Introductory paragraph in a math quiz"
+          "wrong": "In dieser Lektion werden wir die sechs Haupttypen einfacher Maschinen kennenlernen und herausfinden, wie sie unseren Alltag erleichtern. 🌟",
+          "correct": "In dieser Lektion werden wir die sechs Haupttypen einfacher Maschinen kennenlernen und herausfinden, wie sie unseren Alltag erleichtern.",
+          "context": "Lesson introductions in science content"
         },
         {
-          "wrong": "🌍",
-          "correct": "",
-          "context": "End of an introductory paragraph"
-        },
-        {
-          "wrong": "🌟",
-          "correct": "",
-          "context": "Motivational or highlight section in educational content"
+          "wrong": "Brüche helfen uns, Dinge gleichmäßig zu teilen und zu verstehen. 🥧",
+          "correct": "Brüche helfen uns, Dinge gleichmäßig zu teilen und zu verstehen.",
+          "context": "Math explanations"
         }
       ]
     },
     {
-      "pattern_name": "Cultural Inaccuracy in Examples and Expressions",
+      "pattern_name": "Terminology Inconsistency and Anglicisms",
+      "category": "localization",
+      "subcategory": "Terminology",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 12,
+      "description": "Use of English terms, anglicisms, or non-standard German terminology without explanation or parenthetical translation. Corrections provide standard German terms or add clarifying parentheticals.",
+      "examples": [
+        {
+          "wrong": "Voting Rights Act von 1965",
+          "correct": "Voting Rights Act von 1965 (Gesetz über das Wahlrecht von 1965)",
+          "context": "References to historical laws"
+        },
+        {
+          "wrong": "Planer verwenden",
+          "correct": "Kalender oder Terminplaner verwenden",
+          "context": "Study skills and organization"
+        },
+        {
+          "wrong": "Roulette und Blackjack",
+          "correct": "Roulette und Black Jack",
+          "context": "Games and probability lessons"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Literal Translation of Idioms and Metaphors",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 10,
+      "description": "Direct translation of English idioms or metaphors leads to unnatural or unclear German expressions, affecting comprehension and cultural fit.",
+      "examples": [
+        {
+          "wrong": "Freundlichkeit ist wie ein magisches Werkzeug, das die Welt zu einem besseren Ort macht.",
+          "correct": "Freundlichkeit ist wie ein Zauber, der die Welt zu einem besseren Ort macht.",
+          "context": "Literal translation of 'magical tool' instead of natural German metaphor."
+        },
+        {
+          "wrong": "Freundlichkeit wirkt wie ein Wellen-Effekt",
+          "correct": "Freundlichkeit wirkt wie eine Welle",
+          "context": "Direct translation of 'ripple effect' not idiomatic in German."
+        },
+        {
+          "wrong": "Das Verständnis deiner eigenen Emotionen kann helfen, sie besser zu steuern.",
+          "correct": "Das Verständnis der eigenen Emotionen kann helfen, sie besser zu steuern.",
+          "context": "Use of informal register and literal phrasing."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Use of non-standard or imprecise terminology",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "MEDIUM",
+      "frequency": "very_common",
+      "frequency_count": 7,
+      "description": "Non-standard, imprecise, or English-influenced terms are used instead of established German terminology, affecting clarity and professional tone.",
+      "examples": [
+        {
+          "wrong": "Symbolschrift-System",
+          "correct": "Schriftsystem aus Symbolen",
+          "context": "Describing writing systems"
+        },
+        {
+          "wrong": "Sample Space",
+          "correct": "Ergebnisraum",
+          "context": "Mathematical terminology"
+        },
+        {
+          "wrong": "Systemstörungen",
+          "correct": "Systemmanipulationen",
+          "context": "Cybersecurity context"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Anglicisms and Unexplained English References",
       "category": "localization",
       "subcategory": "Cultural",
       "impact_level": "MEDIUM",
       "frequency": "common",
-      "frequency_count": 2,
-      "description": "Examples or expressions do not align with cultural norms or standard phrasing in German, which may confuse learners or reduce the authenticity of the content.",
+      "frequency_count": 7,
+      "description": "Use of English terms, mnemonics, or references without explanation or localization, which may confuse German learners or reduce relatability.",
       "examples": [
         {
-          "wrong": "Bären schlafen den Winter über, um Energie zu sparen, wenn Nahrung knapp ist.",
-          "correct": "Bären halten während des Winters Winterschlaf, um Energie zu sparen, wenn Nahrung knapp ist.",
-          "context": "Non-standard phrasing for animal hibernation in German"
+          "wrong": "Student Nonviolent Coordinating Committee (SNCC)",
+          "correct": "Student Nonviolent Coordinating Committee (SNCC, Studentischer Ausschuss für gewaltfreie Koordination)",
+          "context": "English acronym used without German explanation."
         },
         {
-          "wrong": "Erdnussbutter auf eine Scheibe streichen.",
-          "correct": "Butter auf eine Scheibe streichen.",
-          "context": "Food example not typical for German-speaking audiences"
+          "wrong": "Mit „HOMES“ die Großen Seen merken.",
+          "correct": "Mit einem Akronym wie „HOMES“ die Großen Seen merken.",
+          "context": "US-centric mnemonic not explained for German learners."
+        },
+        {
+          "wrong": "Laut EPA-Daten reduziert Recycling die Abfallmenge auf Deponien um 30 %.",
+          "correct": "Laut Umweltbundesamt-Daten reduziert Recycling die Abfallmenge auf Deponien um 30 %.",
+          "context": "Reference to US institution instead of German equivalent."
         }
       ]
     },
     {
-      "pattern_name": "Incorrect Use of Quotation Marks",
+      "pattern_name": "Non-Inclusive or Inconsistent Register",
       "category": "localization",
       "subcategory": "Style",
       "impact_level": "MEDIUM",
       "frequency": "common",
-      "frequency_count": 2,
-      "description": "English-style double quotes (\" \") are used instead of German quotation marks („ “) in explanations and comments. This affects typographic correctness and cultural fit in German educational materials.",
+      "frequency_count": 7,
+      "description": "Use of informal address, generic masculine forms, or inconsistent register, which reduces professionalism and inclusivity in educational content.",
       "examples": [
         {
-          "wrong": "Stell dir eine Box vor, die mit \"Punktestand\" beschriftet ist.",
-          "correct": "Stell dir eine Box vor, die mit „Punktestand“ beschriftet ist.",
-          "context": "Instructional sentence describing a labeled box"
+          "wrong": "Stellen Sie sich vor, Sie entwerfen einen Rucksack für Schüler.",
+          "correct": "Stellen Sie sich vor, Sie entwerfen einen Rucksack für Schülerinnen und Schüler.",
+          "context": "Generic masculine form instead of gender-inclusive language."
         },
         {
-          "wrong": "print(\"Hallo, Welt!\")  # Zeigt \"Hallo, Welt!\" auf dem Bildschirm an",
-          "correct": "print(\"Hallo, Welt!\")  # Zeigt „Hallo, Welt!“ auf dem Bildschirm an",
-          "context": "Code comment explaining output"
+          "wrong": "Erkläre dein Experiment und deine Ergebnisse deinen Mitschülern.",
+          "correct": "Erkläre dein Experiment und deine Ergebnisse deinen Mitschülerinnen und Mitschülern.",
+          "context": "Non-inclusive address in school context."
+        },
+        {
+          "wrong": "Lasst uns gemeinsam die faszinierende Struktur der DNA ... erkunden! 🧬",
+          "correct": "Lassen Sie uns gemeinsam die faszinierende Struktur der DNA ... erkunden! 🧬",
+          "context": "Informal plural imperative instead of formal register."
         }
       ]
     },
     {
-      "pattern_name": "Non-Standard Terminology Usage",
-      "category": "localization",
-      "subcategory": "Terminology",
-      "impact_level": "MEDIUM",
-      "frequency": "occasional",
-      "frequency_count": 2,
-      "description": "English terms or phrases are used where established German terminology exists, reducing clarity and professional tone for German learners.",
-      "examples": [
-        {
-          "wrong": "LGBTQ+-Personen",
-          "correct": "LSBTIQ+-Personen",
-          "context": "Reference to gender and sexual diversity in social studies content"
-        },
-        {
-          "wrong": "Verwenden Sie „Ich“-Aussagen, um Ihre Gefühle auszudrücken.",
-          "correct": "Verwenden Sie Ich-Botschaften, um Ihre Gefühle auszudrücken.",
-          "context": "Instructional sentence in a psychology or communication lesson"
-        }
-      ]
-    },
-    {
-      "pattern_name": "Incorrect compound noun formation",
+      "pattern_name": "Non-standard or awkward compound noun formation",
       "category": "linguistic",
       "subcategory": "Orthography",
       "impact_level": "MEDIUM",
       "frequency": "common",
-      "frequency_count": 1,
-      "description": "Compound nouns are incorrectly split or hyphenated, violating German orthographic rules and reducing linguistic accuracy.",
+      "frequency_count": 5,
+      "description": "Compound nouns are incorrectly formed, either missing connecting letters or written as separate words, which is not standard in German orthography.",
       "examples": [
         {
-          "wrong": "Symbolschrift-System",
-          "correct": "Symbolschriftsystem",
-          "context": "Compound noun in educational content"
+          "wrong": "Variable Zuweisung",
+          "correct": "Variablenzuweisung",
+          "context": "Technical terminology in computer science"
+        },
+        {
+          "wrong": "Geschichtelemente",
+          "correct": "Geschichtselemente",
+          "context": "Educational content about history"
+        },
+        {
+          "wrong": "Optionenbewertung",
+          "correct": "Bewertung von Optionen",
+          "context": "Assessment terminology"
         }
       ]
     },
     {
-      "pattern_name": "Use of unnecessary anglicisms",
-      "category": "linguistic",
-      "subcategory": "Lexical",
-      "impact_level": "MEDIUM",
-      "frequency": "common",
-      "frequency_count": 1,
-      "description": "English terms are used where standard German equivalents exist, leading to reduced clarity and professionalism in educational contexts.",
-      "examples": [
-        {
-          "wrong": "Real-World-Beispiel",
-          "correct": "Praxisbeispiel",
-          "context": "Example terminology in quiz items"
-        }
-      ]
-    },
-    {
-      "pattern_name": "Missing prepositions in idiomatic expressions",
+      "pattern_name": "Incorrect or awkward grammatical constructions",
       "category": "linguistic",
       "subcategory": "Grammar",
       "impact_level": "MEDIUM",
       "frequency": "common",
-      "frequency_count": 1,
-      "description": "Idiomatic expressions lack required prepositions, resulting in incomplete or non-standard phrasing that affects comprehension.",
+      "frequency_count": 5,
+      "description": "Sentences contain grammatical errors such as incorrect case, unnatural verb choices, or awkward word order, reducing clarity and naturalness.",
       "examples": [
         {
-          "wrong": "das ganze Jahr",
-          "correct": "das ganze Jahr über",
-          "context": "Temporal expression in descriptive sentences"
+          "wrong": "Unser Produkt ist wissenschaftlich bewiesen wirksam!",
+          "correct": "Unser Produkt ist wissenschaftlich als wirksam bewiesen!",
+          "context": "Product description"
+        },
+        {
+          "wrong": "Ein historischer Roman, der das Leben während des Bürgerkriegs imaginiert.",
+          "correct": "Ein historischer Roman, der das Leben während des Bürgerkriegs beschreibt.",
+          "context": "Literary description"
+        },
+        {
+          "wrong": "Internationalen Pakt über bürgerliche und politische Rechte",
+          "correct": "Internationaler Pakt über bürgerliche und politische Rechte",
+          "context": "Legal terminology"
         }
       ]
     },
     {
-      "pattern_name": "Inconsistent Use of Formal and Informal Address",
-      "category": "localization",
-      "subcategory": "Style",
-      "impact_level": "MEDIUM",
-      "frequency": "occasional",
-      "frequency_count": 1,
-      "description": "Switching between formal ('Sie') and informal ('du') forms disrupts tone consistency, which is important for educational content targeting specific age groups or learning contexts.",
-      "examples": [
-        {
-          "wrong": "Nutzen Sie die Gelegenheit, kleine Programme zu schreiben und zu experimentieren, wie Variablen und Datentypen zusammenarbeiten.",
-          "correct": "Nutze die Gelegenheit, kleine Programme zu schreiben und zu experimentieren, wie Variablen und Datentypen zusammenarbeiten.",
-          "context": "Formal address used in otherwise informal lesson"
-        }
-      ]
-    },
-    {
-      "pattern_name": "Incorrect sentence-initial capitalization",
+      "pattern_name": "Improper Hyphenation in Compound Nouns and Adjectives",
       "category": "linguistic",
       "subcategory": "Orthography",
-      "impact_level": "LOW",
+      "impact_level": "MEDIUM",
       "frequency": "common",
-      "frequency_count": 1,
-      "description": "Sentences, especially imperatives, sometimes begin with a lowercase letter instead of the required uppercase, which violates German orthographic conventions.",
+      "frequency_count": 5,
+      "description": "Compound nouns and adjectives are sometimes written without the recommended hyphenation, which can reduce readability and clarity, especially in technical or educational contexts.",
       "examples": [
         {
-          "wrong": "nimm einen Regenschirm.",
-          "correct": "Nimm einen Regenschirm.",
-          "context": "Imperative sentence at the start of a quiz item."
+          "wrong": "Nicht erneuerbare Ressourcen",
+          "correct": "Nicht-erneuerbare Ressourcen",
+          "context": "Compound adjective before noun in scientific/educational text"
+        },
+        {
+          "wrong": "Hochgeschwindigkeitsabgase",
+          "correct": "Hochgeschwindigkeits-Abgase",
+          "context": "Technical compound noun in science context"
+        },
+        {
+          "wrong": "Geschichtelemente Einführung",
+          "correct": "Geschichtelemente-Einführung",
+          "context": "Heading or thematic compound noun"
+        },
+        {
+          "wrong": "Schritt-für-Schritt-Prozess",
+          "correct": "Schritt-für-Schritt-Prozess",
+          "context": "Multi-part compound noun; correct usage, but pattern is relevant for teaching"
+        },
+        {
+          "wrong": "Pro-und-Kontra-Listen",
+          "correct": "Pro-und-Kontra-Listen",
+          "context": "Compound noun; correct usage, but capitalization and hyphenation are recurring points"
         }
       ]
     },
     {
-      "pattern_name": "Imprecise verb choice for educational context",
+      "pattern_name": "Lexical Precision in Educational Contexts",
       "category": "linguistic",
       "subcategory": "Lexical",
-      "impact_level": "LOW",
-      "frequency": "common",
-      "frequency_count": 1,
-      "description": "Use of general verbs like 'machen' instead of more precise alternatives such as 'zubereiten' in instructional or educational contexts, reducing lexical accuracy.",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 3,
+      "description": "Use of less precise or anglicized terms instead of standard or more natural German expressions, which can reduce clarity and professionalism in educational materials.",
       "examples": [
         {
           "wrong": "Ein Butterbrot machen.",
           "correct": "Ein Butterbrot zubereiten.",
-          "context": "Instructional phrase describing food preparation."
+          "context": "Verb choice for food preparation in instructional context"
+        },
+        {
+          "wrong": "Standarddeck",
+          "correct": "Standardspielkarten-Deck",
+          "context": "Anglicism for playing cards in educational context"
+        },
+        {
+          "wrong": "gesellschaftliche Kommentare",
+          "correct": "gesellschaftliche Themen",
+          "context": "Imprecise term for social commentary in lyrics"
         }
       ]
     },
     {
-      "pattern_name": "Potential confusion with Eszett (ß) usage",
+      "pattern_name": "Incorrect or non-idiomatic prepositional and pronoun usage",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 2,
+      "description": "Prepositions or pronouns are used in a way that is grammatically correct but not idiomatic or natural in German, affecting comprehension.",
+      "examples": [
+        {
+          "wrong": "das ganze Jahr",
+          "correct": "das ganze Jahr über",
+          "context": "Describing time periods"
+        },
+        {
+          "wrong": "warum dies geschieht",
+          "correct": "warum das geschieht",
+          "context": "Explaining scientific observations"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Abbreviation Usage and Punctuation",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 2,
+      "description": "Abbreviations like 'z. B.' are used instead of the full phrase 'zum Beispiel', and are sometimes missing required punctuation, which can affect clarity and formality in educational content.",
+      "examples": [
+        {
+          "wrong": "wie z. B. tiefes Atmen oder zusätzliche Vorbereitung.",
+          "correct": "wie zum Beispiel tiefes Atmen oder zusätzliche Vorbereitung.",
+          "context": "Abbreviation used in instructional context; full phrase preferred for clarity"
+        },
+        {
+          "wrong": "Es reagiert leicht mit anderen Elementen, z. B. um Kochsalz (Natriumchlorid) zu bilden.",
+          "correct": "Es reagiert leicht mit anderen Elementen, z. B., um Kochsalz (Natriumchlorid) zu bilden.",
+          "context": "Missing comma after abbreviation introducing subordinate clause"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect spelling of culturally specific terms",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "MEDIUM",
+      "frequency": "rare",
+      "frequency_count": 1,
+      "description": "Culturally specific terms are misspelled due to influence from other languages, which can affect localization fit and learner understanding.",
+      "examples": [
+        {
+          "wrong": "Bar/Bat Mitzwa",
+          "correct": "Bar/Bat Mizwa",
+          "context": "Jewish cultural terminology"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Formatting and Orthographic Issues",
+      "category": "localization",
+      "subcategory": "Format",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 5,
+      "description": "Formatting errors such as incorrect use of hyphens in compound nouns, improper scientific notation, or non-standard presentation of numbers and symbols. Corrections align with German orthographic and formatting conventions.",
+      "examples": [
+        {
+          "wrong": "CO2-Fußabdruck",
+          "correct": "CO₂-Fußabdruck",
+          "context": "Environmental science terminology"
+        },
+        {
+          "wrong": "Zwei-Drittel-Mehrheit",
+          "correct": "Zweidrittelmehrheit",
+          "context": "Political science and voting"
+        },
+        {
+          "wrong": "Notrufnummer wählen (112).",
+          "correct": "Notrufnummer 112 wählen.",
+          "context": "Safety instructions"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Cultural and Contextual Localization Gaps",
+      "category": "localization",
+      "subcategory": "Cultural",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 4,
+      "description": "References or examples lack local cultural relevance or context, or use phrasing that may be unclear to German learners. Corrections provide more locally resonant examples or clarify institutional references.",
+      "examples": [
+        {
+          "wrong": "Eine Biografie von Martin Luther King Jr.",
+          "correct": "Eine Biografie über Martin Luther King Jr.",
+          "context": "Biographical references"
+        },
+        {
+          "wrong": "Im wegweisenden Fall *Brown v. Board of Education* entschied der Oberste Gerichtshof...",
+          "correct": "Im wegweisenden Fall *Brown v. Board of Education* entschied der Oberste Gerichtshof der Vereinigten Staaten...",
+          "context": "Legal and historical context"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Non-Standard Punctuation and Typography",
       "category": "linguistic",
       "subcategory": "Orthography",
       "impact_level": "LOW",
       "frequency": "occasional",
-      "frequency_count": 1,
-      "description": "Words like 'Spaß' may be incorrectly spelled as 'Spass', especially after a long vowel, which is a common orthographic error in German.",
+      "frequency_count": 2,
+      "description": "Use of English-style punctuation (e.g., em dash) or non-standard typographic elements instead of German conventions, which can affect the professional tone.",
       "examples": [
         {
-          "wrong": "Spass",
-          "correct": "Spaß",
-          "context": "Noun referring to 'fun' in quiz content."
+          "wrong": "Ein Frosch springt hinein—",
+          "correct": "Ein Frosch springt hinein –",
+          "context": "Use of em dash instead of spaced en dash in narrative text"
+        },
+        {
+          "wrong": "Phantásien",
+          "correct": "Phantásien",
+          "context": "Non-standard accent in literary context; not an error but a recurring point for clarification"
         }
       ]
     },
     {
-      "pattern_name": "Missing Subject Pronoun in Explanatory Sentences",
-      "category": "localization",
-      "subcategory": "Style",
+      "pattern_name": "Ambiguity in Grammatical Structures",
+      "category": "linguistic",
+      "subcategory": "Grammar",
       "impact_level": "LOW",
       "frequency": "occasional",
-      "frequency_count": 1,
-      "description": "Explanatory sentences omit the subject pronoun, which is less natural in German and can affect clarity for learners.",
+      "frequency_count": 2,
+      "description": "Ambiguous or less idiomatic grammatical constructions that could be clarified for better comprehension and naturalness.",
       "examples": [
         {
-          "wrong": "Zersetzen Abfall und recyceln Materialien.",
-          "correct": "Sie zersetzen Abfall und recyceln Materialien.",
-          "context": "Science explanation about microorganisms"
+          "wrong": "Wenn der Kongress ein Gesetz verabschiedet, muss es vom Präsidenten (Exekutive) genehmigt oder abgelehnt werden.",
+          "correct": "Wenn der Kongress ein Gesetz verabschiedet, muss es vom Präsidenten (der Exekutive) genehmigt oder abgelehnt werden.",
+          "context": "Ambiguous parenthetical reference in political context"
+        },
+        {
+          "wrong": "Er erwachte erschrocken,",
+          "correct": "Er erwachte erschrocken auf,",
+          "context": "Missing separable verb particle for idiomatic expression"
         }
       ]
     },
     {
-      "pattern_name": "Incorrect Currency Formatting",
+      "pattern_name": "Formatting and Convention Mismatches",
       "category": "localization",
       "subcategory": "Format",
       "impact_level": "LOW",
-      "frequency": "rare",
-      "frequency_count": 1,
-      "description": "A regular space is used between the number and the euro sign instead of a non-breaking space, which can cause formatting issues and is not typographically correct in German.",
+      "frequency": "occasional",
+      "frequency_count": 2,
+      "description": "Use of English or US formatting conventions (e.g., phone numbers) instead of German standards, which may cause confusion or reduce local fit.",
       "examples": [
         {
-          "wrong": "20 €",
-          "correct": "20 €",
-          "context": "Price or currency value in a math or economics quiz"
+          "wrong": "1234567890 wird zu 123-456-7890.",
+          "correct": "1234567890 wird zu 123 456 7890.",
+          "context": "US phone number formatting with hyphens instead of German grouping."
         }
       ]
     }

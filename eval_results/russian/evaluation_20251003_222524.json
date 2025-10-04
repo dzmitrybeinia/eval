@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Индустриальные решения относится к профессиональным или карьерным выборам, которые могут быть сложными и иметь этические последствия.",
+      "correction": "Индустриальные решения относятся к профессиональным или карьерным выборам, которые могут быть сложными и иметь этические последствия.",
+      "description": "The verb 'относится' is incorrectly used in the singular form, while the subject 'индустриальные решения' is plural. The correct verb form is 'относятся' to match the plural subject. This error affects grammatical agreement and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Индустриальные решения",
+      "correction": "Профессиональные решения",
+      "description": "The term 'индустриальные решения' is not commonly used in Russian to refer to professional or career choices. 'Профессиональные решения' is a more natural and widely accepted term in Russian educational and business contexts. This improves clarity and cultural appropriateness.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Decision_Making.slm.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T22:25:24.406020",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "🌍 Они играют ключевую роль в нашей жизни, обеспечивая пищу, энергию, жилье и многое другое.",
+      "correction": "Они играют ключевую роль в нашей жизни, обеспечивая пищу, энергию, жилье и многое другое.",
+      "description": "The use of the globe emoji (🌍) at the beginning of the sentence is not standard in Russian educational materials and may be perceived as informal or distracting in a formal learning context. Removing the emoji ensures the tone remains professional and appropriate for the target audience.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "ископаемое топливо",
+      "correction": "ископаемое топливо",
+      "description": "The term 'ископаемое топливо' is used correctly in the context of natural resources. However, in Russian educational and scientific discourse, the plural form 'ископаемые виды топлива' or simply 'ископаемые топлива' is more commonly used when listing examples alongside other plural nouns. Consider using the plural form for consistency and naturalness in enumeration.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Ответственное лесоводство: посадка деревьев после их вырубки.",
+      "correction": "Ответственное лесопользование: посадка деревьев после их вырубки.",
+      "description": "The term 'лесоводство' refers specifically to the science and practice of growing forests, while 'лесопользование' is the standard term in Russian for responsible forest management and use. Using 'лесопользование' aligns with industry-standard terminology and improves clarity for Russian-speaking learners.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "вырубка лесов без их восстановления приводит к потере биоразнообразия и экологическому дисбалансу.",
+      "correction": "вырубка лесов без их восстановления приводит к потере биоразнообразия и экологическому дисбалансу.",
+      "description": "The phrase is grammatically correct, but the use of 'экологическому дисбалансу' is less common than 'нарушению экологического баланса' in Russian scientific and educational texts. Consider revising to 'нарушению экологического баланса' for improved lexical precision and naturalness.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Natural_Resources.llm.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T21:40:33.887862",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

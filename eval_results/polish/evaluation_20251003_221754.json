@@ -1,0 +1,83 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "zazwyczni",
+      "correction": "zazwyczaj",
+      "description": "The word 'zazwyczni' is a misspelling; the correct form is 'zazwyczaj'. This error appears in multiple feedback sections and affects the clarity and professionalism of the educational content.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "ułomniczych",
+      "correction": "krótkich",
+      "description": "The word 'ułomniczych' is not a valid Polish word and seems to be a misspelling or incorrect lexical choice. The intended meaning is likely 'krótkich' (short), which fits the context of describing concise sentences.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Główne myśle w tekście są tylko przykładem dla szczegółów wspierających.",
+      "correction": "Główne myśli w tekście są tylko przykładem dla szczegółów wspierających.",
+      "description": "The noun 'myśle' is incorrect; the correct plural nominative form is 'myśli'. This is a grammatical error affecting noun declension and agreement.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "na którze szczegóły wspierające koncentrują się",
+      "correction": "na których szczegóły wspierające się koncentrują",
+      "description": "The pronoun 'któtrze' is incorrect; the correct form is 'których' (locative plural). Additionally, the word order should be adjusted for natural Polish syntax: 'szczegóły wspierające się koncentrują'.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "racjami, które wzmocnią główne przesłanie tekstu",
+      "correction": "argumentami, które wzmacniają główne przesłanie tekstu",
+      "description": "The word 'racjami' is an unnatural lexical choice in this context. 'Argumentami' is more appropriate for educational Polish, and the verb should be in the present tense 'wzmacniają' for consistency.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "czynność która ma znaczną rolę w tekście",
+      "correction": "czynność, która odgrywa znaczącą rolę w tekście",
+      "description": "The phrase lacks a comma before the relative clause ('która'). The verb 'ma' is less precise than 'odgrywa', and 'znaczną rolę' should be 'znaczącą rolę' for correct adjective agreement.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Składanie kluczowych punktów z tekstu nie wpływają na zrozumienie głównych myśli.",
+      "correction": "Składanie kluczowych punktów z tekstu nie wpływa na zrozumienie głównych myśli.",
+      "description": "The verb should agree with the singular subject 'składanie', so 'wpływają' should be 'wpływa'. This is a subject-verb agreement error.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Reading_Strategies.slm.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T22:17:54.564105",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 8.1,
+    "classification": "PROFESSIONAL",
+    "total_issues": 7,
+    "total_penalty": 1.9,
+    "issue_breakdown": {
+      "linguistic": 7,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.9,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

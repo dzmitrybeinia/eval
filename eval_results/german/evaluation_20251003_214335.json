@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Emotional Intelligence (EI) ist die Fähigkeit, die eigenen Emotionen zu verstehen, zu steuern und auszudrücken sowie die Emotionen anderer zu erkennen und darauf zu reagieren.",
+      "correction": "Emotionale Intelligenz (EI) ist die Fähigkeit, die eigenen Emotionen zu verstehen, zu steuern und auszudrücken sowie die Emotionen anderer zu erkennen und darauf zu reagieren.",
+      "description": "The term 'Emotional Intelligence' is presented in English within a German-language educational context. For consistency and naturalness, the German term 'Emotionale Intelligenz' should be used throughout, especially in introductory definitions. This ensures the terminology aligns with local expectations and maintains professional language standards.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Stell dir vor, du bist frustriert während eines Gruppenprojekts.",
+      "correction": "Stell dir vor, du bist während eines Gruppenprojekts frustriert.",
+      "description": "The phrase 'du bist frustriert während eines Gruppenprojekts' is understandable but slightly unnatural in German word order. Placing 'während eines Gruppenprojekts' earlier in the sentence improves flow and aligns with native stylistic preferences. This enhances readability and naturalness for German learners.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "wie z. B. tiefes Atmen oder zusätzliche Vorbereitung.",
+      "correction": "wie zum Beispiel tiefes Atmen oder zusätzliche Vorbereitung.",
+      "description": "The abbreviation 'z. B.' for 'zum Beispiel' is correct, but in educational content, especially for learners, it is preferable to write out 'zum Beispiel' in full for clarity and formality. This avoids confusion and maintains a consistent register.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Wenn ein Freund nach einer schlechten Note traurig ist, ermöglicht dir Empathie, zuzuhören, Unterstützung anzubieten und ihm das Gefühl zu geben, verstanden zu werden.",
+      "correction": "Wenn ein Freund nach einer schlechten Note traurig ist, hilft dir Empathie, zuzuhören, Unterstützung anzubieten und ihm das Gefühl zu geben, verstanden zu werden.",
+      "description": "The verb 'ermöglicht' is technically correct but less idiomatic in this context. 'Hilft' is more natural and commonly used in German when describing how empathy assists in responding to others' emotions. This change improves the naturalness and accessibility of the example.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Emotional_Intelligence.llm.md",
+    "language": "German",
+    "timestamp": "2025-10-03T21:43:35.361687",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.4,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

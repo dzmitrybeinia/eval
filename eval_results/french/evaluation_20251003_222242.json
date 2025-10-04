@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Les éléments des groupes 1 et 2, qui sont respectivement connus sous le nom de les métaux alcalins et les métaux alcalino-terreux, ont des configurations électroniques différentes.",
+      "correction": "Les éléments des groupes 1 et 2, qui sont respectivement connus sous le nom de métaux alcalins et de métaux alcalino-terreux, ont des configurations électroniques différentes.",
+      "description": "The phrase 'sous le nom de les métaux alcalins et les métaux alcalino-terreux' contains a grammatical error: the definite article 'les' should be omitted after 'de' and replaced with the correct contraction. The correct form is 'de métaux alcalins et de métaux alcalino-terreux.' This ensures proper article contraction and preposition usage in French.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Cela est dû au fait que, à mesure que vous progressez dans une période, les couches électroniques ajoutées contiennent plus d'électrons, ce qui entraîne une augmentation de la répulsion électronique interne et une diminution de la taille atomique globale.",
+      "correction": "Cela est dû au fait que, à mesure que vous progressez dans une période, la charge nucléaire augmente, ce qui attire les électrons plus fortement et diminue la taille atomique globale.",
+      "description": "The explanation incorrectly states that added electron shells increase internal electron repulsion, leading to a decrease in atomic size. In reality, as you move across a period, the number of protons (nuclear charge) increases, pulling electrons closer and reducing atomic size. The feedback should reflect the correct scientific reasoning for atomic radius trends.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Periodic_Table.slm.md",
+    "language": "French",
+    "timestamp": "2025-10-03T22:22:42.094055",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.5,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

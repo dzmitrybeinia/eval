@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Aujourd'hui, nous allons découvrir trois stratégies clés : le survol, la recherche rapide et la lecture approfondie. Ces approches vous aideront à lire plus efficacement et à analyser les textes avec plus de profondeur. 🌟",
+      "correction": "Aujourd'hui, nous allons découvrir trois stratégies clés : le survol, la recherche rapide et la lecture approfondie. Ces approches vous aideront à lire plus efficacement et à analyser les textes avec plus de profondeur.",
+      "description": "The use of the star emoji (🌟) at the end of the sentence is not standard in formal French educational content and may be perceived as informal or distracting. Removing the emoji ensures the tone remains professional and appropriate for an academic context.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Vous survolez en lisant les titres des sections, les termes en gras et la première phrase de chaque paragraphe pour comprendre le sujet général, comme \"Les causes de la Révolution française\".",
+      "correction": "Vous survolez le texte en lisant les titres des sections, les termes en gras et la première phrase de chaque paragraphe pour comprendre le sujet général, comme \"Les causes de la Révolution française\".",
+      "description": "The verb 'survoler' requires a direct object. The original sentence omits 'le texte' after 'Vous survolez', which can cause ambiguity. Adding 'le texte' clarifies the action and ensures grammatical correctness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "La recherche rapide est une stratégie de lecture ciblée utilisée pour localiser rapidement des informations spécifiques.",
+      "correction": "La recherche rapide est une stratégie de lecture ciblée utilisée pour repérer rapidement des informations spécifiques.",
+      "description": "The verb 'localiser' is more commonly used for physical locations or mapping, while 'repérer' is the standard term in French educational contexts for finding information in a text. Using 'repérer' improves naturalness and aligns with local terminology.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Si on vous demande « En quelle année a commencé la Révolution française ? », vous recherchez rapidement l'année \"1789\" sans lire chaque mot.",
+      "correction": "Si on vous demande « En quelle année a commencé la Révolution française ? », vous recherchez rapidement l'année « 1789 » sans lire chaque mot.",
+      "description": "French typographic conventions require the use of guillemets (« ») for quotations instead of English quotation marks (\" \"). Replacing the quotation marks with guillemets ensures orthographic correctness and adherence to French formatting standards.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "En utilisant ces trois stratégies selon les besoins, vous pouvez aborder n'importe quelle tâche de lecture avec confiance et efficacité.",
+      "correction": "En utilisant ces trois stratégies selon vos besoins, vous pouvez aborder n'importe quelle tâche de lecture avec confiance et efficacité.",
+      "description": "The phrase 'selon les besoins' is less personal and may sound vague. 'Selon vos besoins' is more direct and reader-focused, which is preferred in French educational materials to engage the learner.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Reading_Strategies.llm.md",
+    "language": "French",
+    "timestamp": "2025-10-03T21:36:34.112309",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

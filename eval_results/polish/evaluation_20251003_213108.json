@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Lunar New Year (Chiny i inne kraje wschodnioazjatyckie)",
+      "correction": "Chiński Nowy Rok (Chiny i inne kraje wschodnioazjatyckie)",
+      "description": "The term 'Lunar New Year' is not commonly used in Polish educational contexts; 'Chiński Nowy Rok' is the standard and widely recognized term. Using the correct terminology ensures clarity and aligns with local conventions, especially in educational materials.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Festiwal Świateł",
+      "correction": "Festiwal świateł",
+      "description": "In Polish, only the first word of multi-word event names is capitalized unless the name is an official title. 'Festiwal Świateł' should be 'Festiwal świateł' to follow Polish capitalization rules for event names, improving stylistic consistency.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Karnawał to parady, taniec samba i kolorowe stroje, które świętują radość i ducha wspólnoty.",
+      "correction": "Karnawał to parady, taniec samby i kolorowe stroje, które świętują radość i ducha wspólnoty.",
+      "description": "The phrase 'taniec samba' is not idiomatic in Polish; the correct form is 'taniec samby' (genitive case), which is the standard collocation when referring to the samba dance. This correction improves naturalness and aligns with Polish usage.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Czaszki i nagietki symbolizują pamięć oraz świętowanie ukochanych, którzy odeszli.",
+      "correction": "Czaszki i nagietki symbolizują pamięć oraz świętowanie ukochanych osób, które odeszły.",
+      "description": "The phrase 'świętowanie ukochanych, którzy odeszli' is grammatically incorrect because 'ukochani' (beloved) is a masculine-personal plural, but the context requires a neutral plural noun such as 'osób' (people/persons). Additionally, the relative clause should agree in gender and number: 'osób, które odeszły.' This correction ensures proper noun case and agreement.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Cultural_Celebrations.llm.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T21:31:08.725262",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.2,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.8,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.5,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

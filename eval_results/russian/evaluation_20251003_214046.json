@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Экологический ученый пишет статью о климатических изменениях, упоминая свои профессиональные заслуги и ссылаясь на рецензируемые исследования.",
+      "correction": "Эколог пишет статью о климатических изменениях, упоминая свои профессиональные заслуги и ссылаясь на рецензируемые исследования.",
+      "description": "The phrase 'Экологический ученый' is not standard in Russian; the correct term is 'Эколог'. The use of 'экологический' as an adjective for 'учёный' is awkward and not idiomatic. This affects lexical precision and naturalness, and should be corrected for both linguistic accuracy and localization quality.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Письменное убеждение — это мощный инструмент, который помогает убедить аудиторию в определенной точке зрения или действиях.",
+      "correction": "Письменная аргументация — это мощный инструмент, который помогает убедить аудиторию принять определённую точку зрения или предпринять действия.",
+      "description": "The phrase 'Письменное убеждение' is not a natural or commonly used term in Russian educational contexts. 'Письменная аргументация' is more appropriate and idiomatic. Additionally, 'в определенной точке зрения или действиях' is awkward; 'принять определённую точку зрения или предпринять действия' is clearer and more natural. This correction improves both style and clarity for Russian learners.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Этос, пафос и логос — это основные инструменты для создания убедительных аргументов.",
+      "correction": "Этос, пафос и логос — основные инструменты для создания убедительных аргументов.",
+      "description": "The use of 'это' after a dash is unnecessary and nonstandard in Russian. The dash itself serves as a copula in this construction. Removing 'это' aligns with Russian punctuation and sentence structure norms.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Этос укрепляет доверие, пафос привлекает эмоции, а логос усиливает логику.",
+      "correction": "Этос укрепляет доверие, пафос вызывает эмоции, а логос усиливает аргументацию.",
+      "description": "The phrase 'пафос привлекает эмоции' is not idiomatic; 'вызывает эмоции' is more natural. 'Логос усиливает логику' is tautological and less clear; 'усиливает аргументацию' better conveys the intended meaning in Russian educational discourse.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Исследования показывают, что уменьшение размера классов всего на пять студентов может улучшить результаты тестов на 20%.",
+      "correction": "Исследования показывают, что уменьшение размера класса всего на пять учеников может улучшить результаты тестов на 20%.",
+      "description": "The plural 'размера классов' is incorrect in this context; 'размера класса' is the correct genitive singular form. Also, 'студентов' is less appropriate in a school context; 'учеников' is the standard term for school students in Russian. This correction addresses both grammatical case and lexical precision.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Persuasive_Writing.llm.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T21:40:46.940233",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.2,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 0.8,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.5,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

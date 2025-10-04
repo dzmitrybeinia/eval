@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "🌟",
+      "correction": "",
+      "description": "The use of the star emoji at the end of the introductory paragraph may be considered informal and less appropriate for educational content aimed at a general or academic audience. While emojis can enhance engagement in some contexts, their inclusion should be carefully considered based on the formality and expectations of the target audience. Removing the emoji would ensure a more professional and universally appropriate tone.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Fijarse en las primeras y últimas frases de los párrafos.",
+      "correction": "Fíjarse en las primeras y últimas frases de los párrafos.",
+      "description": "The verb 'fijarse' should carry an accent on the 'i' when used in the imperative form 'fíjarse' to indicate a command or instruction. The lack of an accent mark is a minor orthographic error that can affect pronunciation and clarity. Correcting this ensures proper grammatical structure and adherence to Spanish accentuation rules.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Reading_Strategies.llm.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-03T21:29:17.595600",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.8,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.2,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

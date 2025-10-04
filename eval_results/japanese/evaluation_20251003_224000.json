@@ -1,0 +1,123 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "確率は、ある出来事が発生する可能性が0です。.",
+      "correction": "確率は、ある出来事が発生する可能性が0です。",
+      "description": "There is an unnecessary period after the Japanese full stop, resulting in double punctuation (。.). Only one Japanese full stop should be used at the end of the sentence.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "確率は、ある出来事が発生する可能性を表すため、1より大きい数で表されることがあります。0の確率は、可能性がないことを意味しますが、これは確率の基本的な概念ではありません。.",
+      "correction": "確率は、ある出来事が発生する可能性を表すため、0以上1以下の数で表されます。0の確率は、可能性がないことを意味します。",
+      "description": "The phrase '1より大きい数で表されることがあります' is incorrect; probability is always between 0 and 1, inclusive. The sentence also contains a period after the Japanese full stop, which is unnecessary. The final clause 'これは確率の基本的な概念ではありません' is misleading, as the concept of zero probability is fundamental.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "サイコロを投げると、常に6が出る確率は1/6です。.",
+      "correction": "サイコロを投げると、常に6が出る確率は1/6です。",
+      "description": "There is an unnecessary period after the Japanese full stop, resulting in double punctuation (。.). Only one Japanese full stop should be used at the end of the sentence.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "サイコロは公平であり、各面が等しい確率で出る可能性があるため、6が常に出る確率は1/6ではありません。各数字が出る確率は同じです。.",
+      "correction": "サイコロは公平であり、各面が等しい確率で出る可能性があるため、6が常に出る確率は0です。各数字が出る確率は1/6です。",
+      "description": "The explanation incorrectly states that '6が常に出る確率は1/6ではありません' without clarifying that the probability of always rolling a 6 is actually 0. The second sentence should specify that each number has a 1/6 chance per roll. There is also an unnecessary period after the Japanese full stop.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "コインを投げていると、1回目の投げの後にもつので表が出る確率は1/3です。.",
+      "correction": "コインを投げていると、1回目の投げの後にもつので表が出る確率は1/3です。",
+      "description": "There is an unnecessary period after the Japanese full stop, resulting in double punctuation (。.). Only one Japanese full stop should be used at the end of the sentence.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "コインの表が出る確率は、異なる面が等しく2つあるため、1/2です。投げの順序は確率に影響しません。.",
+      "correction": "コインの表が出る確率は、異なる面が等しく2つあるため、1/2です。投げの順序は確率に影響しません。",
+      "description": "There is an unnecessary period after the Japanese full stop, resulting in double punctuation (。.). Only one Japanese full stop should be used at the end of the sentence.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "標準的なトランプのデッキには、6つのスーツがあります。.",
+      "correction": "標準的なトランプのデッキには、6つのスーツがあります。",
+      "description": "There is an unnecessary period after the Japanese full stop, resulting in double punctuation (。.). Only one Japanese full stop should be used at the end of the sentence.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "トランプには4つのスーツがあり、それぞれには13枚のカードがあります。.",
+      "correction": "トランプには4つのスーツがあり、それぞれに13枚のカードがあります。",
+      "description": "There is an unnecessary period after the Japanese full stop, resulting in double punctuation (。.). Also, 'それぞれには13枚のカードがあります' is unnatural; 'それぞれに13枚のカードがあります' is the correct particle usage.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "実験的確率は理論的確率に比べて常に高いです。.",
+      "correction": "実験的確率は理論的確率に比べて常に高いです。",
+      "description": "There is an unnecessary period after the Japanese full stop, resulting in double punctuation (。.). Only one Japanese full stop should be used at the end of the sentence.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "実験的確率は実際の試行の結果に依存するため、理論的確率とは異なる可能性を持ちます。時には低く出ることもあります。.",
+      "correction": "実験的確率は実際の試行の結果に依存するため、理論的確率とは異なる可能性があります。時には低く出ることもあります。",
+      "description": "There is an unnecessary period after the Japanese full stop, resulting in double punctuation (。.). The phrase '異なる可能性を持ちます' is unnatural; '異なる可能性があります' is the correct and natural expression.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "確率は決定的な結果を決定します。.",
+      "correction": "確率は決定的な結果を決定します。",
+      "description": "There is an unnecessary period after the Japanese full stop, resulting in double punctuation (。.). Only one Japanese full stop should be used at the end of the sentence.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "確率は確実性を予測するものではありません。それは出来事の発生の可能性を示しています。例えば、サイコロの振るという行為では、数字が出るのは確率が存在していることになりますが、結果は決定的ではありません。.",
+      "correction": "確率は確実性を予測するものではありません。それは出来事の発生の可能性を示しています。例えば、サイコロを振るという行為では、数字が出るのは確率が存在していることになりますが、結果は決定的ではありません。",
+      "description": "There is an unnecessary period after the Japanese full stop, resulting in double punctuation (。.). Also, 'サイコロの振るという行為' is grammatically incorrect; the correct phrase is 'サイコロを振るという行為'.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Probability_Games.slm.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-03T22:40:00.521405",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 8.2,
+    "classification": "PROFESSIONAL",
+    "total_issues": 12,
+    "total_penalty": 1.8,
+    "issue_breakdown": {
+      "linguistic": 12,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.8,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

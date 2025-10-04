@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Imaginez chaque nucléotide comme un ingrédient de base dans une recette, indispensable pour que le plat final, l'ADN, prenne vie.",
+      "correction": "Imaginez chaque nucléotide comme un élément essentiel dans la construction de l'ADN.",
+      "description": "The culinary metaphor ('ingrédient de base dans une recette, indispensable pour que le plat final, l'ADN, prenne vie') is culturally informal and may not be appropriate for educational scientific content in French. A more neutral analogy is recommended to maintain a professional and academic tone.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Mutations de l'ADN n'ont aucun effet sur les traits des organismes vivants.",
+      "correction": "Les mutations de l'ADN n'ont aucun effet sur les traits des organismes vivants.",
+      "description": "The original sentence is missing the definite article 'Les' before 'Mutations de l'ADN', which is required for grammatical correctness in French. This omission affects sentence structure and clarity.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "DNA_Basics.slm.md",
+    "language": "French",
+    "timestamp": "2025-10-03T22:21:36.042923",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

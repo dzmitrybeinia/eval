@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Strings podem ser armazenados como números.",
+      "correction": "Strings podem ser armazenadas como números.",
+      "description": "The word 'strings' is feminine in Portuguese ('as strings'), so the verb and adjective should agree in gender and number. The correct form is 'armazenadas' instead of 'armazenados'. This error affects grammatical agreement and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "A programação é uma ferramenta essencial em uma ampla gama de indústrias, desde tecnologia até saúde, finanças e muito mais. É uma habilidade altamente valorizada em muitos campos.",
+      "correction": "A programação é uma ferramenta essencial em uma ampla gama de setores, como tecnologia, saúde, finanças e outros. É uma habilidade altamente valorizada em diversas áreas.",
+      "description": "The use of 'indústrias' and 'campos' is less natural in Brazilian Portuguese when referring to professional areas; 'setores' and 'áreas' are more commonly used. This correction improves the naturalness and localization of the text for Brazilian learners.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Computer_Programming.slm.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T22:32:39.692814",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

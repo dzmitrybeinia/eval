@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical Precision",
+      "original": "A Limerick always ends with a couplet that rhymes.",
+      "correction": "A Limerick always contains a couplet that rhymes as its third and fourth lines.",
+      "description": "The statement implies that the limerick ends with a couplet, which is inaccurate. In a limerick, the couplet is in the third and fourth lines, not at the end. The fifth line rhymes with the first two lines, not with the couplet.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical Precision",
+      "original": "A Limerick consists of five lines, where the first, second, and fifth lines rhyme with each other, and the third and fourth lines form a shorter rhyming couplet. This characteristic structure is a defining feature of Limericks.",
+      "correction": "A Limerick consists of five lines, where the first, second, and fifth lines rhyme with each other, and the third and fourth lines form a shorter rhyming couplet in the middle. This characteristic structure is a defining feature of Limericks.",
+      "description": "The feedback does not clarify that the couplet is in the middle of the limerick (lines three and four), which could lead to confusion given the previous statement. Specifying the position of the couplet improves clarity.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Poetry_Forms_1.slm.md",
+    "language": "English",
+    "timestamp": "2025-10-03T22:09:40.457897",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.5,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

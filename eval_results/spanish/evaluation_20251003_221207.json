@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Aunque podrías conocer a la persona, nunca confía en compartir información personal en foros públicos.",
+      "correction": "Aunque podrías conocer a la persona, nunca confíes en compartir información personal en foros públicos.",
+      "description": "The verb 'confía' is incorrectly conjugated in the third person singular present indicative, but the sentence is giving advice or instruction, which requires the second person singular imperative 'confíes'. This is a grammatical error affecting the clarity and correctness of the advice.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Siempre evalúa si la información que deseas compartir podría ser utilizada de manera perjudicial.",
+      "correction": "Siempre evalúa si la información que deseas compartir podría ser usada de manera perjudicial.",
+      "description": "The phrase 'ser utilizada' is grammatically correct, but 'ser usada' is more natural and commonly used in educational Spanish in this context. This improves the naturalness and localization quality of the feedback.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Online_Safety.slm.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-03T22:12:07.844804",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

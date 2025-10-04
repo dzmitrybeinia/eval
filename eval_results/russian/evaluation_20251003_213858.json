@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "СМИ, представляющие информацию с определённым политическим уклоном.",
+      "correction": "СМИ, представляющие информацию с определённым политическим уклоном.",
+      "description": "The word 'определённым' is correctly spelled with the diacritical mark (ё), which is standard in educational contexts. However, in Russian publishing, 'ё' is often replaced with 'е', which can lead to ambiguity. For educational clarity, especially in teaching materials, it is preferable to retain 'ё' to avoid confusion with similar words. No correction needed, but ensure consistency in using 'ё' throughout the content.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "🌟",
+      "correction": "",
+      "description": "The use of the star emoji '🌟' in educational Russian content may be perceived as informal or juvenile, especially in academic or professional settings. While emojis can enhance engagement for younger audiences, their appropriateness depends on the target age group and context. For a lesson on critical thinking, consider omitting the emoji or replacing it with a more formal visual element if the audience is older students or adults.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Критическое мышление помогает нам принимать обоснованные решения, решать задачи и понимать окружающий мир.",
+      "correction": "Критическое мышление помогает принимать взвешенные решения, решать задачи и понимать окружающий мир.",
+      "description": "The phrase 'обоснованные решения' is understandable, but 'взвешенные решения' is more idiomatic and commonly used in Russian educational discourse when referring to decisions made through critical thinking. This change improves the naturalness and professional tone of the content.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Практикуя эти техники, учащиеся становятся более эффективными коммуникаторами, решателями задач и принимающими решения.",
+      "correction": "Практикуя эти техники, учащиеся становятся более эффективными коммуникаторами, решателями задач и лицами, принимающими решения.",
+      "description": "The phrase 'принимающими решения' is grammatically correct but stylistically awkward in this enumeration. In Russian, 'лицами, принимающими решения' is the standard collocation for 'decision-makers' in educational and professional contexts. This correction improves both grammatical parallelism and localization quality.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Critical_Thinking.llm.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T21:38:58.957872",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

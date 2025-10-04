@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical Precision",
+      "original": "Variables in algebra can be letters or symbols, and sometimes numbers. The statement is false because variables can also take other forms such as Greek letters or Roman numerals, depending on the context.",
+      "correction": "Variables in algebra are typically represented by letters or symbols, such as Greek letters, but not by numbers or Roman numerals. Numbers are generally used to represent constants, not variables.",
+      "description": "The feedback incorrectly suggests that variables can be numbers or Roman numerals. In standard algebra, variables are not represented by numbers or Roman numerals; numbers are used for constants. This could confuse learners about the definition of a variable.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical Precision",
+      "original": "Variables in algebra can be represented by letters, numbers, or symbols, depending on the context and the preference of the mathematician. Often, numbers are used to represent constants, while letters or symbols denote variables.",
+      "correction": "Variables in algebra are represented by letters or symbols, not by numbers. Numbers are used to represent constants, while letters or symbols denote variables.",
+      "description": "The feedback incorrectly states that variables can be represented by numbers. In algebra, variables are not numbers; numbers are constants. This misstatement could mislead students about the nature of variables.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Basic_Algebra.slm.md",
+    "language": "English",
+    "timestamp": "2025-10-03T22:08:34.813009",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.6,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

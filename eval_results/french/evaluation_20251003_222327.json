@@ -1,0 +1,75 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Un protagoniste est souvent considéré comme le personnage principal d'une histoire, qui est généralement bienveillant ou positif. L'idée d'un personnage maléfique ne s'applique pas universellement aux protagonistes.",
+      "correction": "Un protagoniste est souvent considéré comme le personnage principal d'une histoire, qui n'est pas nécessairement bienveillant ou positif. L'idée d'un personnage maléfique ne s'applique pas universellement aux protagonistes.",
+      "description": "The phrase 'qui est généralement bienveillant ou positif' inaccurately suggests that protagonists are usually benevolent or positive, which is misleading. A protagonist is simply the main character and can be either good or evil. The correction clarifies that the protagonist is not necessarily benevolent or positive, improving lexical precision and conceptual accuracy.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "Le cadre d'une histoire est essentiel pour définir l'atmosphère et le ton. Il influence les interactions des personnages et le cadre peut être aussi précis que la période historique ou aussi vague que le fantastique.",
+      "correction": "Le cadre d'une histoire est essentiel pour définir l'atmosphère et le ton. Il influence les interactions des personnages et peut être aussi précis qu'une période historique ou aussi vague qu'un univers fantastique.",
+      "description": "The sentence 'le cadre peut être aussi précis que la période historique ou aussi vague que le fantastique' is syntactically awkward and semantically imprecise. 'La période historique' should be preceded by an article, and 'le fantastique' is a genre, not a setting. The correction uses 'qu'une période historique' and 'qu'un univers fantastique' for improved syntactic flow and semantic clarity.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Dans une structure narrative, l'exposition précède l'action montante. L'exposition introduit les personnages et le cadre, tandis que l'action montante développe les conflits. L'ordre correct est essentiel pour comprendre la progression de l'histoire.",
+      "correction": "Dans une structure narrative, l'exposition précède l'action montante. L'exposition introduit les personnages et le cadre, tandis que l'action montante développe les conflits. L'ordre correct est essentiel pour comprendre la progression de l'histoire.",
+      "description": "No linguistic or localization errors found. The text is grammatically correct, uses proper terminology, and is culturally appropriate.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "C'est vrai. Dans cette œuvre célèbre, le conflit externe est en effet une rivalité entre les familles Montague et Capulet. Cela illustre comment les conflits externes peuvent façonner l'histoire et l'intrigue.",
+      "correction": "C'est vrai. Dans cette œuvre célèbre, le conflit principal est en effet une rivalité entre les familles Montague et Capulet. Cela illustre comment les conflits externes peuvent façonner l'histoire et l'intrigue.",
+      "description": "The use of 'conflit externe' is less precise than 'conflit principal' in this context, as the question refers to the main conflict. Adjusting to 'conflit principal' ensures terminology consistency and better aligns with the educational focus of the lesson.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "Cette affirmation est incorrecte. Les thèmes, ou 'message ou idée centrale', d'une histoire peuvent être révélés de manière subtile ou explicite. Parfois, les thèmes sont découverts par l'observation minutieuse des détails, des symboles, ou des interactions entre les personnages, plutôt que par des déclarations directes.",
+      "correction": "Cette affirmation est incorrecte. Les thèmes, ou le 'message ou l'idée centrale', d'une histoire peuvent être révélés de manière subtile ou explicite. Parfois, les thèmes sont découverts par l'observation minutieuse des détails, des symboles ou des interactions entre les personnages, plutôt que par des déclarations directes.",
+      "description": "The phrase 'ou 'message ou idée centrale'' lacks proper article usage and coordination. It should be 'ou le 'message ou l'idée centrale'' for correct syntax. Additionally, the comma before 'ou des interactions' is unnecessary and should be removed for proper punctuation.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "Les éléments narratifs sont intrinsèquement liés et leur interaction est cruciale pour construire une histoire complète. Les personnages, le cadre, les conflits et l'intrigue ne fonctionnent pas de manière autonome, mais plutôt en harmonie pour enrichir la compréhension et la résonance de la trame narrative.",
+      "correction": "Les éléments narratifs sont intrinsèquement liés et leur interaction est cruciale pour construire une histoire complète. Les personnages, le cadre, les conflits et l'intrigue ne fonctionnent pas de manière autonome, mais plutôt en harmonie pour enrichir la compréhension et la résonance de la trame narrative.",
+      "description": "No linguistic or localization errors found. The text is syntactically correct, uses appropriate terminology, and is culturally suitable.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Story_Elements.slm.md",
+    "language": "French",
+    "timestamp": "2025-10-03T22:23:27.540037",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.2,
+    "classification": "NATIVE",
+    "total_issues": 6,
+    "total_penalty": 0.8,
+    "issue_breakdown": {
+      "linguistic": 5,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.7,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

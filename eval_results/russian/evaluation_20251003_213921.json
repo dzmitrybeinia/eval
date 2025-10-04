@@ -1,0 +1,35 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Избегание написания текста заглавными буквами (что может восприниматься как крик).",
+      "correction": "Избегайте написания текста заглавными буквами, так как это может восприниматься как крик.",
+      "description": "The original sentence uses a nominalization ('Избегание') which is less natural in Russian instructional style. The correction uses the imperative form, which is more direct and appropriate for educational content, improving clarity and engagement. No linguistic errors are present, but the style is improved for naturalness and instructional tone.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Digital_Etiquette.llm.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T21:39:21.469959",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.9,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.1,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

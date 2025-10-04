@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "En excluant les biais et en se concentrant sur des preuves et des données, elle permet d'obtenir des résultats fiables et impartiaux.",
+      "correction": "En excluant les biais et en se concentrant sur des preuves et des données, elle permet d'obtenir des résultats fiables et impartiaux.",
+      "description": "The sentence is grammatically correct, but the use of 'en excluant les biais' could be improved for clarity. In scientific contexts, 'réduire les biais' or 'minimiser les biais' is more precise than 'excluant', since biases are rarely fully excluded. However, this is a minor lexical nuance and does not constitute a grammatical error.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Cela s'applique à des situations comme diagnostiquer un problème technique ou améliorer une recette.",
+      "correction": "Cela s'applique à des situations telles que diagnostiquer un problème technique ou améliorer une recette.",
+      "description": "The use of 'comme' is acceptable in informal French, but in educational or formal contexts, 'telles que' is preferred for listing examples. This change improves the naturalness and appropriateness of the style for instructional content.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Scientific_Method.slm.md",
+    "language": "French",
+    "timestamp": "2025-10-03T22:22:58.241591",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.8,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.2,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

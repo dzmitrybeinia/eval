@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Marcha sobre Washington",
+      "correction": "Marcha sobre Washington",
+      "description": "While the term 'Marcha sobre Washington' is a direct translation of 'March on Washington', it may be unfamiliar to some Brazilian audiences who are not versed in American history. For improved localization, a brief parenthetical explanation such as '(Marcha em Washington, importante manifestação pelos direitos civis nos EUA)' could be added to clarify the event's significance and context for learners who may not recognize the reference.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "dessegregação",
+      "correction": "fim da segregação",
+      "description": "The word 'dessegregação' is not commonly used in Brazilian Portuguese and may sound unnatural or overly technical. The more natural and widely understood phrase is 'fim da segregação', which better conveys the intended meaning in a clear and accessible way.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "autossuficiência",
+      "correction": "autossuficiência",
+      "description": "The spelling 'autossuficiência' is correct according to the Portuguese Language Orthographic Agreement. No correction is needed, but it is important to note that this word is sometimes misspelled as 'auto-suficiência'.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "SNCC",
+      "correction": "SNCC (Comitê Coordenador Estudantil Não-Violento)",
+      "description": "The acronym 'SNCC' may not be immediately recognizable to Brazilian learners. For clarity and improved localization, it is recommended to provide the full name in Portuguese after the acronym: 'SNCC (Comitê Coordenador Estudantil Não-Violento)'. This ensures comprehension and maintains educational value.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "testes de alfabetização",
+      "correction": "testes de alfabetização (literacy tests)",
+      "description": "The term 'testes de alfabetização' refers to 'literacy tests', a specific historical practice in the United States used to disenfranchise African Americans. Adding the English term in parentheses helps clarify the concept for Brazilian learners who may not be familiar with this aspect of American history.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Civil_Rights_Movement.llm.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T21:46:21.256499",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.3,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 0.7,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.4,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

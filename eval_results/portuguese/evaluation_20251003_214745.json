@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "eólica",
+      "correction": "eólica",
+      "description": "The word 'eólica' is correctly spelled and accented in Brazilian Portuguese. However, in the context 'energia solar, eólica e hidrelétrica', the use of 'eólica' as a noun is acceptable, but it is more precise to use 'energia eólica' to maintain parallelism with 'energia solar' and 'energia hidrelétrica'. This is a minor stylistic improvement rather than a strict linguistic error.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Usar fontes de energia renováveis, como solar e eólica.",
+      "correction": "Usar fontes de energia renovável, como energia solar e energia eólica.",
+      "description": "The phrase 'fontes de energia renováveis, como solar e eólica' is understandable but lacks naturalness and parallel structure in Brazilian Portuguese. The more idiomatic and precise way is to specify 'energia solar' and 'energia eólica', which aligns with local educational style and terminology. This improves clarity and professionalism.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Defender políticas e práticas ambientais.",
+      "correction": "Defender políticas e práticas ambientais.",
+      "description": "The phrase is grammatically correct. However, in Brazilian Portuguese, 'defender' in this context is acceptable, but 'promover' or 'adotar' might be more commonly used when referring to environmental policies and practices. This is a minor lexical nuance, not a strict error.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Natural_Resources.llm.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T21:47:45.733570",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

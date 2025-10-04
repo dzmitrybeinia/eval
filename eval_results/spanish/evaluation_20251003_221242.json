@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "diagnócias médicas",
+      "correction": "diagnósticos médicos",
+      "description": "The word 'diagnócias' is a misspelling; the correct term is 'diagnósticos'. Additionally, 'médicas' should agree in gender and number with 'diagnósticos', so 'médicos' is correct. This error affects both spelling and gender agreement, which are critical for clarity and correctness in Spanish.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "compromitérsela",
+      "correction": "comprometerla",
+      "description": "The word 'compromitérsela' incorrectly uses an accent mark and an unnecessary reflexive pronoun. The correct form is 'comprometerla', which accurately conveys the idea of compromising privacy. This error impacts spelling and word formation, potentially confusing learners.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "What_is_AI.slm.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-03T22:12:42.853365",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.5,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

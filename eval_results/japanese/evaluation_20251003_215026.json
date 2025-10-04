@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "アーティストは革新的でダイナミックな作品を作ることができます。",
+      "correction": "アーティストは創造的で躍動感のある作品を作ることができます。",
+      "description": "The phrase uses '革新的' (innovative) and 'ダイナミック' (dynamic), which are direct loanwords and may sound unnatural in Japanese educational content. '創造的' (creative) and '躍動感のある' (lively/dynamic) are more natural and commonly used in Japanese art education contexts. This improves the tone and naturalness for the target audience.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "三分割法",
+      "correction": "三分割法（ルール・オブ・サード）",
+      "description": "While '三分割法' is correct, adding the parenthetical 'ルール・オブ・サード' (Rule of Thirds) helps clarify the concept for learners who may encounter both terms in art education. This enhances terminology consistency and educational value.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Drawing_Techniques.llm.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-03T21:50:26.283756",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

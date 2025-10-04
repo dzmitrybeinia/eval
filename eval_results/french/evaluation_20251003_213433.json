@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "le courant circumpolaire antarctique",
+      "correction": "le courant circumpolaire antarctique",
+      "description": "The term 'le courant circumpolaire antarctique' is technically correct, but in French educational contexts, it is more commonly referred to as 'le courant circumpolaire antarctique' or 'le courant des vents d'ouest'. While the original is not incorrect, using the more widely recognized terminology would improve clarity and consistency for French learners. No linguistic errors are present.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Préparez-vous à plonger dans les mystères de notre atmosphère et de nos océans !",
+      "correction": "Préparez-vous à explorer les phénomènes de notre atmosphère et de nos océans !",
+      "description": "The phrase 'plonger dans les mystères' is somewhat dramatic and less typical in French educational materials, which tend to favor a more neutral and informative tone. Replacing it with 'explorer les phénomènes' aligns better with standard French pedagogical style and avoids unnecessary sensationalism. No linguistic errors are present.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "l'est des États-Unis et l'Europe occidentale",
+      "correction": "la côte est des États-Unis et l'Europe de l'Ouest",
+      "description": "The phrase 'l'est des États-Unis' is ambiguous in French and could refer to a broad region. 'La côte est des États-Unis' is more precise and commonly used in French geography lessons. Similarly, 'l'Europe occidentale' is correct, but 'l'Europe de l'Ouest' is more standard in French educational contexts. No linguistic errors are present.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Climate_Zones.llm.md",
+    "language": "French",
+    "timestamp": "2025-10-03T21:34:33.850575",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

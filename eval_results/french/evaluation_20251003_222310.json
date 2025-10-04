@@ -1,0 +1,75 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Les particules dans un solide sont à l'état le plus émoussé par rapport aux autres états de la matière.",
+      "correction": "Les particules dans un solide sont à l'état le moins énergétique par rapport aux autres états de la matière.",
+      "description": "The word 'émoussé' is a lexical error in this scientific context. In French, 'émoussé' means 'blunted' or 'dulled', which is not appropriate for describing the energy state of particles. The correct term should refer to the energy level, such as 'le moins énergétique'. This correction improves both scientific accuracy and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Cela leur donne une forme et un volume fixes, ce qui les rend plus émoussés par rapport aux particules dans des états liquides, gazeux et plasmiques où elles peuvent se déplacer plus librement.",
+      "correction": "Cela leur donne une forme et un volume fixes, ce qui les rend moins énergétiques par rapport aux particules dans des états liquides, gazeux et plasmiques où elles peuvent se déplacer plus librement.",
+      "description": "The use of 'plus émoussés' is a lexical error. 'Émoussé' is not appropriate for describing particle energy or movement. The correct phrase should be 'moins énergétiques', which accurately reflects the scientific concept and improves clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Sublimation est un processus où un solide passe directement à l'état gazeux sans devenir liquide. Cela nécessite l'absorption d'énergie, pas la libération d'énergie.",
+      "correction": "La sublimation est un processus où un solide passe directement à l'état gazeux sans devenir liquide. Cela nécessite l'absorption d'énergie, pas la libération d'énergie.",
+      "description": "The sentence incorrectly omits the definite article 'La' before 'sublimation'. In French, scientific processes require the definite article for proper grammatical structure. This correction improves grammatical accuracy and naturalness.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "A basse température, les particules bougent très rapidement et sont éloignées.",
+      "correction": "À basse température, les particules bougent très lentement et sont proches les unes des autres.",
+      "description": "The sentence contains two issues: the missing accent on 'À' and a scientific inaccuracy. 'À basse température' requires the accent for correct orthography. Additionally, the statement is factually incorrect; at low temperatures, particles move slowly and are close together, not rapidly and far apart. Both linguistic and factual accuracy are addressed in the correction.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "La transition de l'eau de l'état liquide à l'état solide se produit à 0°C lorsqu'elle est sous pression atmosphérique standard.",
+      "correction": "La transition de l'eau de l'état liquide à l'état solide se produit à 0 °C sous pression atmosphérique normale.",
+      "description": "The phrase 'pression atmosphérique standard' is less commonly used in French scientific discourse than 'pression atmosphérique normale'. Additionally, a space is required between the number and the degree symbol according to French typographic conventions. This correction improves both terminology consistency and formatting.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Bien que les solides, les liquides et les gaz soient des états de la matière, le quatrième état mentionné dans le résumé est le plasma, ce qui rend l'énonciation incorrecte.",
+      "correction": "Bien que les solides, les liquides et les gaz soient des états de la matière, le quatrième état mentionné dans le résumé est le plasma, ce qui rend l'affirmation incorrecte.",
+      "description": "The use of 'énonciation' is not appropriate in this context. The correct term is 'affirmation', which is standard in French educational and scientific language when referring to a statement or claim. This correction improves terminology and naturalness.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "States_of_Matter.slm.md",
+    "language": "French",
+    "timestamp": "2025-10-03T22:23:10.506453",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 8.8,
+    "classification": "PROFESSIONAL",
+    "total_issues": 6,
+    "total_penalty": 1.2,
+    "issue_breakdown": {
+      "linguistic": 4,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.0,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

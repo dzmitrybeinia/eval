@@ -1,0 +1,75 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "opinją",
+      "correction": "opinią",
+      "description": "The word 'opinją' is misspelled; the correct Polish spelling is 'opinią' with 'i' instead of 'j'. This is a significant orthographic error affecting the instrumental case ending of the noun 'opinia'.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "dostawa",
+      "correction": "dostarczać",
+      "description": "The word 'dostawa' is incorrectly used in the context of providing evidence to support an opinion. 'Dostawa' means 'delivery' (as in goods), while the correct verb in this context is 'dostarczać' (to provide or supply evidence). This lexical error affects the clarity and accuracy of the feedback.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "zakończenie aktualizującym wezwaniem do działania",
+      "correction": "zakończenie aktualnym wezwaniem do działania",
+      "description": "The phrase 'zakończenie aktualizującym wezwaniem do działania' contains an incorrect adjective form. 'Aktualizującym' means 'updating', which is not appropriate here. The correct term is 'aktualnym' (current), which fits the context of a concluding call to action. This error affects the naturalness and clarity of the statement.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "wybierać odpowiednią ton",
+      "correction": "wybierać odpowiedni ton",
+      "description": "The phrase 'wybierać odpowiednią ton' contains a gender agreement error. 'Ton' is a masculine noun in Polish, so the adjective should be 'odpowiedni', not 'odpowiednią'. This grammatical mistake affects the correctness of the sentence.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "W pisaniu perswazyjnym używać zróżnicowanego tonu, aby dopasować się do odbiorcy.",
+      "correction": "W pisaniu perswazyjnym należy używać zróżnicowanego tonu, aby dopasować się do odbiorcy.",
+      "description": "The sentence lacks a subject or modal verb, making it an incomplete imperative. In Polish, the correct form for general recommendations is 'należy używać', which provides clarity and grammatical correctness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "To zasada, która pozwala na skuteczne przekazanie wiadomości.",
+      "correction": "To zasada, która pozwala skutecznie przekazać wiadomość.",
+      "description": "The phrase 'pozwala na skuteczne przekazanie wiadomości' is grammatically correct but less natural. The more idiomatic Polish construction is 'pozwala skutecznie przekazać wiadomość', which uses the infinitive without 'na'. This improves the naturalness and flow of the sentence.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Persuasive_Writing.slm.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T22:17:33.236705",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 8.6,
+    "classification": "PROFESSIONAL",
+    "total_issues": 6,
+    "total_penalty": 1.4,
+    "issue_breakdown": {
+      "linguistic": 6,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.4,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

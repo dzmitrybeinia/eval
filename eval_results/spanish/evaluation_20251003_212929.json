@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "tirones gravitatorios",
+      "correction": "asistencias gravitacionales",
+      "description": "The term 'tirones gravitatorios' is not standard in Spanish scientific discourse for 'gravity assists.' The correct and widely accepted term is 'asistencias gravitacionales.' Using the proper terminology ensures clarity and aligns with educational and scientific conventions.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "La nave cae a la Tierra.",
+      "correction": "La nave cae a la Tierra.",
+      "description": "While the sentence is grammatically correct, the definite article 'la' before 'Tierra' is optional in Spanish when referring to the planet in scientific contexts. However, its use here is acceptable and does not constitute an error. No correction needed.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Prepárense para descubrir los secretos detrás de la exploración espacial y cómo la ciencia hace realidad nuestros sueños de alcanzar las estrellas.",
+      "correction": "Prepárense para descubrir los secretos de la exploración espacial y cómo la ciencia convierte en realidad nuestros sueños de alcanzar las estrellas.",
+      "description": "The phrase 'los secretos detrás de la exploración espacial' is a direct calque from English ('secrets behind'), which is less natural in Spanish. 'Los secretos de la exploración espacial' is more idiomatic. Additionally, 'hace realidad' can be improved to 'convierte en realidad' for a more natural and formal tone in educational content.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Space_Travel.llm.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-03T21:29:29.186716",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

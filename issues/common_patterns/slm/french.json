@@ -1,287 +1,693 @@
 {
   "metadata": {
     "label": "slm",
-    "label_normalized": "slm",
-    "label_key": "slm",
     "language": "french",
-    "generated_at": "2025-10-03T16:11:07.446446"
+    "generated_at": "2025-10-03T22:56:25.935489"
   },
   "top_error_patterns": [
+    {
+      "pattern_name": "Lexical Errors and False Friends",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "HIGH",
+      "frequency": "very_common",
+      "frequency_count": 10,
+      "description": "Incorrect word choices, use of false friends, or inappropriate English loanwords that distort meaning and hinder comprehension.",
+      "examples": [
+        {
+          "wrong": "honneurant les traditions et les ancêtres",
+          "correct": "honorant les traditions et les ancêtres",
+          "context": "Incorrect present participle formation"
+        },
+        {
+          "wrong": "processus de décision-taking",
+          "correct": "processus de prise de décision",
+          "context": "Use of English loanword instead of standard French"
+        },
+        {
+          "wrong": "Les particules dans un solide sont à l'état le plus émoussé par rapport aux autres états de la matière.",
+          "correct": "Les particules dans un solide sont à l'état le moins énergétique par rapport aux autres états de la matière.",
+          "context": "Inappropriate scientific terminology"
+        }
+      ]
+    },
     {
       "pattern_name": "Grammatical Agreement Errors",
       "category": "linguistic",
       "subcategory": "Grammar",
       "impact_level": "HIGH",
-      "frequency": "common",
-      "frequency_count": 3,
-      "description": "Frequent mistakes in agreement between adjectives, possessives, and nouns, leading to unclear or incorrect sentences.",
+      "frequency": "very_common",
+      "frequency_count": 8,
+      "description": "Frequent mistakes in gender, number, and article agreement between nouns, adjectives, and possessives, leading to confusion and reduced clarity.",
       "examples": [
         {
-          "wrong": "Les Égyptiens ont appris à exploiter les crues annuelles du Nil, qui apportaient des alluvions riche en nutriments à leurs champs.",
-          "correct": "Les Égyptiens ont appris à exploiter les crues annuelles du Nil, qui apportaient des alluvions riches en nutriments à leurs champs.",
-          "context": "Adjective agreement with plural noun."
+          "wrong": "des alluvions riche en nutriments",
+          "correct": "des alluvions riches en nutriments",
+          "context": "Adjective agreement with plural noun"
         },
         {
           "wrong": "maximiser leur chances de survie",
           "correct": "maximiser leurs chances de survie",
-          "context": "Possessive adjective agreement with plural noun."
+          "context": "Possessive adjective agreement"
         },
         {
-          "wrong": "comme le comportement de hibernation des chauves-souris",
-          "correct": "comme le comportement d'hibernation des chauves-souris",
-          "context": "Mandatory contraction before vowel for grammatical correctness."
+          "wrong": "Les aliments de différentes couleurs contiennent généralement différents vitamines et minéraux essentiels à votre santé.",
+          "correct": "Les aliments de différentes couleurs contiennent généralement différentes vitamines et minéraux essentiels à votre santé.",
+          "context": "Adjective agreement with feminine plural noun"
+        },
+        {
+          "wrong": "la décisions finale",
+          "correct": "la décision finale",
+          "context": "Singular/plural noun agreement"
         }
       ]
     },
     {
-      "pattern_name": "Orthographic Errors in Proper Nouns and Common Words",
+      "pattern_name": "Orthographic and Spelling Mistakes",
       "category": "linguistic",
       "subcategory": "Orthography",
       "impact_level": "HIGH",
       "frequency": "common",
-      "frequency_count": 3,
-      "description": "Recurring spelling mistakes in proper nouns and common words, including typographical errors and incorrect use of punctuation, which undermine clarity and professionalism.",
+      "frequency_count": 7,
+      "description": "Frequent spelling errors, missing accents, and incorrect use of English terms in French sentences, affecting professionalism and clarity.",
       "examples": [
         {
-          "wrong": "Marchi.e.",
-          "correct": "Marchiée",
-          "context": "Improper punctuation and spelling in a proper noun."
+          "wrong": "Imaginez si vous devaiez écrire une salutation...",
+          "correct": "Imaginez si vous deviez écrire une salutation...",
+          "context": "Spelling error in verb conjugation"
         },
         {
-          "wrong": "Marchi.e.e.",
-          "correct": "Marchiée",
-          "context": "Multiple periods and invalid word formation."
+          "wrong": "interprètons",
+          "correct": "interprétons",
+          "context": "Incorrect accent on verb"
         },
         {
-          "wrong": "Imaginez si vous devaiez écrire une salutation pour un groupe de cinq amis...",
-          "correct": "Imaginez si vous deviez écrire une salutation pour un groupe de cinq amis...",
-          "context": "Spelling error in a common verb form."
+          "wrong": "par de petits margins",
+          "correct": "par de petites marges",
+          "context": "Use of English word instead of French"
         }
       ]
     },
     {
-      "pattern_name": "Lexical Inaccuracy Affecting Comprehension",
+      "pattern_name": "Factual and Terminological Inaccuracies",
       "category": "linguistic",
-      "subcategory": "Lexical",
+      "subcategory": "Lexical | Grammar",
       "impact_level": "HIGH",
       "frequency": "occasional",
-      "frequency_count": 2,
-      "description": "Incorrect word choices that distort meaning or context, especially in technical or instructional content, leading to misunderstanding.",
+      "frequency_count": 5,
+      "description": "Incorrect definitions, scientific inaccuracies, or misuse of technical terms that mislead learners and reduce educational value.",
       "examples": [
         {
-          "wrong": "En Python, vous devez toujours déclarer le type de données d'une variable.",
-          "correct": "En Python, vous n'avez pas besoin de déclarer le type de données d'une variable.",
-          "context": "Incorrect technical statement about programming language requirements."
+          "wrong": "Dans un incendie, il est recommandé de rester à l'écart du sol...",
+          "correct": "Dans un incendie, il est recommandé de rester près du sol...",
+          "context": "Incorrect safety advice"
         },
         {
-          "wrong": "En attendant, montrer de l'empathie...",
-          "correct": "En écoutant, montrer de l'empathie...",
-          "context": "Literal translation resulting in semantic error; 'En attendant' does not fit the intended meaning."
+          "wrong": "La recherche rapide est la stratégie de lecture qui consiste à lire tout le texte...",
+          "correct": "La recherche rapide est une stratégie de lecture qui consiste à trouver des informations spécifiques...",
+          "context": "Incorrect definition of reading strategy"
         }
       ]
     },
     {
-      "pattern_name": "Misrepresentation of Scientific or Cultural Concepts",
+      "pattern_name": "Syntactic and Word Order Errors",
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "impact_level": "HIGH",
+      "frequency": "occasional",
+      "frequency_count": 3,
+      "description": "Incorrect word order or non-idiomatic constructions that disrupt sentence flow and comprehension.",
+      "examples": [
+        {
+          "wrong": "Cela peut rendre vous vulnérable...",
+          "correct": "Cela peut vous rendre vulnérable...",
+          "context": "Incorrect placement of pronominal object"
+        },
+        {
+          "wrong": "La méthode Cornell comprend de diviser la page...",
+          "correct": "La méthode Cornell consiste à diviser la page...",
+          "context": "Non-idiomatic verb construction"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Cultural Inaccuracy in Scientific Terminology",
       "category": "localization",
       "subcategory": "Cultural",
       "impact_level": "HIGH",
-      "frequency": "common",
-      "frequency_count": 2,
-      "description": "Recurring errors where localized content inaccurately describes scientific or cultural concepts, leading to confusion or misinformation. This includes anthropomorphizing plant biology and referencing non-existent historical events.",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Misrepresentation of scientific concepts due to incorrect cultural adaptation, such as attributing animal biological structures to plants, leading to confusion and misinformation.",
       "examples": [
         {
           "wrong": "La digestion des aliments est un processus qui se produit dans l'intestin grêle chez les humains et les animaux, tandis que dans les plantes, elle se produit dans des structures comme les glandes.",
-          "correct": "La digestion des aliments est un processus qui se produit principalement dans l'intestin grêle chez les humains et les animaux. Chez les plantes, il s'agit plutôt de la décomposition et de l'absorption des nutriments, qui ne se fait pas dans des glandes comme chez les animaux.",
-          "context": "Confuses plant biology by attributing animal digestive structures to plants."
-        },
-        {
-          "wrong": "Marchiée",
-          "correct": "",
-          "context": "References a non-existent historical event, causing cultural and educational confusion."
+          "correct": "Chez les plantes, il s'agit plutôt de la décomposition et de l'absorption des nutriments, qui ne se fait pas dans des glandes comme chez les animaux.",
+          "context": "Biology quiz item describing plant digestion using animal terminology."
         }
       ]
     },
     {
-      "pattern_name": "Non-idiomatic Lexical Choices",
+      "pattern_name": "Use of Nonexistent or Inappropriate Cultural References",
+      "category": "localization",
+      "subcategory": "Cultural",
+      "impact_level": "HIGH",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Inclusion of references that do not exist or are not culturally relevant, which can mislead learners and reduce the credibility of educational content.",
+      "examples": [
+        {
+          "wrong": "Marchi.e.",
+          "correct": "Replace with a recognized event or omit entirely.",
+          "context": "History quiz item referencing a non-existent event in the context of the Civil Rights Movement."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Lexical inaccuracy and unnatural phrasing",
       "category": "linguistic",
       "subcategory": "Lexical",
       "impact_level": "MEDIUM",
       "frequency": "very_common",
-      "frequency_count": 4,
-      "description": "Use of words or phrases that are technically correct but not idiomatic or natural in French, reducing clarity and professional tone.",
+      "frequency_count": 13,
+      "description": "Frequent use of non-idiomatic, imprecise, or misleading vocabulary, including anglicisms, awkward expressions, and incorrect scientific or educational terminology. These errors reduce clarity and naturalness.",
       "examples": [
         {
-          "wrong": "pour naviguer dans les arbres",
-          "correct": "pour se déplacer dans les arbres",
-          "context": "Describing animal movement; 'naviguer' is less natural than 'se déplacer'."
+          "wrong": "égalité accréditée par la loi",
+          "correct": "égalité garantie par la loi",
+          "context": "Legal terminology in civic education"
         },
         {
-          "wrong": "Les courants océaniques sont essentiels dans la formation des climats régionaux.",
-          "correct": "Les courants océaniques jouent un rôle essentiel dans la formation des climats régionaux.",
-          "context": "Describing importance; 'sont essentiels dans' is less idiomatic than 'jouent un rôle essentiel dans'."
+          "wrong": "mindset de croissance",
+          "correct": "état d'esprit de croissance",
+          "context": "Educational psychology terminology"
         },
         {
-          "wrong": "Déclarée avec une valeur entière",
-          "correct": "Initialisée avec une valeur entière",
-          "context": "Programming context; 'initialisée' is more precise than 'déclarée'."
-        },
-        {
-          "wrong": "comme des entiers, des flottants, des chaînes de caractères et des booléens",
-          "correct": "tels que des entiers, des flottants, des chaînes de caractères ou des booléens",
-          "context": "Listing examples; 'tels que' is more formal and precise than 'comme'."
+          "wrong": "renforcer le concept",
+          "correct": "renforcer la compréhension du concept",
+          "context": "Instructional feedback in study skills"
         }
       ]
     },
     {
-      "pattern_name": "Imprecise or Non-Standard Terminology",
+      "pattern_name": "Non-idiomatic or imprecise terminology",
       "category": "localization",
       "subcategory": "Terminology",
       "impact_level": "MEDIUM",
-      "frequency": "common",
-      "frequency_count": 2,
-      "description": "Use of terminology that is either imprecise or not standard in French educational/scientific contexts, leading to potential confusion or lack of clarity for learners.",
+      "frequency": "very_common",
+      "frequency_count": 11,
+      "description": "Use of terms or phrases that are understandable but not standard, idiomatic, or precise in French educational or professional contexts. Corrections favor more natural, widely accepted terminology.",
       "examples": [
         {
           "wrong": "n’importe quel nombre",
-          "correct": "une valeur inconnue ou variable",
-          "context": "Algebraic variables; 'n’importe quel nombre' is too broad and not mathematically precise."
+          "correct": "une valeur quelconque",
+          "context": "Mathematical variable description"
         },
         {
-          "wrong": "chauffe les côtes est-américaines et européennes",
-          "correct": "réchauffe les côtes de l'est de l'Amérique du Nord et de l'Europe",
-          "context": "Geographical/scientific description; 'chauffe' and 'côtes est-américaines' are not standard terminology."
+          "wrong": "visualisé par des fractions",
+          "correct": "illustré par des fractions",
+          "context": "Presenting examples in mathematics"
+        },
+        {
+          "wrong": "le programme est arrêté",
+          "correct": "le programme attend",
+          "context": "Describing program input behavior"
         }
       ]
     },
     {
-      "pattern_name": "Inappropriate verb choice in scientific contexts",
+      "pattern_name": "Grammatical awkwardness and incorrect article usage",
       "category": "linguistic",
       "subcategory": "Grammar",
       "impact_level": "MEDIUM",
-      "frequency": "occasional",
-      "frequency_count": 1,
-      "description": "Use of verbs that do not fit scientific or technical contexts, leading to imprecise or unclear explanations.",
+      "frequency": "common",
+      "frequency_count": 7,
+      "description": "Recurring issues with subject-verb agreement, improper use of definite/indefinite articles, and awkward grammatical constructions. These errors affect sentence structure and idiomaticity.",
       "examples": [
         {
-          "wrong": "Les ribosomes travaillent en collant les acides aminés pour former des protéines...",
-          "correct": "Les ribosomes assemblent les acides aminés pour former des protéines...",
-          "context": "Describing biological processes in educational content"
+          "wrong": "C'est important de considérer les conséquences potentielles",
+          "correct": "Il est important de considérer les conséquences potentielles",
+          "context": "General statements of importance"
+        },
+        {
+          "wrong": "l'acte de gentillesse",
+          "correct": "un acte de gentillesse",
+          "context": "Generalization in educational context"
+        },
+        {
+          "wrong": "les nommés prennent leur poste",
+          "correct": "les personnes nommées prennent leur poste",
+          "context": "Government and legal terminology"
         }
       ]
     },
     {
-      "pattern_name": "Non-idiomatic lexical choices for standard expressions",
-      "category": "linguistic",
-      "subcategory": "Lexical",
+      "pattern_name": "Terminology Inaccuracy or Anglicism",
+      "category": "localization",
+      "subcategory": "Terminology",
       "impact_level": "MEDIUM",
-      "frequency": "occasional",
-      "frequency_count": 1,
-      "description": "Use of words or phrases that are not idiomatic or standard in French, which can confuse learners and reduce clarity.",
+      "frequency": "very_common",
+      "frequency_count": 7,
+      "description": "Use of English-derived terms, incorrect abbreviations, or vague technical language that does not align with standard French educational or scientific terminology.",
       "examples": [
         {
-          "wrong": "l'égalité accréditée par la loi",
-          "correct": "l'égalité garantie par la loi",
-          "context": "Legal or civic terminology in quiz questions"
+          "wrong": "la brainstorming en groupe",
+          "correct": "le brainstorming en groupe",
+          "context": "Incorrect article with anglicism; 'brainstorming' is masculine."
+        },
+        {
+          "wrong": "L'intelligence émotionnelle, ou EI...",
+          "correct": "L'intelligence émotionnelle, ou IE...",
+          "context": "Incorrect abbreviation; 'IE' is standard in French."
+        },
+        {
+          "wrong": "non-fiction",
+          "correct": "documentaire",
+          "context": "Direct anglicism; 'documentaire' is preferred in educational contexts."
+        },
+        {
+          "wrong": "Les limericks... où les deux premières et les deux dernières lignes sont identiques ou très proches...",
+          "correct": "Les limericks... où les deux premières et les deux dernières lignes riment entre elles...",
+          "context": "Misleading explanation of rhyme scheme; correction clarifies terminology."
+        },
+        {
+          "wrong": "La balançoire... sur le principe de la puissance mécanique multipliée par un bras de levier.",
+          "correct": "La balançoire... sur le principe de la force mécanique appliquée à un bras de levier.",
+          "context": "Incorrect use of 'puissance' instead of 'force' in physics."
+        },
+        {
+          "wrong": "Les fusées à poudre... remplacées par des moteurs-fusées plus efficaces.",
+          "correct": "Les fusées à poudre... remplacées par des moteurs-fusées à propergol liquide...",
+          "context": "Vague terminology; correction specifies the technology."
+        },
+        {
+          "wrong": "le Gulf Stream chauffe les côtes est-américaines et européennes",
+          "correct": "le Gulf Stream réchauffe les côtes de l'est de l'Amérique du Nord et de l'Europe",
+          "context": "Ambiguous and non-standard regional description."
         }
       ]
     },
     {
-      "pattern_name": "Incorrect use of relative pronouns for causal relationships",
-      "category": "linguistic",
-      "subcategory": "Grammar",
-      "impact_level": "MEDIUM",
-      "frequency": "occasional",
-      "frequency_count": 1,
-      "description": "Misuse of relative pronouns ('qui') instead of causal connectors ('ce qui'), leading to ambiguous or grammatically incorrect sentences.",
-      "examples": [
-        {
-          "wrong": "qui mènent à des climats plus secs, comme dans le désert d'Atacama.",
-          "correct": "ce qui mène à des climats plus secs, comme dans le désert d'Atacama.",
-          "context": "Explaining cause and effect in scientific or geographical contexts"
-        }
-      ]
-    },
-    {
-      "pattern_name": "Unnecessary First-Person Perspective and Unnatural Style",
+      "pattern_name": "Stylistic Awkwardness or Lack of Professional Tone",
       "category": "localization",
       "subcategory": "Style",
       "impact_level": "MEDIUM",
       "frequency": "common",
-      "frequency_count": 1,
-      "description": "Use of first-person plural ('nous') and less natural expressions reduces objectivity and professionalism in educational content.",
+      "frequency_count": 6,
+      "description": "Use of informal metaphors, awkward phrasing, or lack of parallelism that detracts from the professional and educational tone expected in French learning materials.",
       "examples": [
         {
-          "wrong": "nous permettent de répéter des opérations",
-          "correct": "permettent de répéter des opérations",
-          "context": "Programming explanation; first-person plural is less formal and neutral."
+          "wrong": "Imaginez chaque nucléotide comme un ingrédient de base dans une recette...",
+          "correct": "Imaginez chaque nucléotide comme un élément essentiel dans la construction de l'ADN.",
+          "context": "Culinary metaphor is too informal for scientific content."
         },
         {
-          "wrong": "de manière efficiente",
-          "correct": "de manière efficace",
-          "context": "Describing code organization; 'efficace' is more natural and widely accepted in French."
+          "wrong": "en permettant aux individus de se sentir vécus et compris",
+          "correct": "en permettant aux individus de se sentir compris et entendus",
+          "context": "Non-idiomatic phrase; correction uses standard emotional vocabulary."
+        },
+        {
+          "wrong": "En milieu d'urgence...",
+          "correct": "En situation d'urgence...",
+          "context": "Improves naturalness in medical/emergency context."
+        },
+        {
+          "wrong": "En réalité, le pouvoir de déclarer la guerre est un frein au pouvoir exécutif...",
+          "correct": "En réalité, le pouvoir de déclarer la guerre appartient au Congrès...",
+          "context": "Stylistically awkward; correction clarifies and improves tone."
+        },
+        {
+          "wrong": "Il est essentiel de choisir des produits laitiers avec une teneur élevée en matières grasses...",
+          "correct": "Il est essentiel de choisir des produits laitiers adaptés à vos besoins nutritionnels...",
+          "context": "Correction provides a more neutral, culturally appropriate recommendation."
+        },
+        {
+          "wrong": "La lecture approfondie consiste à comprendre et analyser en profondeur...",
+          "correct": "La lecture approfondie consiste à comprendre et à analyser en profondeur...",
+          "context": "Adds required conjunction for parallelism and naturalness."
         }
       ]
     },
     {
-      "pattern_name": "Incorrect Preposition Usage",
+      "pattern_name": "Syntax errors: missing articles and awkward constructions",
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 5,
+      "description": "Omission of required articles, misplaced introductory phrases, and syntactically awkward sentence structures. These errors hinder readability and comprehension.",
+      "examples": [
+        {
+          "wrong": "Pratiquer l'écoute active en attendant pauses naturelles",
+          "correct": "Pratiquer l'écoute active en attendant des pauses naturelles",
+          "context": "Instructions for active listening"
+        },
+        {
+          "wrong": "Maintien de la tranquillité est une étape fondamentale",
+          "correct": "Le maintien de la tranquillité est une étape fondamentale",
+          "context": "Describing steps in conflict management"
+        },
+        {
+          "wrong": "En attendant, montrer de l'empathie...",
+          "correct": "Montrer de l'empathie...",
+          "context": "Advice on communication"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Unnatural or Non-Idiomatic Lexical Choices",
+      "category": "localization",
+      "subcategory": "Lexical",
+      "impact_level": "MEDIUM",
+      "frequency": "very_common",
+      "frequency_count": 3,
+      "description": "Use of terms or phrases that are technically correct but sound unnatural or are not idiomatic in French, affecting clarity and professional tone.",
+      "examples": [
+        {
+          "wrong": "La maîtrise du Nil a donc eu un impact déterminant...",
+          "correct": "La gestion du Nil a donc eu un impact déterminant...",
+          "context": "Refers to agricultural management; 'maîtrise' is less idiomatic than 'gestion'."
+        },
+        {
+          "wrong": "Les pyramides ont été conçues comme des tombes funéraires...",
+          "correct": "Les pyramides ont été conçues comme des tombeaux...",
+          "context": "Redundant and less idiomatic; 'tombeaux' is standard for monumental burial structures."
+        },
+        {
+          "wrong": "Leur taille monumentale et la précision de la construction sont le témoignage de l'ingéniosité...",
+          "correct": "Leur taille monumentale et la précision de la construction témoignent de l'ingéniosité...",
+          "context": "Verb choice and pluralization improve naturalness and accuracy."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Orthographic and typographic inconsistencies",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 2,
+      "description": "Non-standard use of punctuation, quotation marks, and typographic conventions, which affects professionalism and adherence to French standards.",
+      "examples": [
+        {
+          "wrong": "Marchi.e.e.",
+          "correct": "Marchi.e.",
+          "context": "Typographical error in gender-inclusive writing"
+        },
+        {
+          "wrong": "sous le nom de 'association'",
+          "correct": "sous le nom d'« association »",
+          "context": "Denoting terms or concepts"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Cultural Inappropriateness or US-Centric Perspective",
+      "category": "localization",
+      "subcategory": "Cultural",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 2,
+      "description": "References or descriptions that do not reflect French cultural norms or present a US-centric view, reducing inclusivity and relevance for French-speaking learners.",
+      "examples": [
+        {
+          "wrong": "Thanksgiving aux États-Unis, qui est un jour férié",
+          "correct": "Thanksgiving aux États-Unis, qui est une fête nationale",
+          "context": "Improves cultural understanding of the holiday's significance."
+        },
+        {
+          "wrong": "comme l'initiative de SpaceX pour rendre le voyage spatial plus accessible.",
+          "correct": "comme les initiatives de SpaceX et d'autres agences spatiales...",
+          "context": "Broadens scope to include international agencies for cultural balance."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Local Practice and Format Misalignment",
+      "category": "localization",
+      "subcategory": "Format|Terminology|Style",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Advice or formatting that does not align with local French practices or standards, potentially misleading learners.",
+      "examples": [
+        {
+          "wrong": "il est recommandé de les vérifier et de les remplacer annuellement, ce qui contribue à une meilleure prévention de l'incendie.",
+          "correct": "il est recommandé de les tester régulièrement et de remplacer les piles chaque année, ce qui contribue à une meilleure prévention des incendies.",
+          "context": "Correction aligns with local fire safety recommendations and improves terminology."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Lexical Inaccuracy or Non-idiomatic Word Choice",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "LOW",
+      "frequency": "very_common",
+      "frequency_count": 8,
+      "description": "Use of words or phrases that are technically correct but less idiomatic or precise in French, affecting naturalness and clarity.",
+      "examples": [
+        {
+          "wrong": "notion que les constantes changent",
+          "correct": "idée que les constantes changent",
+          "context": "Describing misconceptions in mathematics"
+        },
+        {
+          "wrong": "stocker une valeur",
+          "correct": "contenir une valeur",
+          "context": "Describing variable behavior in programming"
+        },
+        {
+          "wrong": "déclaration est vraie",
+          "correct": "affirmation est vraie",
+          "context": "True/false statements in educational content"
+        },
+        {
+          "wrong": "l'échange culturel",
+          "correct": "les échanges culturels",
+          "context": "Describing international relations"
+        },
+        {
+          "wrong": "supérieure à 1",
+          "correct": "dépasser 1",
+          "context": "Probability in mathematics"
+        },
+        {
+          "wrong": "crucial pour maîtriser",
+          "correct": "essentiel pour maîtriser",
+          "context": "Expressing importance in educational contexts"
+        },
+        {
+          "wrong": "sont essentiels dans la formation",
+          "correct": "jouent un rôle essentiel dans la formation",
+          "context": "Describing influence in geography"
+        },
+        {
+          "wrong": "répondre aux autres critères comme",
+          "correct": "répondre à d'autres critères tels que",
+          "context": "Describing evaluation criteria"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Prepositional and Article Usage Errors",
       "category": "linguistic",
       "subcategory": "Grammar",
       "impact_level": "LOW",
       "frequency": "common",
-      "frequency_count": 2,
-      "description": "Use of incorrect prepositions in set phrases, leading to minor grammatical errors and reduced clarity.",
+      "frequency_count": 5,
+      "description": "Incorrect or less idiomatic use of prepositions and articles, which can subtly affect grammatical accuracy and clarity.",
       "examples": [
         {
           "wrong": "inverse à celle effectuée",
           "correct": "inverse de celle effectuée",
-          "context": "Mathematical explanation; 'de' is the correct preposition."
+          "context": "Describing mathematical operations"
         },
         {
           "wrong": "Dans Python",
           "correct": "En Python",
-          "context": "Programming context; 'En' is the correct preposition for languages."
-        }
-      ]
-    },
-    {
-      "pattern_name": "Terminology inconsistency and contextual mismatch",
-      "category": "localization",
-      "subcategory": "Terminology",
-      "impact_level": "LOW",
-      "frequency": "common",
-      "frequency_count": 2,
-      "description": "Use of terms or references that do not match the lesson context or standard French educational phrasing, leading to minor confusion or reduced clarity.",
-      "examples": [
-        {
-          "wrong": "la formule originale indique que chaque collation coûte 2 euros",
-          "correct": "la formule correcte est `Coût total = 2x`, chaque collation coûtant 2 euros",
-          "context": "References a 'formule originale' not present in the lesson, confusing learners."
+          "context": "Referring to programming languages"
         },
         {
-          "wrong": "Les vacuoles dans les cellules animales peuvent varier considérablement en taille et fonction",
-          "correct": "Les vacuoles des cellules animales peuvent varier considérablement en taille et en fonction",
-          "context": "Terminology and parallel structure for naturalness in French."
+          "wrong": "nominations de la Cour suprême",
+          "correct": "nominations à la Cour suprême",
+          "context": "Describing appointments in government"
+        },
+        {
+          "wrong": "Sublimation est un processus",
+          "correct": "La sublimation est un processus",
+          "context": "Describing scientific processes"
+        },
+        {
+          "wrong": "n'a pas de pouvoir de légiférer",
+          "correct": "n'a pas le pouvoir de légiférer",
+          "context": "Describing governmental powers"
         }
       ]
     },
     {
-      "pattern_name": "Non-idiomatic phrasing and style",
+      "pattern_name": "Unnecessary Serial Comma in Lists",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "LOW",
+      "frequency": "common",
+      "frequency_count": 4,
+      "description": "Use of a comma before 'et' or 'ou' in lists, which is not standard in French and affects punctuation consistency.",
+      "examples": [
+        {
+          "wrong": "x, y, ou z",
+          "correct": "x, y ou z",
+          "context": "Listing variables in mathematical explanations"
+        },
+        {
+          "wrong": "un raisonnement clair, et une réponse appropriée",
+          "correct": "un raisonnement clair et une réponse appropriée",
+          "context": "Enumerating qualities in argumentation"
+        },
+        {
+          "wrong": "faits concrets, statistiques, exemples concrets, ou témoignages d'experts",
+          "correct": "faits, statistiques, exemples concrets ou témoignages d'experts",
+          "context": "Listing types of evidence"
+        },
+        {
+          "wrong": "des détails, des symboles, ou des interactions",
+          "correct": "des détails, des symboles ou des interactions",
+          "context": "Listing narrative elements"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Non-standard stylistic choices for educational context",
       "category": "localization",
       "subcategory": "Style",
       "impact_level": "LOW",
       "frequency": "common",
-      "frequency_count": 2,
-      "description": "Use of literal or less idiomatic French expressions that reduce the naturalness and professional tone of explanations.",
+      "frequency_count": 4,
+      "description": "Use of informal, less idiomatic, or regionally variable stylistic elements that do not align with the formal, neutral register expected in French educational materials.",
       "examples": [
         {
-          "wrong": "Cette déclaration est exacte.",
-          "correct": "Cette affirmation est correcte.",
-          "context": "Use of 'déclaration' instead of 'affirmation' for true/false statements."
+          "wrong": "comme diagnostiquer un problème technique",
+          "correct": "telles que diagnostiquer un problème technique",
+          "context": "Listing examples in instructional content"
         },
         {
-          "wrong": "le programme est arrêté pendant que l'utilisateur fournit les informations requises",
-          "correct": "le programme attend que l'utilisateur saisisse les informations requises",
-          "context": "Literal phrasing instead of idiomatic French for program flow."
+          "wrong": "en fait célèbre pour son caractère improvisé",
+          "correct": "célèbre pour son caractère improvisé",
+          "context": "Unnecessary informal phrase in educational explanation"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Omission or Redundancy in Parallel Structures",
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 3,
+      "description": "Missing repeated articles or unnecessary repetition in lists, affecting parallelism and clarity in educational content.",
+      "examples": [
+        {
+          "wrong": "leurs émotions et sentiments à travers leurs comportements et actions",
+          "correct": "leurs émotions et leurs sentiments à travers leurs comportements et leurs actions",
+          "context": "Describing empathy in social sciences"
+        },
+        {
+          "wrong": "par le survol et des informations spécifiques extraites par la recherche rapide",
+          "correct": "grâce au survol et d'informations spécifiques extraites par la recherche rapide",
+          "context": "Describing reading strategies"
+        },
+        {
+          "wrong": "ou 'message ou idée centrale'",
+          "correct": "ou le 'message ou l'idée centrale'",
+          "context": "Defining narrative themes"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Typographic and Punctuation Conventions",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 3,
+      "description": "Non-compliance with French typographic standards, such as use of English quotation marks or missing spaces before punctuation.",
+      "examples": [
+        {
+          "wrong": "'Atlas des animaux'",
+          "correct": "« Atlas des animaux »",
+          "context": "Referencing book titles"
+        },
+        {
+          "wrong": "n'a pas le pouvoir de légiférer; c'est le rôle",
+          "correct": "n'a pas le pouvoir de légiférer ; c'est le rôle",
+          "context": "Use of semicolon in government context"
+        },
+        {
+          "wrong": "Ceci est incorrect car la musique classique",
+          "correct": "Ceci est incorrect, car la musique classique",
+          "context": "Separating clauses for clarity"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Unnatural coordination and conjunction usage",
+      "category": "localization",
+      "subcategory": "Grammar",
+      "impact_level": "LOW",
+      "frequency": "common",
+      "frequency_count": 3,
+      "description": "Omission or incorrect use of conjunctions and prepositions in coordinated phrases, leading to awkward or grammatically incorrect sentences.",
+      "examples": [
+        {
+          "wrong": "en taille et fonction",
+          "correct": "en taille et en fonction",
+          "context": "Coordinating attributes in scientific explanation"
+        },
+        {
+          "wrong": "créer du dynamisme, et orienter le regard",
+          "correct": "créer du dynamisme et orienter le regard",
+          "context": "List punctuation in French"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Overly specific or culturally limited references",
+      "category": "localization",
+      "subcategory": "Cultural",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 3,
+      "description": "Use of examples or references that are too specific or culturally narrow, reducing the universal applicability of the content for French-speaking learners.",
+      "examples": [
+        {
+          "wrong": "En France, l'intégration de l'IA dans les voitures...",
+          "correct": "L'intégration de l'IA dans les voitures...",
+          "context": "Unnecessary country-specific mention"
+        },
+        {
+          "wrong": "tout comme les enseignants appliquent les règles dans une école.",
+          "correct": "Use a more precise analogy relevant to government functions.",
+          "context": "Oversimplified analogy for government structure"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Formatting and typographic inconsistencies",
+      "category": "localization",
+      "subcategory": "Format",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 2,
+      "description": "Minor deviations from French typographic conventions, such as spacing before degree symbols or list punctuation, affecting professional presentation.",
+      "examples": [
+        {
+          "wrong": "0°C",
+          "correct": "0 °C",
+          "context": "Temperature formatting in scientific context"
+        },
+        {
+          "wrong": "créer du dynamisme, et orienter le regard",
+          "correct": "créer du dynamisme et orienter le regard",
+          "context": "Comma usage before 'et' in lists"
         }
       ]
     }

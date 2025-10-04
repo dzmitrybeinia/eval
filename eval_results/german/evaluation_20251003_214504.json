@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "🌟",
+      "correction": "",
+      "description": "The use of the star emoji in an educational German science lesson may be considered informal and less appropriate for academic content. Removing the emoji would maintain a more professional and neutral tone suitable for educational materials.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Plasma-Fernseher und Neonlichter",
+      "correction": "Plasmafernseher und Neonlichter",
+      "description": "The term 'Plasma-Fernseher' should be written as the compound noun 'Plasmafernseher' according to German orthographic conventions. This ensures consistency and naturalness in terminology, aligning with standard German usage for technical devices.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "States_of_Matter.llm.md",
+    "language": "German",
+    "timestamp": "2025-10-03T21:45:04.559648",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.8,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.2,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

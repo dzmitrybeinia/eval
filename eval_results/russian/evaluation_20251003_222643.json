@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "висцепта",
+      "correction": "височная кора",
+      "description": "The word 'висцепта' is not a valid Russian term and appears to be a misspelling or incorrect transliteration. The correct term for the relevant brain region is 'височная кора' (temporal cortex). This lexical error affects the scientific accuracy and clarity of the feedback.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "информация укладывается в структуру, которую легче запоминать и воспроизводить.",
+      "correction": "информация укладывается в структуру, которую легче запомнить и воспроизвести.",
+      "description": "The use of 'запоминать и воспроизводить' (imperfective aspect) is less appropriate in this context, as the sentence refers to the result of the memorization process. The perfective aspect 'запомнить и воспроизвести' is more accurate, indicating the completion of these actions.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Memory_Techniques.slm.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T22:26:43.662775",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.5,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

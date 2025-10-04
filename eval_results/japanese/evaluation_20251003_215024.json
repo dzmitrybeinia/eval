@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "🌐",
+      "correction": "",
+      "description": "The globe emoji is used in the introduction, which may not be appropriate for formal educational content in Japanese. While emojis can add visual interest, their use in instructional materials should be carefully considered, as they may reduce the perceived professionalism or distract from the main message. It is recommended to remove the emoji for a more formal and culturally appropriate tone.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "公式のように見えるメールでパスワードを要求された場合、送信者の正体を確認しましょう。正当な組織はメールで敏感な情報を要求することはありません。",
+      "correction": "公式のように見えるメールでパスワードを要求された場合は、送信者の正体を確認しましょう。正当な組織がメールで敏感な情報を要求することはありません。",
+      "description": "The first sentence lacks the particle 'は' after '場合', which is necessary to mark the conditional clause clearly. Adding 'は' improves grammatical accuracy and clarity. In the second sentence, '正当な組織はメールで敏感な情報を要求することはありません' is grammatically correct, but using 'が' instead of 'は' for '正当な組織' would emphasize the subject and make the sentence more natural in this context.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "信頼できる大人またはプラットフォームのモデレーターに報告してください。",
+      "correction": "信頼できる大人やプラットフォームの管理者に報告してください。",
+      "description": "The term 'モデレーター' is a direct loanword from English and may not be immediately understood by all Japanese learners, especially in an educational context. The more commonly used and natural term in Japanese is '管理者'. Replacing 'モデレーター' with '管理者' improves localization and ensures better comprehension.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "自分のオンライン行動と他者への影響を批判的に考えることが大切です。",
+      "correction": "自分のオンラインでの行動と他者への影響を批判的に考えることが大切です。",
+      "description": "The phrase '自分のオンライン行動' is missing the particle 'での', which is necessary to correctly modify '行動' with 'オンライン'. The corrected phrase 'オンラインでの行動' is grammatically accurate and more natural.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Digital_Etiquette.llm.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-03T21:50:24.055193",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

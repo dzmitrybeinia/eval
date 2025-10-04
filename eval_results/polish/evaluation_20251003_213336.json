@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "AI o samoświadomości",
+      "correction": "AI ze samoświadomością",
+      "description": "The phrase 'AI o samoświadomości' is grammatically incorrect in Polish. The correct construction is 'AI ze samoświadomością', which properly uses the instrumental case with the preposition 'ze' to indicate possession of self-awareness. This error affects the clarity and grammatical correctness of the text.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Sztuczna inteligencja (AI) to fascynujące narzędzie technologiczne, które pozwala maszynom wykonywać zadania wymagające ludzkiej inteligencji, takie jak uczenie się, rozwiązywanie problemów czy podejmowanie decyzji.",
+      "correction": "Sztuczna inteligencja (AI) to zaawansowane narzędzie technologiczne, które umożliwia maszynom wykonywanie zadań wymagających ludzkiej inteligencji, takich jak uczenie się, rozwiązywanie problemów czy podejmowanie decyzji.",
+      "description": "The use of 'fascynujące' is more subjective and less formal, which may not be appropriate for educational content intended for a broad audience. Replacing it with 'zaawansowane' provides a more neutral and professional tone, improving the naturalness and appropriateness of the style for Polish educational materials.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Moc obliczeniowa",
+      "correction": "Wydajność obliczeniowa",
+      "description": "The term 'moc obliczeniowa' is a literal translation of 'computing power' and is less commonly used in Polish technical language. 'Wydajność obliczeniowa' is the standard term in Polish IT and scientific contexts, ensuring consistency and professional terminology.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "Lata 2020",
+      "correction": "lata 20. XXI wieku",
+      "description": "The phrase 'Lata 2020' is not the standard way to refer to the decade in Polish. The correct format is 'lata 20. XXI wieku', which is culturally and linguistically appropriate for Polish readers.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "What_is_AI.llm.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T21:33:36.080051",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.3,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.7,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.4,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

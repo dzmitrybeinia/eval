@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "No entres dócilmente en esa buena noche,",
+      "correction": "No entres dócilmente en esa dulce noche,",
+      "description": "The phrase 'buena noche' in the context of the villanelle is a literal translation of 'good night' from English, which in Dylan Thomas's poem is a metaphor for death. In Spanish poetic tradition, 'dulce noche' is more commonly used to convey a metaphorical or gentle transition, aligning better with the original poem's intent. 'Buena noche' can sound awkward or overly literal, reducing the emotional impact and naturalness of the line. This is a lexical and stylistic issue affecting both accuracy and poetic resonance.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Rabia, rabia contra la muerte de la luz.",
+      "correction": "¡Rabia, rabia contra la muerte de la luz!",
+      "description": "The original line lacks the opening exclamation mark, which is required in Spanish for exclamatory sentences. This omission affects orthographic correctness and the intended emotional intensity of the phrase. Proper punctuation is essential for conveying the urgency and forcefulness present in the original English poem.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "pentámetro yámbico",
+      "correction": "verso en pentámetro yámbico",
+      "description": "The term 'pentámetro yámbico' is a direct translation of 'iambic pentameter' but is not commonly used in Spanish literary analysis. The more natural and accepted phrase is 'verso en pentámetro yámbico' or simply 'verso yámbico'. This adjustment improves terminology consistency and aligns with Spanish poetic discourse.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "¡Bienvenidos! Hoy vamos a sumergirnos en el fascinante mundo de la poesía 📜✨.",
+      "correction": "¡Bienvenidos! Hoy vamos a sumergirnos en el fascinante mundo de la poesía.",
+      "description": "The use of emojis (📜✨) in educational Spanish content, especially in formal or academic contexts, is generally considered informal and may not be culturally appropriate for all audiences. Removing emojis ensures a more professional and universally accepted tone.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Eres más hermosa y más templada:",
+      "correction": "Eres más hermosa y más templada;",
+      "description": "The use of a colon at the end of this line is grammatically incorrect in Spanish poetry, where a semicolon is more appropriate to indicate a pause and continuation of thought. This correction improves grammatical accuracy and poetic flow.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Poetry_Forms.llm.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-03T21:29:12.331290",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.4,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

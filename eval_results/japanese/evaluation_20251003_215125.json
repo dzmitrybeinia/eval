@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "行政府門",
+      "correction": "行政府",
+      "description": "The term '行政府門' is incorrect; the proper term for the executive branch in Japanese is '行政府'. The suffix '門' is not used in this context and is a grammatical error. This mistake appears in section headings and bullet points, and should be corrected throughout for linguistic accuracy and consistency.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "このレッスンでは、各部門の役割、相互作用、そして公共政策への影響について学びます！🌟",
+      "correction": "このレッスンでは、各部門の役割、相互作用、そして公共政策への影響について学びます。",
+      "description": "The use of the exclamation mark and the sparkle emoji '！🌟' is not standard in formal Japanese educational content. Removing these elements improves the professional tone and aligns with Japanese academic style conventions.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "州間通商の規制",
+      "correction": "州際通商の規制",
+      "description": "The term '州間通商' is understandable but not the standard translation for 'interstate commerce.' The more natural and widely accepted term in Japanese legal and academic contexts is '州際通商.' Using the correct terminology ensures clarity and consistency for learners.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "弾劾を行う権限を持つ",
+      "correction": "弾劾権を持つ",
+      "description": "The phrase '弾劾を行う権限を持つ' is verbose and less natural than the standard legal term '弾劾権を持つ.' Using concise, established terminology improves readability and aligns with Japanese legal language conventions.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "裁判官は大統領によって任命され、上院の承認を得る必要がある。",
+      "correction": "連邦裁判官は大統領によって任命され、上院の承認を得る必要がある。",
+      "description": "The original sentence '裁判官は大統領によって任命され、上院の承認を得る必要がある。' is ambiguous, as not all judges are appointed by the President and confirmed by the Senate. Specifying '連邦裁判官' clarifies that this applies to federal judges, which is important for accuracy in educational content.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Government_Structure.llm.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-03T21:51:25.525504",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.1,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 0.9,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 4,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.6,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

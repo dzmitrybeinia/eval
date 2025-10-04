@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "動物の環境適応への旅へ！",
+      "correction": "動物の環境適応について学びましょう！",
+      "description": "The original phrase uses an exclamatory, somewhat literal translation of 'journey to animal adaptation,' which is not a natural or standard way to introduce an educational topic in Japanese. It may sound awkward or overly dramatic for the context. A more natural and culturally appropriate introduction would invite the learner to 'learn about' the topic, which aligns with Japanese educational style and tone.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "鳥が冬に暖かい地域へ移動する行動。",
+      "correction": "鳥が冬に暖かい地域へ移動する。",
+      "description": "The phrase redundantly ends with '行動' after describing the action, which is unnecessary and ungrammatical in this context. The sentence should simply state the action itself, as the context already clarifies that it is an example of behavioral adaptation. Removing '行動' improves grammatical accuracy and naturalness.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "ミツバチが「ワグルダンス」を行い、食糧の位置を伝える。",
+      "correction": "ミツバチが「ワグルダンス」をして、餌の位置を仲間に伝える。",
+      "description": "The term '食糧' is typically used for staple food or provisions, not for animal feed. For bees, '餌' is the appropriate term. Additionally, specifying '仲間に伝える' clarifies the social aspect of the behavior, which is important for educational accuracy and naturalness in Japanese science content.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Animal_Adaptations.llm.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-03T21:49:25.631548",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.4,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

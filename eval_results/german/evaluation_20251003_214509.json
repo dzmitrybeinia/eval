@@ -1,0 +1,83 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Geschichtelemente Einführung",
+      "correction": "Geschichtelemente-Einführung",
+      "description": "In German, compound nouns should be written as a single word or, if used as a heading or theme, with a hyphen to clarify the compound structure. The original phrase lacks a hyphen, which can cause confusion and does not follow standard German orthographic conventions for compound nouns in thematic headings.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Phantásien",
+      "correction": "Phantásien",
+      "description": "The word 'Phantásien' is spelled correctly with an accent as it appears in Michael Ende's 'Die unendliche Geschichte.' However, in standard German, accents are not typically used on the letter 'a.' This is a stylistic choice from the original work, so it is not an orthographic error in this context, but educators should clarify that this is a literary exception and not standard German spelling.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Geschichtelemente",
+      "correction": "Geschichtselemente",
+      "description": "The compound noun 'Geschichtelemente' is missing the connecting 's' that is standard in German compound formation. The correct form is 'Geschichtselemente.' This error affects the lexical precision and orthographic correctness of the term.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Das Verständnis dieser Bausteine wird dir helfen, ein besserer Leser und Schreiber zu werden.",
+      "correction": "Das Verständnis dieser Bausteine wird dir helfen, besser lesen und schreiben zu können.",
+      "description": "The phrase 'ein besserer Leser und Schreiber zu werden' is understandable but sounds slightly unnatural in German educational style. A more idiomatic and natural expression would be 'besser lesen und schreiben zu können,' which is commonly used in German educational contexts and avoids the awkward nominalization of 'Schreiber.'",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Fallende Handlung",
+      "correction": "abfallende Handlung",
+      "description": "The term 'Fallende Handlung' is understandable but not the most commonly used terminology in German literary analysis. The standard term is 'abfallende Handlung,' which is more widely accepted in German educational materials and literary studies.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Auflösung",
+      "correction": "Lösung",
+      "description": "While 'Auflösung' is used in some contexts, 'Lösung' is the more standard term for the resolution phase in German narrative structure. Using 'Lösung' ensures consistency with German literary terminology and improves clarity for learners.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Das Verständnis dieser Elemente hilft dir, Geschichten besser zu analysieren und zu genießen – und sogar deine eigenen zu erschaffen!",
+      "correction": "Das Verständnis dieser Elemente hilft dir, Geschichten besser zu analysieren und zu genießen – und sogar eigene Geschichten zu schreiben!",
+      "description": "The phrase 'deine eigenen zu erschaffen' is understandable but less idiomatic in German educational style. 'Eigene Geschichten zu schreiben' is a more natural and commonly used expression in German, especially in educational contexts, and avoids the awkward use of 'erschaffen' for story writing.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Story_Elements.llm.md",
+    "language": "German",
+    "timestamp": "2025-10-03T21:45:09.999207",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.2,
+    "classification": "NATIVE",
+    "total_issues": 7,
+    "total_penalty": 0.8,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 4,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.4,
+      "localization_penalty": 0.4,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Por ejemplo, si tienes una pizza cortada en 4 rebanadas y comes una, entonces estás comiendo una fracción de la pizza, específicamente 1/4.",
+      "correction": "Por ejemplo, si tienes una pizza cortada en 4 porciones y comes una, entonces estás comiendo una fracción de la pizza, específicamente 1/4.",
+      "description": "The word 'rebanadas' is commonly used for slices of bread or cake, while 'porciones' is more appropriate and standard for pizza in educational contexts. This improves lexical precision and aligns with natural usage in Spanish educational materials.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Esto muestra cómo reducir fracciones para encontrar equivalentes.",
+      "correction": "Esto muestra cómo simplificar fracciones para encontrar equivalentes.",
+      "description": "The verb 'reducir' is less commonly used in Spanish math education for fractions; 'simplificar' is the standard term for making fractions simpler. This change ensures the terminology matches local educational standards and improves clarity for Spanish-speaking learners.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Cuando se dividen o multiplican por el mismo número, las fracciones se simplifican o expanden, pero siguen representando la misma porción del todo.",
+      "correction": "Cuando se dividen o multiplican el numerador y el denominador por el mismo número, las fracciones se simplifican o amplían, pero siguen representando la misma porción del todo.",
+      "description": "The original sentence lacks clarity in the subject of the verbs 'dividen' and 'multiplican', which could cause confusion. Specifying 'el numerador y el denominador' clarifies the action. Additionally, 'expandir' is less standard than 'ampliar' in this mathematical context.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Lexical",
+      "original": "Cuando una pizza se divide en 12 rebanadas y se consumen 7, la fracción que representa la parte comida es 7/12, que es menor que 1.",
+      "correction": "Cuando una pizza se divide en 12 porciones y se consumen 7, la fracción que representa la parte comida es 7/12, que es menor que 1.",
+      "description": "The term 'rebanadas' is not the most natural or standard for pizza in Spanish educational contexts; 'porciones' is preferred. This change improves lexical appropriateness and aligns with local usage.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Por ejemplo, si tienes una pizza cortada en cuatro rebanadas y tomas una, esas dos partes juntas, o la fracción 2/4, son menos que la pizza entera.",
+      "correction": "Por ejemplo, si tienes una pizza cortada en cuatro porciones y tomas dos, esas dos partes juntas, o la fracción 2/4, son menos que la pizza entera.",
+      "description": "The original sentence incorrectly states 'tomas una' and then refers to 'esas dos partes juntas', which is inconsistent. It should be 'tomas dos' to match the reference to two parts and the fraction 2/4. Also, 'porciones' is more appropriate than 'rebanadas' for pizza.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Fractions_Basics.slm.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-03T22:11:27.263361",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.2,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 0.8,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.6,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

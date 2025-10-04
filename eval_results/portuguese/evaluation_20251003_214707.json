@@ -1,0 +1,35 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "Mantenha aquecedores a pelo menos três pés de distância de objetos inflamáveis e desligue-os ao sair do cômodo.",
+      "correction": "Mantenha aquecedores a pelo menos um metro de distância de objetos inflamáveis e desligue-os ao sair do cômodo.",
+      "description": "The use of 'três pés' (three feet) is not standard in Brazilian Portuguese, where the metric system is used. The correct and culturally appropriate unit is 'um metro'. This change ensures the content is localized for Brazilian audiences and avoids confusion.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Fire_Safety.llm.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T21:47:07.631034",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.8,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.2,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

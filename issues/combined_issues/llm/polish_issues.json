@@ -1,25 +1,62 @@
 {
   "metadata": {
     "label": "llm",
-    "label_normalized": "llm",
-    "label_key": "llm",
     "language": "polish",
-    "generated_at": "2025-10-03T15:57:57.560807",
+    "generated_at": "2025-10-03T21:53:25.148502",
     "source_files": [
-      "evaluation_20251003_155202.json",
-      "evaluation_20251003_155206.json",
-      "evaluation_20251003_155207.json",
-      "evaluation_20251003_155211.json",
-      "evaluation_20251003_155216.json",
-      "evaluation_20251003_155218.json",
-      "evaluation_20251003_155224.json",
-      "evaluation_20251003_155228.json",
-      "evaluation_20251003_155231.json",
-      "evaluation_20251003_155236.json"
+      "evaluation_20251003_213037.json",
+      "evaluation_20251003_213041.json",
+      "evaluation_20251003_213043.json",
+      "evaluation_20251003_213044.json",
+      "evaluation_20251003_213048.json",
+      "evaluation_20251003_213049.json",
+      "evaluation_20251003_213053.json",
+      "evaluation_20251003_213059.json",
+      "evaluation_20251003_213104.json",
+      "evaluation_20251003_213108.json",
+      "evaluation_20251003_213112.json",
+      "evaluation_20251003_213120.json",
+      "evaluation_20251003_213124.json",
+      "evaluation_20251003_213136.json",
+      "evaluation_20251003_213139.json",
+      "evaluation_20251003_213142.json",
+      "evaluation_20251003_213144.json",
+      "evaluation_20251003_213147.json",
+      "evaluation_20251003_213150.json",
+      "evaluation_20251003_213152.json",
+      "evaluation_20251003_213155.json",
+      "evaluation_20251003_213200.json",
+      "evaluation_20251003_213202.json",
+      "evaluation_20251003_213204.json",
+      "evaluation_20251003_213209.json",
+      "evaluation_20251003_213212.json",
+      "evaluation_20251003_213214.json",
+      "evaluation_20251003_213218.json",
+      "evaluation_20251003_213223.json",
+      "evaluation_20251003_213226.json",
+      "evaluation_20251003_213230.json",
+      "evaluation_20251003_213235.json",
+      "evaluation_20251003_213238.json",
+      "evaluation_20251003_213240.json",
+      "evaluation_20251003_213244.json",
+      "evaluation_20251003_213247.json",
+      "evaluation_20251003_213253.json",
+      "evaluation_20251003_213256.json",
+      "evaluation_20251003_213300.json",
+      "evaluation_20251003_213303.json",
+      "evaluation_20251003_213306.json",
+      "evaluation_20251003_213309.json",
+      "evaluation_20251003_213312.json",
+      "evaluation_20251003_213317.json",
+      "evaluation_20251003_213320.json",
+      "evaluation_20251003_213325.json",
+      "evaluation_20251003_213329.json",
+      "evaluation_20251003_213336.json",
+      "evaluation_20251003_213338.json"
     ],
     "issue_counts": {
-      "linguistic": 14,
-      "localization": 21
+      "linguistic": 54,
+      "localization": 110
     }
   },
   "issues": {
@@ -28,80 +65,32 @@
         "category": "linguistic",
         "subcategory": "Lexical",
         "original": "W czasie rewolucji przemysłowej w Anglii ćmy pieprzowe zmieniły kolor z jasnego na ciemny, aby zlać się z pokrytymi sadzą drzewami.",
-        "correction": "W czasie rewolucji przemysłowej w Anglii ćmy barczatki zmieniły kolor z jasnego na ciemny, aby zlać się z pokrytymi sadzą drzewami.",
-        "description": "The term 'ćmy pieprzowe' is a literal translation of 'peppered moths' and is not the standard Polish name for the species. The correct term is 'barczatki' (specifically 'barczatka sosnówka' for Biston betularia). Using the proper scientific or commonly accepted name is important for lexical precision and educational clarity.",
+        "correction": "W czasie rewolucji przemysłowej w Anglii ćmy zmieniły kolor z jasnego na ciemny, aby zlać się z pokrytymi sadzą drzewami.",
+        "description": "The term 'ćmy pieprzowe' is a literal translation of 'peppered moths', but in Polish scientific and educational contexts, the standard term is simply 'ćmy' or 'krępak brzozowy' (Biston betularia). Using 'ćmy pieprzowe' is a lexical error and may confuse learners, as it is not a recognized or natural term in Polish biology. The correction removes the nonstandard term to ensure clarity and accuracy.",
         "severity": "MEDIUM"
       },
       {
         "category": "linguistic",
         "subcategory": "Grammar",
-        "original": "Długie szyje żyraf, umożliwiające dostęp do wysokich drzew na sawannie.",
-        "correction": "Długie szyje żyraf umożliwiają dostęp do wysokich drzew na sawannie.",
-        "description": "The original sentence is a fragment and lacks a main verb, resulting in a grammatical error. Removing the comma and restructuring the sentence provides a complete clause with correct subject-verb agreement.",
-        "severity": "MEDIUM"
+        "original": "Białka przeciwzamrożeniowe u ryb arktycznych zapobiegające tworzeniu się kryształów lodu we krwi.",
+        "correction": "Białka przeciwzamrożeniowe u ryb arktycznych zapobiegają tworzeniu się kryształów lodu we krwi.",
+        "description": "The original sentence is a fragment lacking a main verb, resulting in a grammatical error. The correction provides a complete sentence with proper verb conjugation, ensuring grammatical accuracy and clarity.",
+        "severity": "HIGH"
       },
       {
         "category": "linguistic",
         "subcategory": "Lexical",
         "original": "Równania jednoruchowe",
         "correction": "Równania jednomianowe",
-        "description": "The term 'jednoruchowe' is not a correct or standard term in Polish mathematics for equations requiring a single operation. The proper term is 'jednomianowe' or, more commonly, 'równania z jedną niewiadomą' or 'równania wymagające jednej operacji'. 'Jednoruchowe' is a lexical error and may confuse learners, as it is not used in Polish mathematical terminology.",
+        "description": "The term 'jednoruchowe' is not a standard or correct term in Polish mathematics for equations requiring a single operation. The proper term is 'jednomianowe' (single-step equations) or 'równania z jedną niewiadomą' depending on context. The use of 'jednoruchowe' is a lexical error and may confuse learners, as it is not recognized in educational or mathematical literature.",
         "severity": "HIGH"
       },
       {
         "category": "linguistic",
         "subcategory": "Grammar",
-        "original": "Jądro również kieruje czynnościami komórki, takimi jak wzrost i podział.",
-        "correction": "Jądro kieruje także czynnościami komórki, takimi jak wzrost i podział.",
-        "description": "The original sentence uses 'również' in a position that is less natural in Polish and may cause ambiguity regarding what is being emphasized. The corrected version places 'także' earlier, which is more idiomatic and improves sentence flow. Additionally, 'także' is preferred in this context for additive meaning. This correction enhances clarity and naturalness.",
-        "severity": "MINOR"
-      },
-      {
-        "category": "linguistic",
-        "subcategory": "Orthography",
-        "original": "Rybosomy to maleńkie, koralikowate struktury znajdujące się zarówno w cytoplazmie, jak i na powierzchni retikulum endoplazmatycznego.",
-        "correction": "Rybosomy to maleńkie, koralikowate struktury znajdujące się zarówno w cytoplazmie, jak i na powierzchni siateczki śródplazmatycznej.",
-        "description": "The term 'retikulum endoplazmatyczne' is a direct Latin loanword and, while technically correct, is less commonly used in Polish educational contexts for younger audiences. 'Siateczka śródplazmatyczna' is the standard Polish term and is more appropriate for clarity and localization. This correction improves lexical precision and cultural appropriateness.",
-        "severity": "MEDIUM"
-      },
-      {
-        "category": "linguistic",
-        "subcategory": "Grammar",
-        "original": "Zakończenie legalnej segregacji i likwidacja praw Jima Crowa.",
-        "correction": "Zakończenie legalnej segregacji i likwidacja praw Jima Crow.",
-        "description": "The phrase 'praw Jima Crowa' incorrectly applies the Polish genitive ending '-a' to the English name 'Jim Crow.' In Polish, foreign names used as fixed terms (such as 'Jim Crow laws') should remain unchanged, especially when referring to established historical concepts. The correct form is 'praw Jima Crow.'",
-        "severity": "MEDIUM"
-      },
-      {
-        "category": "linguistic",
-        "subcategory": "Grammar",
-        "original": "W przeciwnym razie:",
-        "correction": "W przeciwnym wypadku:",
-        "description": "The phrase 'W przeciwnym razie' is a literal translation of 'otherwise', but in Polish programming and logical contexts, 'W przeciwnym wypadku' is more idiomatic and natural. While not strictly incorrect, the alternative is preferred for clarity and style.",
-        "severity": "MINOR"
-      },
-      {
-        "category": "linguistic",
-        "subcategory": "Grammar",
-        "original": "Wydrukuj",
-        "correction": "Wyświetl",
-        "description": "The verb 'Wydrukuj' literally means 'print out' (as in printing on paper), but in programming contexts, the standard Polish term for displaying output on the screen is 'Wyświetl'. Using 'Wyświetl' is more accurate and natural in the context of coding lessons.",
-        "severity": "MEDIUM"
-      },
-      {
-        "category": "linguistic",
-        "subcategory": "Lexical",
-        "original": "Zmienne to podstawowe elementy każdego programu. Są to etykiety, które przechowują dane w pamięci komputera i mogą być modyfikowane w trakcie działania programu.",
-        "correction": "Zmienne to podstawowe elementy każdego programu. Są to nazwy, które przechowują dane w pamięci komputera i mogą być modyfikowane w trakcie działania programu.",
-        "description": "The use of 'etykiety' to describe variables is a lexical inaccuracy. In Polish programming terminology, 'zmienne' are referred to as 'nazwy' or 'identyfikatory', not 'etykiety', which means 'labels' and may confuse learners. The rest of the sentence is linguistically correct.",
-        "severity": "MEDIUM"
-      },
-      {
-        "category": "linguistic",
-        "subcategory": "Orthography",
-        "original": "print(\"Za rok będziesz mieć \" + str(wiek_za_rok) + \" lat.\")",
-        "correction": "print(\"Za rok będziesz miał/miała \" + str(wiek_za_rok) + \" lat.\")",
-        "description": "The phrase 'będziesz mieć' is grammatically acceptable in spoken Polish, but in educational materials, especially for beginners, the standard forms 'będziesz miał' (for males) or 'będziesz miała' (for females) are preferred for clarity and correctness. The current form may cause confusion regarding gender agreement.",
+        "original": "bojkocie autobusowym w Montgomery",
+        "correction": "bojkocie autobusów w Montgomery",
+        "description": "The phrase 'bojkocie autobusowym w Montgomery' incorrectly uses the adjective 'autobusowym' instead of the noun 'autobusów' in the locative case. The correct collocation in Polish is 'bojkot autobusów', and in the locative case it should be 'bojkocie autobusów'. This error affects grammatical correctness and naturalness.",
         "severity": "MEDIUM"
       },
       {
@@ -109,7 +98,7 @@
         "subcategory": "Grammar",
         "original": "Burza mózgów – Wspólnie poszukajcie rozwiązania, które zadowoli obie strony.",
         "correction": "Burza mózgów – Wspólnie poszukajcie rozwiązania, które zadowoli obie strony.",
-        "description": "The phrase 'Burza mózgów' is used as a step in the conflict resolution process. While the grammar and spelling are correct, the use of 'Burza mózgów' as a noun phrase without a verb can be stylistically abrupt in Polish educational content. It is more natural to use a verb phrase such as 'Przeprowadźcie burzę mózgów' to indicate an action. This would improve clarity and align with standard Polish instructional style.",
+        "description": "The phrase 'Burza mózgów' is correctly used as a noun meaning 'brainstorming.' However, in Polish educational contexts, it is more natural to use the verb form 'Przeprowadźcie burzę mózgów' to indicate the action. The current form is grammatically correct but could be improved for clarity and naturalness by using the verb form. No grammatical errors are present, but a minor stylistic adjustment would enhance the instructional tone.",
         "severity": "MINOR"
       },
       {
@@ -117,7 +106,7 @@
         "subcategory": "Lexical",
         "original": "Uprzedzenie to preferencja lub uprzedzenie wpływające na sposób prezentacji informacji.",
         "correction": "Uprzedzenie to preferencja lub stronniczość wpływająca na sposób prezentacji informacji.",
-        "description": "The sentence uses 'uprzedzenie' twice, which is tautological and reduces clarity. The second instance should be replaced with 'stronniczość' to accurately convey the concept of bias. This correction improves lexical precision and avoids repetition.",
+        "description": "The original sentence uses 'uprzedzenie' twice, which is tautological and reduces clarity. The second instance should be replaced with 'stronniczość' to accurately convey the concept of bias. This correction improves lexical precision and avoids repetition.",
         "severity": "MEDIUM"
       },
       {
@@ -125,16 +114,384 @@
         "subcategory": "Grammar",
         "original": "Badania pokazują, że osoby jedzące warzywa codziennie mają niższe wskaźniki chorób serca.",
         "correction": "Badania pokazują, że osoby jedzące warzywa codziennie mają niższy wskaźnik chorób serca.",
-        "description": "The plural 'wskaźniki chorób serca' is less precise in this context, as the research typically refers to a single indicator (e.g., rate or incidence) for heart disease. The singular 'wskaźnik' is grammatically and semantically more accurate.",
+        "description": "The plural 'wskaźniki chorób serca' is less precise in this context, as the research typically refers to a single indicator (e.g., rate or incidence) of heart disease. The singular 'wskaźnik' is grammatically and semantically more accurate.",
         "severity": "MINOR"
       },
       {
         "category": "linguistic",
         "subcategory": "Grammar",
-        "original": "Nasi klienci go uwielbiają!",
-        "correction": "Nasi klienci uwielbiają ten krem!",
-        "description": "The pronoun 'go' is ambiguous and less clear than directly naming the product. Using 'ten krem' clarifies the reference and improves grammatical precision.",
+        "original": "Nasz napój zawiera kofeinę, więc pomoże Ci być produktywnym.",
+        "correction": "Nasz napój zawiera kofeinę, więc pomoże Ci zwiększyć produktywność.",
+        "description": "The phrase 'być produktywnym' is grammatically correct but stylistically awkward in Polish. 'Zwiększyć produktywność' is a more natural and idiomatic way to express the intended meaning.",
         "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Czaszki i nagietki symbolizują pamięć oraz świętowanie ukochanych, którzy odeszli.",
+        "correction": "Czaszki i nagietki symbolizują pamięć oraz świętowanie ukochanych osób, które odeszły.",
+        "description": "The phrase 'świętowanie ukochanych, którzy odeszli' is grammatically incorrect because 'ukochani' (beloved) is a masculine-personal plural, but the context requires a neutral plural noun such as 'osób' (people/persons). Additionally, the relative clause should agree in gender and number: 'osób, które odeszły.' This correction ensures proper noun case and agreement.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Firma musi zdecydować, jak zmniejszyć swój ślad węglowy.",
+        "correction": "Firma musi zdecydować, jak zmniejszyć swój ślad węglowy.",
+        "description": "The sentence is grammatically correct, with proper noun case usage and verb aspect. No correction needed.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Firma może priorytetowo traktować rozwiązania, które są dostępne finansowo i najbardziej redukują emisje.",
+        "correction": "Firma może priorytetowo traktować rozwiązania, które są dostępne finansowo i najbardziej redukują emisję.",
+        "description": "The noun 'emisje' is plural, but in this context, the singular 'emisję' is more precise, as it refers to the reduction of overall emission (as a process), not multiple separate emissions. This improves grammatical and semantic accuracy.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Jeden laptop jest tani, ale ma krótką żywotność baterii, podczas gdy inny jest drogi, ale działa dłużej i ma dobrą wydajność.",
+        "correction": "Jeden laptop jest tani, ale ma krótką żywotność baterii, podczas gdy inny jest drogi, ale działa dłużej i charakteryzuje się dobrą wydajnością.",
+        "description": "The phrase 'ma dobrą wydajność' is grammatically correct, but 'charakteryzuje się dobrą wydajnością' is stylistically preferred in Polish technical descriptions, improving clarity and professionalism.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Negatywne konsekwencje mogą obejmować zakłócenia środowiskowe i przemieszczenie lokalnej fauny.",
+        "correction": "Negatywne konsekwencje mogą obejmować zakłócenia środowiskowe i przesiedlenie lokalnej fauny.",
+        "description": "The word 'przemieszczenie' is not the most accurate in this context. 'Przesiedlenie' is the correct term for the forced movement of animals due to environmental changes, improving lexical precision.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Ocenią opcje (ścieżki rowerowe vs. rozbudowa dróg), rozważą konsekwencje (zmniejszenie emisji vs. koszty budowy) i priorytetowo traktują korzyści zdrowotne i środowiskowe ścieżek rowerowych.",
+        "correction": "Ocenią opcje (ścieżki rowerowe vs. rozbudowa dróg), rozważą konsekwencje (zmniejszenie emisji vs. koszty budowy) i będą priorytetowo traktować korzyści zdrowotne i środowiskowe ścieżek rowerowych.",
+        "description": "The phrase 'priorytetowo traktują' should be 'będą priorytetowo traktować' to maintain consistent future tense with the rest of the sentence, improving grammatical accuracy.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Przykład: Problem: Uczniowie noszą ciężkie plecaki, co powoduje dyskomfort.",
+        "correction": "Przykład: Problem: Uczniowie noszą ciężkie plecaki, co powoduje dyskomfort.",
+        "description": "The sentence is grammatically correct, but the use of 'Problem:' as a label within the example is slightly awkward in Polish educational style. For improved clarity and naturalness, consider rephrasing to 'Przykład problemu: Uczniowie noszą ciężkie plecaki, co powoduje dyskomfort.' This would better align with Polish conventions for presenting examples and problem statements.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Tekstura odnosi się do sposobu, w jaki powierzchnia wygląda lub sprawia wrażenie, że mogłaby wyglądać.",
+        "correction": "Tekstura odnosi się do sposobu, w jaki powierzchnia wygląda lub sprawia wrażenie, że mogłaby być odczuwana.",
+        "description": "The phrase 'sprawia wrażenie, że mogłaby wyglądać' is semantically inaccurate in Polish. The concept of 'texture' in art refers to how a surface looks or feels, not how it could look. The correct expression should indicate the impression of how a surface could be felt ('mogłaby być odczuwana'), which is the standard way to describe texture in Polish art terminology. This correction improves both lexical precision and clarity.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Zwolnienie oddechu, aby uspokoić umysł i ciało.",
+        "correction": "Spowolnienie oddechu, aby uspokoić umysł i ciało.",
+        "description": "The word 'zwolnienie' is a false friend in this context. In Polish, 'zwolnienie' typically means 'release' or 'dismissal', not 'slowing down'. The correct term for slowing one's breath is 'spowolnienie oddechu'. This lexical error could confuse learners about the intended breathing technique.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Nauka zarządzania emocjami pozwala reagować spokojnie i podejmować przemyślane decyzje.",
+        "correction": "Nauka zarządzania emocjami pozwala reagować spokojnie oraz podejmować przemyślane decyzje.",
+        "description": "The sentence uses 'i' (and) to connect two verbs, which is grammatically correct but stylistically less natural in Polish when listing actions that are closely related. Using 'oraz' (as well as) improves the flow and clarity, making the sentence more idiomatic and cohesive. This is a minor stylistic improvement, not a critical error.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Fikcja to pisanie wyimaginowane, które bawi lub inspiruje, podczas gdy literatura faktu to pisanie faktyczne, które informuje lub edukuje.",
+        "correction": "Fikcja to wyimaginowane pisanie, które bawi lub inspiruje, podczas gdy literatura faktu to faktyczne pisanie, które informuje lub edukuje.",
+        "description": "The original sentence uses 'pisanie wyimaginowane' and 'pisanie faktyczne', which is an unnatural word order in Polish. Adjectives should precede the noun in this context ('wyimaginowane pisanie', 'faktyczne pisanie'). This improves grammatical correctness and naturalness.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Poruszaj się nisko przy ziemi, aby unikać wdychania dymu.",
+        "correction": "Poruszaj się nisko przy ziemi, aby uniknąć wdychania dymu.",
+        "description": "The verb 'unikać' should be replaced with 'uniknąć' to correctly express the intended perfective aspect, indicating a specific action to avoid inhaling smoke during a fire. The use of the imperfective aspect here is less appropriate, as the instruction refers to a one-time, goal-oriented action.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "manewr Heimlicha",
+        "correction": "manewr Heimlicha",
+        "description": "The term 'manewr Heimlicha' is spelled correctly, but it is a borrowed term from English ('Heimlich maneuver'). In Polish, the spelling is correct and widely accepted in medical contexts. However, for educational clarity, it is important to note that the capitalization of 'Heimlicha' is correct as it refers to a proper noun (the name of the inventor). No correction is needed, but educators should ensure students recognize this as a loanword and understand its origin.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Pokojowe rozwiązywanie nieporozumień",
+        "correction": "Pokojowe rozwiązywanie konfliktów",
+        "description": "The phrase 'Pokojowe rozwiązywanie nieporozumień' uses 'nieporozumień' (misunderstandings) instead of 'konfliktów' (conflicts), which is the standard term in Polish for the concept of conflict resolution. While 'nieporozumienia' can be a part of conflicts, the skill being described is specifically about resolving conflicts, not just misunderstandings. This is a lexical error affecting the precision of terminology and may cause confusion about the scope of the skill.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Wiem, jak bardzo chciałeś być w tej drużynie.",
+        "correction": "Wiem, jak bardzo chciałeś dołączyć do tej drużyny.",
+        "description": "The phrase 'chciałeś być w tej drużynie' is grammatically correct but less idiomatic in Polish. The more natural expression is 'chciałeś dołączyć do tej drużyny', which better conveys the intended meaning and aligns with standard Polish usage. This improves both linguistic accuracy and naturalness.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Myślę, że źle się zrozumieliśmy—czy możemy porozmawiać o tym, co się stało?",
+        "correction": "Myślę, że źle się zrozumieliśmy – czy możemy porozmawiać o tym, co się stało?",
+        "description": "The dash used in 'zrozumieliśmy—czy' is an English-style em dash. In Polish, a spaced en dash (–) is standard for separating clauses in this context. This is an orthographic issue affecting punctuation conventions.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Koło: Okrągły kształt bez boków ani kątów.",
+        "correction": "Koło: Okrągły kształt bez boków i kątów.",
+        "description": "The phrase 'bez boków ani kątów' uses 'ani' incorrectly in this context. In Polish, when negating two nouns in a positive descriptive sentence, 'i' should be used instead of 'ani'. 'Ani' is reserved for negative sentences. The correct form is 'bez boków i kątów'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "W tym lekcji dowiesz się, jak podejście rozwojowe pomaga radzić sobie z wyzwaniami i wspiera proces rozwiązywania problemów.",
+        "correction": "W tej lekcji dowiesz się, jak podejście rozwojowe pomaga radzić sobie z wyzwaniami i wspiera proces rozwiązywania problemów.",
+        "description": "The noun 'lekcja' is feminine in Polish, so the correct prepositional case is 'w tej lekcji' rather than 'w tym lekcji'. This is a grammatical error in noun case and gender agreement, which can confuse learners about proper case usage.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Deklaracja Praw Człowieka zawiera 30 artykułów, które definiują podstawowe prawa i wolności.",
+        "correction": "Deklaracja Praw Człowieka zawiera 30 artykułów, które określają podstawowe prawa i wolności.",
+        "description": "The verb 'definiują' is not the most precise choice in this context. In Polish legal and educational texts, 'określają' is preferred when referring to articles of a declaration, as it means 'specify' or 'set out' rather than 'define.' This correction improves lexical precision and aligns with standard Polish terminology for legal documents.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Pomoc koledze, który ma trudności z zadaniem.",
+        "correction": "Pomoc koledze, który ma trudności z zadaniem.",
+        "description": "The phrase is grammatically correct, but the noun 'koledze' is masculine and may not be inclusive of all genders. For educational content, consider using a gender-neutral term such as 'osobie' (person) to avoid unintended exclusion. No grammatical error is present, but inclusivity is recommended.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Wykonywana przez orkiestry, zespoły kameralne lub solowych instrumentalistów.",
+        "correction": "Wykonywana przez orkiestry, zespoły kameralne lub solowych instrumentalistów.",
+        "description": "The phrase 'solowych instrumentalistów' is incorrect due to case mismatch. The correct form should be 'solowych instrumentalistów' in the accusative case to match the construction 'przez ...'. However, the original already uses the correct accusative plural form, so no correction is needed. This is a false positive; no actual error is present.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "ragtime’u",
+        "correction": "ragtime'u",
+        "description": "The use of the apostrophe in 'ragtime’u' is incorrect according to Polish orthographic rules. The correct form is 'ragtime'u' without the typographic apostrophe. This is a minor orthographic issue that does not affect comprehension but should be corrected for proper spelling.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Wyłonił się w latach 50., ewoluując z rhythm and bluesa i muzyki country.",
+        "correction": "Wyłonił się w latach 50., ewoluując z rhythm and bluesa oraz muzyki country.",
+        "description": "The use of 'i' in 'z rhythm and bluesa i muzyki country' is grammatically correct, but in formal Polish, 'oraz' is preferred when listing items in educational or academic contexts. This is a minor stylistic improvement for register consistency.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Ochrona i zachowanie zasobów poprzez odpowiedzialne użytkowanie.",
+        "correction": "Ochrona i zachowanie zasobów poprzez ich odpowiedzialne użytkowanie.",
+        "description": "The original sentence lacks the pronoun 'ich' before 'odpowiedzialne użytkowanie', which is required for clarity and correct reference to 'zasobów'. This omission affects grammatical completeness and can cause ambiguity regarding what is being used responsibly.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "haslo123",
+        "correction": "hasło123",
+        "description": "The word 'haslo123' is missing the Polish diacritic 'ł', which is required for correct spelling. In Polish, 'hasło' means 'password', and omitting the diacritic is a significant orthographic error that can affect comprehension and the professionalism of the educational content.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Układ okresowy pierwiastków organizuje elementy według rosnącej liczby atomowej, grupując je na podstawie wspólnych właściwości chemicznych.",
+        "correction": "Układ okresowy pierwiastków organizuje pierwiastki według rosnącej liczby atomowej, grupując je na podstawie wspólnych właściwości chemicznych.",
+        "description": "The word 'elementy' is less precise in this context, as the standard Polish terminology for the periodic table is 'pierwiastki', not 'elementy'. Using 'pierwiastki' ensures lexical precision and aligns with scientific conventions in Polish chemistry education. This correction improves both linguistic accuracy and terminological consistency.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Lit (Li) jest większy od fluoru (F) w okresie 2, a cez (Cs) jest większy od sodu (Na) w grupie 1.",
+        "correction": "Lit (Li) jest większy niż fluor (F) w okresie 2, a cez (Cs) jest większy niż sód (Na) w grupie 1.",
+        "description": "The comparative construction 'większy od' is less natural in scientific Polish when comparing two items; 'większy niż' is preferred for clarity and correctness. Additionally, 'sodu' should be replaced with 'sód' to match nominative case, as the comparison is between two subjects, not possession.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Dłuższe przerwy poprawiają koncentrację i produktywność.",
+        "correction": "Dłuższe przerwy poprawiają koncentrację i wydajność.",
+        "description": "The word 'produktywność' is a direct borrowing from English ('productivity') and, while increasingly used, is still considered less natural in Polish educational contexts. 'Wydajność' is the standard, widely accepted term in Polish for cognitive or work efficiency. This correction improves lexical precision and naturalness.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Wiatr szarpie delikatne pąki maja,",
+        "correction": "Wiatr szarpie delikatne pąki maja.",
+        "description": "The original text uses a comma at the end of the line, which is not required in Polish poetry unless the sentence continues in the next line. In this context, the comma is unnecessary and should be removed for correct punctuation and poetic style. Additionally, 'maja' is correctly in the genitive case, referring to 'May', so no grammatical error in case usage is present.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Mgła przychodzi\nna małych kocich łapkach.",
+        "correction": "Mgła przychodzi\nna małych kocich łapach.",
+        "description": "The phrase 'na małych kocich łapkach' uses the diminutive 'łapkach', which is not incorrect but may be considered stylistically marked. In standard Polish poetic usage, 'łapach' is more neutral and natural. This correction improves the orthographic and stylistic appropriateness of the example.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Oczekiwany wynik to około 5 orłów i 5 reszek, ale losowość może spowodować niewielkie różnice w stosunku.",
+        "correction": "Oczekiwany wynik to około 5 orłów i 5 reszek, ale losowość może spowodować niewielkie różnice w proporcjach.",
+        "description": "The word 'w stosunku' is a grammatical and lexical error in this context. In Polish, 'stosunek' can mean 'ratio' or 'relation', but the correct term for describing the expected distribution between heads and tails is 'proporcje'. The use of 'w stosunku' here is unnatural and could be misinterpreted, so it should be replaced with 'w proporcjach' to accurately convey the intended meaning.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Psy są lojalnymi towarzyszami i świetnymi zwierzętami domowymi.",
+        "correction": "Psy są lojalnymi towarzyszami i świetnymi zwierzętami domowymi.",
+        "description": "No linguistic errors detected in this sentence. The noun and adjective endings are correct, and the sentence structure is appropriate for Polish. No correction needed.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Jej wysiłek się opłacił, gdy kolorowe kwiaty zakwitły wokół jej podwórka.",
+        "correction": "Jej wysiłek się opłacił, gdy kolorowe kwiaty zakwitły wokół jej podwórza.",
+        "description": "The word 'podwórka' is in the genitive case, but the intended meaning requires the locative case 'podwórzu' or the genitive 'podwórza' depending on context. 'Wokół' requires the genitive, so the correct form is 'podwórza'. This correction ensures proper case usage and grammatical accuracy.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Przeprowadź badania wstępne",
+        "correction": "Przeprowadź wstępne badania",
+        "description": "The phrase 'badania wstępne' is grammatically correct, but in Polish, the adjective typically precedes the noun in this context. 'Wstępne badania' is the more natural and standard word order, improving clarity and flow.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Przeprowadź eksperyment",
+        "correction": "Wykonaj eksperyment",
+        "description": "While 'przeprowadź eksperyment' is not incorrect, 'wykonaj eksperyment' is more idiomatic and commonly used in Polish scientific and educational contexts. This change enhances lexical precision and naturalness.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Proste maszyny są narzędziami, które pomagają nam wykonywać zadania łatwiej, zmniejszając wysiłek lub zmieniając kierunek siły.",
+        "correction": "Proste maszyny są narzędziami, które pomagają nam wykonywać zadania łatwiej, zmniejszając wysiłek lub zmieniając kierunek działania siły.",
+        "description": "The phrase 'zmieniając kierunek siły' is grammatically correct, but the noun 'siła' in Polish often requires clarification when used in technical contexts. The more precise and natural expression is 'zmieniając kierunek działania siły', which clarifies that it is the direction of the force's action being changed. This improves both linguistic precision and technical clarity.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Każdej akcji odpowiada reakcja o tej samej sile, lecz przeciwnym kierunku",
+        "correction": "Każdej akcji odpowiada reakcja o tej samej sile, lecz w przeciwnym kierunku",
+        "description": "The phrase is missing the preposition 'w' before 'przeciwnym kierunku', which is required in Polish to indicate direction. The correct form is 'w przeciwnym kierunku'. This is a grammatical error affecting the instrumental case and prepositional usage.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "neony",
+        "correction": "lampy neonowe",
+        "description": "The word 'neony' is used as an example of plasma, but in Polish, 'neony' typically refers to neon signs rather than the physical objects containing plasma. The correct term is 'lampy neonowe', which more accurately describes the devices where plasma is present. This correction improves scientific precision and clarity.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "woda zamarza w lód",
+        "correction": "woda zamarza na lód",
+        "description": "The phrase 'woda zamarza w lód' uses the incorrect preposition 'w'. In Polish, the correct expression is 'zamarza na lód', which properly reflects the transformation of water into ice. This correction addresses a grammatical error in case and preposition usage.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "gaz w neonówce staje się plazmą dzięki przepływowi prądu",
+        "correction": "gaz w lampie neonowej staje się plazmą dzięki przepływowi prądu",
+        "description": "The term 'neonówka' is colloquial and less appropriate for educational content. The correct scientific term is 'lampa neonowa'. This correction improves register and precision, ensuring the terminology matches the educational context.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Konflikt zewnętrzny to walka Harry'ego z Voldemortem i jego zwolennikami, a konflikt wewnętrzny to zmaganie się Harry'ego z akceptacją swojej nowej tożsamości jako czarodzieja.",
+        "correction": "Konflikt zewnętrzny to walka Harry'ego z Voldemortem i jego zwolennikami, a konflikt wewnętrzny to zmaganie się Harry'ego z akceptacją nowej tożsamości jako czarodzieja.",
+        "description": "The phrase 'z akceptacją swojej nowej tożsamości' uses a possessive pronoun 'swojej' that is redundant because the subject 'Harry'ego' is already clear. In Polish, possessive pronouns are often omitted when the ownership is obvious from context, especially in formal or educational writing. Removing 'swojej' improves clarity and naturalness, avoiding unnecessary repetition.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Dziś dowiemy się, jak rozwijać skuteczne umiejętności nauki, które pomogą Wam osiągać sukcesy akademickie.",
+        "correction": "Dziś dowiemy się, jak rozwijać skuteczne umiejętności nauki, które pomogą Wam osiągać sukcesy akademickie.",
+        "description": "The sentence is grammatically correct, but the phrase 'umiejętności nauki' is semantically awkward in Polish. A more natural expression would be 'umiejętności uczenia się', which better reflects the intended meaning of 'learning skills'. This is a lexical precision issue affecting clarity and naturalness.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Pisz własnymi słowami, aby poprawić zrozumienie.",
+        "correction": "Pisz własnymi słowami, aby lepiej zrozumieć materiał.",
+        "description": "While grammatically correct, the phrase 'poprawić zrozumienie' is less idiomatic in Polish. 'Lepiej zrozumieć materiał' is a more natural and precise way to convey the intended meaning, addressing both lexical and stylistic issues.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Obywatele muszą się zarejestrować, aby potwierdzić swoją uprawnienia do głosowania.",
+        "correction": "Obywatele muszą się zarejestrować, aby potwierdzić swoje uprawnienia do głosowania.",
+        "description": "The noun 'uprawnienia' requires the possessive pronoun 'swoje' in the accusative plural form to agree in case and number. The original uses 'swoją', which is accusative singular feminine and does not match the plural noun. This is a grammatical error affecting noun-pronoun agreement.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "AI o samoświadomości",
+        "correction": "AI ze samoświadomością",
+        "description": "The phrase 'AI o samoświadomości' is grammatically incorrect in Polish. The correct construction is 'AI ze samoświadomością', which properly uses the instrumental case with the preposition 'ze' to indicate possession of self-awareness. This error affects the clarity and grammatical correctness of the text.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Buddyzm został założony przez Siddharthę Gautamę (Buddę) i liczy około 500 milionów wyznawców.",
+        "correction": "Buddyzm został założony przez Siddharthę Gautamę (Buddę) i ma około 500 milionów wyznawców.",
+        "description": "The verb 'liczy' is not the most appropriate choice in this context. In Polish, 'liczyć' can mean 'to count' or 'to number', but when referring to the number of followers, 'ma' (has) is more natural and idiomatic. This improves the lexical precision and naturalness of the sentence.",
+        "severity": "MEDIUM"
       }
     ],
     "localization": [
@@ -143,31 +500,103 @@
         "subcategory": "Style",
         "original": "Starożytny Egipt to jedna z najstarszych cywilizacji w historii, która kwitła dzięki korzystnemu położeniu geograficznemu i wyjątkowej kulturze.",
         "correction": "Starożytny Egipt to jedna z najstarszych cywilizacji w historii, która rozkwitła dzięki korzystnemu położeniu geograficznemu i wyjątkowej kulturze.",
-        "description": "The verb 'kwitła' is acceptable, but 'rozkwitła' is more natural and idiomatic in Polish when describing the flourishing of a civilization. This change improves the style and naturalness of the text, making it sound more professional and locally appropriate.",
+        "description": "The verb 'kwitła' is acceptable, but 'rozkwitła' is a more natural and idiomatic choice in Polish when describing the flourishing of a civilization. This improves the style and naturalness of the text for educational content.",
         "severity": "MINOR"
       },
       {
         "category": "localization",
         "subcategory": "Terminology",
-        "original": "Hieroglify egipskie",
-        "correction": "Egipskie hieroglify",
-        "description": "The phrase 'Hieroglify egipskie' is understandable but less natural than 'Egipskie hieroglify', which is the standard and more commonly used term in Polish educational and academic contexts. This correction ensures consistency and professional terminology.",
+        "original": "Egipt leży w północno-wschodniej Afryce, wzdłuż rzeki Nil, która odgrywała kluczową rolę w rozwoju cywilizacji.",
+        "correction": "Egipt leży w północno-wschodniej Afryce, wzdłuż Nilu, który odgrywał kluczową rolę w rozwoju cywilizacji.",
+        "description": "In Polish, 'wzdłuż Nilu' is the standard and more natural way to refer to the Nile in this context, rather than 'wzdłuż rzeki Nil'. This aligns with local terminology and improves the flow of the sentence.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Nil zapewniał wodę do picia, nawadniania i transportu, a jego coroczne wylewy dostarczały żyznego mułu, umożliwiając rozwój rolnictwa.",
+        "correction": "Nil zapewniał wodę do picia, nawadniania i transportu, a jego coroczne wylewy dostarczały żyzny muł, umożliwiając rozwój rolnictwa.",
+        "description": "The phrase 'żyznego mułu' is grammatically correct, but 'żyzny muł' is more idiomatic and natural in Polish when referring to the fertile silt provided by the Nile. This enhances the style and clarity of the sentence.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Otaczające pustynie, takie jak Sahara, chroniły Egipt przed najazdami i sprzyjały rozwojowi samodzielnej kultury.",
+        "correction": "Otaczające pustynie, takie jak Sahara, chroniły Egipt przed najazdami i sprzyjały rozwojowi odrębnej kultury.",
+        "description": "The term 'samodzielnej kultury' is understandable but 'odrębnej kultury' is more natural and precise in Polish when describing a distinct culture that developed independently. This improves the localization and clarity of the content.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Religia była centralnym elementem życia Egipcjan.",
+        "correction": "Religia była centralnym elementem życia starożytnych Egipcjan.",
+        "description": "Adding 'starożytnych' clarifies that the reference is to ancient Egyptians, which is important for educational context and avoids ambiguity. This improves the precision and localization of the content.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Wierzyli w wielu bogów i życie po śmierci, co prowadziło do rozwinięcia praktyk, takich jak mumifikacja.",
+        "correction": "Wierzyli w wielu bogów i życie po śmierci, co prowadziło do rozwoju praktyk, takich jak mumifikacja.",
+        "description": "The phrase 'do rozwinięcia praktyk' is less natural than 'do rozwoju praktyk' in Polish. The latter is the standard way to express the development of practices, improving the style and clarity of the sentence.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Społeczeństwo egipskie było zorganizowane hierarchicznie, z faraonem na szczycie, który był zarówno władcą, jak i boską istotą.",
+        "correction": "Społeczeństwo egipskie było zorganizowane hierarchicznie, z faraonem na szczycie, który był zarówno władcą, jak i uważany za boską istotę.",
+        "description": "The phrase 'był zarówno władcą, jak i boską istotą' may imply literal divinity, while 'uważany za boską istotę' more accurately reflects the cultural belief that the pharaoh was considered divine. This improves cultural accuracy and localization.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Sztuka i architektura rozwijały się, tworząc monumentalne budowle, takie jak piramidy i świątynie.",
+        "correction": "Sztuka i architektura rozwijały się, powstawały monumentalne budowle, takie jak piramidy i świątynie.",
+        "description": "The phrase 'rozwijały się, tworząc' is understandable, but 'powstawały monumentalne budowle' is a more natural and idiomatic way to express the emergence of monumental structures in Polish. This enhances the style and clarity of the sentence.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Egipcjanie opracowali hieroglify, system pisma obrazkowego, który służył do zapisywania tekstów religijnych i dokumentów.",
+        "correction": "Egipcjanie opracowali hieroglify, system pisma obrazkowego, który służył do zapisywania tekstów religijnych oraz dokumentów.",
+        "description": "In Polish, 'oraz' is preferred over 'i' when listing items in formal or educational contexts, as it adds emphasis and clarity. This improves the terminology and style of the sentence.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Zbudowali monumentalne budowle, takie jak piramidy i obeliski, które są świadectwem ich umiejętności inżynieryjnych.",
+        "correction": "Wznosili monumentalne budowle, takie jak piramidy i obeliski, które są świadectwem ich umiejętności inżynieryjnych.",
+        "description": "The verb 'zbudowali' is correct, but 'wznosili' is more idiomatic and commonly used in Polish when referring to the construction of monumental structures. This improves the style and naturalness of the text.",
         "severity": "MINOR"
       },
       {
         "category": "localization",
         "subcategory": "Style",
         "original": "Ich sztuka była precyzyjna, symetryczna i kolorowa.",
-        "correction": "Ich sztuka cechowała się precyzją, symetrią i bogactwem kolorów.",
-        "description": "The original sentence is grammatically correct but stylistically simplistic. The correction uses a more natural and sophisticated expression, which is preferred in educational materials and better reflects the richness of ancient Egyptian art.",
+        "correction": "Ich sztuka była precyzyjna, symetryczna oraz kolorowa.",
+        "description": "Using 'oraz' instead of 'i' in a list adds emphasis and is preferred in formal educational contexts in Polish. This improves the style and clarity of the sentence.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Kluczowym elementem sukcesu Egiptu była rzeka Nil, która wspierała rolnictwo i handel.",
+        "correction": "Kluczowym elementem sukcesu Egiptu był Nil, który wspierał rolnictwo i handel.",
+        "description": "Referring to 'Nil' directly rather than 'rzeka Nil' is more natural and idiomatic in Polish, especially in educational content. This improves the style and localization of the sentence.",
         "severity": "MINOR"
       },
       {
         "category": "localization",
         "subcategory": "Style",
         "original": "Ptaki migrujące do cieplejszych klimatów zimą zapewniają sobie przetrwanie.",
-        "correction": "Ptaki migrujące do cieplejszych krajów zimą zwiększają swoje szanse na przetrwanie.",
-        "description": "The phrase 'cieplejszych klimatów' is less natural in Polish educational context; 'cieplejszych krajów' is the standard collocation. Additionally, 'zapewniają sobie przetrwanie' is somewhat awkward and could be improved to 'zwiększają swoje szanse na przetrwanie' for a more natural and educational tone.",
+        "correction": "Ptaki migrujące zimą do cieplejszych krajów zwiększają swoje szanse na przetrwanie.",
+        "description": "The phrase 'cieplejszych klimatów' is less natural in Polish educational style; 'cieplejszych krajów' is the standard collocation when discussing bird migration. Additionally, 'zapewniają sobie przetrwanie' is somewhat awkward and less idiomatic than 'zwiększają swoje szanse na przetrwanie', which is more commonly used in Polish scientific and educational texts.",
         "severity": "MINOR"
       },
       {
@@ -175,31 +604,7 @@
         "subcategory": "Style",
         "original": "Mitochondria nazywane są \"elektrowniami\" komórki, ponieważ produkują energię.",
         "correction": "Mitochondria nazywane są „elektrowniami” komórki, ponieważ produkują energię.",
-        "description": "The original uses English-style quotation marks (\" \") instead of Polish typographic quotation marks („ ”). This is a style and localization issue, as Polish educational materials conventionally use the Polish quotation marks. The correction improves typographic consistency and aligns with local publishing standards.",
-        "severity": "MINOR"
-      },
-      {
-        "category": "localization",
-        "subcategory": "Style",
-        "original": "Wyobraź sobie błonę komórkową jako ochroniarza.",
-        "correction": "Wyobraź sobie błonę komórkową jako strażnika.",
-        "description": "The word 'ochroniarz' is colloquial and typically refers to a private security guard, which may not be the most appropriate analogy in an educational context. 'Strażnik' is a more neutral and commonly used term in Polish educational materials to describe a protective function, making the analogy clearer and more culturally appropriate.",
-        "severity": "MEDIUM"
-      },
-      {
-        "category": "localization",
-        "subcategory": "Terminology",
-        "original": "Freedom Rides",
-        "correction": "Przejazdy wolności",
-        "description": "The term 'Freedom Rides' is left untranslated, which may reduce comprehension for learners unfamiliar with the English phrase. For educational clarity and localization, it should be rendered as 'Przejazdy wolności,' the established Polish term for this historical event.",
-        "severity": "MEDIUM"
-      },
-      {
-        "category": "localization",
-        "subcategory": "Style",
-        "original": "Marsz na Waszyngton",
-        "correction": "Marsz na Waszyngton",
-        "description": "While the phrase is linguistically correct, the content does not specify the full name of the event ('Marsz na Waszyngton po pracę i wolność'), which is the standard Polish reference for the 1963 march. Using the full name would improve clarity and cultural accuracy for Polish learners.",
+        "description": "The original text uses straight quotation marks (\") instead of Polish typographic quotation marks („ ”) when referring to 'elektrowniami'. In Polish educational and scientific writing, it is standard to use the typographic quotation marks for clarity and professionalism. This is a stylistic localization issue, not a linguistic error, and correcting it improves the naturalness and professionalism of the content.",
         "severity": "MINOR"
       },
       {
@@ -207,15 +612,23 @@
         "subcategory": "Terminology",
         "original": "Student Nonviolent Coordinating Committee (SNCC)",
         "correction": "Komitet Koordynacyjny Studentów na rzecz Niestosowania Przemocy (SNCC)",
-        "description": "The organization name is presented only in English, which may hinder understanding. For proper localization, the established Polish translation 'Komitet Koordynacyjny Studentów na rzecz Niestosowania Przemocy' should be used alongside the abbreviation SNCC.",
+        "description": "The name 'Student Nonviolent Coordinating Committee (SNCC)' is left untranslated, which may hinder comprehension for learners unfamiliar with English acronyms. For educational clarity and localization, the organization name should be provided in Polish, followed by the English acronym in parentheses.",
         "severity": "MEDIUM"
       },
       {
         "category": "localization",
-        "subcategory": "Terminology",
-        "original": "Jim Crow",
-        "correction": "Jim Crow",
-        "description": "The term 'Jim Crow' is used correctly, but for full localization, a brief parenthetical explanation such as '(segregacyjne prawa obowiązujące w USA)' would help Polish learners unfamiliar with the term.",
+        "subcategory": "Style",
+        "original": "Marsz na Waszyngton",
+        "correction": "Marsz na Waszyngton w 1963 roku",
+        "description": "The phrase 'Marsz na Waszyngton' lacks a date, which is important for clarity and context in Polish educational materials. Adding 'w 1963 roku' ensures the event is clearly identified and aligns with Polish style conventions for historical references.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "Jima Crowa",
+        "correction": "Jima Crowa (Jim Crow laws)",
+        "description": "The term 'Jima Crowa' is a direct adaptation of 'Jim Crow', which may not be immediately clear to Polish learners. For cultural clarity, it is recommended to add the English term in parentheses: 'Jima Crowa (Jim Crow laws)'.",
         "severity": "MINOR"
       },
       {
@@ -223,7 +636,7 @@
         "subcategory": "Cultural",
         "original": "Środkowy Zachód USA: cztery wyraźne sezony, wsparcie dla rolnictwa.",
         "correction": "Środkowy Zachód USA: cztery wyraźne pory roku, sprzyjające warunki dla rolnictwa.",
-        "description": "The phrase 'cztery wyraźne sezony' uses the anglicism 'sezony' instead of the more natural Polish 'pory roku'. Additionally, 'wsparcie dla rolnictwa' is awkward and not idiomatic; 'sprzyjające warunki dla rolnictwa' is more culturally appropriate and natural in Polish. These changes improve the localization quality and ensure the terminology aligns with Polish educational standards.",
+        "description": "The phrase 'cztery wyraźne sezony' uses the anglicism 'sezony' instead of the more natural Polish 'pory roku'. Additionally, 'wsparcie dla rolnictwa' is awkward and literal; 'sprzyjające warunki dla rolnictwa' is more idiomatic and culturally appropriate for Polish educational content.",
         "severity": "MEDIUM"
       },
       {
@@ -231,15 +644,15 @@
         "subcategory": "Terminology",
         "original": "Integer",
         "correction": "Liczba całkowita",
-        "description": "The term 'Integer' is used in the Polish content slide to describe a data type. While 'Integer' is a standard term in English programming, the natural and locally accepted Polish equivalent is 'liczba całkowita'. Using the English term may confuse beginners and is less appropriate for an educational context aimed at Polish speakers. The same applies to 'Float', 'String', and 'Boolean', which should be replaced with 'liczba dziesiętna', 'tekst', and 'wartość logiczna' respectively for consistency and clarity.",
+        "description": "The term 'Integer' is used in the Polish content slide to describe a data type. While 'Integer' is a standard term in English programming, the natural and locally accepted Polish equivalent is 'liczba całkowita'. Using the English term may confuse beginners or seem unnatural in an educational context aimed at Polish learners. The correction ensures terminology is consistent and culturally appropriate for the target audience.",
         "severity": "MEDIUM"
       },
       {
         "category": "localization",
         "subcategory": "Terminology",
         "original": "Float",
-        "correction": "Liczba dziesiętna",
-        "description": "The use of 'Float' as a data type label is an anglicism and not the standard Polish terminology. For educational clarity and cultural appropriateness, 'liczba dziesiętna' should be used. This ensures consistency and better understanding for Polish learners.",
+        "correction": "Liczba zmiennoprzecinkowa",
+        "description": "The term 'Float' is used to describe decimal numbers. In Polish programming education, 'liczba zmiennoprzecinkowa' is the standard term. Using 'Float' without explanation may reduce clarity for learners unfamiliar with English technical vocabulary. The correction improves naturalness and educational value.",
         "severity": "MEDIUM"
       },
       {
@@ -247,7 +660,7 @@
         "subcategory": "Terminology",
         "original": "String",
         "correction": "Tekst",
-        "description": "The term 'String' is an English programming term. In Polish educational materials, 'tekst' is the preferred and more natural equivalent. Using 'tekst' improves clarity and aligns with local conventions.",
+        "description": "The term 'String' is used to refer to text data. While 'String' is common in programming, the Polish equivalent 'tekst' is more accessible for beginners and aligns with local educational standards. The correction enhances clarity and consistency.",
         "severity": "MEDIUM"
       },
       {
@@ -255,23 +668,15 @@
         "subcategory": "Terminology",
         "original": "Boolean",
         "correction": "Wartość logiczna",
-        "description": "The use of 'Boolean' as a data type label is an English term. The Polish equivalent 'wartość logiczna' is more appropriate for local learners and maintains consistency with Polish programming terminology.",
+        "description": "The term 'Boolean' is used to describe logical values. In Polish, 'wartość logiczna' is the preferred term in educational contexts. Using 'Boolean' may be less clear for beginners and does not reflect local terminology standards. The correction ensures the content is culturally and educationally appropriate.",
         "severity": "MEDIUM"
       },
       {
         "category": "localization",
         "subcategory": "Style",
-        "original": "Boolean (`bool`) : Wartości logiczne Prawda/Fałsz",
-        "correction": "Boolean (`bool`): Wartości logiczne: prawda/fałsz",
-        "description": "The phrase 'Prawda/Fałsz' is capitalized unnecessarily and lacks a colon for clarity. In Polish, logical values are typically written in lowercase ('prawda', 'fałsz') and separated by a slash or comma. Adding a colon after 'Wartości logiczne' improves readability and matches Polish educational style conventions.",
-        "severity": "MINOR"
-      },
-      {
-        "category": "localization",
-        "subcategory": "Style",
-        "original": "W następnej lekcji nauczymy się używać instrukcji warunkowych i pętli, aby tworzyć bardziej dynamiczne i elastyczne programy.",
-        "correction": "W kolejnej lekcji nauczymy się używać instrukcji warunkowych i pętli, aby tworzyć bardziej dynamiczne i elastyczne programy.",
-        "description": "The phrase 'w następnej lekcji' is understandable, but 'w kolejnej lekcji' is more natural and commonly used in Polish educational contexts to indicate sequence. This improves the localization and naturalness of the text.",
+        "original": "Kodowanie to język komputerów!",
+        "correction": "Kodowanie to język komputerów.",
+        "description": "The use of an exclamation mark in 'Kodowanie to język komputerów!' may be considered overly enthusiastic or informal in Polish educational materials, where a more neutral tone is preferred for introductory statements. Removing the exclamation mark aligns the style with standard Polish educational conventions.",
         "severity": "MINOR"
       },
       {
@@ -279,15 +684,15 @@
         "subcategory": "Style",
         "original": "🌟",
         "correction": "",
-        "description": "The use of the star emoji '🌟' in the introduction may not be appropriate for all Polish educational contexts, especially in formal or academic materials. While emojis can add a friendly tone, they may reduce perceived professionalism and distract from the content. Consider removing the emoji or replacing it with a more neutral visual element if needed.",
+        "description": "The use of the star emoji '🌟' in educational Polish content may be considered informal and less appropriate for formal or instructional materials. While emojis can engage younger audiences, their use should be consistent with the overall tone and age group. In this context, omitting the emoji or replacing it with a more neutral visual element would be preferable for professional educational settings.",
         "severity": "MINOR"
       },
       {
         "category": "localization",
         "subcategory": "Style",
         "original": "Przygotuj się na fascynującą podróż przez narzędzia i techniki, które uczynią Cię bardziej świadomym konsumentem informacji! 📚",
-        "correction": "Przygotuj się na poznanie narzędzi i technik, które pomogą Ci stać się bardziej świadomym odbiorcą informacji!",
-        "description": "The phrase 'fascynującą podróż' is somewhat informal and metaphorical, which may not align with the standard tone of Polish educational materials. 'Konsumentem informacji' is less natural than 'odbiorcą informacji' in Polish educational context. The emoji is also not standard in formal Polish learning content. The correction provides a more neutral and professional tone.",
+        "correction": "Przygotuj się na poznanie narzędzi i technik, które pomogą Ci stać się bardziej świadomym odbiorcą informacji.",
+        "description": "The original uses a metaphorical phrase 'fascynującą podróż', which is more typical in English educational style and less natural in Polish formal educational contexts. The emoji is also less common in Polish formal materials. The correction uses a more neutral and culturally appropriate style for Polish educational content.",
         "severity": "MINOR"
       },
       {
@@ -295,15 +700,679 @@
         "subcategory": "Terminology",
         "original": "Ten krem przeciwsłoneczny jest najlepszą ochroną.",
         "correction": "Ten krem przeciwsłoneczny zapewnia najlepszą ochronę.",
-        "description": "The phrase 'jest najlepszą ochroną' is awkward and not idiomatic in Polish. The more natural and industry-standard expression is 'zapewnia najlepszą ochronę', which better fits Polish advertising and educational style.",
+        "description": "The phrase 'jest najlepszą ochroną' is less natural in Polish product descriptions. 'Zapewnia najlepszą ochronę' is the standard way to express this in Polish advertising and informational contexts, improving naturalness and professional terminology.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Lunar New Year (Chiny i inne kraje wschodnioazjatyckie)",
+        "correction": "Chiński Nowy Rok (Chiny i inne kraje wschodnioazjatyckie)",
+        "description": "The term 'Lunar New Year' is not commonly used in Polish educational contexts; 'Chiński Nowy Rok' is the standard and widely recognized term. Using the correct terminology ensures clarity and aligns with local conventions, especially in educational materials.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Festiwal Świateł",
+        "correction": "Festiwal świateł",
+        "description": "In Polish, only the first word of multi-word event names is capitalized unless the name is an official title. 'Festiwal Świateł' should be 'Festiwal świateł' to follow Polish capitalization rules for event names, improving stylistic consistency.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Karnawał to parady, taniec samba i kolorowe stroje, które świętują radość i ducha wspólnoty.",
+        "correction": "Karnawał to parady, taniec samby i kolorowe stroje, które świętują radość i ducha wspólnoty.",
+        "description": "The phrase 'taniec samba' is not idiomatic in Polish; the correct form is 'taniec samby' (genitive case), which is the standard collocation when referring to the samba dance. This correction improves naturalness and aligns with Polish usage.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Wyobraź sobie cząsteczkę DNA jako spiralne schody, gdzie każdy stopień jest utworzony przez dwie zasady azotowe połączone wiązaniami wodorowymi.",
+        "correction": "Wyobraź sobie cząsteczkę DNA jako spiralne schody, w których każdy stopień tworzą dwie zasady azotowe połączone wiązaniami wodorowymi.",
+        "description": "The phrase 'gdzie każdy stopień jest utworzony przez dwie zasady azotowe' is grammatically correct but stylistically less natural in Polish scientific writing. The use of 'gdzie' is more typical in informal contexts. Replacing it with 'w których' improves the naturalness and aligns with standard educational register, making the sentence more appropriate for instructional content.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Enzymy polimerazy DNA łączą nukleotydy, tworząc dwie identyczne cząsteczki DNA, każda z jedną oryginalną i jedną nowo zsyntetyzowaną nicią.",
+        "correction": "Enzym polimeraza DNA łączy nukleotydy, tworząc dwie identyczne cząsteczki DNA, każda z jedną oryginalną i jedną nowo zsyntetyzowaną nicią.",
+        "description": "The term 'enzymy polimerazy DNA' is incorrect because DNA polymerase is a specific enzyme, not a group of enzymes. The correct term is 'enzym polimeraza DNA'. This correction ensures scientific accuracy and consistency with standard Polish biological terminology.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "Choroby genetyczne, takie jak anemia sierpowata czy mukowiscydoza, są wynikiem mutacji w DNA, które mogą być dziedziczone lub powstawać spontanicznie.",
+        "correction": "Choroby genetyczne, takie jak anemia sierpowata czy mukowiscydoza, są wynikiem mutacji w DNA, które mogą być dziedziczone lub powstawać spontanicznie.",
+        "description": "While the sentence is linguistically correct, the examples of genetic diseases ('anemia sierpowata' and 'mukowiscydoza') may not be the most culturally relevant for a Polish audience, as sickle cell anemia is much less common in Poland. Including examples such as 'dystrofia mięśniowa Duchenne’a' or 'fenyloketonuria' would increase cultural appropriateness and relatability for Polish learners.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "kompensat węglowych",
+        "correction": "kompensacji emisji CO₂",
+        "description": "The term 'kompensat węglowych' is not standard in Polish environmental discourse. The more natural and widely accepted term is 'kompensacji emisji CO₂' or 'kompensacji emisji dwutlenku węgla', which better reflects the concept of carbon offsetting in local context.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Wyobraź sobie, że wybierasz między trzema laptopami.",
+        "correction": "Wyobraź sobie, że wybierasz spośród trzech laptopów.",
+        "description": "The phrase 'między trzema laptopami' is understandable but less natural in Polish. The more idiomatic expression is 'spośród trzech laptopów', which better fits local usage and style.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "Społeczność decyduje się na budowę tamy dla magazynowania wody.",
+        "correction": "Społeczność decyduje się na budowę zbiornika wodnego.",
+        "description": "The concept of 'tama' (dam) for water storage is less common in Polish local contexts, where 'zbiornik wodny' (water reservoir) is more frequently referenced. This change improves cultural appropriateness and naturalness.",
         "severity": "MINOR"
       },
       {
         "category": "localization",
         "subcategory": "Style",
-        "original": "Ten napój energetyczny zwiększa produktywność!",
-        "correction": "Ten napój energetyczny pomaga zwiększyć produktywność.",
-        "description": "The original uses an exclamation mark and a strong claim, which is typical in advertising but less appropriate in educational content. The correction softens the claim and removes the exclamation mark, making it more suitable for an educational context.",
+        "original": "Zespół planowania miejskiego decyduje się na wdrożenie ścieżek rowerowych w celu zmniejszenia korków.",
+        "correction": "Zespół planowania miejskiego decyduje się na budowę ścieżek rowerowych w celu zmniejszenia korków.",
+        "description": "The term 'wdrożenie ścieżek rowerowych' is less natural in Polish; 'budowa ścieżek rowerowych' is the standard phrase used in urban planning contexts.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "🌟",
+        "correction": "",
+        "description": "The use of the star emoji at the end of the introductory paragraph is not standard in formal Polish educational materials. While emojis can add visual interest, they may undermine the professional tone expected in instructional content and could be perceived as informal or distracting in this context. It is recommended to remove the emoji to maintain a consistent, formal style throughout the lesson.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "symulacje cyfrowe",
+        "correction": "symulacje komputerowe",
+        "description": "The term 'symulacje cyfrowe' is understandable but less commonly used in Polish technical and educational contexts compared to 'symulacje komputerowe.' The latter is the standard term for digital simulations in engineering and design education. Using 'symulacje komputerowe' ensures consistency with industry terminology and improves clarity for Polish learners.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Finalizuj projekt na podstawie wyników testów.",
+        "correction": "Sfinalizuj projekt na podstawie wyników testów.",
+        "description": "The verb 'Finalizuj' is a direct borrowing from English and is not standard in Polish. The correct and natural form is 'Sfinalizuj,' which uses the proper Polish prefix. This change improves the naturalness and professionalism of the instruction, aligning with Polish language norms and avoiding unnecessary anglicisms.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Unikanie PISANIA WIELKIMI LITERAMI, co może być odbierane jako krzyk.",
+        "correction": "Unikanie pisania wielkimi literami, co może być odbierane jako krzyk.",
+        "description": "The use of all caps ('PISANIA WIELKIMI LITERAMI') is visually jarring and not stylistically appropriate in Polish educational content. Polish style conventions recommend using sentence case for examples unless specifically illustrating the effect of all caps. The correction improves naturalness and maintains professional tone.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "Przed opublikowaniem zdjęcia grupowego z imprezy zapytaj wszystkich, czy zgadzają się na jego udostępnienie.",
+        "correction": "Przed opublikowaniem zdjęcia grupowego z wydarzenia zapytaj wszystkich, czy zgadzają się na jego udostępnienie.",
+        "description": "The word 'impreza' typically refers to a party and may not be appropriate in all educational or professional contexts. Using 'wydarzenie' (event) is more neutral and culturally appropriate for a wider range of audiences, including school and workplace settings.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Stippling: używanie małych kropek do tworzenia głębi lub miękkości.",
+        "correction": "Stippling: używanie małych kropek do tworzenia głębi lub miękkości (technika punktowania).",
+        "description": "The term 'stippling' is presented in English without a Polish equivalent, which may reduce accessibility for learners unfamiliar with the term. Adding the Polish term 'technika punktowania' in parentheses ensures terminology consistency and improves localization quality, making the content more culturally appropriate for Polish learners.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "🌟",
+        "correction": "",
+        "description": "The use of the star emoji '🌟' in educational Polish content may be considered informal and less appropriate for formal or academic materials. While emojis can enhance engagement in some contexts, Polish educational standards typically favor a more neutral and professional tone, especially in introductory sections.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Empatia: Rozumienie i dzielenie uczuć innych.",
+        "correction": "Empatia: Rozumienie i współodczuwanie uczuć innych.",
+        "description": "The phrase 'dzielenie uczuć innych' is not the most natural or precise way to describe empathy in Polish. The standard term is 'współodczuwanie', which better conveys the idea of sharing and understanding another person's feelings. This adjustment improves the naturalness and professional terminology of the content.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "🌟",
+        "correction": "",
+        "description": "The use of the star emoji at the end of the introduction is not standard in Polish educational materials, especially in formal or semi-formal contexts. While emojis can make content more engaging, they may reduce perceived professionalism and distract from the educational message. It is recommended to remove the emoji for a more culturally appropriate and professional tone.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Teksty informacyjne: książki naukowe, historyczne lub encyklopedie.",
+        "correction": "Teksty informacyjne: książki popularnonaukowe, historyczne lub encyklopedie.",
+        "description": "The term 'książki naukowe' is not the most appropriate for educational context aimed at general readers; 'książki popularnonaukowe' is the standard Polish term for non-fiction books intended for a broad audience. This correction improves terminology consistency and cultural appropriateness.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Zrozumienie różnic między fikcją a literaturą faktu pomoże Wam wybrać odpowiedni rodzaj książki w zależności od potrzeb i zainteresowań.",
+        "correction": "Zrozumienie różnic między fikcją a literaturą faktu pomoże wybrać odpowiedni rodzaj książki w zależności od potrzeb i zainteresowań.",
+        "description": "The use of 'Wam' (second person plural, informal) may not be appropriate for all educational contexts, especially in written materials intended for a general audience. Omitting 'Wam' makes the sentence more neutral and universally applicable, improving style and tone.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Format",
+        "original": "Znaj numer alarmowy straży pożarnej (np. 112).",
+        "correction": "Znaj numer alarmowy straży pożarnej (112).",
+        "description": "The use of 'np.' (for example) before '112' is unnecessary and may cause confusion, as 112 is the universal emergency number in Poland. Removing 'np.' clarifies that 112 is the correct and only number to use in emergencies, improving cultural and practical accuracy.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "🌟",
+        "correction": "",
+        "description": "The use of the star emoji '🌟' in educational content may be considered informal and less appropriate for formal Polish educational materials, especially in printed or official contexts. While emojis can enhance engagement in digital formats, their use should be carefully considered based on the target audience and medium. For formal lessons, it is recommended to remove the emoji to maintain a professional tone.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "Na przykład, jeśli dzielisz jedną pizzę na cztery osoby, każda osoba dostaje część pizzy.",
+        "correction": "Na przykład, jeśli dzielisz jedną pizzę na cztery osoby, każda osoba dostaje kawałek pizzy.",
+        "description": "The phrase 'część pizzy' is technically correct but less natural in Polish when describing dividing a pizza. 'Kawałek pizzy' is the culturally and contextually appropriate term, as 'kawałek' is commonly used in everyday speech to refer to a slice or piece of pizza. This change improves the naturalness and cultural relevance of the example.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Format",
+        "original": "1/2 szklanki cukru",
+        "correction": "½ szklanki cukru",
+        "description": "In Polish recipe writing, the fraction '1/2' is typically written using the Unicode fraction character '½' rather than the slash format. This aligns with standard formatting conventions in Polish cookbooks and recipes, making the content more professional and locally appropriate.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "Jeśli dzielisz worek 12 cukierków na 3 osoby, każda osoba otrzymuje 1/4 cukierków.",
+        "correction": "Jeśli dzielisz worek 12 cukierków na 3 osoby, każda osoba otrzymuje 4 cukierki.",
+        "description": "The example incorrectly states that each person receives '1/4 cukierków' when dividing 12 candies among 3 people. Mathematically, each person receives 4 candies, not a quarter of the candies. This correction ensures the example is accurate and contextually appropriate for Polish learners.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Testy mogą być stresujące.",
+        "correction": "Egzaminy mogą być stresujące.",
+        "description": "The word 'testy' is an anglicism and, while increasingly used in informal Polish, 'egzaminy' is the more natural and standard term in educational contexts. Using 'egzaminy' improves the cultural appropriateness and professionalism of the content, especially for school-aged audiences.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "To brzmi ciekawie! Co cię w tym zainteresowało?",
+        "correction": "To brzmi ciekawie! Co cię w tym zaciekawiło?",
+        "description": "The verb 'zainteresowało' is less natural in this context; 'zaciekawiło' is the more idiomatic choice when asking what sparked someone's interest in a new hobby. This adjustment enhances the naturalness and conversational tone of the dialogue.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "Kawałek pizzy ma kształt trójkąta.",
+        "correction": "Kawałek ciasta ma kształt trójkąta.",
+        "description": "The example 'Kawałek pizzy ma kształt trójkąta' uses pizza as a reference, which may not be the most culturally neutral or universally relatable example for Polish primary education. A more locally relevant and neutral example would be 'Kawałek ciasta', which is commonly used in Polish classrooms and textbooks.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "🌍",
+        "correction": "",
+        "description": "The use of the globe emoji at the end of the introductory paragraph is not standard in formal Polish educational materials. While emojis can enhance engagement in informal contexts, their inclusion here may undermine the professional tone expected in academic content. It is recommended to remove the emoji to maintain a consistent and formal style throughout the lesson.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Gałąź ustawodawcza",
+        "correction": "Władza ustawodawcza",
+        "description": "The term 'Gałąź ustawodawcza' is a literal translation of 'Legislative branch' and is not the standard terminology in Polish civic or legal discourse. The correct and natural term is 'Władza ustawodawcza', which aligns with how branches of government are referred to in Polish educational and official contexts. This issue affects clarity and professionalism.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Gałąź wykonawcza",
+        "correction": "Władza wykonawcza",
+        "description": "The phrase 'Gałąź wykonawcza' is a direct translation from English and is not the conventional term used in Polish. The standard and culturally appropriate term is 'Władza wykonawcza'. Using the correct terminology ensures the content is natural and aligns with Polish civic education standards.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Gałąź sądownicza",
+        "correction": "Władza sądownicza",
+        "description": "The term 'Gałąź sądownicza' is a literal translation and not the standard phrase in Polish. The proper term is 'Władza sądownicza', which is used in Polish legal and educational contexts. This correction improves the naturalness and professionalism of the content.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Izba Reprezentantów",
+        "correction": "Izba Reprezentantów Stanów Zjednoczonych",
+        "description": "While 'Izba Reprezentantów' is understandable, the full official name in Polish is 'Izba Reprezentantów Stanów Zjednoczonych'. Using the complete term avoids ambiguity and ensures clarity, especially in educational contexts where precision is important.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Gabinet",
+        "correction": "Rada Ministrów",
+        "description": "The term 'Gabinet' is a direct translation of 'Cabinet' from English, but in Polish, the equivalent for the US context is 'Rada Ministrów' or 'gabinet prezydenta'. However, since the US Cabinet is not a council of ministers, 'gabinet prezydenta' is more accurate. The current term may cause confusion due to its different meaning in Polish government structure.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Sąd Najwyższy",
+        "correction": "Sąd Najwyższy Stanów Zjednoczonych",
+        "description": "The term 'Sąd Najwyższy' is used for Poland's Supreme Court. To avoid confusion and ensure clarity, the full name 'Sąd Najwyższy Stanów Zjednoczonych' should be used when referring to the US Supreme Court in Polish educational content.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Świętuj wysiłek, a nie wyniki: Doceniaj wartość próbowania, nawet jeśli wynik nie jest doskonały.",
+        "correction": "Doceniaj wysiłek, a nie tylko wyniki: Zwracaj uwagę na wartość próbowania, nawet jeśli rezultat nie jest idealny.",
+        "description": "The phrase 'Świętuj wysiłek' is a direct translation of 'celebrate effort', which is less natural in Polish educational contexts. A more culturally appropriate and natural expression would be 'Doceniaj wysiłek' or 'Zwracaj uwagę na wysiłek', focusing on appreciation rather than celebration. Additionally, 'wyniki' and 'wynik' are used inconsistently; 'rezultat' is a more neutral term in Polish for educational outcomes.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "To jest szansa na poprawę.",
+        "correction": "To okazja do poprawy.",
+        "description": "The phrase 'To jest szansa na poprawę' is a literal translation from English ('This is a chance to improve') and sounds less natural in Polish. 'To okazja do poprawy' is a more idiomatic and culturally appropriate way to express the idea of an opportunity for improvement.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "Model \"MyPlate\": Wizualny przewodnik stworzony przez USDA pokazuje, jak zrównoważyć talerz, wypełniając połowę owocami i warzywami, jedną czwartą zbożami i jedną czwartą białkami, z dodatkiem porcji nabiału.",
+        "correction": "Model talerza: Wizualny przewodnik pokazujący, jak zrównoważyć posiłek, wypełniając połowę talerza owocami i warzywami, jedną czwartą produktami zbożowymi i jedną czwartą produktami białkowymi, z dodatkiem porcji nabiału.",
+        "description": "The reference to the USDA 'MyPlate' model is culturally specific to the United States and may not be familiar or relevant to Polish learners. It is better to use a more neutral or locally adapted model, such as 'Model talerza', to ensure cultural appropriateness and comprehension. Additionally, the term 'zbożami' is less precise than 'produktami zbożowymi', and 'białkami' should be clarified as 'produktami białkowymi' for naturalness and clarity.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Są one uniwersalne, co oznacza, że dotyczą każdego, wszędzie, i są uznawane za nieodłączne dla wszystkich ludzi. 🌍",
+        "correction": "Są one uniwersalne, co oznacza, że dotyczą każdego, wszędzie, i są uznawane za nieodłączne dla wszystkich ludzi.",
+        "description": "The use of the globe emoji (🌍) at the end of a formal educational sentence is inappropriate for Polish academic content. Polish educational style favors a neutral, formal register and avoids emojis, which can undermine the seriousness of the topic. Removing the emoji improves professionalism and aligns with local expectations for educational materials.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Deklaracja stała się podstawą dla traktatów takich jak Międzynarodowy Pakt Praw Obywatelskich i Politycznych.",
+        "correction": "Deklaracja stała się podstawą dla traktatów takich jak Międzynarodowy Pakt Praw Obywatelskich i Politycznych.",
+        "description": "While the terminology is generally correct, the phrase 'traktatów takich jak Międzynarodowy Pakt Praw Obywatelskich i Politycznych' could be improved for consistency with Polish legal language. The standard term is 'Międzynarodowy Pakt Praw Obywatelskich i Politycznych' (not 'traktat'), but since the original uses the correct name, no change is needed. However, ensure consistent use of official names in all references throughout the content.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "🌍 W tej lekcji dowiesz się, czym są prawa człowieka, jakie są ich kluczowe zasady oraz dlaczego są tak istotne dla współczesnego społeczeństwa.",
+        "correction": "W tej lekcji dowiesz się, czym są prawa człowieka, jakie są ich kluczowe zasady oraz dlaczego są tak istotne dla współczesnego społeczeństwa.",
+        "description": "The use of the globe emoji (🌍) at the beginning of the sentence is not standard in formal Polish educational materials and may be perceived as informal or distracting. Removing the emoji ensures the tone remains professional and appropriate for the context.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Powszechna Deklaracja Praw Człowieka (PDPC) została opracowana w odpowiedzi na okrucieństwa II wojny światowej, szczególnie Holokaust.",
+        "correction": "Powszechna Deklaracja Praw Człowieka (PDPC) została opracowana w odpowiedzi na okrucieństwa II wojny światowej, szczególnie Holokaustu.",
+        "description": "The phrase 'szczególnie Holokaust' should use the genitive case 'Holokaustu' to match Polish case requirements after 'szczególnie'. This is a linguistic issue, but also affects the naturalness and correctness of the terminology in historical context.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Powszechna Deklaracja Praw Człowieka (PDPC)",
+        "correction": "Powszechna Deklaracja Praw Człowieka (PDPC)",
+        "description": "The abbreviation 'PDPC' is not standard in Polish; the commonly accepted abbreviation is 'PDPCz' or simply 'Deklaracja'. Using 'PDPC' may cause confusion for Polish readers unfamiliar with this form. It is recommended to use the standard abbreviation for clarity and consistency.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Ruchy na rzecz praw obywatelskich.",
+        "correction": "Ruchy na rzecz praw obywatelskich.",
+        "description": "The phrase is correct, but in Polish educational context, it is more natural to specify examples relevant to Poland, such as 'Solidarność' or other local movements. Including local examples would improve cultural relevance and engagement.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Uśmiech i ciepłe pozdrowienie.",
+        "correction": "Uśmiech i serdeczne pozdrowienie.",
+        "description": "The word 'ciepłe' (warm) is understandable, but 'serdeczne pozdrowienie' is a more natural and commonly used collocation in Polish for expressing warmth in greetings. This change improves the naturalness and localization quality of the phrase.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "Pisanie notatki z podziękowaniem dla nauczyciela lub przyjaciela to znaczący akt życzliwości.",
+        "correction": "Pisanie notatki z podziękowaniem dla nauczyciela lub kolegi to znaczący akt życzliwości.",
+        "description": "The use of 'przyjaciel' (friend) may imply a close relationship, which is less typical in Polish school context for expressing gratitude. 'Kolega' (peer/classmate) is more culturally appropriate in educational settings. This adjustment aligns the example with Polish school norms.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Spaced repetition: powtarzanie z odstępami",
+        "correction": "Spaced repetition: powtarzanie z przerwami",
+        "description": "The term 'powtarzanie z odstępami' is understandable but not the most natural or widely accepted Polish equivalent for 'spaced repetition.' The more commonly used and industry-standard term is 'powtarzanie z przerwami.' This correction improves terminology consistency and aligns with professional language usage in Polish educational contexts.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Na przykład numer telefonu 1234567890 jest łatwiej zapamiętać w formie 123-456-7890.",
+        "correction": "Na przykład numer telefonu 1234567890 łatwiej zapamiętać jako 123 456 789.",
+        "description": "The example uses a phone number format (123-456-7890) that is typical for the US, not Poland. In Polish, phone numbers are usually grouped as 123 456 789 or 123 456 7890, using spaces instead of hyphens. This correction ensures cultural appropriateness and naturalness for Polish learners.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "Przykłady to akronim \"ROYGBIV\" dla kolorów tęczy lub rymowanka \"Trzydzieści dni ma listopad...\".",
+        "correction": "Przykłady to akronim \"KGBINFS\" dla kolorów tęczy po polsku lub rymowanka \"Trzydzieści dni ma listopad...\".",
+        "description": "The acronym 'ROYGBIV' is an English mnemonic for the colors of the rainbow and is not used in Polish. The Polish equivalent is 'KGBINFS' (czerwony, pomarańczowy, żółty, zielony, niebieski, fioletowy, szafirowy), though variations exist. This correction provides a culturally relevant example for Polish learners.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Jazz uważany jest za klasyczną muzykę Ameryki i symbol wolności oraz kreatywności.",
+        "correction": "Jazz jest uważany za klasyczną muzykę Ameryki oraz symbol wolności i kreatywności.",
+        "description": "The sentence structure is slightly unnatural for Polish stylistic norms. The phrase 'uważany jest za' is less common than 'jest uważany za', and the conjunctions 'oraz' and 'i' are used inconsistently. The correction improves the naturalness and flow of the sentence, making it more idiomatic for Polish readers.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "automaty perkusyjne",
+        "correction": "automaty perkusyjne (drum machines)",
+        "description": "The term 'automaty perkusyjne' is correct, but it may not be immediately clear to all Polish learners, especially in an educational context. Adding the English equivalent 'drum machines' in parentheses increases clarity and aligns with best practices for terminology localization in music education.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Odnawialne źródła energii: Zwiększanie wykorzystania energii słonecznej, wiatrowej i hydroelektrycznej, aby zmniejszyć zależność od paliw kopalnych.",
+        "correction": "Odnawialne źródła energii: Zwiększanie wykorzystania energii słonecznej, wiatrowej i wodnej, aby zmniejszyć zależność od paliw kopalnych.",
+        "description": "The term 'energia hydroelektryczna' is less commonly used in Polish educational contexts than 'energia wodna', which is the standard and more natural term for renewable water-based energy. Using 'energia wodna' improves terminology consistency and aligns with local educational standards.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "dwuskładnikowe uwierzytelnianie (2FA)",
+        "correction": "uwierzytelnianie dwuskładnikowe (2FA)",
+        "description": "The phrase 'dwuskładnikowe uwierzytelnianie' is understandable, but the more natural and widely accepted term in Polish is 'uwierzytelnianie dwuskładnikowe'. This order is preferred in professional and educational contexts, ensuring consistency with local terminology standards.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "adres, numer telefonu czy hasła",
+        "correction": "adres, numer telefonu czy hasło",
+        "description": "The phrase 'adres, numer telefonu czy hasła' uses the plural 'hasła' when the context suggests a singular item ('your address, phone number or password'). For naturalness and clarity, the singular 'hasło' should be used, aligning with the other singular nouns in the list.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Przygotujcie się na fascynującą podróż po strukturze układu okresowego, jego grupach, okresach oraz trendach takich jak wielkość atomowa i elektroujemność! 🌟",
+        "correction": "Przygotujcie się na fascynującą podróż po strukturze układu okresowego, jego grupach, okresach oraz trendach takich jak wielkość atomowa i elektroujemność!",
+        "description": "The use of the emoji '🌟' is not standard in Polish educational materials, especially in formal science lessons. Removing the emoji ensures the tone remains professional and culturally appropriate for the target audience.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "🌟",
+        "correction": "",
+        "description": "The use of the star emoji at the end of the introductory paragraph is not appropriate for formal educational content in Polish. Emojis are generally avoided in academic or instructional materials, as they can undermine the seriousness and professionalism of the lesson. Removing the emoji will ensure the tone remains suitable for the context.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "np. „Działajmy razem, aby dokonać tej zmiany!”",
+        "correction": "np. „Zróbmy to razem, aby wprowadzić tę zmianę!”",
+        "description": "The phrase 'Działajmy razem, aby dokonać tej zmiany!' is somewhat formal and may sound unnatural in a call-to-action for Polish students. 'Zróbmy to razem, aby wprowadzić tę zmianę!' is more idiomatic and motivational, aligning better with common Polish expressions used in educational calls to action.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "Składa się z 14 wersów pisanych w jambicznym pentametrze.",
+        "correction": "Składa się z 14 wersów, najczęściej pisanych w regularnym metrum, takim jak jambiczny pentametr.",
+        "description": "The phrase 'pisanych w jambicznym pentametrze' is a direct translation of the English 'iambic pentameter', which is not a standard term in Polish literary studies. Polish sonnets are not always written in iambic pentameter, and the term may confuse learners. The correction provides a more culturally appropriate explanation, referencing regular meter and clarifying the example.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Wolny wiersz",
+        "correction": "Wiersz wolny",
+        "description": "The term 'Wolny wiersz' is a literal translation from English 'free verse', but the standard Polish term is 'wiersz wolny'. Using the correct term ensures consistency with Polish literary terminology and improves naturalness.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Był raz pewien człowiek z Peru,\nKtóremu śniło się, że je swój but.\nObudził się z przerażeniem\nW środku nocy,\nBy odkryć, że jego sen się spełnił.",
+        "correction": "Był raz pewien człowiek z Peru,\nKtóremu śniło się, że je swój but.\nObudził się z przerażeniem\nw środku nocy,\nby odkryć, że jego sen się spełnił.",
+        "description": "In Polish poetry, it is standard to avoid capitalizing the first word of a line unless it begins a new sentence. 'W środku nocy' and 'By odkryć' should start with lowercase letters, as they continue the previous sentence. This correction improves stylistic consistency and aligns with Polish poetic conventions.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Standardowa talia kart ma 52 karty, podzielone na 4 kolory (kier, karo, pik, trefl) i 13 rang (As do Króla).",
+        "correction": "Standardowa talia kart ma 52 karty, podzielone na 4 kolory (kier, karo, pik, trefl) i 13 wartości (od Asa do Króla).",
+        "description": "The term 'rang' is not standard in Polish card terminology; the correct term is 'wartości' when referring to the numbers or figures on playing cards. Additionally, the phrase 'As do Króla' should be clarified as 'od Asa do Króla' to match natural Polish phrasing. This correction ensures the terminology is consistent with how playing cards are described in Polish culture.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "To pomoże Ci nie tylko lepiej zrozumieć informacje, ale także rozwijać umiejętności krytycznego myślenia! 📚",
+        "correction": "To pomoże Ci nie tylko lepiej zrozumieć informacje, ale także rozwijać umiejętności krytycznego myślenia!",
+        "description": "The use of the book emoji (📚) at the end of the sentence may be considered informal and less appropriate for educational content aimed at older students or adults. Removing the emoji ensures a more neutral and professional tone, which is preferable in formal educational materials.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Centrum zostało sfinansowane z lokalnych darowizn.",
+        "correction": "Centrum zostało sfinansowane z darowizn lokalnej społeczności.",
+        "description": "The phrase 'z lokalnych darowizn' is somewhat ambiguous and less natural in Polish. 'Z darowizn lokalnej społeczności' is more idiomatic and clearly indicates that the funding came from community donations, improving clarity and naturalness.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Stosując metodę naukową, możemy podejmować świadome decyzje i skuteczniej rozwiązywać problemy.",
+        "correction": "Stosując metodę naukową, możemy podejmować bardziej świadome decyzje i skuteczniej rozwiązywać problemy.",
+        "description": "The phrase 'podejmować świadome decyzje' is understandable, but 'bardziej świadome decyzje' is a more natural collocation in Polish, emphasizing the improvement in decision-making. This adjustment improves the style and tone for Polish readers.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "W tej lekcji poznamy sześć typów maszyn prostych i dowiemy się, jak pomagają nam w codziennym życiu! 😊",
+        "correction": "W tej lekcji poznamy sześć typów maszyn prostych i dowiemy się, jak pomagają nam w codziennym życiu!",
+        "description": "The use of the emoji '😊' is not appropriate in formal educational content in Polish, as it reduces the professional tone and may be perceived as overly informal or childish. Removing the emoji ensures the style remains suitable for an educational context.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Podkładka pod drzwi",
+        "correction": "Klin do drzwi",
+        "description": "The term 'Podkładka pod drzwi' is not the standard or natural term for a door wedge in Polish. The correct and commonly used term is 'Klin do drzwi', which directly refers to the wedge shape and function, ensuring terminology is consistent and professional.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Koło z osią składa się z większego koła przymocowanego do mniejszej osi, które obracają się razem.",
+        "correction": "Koło z osią składa się z większego koła przymocowanego do mniejszej osi, które obracają się wspólnie.",
+        "description": "The phrase 'obracają się razem' is understandable, but in technical and educational Polish, 'obracają się wspólnie' is the more standard and natural term for describing the coordinated rotation of wheel and axle. This change improves the professional tone and aligns with Polish engineering terminology.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Proste maszyny są niezastąpionymi narzędziami, które pomagają nam wykonywać zadania bardziej efektywnie przez zmniejszenie wysiłku lub zmianę kierunku siły.",
+        "correction": "Proste maszyny są niezastąpionymi narzędziami, które pomagają nam wykonywać zadania efektywniej przez zmniejszenie wysiłku lub zmianę kierunku siły.",
+        "description": "The phrase 'bardziej efektywnie' is grammatically correct, but 'efektywniej' is the preferred comparative form in Polish for adverbs. This change enhances the naturalness and fluency of the sentence, making it more suitable for educational content.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "łazik Marsa",
+        "correction": "łazik Curiosity",
+        "description": "The term 'łazik Marsa' is vague and does not specify which Mars rover is being referenced. For clarity and consistency, especially in educational content, it is better to use the specific name 'łazik Curiosity', which is mentioned earlier in the lesson and is the most relevant example for the discussed period.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Podróże kosmiczne pozwalają ludziom przekraczać granice naszej wiedzy o wszechświecie.",
+        "correction": "Podróże kosmiczne pozwalają nam przekraczać granice naszej wiedzy o wszechświecie.",
+        "description": "The use of 'ludziom' is less engaging and impersonal in educational contexts. Using 'nam' creates a more inclusive and natural tone, directly addressing the learners and making the content more relatable.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "telewizory plazmowe",
+        "correction": "telewizory plazmowe (obecnie rzadko używane)",
+        "description": "The mention of 'telewizory plazmowe' as a common application of plasma is outdated, as plasma TVs are now rarely used in Poland and globally. Adding a note clarifies the current relevance and prevents misleading students about modern technology trends.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "Słońce",
+        "correction": "Słońce (gwiazda, nie planeta)",
+        "description": "While 'Słońce' is a valid example of plasma, it is important to clarify that it is a star, not a planet, as some students may confuse these terms. Adding this note increases scientific accuracy and prevents misconceptions.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "W *Królu Lwie* miejsce akcji to Lwie Królestwo, które ukazuje piękno afrykańskiej sawanny i odgrywa kluczową rolę w tematach przywództwa i przynależności.",
+        "correction": "W *Królu Lwie* miejsce akcji to Lwia Kraina, która ukazuje piękno afrykańskiej sawanny i odgrywa kluczową rolę w tematach przywództwa i przynależności.",
+        "description": "The term 'Lwie Królestwo' is not the standard Polish localization for 'The Lion King' setting. The correct and widely accepted term in Polish is 'Lwia Kraina.' Using the proper localized name ensures consistency with published translations and enhances cultural appropriateness for Polish audiences.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Korzystaj z planera lub narzędzi cyfrowych, aby zaplanować codzienne, tygodniowe i miesięczne obowiązki.",
+        "correction": "Korzystaj z kalendarza lub narzędzi cyfrowych, aby zaplanować codzienne, tygodniowe i miesięczne obowiązki.",
+        "description": "The term 'planer' is an anglicism and not widely used in standard Polish. The more natural and commonly accepted term is 'kalendarz', which aligns with local terminology and improves cultural appropriateness.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Używaj symboli, podkreśleń lub kolorowego kodowania, aby wyróżnić istotne punkty.",
+        "correction": "Używaj symboli, podkreśleń lub kolorów, aby wyróżnić istotne punkty.",
+        "description": "The phrase 'kolorowego kodowania' is a direct translation of 'color coding' and sounds unnatural in Polish educational context. 'Kolorów' is a more natural and idiomatic way to express the idea, improving the style and tone.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Terminy rejestracji różnią się w zależności od stanu.",
+        "correction": "Terminy rejestracji różnią się w zależności od województwa.",
+        "description": "The term 'stan' is a direct translation of 'state' from English, which is not appropriate in the Polish context, as Poland is divided into 'województwa' (provinces/voivodeships), not states. This is a localization issue affecting the naturalness and accuracy of terminology for the Polish audience.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "Podczas wyborów prezydenckich wyborcy wybierają spośród kandydatów różnych partii politycznych, takich jak Partia Demokratyczna czy Republikańska.",
+        "correction": "Podczas wyborów prezydenckich wyborcy wybierają spośród kandydatów różnych partii politycznych, takich jak Platforma Obywatelska czy Prawo i Sprawiedliwość.",
+        "description": "The example references American political parties ('Partia Demokratyczna', 'Republikańska'), which are not relevant in the Polish context. For educational content aimed at Polish learners, it is more culturally appropriate to use examples of Polish political parties. This is a cultural localization issue.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Format",
+        "original": "Wyborca w Warszawie może zarejestrować się online, zbadać kandydatów na burmistrza, zagłosować osobiście w lokalnym punkcie wyborczym, a następnie dowiedzieć się o wynikach z wiadomości.",
+        "correction": "Wyborca w Warszawie może zarejestrować się online, zbadać kandydatów na prezydenta miasta, zagłosować osobiście w lokalnym punkcie wyborczym, a następnie dowiedzieć się o wynikach z wiadomości.",
+        "description": "The term 'burmistrz' refers to the mayor of a smaller town in Poland, while the correct title for the mayor of Warsaw is 'prezydent miasta'. This is a localization issue related to the use of accurate official titles in the Polish administrative context.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Sztuczna inteligencja (AI) to fascynujące narzędzie technologiczne, które pozwala maszynom wykonywać zadania wymagające ludzkiej inteligencji, takie jak uczenie się, rozwiązywanie problemów czy podejmowanie decyzji.",
+        "correction": "Sztuczna inteligencja (AI) to zaawansowane narzędzie technologiczne, które umożliwia maszynom wykonywanie zadań wymagających ludzkiej inteligencji, takich jak uczenie się, rozwiązywanie problemów czy podejmowanie decyzji.",
+        "description": "The use of 'fascynujące' is more subjective and less formal, which may not be appropriate for educational content intended for a broad audience. Replacing it with 'zaawansowane' provides a more neutral and professional tone, improving the naturalness and appropriateness of the style for Polish educational materials.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Moc obliczeniowa",
+        "correction": "Wydajność obliczeniowa",
+        "description": "The term 'moc obliczeniowa' is a literal translation of 'computing power' and is less commonly used in Polish technical language. 'Wydajność obliczeniowa' is the standard term in Polish IT and scientific contexts, ensuring consistency and professional terminology.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Format",
+        "original": "Lata 2020",
+        "correction": "lata 20. XXI wieku",
+        "description": "The phrase 'Lata 2020' is not the standard way to refer to the decade in Polish. The correct format is 'lata 20. XXI wieku', which is culturally and linguistically appropriate for Polish readers.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Diwali (Święto Świateł)",
+        "correction": "Diwali (Święto Światła)",
+        "description": "The translation 'Święto Świateł' is a literal rendering of 'Festival of Lights', but the more commonly accepted Polish term is 'Święto Światła'. This correction ensures the use of locally accepted terminology and improves cultural appropriateness.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "bar micwa",
+        "correction": "bar micwa (Bar Micwa)",
+        "description": "The term 'bar micwa' is written in lowercase, which is not standard for proper names of religious ceremonies in Polish. It should be capitalized as 'Bar Micwa' to align with Polish orthographic conventions and respect the cultural significance of the term.",
         "severity": "MINOR"
       }
     ]

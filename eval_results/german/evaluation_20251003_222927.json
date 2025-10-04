@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "hauptseteilig",
+      "correction": "hauptsächlich",
+      "description": "The word 'hauptseteilig' is a misspelling and does not exist in German. The correct term is 'hauptsächlich', which means 'mainly' or 'primarily'. This error affects the clarity and professionalism of the feedback.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "hauptsetein",
+      "correction": "hauptsächlichen",
+      "description": "The word 'hauptsetein' is a misspelling and not a valid German word. The intended meaning is 'hauptsächlichen', which is the correct adjective form for 'main' or 'primary'. This error impacts the grammatical correctness and comprehension of the statement.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Cultural_Celebrations.slm.md",
+    "language": "German",
+    "timestamp": "2025-10-03T22:29:27.365833",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.6,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

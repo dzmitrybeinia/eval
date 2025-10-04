@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Vamos explorar juntos a história, os desafios e as tecnologias que moldaram a exploração espacial, conectando esses conceitos aos princípios científicos do movimento orbital. 🚀",
+      "correction": "Vamos explorar a história, os desafios e as tecnologias que moldaram a exploração espacial, conectando esses conceitos aos princípios científicos do movimento orbital.",
+      "description": "The use of 'juntos' and the rocket emoji introduces an informal and conversational tone that may not be appropriate for educational content aimed at a broad audience, especially in formal or academic contexts. Removing 'juntos' and the emoji creates a more neutral and professional style, which is preferable for educational materials.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Foguetes modernos, como o Falcon Heavy da SpaceX, são mais eficientes e reutilizáveis, reduzindo os custos das missões espaciais.",
+      "correction": "Foguetes modernos, como o Falcon Heavy da SpaceX, são mais eficientes e reutilizáveis, reduzindo os custos das missões espaciais.",
+      "description": "While the terminology is accurate, referencing 'Falcon Heavy da SpaceX' may not be fully localized for a Brazilian audience, as SpaceX is a US-based company and local examples or broader context (such as mentioning international or Brazilian contributions to rocket technology) could enhance cultural relevance. However, the text is linguistically correct and the issue is minor.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Space_Travel.llm.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T21:48:17.382694",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.8,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.2,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "goutte-à-goutte",
+      "correction": "goutte à goutte",
+      "description": "In French, the irrigation technique should be written as 'goutte à goutte' without hyphens, as it is a fixed expression and not a compound noun. The use of hyphens here is a minor orthographic error that affects the naturalness and correctness of the term.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Réduisez les déchets en consommant moins.",
+      "correction": "Réduisez les déchets en limitant votre consommation.",
+      "description": "The phrase 'en consommant moins' is understandable but slightly abrupt and less idiomatic in French educational contexts. 'En limitant votre consommation' is more natural and polite, aligning better with the formal register expected in educational materials.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Soutenez la pêche et l'agriculture durables.",
+      "correction": "Soutenez la pêche durable et l'agriculture durable.",
+      "description": "The phrase 'la pêche et l'agriculture durables' may cause ambiguity, as 'durables' could be interpreted as modifying both nouns together. For clarity and standard usage in French environmental discourse, it is preferable to repeat 'durable' for each noun: 'la pêche durable et l'agriculture durable'.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Natural_Resources.llm.md",
+    "language": "French",
+    "timestamp": "2025-10-03T21:36:12.000951",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

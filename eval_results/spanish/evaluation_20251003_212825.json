@@ -1,0 +1,75 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "¡Bienvenidos a una exploración emocionante sobre cómo nuestra forma de pensar puede transformar nuestra manera de aprender y crecer! Hoy descubriremos cómo enfrentar desafíos, aprender de los fracasos y desarrollar la persistencia puede llevarnos al éxito personal y académico. 🌟",
+      "correction": "¡Bienvenidos a una exploración emocionante sobre cómo nuestra forma de pensar puede transformar nuestra manera de aprender y crecer! Hoy descubriremos cómo enfrentar desafíos, aprender de los fracasos y desarrollar la persistencia puede llevarnos al éxito personal y académico.",
+      "description": "The use of the star emoji (🌟) at the end of the introductory paragraph may be considered informal or distracting in educational content aimed at older students or professional settings. Removing the emoji ensures a more neutral and professional tone, which is culturally appropriate for academic materials.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "En ciencias e ingeniería, el éxito a menudo requiere procesos iterativos: probar, fallar, aprender y mejorar.",
+      "correction": "En ciencias e ingeniería, el éxito a menudo requiere procesos iterativos: experimentar, fallar, aprender y mejorar.",
+      "description": "The verb 'probar' is commonly used for 'to try' or 'to taste', but in scientific and engineering contexts, 'experimentar' is a more precise and natural term for describing iterative testing. This change improves the technical accuracy and naturalness of the terminology for Spanish-speaking learners.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Ejemplo: un estudiante que practica problemas matemáticos difíciles mejora sus habilidades con el tiempo.",
+      "correction": "Por ejemplo, un estudiante que practica problemas matemáticos difíciles mejora sus habilidades con el tiempo.",
+      "description": "The use of 'Ejemplo:' as a standalone label is less natural in Spanish educational writing. Prefacing examples with 'Por ejemplo,' integrates the example smoothly into the sentence and aligns with standard Spanish academic style.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Ejemplo: un estudiante que evalúa sus errores en un examen para mejorar sus hábitos de estudio.",
+      "correction": "Por ejemplo, un estudiante que evalúa sus errores en un examen para mejorar sus hábitos de estudio.",
+      "description": "The phrase 'Ejemplo:' should be replaced with 'Por ejemplo,' for a more natural and fluid integration of examples in Spanish educational content.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Ejemplo: un estudiante que dedica tiempo constante a practicar un instrumento musical mejora con esfuerzo continuo.",
+      "correction": "Por ejemplo, un estudiante que dedica tiempo constante a practicar un instrumento musical mejora con esfuerzo continuo.",
+      "description": "Replacing 'Ejemplo:' with 'Por ejemplo,' improves the naturalness and readability of the example in Spanish educational writing.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Ejemplo: ingenieros que prueban modelos de puentes para identificar debilidades y optimizar diseños.",
+      "correction": "Por ejemplo, ingenieros que prueban modelos de puentes para identificar debilidades y optimizar diseños.",
+      "description": "The phrase 'Ejemplo:' should be replaced with 'Por ejemplo,' to maintain a natural and professional tone in Spanish educational content.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Growth_Mindset.llm.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-03T21:28:25.859334",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.3,
+    "classification": "NATIVE",
+    "total_issues": 6,
+    "total_penalty": 0.7,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 6,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.7,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

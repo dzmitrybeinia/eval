@@ -1,25 +1,173 @@
 {
   "metadata": {
     "label": "slm",
-    "label_normalized": "slm",
-    "label_key": "slm",
     "language": "english",
-    "generated_at": "2025-10-03T16:10:08.750617",
+    "generated_at": "2025-10-03T22:42:23.224620",
     "source_files": [
-      "evaluation_20251003_160228.json",
-      "evaluation_20251003_160231.json",
-      "evaluation_20251003_160232.json",
-      "evaluation_20251003_160233.json",
-      "evaluation_20251003_160237.json",
-      "evaluation_20251003_160238.json"
+      "evaluation_20251003_220831.json",
+      "evaluation_20251003_220832.json",
+      "evaluation_20251003_220834.json",
+      "evaluation_20251003_220835.json",
+      "evaluation_20251003_220836.json",
+      "evaluation_20251003_220837.json",
+      "evaluation_20251003_220840.json",
+      "evaluation_20251003_220841.json",
+      "evaluation_20251003_220842.json",
+      "evaluation_20251003_220843.json",
+      "evaluation_20251003_220845.json",
+      "evaluation_20251003_220846.json",
+      "evaluation_20251003_220847.json",
+      "evaluation_20251003_220848.json",
+      "evaluation_20251003_220849.json",
+      "evaluation_20251003_220850.json",
+      "evaluation_20251003_220851.json",
+      "evaluation_20251003_220852.json",
+      "evaluation_20251003_220853.json",
+      "evaluation_20251003_220854.json",
+      "evaluation_20251003_220855.json",
+      "evaluation_20251003_220933.json",
+      "evaluation_20251003_220934.json",
+      "evaluation_20251003_220935.json",
+      "evaluation_20251003_220936.json",
+      "evaluation_20251003_220937.json",
+      "evaluation_20251003_220938.json",
+      "evaluation_20251003_220940.json",
+      "evaluation_20251003_220942.json",
+      "evaluation_20251003_220944.json",
+      "evaluation_20251003_220953.json",
+      "evaluation_20251003_220954.json",
+      "evaluation_20251003_220955.json",
+      "evaluation_20251003_220956.json"
     ],
     "issue_counts": {
-      "linguistic": 0,
-      "localization": 0
+      "linguistic": 13,
+      "localization": 2
     }
   },
   "issues": {
-    "linguistic": [],
-    "localization": []
+    "linguistic": [
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical Precision",
+        "original": "Variables in algebra can be letters or symbols, and sometimes numbers. The statement is false because variables can also take other forms such as Greek letters or Roman numerals, depending on the context.",
+        "correction": "Variables in algebra are typically represented by letters or symbols, such as Greek letters, but not by numbers or Roman numerals. Numbers are generally used to represent constants, not variables.",
+        "description": "The feedback incorrectly suggests that variables can be numbers or Roman numerals. In standard algebra, variables are not represented by numbers or Roman numerals; numbers are used for constants. This could confuse learners about the definition of a variable.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical Precision",
+        "original": "Variables in algebra can be represented by letters, numbers, or symbols, depending on the context and the preference of the mathematician. Often, numbers are used to represent constants, while letters or symbols denote variables.",
+        "correction": "Variables in algebra are represented by letters or symbols, not by numbers. Numbers are used to represent constants, while letters or symbols denote variables.",
+        "description": "The feedback incorrectly states that variables can be represented by numbers. In algebra, variables are not numbers; numbers are constants. This misstatement could mislead students about the nature of variables.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical Precision",
+        "original": "In Python, a variable named 'temperature' is expected to hold a number representing a measurement like degrees Celsius or Fahrenheit, not a string. Attempting to assign a string to 'temperature' would result in a TypeError since Python is trying to interpret 'Hello' as a numerical value.",
+        "correction": "In Python, a variable named 'temperature' can be assigned any data type, including a string, without causing an error. Python does not enforce variable types based on variable names, and assigning 'Hello' to 'temperature' will not result in a TypeError.",
+        "description": "The feedback incorrectly states that assigning a string to a variable named 'temperature' would result in a TypeError. In Python, variable names do not determine the expected data type, and assigning a string to any variable is valid unless the code later tries to use it in a context that requires a number. This misleads learners about Python's dynamic typing.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Conceptual Accuracy",
+        "original": "While Python is a dynamically typed language, and variables are not fixed to a single data type, changing a variable's data type at runtime can cause errors. Python variables are flexible, but they must be used appropriately according to their assigned data type.",
+        "correction": "While Python is a dynamically typed language and variables are not fixed to a single data type, changing a variable's data type at runtime does not inherently cause errors. Errors only occur if the variable is used in a way that is incompatible with its current data type.",
+        "description": "The feedback suggests that changing a variable's data type at runtime can cause errors, which is misleading. In Python, changing a variable's data type is allowed and does not cause errors unless the variable is used in an incompatible context. This could confuse learners about Python's dynamic typing.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical Precision",
+        "original": "In DNA, the sequence of nitrogenous bases can be read in a direction only.",
+        "correction": "In DNA, the sequence of nitrogenous bases can be read in only one direction.",
+        "description": "The phrase 'in a direction only' is awkward and unclear. The intended meaning is that DNA is read in only one direction, which should be explicitly stated for clarity.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical Precision",
+        "original": "The Universal Declaration of Human Rights was adopted after the end of World War II.",
+        "correction": "The Universal Declaration of Human Rights was adopted after World War II.",
+        "description": "The phrase 'after the end of World War II' is redundant and slightly awkward. 'After World War II' is the standard and precise phrasing for this historical context.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Conceptual Accuracy",
+        "original": "The adoption of the Universal Declaration of Human Rights occurred in the aftermath of World War II, not after its end.",
+        "correction": "The adoption of the Universal Declaration of Human Rights occurred after the end of World War II.",
+        "description": "The feedback incorrectly distinguishes between 'in the aftermath of World War II' and 'after its end.' Both refer to the period following the war's conclusion. The correction clarifies the timeline and avoids unnecessary semantic distinction.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical Precision",
+        "original": "By embedding information within a story, it becomes more memorable due to the learning material and emotional engagement.",
+        "correction": "By embedding information within a story, it becomes more memorable due to the context and emotional engagement.",
+        "description": "The phrase 'due to the learning material and emotional engagement' is unclear and awkward. 'Learning material' does not logically explain why embedding information in a story aids memory. 'Context and emotional engagement' more accurately describes the mnemonic benefit.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical Precision",
+        "original": "A Limerick always ends with a couplet that rhymes.",
+        "correction": "A Limerick always contains a couplet that rhymes as its third and fourth lines.",
+        "description": "The statement implies that the limerick ends with a couplet, which is inaccurate. In a limerick, the couplet is in the third and fourth lines, not at the end. The fifth line rhymes with the first two lines, not with the couplet.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical Precision",
+        "original": "A Limerick consists of five lines, where the first, second, and fifth lines rhyme with each other, and the third and fourth lines form a shorter rhyming couplet. This characteristic structure is a defining feature of Limericks.",
+        "correction": "A Limerick consists of five lines, where the first, second, and fifth lines rhyme with each other, and the third and fourth lines form a shorter rhyming couplet in the middle. This characteristic structure is a defining feature of Limericks.",
+        "description": "The feedback does not clarify that the couplet is in the middle of the limerick (lines three and four), which could lead to confusion given the previous statement. Specifying the position of the couplet improves clarity.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical Precision",
+        "original": "Random guesses, known as 'hypotheses,' are actually well-considered, testable predictions that are opposite to what is expected.",
+        "correction": "Random guesses are not considered 'hypotheses.' Hypotheses are well-considered, testable predictions based on prior knowledge and observation.",
+        "description": "The sentence incorrectly states that hypotheses are 'opposite to what is expected,' which is misleading. Hypotheses are not necessarily the opposite of expectations; they are predictions based on evidence. The phrase also conflates random guesses with hypotheses, which is conceptually inaccurate.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Syntax",
+        "original": "Random guesses, known as 'hypotheses,' are actually well-considered, testable predictions that are opposite to what is expected.",
+        "correction": "Random guesses are not known as 'hypotheses.' Hypotheses are well-considered, testable predictions.",
+        "description": "The sentence structure is confusing and incorrectly equates random guesses with hypotheses, which may mislead learners about the scientific method.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical Precision",
+        "original": "This ensures that the scientific method is a systematic and objective process based on evidence and logical reasoning.",
+        "correction": "This ensures that the scientific method is a systematic and objective process based on evidence and logical reasoning, rather than random guessing.",
+        "description": "The feedback does not clearly contrast the scientific method with random guessing, which is the focus of the question. Adding the contrast improves clarity and educational effectiveness.",
+        "severity": "MEDIUM"
+      }
+    ],
+    "localization": [
+      {
+        "category": "localization",
+        "subcategory": "Regional",
+        "original": "Złamanie DNA może prowadzić do nowych cech biologicznych.",
+        "correction": "DNA breakage can lead to new biological traits.",
+        "description": "The statement is in Polish, not English, which is inconsistent with the rest of the quiz and may confuse learners expecting English content. All content should be in English for consistency and accessibility.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Regional",
+        "original": "Warstwa znaczenia DNA polega na przekazywaniu genetycznych informacji przez pokolenia, co jest kluczowe dla przejawiania życia poprzez podziały komórek. Zmiany w jego strukturze, często nazywane mutacjami, mogą prowadzić do nowych cech, które mogą wpłynąć na rozwój organizmu. To zrozumienie jest kluczowe dla różnych dziedzin nauki, w tym biologii, medycyny i nauki kryminalnej.",
+        "correction": "The significance of DNA lies in transmitting genetic information across generations, which is crucial for the manifestation of life through cell division. Changes in its structure, often called mutations, can lead to new traits that may affect organism development. This understanding is key in various scientific fields, including biology, medicine, and forensic science.",
+        "description": "The feedback is in Polish, not English, which disrupts the educational flow and accessibility for English-speaking learners. All feedback should be provided in English for consistency.",
+        "severity": "HIGH"
+      }
+    ]
   }
 }

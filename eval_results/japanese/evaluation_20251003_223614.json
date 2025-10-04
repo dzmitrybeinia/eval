@@ -1,0 +1,91 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "プログラミングでは、変数は一度に一つのデータ値のみを保持できます。.",
+      "correction": "プログラミングでは、変数は一度に一つのデータ値のみを保持できます。",
+      "description": "There is an unnecessary period after the Japanese full stop, resulting in double punctuation (。.). In Japanese, only the full-width period (。) should be used at the end of a sentence. Remove the extra half-width period for correct punctuation.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "プログラミングにおいて、変数は確かにデータを保存するのに役立ちますが、それらは同時に複数の異なる値を保持することができます。これはパイプラインインターミディエンスのようなもので、一度に一つの入力が受け取られますが、それに基づいてさまざまな出力が生成されることに似ています。変数は、一瞬の状態をキャプチャし、その状態を使って計算を行うために使用されます。.",
+      "correction": "プログラミングにおいて、変数は確かにデータを保存するのに役立ちますが、それらは同時に複数の異なる値を保持することができます。これはパイプラインインターミディエンスのようなもので、一度に一つの入力が受け取られますが、それに基づいてさまざまな出力が生成されることに似ています。変数は、一瞬の状態をキャプチャし、その状態を使って計算を行うために使用されます。",
+      "description": "There is an unnecessary period after the Japanese full stop at the end of the feedback (。.). Only the full-width Japanese period (。) should be used. Additionally, the term 'パイプラインインターミディエンス' is an unnatural loanword and not standard in Japanese programming terminology. It may confuse learners and should be replaced with a more familiar or explanatory phrase, such as 'パイプライン処理' or a clear description of the concept.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "データ型はプログラムにおいてどの情報を保存するかを決定します。.",
+      "correction": "データ型はプログラムにおいてどの情報を保存するかを決定します。",
+      "description": "There is an unnecessary period after the Japanese full stop (。.). Only the full-width Japanese period (。) should be used at the end of a sentence.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "この文は正しいです。プログラミングにおいて、データ型は情報をどのように格納および操作するかを定義します。数値型、文字列型、ブール型など、異なるデータ型はそれぞれ異なる種類の情報を保存するために設計されています。.",
+      "correction": "この文は正しいです。プログラミングにおいて、データ型は情報をどのように格納および操作するかを定義します。数値型、文字列型、ブール型など、異なるデータ型はそれぞれ異なる種類の情報を保存するために設計されています。",
+      "description": "There is an unnecessary period after the Japanese full stop at the end of the feedback (。.). Only the full-width Japanese period (。) should be used.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "アルゴリズムはプログラミングでは決定論的です。.",
+      "correction": "アルゴリズムはプログラミングでは決定論的です。",
+      "description": "There is an unnecessary period after the Japanese full stop (。.). Only the full-width Japanese period (。) should be used at the end of a sentence.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "アルゴリズムは、与えられた入力に基づいて常に同じ出力を生み出すプログラムの特性です。これはプログラミングにおいて決定論的な概念を表します。.",
+      "correction": "アルゴリズムは、与えられた入力に基づいて常に同じ出力を生み出すプログラムの特性です。これはプログラミングにおいて決定論的な概念を表します。",
+      "description": "There is an unnecessary period after the Japanese full stop at the end of the feedback (。.). Only the full-width Japanese period (。) should be used.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "プログラムでは、変数を使ってユーザーの名前と年齢を保存します。.",
+      "correction": "プログラムでは、変数を使ってユーザーの名前と年齢を保存します。",
+      "description": "There is an unnecessary period after the Japanese full stop (。.). Only the full-width Japanese period (。) should be used at the end of a sentence.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "変数はプログラム内でデータを保存するために使用されます。この場合、名前と年齢を保存するために使用されています。.",
+      "correction": "変数はプログラム内でデータを保存するために使用されます。この場合、名前と年齢を保存するために使用されています。",
+      "description": "There is an unnecessary period after the Japanese full stop at the end of the feedback (。.). Only the full-width Japanese period (。) should be used.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Coding_Basics.slm.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-03T22:36:14.248588",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.1,
+    "classification": "NATIVE",
+    "total_issues": 8,
+    "total_penalty": 0.9,
+    "issue_breakdown": {
+      "linguistic": 8,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.9,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

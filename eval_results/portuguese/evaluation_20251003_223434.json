@@ -1,0 +1,75 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "O plasma é um estado da matéria raro na Terra, comum em estrelas e no sol. A Terra normalmente experimenta sólidos, líquidos e gases.",
+      "correction": "O plasma é um estado da matéria raro na Terra, comum em estrelas e no Sol. Na Terra, normalmente encontramos sólidos, líquidos e gases.",
+      "description": "The word 'sol' should be capitalized as 'Sol' when referring to the star, according to standard Portuguese orthography. Additionally, the verb 'experimenta' is not the most precise choice in this context; 'encontramos' is more natural and accurate for describing the states of matter present on Earth. These changes improve both linguistic accuracy and naturalness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "Eles são caracterizados por partículas que estão organizadas em um padrão específico, mantendo uma forma constante.",
+      "correction": "Eles são caracterizados por partículas organizadas em um padrão específico, mantendo uma forma constante.",
+      "description": "The phrase 'partículas que estão organizadas' is unnecessarily wordy. In Portuguese, 'partículas organizadas' is more concise and natural, improving sentence flow and clarity.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Líquidos são caracterizados por ter volume fixo, mas não possuem forma fixa, pois adaptam-se à forma do recipiente que ocupam. Exemplos como água e leite demonstram essa propriedade ao assumir a forma do copo ou recipiente em que são colocados.",
+      "correction": "Líquidos são caracterizados por terem volume fixo, mas não possuem forma fixa, pois adaptam-se à forma do recipiente que ocupam. Exemplos como água e leite demonstram essa propriedade ao assumirem a forma do copo ou recipiente em que são colocados.",
+      "description": "The verb forms 'por ter volume fixo' and 'ao assumir a forma' should agree in number with 'líquidos' and 'exemplos', respectively. The correct forms are 'por terem volume fixo' and 'ao assumirem a forma', ensuring proper subject-verb agreement.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Isso ocorre porque as partículas de gás têm energia suficiente para se mover livremente e ocupar todo o espaço disponível sem limitações.",
+      "correction": "Isso ocorre porque as partículas do gás têm energia suficiente para se moverem livremente e ocupar todo o espaço disponível sem limitações.",
+      "description": "The phrase 'partículas de gás' should be 'partículas do gás' for correct article usage. Additionally, 'para se mover' should be 'para se moverem' to agree with the plural subject 'partículas'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "O plasma é caracterizado por ter partículas carregadas, como íons e elétrons, devido à sua alta energia. Ele não é neutro, contrastando com o estado de sólido, líquido ou gás, que geralmente têm partículas carregadas em menor quantidade ou nenhuma. A confusão pode surgir devido às várias formas de matéria e seu comportamento, mas o plasma é único em sua composição e propriedades.",
+      "correction": "O plasma é caracterizado por ter partículas carregadas, como íons e elétrons, devido à sua alta energia. Ele não é neutro, contrastando com os estados sólido, líquido ou gasoso, que geralmente têm partículas carregadas em menor quantidade ou nenhuma. A confusão pode surgir devido às várias formas de matéria e seu comportamento, mas o plasma é único em sua composição e propriedades.",
+      "description": "The phrase 'estado de sólido, líquido ou gás' should be 'os estados sólido, líquido ou gasoso' for correct terminology and agreement. 'Gasoso' is the proper adjective for 'estado', and the plural 'estados' matches the enumeration.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "O congelamento é o processo pelo qual um líquido se transforma em sólido, o que acontece quando o líquido perde energia, não ganha. Por exemplo, quando a água esfria e forma gelo.",
+      "correction": "O congelamento é o processo pelo qual um líquido se transforma em sólido, o que acontece quando o líquido perde energia, e não ganha. Por exemplo, quando a água esfria e forma gelo.",
+      "description": "The phrase 'não ganha' should be preceded by 'e' for clarity and correct contrast: 'e não ganha'. This improves the logical connection and readability of the sentence.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "States_of_Matter.slm.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T22:34:34.411592",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.0,
+    "classification": "NATIVE",
+    "total_issues": 6,
+    "total_penalty": 1.0,
+    "issue_breakdown": {
+      "linguistic": 6,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.0,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

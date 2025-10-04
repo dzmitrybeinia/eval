@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Pokojowe rozwiązywanie nieporozumień",
+      "correction": "Pokojowe rozwiązywanie konfliktów",
+      "description": "The phrase 'Pokojowe rozwiązywanie nieporozumień' uses 'nieporozumień' (misunderstandings) instead of 'konfliktów' (conflicts), which is the standard term in Polish for the concept of conflict resolution. While 'nieporozumienia' can be a part of conflicts, the skill being described is specifically about resolving conflicts, not just misunderstandings. This is a lexical error affecting the precision of terminology and may cause confusion about the scope of the skill.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Testy mogą być stresujące.",
+      "correction": "Egzaminy mogą być stresujące.",
+      "description": "The word 'testy' is an anglicism and, while increasingly used in informal Polish, 'egzaminy' is the more natural and standard term in educational contexts. Using 'egzaminy' improves the cultural appropriateness and professionalism of the content, especially for school-aged audiences.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Wiem, jak bardzo chciałeś być w tej drużynie.",
+      "correction": "Wiem, jak bardzo chciałeś dołączyć do tej drużyny.",
+      "description": "The phrase 'chciałeś być w tej drużynie' is grammatically correct but less idiomatic in Polish. The more natural expression is 'chciałeś dołączyć do tej drużyny', which better conveys the intended meaning and aligns with standard Polish usage. This improves both linguistic accuracy and naturalness.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "To brzmi ciekawie! Co cię w tym zainteresowało?",
+      "correction": "To brzmi ciekawie! Co cię w tym zaciekawiło?",
+      "description": "The verb 'zainteresowało' is less natural in this context; 'zaciekawiło' is the more idiomatic choice when asking what sparked someone's interest in a new hobby. This adjustment enhances the naturalness and conversational tone of the dialogue.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Myślę, że źle się zrozumieliśmy—czy możemy porozmawiać o tym, co się stało?",
+      "correction": "Myślę, że źle się zrozumieliśmy – czy możemy porozmawiać o tym, co się stało?",
+      "description": "The dash used in 'zrozumieliśmy—czy' is an English-style em dash. In Polish, a spaced en dash (–) is standard for separating clauses in this context. This is an orthographic issue affecting punctuation conventions.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Friendship_Skills.llm.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T21:32:00.353036",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.4,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

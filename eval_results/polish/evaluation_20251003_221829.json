@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Złotej Księżyca odwiedzają ludzie na orbicie Ziemi nie. Ta księżyc jest znana z swojego jasnego blasku i znajduje się około tygodnia po Księżyku. Złotej Księżyca to miejsce na orbicie Ziemi, a nie księżyc.",
+      "correction": "Złotego Księżyca nie odwiedzają ludzie na orbicie Ziemi. Ten księżyc jest znany ze swojego jasnego blasku i znajduje się około tygodnia po pełni Księżyca. Złoty Księżyc to zjawisko na orbicie Ziemi, a nie księżyc.",
+      "description": "The original text contains multiple grammatical errors: incorrect case endings ('Złotej Księżyca' should be 'Złotego Księżyca'), incorrect word order, and gender agreement issues ('Ta księżyc' should be 'Ten księżyc'). There is also a lexical error with 'Księżyku' instead of 'Księżyca', and unnatural phrasing. The correction addresses all these issues for improved clarity and linguistic accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Saturn V rakieta używa paliwa roziemowego do ulotu z atmosfery na wysokim poziomie, a nie do utrzymania się w powierzchni atmosfery. Rakiety chemiczne, takie jak Saturn V, są zaprojektowane do wykorzystania silnego impulsu w kosmosie.",
+      "correction": "Rakieta Saturn V używa paliwa chemicznego do opuszczenia atmosfery Ziemi, a nie do utrzymania się w jej obrębie. Rakiety chemiczne, takie jak Saturn V, są zaprojektowane do generowania silnego impulsu umożliwiającego lot w kosmos.",
+      "description": "The original text contains lexical errors ('paliwa roziemowego' is not a valid term; 'ulotu z atmosfery' is incorrect and unnatural), as well as awkward phrasing and word order. The correction uses proper terminology and natural Polish phrasing for technical accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Systemy podtrzymywania życia są zaawansowane, ale nadal wymagają konserwacji i utrzymania. Na przykład, system ECLSS na ISS wymaga regularnej opróżniania, konserwacji oraz kontroli nawet w przypadku awarii. Bez tych czynności mogą wystąpić problemy, które mogą zagrażać życiu astronautów.",
+      "correction": "Systemy podtrzymywania życia są zaawansowane, ale nadal wymagają konserwacji i utrzymania. Na przykład system ECLSS na ISS wymaga regularnego opróżniania, konserwacji oraz kontroli, nawet w przypadku awarii. Bez tych czynności mogą wystąpić problemy, które mogą zagrażać życiu astronautów.",
+      "description": "The original text contains a grammatical error: 'regularnej opróżniania' should be 'regularnego opróżniania' to match the gender and case of the noun. The correction also improves punctuation and word order for clarity.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "Jak w kosmosie, tak jak w szczelinach, ciśnienie grawitacyjne jest znacznie niższe, organizm człowieka odpiera mniejszą siłę grawitacji. To może prowadzić do przesunięcia płynów w ciele, co może wpłynąć na funkcje płynowe. W rezultacie, zwiększa się istotność regularnych ćwiczeń fizycznych i ściskających, aby przeciwdziałać tych zmian.",
+      "correction": "W kosmosie ciśnienie grawitacyjne jest znacznie niższe, przez co organizm człowieka podlega mniejszej sile grawitacji. To może prowadzić do przesunięcia płynów w ciele, co wpływa na ich funkcje. W rezultacie wzrasta znaczenie regularnych ćwiczeń fizycznych, aby przeciwdziałać tym zmianom.",
+      "description": "The original text has syntactic errors and unnatural phrasing: 'Jak w kosmosie, tak jak w szczelinach' is confusing and not idiomatic; 'odpiera mniejszą siłę grawitacji' is incorrect, and 'funkcje płynowe' is not standard terminology. The correction restructures the sentences for clarity and uses proper technical language.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "W rzeczywistości, wraz z rozwojem technologii, większość statków kosmicznych i orbitalnych satelitów wykonuje swoje zadania na orbity słoneczne, a nie ziemskie. Dzieje eksploracji kosmosu pokazują, że kosmos to miejsce dla statków złotej elowy i łazików jak Mars Express, a nie ziemskie statki.",
+      "correction": "W rzeczywistości, wraz z rozwojem technologii, większość statków kosmicznych i satelitów orbitalnych wykonuje swoje zadania na orbitach wokół Słońca, a nie Ziemi. Historia eksploracji kosmosu pokazuje, że kosmos to miejsce dla sond i łazików, takich jak Mars Express, a nie tylko statków ziemskich.",
+      "description": "The original text contains lexical errors ('orbity słoneczne' is not standard; 'statków złotej elowy' is nonsensical), and awkward phrasing. The correction uses proper terminology and improves sentence structure for clarity and accuracy.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Space_Travel.slm.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T22:18:29.691933",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 8.6,
+    "classification": "PROFESSIONAL",
+    "total_issues": 5,
+    "total_penalty": 1.4,
+    "issue_breakdown": {
+      "linguistic": 5,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.4,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

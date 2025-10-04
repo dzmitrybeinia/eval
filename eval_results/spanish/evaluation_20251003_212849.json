@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "arte grafiti",
+      "correction": "arte del grafiti",
+      "description": "The phrase 'arte grafiti' is not the most natural or standard way to refer to graffiti art in Spanish. The more widely accepted term is 'arte del grafiti', which is used in educational and cultural contexts. This correction improves terminology consistency and naturalness for Spanish-speaking audiences.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "DJing",
+      "correction": "DJ",
+      "description": "The term 'DJing' is an anglicism and not standard in Spanish orthography. In Spanish, the activity is referred to as 'DJ' or 'hacer de DJ'. Using 'DJing' may confuse learners and is not linguistically correct in Spanish educational content.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "software de computadora",
+      "correction": "software de ordenador",
+      "description": "The term 'computadora' is regionally specific to Latin America, while 'ordenador' is used in Spain. For neutral, international Spanish, 'software de ordenador' is preferred in educational contexts. This correction ensures broader localization appropriateness.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Music_Genres.llm.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-03T21:28:49.168121",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

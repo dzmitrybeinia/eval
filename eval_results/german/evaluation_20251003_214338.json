@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Das Verständnis deiner eigenen Emotionen kann helfen, sie besser zu steuern.",
+      "correction": "Das Verständnis der eigenen Emotionen kann helfen, sie besser zu steuern.",
+      "description": "The use of 'deiner' introduces an informal, direct address (du-form) in a context that otherwise maintains a neutral, educational tone. For educational content intended for a general audience, it is more appropriate to use the impersonal 'der eigenen Emotionen' to maintain consistency and professionalism. This change also avoids abrupt register shifts and ensures the content is suitable for all learners.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Wenn du Wut verspürst, kannst du beispielsweise tief durchatmen, um dich zu beruhigen, bevor du reagierst.",
+      "correction": "Wenn man Wut verspürt, kann man beispielsweise tief durchatmen, um sich zu beruhigen, bevor man reagiert.",
+      "description": "The sentence uses the informal 'du' form, which is inconsistent with the otherwise neutral and impersonal style of the lesson. Switching to the impersonal 'man' form ensures a consistent, professional tone appropriate for educational materials and avoids unnecessary informality.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Ebenso kann das Erkennen der Emotionen anderer, wie Traurigkeit, durch Unterstützung die Beziehungen stärken.",
+      "correction": "Ebenso kann das Erkennen der Emotionen anderer, wie Traurigkeit, durch Unterstützung Beziehungen stärken.",
+      "description": "The definite article 'die' before 'Beziehungen' is unnecessary and slightly unnatural in this context. Removing it improves the flow and naturalness of the sentence, making it more idiomatic in German educational writing.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Emotions_and_Feelings.llm.md",
+    "language": "German",
+    "timestamp": "2025-10-03T21:43:38.608388",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.5,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

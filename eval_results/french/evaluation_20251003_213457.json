@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Pensez aux nucléotides comme des perles sur un fil qui forment un collier, le collier représentant la molécule d'ADN.",
+      "correction": "Imaginez les nucléotides comme des perles enfilées sur un fil, formant un collier qui représente la molécule d'ADN.",
+      "description": "The original sentence uses 'Pensez à...' which is a direct translation of 'Think of...' and is less natural in French educational style. 'Imaginez...' is more idiomatic and engaging for learners. Additionally, the phrase 'des perles sur un fil qui forment un collier' is slightly awkward; 'des perles enfilées sur un fil, formant un collier' is smoother and more natural in French. This improves the overall style and clarity for a French-speaking audience.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Les scientifiques explorent la thérapie génique pour corriger des ADN défectueux.",
+      "correction": "Les scientifiques explorent la thérapie génique pour corriger des gènes défectueux.",
+      "description": "In French scientific terminology, 'thérapie génique' refers to correcting defective genes, not 'ADN défectueux'. The use of 'ADN défectueux' is not standard and may confuse learners. The correction to 'gènes défectueux' aligns with accepted terminology in French genetics education.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "DNA_Basics.llm.md",
+    "language": "French",
+    "timestamp": "2025-10-03T21:34:57.573568",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.4,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

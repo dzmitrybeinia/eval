@@ -1,0 +1,147 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Pierwiastki w tym samym okresie mają taką samą liczbę elektronów walencyjnych.",
+      "correction": "Pierwiastki w tym samym okresie mają różną liczbę elektronów walencyjnych.",
+      "description": "The statement is factually incorrect in Polish: elements in the same period do not have the same number of valence electrons; they have the same number of electron shells. This is a lexical/semantic error that misleads learners about a fundamental concept in chemistry.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "elektrucyjne",
+      "correction": "elektronowe",
+      "description": "The word 'elektrucyjne' is a misspelling and not a valid Polish word. The correct term is 'elektronowe' (electron shells). This is a significant spelling error that affects comprehension.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Dwie pierwiastki w tym samym okresie, takie jak srebro (Ag) i kadm (Cd), mają 5 powłok elektronowych, co oznacza, że ich elektrucyjne są identyczne.",
+      "correction": "Dwa pierwiastki w tym samym okresie, takie jak srebro (Ag) i kadm (Cd), mają 5 powłok elektronowych, co oznacza, że ich powłoki elektronowe są identyczne.",
+      "description": "The noun 'pierwiastki' is masculine plural, so the correct quantifier is 'dwa', not 'dwie'. Additionally, the sentence contains the previously mentioned spelling error and a lexical inaccuracy regarding electron shells. All issues are combined in this correction.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "zazwyczni",
+      "correction": "zazwyczaj",
+      "description": "The word 'zazwyczni' is a misspelling; the correct form is 'zazwyczaj' (usually). This error appears in multiple feedback sections and should be corrected everywhere it occurs.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Złożone pierwiastki, które składają się z dwóch lub więcej różnych rodzajów atomów, nazywane są mieszaniami lub związkami chemicznymi.",
+      "correction": "Substancje, które składają się z dwóch lub więcej różnych rodzajów atomów, nazywane są związkami chemicznymi lub mieszaninami.",
+      "description": "The term 'złożone pierwiastki' is incorrect; elements cannot be 'complex' in this sense. The correct terms are 'związki chemiczne' (chemical compounds) or 'mieszaniny' (mixtures). This is a lexical error that confuses basic chemical terminology.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Oś czasów zachodzi od bismutu (Bi) do peryboru (Pb).",
+      "correction": "Oś czasowa nie zachodzi od bizmutu (Bi) do ołowiu (Pb).",
+      "description": "The term 'oś czasów' is not standard in Polish chemistry; it should be 'oś czasowa' if referring to a timeline, but in the context of the periodic table, this is a lexical error. Also, 'perybor' (Pb) is incorrect; the correct name for Pb is 'ołów'.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Oś czasów zaczyna się od bismutu, który jest elementem w półprzewadzie, a nie na końcu.",
+      "correction": "Oś czasowa nie zaczyna się od bizmutu, który nie jest pierwiastkiem półprzewodnikowym ani ostatnim w szeregu.",
+      "description": "The phrase 'elementem w półprzewadzie' is incorrect; 'półprzewadzie' is not a valid Polish word, and bizmut is not a semiconductor. This is a lexical and factual error.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Przykładem na końcu osi czasów jest perybor, który jest bardziej ciężki i ma większą wielkość atomową w porównaniu do bismutu.",
+      "correction": "Przykładem na końcu szeregu jest ołów, który jest cięższy i ma większą liczbę atomową niż bizmut.",
+      "description": "The word 'perybor' is not a Polish element name; the correct name for Pb is 'ołów'. The phrase 'bardziej ciężki' should be 'cięższy', and 'wielkość atomowa' should be 'liczba atomowa' for scientific accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Przeciążanie elektrofila z lewej do prawej w okresie zawsze prowadzi do zwiększenia elektroujemności.",
+      "correction": "Przemieszczanie się od lewej do prawej w okresie zwykle prowadzi do zwiększenia elektroujemności.",
+      "description": "The term 'przeciążanie elektrofila' is incorrect and does not make sense in Polish chemistry. The correct phrase is 'przemieszczanie się od lewej do prawej w okresie'. This is a lexical error that confuses the scientific concept.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "nie można stwierdzić zwiększenia elektroujemności przy przechodzeniu z jednej pierwiastka do drugiego",
+      "correction": "nie można jednoznacznie stwierdzić zwiększenia elektroujemności przy przechodzeniu od jednego pierwiastka do drugiego",
+      "description": "The phrase 'z jednej pierwiastka' is grammatically incorrect; it should be 'od jednego pierwiastka do drugiego'. This is a lexical and grammatical error.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "liczba elektronów w górze pierwiastka",
+      "correction": "liczba elektronów w powłoce walencyjnej pierwiastka",
+      "description": "The phrase 'w górze pierwiastka' is not standard Polish and is unclear. The correct scientific term is 'w powłoce walencyjnej pierwiastka'. This is a lexical error affecting clarity.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "układ okresowy jest rdzeniem chemicznego zrozumienia",
+      "correction": "układ okresowy jest podstawą zrozumienia chemii",
+      "description": "The phrase 'rdzeniem chemicznego zrozumienia' is unnatural in Polish; 'podstawą zrozumienia chemii' is the standard expression. This is a lexical and stylistic error.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Wzrost większych elementów zazwyczni odpina się w dół układu okresowego.",
+      "correction": "Wzrost rozmiaru atomów zwykle obserwuje się w dół układu okresowego.",
+      "description": "The phrase 'Wzrost większych elementów' and 'odpina się' are incorrect and unnatural in Polish. The correct scientific expression is 'Wzrost rozmiaru atomów zwykle obserwuje się w dół układu okresowego'. This is a lexical and stylistic error.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "elementy zwiększają się zgodnie z wzrostem liczby atomowej",
+      "correction": "rozmiar atomów zwiększa się wraz ze wzrostem liczby atomowej",
+      "description": "The phrase 'elementy zwiększają się' is imprecise; it should refer to the size of atoms, not the elements themselves. This is a lexical error affecting scientific accuracy.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "wznoszą się elementy z większą elektroujemnością",
+      "correction": "w grupach wzrasta liczba powłok elektronowych, a elektroujemność zwykle maleje",
+      "description": "The phrase 'wznoszą się elementy z większą elektroujemnością' is scientifically inaccurate; in groups, the number of electron shells increases and electronegativity usually decreases. This is a lexical and factual error.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Periodic_Table.slm.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T22:17:28.591921",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 6.0,
+    "classification": "SUBSTANDARD",
+    "total_issues": 15,
+    "total_penalty": 4.0,
+    "issue_breakdown": {
+      "linguistic": 15,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 4.0,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

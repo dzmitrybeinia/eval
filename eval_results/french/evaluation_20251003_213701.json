@@ -1,0 +1,75 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "les représentants",
+      "correction": "les députés",
+      "description": "The term 'les représentants' is not the standard French term for members of parliament or legislative representatives in the context of national elections. In France and most Francophone countries, 'députés' is the correct term for members of the lower house of parliament. Using 'représentants' may cause confusion or seem unnatural in this context. Correction ensures use of locally accepted terminology.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "les législateurs régionaux",
+      "correction": "les conseillers régionaux",
+      "description": "The term 'législateurs régionaux' is a literal translation from English ('regional legislators') and is not commonly used in French political context. The standard term is 'conseillers régionaux' for elected officials in regional councils. This correction improves naturalness and aligns with French administrative terminology.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "les membres du conseil municipal",
+      "correction": "les conseillers municipaux",
+      "description": "The phrase 'membres du conseil municipal' is understandable but less idiomatic than 'conseillers municipaux', which is the standard term for elected members of a municipal council in French. Using the correct term enhances professional language usage and consistency.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "les responsables des commissions scolaires",
+      "correction": "les membres du conseil scolaire",
+      "description": "The term 'responsables des commissions scolaires' is not standard in French. The correct term is 'membres du conseil scolaire' or 'conseillers scolaires', depending on the region. This correction ensures use of locally accepted terminology and improves clarity.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "tous les quatre ans pour les élections présidentielles",
+      "correction": "tous les cinq ans pour les élections présidentielles",
+      "description": "In France, presidential elections are held every five years, not every four years. The original text uses a frequency that matches the US system, which is a localization error. Correction ensures cultural and factual accuracy for a French audience.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "bulletin par courrier",
+      "correction": "vote par correspondance",
+      "description": "The phrase 'bulletin par courrier' is a literal translation of 'mail ballot' and is not idiomatic in French. The standard term is 'vote par correspondance' for voting by mail. Correction improves naturalness and aligns with French electoral terminology.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Voting_Process.llm.md",
+    "language": "French",
+    "timestamp": "2025-10-03T21:37:01.054365",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 8.8,
+    "classification": "PROFESSIONAL",
+    "total_issues": 6,
+    "total_penalty": 1.2,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 6,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 1.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

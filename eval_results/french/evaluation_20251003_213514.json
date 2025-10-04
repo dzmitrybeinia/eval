@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Éviter les majuscules (perçues comme crier).",
+      "correction": "Évitez d'utiliser uniquement des majuscules (cela peut être perçu comme crier).",
+      "description": "The original sentence uses an infinitive form 'Éviter' while the other examples in the list use the imperative, which is more consistent and natural for instructional content. Additionally, the phrase 'perçues comme crier' is ambiguous and could be clarified for learners. The correction uses the imperative and clarifies the meaning, improving both consistency and naturalness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "La vie privée consiste à garder vos informations personnelles sécurisées et à ne les partager qu'avec des personnes ou des plateformes de confiance.",
+      "correction": "La vie privée consiste à garder vos informations personnelles en sécurité et à ne les partager qu'avec des personnes ou des plateformes de confiance.",
+      "description": "The use of 'sécurisées' as an adjective for 'informations personnelles' is grammatically correct, but the more idiomatic and precise expression in French is 'en sécurité' rather than 'sécurisées'. This correction improves lexical precision and naturalness.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Demandez la permission avant de taguer ou de publier des photos d'autres personnes.",
+      "correction": "Demandez la permission avant d'identifier ou de publier des photos d'autres personnes.",
+      "description": "The verb 'taguer' is an anglicism and, while increasingly used in informal contexts, is less appropriate in educational materials for younger audiences or formal settings. 'Identifier' is the standard French term for tagging people in photos and is more culturally appropriate.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Offrez empathie et encouragement à ceux qui en sont affectés.",
+      "correction": "Offrez de l'empathie et du soutien à ceux qui en sont affectés.",
+      "description": "The phrase 'Offrez empathie et encouragement' lacks articles, making it sound abrupt and less natural in French. Adding 'de l'' and replacing 'encouragement' with 'soutien' provides a more idiomatic and supportive tone, which is culturally appropriate for the context of helping victims.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Digital_Etiquette.llm.md",
+    "language": "French",
+    "timestamp": "2025-10-03T21:35:14.070115",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.5,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

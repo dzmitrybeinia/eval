@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Прокламация об освобождении рабов, изданная Авраамом Линкольном во время гражданской войны.",
+      "correction": "Прокламация об освобождении рабов, подписанная Авраамом Линкольном во время Гражданской войны в США.",
+      "description": "The original text uses 'гражданская война' without specifying that it refers to the American Civil War, which may cause confusion for Russian-speaking learners unfamiliar with U.S. history. Adding 'в США' clarifies the context and improves cultural appropriateness. Additionally, 'изданная' is less natural in Russian for this context; 'подписанная' is more idiomatic when referring to official proclamations.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Главнокомандующий вооруженными силами.",
+      "correction": "Главнокомандующий Вооружёнными Силами.",
+      "description": "In Russian, official titles such as 'Вооружённые Силы' are capitalized, and the word 'вооружёнными' should use the correct diacritical mark 'ё' instead of 'е' for proper spelling. This correction ensures orthographic accuracy and aligns with standard Russian usage for military terms.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Законодательная ветвь власти отвечает за принятие законов и состоит из двух палат: Сената и Палаты представителей, которые вместе составляют Конгресс.",
+      "correction": "Законодательная ветвь власти отвечает за принятие законов и состоит из двух палат: Сената и Палаты представителей, которые вместе образуют Конгресс.",
+      "description": "The phrase 'составляют Конгресс' is understandable but less idiomatic in Russian when describing the structure of the U.S. Congress. 'образуют Конгресс' is more natural and commonly used in educational and official contexts, improving the localization quality.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Конгресс принял Закон о гражданских правах 1964 года, который запрещает дискриминацию по признаку расы, цвета кожи, религии, пола или национального происхождения.",
+      "correction": "Конгресс принял Закон о гражданских правах 1964 года, который запрещает дискриминацию по признаку расы, цвета кожи, религии, пола или национального происхождения.",
+      "description": "No linguistic errors found in this sentence. The spelling, punctuation, and grammar are correct. The terminology is appropriate for the educational context.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Government_Structure.llm.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T21:40:10.837333",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

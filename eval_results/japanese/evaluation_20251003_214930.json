@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "オルガネラ",
+      "correction": "細胞小器官",
+      "description": "The term 'オルガネラ' is a katakana transliteration of 'organelle' and is sometimes used in scientific contexts, but '細胞小器官' is the standard and more widely accepted term in Japanese educational materials, especially for middle and high school audiences. Using '細胞小器官' improves clarity and aligns with local terminology standards.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "核は細胞の脳のようなもので、すべてのプロセスを指揮し、細胞の運営のための指示を保存します。",
+      "correction": "核は細胞の脳のようなもので、すべてのプロセスを指揮し、細胞の活動を制御します。",
+      "description": "The phrase '細胞の運営のための指示を保存します' is unnatural and not commonly used in Japanese scientific writing. '細胞の活動を制御します' is a more natural and accurate way to express the function of the nucleus in Japanese educational contexts.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "クリステ",
+      "correction": "クリスタ",
+      "description": "The structure inside mitochondria is commonly referred to as 'クリスタ' in Japanese scientific literature, not 'クリステ'. Using 'クリスタ' ensures consistency with standard biology terminology in Japan.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Cell_Parts.llm.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-03T21:49:30.707461",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.6,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

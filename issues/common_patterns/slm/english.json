@@ -1,10 +1,150 @@
 {
   "metadata": {
     "label": "slm",
-    "label_normalized": "slm",
-    "label_key": "slm",
     "language": "english",
-    "generated_at": "2025-10-03T16:10:08.801325"
+    "generated_at": "2025-10-03T22:42:35.189024"
   },
-  "top_error_patterns": []
+  "top_error_patterns": [
+    {
+      "pattern_name": "Misrepresentation of Technical Terminology",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "HIGH",
+      "frequency": "very_common",
+      "frequency_count": 5,
+      "description": "Recurring misuse or imprecise definition of key technical terms (e.g., 'variable', 'hypothesis', 'limerick structure'), leading to conceptual confusion and misinformation.",
+      "examples": [
+        {
+          "wrong": "Variables in algebra can be letters or symbols, and sometimes numbers.",
+          "correct": "Variables in algebra are typically represented by letters or symbols, but not by numbers.",
+          "context": "Algebraic terminology misused, confusing variables with constants."
+        },
+        {
+          "wrong": "Variables in algebra can be represented by letters, numbers, or symbols, depending on the context and the preference of the mathematician.",
+          "correct": "Variables in algebra are represented by letters or symbols, not by numbers.",
+          "context": "Incorrectly suggests numbers can be variables."
+        },
+        {
+          "wrong": "Random guesses, known as 'hypotheses,' are actually well-considered, testable predictions that are opposite to what is expected.",
+          "correct": "Random guesses are not considered 'hypotheses.' Hypotheses are well-considered, testable predictions based on prior knowledge and observation.",
+          "context": "Conflates random guesses with hypotheses, misrepresenting scientific terminology."
+        },
+        {
+          "wrong": "A Limerick always ends with a couplet that rhymes.",
+          "correct": "A Limerick always contains a couplet that rhymes as its third and fourth lines.",
+          "context": "Incorrectly describes the structure of a limerick."
+        },
+        {
+          "wrong": "In Python, a variable named 'temperature' is expected to hold a number representing a measurement like degrees Celsius or Fahrenheit, not a string.",
+          "correct": "In Python, a variable named 'temperature' can be assigned any data type, including a string.",
+          "context": "Incorrectly implies variable names enforce data types in Python."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Awkward or Unclear Phrasing",
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "impact_level": "HIGH",
+      "frequency": "common",
+      "frequency_count": 2,
+      "description": "Use of awkward or confusing sentence structures that obscure intended meaning and reduce clarity for learners.",
+      "examples": [
+        {
+          "wrong": "In DNA, the sequence of nitrogenous bases can be read in a direction only.",
+          "correct": "In DNA, the sequence of nitrogenous bases can be read in only one direction.",
+          "context": "Unclear phrasing makes the scientific concept difficult to understand."
+        },
+        {
+          "wrong": "Random guesses, known as 'hypotheses,' are actually well-considered, testable predictions that are opposite to what is expected.",
+          "correct": "Random guesses are not known as 'hypotheses.' Hypotheses are well-considered, testable predictions.",
+          "context": "Confusing sentence structure leads to conceptual misunderstanding."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Source Language Leakage",
+      "category": "localization",
+      "subcategory": "Regional",
+      "impact_level": "HIGH",
+      "frequency": "common",
+      "frequency_count": 2,
+      "description": "Quiz items and feedback are presented in the source language (Polish) instead of the target language (English), causing confusion and reducing accessibility for English-speaking learners.",
+      "examples": [
+        {
+          "wrong": "Złamanie DNA może prowadzić do nowych cech biologicznych.",
+          "correct": "DNA breakage can lead to new biological traits.",
+          "context": "Quiz statement appears in Polish rather than English."
+        },
+        {
+          "wrong": "Warstwa znaczenia DNA polega na przekazywaniu genetycznych informacji przez pokolenia, co jest kluczowe dla przejawiania życia poprzez podziały komórek. Zmiany w jego strukturze, często nazywane mutacjami, mogą prowadzić do nowych cech, które mogą wpłynąć na rozwój organizmu. To zrozumienie jest kluczowe dla różnych dziedzin nauki, w tym biologii, medycyny i nauki kryminalnej.",
+          "correct": "The significance of DNA lies in transmitting genetic information across generations, which is crucial for the manifestation of life through cell division. Changes in its structure, often called mutations, can lead to new traits that may affect organism development. This understanding is key in various scientific fields, including biology, medicine, and forensic science.",
+          "context": "Feedback provided in Polish instead of English, disrupting educational flow."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Lexical Imprecision",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "MEDIUM",
+      "frequency": "very_common",
+      "frequency_count": 3,
+      "description": "Recurring use of vague or imprecise wording that reduces clarity and may confuse learners about key concepts.",
+      "examples": [
+        {
+          "wrong": "By embedding information within a story, it becomes more memorable due to the learning material and emotional engagement.",
+          "correct": "By embedding information within a story, it becomes more memorable due to the context and emotional engagement.",
+          "context": "Unclear explanation of why stories aid memory; 'learning material' is not a logical cause."
+        },
+        {
+          "wrong": "A Limerick consists of five lines, where the first, second, and fifth lines rhyme with each other, and the third and fourth lines form a shorter rhyming couplet. This characteristic structure is a defining feature of Limericks.",
+          "correct": "A Limerick consists of five lines, where the first, second, and fifth lines rhyme with each other, and the third and fourth lines form a shorter rhyming couplet in the middle. This characteristic structure is a defining feature of Limericks.",
+          "context": "Lack of specificity about the position of the couplet may confuse learners about the limerick's structure."
+        },
+        {
+          "wrong": "This ensures that the scientific method is a systematic and objective process based on evidence and logical reasoning.",
+          "correct": "This ensures that the scientific method is a systematic and objective process based on evidence and logical reasoning, rather than random guessing.",
+          "context": "Missing explicit contrast with random guessing, which is central to the concept being taught."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Conceptual Inaccuracy",
+      "category": "linguistic",
+      "subcategory": "Conceptual Accuracy",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Misleading or incorrect statements about core subject matter, potentially causing misunderstanding of fundamental concepts.",
+      "examples": [
+        {
+          "wrong": "While Python is a dynamically typed language, and variables are not fixed to a single data type, changing a variable's data type at runtime can cause errors. Python variables are flexible, but they must be used appropriately according to their assigned data type.",
+          "correct": "While Python is a dynamically typed language and variables are not fixed to a single data type, changing a variable's data type at runtime does not inherently cause errors. Errors only occur if the variable is used in a way that is incompatible with its current data type.",
+          "context": "Incorrectly suggests that changing a variable's type in Python is inherently error-prone, which misrepresents dynamic typing."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Redundant or Awkward Temporal Phrasing",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "LOW",
+      "frequency": "common",
+      "frequency_count": 2,
+      "description": "Use of unnecessarily verbose or awkward expressions to indicate time periods, such as 'after the end of World War II' instead of the more concise 'after World War II.' This affects clarity and naturalness.",
+      "examples": [
+        {
+          "wrong": "after the end of World War II",
+          "correct": "after World War II",
+          "context": "Describing historical events and their timing"
+        },
+        {
+          "wrong": "in the aftermath of World War II, not after its end",
+          "correct": "after the end of World War II",
+          "context": "Clarifying the timeline of events following World War II"
+        }
+      ]
+    }
+  ]
 }

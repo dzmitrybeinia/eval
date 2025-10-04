@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "¡Bienvenidos a una exploración fascinante sobre la Inteligencia Artificial (IA)! 🌟 En esta lección, descubriremos cómo las máquinas pueden aprender, pensar y tomar decisiones, transformando la manera en que vivimos y resolvemos desafíos globales.",
+      "correction": "¡Bienvenidos a una exploración fascinante sobre la Inteligencia Artificial (IA)! En esta lección, descubriremos cómo las máquinas pueden aprender, pensar y tomar decisiones, transformando la manera en que vivimos y resolvemos desafíos globales.",
+      "description": "The use of the emoji '🌟' in educational Spanish content is generally considered informal and may not align with the professional tone expected in academic materials. Removing the emoji ensures a more neutral and appropriate style for educational contexts.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Redes Neuronales: Sistemas que imitan el funcionamiento del cerebro humano.",
+      "correction": "Redes Neuronales Artificiales: Sistemas que imitan el funcionamiento del cerebro humano.",
+      "description": "The term 'Redes Neuronales' is commonly used, but for clarity and precision in educational contexts, 'Redes Neuronales Artificiales' is preferred to distinguish artificial neural networks from biological ones. This improves technical accuracy and consistency.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "En salud, IBM Watson analiza grandes volúmenes de datos para sugerir tratamientos.",
+      "correction": "En salud, sistemas como IBM Watson analizan grandes volúmenes de datos para sugerir tratamientos.",
+      "description": "Referencing IBM Watson as the sole example may imply a US-centric perspective. Using 'sistemas como IBM Watson' broadens the context and makes the example more inclusive and culturally neutral for Spanish-speaking audiences.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Desplazamiento laboral: La automatización puede reemplazar empleos humanos.",
+      "correction": "Desplazamiento laboral: la automatización puede reemplazar empleos humanos.",
+      "description": "In Spanish, after a colon, the following word should not be capitalized unless it is a proper noun. 'La' should be lowercase to comply with standard orthographic rules.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "What_is_AI.llm.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-03T21:29:41.074529",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

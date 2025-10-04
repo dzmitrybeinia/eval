@@ -1,0 +1,123 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "感情知能を持つ人は、自分の感情や他人の感情のニュアンスをより深く理解することができる。.",
+      "correction": "感情知能を持つ人は、自分の感情や他人の感情のニュアンスをより深く理解することができる。",
+      "description": "There is an unnecessary period after the Japanese full stop, resulting in double punctuation. Only the Japanese full stop '。' should be used at the end of the sentence.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "人々は日々、自分の感情や他人の感情に対して異なるレベルで反応することがあります。この能力は、対人関係や個人的な成長において重要です。したがって、感情知能を持つ個人は、より微妙な感情の変化を検出し、適切に対応することができます。.",
+      "correction": "人々は日々、自分の感情や他人の感情に対して異なるレベルで反応することがあります。この能力は、対人関係や個人的な成長において重要です。したがって、感情知能を持つ個人は、より微妙な感情の変化を検出し、適切に対応することができます。",
+      "description": "There is an unnecessary period after the Japanese full stop at the end of the feedback. Only the Japanese full stop '。' should be used.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "自己認識能力は、自己管理能力に直結しています。.",
+      "correction": "自己認識能力は、自己管理能力に直結しています。",
+      "description": "The sentence ends with both a Japanese full stop '。' and an English period, which is redundant. Only the Japanese full stop should be used.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "自己認識の習得は、自己管理能力を高めるために不可欠です。自分の感情を把握し、それに応じて行動を調整することが、個人の成績や関係性に肯定的な影響を与えることが多いです。.",
+      "correction": "自己認識の習得は、自己管理能力を高めるために不可欠です。自分の感情を把握し、それに応じて行動を調整することが、個人の成績や関係性に肯定的な影響を与えることが多いです。",
+      "description": "There is an unnecessary period after the Japanese full stop at the end of the feedback. Only the Japanese full stop '。' should be used.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "自己調整は、批判に対して感情的に反応することを助長する。.",
+      "correction": "自己調整は、批判に対して感情的に反応することを助長する。",
+      "description": "The sentence ends with both a Japanese full stop '。' and an English period, which is redundant. Only the Japanese full stop should be used.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "自己調整は、批判的なフィードバックや苦難な状況に直面しても、感情的な反応を避け、建設的に対応する能力を育むのに重要です。この能力は自己調整と呼ばれ、集中力を保ち、自己効力感を高めることができます。.",
+      "correction": "自己調整は、批判的なフィードバックや苦難な状況に直面しても、感情的な反応を避け、建設的に対応する能力を育むのに重要です。この能力は自己調整と呼ばれ、集中力を保ち、自己効力感を高めることができます。",
+      "description": "There is an unnecessary period after the Japanese full stop at the end of the feedback. Only the Japanese full stop '。' should be used.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "共感は他人の感情を完全に理解することができる。.",
+      "correction": "共感は他人の感情を完全に理解することができる。",
+      "description": "The sentence ends with both a Japanese full stop '。' and an English period, which is redundant. Only the Japanese full stop should be used.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "共感は他者の感情を理解し共有する能力ですが、完全には理解できないこともあります。感情は個人的で複雑であり、経験や状況によって理解の深さが異なることがあります。.",
+      "correction": "共感は他者の感情を理解し共有する能力ですが、完全には理解できないこともあります。感情は個人的で複雑であり、経験や状況によって理解の深さが異なることがあります。",
+      "description": "There is an unnecessary period after the Japanese full stop at the end of the feedback. Only the Japanese full stop '。' should be used.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "社会的スキルは、個人の孤立を防ぐことが主な目的です。.",
+      "correction": "社会的スキルは、個人の孤立を防ぐことが主な目的です。",
+      "description": "The sentence ends with both a Japanese full stop '。' and an English period, which is redundant. Only the Japanese full stop should be used.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "社会的スキルは、人との建設的な関係を築き、組織内での協力を促進することを目的としています。個人の孤立は、このスキルの目的ではありません。.",
+      "correction": "社会的スキルは、人との建設的な関係を築き、組織内での協力を促進することを目的としています。個人の孤立は、このスキルの目的ではありません。",
+      "description": "There is an unnecessary period after the Japanese full stop at the end of the feedback. Only the Japanese full stop '。' should be used.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "感情知能は、個人の知能を決定します。.",
+      "correction": "感情知能は、個人の知能を決定します。",
+      "description": "The sentence ends with both a Japanese full stop '。' and an English period, which is redundant. Only the Japanese full stop should be used.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "感情知能は、個人の感情認知と管理能力を指し、知能の一種ではありません。.",
+      "correction": "感情知能は、個人の感情認知と管理能力を指し、知能の一種ではありません。",
+      "description": "There is an unnecessary period after the Japanese full stop at the end of the feedback. Only the Japanese full stop '。' should be used.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Emotional_Intelligence.slm.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-03T22:37:29.526585",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 8.8,
+    "classification": "PROFESSIONAL",
+    "total_issues": 12,
+    "total_penalty": 1.2,
+    "issue_breakdown": {
+      "linguistic": 12,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.2,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

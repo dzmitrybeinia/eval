@@ -1,0 +1,35 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "la brainstorming en groupe",
+      "correction": "le brainstorming en groupe",
+      "description": "The phrase uses the incorrect article 'la' with 'brainstorming', which is a masculine noun in French. The correct form is 'le brainstorming en groupe'. Additionally, while 'brainstorming' is commonly used in French professional contexts, it is an anglicism; alternatives like 'remue-méninges' could be considered for more natural or educational French, but 'brainstorming' is acceptable in this context. The main issue is the article agreement.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Design_Process.slm.md",
+    "language": "French",
+    "timestamp": "2025-10-03T22:21:40.669229",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.8,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.2,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

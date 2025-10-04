@@ -1,0 +1,115 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "Przewszczenie niewinnych złotej płynki podczas gotowania może prowadzić do pożaru.",
+      "correction": "Przewrócenie niewinnie złotej płynki podczas gotowania może prowadzić do pożaru.",
+      "description": "The word 'Przewszczenie' is a significant spelling error and should be 'Przewrócenie' to convey the intended meaning of 'spilling.' Additionally, 'niewinnych złotej płynki' is awkward and unclear; 'niewinnie złotej płynki' is more natural, but the phrase itself remains odd. The sentence structure is confusing and should be clarified for better comprehension.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Niepilnowane płomień lub płomień złotej płynki przyniesione przez niewinne działanie może powstać, co zwiększa ryzyko pożarów.",
+      "correction": "Niepilnowany płomień lub płomień powstały z rozlania złotej płynki może się pojawić, co zwiększa ryzyko pożaru.",
+      "description": "The phrase 'Niepilnowane płomień' is grammatically incorrect; 'Niepilnowany płomień' is the correct form. The sentence also lacks clarity and naturalness, with awkward phrasing such as 'płomień złotej płynki przyniesione przez niewinne działanie.' The corrected version improves grammatical agreement and sentence structure.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Sprawne sprzęty elektryczne upewniają, że nie występują przeciążenia i uszkodzenia, które mogą prowadzić do pożaru.",
+      "correction": "Sprawne sprzęty elektryczne zapewniają, że nie występują przeciążenia i uszkodzenia, które mogą prowadzić do pożaru.",
+      "description": "The verb 'upewniają' is incorrect in this context; 'zapewniają' is the appropriate verb to indicate that functioning electrical equipment ensures safety. This correction improves lexical precision and sentence clarity.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Regularne konserwacje to kluczowe czynniki zapobiegania pożarom.",
+      "correction": "Regularna konserwacja to kluczowy czynnik zapobiegania pożarom.",
+      "description": "The phrase 'Regularne konserwacje to kluczowe czynniki' is incorrect; the singular form 'Regularna konserwacja to kluczowy czynnik' is more natural and grammatically correct in Polish, as maintenance is typically referred to in the singular.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "To jest rzeczowań.",
+      "correction": "To jest prawda.",
+      "description": "The word 'rzeczowań' is a spelling and lexical error; the correct phrase is 'To jest prawda.' The original word does not exist in Polish and impairs comprehension.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Gdy pojawia się pożar, kluczowe działanie to zdawać alarm dzwonu straży pożarnej, aby wszyscy wokół mogli się ukszczeniać.",
+      "correction": "Gdy pojawia się pożar, kluczowe działanie to zaalarmować straż pożarną, aby wszyscy wokół mogli się ewakuować.",
+      "description": "The phrase 'zdawać alarm dzwonu straży pożarnej' is grammatically and lexically incorrect; 'zaalarmować straż pożarną' is the correct expression. Additionally, 'ukszczeniać' is not a valid Polish word; 'ewakuować' should be used to indicate evacuation.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Planowanie ewakuacji i szkolenie na sytuacjach awaryjnych poprawia odpowiedź na potrzeby bezpieczeństwa.",
+      "correction": "Planowanie ewakuacji i szkolenie w zakresie sytuacji awaryjnych poprawia reakcję na potrzeby bezpieczeństwa.",
+      "description": "The phrase 'szkolenie na sytuacjach awaryjnych' is incorrect; 'szkolenie w zakresie sytuacji awaryjnych' is the proper form. Also, 'poprawia odpowiedź' should be 'poprawia reakcję' for better lexical precision.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Strażacy, w zależności od sytuacji, mogą używać paliw do ochrony lub ewentualnie do ustabilizowania pojazdu, jeśli jest to konieczne.",
+      "correction": "Strażacy, w zależności od sytuacji, mogą używać paliw do ochrony lub ewentualnie do ustabilizowania pojazdu, jeśli jest to konieczne.",
+      "description": "The use of 'paliw' (fuels) in this context is misleading and not standard in Polish fire safety terminology. Firefighters typically do not use fuels during fire suppression; the sentence should clarify the intended meaning or use more appropriate terminology.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Kluczowe jest, aby być zorganizowanym i wiedzieć, kiedy i jak używać paliwa, zawsze zgodnie z procedurami bezpieczeństwa i przepisanymi przepisami.",
+      "correction": "Kluczowe jest, aby być zorganizowanym i wiedzieć, kiedy i jak używać paliw, zawsze zgodnie z procedurami bezpieczeństwa i obowiązującymi przepisami.",
+      "description": "The phrase 'przepisanymi przepisami' is incorrect; 'obowiązującymi przepisami' is the correct term for 'applicable regulations.' This correction improves lexical precision and naturalness.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Przypomnienie, że każdy ma rolę w bezpieczeństwie przeciwpożarowym, jest kluczowe dla utrzymania bezpiecznej środowiska.",
+      "correction": "Przypomnienie, że każdy ma rolę w bezpieczeństwie przeciwpożarowym, jest kluczowe dla utrzymania bezpiecznego środowiska.",
+      "description": "The phrase 'bezpiecznej środowiska' is grammatically incorrect due to gender agreement; it should be 'bezpiecznego środowiska.'",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Przez zrozumienie odpowiedzialności każdego jednostki, można poprawić skuteczność ochrony przed i reagowania na sytuacje pożarowe.",
+      "correction": "Przez zrozumienie odpowiedzialności każdej jednostki, można poprawić skuteczność ochrony przed i reagowania na sytuacje pożarowe.",
+      "description": "The phrase 'każdego jednostki' is incorrect; the correct form is 'każdej jednostki' to match the feminine gender of 'jednostka.'",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Fire_Safety.slm.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T22:15:21.552412",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 7.3,
+    "classification": "ACCEPTABLE",
+    "total_issues": 11,
+    "total_penalty": 2.7,
+    "issue_breakdown": {
+      "linguistic": 11,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 2.7,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

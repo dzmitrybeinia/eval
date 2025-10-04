@@ -1,0 +1,83 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Su grueso pelaje y capa de grasa los mantienen calientes en el Ártico.",
+      "correction": "Su grueso pelaje y capa de grasa lo mantienen caliente en el Ártico.",
+      "description": "The pronoun 'los' incorrectly refers to 'oso polar' (singular), causing a number agreement error. It should be 'lo' to match the singular subject. Additionally, 'calientes' should be 'caliente' for singular agreement, but the original only uses 'calientes' for 'los', so correcting the pronoun resolves both issues.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Su pelaje blanco les ayuda a camuflarse.",
+      "correction": "Su pelaje blanco lo ayuda a camuflarse.",
+      "description": "The pronoun 'les' is used incorrectly for a singular subject ('oso polar'). It should be 'lo' to maintain correct number agreement. This error affects grammatical accuracy and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "¡Bienvenidos a la fascinante exploración de cómo los animales logran sobrevivir en sus entornos!",
+      "correction": "¡Bienvenidos a una fascinante exploración sobre cómo los animales logran sobrevivir en sus entornos!",
+      "description": "The phrase 'la fascinante exploración de' is slightly unnatural in Spanish educational style. 'Una fascinante exploración sobre' is more idiomatic and aligns better with standard Spanish usage in educational contexts.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Osos que reducen su actividad en invierno para conservar energía.",
+      "correction": "Los osos reducen su actividad en invierno para conservar energía.",
+      "description": "The original phrase lacks the definite article 'Los' before 'osos', which is required for grammatical completeness and clarity in Spanish when referring to animals in general.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Murciélagos y búhos cazan de noche para evitar depredadores.",
+      "correction": "Murciélagos y búhos cazan de noche para evitar a los depredadores.",
+      "description": "The phrase 'evitar depredadores' omits the required preposition and article 'a los' when referring to specific groups of animals in Spanish. The correct form is 'evitar a los depredadores'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "pies anchos para caminar en la arena",
+      "correction": "patas anchas para caminar en la arena",
+      "description": "The term 'pies' is not the standard anatomical term for animal limbs in Spanish; 'patas' is the correct and natural term for animal feet, especially in educational contexts.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Es un recordatorio de cómo la naturaleza encuentra maneras de prosperar incluso en las condiciones más desafiantes.",
+      "correction": "Es un recordatorio de cómo la naturaleza encuentra formas de prosperar incluso en las condiciones más desafiantes.",
+      "description": "The word 'maneras' is less idiomatic than 'formas' in this context. 'Formas' is more commonly used in Spanish to express 'ways' in educational and scientific writing.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Animal_Adaptations.llm.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-03T21:26:55.613953",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 8.6,
+    "classification": "PROFESSIONAL",
+    "total_issues": 7,
+    "total_penalty": 1.4,
+    "issue_breakdown": {
+      "linguistic": 4,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.0,
+      "localization_penalty": 0.4,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

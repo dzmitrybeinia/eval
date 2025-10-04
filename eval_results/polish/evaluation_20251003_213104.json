@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Uprzedzenie to preferencja lub uprzedzenie wpływające na sposób prezentacji informacji.",
+      "correction": "Uprzedzenie to preferencja lub stronniczość wpływająca na sposób prezentacji informacji.",
+      "description": "The original sentence uses 'uprzedzenie' twice, which is tautological and reduces clarity. The second instance should be replaced with 'stronniczość' to accurately convey the concept of bias. This correction improves lexical precision and avoids repetition.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Przygotuj się na fascynującą podróż przez narzędzia i techniki, które uczynią Cię bardziej świadomym konsumentem informacji! 📚",
+      "correction": "Przygotuj się na poznanie narzędzi i technik, które pomogą Ci stać się bardziej świadomym odbiorcą informacji.",
+      "description": "The original uses a metaphorical phrase 'fascynującą podróż', which is more typical in English educational style and less natural in Polish formal educational contexts. The emoji is also less common in Polish formal materials. The correction uses a more neutral and culturally appropriate style for Polish educational content.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Badania pokazują, że osoby jedzące warzywa codziennie mają niższe wskaźniki chorób serca.",
+      "correction": "Badania pokazują, że osoby jedzące warzywa codziennie mają niższy wskaźnik chorób serca.",
+      "description": "The plural 'wskaźniki chorób serca' is less precise in this context, as the research typically refers to a single indicator (e.g., rate or incidence) of heart disease. The singular 'wskaźnik' is grammatically and semantically more accurate.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Ten krem przeciwsłoneczny jest najlepszą ochroną.",
+      "correction": "Ten krem przeciwsłoneczny zapewnia najlepszą ochronę.",
+      "description": "The phrase 'jest najlepszą ochroną' is less natural in Polish product descriptions. 'Zapewnia najlepszą ochronę' is the standard way to express this in Polish advertising and informational contexts, improving naturalness and professional terminology.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Nasz napój zawiera kofeinę, więc pomoże Ci być produktywnym.",
+      "correction": "Nasz napój zawiera kofeinę, więc pomoże Ci zwiększyć produktywność.",
+      "description": "The phrase 'być produktywnym' is grammatically correct but stylistically awkward in Polish. 'Zwiększyć produktywność' is a more natural and idiomatic way to express the intended meaning.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Critical_Thinking.llm.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T21:31:04.438175",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.4,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

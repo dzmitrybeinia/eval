@@ -1,0 +1,35 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Ein 'Die Geschichte von Hans und die Katze' ist ein Beispiel für Fiktion.",
+      "correction": "'Die Geschichte von Hans und die Katze' ist ein Beispiel für Fiktion.",
+      "description": "The use of 'Ein' before the quoted title is grammatically incorrect in German. When referring to a specific work by its title, the indefinite article 'Ein' should not be used. The correct form is to state the title directly, as in: 'Die Geschichte von Hans und die Katze ist ein Beispiel für Fiktion.' This correction improves grammatical accuracy and aligns with standard German usage for referencing titles.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Fiction_vs_Nonfiction.slm.md",
+    "language": "German",
+    "timestamp": "2025-10-03T22:29:53.998164",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.8,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.2,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

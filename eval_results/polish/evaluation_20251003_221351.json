@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Decyzja w Brown v. Board of Education założyła, że segregacja w szkołach publicznych jest zgodna z Konstytucją, co jest poprawną interpretacją wydarzenia. Tym samym zakazała segregacji, co wzmocniło prawo do równej edukacji dla wszystkich dzieci.",
+      "correction": "Decyzja w sprawie Brown v. Board of Education stwierdziła, że segregacja w szkołach publicznych jest niezgodna z Konstytucją, co jest właściwą interpretacją wydarzenia. Tym samym zakazano segregacji, co wzmocniło prawo do równej edukacji dla wszystkich dzieci.",
+      "description": "The original text contains a critical factual and grammatical error: it states that the decision in Brown v. Board of Education established that segregation was constitutional, which is incorrect. The correct interpretation is that the decision found segregation unconstitutional. Additionally, the phrase 'założyła, że' is not idiomatic in this context; 'stwierdziła, że' is more appropriate. The correction also adjusts verb forms and noun cases for clarity and accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Dr. Martin Luther King Jr. był znany ze swojego zaangażowania w strategie niezłomnej walki, która obejmowała pokolenie, czegoś bardziej niż obronę. Jego metody zakorzenione były w ideach Mahatmą Gandhiego, które zakładały pokojowe, ale zdecydowane działania przeciwko niesprawiedliwości.",
+      "correction": "Dr. Martin Luther King Jr. był znany ze swojego zaangażowania w strategie pokojowego oporu, które wykraczały poza bierną obronę. Jego metody były zakorzenione w ideach Mahatmy Gandhiego, które zakładały pokojowe, ale zdecydowane działania przeciwko niesprawiedliwości.",
+      "description": "The original text contains lexical and semantic inaccuracies. The phrase 'strategie niezłomnej walki, która obejmowała pokolenie, czegoś bardziej niż obronę' is unclear and unnatural in Polish; 'strategie pokojowego oporu, które wykraczały poza bierną obronę' is more precise and idiomatic. Additionally, 'Mahatmą Gandhiego' should be 'Mahatmy Gandhiego' to match the correct genitive case. The correction improves clarity, accuracy, and naturalness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Ruch Praw Obywatelskich znaczył znaczną poprawę wewnętrznych relacji między różnymi etnicznościami w Stanach Ziemiańskich.",
+      "correction": "Ruch Praw Obywatelskich oznaczał znaczną poprawę relacji między różnymi grupami etnicznymi w Stanach Zjednoczonych.",
+      "description": "The original text contains grammatical and lexical errors. 'Znaczył' is incorrect; 'oznaczał' is the proper verb in this context. 'Etnicznościami' is not standard Polish; 'grupami etnicznymi' is correct. 'Stanach Ziemiańskich' is a mistranslation and should be 'Stanach Zjednoczonych' for the United States. The correction addresses all these issues for proper meaning and linguistic accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Chociaż Ruch Praw Obywatelskich odegrał kluczową rolę w zmianie społecznym, posłudzenie wskazuje na zmniejszona bariera rasowa i wzrost współpracy. Jednak nie można stwierdzić bezpośredznie o znacznym poprawie wewnętrznych relacji między różnymi grupami etnicznymi na podstawie podanego tekstu.",
+      "correction": "Chociaż Ruch Praw Obywatelskich odegrał kluczową rolę w zmianach społecznych, dostępne dane wskazują na zmniejszenie barier rasowych i wzrost współpracy. Jednak nie można jednoznacznie stwierdzić o znacznej poprawie relacji między różnymi grupami etnicznymi na podstawie podanego tekstu.",
+      "description": "The original text contains multiple grammatical errors: 'zmianie społecznym' should be 'zmianach społecznych' (correct case and number), 'posłudzenie' is an incorrect word choice and should be replaced with 'dostępne dane' for clarity, and 'zmniejszona bariera rasowa' should be 'zmniejszenie barier rasowych' for proper noun and verb agreement. The correction also improves the naturalness and clarity of the statement.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Civil_Rights_Movement.slm.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T22:13:51.339549",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 8.9,
+    "classification": "PROFESSIONAL",
+    "total_issues": 4,
+    "total_penalty": 1.1,
+    "issue_breakdown": {
+      "linguistic": 4,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.1,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

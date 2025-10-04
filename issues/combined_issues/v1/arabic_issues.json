@@ -1,0 +1,100 @@
+{
+  "metadata": {
+    "label": "v1",
+    "language": "arabic",
+    "generated_at": "2025-10-04T14:12:21.580997",
+    "source_files": [
+      "evaluation_20251004_141221.json"
+    ],
+    "issue_counts": {
+      "linguistic": 9,
+      "localization": 1
+    }
+  },
+  "issues": {
+    "linguistic": [
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "الحيوانات تطوروا بطرق مذهلات لكي يعيشوا في بيئاتهم، من صفات جسدية مثل تمويه حتى استراتيجيات سلوكي مثل هجرة.",
+        "correction": "الحيوانات تطورت بطرق مذهلة لكي تعيش في بيئاتها، من صفات جسدية مثل التمويه حتى استراتيجيات سلوكية مثل الهجرة.",
+        "description": "This sentence contains several grammatical errors: the verb 'تطوروا' should agree with 'الحيوانات' (feminine plural), so 'تطورت' is correct. 'مذهلات' should be 'مذهلة' to match the feminine singular noun 'طرق'. The verb 'يعيشوا' should be 'تعيش' to agree with 'الحيوانات' (feminine plural treated as singular in MSA). 'بيئاتهم' should be 'بيئاتها' for agreement. 'تمويه' needs the definite article 'التمويه' for clarity. 'استراتيجيات سلوكي' should be 'استراتيجيات سلوكية' for adjective agreement. 'هجرة' should be 'الهجرة' for parallelism and definiteness.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "هذي التكيفات مفتاح لفهم كيف الأنواع يبقوا في أنظمة بيئية مختلفة.",
+        "correction": "هذه التكيفات مفتاح لفهم كيف تبقى الأنواع في أنظمة بيئية مختلفة.",
+        "description": "The demonstrative 'هذي' is a colloquial form; in MSA, 'هذه' should be used. The verb 'يبقوا' is incorrect for 'الأنواع' (plural noun); in MSA, 'تبقى' is used for non-human plural subjects. The sentence structure is improved for clarity and standard register.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "التكيفات هو صفات أو سلوكيات يساعدوا الكائنات يعيشوا ويتكاثروا في بيئتهم.",
+        "correction": "التكيفات هي صفات أو سلوكيات تساعد الكائنات على العيش والتكاثر في بيئتها.",
+        "description": "The subject 'التكيفات' is plural, so the verb should be 'هي' not 'هو'. The verb 'يساعدوا' should be 'تساعد' to agree with the plural feminine subject. 'يعيشوا ويتكاثروا' should be 'على العيش والتكاثر' for proper infinitive construction and clarity. 'في بيئتهم' should be 'في بيئتها' to match the singular noun 'الكائنات' treated as a collective.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "هم يتطور خلال أجيال عبر عملية الاختيار الطبيعي.",
+        "correction": "وهي تتطور خلال أجيال عبر عملية الانتقاء الطبيعي.",
+        "description": "The pronoun 'هم' is incorrect; it should refer to 'التكيفات' (feminine plural), so 'وهي' is appropriate. The verb 'يتطور' should be 'تتطور' for agreement. 'الاختيار الطبيعي' is better rendered as 'الانتقاء الطبيعي', which is the standard term in Arabic scientific contexts.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "خصائص جسم حيوان، مثل فرو، مخالب أو رقبة طويلة.",
+        "correction": "خصائص جسم الحيوان، مثل الفرو، والمخالب، أو الرقبة الطويلة.",
+        "description": "Definite articles are missing before 'حيوان', 'فرو', 'مخالب', and 'رقبة طويلة'. In MSA, definite articles are required for clarity and parallelism. The use of commas and conjunctions is adjusted for better readability.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "أفعال اللي الحيوانات يعملوا، مثل سبات أو هجرة.",
+        "correction": "أفعال تقوم بها الحيوانات، مثل السبات أو الهجرة.",
+        "description": "The relative pronoun 'اللي' is colloquial; in MSA, 'تقوم بها' is preferred. The verb 'يعملوا' is incorrect for 'الحيوانات'; 'تقوم بها' is the correct construction. Definite articles are needed for 'السبات' and 'الهجرة'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "الثعلب القطبي عنده فرو أبيض يختلط مع الثلج، ويساعده يهرب من مفترسات.",
+        "correction": "الثعلب القطبي لديه فرو أبيض يندمج مع الثلج، مما يساعده على الهروب من المفترسات.",
+        "description": "The phrase 'عنده' is colloquial; 'لديه' is standard. 'يختلط مع الثلج' should be 'يندمج مع الثلج' for semantic accuracy. 'يساعده يهرب' should be 'مما يساعده على الهروب' for proper infinitive construction. 'من مفترسات' should be 'من المفترسات' with the definite article.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "طيور تهاجر جنوب في شتاء عشان يهربوا من برد ويلقوا أكل.",
+        "correction": "تتهاجر الطيور جنوبًا في الشتاء لكي تهرب من البرد وتجد الطعام.",
+        "description": "The word order should be 'تتهاجر الطيور' for emphasis. 'جنوب' should be 'جنوبًا' with tanwīn for adverbial use. 'في شتاء' should be 'في الشتاء' with the definite article. 'عشان' is colloquial; 'لكي' is standard. 'يهربوا' should be 'تهرب' to agree with 'الطيور'. 'يلقوا أكل' should be 'تجد الطعام' for proper verb and noun usage.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "التكيفات سلوكية هم تغييرات جسدية اللي حيوان يمر عشان يعي",
+        "correction": "التكيفات السلوكية ليست تغييرات جسدية يمر بها الحيوان لكي يعيش.",
+        "description": "This sentence contains multiple grammatical and semantic errors: 'التكيفات سلوكية' should be 'التكيفات السلوكية' with the definite article. 'هم تغييرات جسدية' is incorrect; 'ليست تغييرات جسدية' is the correct negation. 'اللي حيوان يمر' should be 'يمر بها الحيوان'. 'عشان يعي' is incomplete and colloquial; 'لكي يعيش' is the correct standard phrase.",
+        "severity": "HIGH"
+      }
+    ],
+    "localization": [
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "🌱🐾",
+        "correction": "",
+        "description": "The use of emojis in educational Arabic content is generally considered informal and may not align with standard academic style in Arabic-speaking countries. It is recommended to remove emojis to maintain a formal and professional tone.",
+        "severity": "MINOR"
+      }
+    ]
+  }
+}

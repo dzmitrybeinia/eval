@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Student Nonviolent Coordinating Committee (SNCC)",
+      "correction": "Comité de coordination des étudiants non-violents (SNCC)",
+      "description": "The name 'Student Nonviolent Coordinating Committee (SNCC)' is presented only in English, which may not be immediately clear to French-speaking learners. For optimal localization and comprehension, the organization's name should be translated into French, followed by the abbreviation in parentheses. This ensures cultural appropriateness and clarity for the target audience.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "NAACP",
+      "correction": "NAACP (Association nationale pour la promotion des gens de couleur)",
+      "description": "The acronym 'NAACP' is used without explanation. While it is internationally recognized, providing its full French equivalent or a brief description in parentheses improves clarity and accessibility for learners unfamiliar with American organizations. This adjustment enhances localization quality and educational value.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "LGBTQ+",
+      "correction": "LGBTQ+",
+      "description": "While 'LGBTQ+' is widely used in French, some educational contexts prefer 'LGBT+' or 'LGBTQIA+' for inclusivity. However, the usage here is acceptable and does not require correction, but educators should be aware of regional preferences for terminology in future content.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Civil_Rights_Movement_1.llm.md",
+    "language": "French",
+    "timestamp": "2025-10-03T21:34:30.703667",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.4,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

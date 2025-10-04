@@ -1,0 +1,83 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Выделение главной мысли важна, так как она представляет центральное сообщение в тексте.",
+      "correction": "Выделение главной мысли важно, так как она представляет центральное сообщение в тексте.",
+      "description": "The predicate 'важна' is incorrectly used with the neuter noun 'выделение'. The correct form is 'важно' to match the neuter gender. This grammatical error affects agreement and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Поддерживающие детали всегда являются неотъемчивыми от основной идеи.",
+      "correction": "Поддерживающие детали всегда являются неотъемлемыми от основной идеи.",
+      "description": "The word 'неотъемчивыми' is a lexical error; the correct term is 'неотъемлемыми', which means 'integral' or 'inseparable'. The incorrect word does not exist in Russian and impairs comprehension.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Это помогает читателям лучше понять предмет и суть, который автор хочет передать.",
+      "correction": "Это помогает читателям лучше понять предмет и суть, которые автор хочет передать.",
+      "description": "The relative pronoun 'который' should be in the plural form 'которые' to agree with the compound subject 'предмет и суть'. This error affects sentence structure and agreement.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "она также может появляться позже в тексте или быть уловита по общему контексту и ключевым предложениям.",
+      "correction": "она также может появляться позже в тексте или быть уловима по общему контексту и ключевым предложениям.",
+      "description": "The adjective 'уловита' is a spelling error; the correct form is 'уловима'. This mistake affects the readability and correctness of the sentence.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "Важно внимательно читать и анализировать текст для понимания общной темы.",
+      "correction": "Важно внимательно читать и анализировать текст для понимания общей темы.",
+      "description": "The word 'общной' is a spelling error; the correct form is 'общей'. This error affects the clarity and professionalism of the text.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Основной утверждение, или тема, изложены различными подсказками, которые усиливают или дополняют основную идею.",
+      "correction": "Основное утверждение, или тема, изложены различными подсказками, которые усиливают или дополняют основную идею.",
+      "description": "The adjective 'основной' should agree in gender and case with the neuter noun 'утверждение', so it must be 'основное'. This error affects grammatical agreement and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Главная мысль текста — это основная идея, которая представляет собой суть, но для полного понимания и усилить её часто требуется анализ поддерживающих деталей.",
+      "correction": "Главная мысль текста — это основная идея, которая представляет собой суть, но для полного понимания и усиления её часто требуется анализ поддерживающих деталей.",
+      "description": "The phrase 'и усилить её' is grammatically incorrect in this context. It should be 'и усиления её' to maintain parallelism and correct case usage. This error affects sentence structure and clarity.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Reading_Strategies.slm.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T22:27:17.823274",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 8.0,
+    "classification": "PROFESSIONAL",
+    "total_issues": 7,
+    "total_penalty": 2.0,
+    "issue_breakdown": {
+      "linguistic": 7,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 2.0,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

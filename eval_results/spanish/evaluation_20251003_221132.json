@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Los ángulos mayores de 180° se denominan ángulos mayores o reflejos, pero no obtusos.",
+      "correction": "Los ángulos mayores de 180° se denominan ángulos reflejos, pero no obtusos.",
+      "description": "The term 'ángulos mayores' is not standard in Spanish geometry terminology. The correct term for angles greater than 180° is 'ángulos reflejos'. Using both 'mayores' and 'reflejos' is redundant and may confuse learners. The correction improves lexical precision and aligns with accepted mathematical terminology.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Un punto en geometría es una ubicación en el espacio sin tamaño ni dimensión. Representa un punto en la superficie e indica posición.",
+      "correction": "Un punto en geometría es una ubicación en el espacio sin tamaño ni dimensión. Indica una posición.",
+      "description": "The phrase 'Representa un punto en la superficie e indica posición' is somewhat redundant and may cause confusion, as a point is not necessarily on a surface in geometric contexts. The correction streamlines the explanation for clarity and naturalness, making it more suitable for educational Spanish content.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Geometry_Basics.slm.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-03T22:11:32.065209",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

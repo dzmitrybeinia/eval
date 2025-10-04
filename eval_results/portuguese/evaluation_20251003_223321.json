@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "O numerador pode ser maior que o denominador em uma fração.",
+      "correction": "O numerador pode ser maior que o denominador em uma fração?",
+      "description": "The statement is presented as a declarative sentence, but in the context of a Yes/No question, it should be phrased as a question. In Portuguese, adding a question mark clarifies the intent and matches the expected format for Yes/No statements.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Embora possa parecer que o numerador poderia ser maior, o denominador sempre será um inteiro positivo. No entanto, o numerador pode ser zero, o que significa que não se consideram partes, mas o denominador ainda será positivo.",
+      "correction": "Embora possa parecer que o numerador poderia ser maior, o denominador sempre será um inteiro positivo. No entanto, o numerador pode ser zero, o que significa que não se consideram partes, mas o denominador ainda será positivo.",
+      "description": "The feedback incorrectly states that the numerator cannot be greater than the denominator, which is not accurate in mathematics. In fact, fractions where the numerator is greater than the denominator (improper fractions) are valid and represent values greater than 1. This is a conceptual error affecting the educational accuracy of the content.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Frações representam partes de um todo, e quando o numerador (parte) é menor que o denominador (todo), a fração é menor que 1. Por exemplo, se você tem 2 maçãs e divide entre 3 pessoas, cada pessoa recebe 2/3 de uma maçã, o que é menos de uma maçã inteira.",
+      "correction": "Frações representam partes de um todo, e quando o numerador é menor que o denominador, a fração é menor que 1. Por exemplo, se você tem 2 maçãs e divide entre 3 pessoas, cada pessoa recebe 2/3 de uma maçã, o que é menos de uma maçã inteira.",
+      "description": "The feedback uses 'numerador (parte)' and 'denominador (todo)', which may confuse learners, as the denominator does not represent the 'whole' but the number of equal parts into which the whole is divided. This is a localization issue affecting conceptual clarity and educational appropriateness.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Fractions_Basics.slm.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T22:33:21.017065",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.4,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

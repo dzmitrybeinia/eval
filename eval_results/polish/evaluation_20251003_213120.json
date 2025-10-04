@@ -1,0 +1,99 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Firma musi zdecydować, jak zmniejszyć swój ślad węglowy.",
+      "correction": "Firma musi zdecydować, jak zmniejszyć swój ślad węglowy.",
+      "description": "The sentence is grammatically correct, with proper noun case usage and verb aspect. No correction needed.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "kompensat węglowych",
+      "correction": "kompensacji emisji CO₂",
+      "description": "The term 'kompensat węglowych' is not standard in Polish environmental discourse. The more natural and widely accepted term is 'kompensacji emisji CO₂' or 'kompensacji emisji dwutlenku węgla', which better reflects the concept of carbon offsetting in local context.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Firma może priorytetowo traktować rozwiązania, które są dostępne finansowo i najbardziej redukują emisje.",
+      "correction": "Firma może priorytetowo traktować rozwiązania, które są dostępne finansowo i najbardziej redukują emisję.",
+      "description": "The noun 'emisje' is plural, but in this context, the singular 'emisję' is more precise, as it refers to the reduction of overall emission (as a process), not multiple separate emissions. This improves grammatical and semantic accuracy.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Wyobraź sobie, że wybierasz między trzema laptopami.",
+      "correction": "Wyobraź sobie, że wybierasz spośród trzech laptopów.",
+      "description": "The phrase 'między trzema laptopami' is understandable but less natural in Polish. The more idiomatic expression is 'spośród trzech laptopów', which better fits local usage and style.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Jeden laptop jest tani, ale ma krótką żywotność baterii, podczas gdy inny jest drogi, ale działa dłużej i ma dobrą wydajność.",
+      "correction": "Jeden laptop jest tani, ale ma krótką żywotność baterii, podczas gdy inny jest drogi, ale działa dłużej i charakteryzuje się dobrą wydajnością.",
+      "description": "The phrase 'ma dobrą wydajność' is grammatically correct, but 'charakteryzuje się dobrą wydajnością' is stylistically preferred in Polish technical descriptions, improving clarity and professionalism.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Społeczność decyduje się na budowę tamy dla magazynowania wody.",
+      "correction": "Społeczność decyduje się na budowę zbiornika wodnego.",
+      "description": "The concept of 'tama' (dam) for water storage is less common in Polish local contexts, where 'zbiornik wodny' (water reservoir) is more frequently referenced. This change improves cultural appropriateness and naturalness.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Negatywne konsekwencje mogą obejmować zakłócenia środowiskowe i przemieszczenie lokalnej fauny.",
+      "correction": "Negatywne konsekwencje mogą obejmować zakłócenia środowiskowe i przesiedlenie lokalnej fauny.",
+      "description": "The word 'przemieszczenie' is not the most accurate in this context. 'Przesiedlenie' is the correct term for the forced movement of animals due to environmental changes, improving lexical precision.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Zespół planowania miejskiego decyduje się na wdrożenie ścieżek rowerowych w celu zmniejszenia korków.",
+      "correction": "Zespół planowania miejskiego decyduje się na budowę ścieżek rowerowych w celu zmniejszenia korków.",
+      "description": "The term 'wdrożenie ścieżek rowerowych' is less natural in Polish; 'budowa ścieżek rowerowych' is the standard phrase used in urban planning contexts.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Ocenią opcje (ścieżki rowerowe vs. rozbudowa dróg), rozważą konsekwencje (zmniejszenie emisji vs. koszty budowy) i priorytetowo traktują korzyści zdrowotne i środowiskowe ścieżek rowerowych.",
+      "correction": "Ocenią opcje (ścieżki rowerowe vs. rozbudowa dróg), rozważą konsekwencje (zmniejszenie emisji vs. koszty budowy) i będą priorytetowo traktować korzyści zdrowotne i środowiskowe ścieżek rowerowych.",
+      "description": "The phrase 'priorytetowo traktują' should be 'będą priorytetowo traktować' to maintain consistent future tense with the rest of the sentence, improving grammatical accuracy.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Decision_Making.llm.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T21:31:20.060143",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 8.7,
+    "classification": "PROFESSIONAL",
+    "total_issues": 9,
+    "total_penalty": 1.3,
+    "issue_breakdown": {
+      "linguistic": 5,
+      "localization": 4,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.8,
+      "localization_penalty": 0.5,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

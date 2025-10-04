@@ -1,0 +1,75 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "このレッスンでは、それぞれの状態とその性質、そして状態変化のしくみについて学びます！ 🌟",
+      "correction": "このレッスンでは、それぞれの状態とその性質、そして状態変化のしくみについて学びます。",
+      "description": "The use of the star emoji (🌟) at the end of the sentence is not standard in Japanese educational materials and may be perceived as informal or distracting in a science lesson context. Removing the emoji improves the professional tone and aligns with Japanese academic style conventions.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "氷が熱を受けて水に溶けたり、水が蒸気になることなど、熱エネルギーの変化によって物質の状態が変わります。",
+      "correction": "氷が熱を受けて水に溶けたり、水が蒸気になったりするなど、熱エネルギーの変化によって物質の状態が変わります。",
+      "description": "The sentence structure is inconsistent: '氷が熱を受けて水に溶けたり、水が蒸気になることなど' mixes the use of 'たり' and 'こと' for listing examples, which is unnatural in Japanese. The correct parallel structure is '〜たり、〜たりする', so '水が蒸気になること' should be changed to '水が蒸気になったりする' for grammatical consistency and naturalness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "プラズマは星や雷に存在します。",
+      "correction": "プラズマは恒星や雷に存在します。",
+      "description": "The term '星' is ambiguous in Japanese and can refer to both stars and planets. In scientific contexts, '恒星' is the precise term for 'star' as a plasma body. Using '恒星' improves scientific accuracy and aligns with standard terminology in Japanese science education.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "氷の中の粒子の動きは固定されているが、コップの中の水の粒子は流動的で、ケトルから立ち上る蒸気の粒子は自由に動いている。",
+      "correction": "氷の中の粒子の動きは固定されているが、コップの中の水の粒子は流動的で、ケトルから立ち上る蒸気の粒子は自由に動いている。",
+      "description": "No grammatical errors are present in this sentence. The use of particles, verb conjugation, and sentence structure are all correct. The sentence is clear and natural.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "水を加熱すると、粒子がエネルギーを得て速く動くようになり、液体から気体へと変化します。",
+      "correction": "水を加熱すると、分子がエネルギーを得て速く動くようになり、液体から気体へと変化します。",
+      "description": "In scientific Japanese, '分子' (molecule) is more precise than '粒子' (particle) when describing the behavior of water during phase changes. Using '分子' improves technical accuracy and aligns with standard science education terminology.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "沸騰している水では、粒子の運動が増加し、水分子が蒸気として逃げていきます。",
+      "correction": "沸騰している水では、分子の運動が増加し、水分子が蒸気として逃げていきます。",
+      "description": "The sentence uses both '粒子' and '水分子' in close proximity, which may cause confusion. For clarity and consistency, '分子' should be used throughout when referring to water molecules in this scientific context.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "States_of_Matter.llm.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-03T21:52:26.453166",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.2,
+    "classification": "NATIVE",
+    "total_issues": 6,
+    "total_penalty": 0.8,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 4,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.5,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

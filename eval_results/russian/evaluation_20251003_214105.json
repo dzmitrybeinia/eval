@@ -1,0 +1,251 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Добро пожаловать в мир вероятности!",
+      "correction": "Добро пожаловать в мир вероятностей!",
+      "description": "The phrase uses the singular 'вероятности', but in Russian, the plural 'вероятностей' is more natural and idiomatic when referring to the field or concept in general. This improves the naturalness and style of the introduction.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Вероятность — это увлекательная область математики, которая помогает нам предсказывать, насколько вероятно наступление того или иного события.",
+      "correction": "Вероятность — это увлекательная область математики, которая помогает нам предсказывать, насколько вероятно наступление того или иного события.",
+      "description": "No linguistic errors found. The sentence is grammatically correct, with proper case usage and agreement. No correction needed.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Сегодня мы будем рассматривать вероятность через знакомые предметы — кубики, карты и монеты.",
+      "correction": "Сегодня мы будем изучать вероятность на примере знакомых предметов — кубиков, карт и монет.",
+      "description": "The phrase 'рассматривать вероятность через знакомые предметы' is somewhat awkward and less natural in Russian educational style. 'Изучать вероятность на примере знакомых предметов' is a more idiomatic and clear way to express the intended meaning.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Эти повседневные вещи помогут нам лучше понять, как работает вероятность! 🎲🃏",
+      "correction": "Эти повседневные предметы помогут нам лучше понять, как работает вероятность! 🎲🃏",
+      "description": "The word 'вещи' is less precise than 'предметы' in this context. 'Предметы' is more appropriate for educational materials referring to objects like dice, cards, and coins.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Вероятность измеряет, насколько возможно наступление события.",
+      "correction": "Вероятность показывает, насколько возможно наступление события.",
+      "description": "The verb 'измеряет' is not idiomatic in this context. In Russian, 'показывает' or 'определяет' is more appropriate when describing what probability does. This correction improves lexical precision and grammatical appropriateness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Вероятность = количество благоприятных исходов ÷ общее количество возможных исходов",
+      "correction": "Вероятность = количество благоприятных исходов ÷ общее количество возможных исходов",
+      "description": "No linguistic errors found. The formula is presented correctly and uses proper terminology.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Благоприятный исход: выпасть 4 (1 исход).",
+      "correction": "Благоприятный исход: выпадение 4 (1 исход).",
+      "description": "The phrase 'выпасть 4' is not standard terminology. 'Выпадение 4' is more precise and commonly used in Russian probability discussions.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Всего возможных исходов: 1, 2, 3, 4, 5, 6 (6 исходов).",
+      "correction": "Всего возможных исходов: 1, 2, 3, 4, 5, 6 (6 исходов).",
+      "description": "No localization issues found. The terminology and format are appropriate.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "Вероятность = 1 ÷ 6 = 0,167 (примерно 16,7%)",
+      "correction": "Вероятность = 1 ÷ 6 = 0,167 (примерно 16,7%)",
+      "description": "No format issues found. The use of comma as a decimal separator is correct for Russian conventions.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Теоретическая против экспериментальной вероятности",
+      "correction": "Теоретическая и экспериментальная вероятность",
+      "description": "The phrase 'Теоретическая против экспериментальной вероятности' is a direct translation of 'theoretical vs experimental probability' and sounds unnatural in Russian. 'Теоретическая и экспериментальная вероятность' is more idiomatic and clear.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Существует два основных вида вероятности:",
+      "correction": "Существует два основных вида вероятности:",
+      "description": "No linguistic errors found. The sentence is grammatically correct.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "основана на математических рассуждениях и предполагает равновероятность всех исходов.",
+      "correction": "основана на математических рассуждениях и предполагает равную вероятность всех исходов.",
+      "description": "The term 'равновероятность' is not standard in Russian. 'Равная вероятность' is the correct and commonly used phrase.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "если вы подбрасываете монету, вероятность выпасть «орлу» равна 0,5.",
+      "correction": "если вы подбрасываете монету, вероятность выпадения «орла» равна 0,5.",
+      "description": "The phrase 'вероятность выпасть «орлу»' is grammatically incorrect. The correct form is 'вероятность выпадения «орла»'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "если вы подбрасываете монету 10 раз и «орел» выпадает 6 раз, экспериментальная вероятность равна 6 ÷ 10 = 0,6.",
+      "correction": "если вы подбрасываете монету 10 раз и «орел» выпал 6 раз, экспериментальная вероятность равна 6 ÷ 10 = 0,6.",
+      "description": "The verb 'выпадает' should be in the past tense 'выпал' to match the completed action described in the example.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Замечание: экспериментальная вероятность может отличаться от теоретической из-за случайности, но чем больше экспериментов, тем ближе она становится к теоретической.",
+      "correction": "Примечание: экспериментальная вероятность может отличаться от теоретической из-за случайности, но чем больше экспериментов, тем ближе она становится к теоретической.",
+      "description": "The word 'Замечание' is less formal and less commonly used in educational materials than 'Примечание'. 'Примечание' is the standard term for notes in Russian textbooks.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Кубик — это классический пример для изучения вероятности.",
+      "correction": "Кубик — классический пример для изучения вероятности.",
+      "description": "The phrase 'это' is unnecessary and can be omitted for a more natural and concise style in Russian.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "У стандартного кубика шесть граней, пронумерованных от 1 до 6.",
+      "correction": "У стандартного кубика шесть граней, пронумерованных от 1 до 6.",
+      "description": "No linguistic errors found. The sentence is grammatically correct.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Каждая грань имеет равные шансы выпасть.",
+      "correction": "Каждая грань имеет равную вероятность выпадения.",
+      "description": "The phrase 'равные шансы выпасть' is less precise and less idiomatic than 'равную вероятность выпадения' in Russian probability terminology.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Какова вероятность выпасть четному числу?",
+      "correction": "Какова вероятность выпадения четного числа?",
+      "description": "The phrase 'вероятность выпасть четному числу' is grammatically incorrect. The correct form is 'вероятность выпадения четного числа'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Связь с реальностью: В настольных играх результаты броска кубика часто определяют движение.",
+      "correction": "Связь с реальностью: В настольных играх результат броска кубика часто определяет ход игрока.",
+      "description": "The phrase 'результаты броска кубика часто определяют движение' is vague. 'Определяет ход игрока' is more precise and natural in the context of board games.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Игральные карты — еще один инструмент для изучения вероятности.",
+      "correction": "Игральные карты — ещё один пример для изучения вероятности.",
+      "description": "The word 'инструмент' is less natural than 'пример' in this context. 'Пример' is more commonly used in educational materials when referring to objects used for illustration.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "В стандартной колоде 52 карты, разделенные на 4 масти (черви, бубны, трефы, пики).",
+      "correction": "В стандартной колоде 52 карты, разделённые на 4 масти (черви, бубны, трефы, пики).",
+      "description": "The word 'разделенные' should use the correct participle form 'разделённые' to match Russian orthographic standards.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Каждая масть содержит 13 карт.",
+      "correction": "Каждая масть содержит 13 карт.",
+      "description": "No linguistic errors found. The sentence is grammatically correct.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Какова вероятность вытянуть красную карту?",
+      "correction": "Какова вероятность вытянуть красную карту?",
+      "description": "No localization issues found. The phrase is natural and idiomatic.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Связь с реальностью: В карточных играх часто приходится рассчитывать вероятность для принятия рисков или консервативных решений.",
+      "correction": "Связь с реальностью: В карточных играх часто приходится рассчитывать вероятность, чтобы принимать рискованные или осторожные решения.",
+      "description": "The phrase 'для принятия рисков или консервативных решений' is awkward. 'Чтобы принимать рискованные или осторожные решения' is more natural and idiomatic in Russian.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Монета имеет две стороны: «орел» и «решка».",
+      "correction": "Монета имеет две стороны: «орёл» и «решка».",
+      "description": "The word 'орел' should be spelled with the correct diacritical mark 'ё' as 'орёл' in Russian orthography.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Какова вероятность выпасть «орлу»?",
+      "correction": "Какова вероятность выпадения «орла»?",
+      "description": "The phrase 'вероятность выпасть «орлу»' is grammatically incorrect. The correct form is 'вероятность выпадения «орла»'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Связь с реальностью: Подбрасывание монеты часто используется для принятия решений, например, определения очередности игры в спорте.",
+      "correction": "Связь с реальностью: Подбрасывание монеты часто используется для принятия решений, например, для определения очередности хода в игре или спорте.",
+      "description": "The phrase 'определения очередности игры в спорте' is vague. 'Для определения очередности хода в игре или спорте' is more precise and natural.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Probability_Games.llm.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T21:41:05.856166",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 6.5,
+    "classification": "SUBSTANDARD",
+    "total_issues": 28,
+    "total_penalty": 3.5,
+    "issue_breakdown": {
+      "linguistic": 10,
+      "localization": 18,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.5,
+      "localization_penalty": 2.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

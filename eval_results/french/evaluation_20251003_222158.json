@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar|Lexical",
+      "original": "Dans un incendie, il est recommandé de rester à l'écart du sol pour éviter la fumée et les débris. Les incidents d'incendie peuvent mener à des débris et de la fumée qui descendent, donc rester au-dessus du sol peut être plus sûr.",
+      "correction": "Dans un incendie, il est recommandé de rester près du sol pour éviter la fumée, qui monte généralement, et les débris. Les incidents d'incendie peuvent entraîner la présence de fumée et de débris en hauteur, donc rester près du sol peut être plus sûr.",
+      "description": "The feedback contains a critical factual error: in fire safety, it is recommended to stay close to the ground because smoke rises, not to stay away from the ground. The phrase 'rester à l'écart du sol' is misleading and incorrect. Additionally, 'des débris et de la fumée qui descendent' is inaccurate, as smoke typically rises. The correction provides the proper safety advice and clarifies the natural behavior of smoke and debris during a fire.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology|Style",
+      "original": "Pour maintenir leur efficacité, il est recommandé de les vérifier et de les remplacer annuellement, ce qui contribue à une meilleure prévention de l'incendie.",
+      "correction": "Pour maintenir leur efficacité, il est recommandé de les tester régulièrement et de remplacer les piles chaque année, ce qui contribue à une meilleure prévention des incendies.",
+      "description": "The original text suggests replacing smoke detectors annually, which is not standard practice in French-speaking regions; typically, only the batteries are replaced annually, and the detectors themselves are tested regularly. The phrase 'prévention de l'incendie' is less natural than 'prévention des incendies' in French. The correction uses terminology and advice that align with local fire safety recommendations and improves the naturalness of the expression.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Fire_Safety.slm.md",
+    "language": "French",
+    "timestamp": "2025-10-03T22:21:58.466512",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

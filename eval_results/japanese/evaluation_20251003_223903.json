@@ -1,0 +1,107 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "記憶術は新しい情報のみを保存する脳の部位に関連しています。.",
+      "correction": "記憶術は新しい情報のみを保存する脳の部位に関連しています。",
+      "description": "There is an unnecessary period after the Japanese full stop, resulting in double punctuation (。.). Only one Japanese full stop should be used at the end of the sentence.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "記憶術は新しい情報を保存するのではなく、既存の知識と関連付けて情報を覚える手法です。これにより、脳は新しい情報を理解しやすくすることがあります。.",
+      "correction": "記憶術は新しい情報を保存するのではなく、既存の知識と関連付けて情報を覚える手法です。これにより、脳は新しい情報を理解しやすくすることがあります。",
+      "description": "There is an unnecessary period after the Japanese full stop at the end of the feedback (。.). Only one Japanese full stop should be used.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "分割することで情報をより管理しやすくする方法は何ですか？.",
+      "correction": "分割することで情報をより管理しやすくする方法は何ですか？",
+      "description": "There is an unnecessary period after the Japanese question mark (？.). Japanese sentences should end with either a full stop or a question mark, not both.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "情報を小さな部分に分けることで、心の中でより簡単に整理して覚えることができます。この方法は複雑な情報を処理しやすくし、記憶の力を最大限に活用する秘謀です。.",
+      "correction": "情報を小さな部分に分けることで、心の中でより簡単に整理して覚えることができます。この方法は複雑な情報を処理しやすくし、記憶の力を最大限に活用する秘訣です。",
+      "description": "There is an unnecessary period after the Japanese full stop (。.). Additionally, the word '秘謀' is a lexical error; it means 'plot' or 'scheme' and is inappropriate in this context. The correct term is '秘訣', which means 'secret' or 'key' to success.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "視覚化を使って学習することで、情報をより強力に記憶に保つことができます。.",
+      "correction": "視覚化を使って学習することで、情報をより強力に記憶に保つことができます。",
+      "description": "There is an unnecessary period after the Japanese full stop (。.). Only one Japanese full stop should be used at the end of the sentence.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "視覚化は脳が抽象的な概念をより具体的なイメージに変換することによって、記憶の保存を強化するメカニズムです。これは、情報をより鮮明で視覚的に描写することにより、記憶の確立を容易にします。.",
+      "correction": "視覚化は脳が抽象的な概念をより具体的なイメージに変換することによって、記憶の保存を強化するメカニズムです。これは、情報をより鮮明で視覚的に描写することにより、記憶の確立を容易にします。",
+      "description": "There is an unnecessary period after the Japanese full stop (。.). Only one Japanese full stop should be used.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "記憶術、チャンク化、視覚化は学習成果を高めるために使用されます。.",
+      "correction": "記憶術、チャンク化、視覚化は学習成果を高めるために使用されます。",
+      "description": "There is an unnecessary period after the Japanese full stop (。.). Only one Japanese full stop should be used at the end of the sentence.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "これらの技法は、脳が情報をより効率的に扱うことを可能にし、より迅速かつ正確な記憶をもたらします。.",
+      "correction": "これらの技法は、脳が情報をより効率的に扱うことを可能にし、より迅速かつ正確な記憶をもたらします。",
+      "description": "There is an unnecessary period after the Japanese full stop (。.). Only one Japanese full stop should be used.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "記憶術、チャンク化、視覚化は脳を破壊することです。.",
+      "correction": "記憶術、チャンク化、視覚化は脳を破壊することです。",
+      "description": "There is an unnecessary period after the Japanese full stop (。.). Only one Japanese full stop should be used at the end of the sentence.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "これらは記憶保持と思考を向上させるための方法であり、脳を破壊するものではありません。.",
+      "correction": "これらは記憶保持と思考を向上させるための方法であり、脳を破壊するものではありません。",
+      "description": "There is an unnecessary period after the Japanese full stop (。.). Only one Japanese full stop should be used.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Memory_Techniques.slm.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-03T22:39:03.901886",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 8.9,
+    "classification": "PROFESSIONAL",
+    "total_issues": 10,
+    "total_penalty": 1.1,
+    "issue_breakdown": {
+      "linguistic": 10,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.1,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

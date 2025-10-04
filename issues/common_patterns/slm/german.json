@@ -1,40 +1,33 @@
 {
   "metadata": {
     "label": "slm",
-    "label_normalized": "slm",
-    "label_key": "slm",
     "language": "german",
-    "generated_at": "2025-10-03T16:11:45.194732"
+    "generated_at": "2025-10-03T22:58:23.228157"
   },
   "top_error_patterns": [
     {
-      "pattern_name": "Gender and case agreement errors",
+      "pattern_name": "Lexical Inaccuracies and False Friends",
       "category": "linguistic",
-      "subcategory": "Grammar",
+      "subcategory": "Lexical",
       "impact_level": "HIGH",
-      "frequency": "common",
-      "frequency_count": 4,
-      "description": "Frequent mistakes in gender and case agreement, such as incorrect adjective endings, possessive pronouns, and relative pronouns, which affect sentence accuracy and clarity.",
+      "frequency": "very_common",
+      "frequency_count": 12,
+      "description": "Use of incorrect, misleading, or non-existent German words, false friends, or literal translations from English, resulting in semantic errors and factual inaccuracies.",
       "examples": [
         {
-          "wrong": "Ihr dicker Fell",
-          "correct": "Ihr dickes Fell",
-          "context": "Adjective-noun agreement for neuter nouns."
+          "wrong": "Genetisches Fallacy",
+          "correct": "genetischer Fehlschluss",
+          "context": "Philosophical/logic terminology."
         },
         {
-          "wrong": "Sein Führung",
-          "correct": "Seine Führung",
-          "context": "Possessive pronoun agreement with feminine nouns."
+          "wrong": "Behaucht Entscheidungen",
+          "correct": "Überlegte Entscheidungen",
+          "context": "Decision-making advice."
         },
         {
-          "wrong": "DNA-Synthese findet in der Zellkern statt.",
-          "correct": "DNA-Synthese findet im Zellkern statt.",
-          "context": "Preposition and article agreement for masculine nouns."
-        },
-        {
-          "wrong": "Datenbanken ... der zur Speicherung ... genutzt wird.",
-          "correct": "Datenbanken ... die zur Speicherung ... genutzt werden.",
-          "context": "Relative pronoun agreement with plural nouns."
+          "wrong": "Schraffieren ... durch Verwendung von Farben",
+          "correct": "Schraffieren ... durch die Verwendung von Linien",
+          "context": "Art technique explanations."
         }
       ]
     },
@@ -43,251 +36,625 @@
       "category": "linguistic",
       "subcategory": "Spelling",
       "impact_level": "HIGH",
-      "frequency": "common",
-      "frequency_count": 3,
-      "description": "Frequent misspellings of 'hauptsächlich' (mainly/primarily) as 'hauptseteig', 'hauesteig', or 'hauptseteled', resulting in non-existent words that disrupt comprehension.",
+      "frequency": "very_common",
+      "frequency_count": 8,
+      "description": "Frequent misspellings of the word 'hauptsächlich' (mainly/primarily) in various forms, leading to non-existent or confusing terms that disrupt comprehension and professionalism.",
       "examples": [
         {
           "wrong": "hauptseteig",
           "correct": "hauptsächlich",
-          "context": "Used to describe primary functions or roles."
+          "context": "Used in explanations of scientific or literary concepts."
         },
         {
-          "wrong": "hauesteig",
+          "wrong": "hauptseteilt",
           "correct": "hauptsächlich",
-          "context": "Appears in explanations of main processes."
+          "context": "Appears in feedback about story introductions."
         },
         {
-          "wrong": "hauptseteled",
+          "wrong": "hauptseteilig",
           "correct": "hauptsächlich",
-          "context": "In descriptions of ATP production."
+          "context": "General descriptive feedback."
         }
       ]
     },
     {
-      "pattern_name": "Lexical confusion in scientific terminology",
+      "pattern_name": "Adjective-Noun Agreement Errors",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "HIGH",
+      "frequency": "very_common",
+      "frequency_count": 7,
+      "description": "Systematic mistakes in gender, number, and case agreement between adjectives and nouns, leading to grammatically incorrect and confusing sentences.",
+      "examples": [
+        {
+          "wrong": "Ihr dicker Fell",
+          "correct": "Ihr dickes Fell",
+          "context": "Describing animal adaptations."
+        },
+        {
+          "wrong": "starke Krallen bei Adlern",
+          "correct": "starken Krallen bei Adlern",
+          "context": "Listing physical adaptations."
+        },
+        {
+          "wrong": "die Auswahl der beste Option",
+          "correct": "die Auswahl der besten Option",
+          "context": "Decision-making process steps."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect Scientific and Technical Terminology",
       "category": "linguistic",
       "subcategory": "Lexical",
       "impact_level": "HIGH",
       "frequency": "common",
-      "frequency_count": 3,
-      "description": "Incorrect word choices in scientific contexts, such as confusing 'Verhalten' (behavior) with 'Körperbau' (body structure), or using 'erfinden' (invent) instead of 'finden' (find), leading to misleading or inaccurate information.",
+      "frequency_count": 7,
+      "description": "Misuse of scientific or technical terms, including wrong definitions, factual errors, or inappropriate word choices, which can mislead learners and undermine educational credibility.",
       "examples": [
         {
-          "wrong": "Physikalische Anpassungen beinhalten immer Veränderungen im Verhalten von Tieren.",
-          "correct": "Physikalische Anpassungen beinhalten immer Veränderungen am Körperbau von Tieren.",
-          "context": "Distinguishing physical vs. behavioral adaptations."
+          "wrong": "Elemente in der zweiten Periode haben ... drei Valenzelektronen",
+          "correct": "Elemente in der zweiten Periode haben ... zwei Valenzelektronen",
+          "context": "Chemistry explanations."
         },
         {
-          "wrong": "Variablen ... die Unbekannten zu erfinden.",
-          "correct": "Variablen ... die Unbekannten zu finden.",
-          "context": "Explaining the role of variables in equations."
+          "wrong": "Drehmomentumübertragung",
+          "correct": "Drehmomentübertragung",
+          "context": "Physics/mechanics terminology."
         },
         {
-          "wrong": "Mitochondrien sind die Zelle, die ...",
-          "correct": "Mitochondrien sind die Zellbestandteile, die ...",
-          "context": "Describing cell components and their functions."
+          "wrong": "stöchiometrische Spannung",
+          "correct": "zwischenmolekulare Anziehung",
+          "context": "Describing liquid properties."
         }
       ]
     },
     {
-      "pattern_name": "Lexical imprecision in technical and scientific terminology",
+      "pattern_name": "Incorrect Use of Articles and Pronouns",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "HIGH",
+      "frequency": "common",
+      "frequency_count": 6,
+      "description": "Frequent errors in the use of definite/indefinite articles and possessive/relative pronouns, resulting in mismatches with noun gender, number, or case.",
+      "examples": [
+        {
+          "wrong": "Der Polarfuchs ... und der Kaktuszaunkönigin",
+          "correct": "Der Polarfuchs ... und die Kaktuszaunkönigin",
+          "context": "Animal behavior and traits."
+        },
+        {
+          "wrong": "Sein Führung",
+          "correct": "Seine Führung",
+          "context": "Describing leadership roles."
+        },
+        {
+          "wrong": "ein Zweidrittelmehrheit",
+          "correct": "eine Zweidrittelmehrheit",
+          "context": "Political/legal explanations."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Lexical errors in geometry terminology",
+      "category": "localization",
+      "subcategory": "Lexical",
+      "impact_level": "HIGH",
+      "frequency": "very_common",
+      "frequency_count": 2,
+      "description": "Incorrect definitions of geometric terms, such as 'spitzer Winkel', which contradict standard German mathematical usage and may mislead learners.",
+      "examples": [
+        {
+          "wrong": "Ein spitzer Winkel hat immer eine Maßeinheit von 90 Grad.",
+          "correct": "Ein spitzer Winkel hat immer eine Maßeinheit von weniger als 90 Grad.",
+          "context": "Geometry concept explanations"
+        },
+        {
+          "wrong": "In der Geometrie wird ein spitzer Winkel spezifisch durch eine Maßeinheit von genau 90 Grad definiert.",
+          "correct": "In der Geometrie wird ein spitzer Winkel als ein Winkel mit weniger als 90 Grad definiert.",
+          "context": "Geometry feedback sentences"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect or misleading use of fire safety terminology",
+      "category": "localization",
+      "subcategory": "Terminology",
+      "impact_level": "HIGH",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Use of fire extinguisher classes does not align with German safety standards, leading to potentially unsafe recommendations.",
+      "examples": [
+        {
+          "wrong": "Jedoch sollten Brände in der Küche mit einem Klasse A Feuerlöscher begonnen werden, wenn sie mit brennbarem Material wie Papier oder Holz entstehen.",
+          "correct": "Brände in der Küche sollten mit einem geeigneten Feuerlöscher, wie einem Klasse F Feuerlöscher bei Fettbränden, bekämpft werden.",
+          "context": "Fire safety guidance in educational content"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Cultural and conceptual errors in mathematical explanations",
+      "category": "localization",
+      "subcategory": "Cultural",
+      "impact_level": "HIGH",
+      "frequency": "common",
+      "frequency_count": 1,
+      "description": "Misrepresentation of mathematical concepts, such as fractions, that conflict with German educational standards and curricula.",
+      "examples": [
+        {
+          "wrong": "Brüche repräsentieren Teile eines Ganzen, und da ein Ganzes ein komplettes Stück darstellt, kann ein Bruch nicht größer als ein Ganzes sein.",
+          "correct": "Brüche repräsentieren Teile eines Ganzen, aber ein Bruch kann auch größer als ein Ganzes sein, wenn der Zähler größer als der Nenner ist.",
+          "context": "Mathematics feedback in quiz explanations"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Cultural misrepresentation of political systems",
+      "category": "localization",
+      "subcategory": "Cultural",
+      "impact_level": "HIGH",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Incorrectly equating powers of German and US presidents, leading to confusion about governmental roles and authority.",
+      "examples": [
+        {
+          "wrong": "Der Präsident von Deutschland, ähnlich wie der Präsident der Vereinigten Staaten, hat die Macht, Gesetze des Parlaments zu blockieren.",
+          "correct": "Der Präsident der Vereinigten Staaten kann Gesetze des Kongresses durch ein Veto blockieren.",
+          "context": "Government and civics explanations"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Inaccurate description of voting methods and grammatical errors",
+      "category": "localization",
+      "subcategory": "Cultural",
+      "impact_level": "HIGH",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Mentioning non-standard voting methods (e.g., Fax) and incorrect grammatical structures, which do not fit German electoral practices or language norms.",
+      "examples": [
+        {
+          "wrong": "In vielen Ländern bieten Wahlberechtigten die Möglichkeit, ihre Stimme auch per Brief oder Fax abzugeben, wenn sie nicht persönlich teilnehmen können.",
+          "correct": "In vielen Ländern haben Wahlberechtigte die Möglichkeit, ihre Stimme auch per Briefwahl abzugeben, wenn sie nicht persönlich teilnehmen können.",
+          "context": "Civic process explanations"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Lexical unnaturalness and imprecise terminology",
       "category": "linguistic",
       "subcategory": "Lexical",
       "impact_level": "MEDIUM",
       "frequency": "very_common",
-      "frequency_count": 7,
-      "description": "Recurring use of imprecise, awkward, or misleading terms, especially in technical or scientific contexts. This includes incorrect species names, literal translations, and verbs that do not fit the technical meaning, which can confuse learners and reduce clarity.",
+      "frequency_count": 18,
+      "description": "Frequent use of non-idiomatic, imprecise, or literal translations that do not match standard German terminology, especially in scientific, technical, and educational contexts. This affects clarity and professional tone.",
       "examples": [
         {
-          "wrong": "Kaktuszaunkönigin",
-          "correct": "Kaktuszaunkönig",
-          "context": "Incorrect species name in biology content"
+          "wrong": "physische Anpassungen",
+          "correct": "körperliche Anpassungen",
+          "context": "Biology/zoology terminology for animal traits"
         },
         {
-          "wrong": "eine Funktion von Algorithmen",
-          "correct": "Aufgabe von Algorithmen",
-          "context": "Literal translation in technical explanation"
+          "wrong": "sanfte Kommunikation",
+          "correct": "einfühlsame Kommunikation",
+          "context": "Conflict resolution and interpersonal skills"
         },
         {
-          "wrong": "Variablen können mehr als einen Wert haben.",
-          "correct": "Variablen können im Laufe eines Programms verschiedene Werte annehmen.",
-          "context": "Misleading statement about programming variables"
+          "wrong": "Wegrechnen",
+          "correct": "Subtrahieren",
+          "context": "Mathematical operations in educational content"
         }
       ]
     },
     {
-      "pattern_name": "Incorrect case and preposition usage",
+      "pattern_name": "Incorrect prepositions and case usage",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 8,
+      "description": "Systematic errors in preposition choice and case assignment, leading to awkward or incorrect grammatical constructions. This disrupts sentence flow and comprehension.",
+      "examples": [
+        {
+          "wrong": "aufgrund der Breite, sondern auch durch andere Faktoren",
+          "correct": "aufgrund der Breite, sondern auch aufgrund anderer Faktoren",
+          "context": "Parallel structure in explanations"
+        },
+        {
+          "wrong": "von solchen Meeresströmungen",
+          "correct": "solcher Meeresströmungen",
+          "context": "Genitive case after 'Einfluss'"
+        },
+        {
+          "wrong": "auf ihre grundlegenden Teile",
+          "correct": "in ihre grundlegenden Teile",
+          "context": "Preposition for breaking down components"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Unnatural or Literal Calques from English",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "MEDIUM",
+      "frequency": "very_common",
+      "frequency_count": 8,
+      "description": "Frequent use of literal translations or calques from English leads to awkward, unnatural, or unclear phrasing in German educational content. These expressions often do not match standard German usage or idiomatic style.",
+      "examples": [
+        {
+          "wrong": "Moderation der Temperaturen",
+          "correct": "Regulierung der Temperaturen",
+          "context": "Scientific context; 'Moderation' is an anglicism."
+        },
+        {
+          "wrong": "Das Gegenteil der Wahrheit",
+          "correct": "Im Gegenteil",
+          "context": "Introductory phrase; unnatural literal translation."
+        },
+        {
+          "wrong": "die Teilung von Informationen",
+          "correct": "das Teilen von Informationen",
+          "context": "Describing online behavior; calque from English."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Syntactic awkwardness and word order errors",
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 7,
+      "description": "Recurring issues with sentence structure, including unnatural word order, misplaced verbs, and unclear constructions. These errors reduce readability and can obscure meaning.",
+      "examples": [
+        {
+          "wrong": "tragen zur Stabilität bei durch Wasserstoffbrücken",
+          "correct": "tragen durch Wasserstoffbrücken zur Stabilität bei",
+          "context": "Scientific explanations in biology"
+        },
+        {
+          "wrong": "gehen primär durch die Legislative, den Kongress, über",
+          "correct": "gehen primär von der Legislative, dem Kongress, aus",
+          "context": "Political process descriptions"
+        },
+        {
+          "wrong": "sich volle Aufmerksamkeit zu schenken",
+          "correct": "dem Gespräch volle Aufmerksamkeit zu schenken",
+          "context": "Active listening instructions"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Non-Standard or Inaccurate Terminology",
+      "category": "localization",
+      "subcategory": "Terminology",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 6,
+      "description": "Use of terms that are not standard in German academic, technical, or educational contexts, including anglicisms and incorrect abbreviations. This affects clarity and professional tone.",
+      "examples": [
+        {
+          "wrong": "Unterstützungskontexte",
+          "correct": "unterstützende Kontexte",
+          "context": "Argument analysis; non-standard compound."
+        },
+        {
+          "wrong": "Bias",
+          "correct": "Verzerrungen",
+          "context": "Technical/ethical context; anglicism."
+        },
+        {
+          "wrong": "AEMR",
+          "correct": "Allgemeine Erklärung der Menschenrechte (AEMR)",
+          "context": "Abbreviation used without introduction."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Non-standard or awkward terminology",
+      "category": "localization",
+      "subcategory": "Terminology",
+      "impact_level": "MEDIUM",
+      "frequency": "very_common",
+      "frequency_count": 6,
+      "description": "Use of terms that are understandable but not standard or idiomatic in German educational or technical contexts. Corrections involve replacing with widely accepted terminology for clarity and professionalism.",
+      "examples": [
+        {
+          "wrong": "Zahlen mit Dezimalstellen",
+          "correct": "Dezimalzahlen",
+          "context": "Programming/math terminology"
+        },
+        {
+          "wrong": "Solarenergie eine erneuerbare Ressource ist",
+          "correct": "Solarenergie eine erneuerbare Energiequelle ist",
+          "context": "Scientific/energy terminology"
+        },
+        {
+          "wrong": "nicht leicht reaktiv / Nichtreaktivität",
+          "correct": "reaktionsträge / Reaktionsträgheit",
+          "context": "Chemistry/scientific terminology"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Awkward or Unidiomatic Compound Nouns and Phrases",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 5,
+      "description": "Use of compound nouns or phrases that are grammatically correct but not idiomatic or natural in German, reducing readability and professional tone.",
+      "examples": [
+        {
+          "wrong": "Wachstumsmentalitätsansatz",
+          "correct": "im Rahmen einer Wachstumsmentalität",
+          "context": "Educational psychology; unnatural compound."
+        },
+        {
+          "wrong": "Erarbeiten von Anmerkungen",
+          "correct": "Erstellen von Anmerkungen",
+          "context": "Study skills; awkward phrasing."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect or missing articles and adjective endings",
+      "category": "linguistic",
+      "subcategory": "Grammar | Orthography",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 4,
+      "description": "Mistakes with definite/indefinite articles and adjective endings, especially in scientific and educational contexts. These errors affect grammatical correctness and professional tone.",
+      "examples": [
+        {
+          "wrong": "Das erste Newtons Gesetz",
+          "correct": "Das erste Newtonsche Gesetz",
+          "context": "Scientific law naming conventions"
+        },
+        {
+          "wrong": "Tropische Klimazone",
+          "correct": "tropische Klimazone",
+          "context": "Adjective capitalization"
+        },
+        {
+          "wrong": "Christentum entstand vor etwa 2000 Jahren",
+          "correct": "Das Christentum entstand vor etwa 2000 Jahren",
+          "context": "Missing definite article in historical context"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Unidiomatic or Redundant Phrasing",
       "category": "linguistic",
       "subcategory": "Grammar",
       "impact_level": "MEDIUM",
       "frequency": "common",
       "frequency_count": 4,
-      "description": "Frequent errors in case assignment (genitive, dative) and preposition selection, leading to unnatural or incorrect sentence structure. This affects clarity and grammatical correctness.",
+      "description": "Use of wordy, redundant, or less idiomatic expressions that can be replaced with more natural German phrasing for improved clarity and fluency.",
       "examples": [
         {
-          "wrong": "von solchen Meeresströmungen",
-          "correct": "solcher Meeresströmungen",
-          "context": "Genitive case required after 'Einfluss'"
+          "wrong": "über den Jahresverlauf hinweg",
+          "correct": "im Jahresverlauf",
+          "context": "Temporal expressions in scientific explanations"
         },
         {
-          "wrong": "auch durch andere Faktoren",
-          "correct": "auch aufgrund anderer Faktoren",
-          "context": "Preposition mismatch in comparative sentence"
+          "wrong": "von einem Land zum anderen",
+          "correct": "von Land zu Land",
+          "context": "Comparative expressions in social studies"
+        },
+        {
+          "wrong": "neutral sein oder sogar vorteilhaft sein",
+          "correct": "neutral oder sogar vorteilhaft sein",
+          "context": "Listing attributes in biology"
+        },
+        {
+          "wrong": "indem man aktiv mit dem Text interagiert, indem man beispielsweise Notizen macht",
+          "correct": "indem man aktiv mit dem Text interagiert, beispielsweise indem man Notizen macht",
+          "context": "Instructional text with repeated clause structures"
         }
       ]
     },
     {
-      "pattern_name": "Awkward or redundant phrasing",
+      "pattern_name": "Redundancy and semantic ambiguity",
       "category": "linguistic",
-      "subcategory": "Lexical",
+      "subcategory": "Lexical | Style",
       "impact_level": "MEDIUM",
       "frequency": "occasional",
-      "frequency_count": 2,
-      "description": "Use of redundant or awkward phrases that do not reflect natural German usage, reducing clarity and professional tone.",
+      "frequency_count": 3,
+      "description": "Use of redundant or semantically ambiguous phrases that do not add value or may confuse learners. Corrections improve clarity and conciseness.",
       "examples": [
         {
           "wrong": "das gemeinte Gesagte",
-          "correct": "das Gemeinte",
-          "context": "Redundant phrasing in explanation"
+          "correct": "das Gesagte",
+          "context": "Active listening and communication"
         },
         {
-          "wrong": "Zusatzversorgung von Feuchtigkeit",
-          "correct": "zusätzliche Versorgung mit Feuchtigkeit",
-          "context": "Awkward noun phrase in climate description"
+          "wrong": "Einfühlen von Empathie",
+          "correct": "Empathie",
+          "context": "Interpersonal skills"
+        },
+        {
+          "wrong": "die eigentlichen Lektionen zusammenfasst",
+          "correct": "die wichtigsten Lektionen hervorhebt",
+          "context": "Summary and educational focus"
         }
       ]
     },
     {
-      "pattern_name": "Use of non-idiomatic anglicisms in scientific terminology",
-      "category": "localization",
-      "subcategory": "Style",
+      "pattern_name": "Incorrect or Non-Standard Terminology",
+      "category": "linguistic",
+      "subcategory": "Lexical",
       "impact_level": "MEDIUM",
-      "frequency": "occasional",
-      "frequency_count": 1,
-      "description": "English-derived terms or phrasing are used instead of established German scientific terminology, leading to unnatural or unclear expressions.",
+      "frequency": "common",
+      "frequency_count": 3,
+      "description": "Use of terms that are technically correct but not standard or preferred in German academic or professional contexts, affecting precision and professionalism.",
       "examples": [
         {
-          "wrong": "Moderation der Temperaturen",
-          "correct": "Regulierung der Temperaturen",
-          "context": "Describing the effect of ocean currents on coastal temperatures in educational content"
+          "wrong": "DNA-Replikationsmechanik",
+          "correct": "DNA-Replikation",
+          "context": "Scientific terminology in biology"
+        },
+        {
+          "wrong": "genetischer Störungen",
+          "correct": "genetischer Erkrankungen",
+          "context": "Medical terminology in genetics"
+        },
+        {
+          "wrong": "minimieren",
+          "correct": "vermeiden",
+          "context": "Idiomatic verb choice in advice/instruction"
         }
       ]
     },
     {
-      "pattern_name": "Unidiomatic or Wordy Phrasing",
+      "pattern_name": "Cultural Inappropriateness or Irrelevance",
+      "category": "localization",
+      "subcategory": "Cultural",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 3,
+      "description": "References or explanations that do not fit the German cultural or educational context, or introduce irrelevant local details, leading to confusion or reduced clarity.",
+      "examples": [
+        {
+          "wrong": "Kongress von Nordamerika",
+          "correct": "Kongress der Vereinigten Staaten",
+          "context": "Government context; misleading and culturally inappropriate."
+        },
+        {
+          "wrong": "In Deutschland ist die Anzahl der Senatoren nicht festgelegt...",
+          "correct": "Im Senat der Vereinigten Staaten gibt es genau zwei Senatoren pro Bundesstaat...",
+          "context": "Irrelevant German system details in US government lesson."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Lexical Inaccuracy or Misleading Expressions",
+      "category": "localization",
+      "subcategory": "Lexical",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 2,
+      "description": "Use of words or phrases that are misleading or do not accurately convey the intended meaning, especially in technical or scientific contexts.",
+      "examples": [
+        {
+          "wrong": "eine Frage der Vergangenheit",
+          "correct": "unabhängig von vergangenen Würfen",
+          "context": "Probability/statistics; misleading expression."
+        },
+        {
+          "wrong": "mentale Wohlfahrt",
+          "correct": "mentale Gesundheit",
+          "context": "Health context; non-standard term."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Unnatural or overly formal style",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "LOW",
+      "frequency": "very_common",
+      "frequency_count": 5,
+      "description": "Sentences are grammatically correct but use phrasing that is formal, abstract, or less idiomatic for German educational content. Corrections make the style more natural, direct, and engaging.",
+      "examples": [
+        {
+          "wrong": "Dies führt zu einem Gefühl der Vertrautheit und der stärksten Beziehungen.",
+          "correct": "Dies führt zu einem Gefühl der Vertrautheit und zu stärkeren Beziehungen.",
+          "context": "Feedback/explanation phrasing"
+        },
+        {
+          "wrong": "Die Bewertung verschiedener Alternativen ist der Schlüssel zur Identifizierung der effektivsten Entscheidung.",
+          "correct": "Die Bewertung verschiedener Alternativen ist der Schlüssel zur Identifizierung der besten Entscheidung.",
+          "context": "Decision-making explanation"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Article and Case Agreement Errors",
       "category": "linguistic",
       "subcategory": "Grammar",
       "impact_level": "LOW",
       "frequency": "common",
-      "frequency_count": 2,
-      "description": "Use of unnecessarily wordy or less idiomatic expressions that can be replaced with more natural German phrasing for clarity and conciseness.",
+      "frequency_count": 3,
+      "description": "Mistakes in the use of articles or case forms, such as missing definite articles or incorrect contractions, which subtly affect grammatical correctness.",
       "examples": [
         {
-          "wrong": "über den Jahresverlauf hinweg variiert",
-          "correct": "im Jahresverlauf variiert",
-          "context": "Describing variation over time in climate contexts"
+          "wrong": "Syntax beeinflusst, wie Programme ...",
+          "correct": "Die Syntax beeinflusst, wie Programme ...",
+          "context": "Missing definite article at sentence start"
         },
         {
-          "wrong": "zu einem gemeinsamen Verständnis führen",
-          "correct": "zu gegenseitigem Verständnis führen",
-          "context": "Describing mutual understanding in conflict resolution"
+          "wrong": "zu dem zugewiesenen Wert",
+          "correct": "zum zugewiesenen Wert",
+          "context": "Incorrect contraction with dative case"
+        },
+        {
+          "wrong": "ein schnelles Überfliegen",
+          "correct": "das schnelle Überfliegen",
+          "context": "Incorrect article for neuter noun"
         }
       ]
     },
     {
-      "pattern_name": "Incorrect Clause Separation",
+      "pattern_name": "Orthographic Errors: Capitalization and Plural Forms",
       "category": "linguistic",
-      "subcategory": "Grammar",
+      "subcategory": "Orthography",
       "impact_level": "LOW",
-      "frequency": "occasional",
-      "frequency_count": 1,
-      "description": "Improper use of commas to separate main and explanatory clauses, where an em dash or semicolon would improve readability and sentence structure.",
+      "frequency": "common",
+      "frequency_count": 3,
+      "description": "Errors in noun capitalization and use of plural forms, which are minor but affect the professional appearance and correctness of the text.",
       "examples": [
         {
-          "wrong": "..., ein Phänomen, das als Temperaturgradient bezeichnet wird.",
-          "correct": "– ein Phänomen, das als Temperaturgradient bezeichnet wird.",
-          "context": "Explanatory clause following a main statement"
-        }
-      ]
-    },
-    {
-      "pattern_name": "Inappropriate Pluralization",
-      "category": "linguistic",
-      "subcategory": "Grammar",
-      "impact_level": "LOW",
-      "frequency": "occasional",
-      "frequency_count": 1,
-      "description": "Use of plural forms where singular is idiomatic and contextually appropriate, leading to less natural German expressions.",
-      "examples": [
+          "wrong": "moment",
+          "correct": "Moment",
+          "context": "Noun capitalization in general text"
+        },
         {
-          "wrong": "die Niederschlagsmuster eines Gebiets",
-          "correct": "das Niederschlagsmuster eines Gebiets",
-          "context": "Referring to general patterns in a region"
+          "wrong": "Lebensmitteln",
+          "correct": "Lebensmittel",
+          "context": "Plural form in food-related context"
+        },
+        {
+          "wrong": "Moses",
+          "correct": "Mose",
+          "context": "Localization of biblical names"
         }
       ]
     },
     {
-      "pattern_name": "Lexical Choice with Negative Connotation",
+      "pattern_name": "Lexical Precision in Technical Contexts",
       "category": "linguistic",
       "subcategory": "Lexical",
       "impact_level": "LOW",
       "frequency": "occasional",
-      "frequency_count": 1,
-      "description": "Selection of words with unintended negative connotations, where a more neutral term is preferred for educational clarity.",
+      "frequency_count": 2,
+      "description": "Use of general verbs or terms instead of more precise technical vocabulary, which can reduce clarity in educational or scientific contexts.",
       "examples": [
         {
-          "wrong": "Daten ... manipulieren",
-          "correct": "Daten ... verarbeiten",
-          "context": "Describing algorithmic data handling in educational contexts"
+          "wrong": "haben",
+          "correct": "besitzen",
+          "context": "Describing properties of variables in programming"
+        },
+        {
+          "wrong": "funktionieren",
+          "correct": "ausgeführt werden",
+          "context": "Describing program execution"
         }
       ]
     },
     {
-      "pattern_name": "Unnatural tense usage for general statements",
-      "category": "localization",
-      "subcategory": "Style",
-      "impact_level": "LOW",
-      "frequency": "common",
-      "frequency_count": 1,
-      "description": "Use of conditional or modal forms (e.g., 'würden') instead of present tense for general truths, which reduces clarity and naturalness in educational German.",
-      "examples": [
-        {
-          "wrong": "Gleichungen hingegen würden das Gleichheitszeichen enthalten, um eine Lösung zu finden.",
-          "correct": "Gleichungen hingegen enthalten das Gleichheitszeichen, um eine Lösung zu finden.",
-          "context": "General explanation of mathematical concepts"
-        }
-      ]
-    },
-    {
-      "pattern_name": "Unnatural phrasing affecting clarity",
-      "category": "localization",
-      "subcategory": "Style",
-      "impact_level": "LOW",
-      "frequency": "common",
-      "frequency_count": 1,
-      "description": "Use of awkward or literal translations that result in unnatural phrasing, making explanations less clear for German-speaking learners.",
-      "examples": [
-        {
-          "wrong": "solange sie zu dem zugewiesenen Wert passen",
-          "correct": "abhängig vom jeweils zugewiesenen Wert",
-          "context": "Explanation of variable assignment in Python"
-        }
-      ]
-    },
-    {
-      "pattern_name": "Use of English technical terms instead of standard German terminology",
+      "pattern_name": "Redundant or unnecessary abbreviations",
       "category": "localization",
       "subcategory": "Terminology",
       "impact_level": "LOW",
       "frequency": "common",
-      "frequency_count": 1,
-      "description": "Retention of English terms (e.g., 'Dictionaries') where established German equivalents exist, reducing localization quality and learner familiarity.",
+      "frequency_count": 2,
+      "description": "Abbreviations are used even when the full term is clear from context, leading to redundancy and reduced readability. Removing unnecessary abbreviations streamlines content.",
       "examples": [
         {
-          "wrong": "was als 'Listen' oder 'Dictionaries' bezeichnet wird",
-          "correct": "was als 'Listen' oder 'Wörterbücher' bezeichnet wird",
-          "context": "Naming Python data types in educational content"
+          "wrong": "Artikel 26 der Allgemeinen Erklärung der Menschenrechte (AEMR)",
+          "correct": "Artikel 26 der Allgemeinen Erklärung der Menschenrechte",
+          "context": "Legal/educational context"
         }
       ]
     }

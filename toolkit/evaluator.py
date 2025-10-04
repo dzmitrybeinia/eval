@@ -256,11 +256,10 @@ class QuizEvaluator:
                 "file": md_file.name,
                 "language": language.title(),
                 "timestamp": datetime.now().isoformat(),
-                "model": "Azure OpenAI o3-mini",
+                "model": "gpt 4.1",
             }
         )
         metadata["label"] = label.original
-        metadata["label_normalized"] = label.normalized
 
         scores = self.scorer.calculate_score(evaluation_json.get("issues", []))
         evaluation_json["scores"] = scores

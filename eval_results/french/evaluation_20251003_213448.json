@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Exprimez-vous clairement",
+      "correction": "Exprimez-vous clairement",
+      "description": "Although the phrase 'Exprimez-vous clairement' is linguistically correct, the subsequent example uses 'Je me sens contrarié parce que...', which is inconsistent with the imperative form. For educational clarity, the instruction should match the example, such as 'Exprimez clairement ce que vous ressentez' or 'Utilisez des phrases en \"je\" pour expliquer ce que vous ressentez.' This would better align the instruction with the recommended communication strategy.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Prenez une grande respiration et abordez la situation avec un esprit clair.",
+      "correction": "Prenez une profonde respiration et abordez la situation avec un esprit clair.",
+      "description": "The phrase 'Prenez une grande respiration' is understandable but less idiomatic in French. The more natural expression is 'Prenez une profonde respiration.' This adjustment improves the naturalness and cultural appropriateness of the advice.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Utilisez des phrases en \"je\" pour expliquer vos sentiments (exemple : \"Je me sens contrarié parce que...\").",
+      "correction": "Utilisez des phrases commençant par \"je\" pour expliquer vos sentiments (exemple : \"Je me sens contrarié parce que...\").",
+      "description": "The phrase 'Utilisez des phrases en \"je\"' is a calque from English ('I-statements') and is not fully idiomatic in French. The more natural and educationally clear phrasing is 'Utilisez des phrases commençant par \"je\".' This change enhances clarity and aligns with French communication norms.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Conflict_Resolution.llm.md",
+    "language": "French",
+    "timestamp": "2025-10-03T21:34:48.403889",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

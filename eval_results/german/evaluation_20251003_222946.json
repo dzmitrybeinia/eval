@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "Eine Person sollte immer in ihrem eigenen Online-Nachrichten antworten.",
+      "correction": "Eine Person sollte immer auf ihre eigenen Online-Nachrichten antworten.",
+      "description": "The original sentence contains a syntactic error: 'in ihrem eigenen Online-Nachrichten antworten' is incorrect in German. The correct preposition is 'auf', and the noun 'Online-Nachrichten' should be in the accusative plural form 'ihre eigenen Online-Nachrichten'. The corrected sentence is 'Eine Person sollte immer auf ihre eigenen Online-Nachrichten antworten.' This change ensures proper prepositional usage and noun case agreement.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Obwohl man möglicherweise sicher in den Umgang mit persönlichen Informationen fühlt, bleibt es wichtig, die Privatsphäre anderer zu schützen.",
+      "correction": "Obwohl man sich möglicherweise im Umgang mit persönlichen Informationen sicher fühlt, bleibt es wichtig, die Privatsphäre anderer zu schützen.",
+      "description": "The original sentence has a grammatical error in the reflexive verb construction and prepositional phrase. 'Sicher in den Umgang mit persönlichen Informationen fühlt' is incorrect. The correct form is 'sich sicher fühlt' and the prepositional phrase should be 'im Umgang mit persönlichen Informationen'. The corrected sentence is 'Obwohl man sich möglicherweise im Umgang mit persönlichen Informationen sicher fühlt, bleibt es wichtig, die Privatsphäre anderer zu schützen.'",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Das Gegenteil der Wahrheit, schlechte digitale Etikette trägt oft zu negativen Ergebnissen bei.",
+      "correction": "Im Gegenteil, schlechte digitale Etikette führt oft zu negativen Ergebnissen.",
+      "description": "The original sentence uses an unnatural phrase 'Das Gegenteil der Wahrheit', which is not idiomatic in German. The more natural and culturally appropriate expression is 'Im Gegenteil'. Additionally, 'trägt zu negativen Ergebnissen bei' is less direct than 'führt zu negativen Ergebnissen', which is clearer and more commonly used in educational contexts.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Dies kann zu einer stärkeren und unterstützenderen Online-Kompetenz führen.",
+      "correction": "Dies kann zu einer stärkeren und unterstützenden Online-Gemeinschaft führen.",
+      "description": "The term 'Online-Kompetenz' is not the most natural choice in this context. The intended meaning is about fostering a supportive online community, not individual digital skills. 'Online-Gemeinschaft' is the culturally and contextually appropriate term for describing a positive network environment.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Digital_Etiquette.slm.md",
+    "language": "German",
+    "timestamp": "2025-10-03T22:29:46.108727",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.0,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 1.0,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.6,
+      "localization_penalty": 0.4,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

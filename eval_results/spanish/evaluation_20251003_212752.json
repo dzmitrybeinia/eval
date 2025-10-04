@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "Llama a los servicios de emergencia (como el 911) una vez fuera.",
+      "correction": "Llama a los servicios de emergencia (como el 112 o el número local correspondiente) una vez fuera.",
+      "description": "The reference to '911' is not universally applicable in Spanish-speaking countries, where '112' or other local emergency numbers are standard. For educational content intended for a broad Spanish-speaking audience, it is important to use regionally appropriate emergency contact information or indicate that the number may vary by country.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Instalar y mantener alarmas de humo en áreas clave como habitaciones y pasillos.",
+      "correction": "Instalar y mantener detectores de humo en áreas clave como habitaciones y pasillos.",
+      "description": "The term 'alarmas de humo' is less commonly used than 'detectores de humo' in most Spanish-speaking regions. 'Detectores de humo' is the standard term for smoke detection devices, while 'alarmas de humo' may cause confusion or sound unnatural. Using the correct terminology improves clarity and professionalism.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Nunca vuelvas a entrar a un edificio en llamas.",
+      "correction": "Nunca vuelvas a entrar en un edificio en llamas.",
+      "description": "The correct preposition in Spanish for entering a place is 'entrar en', not 'entrar a'. While 'entrar a' is sometimes used colloquially in Latin America, 'entrar en' is the standard and more widely accepted form in formal and educational contexts.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Fire_Safety.llm.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-03T21:27:52.401840",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.5,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

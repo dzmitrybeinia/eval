@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Proste maszyny są narzędziami, które pomagają nam wykonywać zadania łatwiej, zmniejszając wysiłek lub zmieniając kierunek siły.",
+      "correction": "Proste maszyny są narzędziami, które pomagają nam wykonywać zadania łatwiej, zmniejszając wysiłek lub zmieniając kierunek działania siły.",
+      "description": "The phrase 'zmieniając kierunek siły' is grammatically correct, but the noun 'siła' in Polish often requires clarification when used in technical contexts. The more precise and natural expression is 'zmieniając kierunek działania siły', which clarifies that it is the direction of the force's action being changed. This improves both linguistic precision and technical clarity.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Koło z osią składa się z większego koła przymocowanego do mniejszej osi, które obracają się razem.",
+      "correction": "Koło z osią składa się z większego koła przymocowanego do mniejszej osi, które obracają się wspólnie.",
+      "description": "The phrase 'obracają się razem' is understandable, but in technical and educational Polish, 'obracają się wspólnie' is the more standard and natural term for describing the coordinated rotation of wheel and axle. This change improves the professional tone and aligns with Polish engineering terminology.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Proste maszyny są niezastąpionymi narzędziami, które pomagają nam wykonywać zadania bardziej efektywnie przez zmniejszenie wysiłku lub zmianę kierunku siły.",
+      "correction": "Proste maszyny są niezastąpionymi narzędziami, które pomagają nam wykonywać zadania efektywniej przez zmniejszenie wysiłku lub zmianę kierunku siły.",
+      "description": "The phrase 'bardziej efektywnie' is grammatically correct, but 'efektywniej' is the preferred comparative form in Polish for adverbs. This change enhances the naturalness and fluency of the sentence, making it more suitable for educational content.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Simple_Machines_1.llm.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T21:33:09.787384",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Esta afirmação é verdadeira porque, à medida que você se move para cima em um grupo, mais camadas eletrônicas são adicionadas, o que aumenta o tamanho atômico.",
+      "correction": "Esta afirmação é verdadeira porque, à medida que você se move para baixo em um grupo, mais camadas eletrônicas são adicionadas, o que aumenta o tamanho atômico.",
+      "description": "The original sentence contains a scientific inaccuracy due to incorrect use of the phrase 'para cima'. In the context of the periodic table, moving 'down' a group adds more electron shells, increasing atomic size. The sentence incorrectly states that moving 'up' adds shells, which is factually incorrect and misleading. The correction changes 'para cima' to 'para baixo' to accurately reflect the scientific concept.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "O sódio (Na) tem 1 elétron de valência, enquanto o cloro (Cl) tem 7 elétrons de valência, tornando o cloro mais reativo e mais propenso a ganhar elétrons para completar sua camada de valência, não ter mais de elétrons de valência.",
+      "correction": "O sódio (Na) tem 1 elétron de valência, enquanto o cloro (Cl) tem 7 elétrons de valência, tornando o cloro mais reativo e mais propenso a ganhar elétrons para completar sua camada de valência, não tendo mais elétrons de valência.",
+      "description": "The phrase 'não ter mais de elétrons de valência' is grammatically incorrect and awkward. It should be 'não tendo mais elétrons de valência' to properly convey the intended meaning. The correction improves grammatical structure and clarity, ensuring the sentence is both accurate and natural in Brazilian Portuguese.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "A eletronegatividade de um elemento aumenta ao se mover de esquerda para direita em uma coluna da tabela periódica.",
+      "correction": "A eletronegatividade de um elemento aumenta ao se mover da esquerda para a direita em um período da tabela periódica.",
+      "description": "The original sentence incorrectly uses 'coluna' (column) instead of 'período' (period) and omits the definite articles 'da' and 'a' required for natural phrasing. In the periodic table, electronegativity increases from left to right across a period, not down a column. The correction addresses both the scientific inaccuracy and improves grammatical structure.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Periodic_Table.slm.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T22:34:03.254529",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.2,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.8,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.8,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

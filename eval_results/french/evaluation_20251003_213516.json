@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "Utilisez de courtes lignes irrégulières pour créer des textures rugueuses, comme l'écorce d'un arbre.",
+      "correction": "Utilisez de courtes lignes irrégulières pour créer des textures rugueuses, comme l'écorce d’arbre.",
+      "description": "The phrase 'l'écorce d'un arbre' is grammatically correct, but in artistic contexts, 'l'écorce d’arbre' is more idiomatic and concise in French, avoiding unnecessary repetition and sounding more natural. This improves the overall flow and clarity of the instruction.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Préparez-vous à explorer ces techniques captivantes ! 🎨",
+      "correction": "Préparez-vous à explorer ces techniques captivantes !",
+      "description": "The use of the emoji 🎨 may be considered informal and less appropriate for educational content aimed at a broad audience, especially in French academic or instructional contexts where a more formal tone is preferred. Removing the emoji ensures the style remains professional and culturally appropriate.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Drawing_Techniques.llm.md",
+    "language": "French",
+    "timestamp": "2025-10-03T21:35:16.443455",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.8,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.2,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

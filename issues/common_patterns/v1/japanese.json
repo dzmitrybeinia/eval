@@ -1,98 +1,501 @@
 {
   "metadata": {
     "label": "v1",
-    "label_normalized": "v1",
-    "label_key": "v1",
     "language": "japanese",
-    "generated_at": "2025-10-03T13:14:04.443066"
+    "generated_at": "2025-10-03T20:39:18.620960"
   },
   "top_error_patterns": [
     {
-      "pattern_name": "Incorrect or Nonstandard Scientific Terminology",
+      "pattern_name": "Incorrect punctuation and period usage",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "HIGH",
+      "frequency": "very_common",
+      "frequency_count": 12,
+      "description": "Frequent use of half-width periods ('.'), double periods, or unnecessary Western punctuation at the end of Japanese sentences, which disrupts readability and violates Japanese orthographic conventions.",
+      "examples": [
+        {
+          "wrong": "ナイル川はエジプトの生涯にわたる経済発展の重要な要因でした.",
+          "correct": "ナイル川はエジプトの長きにわたる経済発展の重要な要因でした。",
+          "context": "Sentence ends with half-width period instead of Japanese full stop."
+        },
+        {
+          "wrong": "感情は私たちが自然に経験するものです。異なる人々は異なる感情を持つことがありますが、感情自体は全員が経験するものではありません。... ",
+          "correct": "感情は私たちが自然に経験するものです。異なる人々は異なる感情を持つことがありますが、感情自体は全員が経験するものです。",
+          "context": "Double punctuation at sentence end."
+        },
+        {
+          "wrong": "儿童は自分の感情を完全に理解することができます。.",
+          "correct": "子どもは自分の感情を完全に理解することができます。",
+          "context": "Half-width period after Japanese full stop."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Lexical errors and unnatural word choices",
       "category": "linguistic",
       "subcategory": "Lexical",
       "impact_level": "HIGH",
-      "frequency": "occasional",
-      "frequency_count": 1,
-      "description": "Use of nonstandard or incorrect scientific terms (e.g., '冷却帯') instead of established terminology (e.g., '極地帯'), leading to factual inaccuracies and confusion.",
+      "frequency": "very_common",
+      "frequency_count": 9,
+      "description": "Use of non-standard, incorrect, or unnatural words and phrases that are not appropriate in Japanese, leading to confusion or misinterpretation.",
       "examples": [
         {
           "wrong": "冷却帯の温度は非常に高いため、生物多様性が豊かです。",
-          "correct": "極地帯の温度は非常に低いため、生物多様性は豊かではありません。",
-          "context": "Quiz item describing climate zones; incorrect term and factual error about polar regions."
+          "correct": "極地気候帯の温度は非常に低いため、生物多様性は限られています。",
+          "context": "Incorrect climate terminology."
+        },
+        {
+          "wrong": "冷革な対話が続きます。",
+          "correct": "冷静な対話が続きます。",
+          "context": "Non-existent word '冷革' instead of '冷静'."
+        },
+        {
+          "wrong": "物語の中心的なアイデアは物語の説得力としかりみです。",
+          "correct": "物語の中心的なアイデアは物語の説得力と魅力です。",
+          "context": "Typographical error 'しかりみ' instead of '魅力'."
         }
       ]
     },
     {
-      "pattern_name": "Incorrect Technical Terminology",
+      "pattern_name": "Grammatical errors and unnatural constructions",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "HIGH",
+      "frequency": "common",
+      "frequency_count": 7,
+      "description": "Frequent use of incorrect grammatical structures, negative forms, or logical contradictions that obscure meaning and reduce clarity.",
+      "examples": [
+        {
+          "wrong": "三角形には頂点が3つすべてではありません。",
+          "correct": "三角形には必ず3つの頂点があります。",
+          "context": "Logical contradiction and incorrect negative construction."
+        },
+        {
+          "wrong": "オンラインで共有される情報は必ずしも重要です。.",
+          "correct": "オンラインで共有される情報は必ずしも重要ではありません。",
+          "context": "Incorrect negative form."
+        },
+        {
+          "wrong": "族は同じ族に属する元素の数の電子が同じであることによって決まります。. ",
+          "correct": "族は同じ族に属する元素の外殻電子の数が同じであることによって決まります。",
+          "context": "Unnatural and unclear grammatical structure."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Use of non-Japanese or corrupted characters",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "HIGH",
+      "frequency": "occasional",
+      "frequency_count": 4,
+      "description": "Presence of Chinese terms, corrupted text, or incomplete words due to encoding errors, which severely impact comprehension and professionalism.",
+      "examples": [
+        {
+          "wrong": "儿童は自分の感情を完全に理解することができます。.",
+          "correct": "子どもは自分の感情を完全に理解することができます。",
+          "context": "Chinese term '儿童' instead of Japanese '子ども'."
+        },
+        {
+          "wrong": "強力なパスワードは短く簡����antoいすることが推奨されます。.",
+          "correct": "強力なパスワードは短く簡単にすることが推奨されます。",
+          "context": "Corrupted text in '簡����antoい'."
+        },
+        {
+          "wrong": "アメリカの選挙は公開され、市民が自由に参加することができる民主的なプロセスです。この誤解を解消するために、選挙はどのような民主主義の基礎であるかを考えてみてくだ�。",
+          "correct": "アメリカの選挙は公開され、市民が自由に参加することができる民主的なプロセスです。この誤解を解消するために、選挙はどのような民主主義の基礎であるかを考えてみてください。",
+          "context": "Incomplete word due to encoding error."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect or misleading scientific terminology",
+      "category": "linguistic",
+      "subcategory": "Terminology",
+      "impact_level": "HIGH",
+      "frequency": "occasional",
+      "frequency_count": 3,
+      "description": "Use of incorrect scientific terms or factual errors that misrepresent key concepts, affecting educational accuracy and learner trust.",
+      "examples": [
+        {
+          "wrong": "原子構成は元素の酸素電子数によって決定されます。. ",
+          "correct": "原子構成は元素の原子番号によって決定されます。",
+          "context": "Non-standard term '酸素電子数' instead of '原子番号'."
+        },
+        {
+          "wrong": "核電荷が周期によって減少する.",
+          "correct": "核電荷は周期によって増加する。",
+          "context": "Scientifically inaccurate statement."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect or misleading terminology",
       "category": "localization",
-      "subcategory": "Lexical",
+      "subcategory": "Terminology",
       "impact_level": "HIGH",
       "frequency": "occasional",
       "frequency_count": 1,
-      "description": "Use of non-standard or incorrect technical terms that do not align with established terminology in Japanese, leading to confusion and reduced educational value.",
+      "description": "Use of terms that misrepresent key concepts, leading to factual inaccuracies and confusion for learners.",
       "examples": [
         {
-          "wrong": "冷却帯",
-          "correct": "極地帯",
-          "context": "Referring to polar regions in geography or climatology content"
+          "wrong": "ノンフィクション書は、歴史上の人物の生活についての創作物です。",
+          "correct": "ノンフィクション書は、歴史上の人物の生活についての創作物ではありません。",
+          "context": "Definition of non-fiction misrepresented, causing misunderstanding of genre distinctions."
         }
       ]
     },
     {
-      "pattern_name": "Incorrect Kanji or Loanword Usage",
+      "pattern_name": "Inappropriate or unnatural word choice",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "HIGH",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Selection of words that are culturally inappropriate or unnatural in educational contexts, reducing clarity and professionalism.",
+      "examples": [
+        {
+          "wrong": "記憶の力を最大限に活用する秘謀です。",
+          "correct": "記憶の力を最大限に活用する方法です。",
+          "context": "Use of '秘謀' (secret plot) instead of '方法' (method) in instructional content."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Sentence ends with both Japanese full stop (。) and half-width period (.)",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "MEDIUM",
+      "frequency": "very_common",
+      "frequency_count": 210,
+      "description": "Sentences frequently end with a Japanese full stop (。) immediately followed by a half-width period (.), resulting in double punctuation. This is not standard in Japanese writing and affects professionalism and readability.",
+      "examples": [
+        {
+          "wrong": "古代エジプトではファラオの権力が絶えず変わり、各ファラオは建築に大きな貢納を求めませんでした.",
+          "correct": "古代エジプトではファラオの権力が絶えず変わり、各ファラオは建築に大きな貢納を求めませんでした。",
+          "context": "Quiz feedback and explanations"
+        },
+        {
+          "wrong": "感情は私たちの経験に影響を与える。.",
+          "correct": "感情は私たちの経験に影響を与える。",
+          "context": "General statements and definitions"
+        },
+        {
+          "wrong": "科学的手法は主に芸術的なスキルの発展を目指すために使われます。.",
+          "correct": "科学的手法は主に芸術的なスキルの発展を目指すために使われます。",
+          "context": "Explanatory sentences in science content"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Sentence ends with half-width period (.) instead of full-width Japanese period (。)",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 45,
+      "description": "Sentences end with a half-width period (.) rather than the standard Japanese full-width period (。), which is incorrect in Japanese writing and affects the naturalness and correctness of the text.",
+      "examples": [
+        {
+          "wrong": "感情知能を持つ人は、自分の感情や他人の感情のニュアンスをより深く理解することができる.",
+          "correct": "感情知能を持つ人は、自分の感情や他人の感情のニュアンスをより深く理解することができる。",
+          "context": "Quiz statements and definitions"
+        },
+        {
+          "wrong": "困難な課題を避けることが成長にとって最も有益である.",
+          "correct": "困難な課題を避けることが成長にとって最も有益である。",
+          "context": "Mindset and growth explanations"
+        },
+        {
+          "wrong": "イオン推進システムは化学ロケットよりも速い速度で宇宙に到達できます.",
+          "correct": "イオン推進システムは化学ロケットよりも速い速度で宇宙に到達できます。",
+          "context": "Science and technology content"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect or unnatural kanji usage",
       "category": "linguistic",
       "subcategory": "Orthography",
       "impact_level": "MEDIUM",
       "frequency": "common",
       "frequency_count": 2,
-      "description": "Frequent use of incorrect kanji or non-standard loanwords leads to confusion and reduces clarity. This includes kanji errors and inaccurate transliterations of technical terms.",
+      "description": "Use of kanji or terms that are incorrect or unnatural in Japanese, often due to direct translation or confusion with similar Chinese characters.",
       "examples": [
         {
-          "wrong": "状慁",
-          "correct": "状況",
-          "context": "Kanji error for 'situation' in a mathematical explanation"
+          "wrong": "資源が豊富な地域は経済が繁荣することが一般的です。.",
+          "correct": "資源が豊富な地域は経済が繁栄することが一般的です。",
+          "context": "Incorrect kanji '繁荣' used instead of '繁栄'; also contains mixed punctuation."
         },
         {
-          "wrong": "パイプラインインターミディエンス",
-          "correct": "パイプラインインターミディエイト",
-          "context": "Incorrect loanword for 'pipeline intermediate' in a technical context"
+          "wrong": "グローバル貿易は経済成長を消減させることがあります。",
+          "correct": "グローバル貿易は経済成長を減少させることがあります。",
+          "context": "Non-standard term '消減' used instead of the natural '減少'."
         }
       ]
     },
     {
-      "pattern_name": "Redundant or Incorrect Sentence-ending Periods",
+      "pattern_name": "Mixed or incorrect punctuation",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 2,
+      "description": "Sentences end with both Japanese and Western periods, or contain unnecessary punctuation, which disrupts readability and professionalism.",
+      "examples": [
+        {
+          "wrong": "資源が豊富な地域は経済が繁荣することが一般的です。.",
+          "correct": "資源が豊富な地域は経済が繁栄することが一般的です。",
+          "context": "Ends with both Japanese full stop and English period."
+        },
+        {
+          "wrong": "その通りです。感情は私たちの経験、たとえそれが短期間であっても長期間もあります。喜びや悲しみ、怒りなど、感情は私たちの行動や考え方に影響を与え、人間関係において重要な役割を果たします。.",
+          "correct": "その通りです。感情は私たちの経験、たとえそれが短期間であっても長期間であってもあります。喜びや悲しみ、怒りなど、感情は私たちの行動や考え方に影響を与え、人間関係において重要な役割を果たします。",
+          "context": "Unnecessary period at the end (。.)"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Unnatural or incorrect verb forms",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 2,
+      "description": "Use of verb forms that are grammatically incorrect or unnatural in Japanese, affecting clarity and flow.",
+      "examples": [
+        {
+          "wrong": "イデーションは困難を探しているプロセスです。",
+          "correct": "イデーションは困難を探すプロセスです。",
+          "context": "Continuous verb form '探している' used instead of the more appropriate '探す'."
+        },
+        {
+          "wrong": "記憶術は、覚えやすいものや既知のものに情報を関連付けることで記憶を助けるツールです。",
+          "correct": "記憶術は、覚えやすいものや既知のものに情報を関連付けて記憶を助ける方法です。",
+          "context": "Verb phrase and noun choice ('ツール' vs '方法') are unnatural for educational context."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Unnatural lexical choices or direct loan translations",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 2,
+      "description": "Use of words or phrases that are direct translations from English or otherwise unnatural in Japanese, reducing clarity and localization fit.",
+      "examples": [
+        {
+          "wrong": "これは、相互作用がフィールドが異なる可能性があるためです。",
+          "correct": "これは、相互作用する相手の背景が異なる可能性があるためです。",
+          "context": "Direct loan 'フィールド' used instead of natural '背景'."
+        },
+        {
+          "wrong": "デジタルエチケットは、私がオンラインで見せる外見が全ての世界で受け取られるという考えに基づいていません。",
+          "correct": "デジタルエチケットは、私がオンラインで見せる外見が全ての世界で受け入れられるという考えに基づいていません。",
+          "context": "Incorrect verb '受け取られる' used instead of '受け入れられる'."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Unnatural phrasing and particle usage",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 2,
+      "description": "Sentences contain awkward phrasing or incorrect particle usage, making them difficult to understand or less idiomatic.",
+      "examples": [
+        {
+          "wrong": "この私たちの食事には、炭水化物をサラダやご飯に、タンパク質を鶏肉や豆腐に、脂質をオリーブオイルやナッツにとることで摂取する食材が含まれています。",
+          "correct": "私たちの食事には、サラダやご飯から炭水化物、鶏肉や豆腐からタンパク質、オリーブオイルやナッツから脂質を摂取する食材が含まれています。",
+          "context": "Unnatural phrasing and incorrect particle usage for nutrient sources."
+        },
+        {
+          "wrong": "陰影の技法には、光源の位置が関係ない。",
+          "correct": "陰影の技法には、光源の位置が関係ありません。",
+          "context": "Plain negative form used instead of polite form, affecting tone and register."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Non-standard mathematical notation formatting",
+      "category": "localization",
+      "subcategory": "Format",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 2,
+      "description": "Use of backticks and asterisks for math expressions is not standard in Japanese educational content. Proper formatting uses plain numbers/variables and the multiplication sign (×).",
+      "examples": [
+        {
+          "wrong": "シャツ一枚の値段が`20`円で、3枚購入すると合計費用は:\n- `x = 20`（シャツ1枚の値段）  \n- 合計 = `3 * x = 3 * 20 = 60`円",
+          "correct": "シャツ一枚の値段が20円で、3枚購入すると合計費用は:\n- x = 20（シャツ1枚の値段）\n- 合計 = 3 × x = 3 × 20 = 60円",
+          "context": "Math explanations in quiz content"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Unnatural or misleading copyright expressions",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Direct translations about copyright (e.g., gratitude and payment for permission) are unnatural and may mislead learners. Standard Japanese uses '許可を得るべきです' for clarity.",
+      "examples": [
+        {
+          "wrong": "オリジナルの作品の著作者に感謝と支払いの形で承認を得るべきです。",
+          "correct": "オリジナルの作品の著作者から許可を得るべきです。",
+          "context": "Copyright guidance in educational content"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Misleading or unclear terminology for genre definitions",
+      "category": "localization",
+      "subcategory": "Terminology",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Genre definitions (e.g., non-fiction) use ambiguous or informal phrasing. Polite, clear forms are preferred for educational clarity.",
+      "examples": [
+        {
+          "wrong": "ノンフィクションは完全に架空の世界ではない。",
+          "correct": "ノンフィクションは完全に架空の世界ではありません。",
+          "context": "Genre explanation in quiz items"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Direct translation of scientific terminology",
+      "category": "localization",
+      "subcategory": "Terminology",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Directly translated scientific phrases (e.g., '証拠を提供します') are less natural in Japanese. Use '示しています' for clearer, culturally appropriate explanations.",
+      "examples": [
+        {
+          "wrong": "これらの記憶テクニックは脳の構造が認知機能をサポートする証拠を提供します。",
+          "correct": "これらの記憶テクニックは脳の構造が認知機能を支えることを示しています。",
+          "context": "Scientific explanations in quiz content"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect phone number format",
+      "category": "localization",
+      "subcategory": "Format",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Use of US-style phone numbers is inappropriate for Japanese learners. Japanese phone number formats should be used for cultural relevance.",
+      "examples": [
+        {
+          "wrong": "123-456-7890",
+          "correct": "123-4567-890",
+          "context": "Example data in quiz items"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Sentence ends with two consecutive full-width periods (..)",
       "category": "linguistic",
       "subcategory": "Orthography",
       "impact_level": "LOW",
-      "frequency": "very_common",
-      "frequency_count": 80,
-      "description": "Sentences end with multiple periods (e.g., '..', '。。', '。.'), or with a half-width period (.) after a full-width Japanese period (。). Japanese sentences should end with a single full-width period (。) only. This error is systematic and appears in various forms throughout the content.",
+      "frequency": "occasional",
+      "frequency_count": 18,
+      "description": "Sentences end with two consecutive full-width periods (..), which is not standard in Japanese and can distract readers. Only one full-width period should be used.",
       "examples": [
         {
-          "wrong": "ナイル川はエジプトの生涯にわたる経済発展の重要な要因でした..",
-          "correct": "ナイル川はエジプトの生涯にわたる経済発展の重要な要因でした。",
-          "context": "Double half-width periods at the end of a sentence."
+          "wrong": "三角形の種類について学んでいるところなので、正三角形という名前が指しているのは、その特徴である3つの等しい辺についてのことです..",
+          "correct": "三角形の種類について学んでいるところなので、正三角形という名前が指しているのは、その特徴である3つの等しい辺についてのことです。",
+          "context": "Feedback and explanations"
         },
         {
-          "wrong": "例えば、陸上動物が冬になると皮が退色することはありません。。",
-          "correct": "例えば、陸上動物が冬になると皮が退色することはありません。",
-          "context": "Double full-width periods at the end of a sentence."
+          "wrong": "固定マインドセットは、自分の能力が固定されていると考え、挑戦や障害に直面することを避けがちです。この認識は、個人が新しいスキルを学び、成長する機会を見過ごす可能性があります..",
+          "correct": "固定マインドセットは、自分の能力が固定されていると考え、挑戦や障害に直面することを避けがちです。この認識は、個人が新しいスキルを学び、成長する機会を見過ごす可能性があります。",
+          "context": "Mindset and growth feedback"
         },
         {
-          "wrong": "動物は環境変化に適応せず、時間が経つと生存できることがあります。.",
-          "correct": "動物は環境変化に適応せず、時間が経つと生存できることがあります。",
-          "context": "Half-width period after a full-width period."
+          "wrong": "ニュートンの万有引力の法則は、物体間の距離が変わると引力が変動することを考慮しています。地球から離れるために必要な速度は、距離が着実に減少するにつれて確実に減少します..",
+          "correct": "ニュートンの万有引力の法則は、物体間の距離が変わると引力が変動することを考慮しています。地球から離れるために必要な速度は、距離が着実に減少するにつれて確実に減少します。",
+          "context": "Science explanations"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Unnecessary comma (、) after topic marker or at start of sentence",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 12,
+      "description": "Commas (、) are placed after the topic marker 'は' or at the start of sentences, which is unnecessary in Japanese and disrupts the natural flow. This is a minor orthographic issue.",
+      "examples": [
+        {
+          "wrong": "人権は、すべての人に平等に与えられる基本的な権利です。",
+          "correct": "人権はすべての人に平等に与えられる基本的な権利です。",
+          "context": "Human rights explanations"
         },
         {
-          "wrong": "変数を既知の値に置き換えることで方程式を解くことができる.",
-          "correct": "変数を既知の値に置き換えることで方程式を解くことができる。",
-          "context": "Sentence ends with a half-width period instead of a full-width period."
+          "wrong": "例えば、エレノア・ルーズベルトは、世界人権宣言を「すべての人々と国々のための共通の達成基準」と表現しました。",
+          "correct": "例えばエレノア・ルーズベルトは世界人権宣言を「すべての人々と国々のための共通の達成基準」と表現しました。",
+          "context": "Introductory phrases in explanations"
         },
         {
-          "wrong": "公民権運動は、アメリカの社会の変化に直接的な法的解決をもたらしました。.",
-          "correct": "公民権運動は、アメリカの社会の変化に直接的な法的解決をもたらしました。",
-          "context": "Redundant half-width period after a full-width period."
+          "wrong": "世界人権宣言は、戦争の恐怖や抑圧が再び起こることを防ぐために作成されました。",
+          "correct": "世界人権宣言は戦争の恐怖や抑圧が再び起こることを防ぐために作成されました。",
+          "context": "Historical context statements"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Emoji or informal symbol at end of educational sentence",
+      "category": "linguistic",
+      "subcategory": "Style",
+      "impact_level": "LOW",
+      "frequency": "rare",
+      "frequency_count": 1,
+      "description": "Use of emoji (e.g., 🌱) at the end of formal educational content is not standard and can affect the professional tone. Emojis should be avoided unless pedagogically justified.",
+      "examples": [
+        {
+          "wrong": "生命の基本を理解するための重要なステップです！ 🌱",
+          "correct": "生命の基本を理解するための重要なステップです！",
+          "context": "Lesson introductions"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Inappropriate Use of Emojis in Formal Contexts",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Emojis such as '🌏' are used in educational content, which can undermine the professional tone expected in formal Japanese materials.",
+      "examples": [
+        {
+          "wrong": "🌏",
+          "correct": "",
+          "context": "Lesson introductions or quiz instructions"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Unnatural Loanword Usage for Educational Terminology",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Loanwords like 'メカニズム' are used where more natural Japanese terms such as '仕組み' would improve clarity and fit for educational content.",
+      "examples": [
+        {
+          "wrong": "記憶の保存を強化するメカニズムです。",
+          "correct": "記憶の定着を強化する仕組みです。",
+          "context": "Explanations of scientific or educational concepts"
         }
       ]
     }

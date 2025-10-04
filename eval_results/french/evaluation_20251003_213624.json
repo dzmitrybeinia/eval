@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Il y avait un homme de Perpignan,\nQui rêvait de manger un vieux pain.\nIl se réveilla en peur,\nEn plein milieu d'une heure,\nPour voir son rêve devenir vrai enfin !",
+      "correction": "Il y avait un homme de Perpignan,\nQui rêvait de manger un vieux pain.\nIl se réveilla en pleine peur,\nEn plein milieu d'une heure,\nPour voir son rêve devenir vrai enfin !",
+      "description": "The phrase 'en peur' is grammatically incorrect in French; the correct expression is 'en pleine peur' to convey 'in full fear.' This correction improves grammatical accuracy and naturalness. Additionally, the limerick's rhythm and rhyme scheme are somewhat inconsistent with traditional limerick structure, but the primary issue is grammatical.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Un haïku est une forme de poésie japonaise composée de trois lignes :\n- La première ligne contient 5 syllabes.\n- La deuxième ligne contient 7 syllabes.\n- La troisième ligne contient 5 syllabes.",
+      "correction": "Un haïku est une forme de poésie japonaise composée de trois vers :\n- Le premier vers contient 5 syllabes.\n- Le deuxième vers contient 7 syllabes.\n- Le troisième vers contient 5 syllabes.",
+      "description": "In French poetic terminology, 'vers' is preferred over 'lignes' when referring to lines of poetry. Using 'lignes' is a calque from English and is less natural in French literary context. This correction enhances cultural appropriateness and professional terminology.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "La poésie en vers libres ne suit pas de schéma de rimes, de mètre ou de comptage de syllabes spécifique.",
+      "correction": "La poésie en vers libres ne suit pas de schéma de rimes, de mètre ou de nombre de syllabes spécifique.",
+      "description": "The phrase 'comptage de syllabes' is not standard in French poetic terminology; 'nombre de syllabes' is the accepted and natural expression. This correction improves the professional and natural use of terminology.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Il se réveilla en peur,",
+      "correction": "Il se réveilla en pleine peur,",
+      "description": "Beyond the grammatical issue, the phrase 'en peur' is stylistically awkward and not idiomatic in French. 'En pleine peur' is a more natural and expressive way to convey the intended meaning, improving both style and clarity.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Poetry_Forms.llm.md",
+    "language": "French",
+    "timestamp": "2025-10-03T21:36:24.558106",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.4,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

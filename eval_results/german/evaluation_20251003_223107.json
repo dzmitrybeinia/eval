@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "bestimmige",
+      "correction": "bestimmte",
+      "description": "The word 'bestimmige' is a spelling error; the correct form is 'bestimmte'. 'Bestimmte' is the proper adjective form in German for 'specific' or 'certain'. This error affects both the statement and the feedback, and should be corrected in both instances to maintain linguistic accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Lexical",
+      "original": "ist die Wahrscheinlichkeit, dass eine bestimmige Zahl erscheint, eine Frage der Vergangenheit.",
+      "correction": "ist die Wahrscheinlichkeit, dass eine bestimmte Zahl erscheint, unabhängig von vergangenen Würfen.",
+      "description": "The phrase 'eine Frage der Vergangenheit' is unnatural and misleading in German in this context. It suggests that the probability is determined by past events, which contradicts the intended meaning that each dice roll is independent. A more natural and accurate expression is 'unabhängig von vergangenen Würfen', which clearly communicates the concept of independence in probability games.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Da es vier Asse in einem Standarddeck mit 52 Karten gibt, beträgt die Wahrscheinlichkeit 4/52, was vereinfacht zu 1/13 oder ungefähr 7,69 %.",
+      "correction": "Da es vier Asse in einem Standarddeck mit 52 Karten gibt, beträgt die Wahrscheinlichkeit 4/52, was vereinfacht zu 1/13 oder ungefähr 7,69 %. Daher ist die Aussage, dass die Wahrscheinlichkeit ein Drittel beträgt, falsch.",
+      "description": "The feedback provides the correct calculation but does not address the error in the statement, which incorrectly claims the probability is one third. For educational clarity, the feedback should explicitly state that the correct probability is 1/13, not one third, to prevent misunderstanding.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Probability_Games.slm.md",
+    "language": "German",
+    "timestamp": "2025-10-03T22:31:07.013394",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.3,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.7,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.5,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "co do pytan, które są wiarygodne i powtarzalne.",
+      "correction": "co do pytań, które są wiarygodne i powtarzalne.",
+      "description": "The word 'pytan' is missing the required diacritic and correct case ending; it should be 'pytań' in the genitive plural to match the context. This is a significant grammatical and orthographic error affecting clarity and correctness.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "ożywiania kreatywnej myślenia",
+      "correction": "ożywiania kreatywnego myślenia",
+      "description": "The phrase 'kreatywnej myślenia' contains a gender and case agreement error. 'Myślenia' is neuter and requires the adjective 'kreatywnego' in the genitive singular, not 'kreatywnej'. This affects grammatical accuracy and naturalness.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "poprawia proces edukacyjny.",
+      "correction": "poprawia wyniki edukacyjne.",
+      "description": "The phrase 'poprawia proces edukacyjny' is semantically imprecise in this context. The intended meaning is to improve educational outcomes, not the process itself. 'Poprawia wyniki edukacyjne' is the correct and precise expression.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "aby stworzyć smaczną.",
+      "correction": "aby stworzyć smaczny posiłek.",
+      "description": "The phrase 'stworzyć smaczną' is incomplete and ungrammatical, as 'smaczną' is an adjective without a noun. The correct phrase is 'stworzyć smaczny posiłek', which completes the thought and maintains proper syntax.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Scientific_Method.slm.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T22:17:58.039108",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 8.9,
+    "classification": "PROFESSIONAL",
+    "total_issues": 4,
+    "total_penalty": 1.1,
+    "issue_breakdown": {
+      "linguistic": 4,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.1,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

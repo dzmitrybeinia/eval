@@ -1,0 +1,35 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Transformation des normes sociales, inspirant d'autres mouvements comme celui des droits des femmes ou des LGBTQ+.",
+      "correction": "Transformation des normes sociales, inspirant d'autres mouvements comme celui des droits des femmes ou des droits des personnes LGBTQ+.",
+      "description": "The phrase 'des LGBTQ+' is not fully natural in French educational contexts, as it omits the word 'droits' before 'des personnes LGBTQ+'. For clarity and cultural appropriateness, it is better to specify 'des droits des personnes LGBTQ+' to match the structure used for 'droits des femmes'. This ensures consistency and avoids ambiguity, making the reference more explicit and respectful.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Civil_Rights_Movement.llm.md",
+    "language": "French",
+    "timestamp": "2025-10-03T21:34:27.864700",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.9,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.1,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "¡Bienvenidos! Hoy exploraremos cómo la inteligencia emocional nos ayuda a comprender nuestras emociones, conectar con los demás y mejorar nuestras relaciones. 🌟",
+      "correction": "¡Bienvenidos! Hoy exploraremos cómo la inteligencia emocional nos ayuda a comprender nuestras emociones, conectar con los demás y mejorar nuestras relaciones.",
+      "description": "The use of the emoji '🌟' is not standard in formal educational Spanish content and may reduce the perceived professionalism of the material. Removing the emoji ensures the tone remains appropriate for an educational context.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Trabajo en equipo: Colaborar eficazmente para alcanzar metas comunes.",
+      "correction": "Trabajo en equipo: Colaborar eficazmente para lograr objetivos comunes.",
+      "description": "The phrase 'alcanzar metas comunes' is understandable, but 'lograr objetivos comunes' is more commonly used in educational and professional Spanish contexts, providing greater clarity and naturalness.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Emotional_Intelligence.llm.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-03T21:27:43.104496",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.8,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.2,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

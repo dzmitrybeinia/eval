@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "Es ist sicher, alle persönlichen Daten, die du online teilst, niemandem zuzufügen.",
+      "correction": "Es ist sicher, alle persönlichen Daten, die du online teilst, niemandem preiszugeben.",
+      "description": "The sentence contains a syntactic and lexical error. The verb 'zufügen' is incorrect in this context; the correct verb is 'preisgeben' or 'weiterzugeben', which means 'to disclose' or 'to share'. 'Zufügen' means 'to inflict', which does not fit the intended meaning. Additionally, the sentence structure is confusing and does not clearly convey the intended message about sharing personal data online. The corrected version uses 'preiszugeben' to accurately express the idea of disclosing personal data.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Obwohl die Teilung von Informationen online ein gewünschtes Verhalten sein kann, ist es wichtig, die Sensibilität und potenzielle Gefahren zu verstehen.",
+      "correction": "Obwohl das Teilen von Informationen online manchmal sinnvoll sein kann, ist es wichtig, die Sensibilität und potenziellen Gefahren zu verstehen.",
+      "description": "The phrase 'die Teilung von Informationen' is an unnatural calque from English; the more natural German expression is 'das Teilen von Informationen'. Additionally, 'potenzielle Gefahren' should be pluralized as 'potenziellen Gefahren' to match the adjective ending with the plural noun. The correction improves the naturalness and grammatical accuracy of the feedback.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Sie verwenden oft Formulierungen und Designs, die ein Gefühl von Vertrauenswürdigkeit vermitteln, was sie für Benutzer ansprechend macht.",
+      "correction": "Sie verwenden oft Formulierungen und Designs, die ein Gefühl von Vertrauenswürdigkeit vermitteln, wodurch sie für Benutzer glaubwürdig erscheinen.",
+      "description": "The phrase 'was sie für Benutzer ansprechend macht' is not idiomatic in German for describing phishing emails. A more natural expression is 'wodurch sie für Benutzer glaubwürdig erscheinen', which better conveys the intended meaning that phishing emails appear trustworthy to users. This correction enhances the naturalness and clarity of the statement.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Online_Safety.slm.md",
+    "language": "German",
+    "timestamp": "2025-10-03T22:30:52.157627",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

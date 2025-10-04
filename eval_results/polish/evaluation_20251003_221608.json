@@ -1,0 +1,139 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical|Grammar",
+      "original": "zadatkową rolą",
+      "correction": "zasadniczą rolą",
+      "description": "The word 'zadatkową' is a lexical error; it is not appropriate in this context and does not exist in standard Polish. The intended meaning is 'fundamental' or 'main', which should be 'zasadniczą'. This is a high-severity error as it affects comprehension.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar|Lexical",
+      "original": "zasady prawną",
+      "correction": "zasady prawne",
+      "description": "There is a grammatical error in gender and case agreement. 'Prawną' is singular feminine accusative, but 'zasady' is plural nominative, so the adjective should be 'prawne'. This error affects clarity and correctness.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical|Grammar",
+      "original": "prowadziłoby do rozkładu władzy",
+      "correction": "prowadziłoby do koncentracji władzy",
+      "description": "The phrase 'rozkładu władzy' is a lexical error; the correct concept is 'concentration of power' ('koncentracji władzy'), not 'breakdown of power'. This misleads the learner about the principle of separation of powers.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical|Grammar",
+      "original": "przez ludy przez wybłagowanie",
+      "correction": "przez obywateli w wyborach",
+      "description": "The phrase 'przez ludy przez wybłagowanie' contains two errors: 'ludy' is not used for 'citizens' in Polish, and 'wybłagowanie' is a lexical error (means 'begging', not 'election'). The correct phrase is 'przez obywateli w wyborach'. This is a critical error affecting meaning.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar|Lexical",
+      "original": "a ich okres trwa średnio dwa lata, a nie cztery",
+      "correction": "a jego kadencja trwa cztery lata",
+      "description": "The sentence incorrectly states that the president's term is two years, which is factually wrong. Also, 'ich okres' is incorrect; it should be 'jego kadencja'. This is both a factual and grammatical error.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical|Grammar",
+      "original": "zarządzenia budżetem",
+      "correction": "zarządzania budżetem",
+      "description": "The word 'zarządzenia' is a noun meaning 'regulation', but the intended meaning is the verb 'zarządzania' (management). This is a lexical and grammatical error.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical|Grammar",
+      "original": "dekret z daleka",
+      "correction": "dekret wykonawczy",
+      "description": "The phrase 'dekret z daleka' is a lexical error and does not make sense in Polish. The correct term for a presidential order is 'dekret wykonawczy'.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar|Lexical",
+      "original": "bez potrzeby poprzedzającego głosowania w Senacie",
+      "correction": "bez potrzeby głosowania w Senacie",
+      "description": "The phrase 'poprzedzającego głosowania' is awkward and ungrammatical. The correct phrase is 'bez potrzeby głosowania w Senacie'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar|Lexical",
+      "original": "mogą być przedstawiane przez Kongres, aby zyskać większą popularność",
+      "correction": "mogą być uchylone przez Kongres lub poddane kontroli",
+      "description": "The phrase 'przedstawiane przez Kongres, aby zyskać większą popularność' is factually and lexically incorrect. Executive orders are not presented by Congress for popularity; Congress can overturn or review them. This is a significant factual and lexical error.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar|Lexical",
+      "original": "wszelki dekret musi być poprzedzony głosowaniem w obu gałęziach Kongresu",
+      "correction": "dekret prezydenta nie wymaga głosowania w Kongresie",
+      "description": "This sentence is factually incorrect; presidential executive orders do not require a vote in Congress. The grammar is also awkward. Correction is needed for both factual and linguistic accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical|Grammar",
+      "original": "Sąd Najwyższy, głównie zajmuje się interpretacją prawa federalnego i ustaleniem jego zgodności z Konstytucją",
+      "correction": "Sąd Najwyższy głównie zajmuje się interpretacją prawa federalnego i ustalaniem jego zgodności z Konstytucją",
+      "description": "The verb 'ustaleniem' should be 'ustalaniem' to match the grammatical structure with 'zajmuje się'. This is a minor grammatical error.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Sądu Koronny",
+      "correction": "prezydenta",
+      "description": "The term 'Sądu Koronny' is incorrect and does not exist in the context of US government. The correct term for the head of the executive branch is 'prezydenta'. This is a high-severity lexical error.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar|Lexical",
+      "original": "wywierza równowagę",
+      "correction": "zapewnia równowagę",
+      "description": "The verb 'wywierza' is incorrect; the correct verb is 'zapewnia' (provides/ensures). This is a lexical and grammatical error.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical|Grammar",
+      "original": "wętki i uchwalone prawa",
+      "correction": "weto i uchwalone ustawy",
+      "description": "The word 'wętki' is not a Polish word; the correct term is 'weto' (veto). Also, 'uchwalone prawa' should be 'uchwalone ustawy' (enacted laws). This is a high-severity lexical error.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Government_Structure.slm.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T22:16:08.213501",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 6.2,
+    "classification": "SUBSTANDARD",
+    "total_issues": 14,
+    "total_penalty": 3.8,
+    "issue_breakdown": {
+      "linguistic": 14,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 3.8,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

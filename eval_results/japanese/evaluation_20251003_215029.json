@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "🌟感情知能は私たちの日々の生活をより豊かにする力を秘めています！",
+      "correction": "感情知能は私たちの日々の生活をより豊かにする力を秘めています！",
+      "description": "The use of the star emoji (🌟) at the beginning of the sentence is not standard in Japanese educational content and may be perceived as informal or distracting. Removing the emoji ensures a more professional and culturally appropriate tone for an educational context.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "感情知能（EI）",
+      "correction": "感情知能（EQ）",
+      "description": "The abbreviation 'EI' is not commonly used in Japanese for 'Emotional Intelligence.' The standard and widely recognized abbreviation is 'EQ.' Using 'EQ' ensures consistency with local terminology and improves comprehension for Japanese learners.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "感情的な洞察を行動や意思決定に活用する。",
+      "correction": "感情的な洞察を行動や意思決定に活かす。",
+      "description": "The verb '活用する' is typically used for utilizing tools, resources, or skills, while '活かす' is more natural when referring to applying insights or abilities in Japanese. This correction improves the lexical precision and naturalness of the sentence.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "クラスメートとのグループプロジェクトでは、積極的に意見を共有し、意見の違いを尊重しながら解決することが必要です。",
+      "correction": "クラスメートとのグループプロジェクトでは、積極的に意見を共有し、意見の違いを尊重しながら解決することが大切です。",
+      "description": "The phrase '必要です' (necessary) is somewhat formal and directive, which may feel unnatural in Japanese educational materials aimed at encouraging students. '大切です' (important) is softer and more culturally appropriate, promoting a positive and supportive tone.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Emotional_Intelligence.llm.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-03T21:50:29.951288",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.4,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

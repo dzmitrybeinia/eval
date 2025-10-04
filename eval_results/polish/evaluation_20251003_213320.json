@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Konflikt zewnętrzny to walka Harry'ego z Voldemortem i jego zwolennikami, a konflikt wewnętrzny to zmaganie się Harry'ego z akceptacją swojej nowej tożsamości jako czarodzieja.",
+      "correction": "Konflikt zewnętrzny to walka Harry'ego z Voldemortem i jego zwolennikami, a konflikt wewnętrzny to zmaganie się Harry'ego z akceptacją nowej tożsamości jako czarodzieja.",
+      "description": "The phrase 'z akceptacją swojej nowej tożsamości' uses a possessive pronoun 'swojej' that is redundant because the subject 'Harry'ego' is already clear. In Polish, possessive pronouns are often omitted when the ownership is obvious from context, especially in formal or educational writing. Removing 'swojej' improves clarity and naturalness, avoiding unnecessary repetition.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "W *Królu Lwie* miejsce akcji to Lwie Królestwo, które ukazuje piękno afrykańskiej sawanny i odgrywa kluczową rolę w tematach przywództwa i przynależności.",
+      "correction": "W *Królu Lwie* miejsce akcji to Lwia Kraina, która ukazuje piękno afrykańskiej sawanny i odgrywa kluczową rolę w tematach przywództwa i przynależności.",
+      "description": "The term 'Lwie Królestwo' is not the standard Polish localization for 'The Lion King' setting. The correct and widely accepted term in Polish is 'Lwia Kraina.' Using the proper localized name ensures consistency with published translations and enhances cultural appropriateness for Polish audiences.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Story_Elements.llm.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T21:33:20.948291",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

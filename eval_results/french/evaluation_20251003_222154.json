@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Oui, 'Atlas des animaux' est un excellent exemple de non-fiction. Il est conçu pour enseigner les faits sur la vie des animaux, ce qui en fait un excellent outil d'apprentissage et de découverte de nouvelles informations.",
+      "correction": "Oui, « Atlas des animaux » est un excellent exemple de non-fiction. Il est conçu pour enseigner les faits sur la vie des animaux, ce qui en fait un excellent outil d'apprentissage et de découverte de nouvelles informations.",
+      "description": "French typographic conventions require the use of guillemets (« ») instead of English quotation marks (' ') when referencing book titles. This correction improves orthographic accuracy and aligns with standard French publishing practices.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "non-fiction",
+      "correction": "documentaire",
+      "description": "The term 'non-fiction' is a direct anglicism and, while increasingly used in French publishing, 'documentaire' or 'littérature documentaire' is more natural and widely accepted in educational contexts for young learners. Using 'documentaire' enhances clarity and cultural appropriateness for a French-speaking audience.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Fiction_vs_Nonfiction.slm.md",
+    "language": "French",
+    "timestamp": "2025-10-03T22:21:54.798840",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

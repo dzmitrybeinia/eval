@@ -1,0 +1,75 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Sztuczna inteligencja może uczenia się na podstawie nowych informacji.",
+      "correction": "Sztuczna inteligencja może uczyć się na podstawie nowych informacji.",
+      "description": "The phrase 'może uczenia się' is grammatically incorrect in Polish. The verb 'uczyć się' should be in the infinitive form after 'może', resulting in 'może uczyć się'. This error affects the clarity and grammatical correctness of the statement.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "Nie ma żadnych dowodów ani zgonych przekładni, które wskazywałyby, że starożytni rzymcy eksperymentowali z technologiami, które mogłyby być uważane za sztuczną inteligencję w sposób, jakim zrozumiamy dzisiej.",
+      "correction": "Nie ma żadnych dowodów ani zgodnych przekładni, które wskazywałyby, że starożytni Rzymianie eksperymentowali z technologiami, które mogłyby być uważane za sztuczną inteligencję w sposób, w jaki rozumiemy dzisiaj.",
+      "description": "Multiple spelling and grammatical errors are present: 'zgonych' should be 'zgodnych' (spelling), 'rzymcy' should be 'Rzymianie' (proper noun, capitalization, and correct form), 'jakim zrozumiamy dzisiej' should be 'w jaki rozumiemy dzisiaj' (syntax and spelling). These errors significantly impact comprehension and linguistic accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Zamiast tego, koncepcja AI wiele lat później była naśladowana przez różne innowacje technologiczne, które poprawiały ludzkie zdolności, a nie zastępowały je.",
+      "correction": "Zamiast tego, koncepcja AI pojawiła się wiele lat później i była naśladowana przez różne innowacje technologiczne, które poprawiały ludzkie zdolności, a nie je zastępowały.",
+      "description": "The original sentence lacks clarity due to missing verb and awkward word order. Adding 'pojawiła się' clarifies the timeline, and 'a nie je zastępowały' corrects the word order for natural Polish syntax.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Systemy AI z ograniczoną pamięcią są zaprojektowane tak, aby wykorzystać zbiór danych, które dostarczono w czasie, aby podejmować decyzje.",
+      "correction": "Systemy AI z ograniczoną pamięcią są zaprojektowane tak, aby wykorzystywać zbiór danych dostarczonych wcześniej do podejmowania decyzji.",
+      "description": "The phrase 'które dostarczono w czasie' is awkward and unclear. It should be 'dostarczonych wcześniej', and 'aby podejmować decyzje' is better expressed as 'do podejmowania decyzji' for natural Polish syntax.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Właściwość AI pozwala na analizę ogromnych ilości danych, co czyni ją nieocenionym narzędziem do przewidywania zmian klimatu i optymalizacji zarządzania zasobami.",
+      "correction": "AI pozwala na analizę ogromnych ilości danych, co czyni ją nieocenionym narzędziem do przewidywania zmian klimatu i optymalizacji zarządzania zasobami.",
+      "description": "The word 'Właściwość' is an incorrect lexical choice in this context. It should be omitted, as 'AI' itself is the subject. This correction improves clarity and semantic accuracy.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "AI, czyli sztuczna inteligencja, jest bardzo dynamiczna i ciągle się rozwija. Zbierając dane i ucząc się z nich, może się poprawać i dostosowywać do nowych sytuacji.",
+      "correction": "AI, czyli sztuczna inteligencja, jest bardzo dynamiczna i ciągle się rozwija. Zbierając dane i ucząc się z nich, może się poprawiać i dostosowywać do nowych sytuacji.",
+      "description": "The verb 'poprawać' is a misspelling and incorrect form; it should be 'poprawiać'. This error affects the grammatical correctness and clarity of the sentence.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "What_is_AI.slm.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T22:19:01.199633",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 8.5,
+    "classification": "PROFESSIONAL",
+    "total_issues": 6,
+    "total_penalty": 1.5,
+    "issue_breakdown": {
+      "linguistic": 6,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.5,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "В принятии решений важно осознавать предвзятость, поскольку она может подорвать объективное взгляды.",
+      "correction": "В принятии решений важно осознавать предвзятость, поскольку она может подорвать объективные взгляды.",
+      "description": "The phrase 'объективное взгляды' contains a grammatical error: 'взгляды' is a plural noun and requires the plural adjective 'объективные' instead of the singular 'объективное'. This error affects agreement and clarity. The corrected phrase 'объективные взгляды' ensures proper adjective-noun agreement in Russian.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Учитывая это влияние, учащиеся улучшают свои способности к критическому мышлению.",
+      "correction": "Учитывая это влияние, учащиеся развивают свои навыки критического мышления.",
+      "description": "The phrase 'улучшают свои способности к критическому мышлению' is understandable but less natural in Russian educational context. The verb 'развивают' and the noun 'навыки' are more commonly used in Russian pedagogy to describe skill-building. This correction improves the naturalness and professional tone of the feedback.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Critical_Thinking.slm.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T22:25:02.767244",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

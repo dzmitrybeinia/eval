@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Interviews avec des parties prenantes",
+      "correction": "Entretiens avec des parties prenantes",
+      "description": "The word 'Interviews' is an anglicism and not standard in French educational or technical contexts. The correct term is 'Entretiens', which is the accepted French equivalent for formal discussions or interviews. Using 'Interviews' affects both linguistic accuracy and localization, but the primary issue is lexical precision.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Brainstorming de solutions",
+      "correction": "Génération d'idées de solutions",
+      "description": "The use of 'Brainstorming' is an English loanword that is increasingly common but still considered informal and less appropriate in formal French educational materials. A more natural and culturally appropriate phrase is 'génération d'idées de solutions' or 'séance de réflexion'. The rest of the text is linguistically correct, but the style could be improved for professional tone.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Conseils pour un brainstorming efficace",
+      "correction": "Conseils pour une séance de réflexion efficace",
+      "description": "The phrase 'brainstorming efficace' uses an English loanword that is not ideal for formal French educational content. 'Séance de réflexion efficace' is a more natural and culturally appropriate alternative. The rest of the sentence is linguistically correct.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Design_Process_1.llm.md",
+    "language": "French",
+    "timestamp": "2025-10-03T21:35:09.855916",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

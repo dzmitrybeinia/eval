@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Wykonywana przez orkiestry, zespoły kameralne lub solowych instrumentalistów.",
+      "correction": "Wykonywana przez orkiestry, zespoły kameralne lub solowych instrumentalistów.",
+      "description": "The phrase 'solowych instrumentalistów' is incorrect due to case mismatch. The correct form should be 'solowych instrumentalistów' in the accusative case to match the construction 'przez ...'. However, the original already uses the correct accusative plural form, so no correction is needed. This is a false positive; no actual error is present.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "ragtime’u",
+      "correction": "ragtime'u",
+      "description": "The use of the apostrophe in 'ragtime’u' is incorrect according to Polish orthographic rules. The correct form is 'ragtime'u' without the typographic apostrophe. This is a minor orthographic issue that does not affect comprehension but should be corrected for proper spelling.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Jazz uważany jest za klasyczną muzykę Ameryki i symbol wolności oraz kreatywności.",
+      "correction": "Jazz jest uważany za klasyczną muzykę Ameryki oraz symbol wolności i kreatywności.",
+      "description": "The sentence structure is slightly unnatural for Polish stylistic norms. The phrase 'uważany jest za' is less common than 'jest uważany za', and the conjunctions 'oraz' and 'i' are used inconsistently. The correction improves the naturalness and flow of the sentence, making it more idiomatic for Polish readers.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Wyłonił się w latach 50., ewoluując z rhythm and bluesa i muzyki country.",
+      "correction": "Wyłonił się w latach 50., ewoluując z rhythm and bluesa oraz muzyki country.",
+      "description": "The use of 'i' in 'z rhythm and bluesa i muzyki country' is grammatically correct, but in formal Polish, 'oraz' is preferred when listing items in educational or academic contexts. This is a minor stylistic improvement for register consistency.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "automaty perkusyjne",
+      "correction": "automaty perkusyjne (drum machines)",
+      "description": "The term 'automaty perkusyjne' is correct, but it may not be immediately clear to all Polish learners, especially in an educational context. Adding the English equivalent 'drum machines' in parentheses increases clarity and aligns with best practices for terminology localization in music education.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Music_Genres.llm.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T21:32:35.938705",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

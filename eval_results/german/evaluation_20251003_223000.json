@@ -1,0 +1,75 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "In einem Brandnotfall ist es äußerst riskant, versuchen, das Feuer selbst zu löschen.",
+      "correction": "In einem Brandnotfall ist es äußerst riskant, zu versuchen, das Feuer selbst zu löschen.",
+      "description": "The infinitive construction 'versuchen, das Feuer selbst zu löschen' is incorrect in German. The correct form is 'zu versuchen, das Feuer selbst zu löschen' because the infinitive with 'zu' is required after 'riskant ist'. This error affects grammatical accuracy and sentence structure.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Versuche, das Feuer zu löschen, können zu zusätzlichen Gefahren führen und das Risiko für die eigenen Leben erhöhen.",
+      "correction": "Versuche, das Feuer zu löschen, können zu zusätzlichen Gefahren führen und das Risiko für das eigene Leben erhöhen.",
+      "description": "The phrase 'für die eigenen Leben' is incorrect because 'Leben' is a singular noun in this context and should be preceded by 'das eigene' instead of the plural 'die eigenen'. This error affects grammatical agreement and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Klasse B Feuerlöscher sind speziell für Brände mit brennbaren Flüssigkeiten wie Öl und Benzin entwickelt, nicht ausschließlich für die Küche.",
+      "correction": "Klasse B Feuerlöscher sind speziell für Brände mit brennbaren Flüssigkeiten wie Öl und Benzin entwickelt und daher nicht unbedingt für die Küche geeignet.",
+      "description": "The phrase 'nicht ausschließlich für die Küche' is misleading and could cause confusion. In German fire safety terminology, it is clearer to state that Klasse B extinguishers are not necessarily suitable for kitchen fires, as kitchen fires often involve fats and oils requiring a Klasse F extinguisher. This correction improves technical accuracy and local fire safety standards.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Jedoch sollten Brände in der Küche mit einem Klasse A Feuerlöscher begonnen werden, wenn sie mit brennbarem Material wie Papier oder Holz entstehen.",
+      "correction": "Brände in der Küche sollten mit einem geeigneten Feuerlöscher, wie einem Klasse F Feuerlöscher bei Fettbränden, bekämpft werden. Bei Bränden mit Papier oder Holz kann ein Klasse A Feuerlöscher verwendet werden.",
+      "description": "The original text suggests starting with a Klasse A extinguisher in the kitchen, which is misleading for German fire safety standards. Kitchen fires often involve fats and oils, requiring a Klasse F extinguisher. This correction provides accurate, locally accepted terminology and improves safety guidance.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Verwendung von Feuerlöscher ist die erste Maßnahme, wenn man ein Feuer entdeckt.",
+      "correction": "Die Verwendung eines Feuerlöschers ist die erste Maßnahme, wenn man ein Feuer entdeckt.",
+      "description": "The phrase 'Verwendung von Feuerlöscher' is grammatically incorrect. The correct form is 'Die Verwendung eines Feuerlöschers', using the definite article and the genitive case for the noun. This error affects grammatical correctness and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Feuerlöscher sind für kleine Brände vorgesehen und sollten nur dann verwendet werden, wenn es sicher ist, dies zu tun, und wenn die Feuerwehr nicht in der Lage ist, schnell zu reagieren.",
+      "correction": "Feuerlöscher sind für kleine Brände vorgesehen und sollten nur dann verwendet werden, wenn es sicher ist, dies zu tun.",
+      "description": "The clause 'und wenn die Feuerwehr nicht in der Lage ist, schnell zu reagieren' is misleading and could imply that fire extinguishers should only be used if the fire department cannot respond quickly, which is not standard safety advice. The sentence should focus on safety and appropriateness of extinguisher use. This correction improves both linguistic clarity and localization accuracy.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Fire_Safety.slm.md",
+    "language": "German",
+    "timestamp": "2025-10-03T22:30:00.184502",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 8.4,
+    "classification": "PROFESSIONAL",
+    "total_issues": 6,
+    "total_penalty": 1.6,
+    "issue_breakdown": {
+      "linguistic": 4,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.1,
+      "localization_penalty": 0.5,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

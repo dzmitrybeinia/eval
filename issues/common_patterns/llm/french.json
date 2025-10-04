@@ -1,25 +1,129 @@
 {
   "metadata": {
     "label": "llm",
-    "label_normalized": "llm",
-    "label_key": "llm",
     "language": "french",
-    "generated_at": "2025-10-03T15:58:53.989154"
+    "generated_at": "2025-10-03T21:55:27.849728"
   },
   "top_error_patterns": [
     {
-      "pattern_name": "Incorrect Programming Terminology Localization",
+      "pattern_name": "Incorrect Terminology Due to English Calques",
+      "category": "localization",
+      "subcategory": "Terminology",
+      "impact_level": "HIGH",
+      "frequency": "very_common",
+      "frequency_count": 3,
+      "description": "English terms or calques are used instead of standard French terminology, leading to unnatural or incorrect expressions in French educational content.",
+      "examples": [
+        {
+          "wrong": "Le Président la veto",
+          "correct": "Le Président oppose son veto",
+          "context": "Political terminology; direct translation from English instead of idiomatic French."
+        },
+        {
+          "wrong": "fulcrum",
+          "correct": "point d'appui",
+          "context": "Scientific terminology; English word used instead of the French equivalent."
+        },
+        {
+          "wrong": "w/ pour \"avec\"",
+          "correct": "av. pour \"avec\"",
+          "context": "Abbreviations; English shortcut used in French note-taking advice."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect question word order",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "HIGH",
+      "frequency": "common",
+      "frequency_count": 1,
+      "description": "Questions are frequently formed using direct translation from English, resulting in incorrect word order and missing inversion, which reduces clarity and professionalism in French educational content.",
+      "examples": [
+        {
+          "wrong": "Pourquoi reconnaître les biais est important ?",
+          "correct": "Pourquoi est-il important de reconnaître les biais ?",
+          "context": "Quiz questions; formal written French requires verb-subject inversion for clarity."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Fragmented sentences lacking main verb",
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "impact_level": "HIGH",
+      "frequency": "common",
+      "frequency_count": 1,
+      "description": "Sentences are often incomplete, missing a main verb or subject, which leads to fragments that are unclear and grammatically incorrect in French.",
+      "examples": [
+        {
+          "wrong": "De petits choix comme ce que manger au petit déjeuner, à des décisions plus importantes comme choisir une activité après l'école.",
+          "correct": "De petits choix comme ce que vous allez manger au petit déjeuner, à des décisions plus importantes comme le choix d'une activité après l'école.",
+          "context": "Explanatory text; fragments reduce clarity and disrupt reading flow."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect article and gender agreement",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "HIGH",
+      "frequency": "common",
+      "frequency_count": 1,
+      "description": "Frequent misuse of articles and gender agreement, especially with abstract nouns and prepositional phrases, leading to ungrammatical and unnatural French expressions.",
+      "examples": [
+        {
+          "wrong": "Les conflits peuvent être résolus grâce à la calme, l'écoute et les compromis.",
+          "correct": "Les conflits peuvent être résolus grâce au calme, à l'écoute et aux compromis.",
+          "context": "List of abstract concepts; incorrect articles and gender disrupt grammatical correctness."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Cultural Mismatches in Mnemonics and Acronyms",
+      "category": "localization",
+      "subcategory": "Cultural",
+      "impact_level": "HIGH",
+      "frequency": "common",
+      "frequency_count": 1,
+      "description": "English mnemonics or acronyms are used without adaptation, reducing comprehension and cultural relevance for French learners.",
+      "examples": [
+        {
+          "wrong": "\"ROYGBIV\" représente les couleurs de l'arc-en-ciel",
+          "correct": "\"VIBJOR\" représente les couleurs de l'arc-en-ciel",
+          "context": "Mnemonic for rainbow colors; English acronym used instead of French convention."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect Gender Agreement in Terminology",
       "category": "localization",
       "subcategory": "Terminology",
       "impact_level": "HIGH",
       "frequency": "occasional",
       "frequency_count": 1,
-      "description": "Programming keywords are mistranslated or not adapted to the target language's conventions, leading to confusion and mislearning of technical concepts.",
+      "description": "Gender agreement errors in French terminology, affecting grammatical correctness and professionalism.",
       "examples": [
         {
-          "wrong": "Ils utilisent des mots-clés comme \"if\", \"else if\" et \"else\" pour déterminer le chemin à suivre selon les données disponibles.",
-          "correct": "Ils utilisent des mots-clés comme \"if\", \"elif\" et \"else\" pour déterminer le chemin à suivre selon les données disponibles.",
-          "context": "Python syntax; 'else if' is not a valid keyword in Python, 'elif' should be used."
+          "wrong": "un planète",
+          "correct": "une planète",
+          "context": "Use of articles with nouns; impacts clarity and correctness in educational content."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Localization of Factual Information",
+      "category": "localization",
+      "subcategory": "Format",
+      "impact_level": "HIGH",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Factual details are localized incorrectly, reflecting information from another culture (e.g., US) instead of French standards.",
+      "examples": [
+        {
+          "wrong": "tous les quatre ans pour les élections présidentielles",
+          "correct": "tous les cinq ans pour les élections présidentielles",
+          "context": "Election frequency; US system referenced instead of French reality."
         }
       ]
     },
@@ -28,301 +132,443 @@
       "category": "localization",
       "subcategory": "Terminology",
       "impact_level": "MEDIUM",
-      "frequency": "common",
-      "frequency_count": 5,
-      "description": "Use of terms that are either direct translations from English or not standard in French educational contexts, leading to reduced clarity and professionalism.",
+      "frequency": "very_common",
+      "frequency_count": 22,
+      "description": "Frequent use of literal translations, anglicisms, or non-standard terms instead of accepted French terminology in educational, scientific, and cultural contexts.",
       "examples": [
         {
-          "wrong": "Renard des sables : Oreilles longues pour dissiper la chaleur.",
-          "correct": "Fennec : Grandes oreilles pour dissiper la chaleur.",
-          "context": "Biology quiz item; 'Fennec' is the standard term in French."
+          "wrong": "Coût total = 2x",
+          "correct": "C = 2x",
+          "context": "Mathematical variable naming in equations"
         },
         {
-          "wrong": "Organites en forme de haricot",
-          "correct": "Organites en forme d'ovale",
-          "context": "Cell biology; 'haricot' is informal, 'ovale' is standard."
+          "wrong": "brainstorming en groupe",
+          "correct": "remue-méninges en groupe",
+          "context": "Group activity terminology"
         },
         {
-          "wrong": "Flottant (`float`) : nombres décimaux (ex : 3.14, -0.5).",
-          "correct": "Flottant (`float`) : nombres décimaux (ex : 3,14 ; -0,5).",
-          "context": "Programming; decimal separator and example format."
-        },
-        {
-          "wrong": "Aujourd'hui, nous allons découvrir trois concepts essentiels qui sont à la base de tout programme informatique : les variables, les boucles et les conditionnels.",
-          "correct": "Aujourd'hui, nous allons découvrir trois concepts essentiels qui sont à la base de tout programme informatique : les variables, les boucles et les instructions conditionnelles.",
-          "context": "Programming pedagogy; 'conditionnels' is less precise."
-        },
-        {
-          "wrong": "Les conditionnels sont des instructions qui permettent de prendre des décisions dans un programme en fonction de certaines conditions.",
-          "correct": "Les instructions conditionnelles sont des instructions qui permettent de prendre des décisions dans un programme en fonction de certaines conditions.",
-          "context": "Programming explanation; standard terminology improves clarity."
+          "wrong": "bulletin par courrier",
+          "correct": "vote par correspondance",
+          "context": "Electoral process terminology"
         }
       ]
     },
     {
-      "pattern_name": "Non-Standard Terminology Usage",
+      "pattern_name": "Incorrect or non-idiomatic terminology",
       "category": "localization",
       "subcategory": "Terminology",
       "impact_level": "MEDIUM",
-      "frequency": "common",
-      "frequency_count": 5,
-      "description": "Use of less common or non-standard terms in French educational contexts, which can affect clarity and consistency for learners.",
+      "frequency": "very_common",
+      "frequency_count": 18,
+      "description": "Use of terms that are technically correct but not idiomatic or standard in French educational contexts, such as 'fourrure' instead of 'pelage', 'motifs rangoli' instead of 'motifs de rangoli', or 'comptage de syllabes' instead of 'nombre de syllabes'.",
       "examples": [
         {
           "wrong": "Lièvre variable : Fourrure blanche en hiver pour se camoufler dans la neige.",
-          "correct": "Lièvre arctique : Fourrure blanche en hiver pour se camoufler dans la neige.",
-          "context": "Biology species names"
+          "correct": "Lièvre variable : Pelage blanc en hiver pour se camoufler dans la neige.",
+          "context": "Animal descriptions"
         },
         {
-          "wrong": "Leader du Nation of Islam",
-          "correct": "Leader de la Nation of Islam",
-          "context": "Organization names and prepositions"
+          "wrong": "motifs rangoli",
+          "correct": "motifs de rangoli",
+          "context": "Cultural references"
         },
         {
-          "wrong": "le courant circumpolaire antarctique",
-          "correct": "le courant antarctique circumpolaire",
-          "context": "Scientific terminology"
-        },
-        {
-          "wrong": "vous n'avez pas besoin de spécifier le type de données",
-          "correct": "il n'est pas nécessaire de spécifier le type de données",
-          "context": "Programming instructions"
-        },
-        {
-          "wrong": "La somme est :",
-          "correct": "La somme est de :",
-          "context": "Result statements in math/programming"
+          "wrong": "La poésie en vers libres ne suit pas de schéma de rimes, de mètre ou de comptage de syllabes spécifique.",
+          "correct": "La poésie en vers libres ne suit pas de schéma de rimes, de mètre ou de nombre de syllabes spécifique.",
+          "context": "Literary terminology"
         }
       ]
     },
     {
-      "pattern_name": "Incorrect Number and Decimal Formatting",
+      "pattern_name": "Non-standard use of emojis in educational content",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "MEDIUM",
+      "frequency": "very_common",
+      "frequency_count": 15,
+      "description": "Emojis (🌍, 🌟, 🚀, 🎨, 📏, 🍕, 📐, ✨, 🥦, 🍎) are frequently used at the end of sentences or introductions, which is not standard in formal French educational materials. Their presence can reduce professionalism and distract from the instructional tone.",
+      "examples": [
+        {
+          "wrong": "Préparez-vous à plonger dans les mystères de notre atmosphère et de nos océans ! 🌍",
+          "correct": "Préparez-vous à explorer les phénomènes de notre atmosphère et de nos océans !",
+          "context": "Lesson introductions and summaries"
+        },
+        {
+          "wrong": "Dans cette leçon, nous allons découvrir leur origine, leur importance, et comment ils influencent nos vies et nos sociétés 🌍.",
+          "correct": "Dans cette leçon, nous allons découvrir leur origine, leur importance, et comment ils influencent nos vies et nos sociétés.",
+          "context": "Lesson introductions"
+        },
+        {
+          "wrong": "Bienvenue dans le monde fascinant de la géométrie ! ... est lié à ces concepts fondamentaux. 🎨📐",
+          "correct": "Bienvenue dans le monde fascinant de la géométrie ! ... est lié à ces concepts fondamentaux.",
+          "context": "Lesson introductions"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Literal Translation of English Phrases",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 8,
+      "description": "Direct translation of English expressions or sentence structures that result in unnatural or awkward French phrasing, reducing clarity and engagement.",
+      "examples": [
+        {
+          "wrong": "Pensez aux nucléotides comme des perles sur un fil qui forment un collier",
+          "correct": "Imaginez les nucléotides comme des perles enfilées sur un fil, formant un collier",
+          "context": "Instructional analogy"
+        },
+        {
+          "wrong": "Complimenter quelqu’un pour son travail acharné.",
+          "correct": "Féliciter quelqu’un pour son travail acharné.",
+          "context": "Praise and encouragement"
+        },
+        {
+          "wrong": "En pratiquant ces compétences, les élèves peuvent développer des amitiés significatives",
+          "correct": "En pratiquant ces compétences, les élèves peuvent développer des amitiés solides",
+          "context": "Social skills development"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Non-standard formatting for book titles and historical dates",
       "category": "localization",
       "subcategory": "Format",
       "impact_level": "MEDIUM",
       "frequency": "common",
-      "frequency_count": 4,
-      "description": "Numbers and decimal separators use English conventions (periods) instead of French (commas), and input prompts do not clarify expected format, leading to confusion and potential errors.",
+      "frequency_count": 8,
+      "description": "Book titles are formatted with English quotation marks (\" \") instead of French guillemets (« »), and centuries are written with Arabic numerals and 'ème' instead of Roman numerals and 'e' (e.g., '7ème siècle' instead of 'VIIe siècle').",
       "examples": [
         {
-          "wrong": "hauteur = 1.65",
-          "correct": "hauteur = 1,65",
-          "context": "Math or science item; decimal separator should be a comma."
+          "wrong": "Dans \"Le Petit Prince\" de Saint-Exupéry...",
+          "correct": "Dans « Le Petit Prince » de Saint-Exupéry...",
+          "context": "Literary references"
         },
         {
-          "wrong": "Flottant (`float`) : nombres décimaux (ex : 3.14, -0.5).",
-          "correct": "Flottant (`float`) : nombres décimaux (ex : 3,14 ; -0,5).",
-          "context": "Programming; examples use English decimal format."
-        },
-        {
-          "wrong": "num1 = float(input(\"Entrez un nombre : \"))",
-          "correct": "num1 = float(input(\"Entrez un nombre (utilisez le point comme séparateur décimal) : \"))",
-          "context": "Programming; prompt does not clarify decimal format."
-        },
-        {
-          "wrong": "num1 = float(input(\"Entrez le premier nombre : \"))",
-          "correct": "num1 = float(input(\"Entrez le premier nombre (utilisez le point comme séparateur décimal) : \"))",
-          "context": "Programming; prompt does not clarify decimal format."
+          "wrong": "7ème siècle de notre ère",
+          "correct": "VIIe siècle de notre ère",
+          "context": "Historical dates"
         }
       ]
     },
     {
-      "pattern_name": "Non-idiomatic or Calque Expressions",
-      "category": "localization",
-      "subcategory": "Style",
+      "pattern_name": "Incorrect typographic conventions for percent sign",
+      "category": "linguistic",
+      "subcategory": "Orthography",
       "impact_level": "MEDIUM",
-      "frequency": "common",
-      "frequency_count": 3,
-      "description": "Direct translations or calques from English result in unnatural phrasing that reduces clarity and educational fit in French.",
+      "frequency": "very_common",
+      "frequency_count": 6,
+      "description": "A non-breaking space is often missing before the percent sign (%), which is required by French typographic standards.",
       "examples": [
         {
-          "wrong": "Utilisez des phrases en \"je\" pour expliquer vos sentiments (exemple : \"Je me sens contrarié parce que...\")",
-          "correct": "Utilisez des phrases commençant par \"je\" pour expliquer vos sentiments (exemple : \"Je me sens contrarié parce que...\")",
-          "context": "Social-emotional learning; 'phrases en \"je\"' is a calque."
+          "wrong": "Probabilité = 1/6 ≈ 0,167 ou 16,7 %",
+          "correct": "Probabilité = 1/6 ≈ 0,167 ou 16,7 %",
+          "context": "Probability calculations"
         },
         {
-          "wrong": "Dans cet exemple, la boucle imprime \"Bonjour !\" cinq fois.",
-          "correct": "Dans cet exemple, la boucle affiche \"Bonjour !\" cinq fois.",
-          "context": "Programming; 'imprime' is less idiomatic than 'affiche'."
-        },
-        {
-          "wrong": "Les conditionnels sont des instructions qui permettent de prendre des décisions...",
-          "correct": "Les instructions conditionnelles sont des instructions qui permettent de prendre des décisions...",
-          "context": "Programming; more idiomatic phrasing."
+          "wrong": "somme de 7 = 6/36 = 1/6 = 16,7 %",
+          "correct": "somme de 7 = 6/36 = 1/6 = 16,7 %",
+          "context": "Mathematical results"
         }
       ]
     },
     {
-      "pattern_name": "Inappropriate Use of Emojis in Formal Educational Content",
-      "category": "localization",
-      "subcategory": "Style",
+      "pattern_name": "Incorrect use of comma before 'et' in enumerations",
+      "category": "linguistic",
+      "subcategory": "Orthography",
       "impact_level": "MEDIUM",
-      "frequency": "common",
-      "frequency_count": 3,
-      "description": "Emojis are used at the end of sentences or as standalone elements, which is not standard in French educational materials and can undermine professionalism.",
+      "frequency": "very_common",
+      "frequency_count": 5,
+      "description": "A comma is often incorrectly placed before 'et' in lists, reflecting English influence. French punctuation rules do not require a comma before 'et' in enumerations.",
       "examples": [
         {
-          "wrong": "Découvrez une civilisation fascinante, connue pour ses pyramides majestueuses, son écriture unique et son rôle fondamental dans l'histoire humaine. 🌍",
-          "correct": "Découvrez une civilisation fascinante, connue pour ses pyramides majestueuses, son écriture unique et son rôle fondamental dans l'histoire humaine.",
-          "context": "Lesson introductions and summaries"
+          "wrong": "La gentillesse est une qualité qui consiste à être attentionné, prévenant, et utile envers les autres.",
+          "correct": "La gentillesse est une qualité qui consiste à être attentionné, prévenant et utile envers les autres.",
+          "context": "Enumerating qualities or actions"
         },
         {
-          "wrong": "🌍🐾",
-          "correct": "",
-          "context": "Standalone decorative elements"
+          "wrong": "En comprenant les dangers, en prévenant les incendies, et en sachant comment réagir en cas d'urgence...",
+          "correct": "En comprenant les dangers, en prévenant les incendies et en sachant comment réagir en cas d'urgence...",
+          "context": "Listing actions with 'en + gerund'"
         },
         {
-          "wrong": "Préparez-vous à explorer comment ces concepts peuvent être utilisés pour créer des programmes utiles et interactifs. 🚀",
-          "correct": "Préparez-vous à explorer comment ces concepts peuvent être utilisés pour créer des programmes utiles et interactifs.",
-          "context": "Lesson conclusions or motivational statements"
+          "wrong": "La gentillesse est bien plus que simplement être gentil—c’est une manière d’exprimer l’empathie, le respect, et de poser des actions positives...",
+          "correct": "La gentillesse est bien plus que simplement être gentil — c’est une manière d’exprimer l’empathie, le respect et de poser des actions positives...",
+          "context": "Enumeration after an em dash"
         }
       ]
     },
     {
-      "pattern_name": "Unlocalized or Unexplained Acronyms and Organization Names",
+      "pattern_name": "Cultural Inaccuracy or Lack of Localization",
       "category": "localization",
       "subcategory": "Cultural",
       "impact_level": "MEDIUM",
       "frequency": "occasional",
-      "frequency_count": 2,
-      "description": "References to organizations or acronyms are presented only in English or without explanation, which can hinder comprehension for French-speaking learners.",
+      "frequency_count": 5,
+      "description": "Omission of French cultural equivalents, use of unfamiliar mnemonics, or lack of adaptation to local context, which may hinder learner comprehension or inclusivity.",
       "examples": [
         {
-          "wrong": "Student Nonviolent Coordinating Committee (SNCC)",
-          "correct": "Comité de coordination des étudiants non-violents (SNCC)",
-          "context": "History quiz; organization name not localized."
+          "wrong": "Thanksgiving aux États-Unis",
+          "correct": "Thanksgiving aux États-Unis (Action de grâce au Canada)",
+          "context": "Holiday references"
         },
         {
-          "wrong": "NAACP",
-          "correct": "NAACP (Association nationale pour la promotion des gens de couleur)",
-          "context": "History quiz; acronym not explained for French audience."
+          "wrong": "Mon Vieux Extraordinaire Merveilleux Juste Sur Une Nappe",
+          "correct": "Mais Où Est Donc Ornicar",
+          "context": "Mnemonic for planets"
         }
       ]
     },
     {
-      "pattern_name": "Non-idiomatic participial constructions",
+      "pattern_name": "Incorrect or Inconsistent Use of French Educational Conventions",
+      "category": "localization",
+      "subcategory": "Format",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 4,
+      "description": "Failure to follow French conventions for formatting, variable naming, or instructional style, leading to confusion or lack of professionalism.",
+      "examples": [
+        {
+          "wrong": "Une ligne : ↔",
+          "correct": "Une droite : ↔",
+          "context": "Geometry diagrams and terminology"
+        },
+        {
+          "wrong": "NGSS HS-ETS1-4",
+          "correct": "Normes NGSS HS-ETS1-4",
+          "context": "Educational standards references"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect use of relative clauses and participles",
       "category": "linguistic",
       "subcategory": "Grammar",
       "impact_level": "MEDIUM",
-      "frequency": "occasional",
-      "frequency_count": 1,
-      "description": "Use of participial phrases where relative clauses are preferred in French, leading to awkward or unnatural sentence structure.",
+      "frequency": "common",
+      "frequency_count": 3,
+      "description": "Frequent misuse of participles or omission of relative pronouns, leading to unnatural or ambiguous sentence structure. Proper French requires relative clauses for clarity.",
       "examples": [
         {
           "wrong": "Bosses stockant de la graisse pour survivre sans nourriture longtemps.",
           "correct": "Bosses qui stockent de la graisse pour survivre longtemps sans nourriture.",
-          "context": "Quiz item describing animal adaptation; participial phrase used instead of relative clause."
+          "context": "Describing features or actions of a subject."
+        },
+        {
+          "wrong": "Vous survolez en lisant les titres des sections...",
+          "correct": "Vous survolez le texte en lisant les titres des sections...",
+          "context": "Instructions for reading strategies."
+        },
+        {
+          "wrong": "pour se rappeler Mercure, Vénus, Terre, Mars...",
+          "correct": "pour se souvenir de Mercure, Vénus, Terre, Mars...",
+          "context": "Mnemonic instructions."
         }
       ]
     },
     {
-      "pattern_name": "Anglicisms and Non-Standard Formatting in Legal/Scientific Contexts",
-      "category": "localization",
-      "subcategory": "Format",
-      "impact_level": "LOW",
-      "frequency": "occasional",
+      "pattern_name": "Anglicisms and inappropriate loanwords",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
       "frequency_count": 3,
-      "description": "Use of English abbreviations or formatting conventions instead of standard French forms, which can reduce localization quality.",
+      "description": "Use of English loanwords or calques where standard French equivalents exist, reducing clarity and professional tone in educational contexts.",
       "examples": [
         {
-          "wrong": "Brown v. Board of Education (1954)",
-          "correct": "Brown c. Board of Education (1954)",
-          "context": "Legal case references"
+          "wrong": "Interviews avec des parties prenantes",
+          "correct": "Entretiens avec des parties prenantes",
+          "context": "Describing formal discussions."
         },
         {
-          "wrong": "l'est des États-Unis",
-          "correct": "la côte est des États-Unis",
-          "context": "Geographical references"
+          "wrong": "mindset de croissance",
+          "correct": "état d'esprit de croissance",
+          "context": "Describing psychological concepts."
         },
         {
-          "wrong": "Coût total = 2x",
-          "correct": "Coût total = 2 × x",
-          "context": "Mathematical notation"
+          "wrong": "volant",
+          "correct": "roue de voiture",
+          "context": "Examples of simple machines."
         }
       ]
     },
     {
-      "pattern_name": "Cultural and Idiomatic Inappropriateness",
-      "category": "localization",
-      "subcategory": "Cultural",
-      "impact_level": "LOW",
-      "frequency": "occasional",
-      "frequency_count": 2,
-      "description": "Use of phrases or analogies that are less natural or idiomatic in French educational contexts, affecting relatability and clarity.",
-      "examples": [
-        {
-          "wrong": "comme les outils dans une boîte à outils",
-          "correct": "comme les pièces d'une machine",
-          "context": "Analogies in science lessons"
-        },
-        {
-          "wrong": "avec un esprit clair",
-          "correct": "avec calme et clarté d'esprit",
-          "context": "Advice or motivational statements"
-        }
-      ]
-    },
-    {
-      "pattern_name": "Omission of Article in Parallel Structures",
+      "pattern_name": "Missing or incorrect use of articles in lists",
       "category": "linguistic",
       "subcategory": "Grammar",
-      "impact_level": "LOW",
-      "frequency": "occasional",
-      "frequency_count": 1,
-      "description": "Articles are omitted in parallel structures, leading to grammatical inconsistency and reduced clarity.",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 3,
+      "description": "Articles are sometimes omitted or inconsistently used when listing multiple nouns, leading to ungrammatical or unclear phrasing.",
       "examples": [
         {
-          "wrong": "dans des fresques et sculptures",
-          "correct": "dans des fresques et des sculptures",
-          "context": "List of objects in a sentence where each should be preceded by an article."
+          "wrong": "L'art, riche en symbolisme, reflétait leur culture et leurs croyances dans des fresques et sculptures.",
+          "correct": "L'art, riche en symbolisme, reflétait leur culture et leurs croyances dans des fresques et des sculptures.",
+          "context": "Listing art forms"
+        },
+        {
+          "wrong": "Textes sacrés : Les Védas, Upanishads, Bhagavad Gita et Ramayana.",
+          "correct": "Textes sacrés : les Védas, les Upanishads, la Bhagavad Gita et le Ramayana.",
+          "context": "Listing sacred texts"
         }
       ]
     },
     {
-      "pattern_name": "Missing Comma in Descriptive Clauses",
+      "pattern_name": "Overgeneralization or Scientific Inaccuracy",
+      "category": "localization",
+      "subcategory": "Terminology",
+      "impact_level": "MEDIUM",
+      "frequency": "rare",
+      "frequency_count": 3,
+      "description": "Statements that overgeneralize scientific facts or use imprecise terminology, potentially misleading learners.",
+      "examples": [
+        {
+          "wrong": "Les non-métaux sont cassants et isolants",
+          "correct": "Les non-métaux sont généralement cassants et isolants",
+          "context": "Science property descriptions"
+        },
+        {
+          "wrong": "thérapie génique pour corriger des ADN défectueux",
+          "correct": "thérapie génique pour corriger des gènes défectueux",
+          "context": "Genetics terminology"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect terminology for abstract concepts",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 2,
+      "description": "Use of terms that are technically correct but contextually inappropriate for abstract or educational concepts, leading to confusion.",
+      "examples": [
+        {
+          "wrong": "Les quatre composants de l'intelligence émotionnelle",
+          "correct": "Les quatre composantes de l'intelligence émotionnelle",
+          "context": "Describing elements of emotional intelligence."
+        },
+        {
+          "wrong": "Un état haute énergie où les particules sont ionisées (chargées).",
+          "correct": "Un état de haute énergie où les particules sont ionisées (chargées).",
+          "context": "Describing states of matter."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Non-idiomatic or awkward negative constructions",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 2,
+      "description": "Negative sentences constructed with incorrect conjunctions or word order, resulting in awkward or unclear phrasing.",
+      "examples": [
+        {
+          "wrong": "Ne cliquez jamais sur des liens suspects ni ne téléchargez de pièces jointes...",
+          "correct": "Ne cliquez jamais sur des liens suspects et ne téléchargez pas de pièces jointes...",
+          "context": "Security instructions."
+        },
+        {
+          "wrong": "La panique rend les décisions sûres plus difficiles.",
+          "correct": "La panique rend la prise de décisions sûres plus difficile.",
+          "context": "Describing effects of panic."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Cultural or terminological ambiguity",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 2,
+      "description": "Use of terms that are ambiguous or culturally inappropriate, leading to confusion between similar concepts (e.g., holidays).",
+      "examples": [
+        {
+          "wrong": "Fêtes principales : Pâque (commémoration de l'Exode d'Égypte)...",
+          "correct": "Fêtes principales : Pessa'h (commémoration de l'Exode d'Égypte)...",
+          "context": "Describing religious holidays."
+        },
+        {
+          "wrong": "Si la personne ne reprend pas conscience en une à deux minutes...",
+          "correct": "Si la personne ne reprend pas conscience au bout d'une à deux minutes...",
+          "context": "Medical instructions."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Non-idiomatic or less formal phrasing",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "LOW",
+      "frequency": "common",
+      "frequency_count": 12,
+      "description": "Phrasing that is grammatically correct but less idiomatic or formal in French educational contexts, such as 'comme' instead of 'tels que', 'deuxième' instead of 'second', or elliptical sentences lacking a subject.",
+      "examples": [
+        {
+          "wrong": "Les animaux vivent dans des environnements variés, comme l'Arctique glacé ou le désert aride.",
+          "correct": "Les animaux vivent dans des environnements variés, tels que l'Arctique glacé ou le désert aride.",
+          "context": "Scientific explanations"
+        },
+        {
+          "wrong": "Moins cher, donc plus accessible.",
+          "correct": "C'est moins cher, donc plus accessible.",
+          "context": "Lesson summaries"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Use of English loanwords or calques in formal contexts",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "LOW",
+      "frequency": "common",
+      "frequency_count": 6,
+      "description": "English loanwords (e.g., 'brainstorming') or calques (e.g., 'phrases en \"je\"') are used where more idiomatic French alternatives exist, reducing the naturalness and professionalism of the content.",
+      "examples": [
+        {
+          "wrong": "Brainstorming de solutions",
+          "correct": "Génération d'idées de solutions",
+          "context": "Lesson activities"
+        },
+        {
+          "wrong": "Utilisez des phrases en \"je\" pour expliquer vos sentiments",
+          "correct": "Utilisez des phrases commençant par \"je\" pour expliquer vos sentiments",
+          "context": "Communication strategies"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect use of quotation marks",
       "category": "linguistic",
       "subcategory": "Orthography",
       "impact_level": "LOW",
       "frequency": "occasional",
       "frequency_count": 1,
-      "description": "Commas are omitted before descriptive clauses, affecting sentence clarity and correct punctuation.",
+      "description": "English quotation marks (\" \") are used instead of French guillemets (« »), which is not compliant with French typographic norms.",
       "examples": [
         {
-          "wrong": "Grand sac rempli de liquide entouré d'une membrane.",
-          "correct": "Grand sac rempli de liquide, entouré d'une membrane.",
-          "context": "Descriptive clause following a noun phrase."
+          "wrong": "vous recherchez rapidement l'année \"1789\" sans lire chaque mot.",
+          "correct": "vous recherchez rapidement l'année « 1789 » sans lire chaque mot.",
+          "context": "Quoting years or phrases"
         }
       ]
     },
     {
-      "pattern_name": "Inconsistent Register in Imperative Sentences",
+      "pattern_name": "Incorrect contraction before proper names starting with a vowel",
       "category": "linguistic",
-      "subcategory": "Style",
+      "subcategory": "Orthography",
       "impact_level": "LOW",
       "frequency": "occasional",
       "frequency_count": 1,
-      "description": "Imperative sentences switch between formal and informal register, causing inconsistency in tone, especially in educational content for children.",
+      "description": "The contraction 'de' + vowel is sometimes not applied, leading to hiatus and non-standard written French.",
       "examples": [
         {
-          "wrong": "Exprimez-vous clairement",
-          "correct": "Exprime-toi clairement",
-          "context": "Instructional content where register should match the intended audience."
-        }
-      ]
-    },
-    {
-      "pattern_name": "Non-Standard List Punctuation (Oxford Comma)",
-      "category": "localization",
-      "subcategory": "Style",
-      "impact_level": "LOW",
-      "frequency": "occasional",
-      "frequency_count": 1,
-      "description": "Use of a comma before 'et' in lists, which is not standard in French and can affect naturalness.",
-      "examples": [
-        {
-          "wrong": "les **constantes**, et les **équations simples**",
-          "correct": "les **constantes** et les **équations simples**",
-          "context": "Lists in lesson introductions"
+          "wrong": "\"Le Petit Prince\" de Antoine de Saint-Exupéry",
+          "correct": "\"Le Petit Prince\" d'Antoine de Saint-Exupéry",
+          "context": "Citing authors"
         }
       ]
     }

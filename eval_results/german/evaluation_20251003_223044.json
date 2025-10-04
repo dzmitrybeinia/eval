@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "lebendigen Beatst",
+      "correction": "lebendigen Beats",
+      "description": "The word 'Beatst' is a spelling error; the correct plural form is 'Beats'. This affects the clarity and professionalism of the statement.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "hauptsanto",
+      "correction": "hauptsächlich",
+      "description": "The word 'hauptsanto' is not a valid German word and appears to be a typographical or lexical error. The correct term is 'hauptsächlich', which means 'mainly' or 'primarily'. This error significantly impacts comprehension.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Die Musikgenre Rockmusik hat eine entscheidende Rolle in der Darstellung und Entwicklung der Jugendkultur gespielt, was von ihrem Aufstieg in den 1950ern bis zu ihrer Rolle in verschiedenen gesellschaftlichen Bewegungen reicht.",
+      "correction": "Das Musikgenre Rockmusik hat eine entscheidende Rolle in der Darstellung und Entwicklung der Jugendkultur gespielt, was von ihrem Aufstieg in den 1950ern bis zu ihrer Rolle in verschiedenen gesellschaftlichen Bewegungen reicht.",
+      "description": "The phrase 'Die Musikgenre Rockmusik' is grammatically incorrect. 'Genre' is neuter ('das Genre'), and the correct phrase is 'Das Musikgenre Rockmusik'. This error affects grammatical agreement and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Verkleidungen und Kleidungsstile werden oft durch die Musikszene inspiriert, was zeigt, dass die Popmusik einen direkten Einfluss auf das Design und die Trends in der Modewelt hat.",
+      "correction": "Kleidungsstile werden oft durch die Musikszene inspiriert, was zeigt, dass die Popmusik einen direkten Einfluss auf das Design und die Trends in der Modewelt hat.",
+      "description": "The term 'Verkleidungen' (costumes/disguises) is not commonly used in the context of fashion influenced by pop music in German. 'Kleidungsstile' (clothing styles) is more appropriate and natural for this context. Removing 'Verkleidungen' improves cultural appropriateness and naturalness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "einer Stadt in New York",
+      "correction": "einem Stadtteil von New York",
+      "description": "The phrase 'einer Stadt in New York' incorrectly refers to the Bronx as a city, when it is actually a borough (Stadtteil) of New York City. This is a lexical and factual error affecting accuracy.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Music_Genres.slm.md",
+    "language": "German",
+    "timestamp": "2025-10-03T22:30:44.990633",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 8.7,
+    "classification": "PROFESSIONAL",
+    "total_issues": 5,
+    "total_penalty": 1.3,
+    "issue_breakdown": {
+      "linguistic": 4,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.1,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

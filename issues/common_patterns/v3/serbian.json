@@ -1,0 +1,172 @@
+{
+  "metadata": {
+    "label": "v3",
+    "language": "serbian",
+    "generated_at": "2025-10-04T14:19:59.798110"
+  },
+  "top_error_patterns": [
+    {
+      "pattern_name": "Incorrect case usage",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "HIGH",
+      "frequency": "very_common",
+      "frequency_count": 6,
+      "description": "Frequent misuse of grammatical cases, especially locative, genitive, and instrumental, leading to confusion and reduced clarity.",
+      "examples": [
+        {
+          "wrong": "у своје средине",
+          "correct": "у својим срединама",
+          "context": "Locative case required after preposition 'у'"
+        },
+        {
+          "wrong": "са снег",
+          "correct": "са снегом",
+          "context": "Instrumental case required after 'са'"
+        },
+        {
+          "wrong": "преко процес природна селекција",
+          "correct": "путем процеса природне селекције",
+          "context": "Genitive case required after 'путем'"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Subject-verb and adjective-noun agreement errors",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "HIGH",
+      "frequency": "very_common",
+      "frequency_count": 6,
+      "description": "Frequent mismatches in gender, number, and case between subjects, verbs, and adjectives, causing ambiguity and unprofessional tone.",
+      "examples": [
+        {
+          "wrong": "Животиње су развијали",
+          "correct": "Животиње су се развијале",
+          "context": "Verb form does not agree with subject"
+        },
+        {
+          "wrong": "невероватни начини",
+          "correct": "невероватне начине",
+          "context": "Adjective does not agree with noun in gender and case"
+        },
+        {
+          "wrong": "Арктички лисица",
+          "correct": "Арктичка лисица",
+          "context": "Adjective does not agree with noun in gender"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect use of reflexive particle 'се'",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "HIGH",
+      "frequency": "common",
+      "frequency_count": 4,
+      "description": "Omission or misplacement of the reflexive particle 'се', which is essential for correct verb forms and sentence meaning.",
+      "examples": [
+        {
+          "wrong": "су развијали",
+          "correct": "су се развијале",
+          "context": "Missing reflexive particle with verb"
+        },
+        {
+          "wrong": "размножавају",
+          "correct": "размножавају се",
+          "context": "Missing reflexive particle after verb"
+        },
+        {
+          "wrong": "које меша се са снег",
+          "correct": "које се меша са снегом",
+          "context": "Reflexive particle misplaced in relative clause"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect clause and phrase formation",
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "impact_level": "HIGH",
+      "frequency": "common",
+      "frequency_count": 4,
+      "description": "Improper construction of clauses and phrases, such as missing 'као што је' and incorrect use of infinitive versus noun forms, leading to unclear or unnatural sentences.",
+      "examples": [
+        {
+          "wrong": "физичке особине као камуфлажа",
+          "correct": "физичких особина као што је камуфлажа",
+          "context": "Missing clause connector for examples"
+        },
+        {
+          "wrong": "за разумети",
+          "correct": "за разумевање",
+          "context": "Infinitive used instead of noun form"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Logical contradiction in terminology",
+      "category": "linguistic",
+      "subcategory": "Terminology",
+      "impact_level": "HIGH",
+      "frequency": "occasional",
+      "frequency_count": 2,
+      "description": "Confusion between behavioral and physical adaptations, leading to incorrect or misleading statements about scientific concepts.",
+      "examples": [
+        {
+          "wrong": "Понашајне адаптације су физичке промене",
+          "correct": "Понашајне адаптације нису физичке промене",
+          "context": "Behavioral adaptations incorrectly described as physical changes"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect preposition usage for direction",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "Omission or misuse of prepositions when expressing direction, leading to unclear or incorrect meaning.",
+      "examples": [
+        {
+          "wrong": "Птице мигрирају југ за зиму...",
+          "correct": "Птице мигрирају на југ за зиму...",
+          "context": "Direction indicated without the required preposition 'на'."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Verb-Subject Agreement Errors",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "LOW",
+      "frequency": "rare",
+      "frequency_count": 1,
+      "description": "Incorrect verb conjugation that does not match the grammatical number of the subject, leading to minor clarity issues.",
+      "examples": [
+        {
+          "wrong": "Понашајне адаптације значи радње или понашања, не физичке промене.",
+          "correct": "Понашајне адаптације значе радње или понашања, не физичке промене.",
+          "context": "Plural subject 'адаптације' requires plural verb 'значе'."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Inappropriate Emoji Usage in Formal Content",
+      "category": "localization",
+      "subcategory": "Format",
+      "impact_level": "LOW",
+      "frequency": "rare",
+      "frequency_count": 1,
+      "description": "Emojis are used in educational content where a formal tone is expected, which does not align with Serbian academic standards.",
+      "examples": [
+        {
+          "wrong": "🌱🐾",
+          "correct": "",
+          "context": "Appears in quiz items where a professional presentation is required."
+        }
+      ]
+    }
+  ]
+}

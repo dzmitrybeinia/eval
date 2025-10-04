@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Dividierend Informationen in kleinere Abschnitte verbessert das Erinnern.",
+      "correction": "Das Aufteilen von Informationen in kleinere Abschnitte verbessert das Erinnern.",
+      "description": "The word 'Dividierend' is not a correct German participle or verb form for this context. The proper expression is 'Das Aufteilen von Informationen', which accurately conveys the act of dividing information. Additionally, the sentence structure is improved for clarity and naturalness.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Indem man sich beispielhaft den Einkaufslisten oder historischen Ereignissen vorstellt, wird das Verständnis und die Erinnerung verbessert.",
+      "correction": "Indem man sich beispielsweise eine Einkaufsliste oder ein historisches Ereignis vorstellt, wird das Verständnis und die Erinnerung verbessert.",
+      "description": "The phrase 'beispielhaft den Einkaufslisten oder historischen Ereignissen' is awkward and unnatural in German. 'Beispielhaft' should be replaced with 'beispielsweise', and the nouns should be singular for a more natural and idiomatic expression. This improves the style and readability for German learners.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Memory_Techniques.slm.md",
+    "language": "German",
+    "timestamp": "2025-10-03T22:30:40.816430",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

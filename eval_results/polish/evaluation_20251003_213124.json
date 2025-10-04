@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "🌟",
+      "correction": "",
+      "description": "The use of the star emoji at the end of the introductory paragraph is not standard in formal Polish educational materials. While emojis can add visual interest, they may undermine the professional tone expected in instructional content and could be perceived as informal or distracting in this context. It is recommended to remove the emoji to maintain a consistent, formal style throughout the lesson.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Przykład: Problem: Uczniowie noszą ciężkie plecaki, co powoduje dyskomfort.",
+      "correction": "Przykład: Problem: Uczniowie noszą ciężkie plecaki, co powoduje dyskomfort.",
+      "description": "The sentence is grammatically correct, but the use of 'Problem:' as a label within the example is slightly awkward in Polish educational style. For improved clarity and naturalness, consider rephrasing to 'Przykład problemu: Uczniowie noszą ciężkie plecaki, co powoduje dyskomfort.' This would better align with Polish conventions for presenting examples and problem statements.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "symulacje cyfrowe",
+      "correction": "symulacje komputerowe",
+      "description": "The term 'symulacje cyfrowe' is understandable but less commonly used in Polish technical and educational contexts compared to 'symulacje komputerowe.' The latter is the standard term for digital simulations in engineering and design education. Using 'symulacje komputerowe' ensures consistency with industry terminology and improves clarity for Polish learners.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Finalizuj projekt na podstawie wyników testów.",
+      "correction": "Sfinalizuj projekt na podstawie wyników testów.",
+      "description": "The verb 'Finalizuj' is a direct borrowing from English and is not standard in Polish. The correct and natural form is 'Sfinalizuj,' which uses the proper Polish prefix. This change improves the naturalness and professionalism of the instruction, aligning with Polish language norms and avoiding unnecessary anglicisms.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Design_Process.llm.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T21:31:24.002615",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.4,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

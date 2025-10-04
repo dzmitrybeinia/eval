@@ -1,146 +1,357 @@
 {
   "metadata": {
     "label": "v1",
-    "label_normalized": "v1",
-    "label_key": "v1",
     "language": "portuguese",
-    "generated_at": "2025-10-03T13:13:54.480222"
+    "generated_at": "2025-10-03T20:38:04.621093"
   },
   "top_error_patterns": [
     {
-      "pattern_name": "Lexical Misuse Leading to Factual Inaccuracy",
+      "pattern_name": "Lexical False Friends and Loanwords",
       "category": "linguistic",
       "subcategory": "Lexical",
       "impact_level": "HIGH",
       "frequency": "very_common",
-      "frequency_count": 4,
-      "description": "Incorrect word choices or terminology that result in factual errors or mislead learners about key concepts.",
+      "frequency_count": 7,
+      "description": "Frequent use of Spanish loanwords or English false friends instead of correct Portuguese terms, leading to confusion and loss of professionalism.",
       "examples": [
         {
-          "wrong": "O retículo endoplasmático liso, sem ribossomos, é especializado na elaboração de proteínas que a célula vai liberar para fora.",
-          "correct": "O retículo endoplasmático liso, sem ribossomos, é especializado na síntese de lipídios e no metabolismo de carboidratos, não na elaboração de proteínas para secreção.",
-          "context": "Confusion between smooth and rough endoplasmic reticulum functions."
+          "wrong": "Encargado de criar e aprovar leis.",
+          "correct": "Responsável por criar e aprovar leis.",
+          "context": "Spanish loanword 'Encargado' used instead of Portuguese 'Responsável'."
         },
         {
-          "wrong": "defendendo a igualdade racial por meio de boatos pacíficos e discursos inspiradores.",
-          "correct": "defendendo a igualdade racial por meio de protestos pacíficos e discursos inspiradores.",
-          "context": "Misuse of 'boatos' (rumors) instead of 'protestos' (protests) changes the meaning."
+          "wrong": "Cristianos acreditam em um único Deus...",
+          "correct": "Cristãos acreditam em um único Deus...",
+          "context": "Spanish term 'Cristianos' instead of Portuguese 'Cristãos'."
         },
         {
-          "wrong": "O conceito de zonas climáticas inclui a zona tropical, que é contrastante com regiões como o Deserto do Saara, onde as temperaturas são extremamente baixas.",
-          "correct": "O conceito de zonas climáticas inclui a zona tropical, que contrasta com regiões como o Deserto do Saara, onde as temperaturas são extremamente altas.",
-          "context": "Incorrect description of Sahara Desert temperatures and awkward phrasing."
-        },
-        {
-          "wrong": "Variáveis podem armazenar vários tipos de informações simultaneamente.",
-          "correct": "Variáveis podem armazenar diferentes tipos de informações, mas apenas um tipo de dado por vez.",
-          "context": "Incorrect explanation of variable data types in programming."
+          "wrong": "sites faladores",
+          "correct": "sites falsos",
+          "context": "False friend 'faladores' (talkative) instead of 'falsos' (fake)."
         }
       ]
     },
     {
-      "pattern_name": "Grammatical Gender and Number Agreement Errors",
+      "pattern_name": "Gender and Number Agreement Errors",
       "category": "linguistic",
       "subcategory": "Grammar",
       "impact_level": "HIGH",
-      "frequency": "occasional",
-      "frequency_count": 1,
-      "description": "Failure to match articles and nouns in gender and number, leading to ungrammatical and unclear sentences.",
+      "frequency": "very_common",
+      "frequency_count": 6,
+      "description": "Systematic mistakes in matching articles, adjectives, and participles to the gender and number of nouns, affecting clarity and grammatical correctness.",
       "examples": [
         {
           "wrong": "pelos mitocôndrias",
           "correct": "pelas mitocôndrias",
-          "context": "Mismatch between masculine article and feminine noun."
+          "context": "Incorrect masculine article with feminine plural noun."
+        },
+        {
+          "wrong": "nos mensagens",
+          "correct": "nas mensagens",
+          "context": "Masculine article used with feminine noun."
+        },
+        {
+          "wrong": "A plasma é o estado da matéria...",
+          "correct": "O plasma é o estado da matéria...",
+          "context": "Feminine article with masculine noun."
         }
       ]
     },
     {
-      "pattern_name": "Lexical Imprecision and Unnatural Phrasing",
+      "pattern_name": "Lexical and Factual Scientific Inaccuracies",
       "category": "linguistic",
       "subcategory": "Lexical",
+      "impact_level": "HIGH",
+      "frequency": "common",
+      "frequency_count": 5,
+      "description": "Incorrect terminology or factual errors in scientific contexts, leading to misinformation and misunderstanding of key concepts.",
+      "examples": [
+        {
+          "wrong": "O retículo endoplasmático liso... elaboração de proteínas...",
+          "correct": "O retículo endoplasmático liso... elaboração de lipídios...",
+          "context": "Misattribution of cellular function."
+        },
+        {
+          "wrong": "A zona tropical... temperaturas são extremamente baixas.",
+          "correct": "A zona tropical... temperaturas são extremamente altas.",
+          "context": "Incorrect description of climate characteristics."
+        },
+        {
+          "wrong": "Quanto maior a inclinação... menos força é necessária...",
+          "correct": "Quanto menor a inclinação... menos força é necessária...",
+          "context": "Incorrect physical principle stated."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Preposition and Crase Misuse",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "HIGH",
+      "frequency": "common",
+      "frequency_count": 4,
+      "description": "Frequent errors in the use of prepositions and crase, especially in scientific and literary contexts, affecting idiomaticity and clarity.",
+      "examples": [
+        {
+          "wrong": "adenina se conecta com timina",
+          "correct": "adenina se conecta à timina",
+          "context": "Missing crase in scientific pairing."
+        },
+        {
+          "wrong": "Personagens não se limitam à personagens principais",
+          "correct": "Personagens não se limitam a personagens principais",
+          "context": "Incorrect use of crase before plural noun."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Code-Switching and Syntax Errors",
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "impact_level": "HIGH",
+      "frequency": "occasional",
+      "frequency_count": 2,
+      "description": "Mixing English words or incorrect syntactic structures in Portuguese sentences, disrupting comprehension and natural flow.",
+      "examples": [
+        {
+          "wrong": "they são o combustível...",
+          "correct": "eles são o combustível...",
+          "context": "English pronoun used in Portuguese sentence."
+        },
+        {
+          "wrong": "A eletronegatividade... em uma coluna...",
+          "correct": "A eletronegatividade... em um período...",
+          "context": "Incorrect scientific term and preposition."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Cultural Inaccuracy in Educational Contexts",
+      "category": "localization",
+      "subcategory": "Cultural",
+      "impact_level": "HIGH",
+      "frequency": "common",
+      "frequency_count": 2,
+      "description": "Statements that misrepresent cultural or educational practices in Brazil, leading to misleading or incorrect information for the target audience.",
+      "examples": [
+        {
+          "wrong": "Embora textos de ficção possam ser interessantes e envolventes, eles são principalmente criados para entretenimento e não para fins educacionais.",
+          "correct": "Embora textos de ficção sejam geralmente criados para entretenimento, eles também podem ser usados para fins educacionais, como estimular a criatividade, promover a empatia ou ilustrar conceitos em sala de aula.",
+          "context": "Misrepresentation of the educational use of fiction in Brazilian schools."
+        },
+        {
+          "wrong": "A participação cívica é uma atividade que só é realizada em dias de feriado nacional.",
+          "correct": "A participação cívica é uma atividade que pode ser realizada em qualquer dia, não apenas em feriados nacionais.",
+          "context": "Incorrectly limiting civic participation to national holidays, ignoring its ongoing nature in Brazilian society."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Non-Localized Measurement Units",
+      "category": "localization",
+      "subcategory": "Terminology",
+      "impact_level": "HIGH",
+      "frequency": "common",
+      "frequency_count": 1,
+      "description": "Use of imperial units (feet) instead of metric units (meter), which are standard in Brazil, causing confusion and reducing clarity.",
+      "examples": [
+        {
+          "wrong": "Mantenha aquecedores a pelo menos três pés de distância de objetos inflamáveis.",
+          "correct": "Mantenha aquecedores a pelo menos um metro de distância de objetos inflamáveis.",
+          "context": "Distance measurements in safety instructions use non-standard units for the Brazilian audience."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Untranslated Key Terminology",
+      "category": "localization",
+      "subcategory": "Terminology",
+      "impact_level": "HIGH",
+      "frequency": "common",
+      "frequency_count": 1,
+      "description": "Failure to translate important English terms into their standard Portuguese equivalents, reducing comprehension and professionalism.",
+      "examples": [
+        {
+          "wrong": "checks and balances",
+          "correct": "sistema de freios e contrapesos",
+          "context": "Political science terminology left untranslated, hindering understanding in educational content."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Inappropriate Use of Emojis in Formal Educational Content",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "MEDIUM",
+      "frequency": "very_common",
+      "frequency_count": 13,
+      "description": "Emojis are frequently used in educational texts, but they are considered informal and unprofessional in Brazilian Portuguese academic contexts. Their removal improves tone and cultural fit.",
+      "examples": [
+        {
+          "wrong": "Bem-vindos ao fascinante mundo do Egito Antigo! ✨",
+          "correct": "Bem-vindos ao fascinante mundo do Egito Antigo!",
+          "context": "Lesson introductions"
+        },
+        {
+          "wrong": "Essas técnicas irão ajudá-lo a analisar textos com confiança e eficiência. 📚",
+          "correct": "Essas técnicas irão ajudá-lo a analisar textos com confiança e eficiência.",
+          "context": "Lesson conclusions"
+        },
+        {
+          "wrong": "Vamos explorar juntos a história, os desafios e as tecnologias que moldaram a exploração espacial, conectando esses conceitos aos princípios científicos do movimento orbital. 🚀",
+          "correct": "Vamos explorar juntos a história, os desafios e as tecnologias que moldaram a exploração espacial, conectando esses conceitos aos princípios científicos do movimento orbital.",
+          "context": "Science and technology topics"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Lexical inaccuracies and false friends",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "MEDIUM",
+      "frequency": "very_common",
+      "frequency_count": 10,
+      "description": "Use of words or expressions that are literal translations, anglicisms, or regionally inappropriate, resulting in unnatural or imprecise language for Brazilian Portuguese educational content.",
+      "examples": [
+        {
+          "wrong": "A membrana celular é bastante selectiva na sua permissividade.",
+          "correct": "A membrana celular é bastante seletiva na sua permissividade.",
+          "context": "European Portuguese spelling instead of Brazilian Portuguese."
+        },
+        {
+          "wrong": "estações eleitorais",
+          "correct": "locais de votação",
+          "context": "Literal translation of 'polling stations' instead of the standard term."
+        },
+        {
+          "wrong": "advocacia por questões importantes",
+          "correct": "defesa de questões importantes",
+          "context": "False friend; 'advocacia' refers to the legal profession."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Non-standard or Anglicized Terminology",
+      "category": "localization",
+      "subcategory": "Terminology",
+      "impact_level": "MEDIUM",
+      "frequency": "very_common",
+      "frequency_count": 10,
+      "description": "Use of English terms or non-standard translations instead of locally accepted Brazilian Portuguese terminology, reducing clarity and professionalism.",
+      "examples": [
+        {
+          "wrong": "Cyberbullying",
+          "correct": "Ciberbullying",
+          "context": "Educational content on digital safety"
+        },
+        {
+          "wrong": "feedbacks",
+          "correct": "retornos",
+          "context": "Instructions for peer review or feedback"
+        },
+        {
+          "wrong": "Cornell Notes",
+          "correct": "método Cornell",
+          "context": "Study techniques"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Terminology Mismatch with Local Standards",
+      "category": "localization",
+      "subcategory": "Terminology",
       "impact_level": "MEDIUM",
       "frequency": "common",
-      "frequency_count": 3,
-      "description": "Use of imprecise, unnatural, or non-standard expressions that reduce clarity and do not align with common usage in educational or technical contexts.",
+      "frequency_count": 10,
+      "description": "Terms are used that do not align with Brazilian Portuguese conventions, such as direct translations, anglicisms, or less formal words, reducing clarity and professionalism.",
       "examples": [
         {
-          "wrong": "Símbolos que representam valores desconhecidos ou variáveis.",
-          "correct": "Símbolos que representam valores desconhecidos ou que podem variar.",
-          "context": "Imprecise use of 'variáveis' instead of clarifying the concept of changing values."
+          "wrong": "semi-conservativa",
+          "correct": "semiconservativa",
+          "context": "Scientific terminology"
         },
         {
-          "wrong": "O formador de zonas climáticas é influenciado por vários fatores...",
-          "correct": "A formação das zonas climáticas é influenciada por vários fatores...",
-          "context": "Unnatural phrasing ('formador de zonas climáticas') instead of standard terminology."
+          "wrong": "Chatbots oferecem suporte rápido ao cliente.",
+          "correct": "Assistentes virtuais oferecem suporte rápido ao cliente.",
+          "context": "Technology and customer support"
         },
         {
-          "wrong": "as variáveis são tipadas",
-          "correct": "as variáveis devem receber valores compatíveis com seu tipo",
-          "context": "Misleading technical phrasing that does not fit the context of dynamically typed languages."
+          "wrong": "pré-visualização do texto",
+          "correct": "prévia do texto",
+          "context": "Reading strategies"
         }
       ]
     },
     {
-      "pattern_name": "Gender Agreement Errors",
-      "category": "linguistic",
-      "subcategory": "Lexical",
+      "pattern_name": "Unnatural or Less Idiomatic Phrasing",
+      "category": "localization",
+      "subcategory": "Style",
       "impact_level": "MEDIUM",
-      "frequency": "occasional",
-      "frequency_count": 1,
-      "description": "Incorrect agreement between nouns and adjectives or participles, which can cause confusion and reduce the professionalism of the text.",
+      "frequency": "common",
+      "frequency_count": 8,
+      "description": "Phrases are constructed in ways that are grammatically correct but sound unnatural or less idiomatic in Brazilian Portuguese, affecting readability and engagement.",
       "examples": [
         {
-          "wrong": "Strings podem ser armazenados como números.",
-          "correct": "Strings podem ser armazenadas como números.",
-          "context": "Mismatch in gender agreement between 'strings' (feminine) and 'armazenados' (masculine)."
+          "wrong": "misturar com o entorno",
+          "correct": "misturar ao ambiente",
+          "context": "Science explanations"
+        },
+        {
+          "wrong": "Você não é adulto.",
+          "correct": "Você ainda não é adulto.",
+          "context": "Age-related statements"
+        },
+        {
+          "wrong": "Métodos incluem o uso de ferramentas...",
+          "correct": "As técnicas incluem o uso de ferramentas...",
+          "context": "Study skills"
         }
       ]
     },
     {
-      "pattern_name": "Incorrect or Overly Restrictive Grammar Rules",
+      "pattern_name": "Incorrect use of definite articles and prepositions",
       "category": "linguistic",
       "subcategory": "Grammar",
       "impact_level": "MEDIUM",
-      "frequency": "occasional",
-      "frequency_count": 1,
-      "description": "Presentation of grammar or usage rules that are too restrictive or inaccurate, potentially misleading learners about correct language or coding conventions.",
+      "frequency": "very_common",
+      "frequency_count": 7,
+      "description": "Frequent omission or misuse of definite articles ('o', 'a', 'os', 'as') and prepositions (including crase) in noun phrases and verb constructions, leading to grammatical inaccuracies and reduced clarity.",
       "examples": [
         {
-          "wrong": "Os nomes devem começar com uma letra minúscula ou um underscore seguido de uma letra minúscula.",
-          "correct": "Os nomes devem começar com uma letra ou um underscore.",
-          "context": "Incorrectly limits variable naming rules in Python."
+          "wrong": "A localização do Egito conectava-o a outras regiões, promovendo comércio e intercâmbio cultural.",
+          "correct": "A localização do Egito conectava-o a outras regiões, promovendo o comércio e o intercâmbio cultural.",
+          "context": "Omission of articles before nouns in educational explanations."
+        },
+        {
+          "wrong": "Trabalhem juntos para achar opções que atendam todos.",
+          "correct": "Trabalhem juntos para achar opções que atendam a todos.",
+          "context": "Missing preposition required by the verb 'atender'."
+        },
+        {
+          "wrong": "Este comportamento é um exemplo de bondade diária que pode ser facilmente incorporado na rotina diária de alguém.",
+          "correct": "Este comportamento é um exemplo de bondade diária que pode ser facilmente incorporado à rotina diária de alguém.",
+          "context": "Missing crase before feminine noun."
         }
       ]
     },
     {
-      "pattern_name": "Ambiguous or Unnatural Pronoun Use",
+      "pattern_name": "Non-idiomatic or ambiguous phrasing",
       "category": "linguistic",
-      "subcategory": "Grammar",
+      "subcategory": "Style",
       "impact_level": "MEDIUM",
-      "frequency": "occasional",
-      "frequency_count": 1,
-      "description": "Use of ambiguous or overly formal pronouns that reduce clarity and do not match the expected tone for educational content in Brazilian Portuguese.",
+      "frequency": "common",
+      "frequency_count": 6,
+      "description": "Use of phrases or constructions that are grammatically correct but not idiomatic or clear in Brazilian Portuguese, affecting the naturalness and comprehension of educational material.",
       "examples": [
         {
-          "wrong": "ferramentas que o ajudarão a analisar questões complexas e participar de discussões significativas",
-          "correct": "ferramentas que ajudarão você a analisar questões complexas e a participar de discussões significativas",
-          "context": "Use of 'o' instead of the more direct and natural 'você'."
-        }
-      ]
-    },
-    {
-      "pattern_name": "Regional Spelling Inconsistency",
-      "category": "linguistic",
-      "subcategory": "Lexical",
-      "impact_level": "MEDIUM",
-      "frequency": "occasional",
-      "frequency_count": 1,
-      "description": "Use of spelling conventions from a different Portuguese variant (e.g., European instead of Brazilian), which can distract or confuse the target audience.",
-      "examples": [
+          "wrong": "Pressione forte e rápido, 100-120 compressões por minuto.",
+          "correct": "Pressione com força e rapidez, 100-120 compressões por minuto.",
+          "context": "Non-idiomatic adverbial construction."
+        },
         {
-          "wrong": "selectiva",
-          "correct": "seletiva",
-          "context": "European Portuguese spelling used in Brazilian Portuguese content."
+          "wrong": "Plano de evacuação: Crie e pratique um plano de fuga familiar com duas saídas de cada cômodo.",
+          "correct": "Plano de evacuação: Crie e pratique um plano de fuga para a família com duas saídas de cada cômodo.",
+          "context": "Ambiguous noun phrase."
         }
       ]
     },
@@ -148,147 +359,282 @@
       "pattern_name": "Non-idiomatic or imprecise lexical choices",
       "category": "linguistic",
       "subcategory": "Lexical",
-      "impact_level": "LOW",
+      "impact_level": "MEDIUM",
       "frequency": "common",
-      "frequency_count": 3,
-      "description": "Use of words or phrases that are understandable but not the most natural, idiomatic, or precise in Brazilian Portuguese, especially in educational or professional contexts.",
+      "frequency_count": 6,
+      "description": "Use of words or expressions that are grammatically correct but not idiomatic or precise in Brazilian Portuguese, affecting clarity and professionalism.",
       "examples": [
         {
-          "wrong": "cenas cotidianas",
-          "correct": "cenas do cotidiano",
-          "context": "Describing everyday scenes in a formal educational context"
+          "wrong": "Ratos-canguru que sobrevivem sem beber água...",
+          "correct": "Ratos-canguru que sobrevivem sem ingerir água...",
+          "context": "Scientific/biological terminology"
         },
         {
-          "wrong": "coletores de impostos",
-          "correct": "cobradores de impostos",
-          "context": "Referring to tax collectors in historical/governmental context"
-        },
-        {
-          "wrong": "revisados por pares",
-          "correct": "avaliados por pares",
-          "context": "Describing peer-reviewed studies in academic context"
+          "wrong": "habilidades sociais fortes",
+          "correct": "habilidades sociais sólidas",
+          "context": "Describing social skills in group work"
         }
       ]
     },
     {
-      "pattern_name": "Unnatural or Non-idiomatic Expressions",
-      "category": "localization",
-      "subcategory": "Style",
-      "impact_level": "LOW",
-      "frequency": "common",
-      "frequency_count": 3,
-      "description": "Use of phrases or expressions that, while grammatically correct, are not idiomatic or natural in Brazilian Portuguese educational contexts. Adjusting these improves clarity and cultural fit.",
-      "examples": [
-        {
-          "wrong": "seguido por sacerdotes, nobres, soldados, comerciantes e agricultores.",
-          "correct": "seguido de sacerdotes, nobres, soldados, comerciantes e agricultores.",
-          "context": "Prepositional choice after 'seguido' for regional appropriateness."
-        },
-        {
-          "wrong": "misturar com o entorno através de mudanças rápidas de cor.",
-          "correct": "misturar ao ambiente por meio de mudanças rápidas de cor.",
-          "context": "More natural phrasing for describing chameleons' adaptation."
-        },
-        {
-          "wrong": "Use essas ferramentas para entender relações, fazer previsões e encontrar soluções na matemática e no mundo real.",
-          "correct": "Utilize esses conhecimentos para entender relações, fazer previsões e encontrar soluções na matemática e no dia a dia.",
-          "context": "Preferred verbs and expressions for educational instructions."
-        }
-      ]
-    },
-    {
-      "pattern_name": "Minor orthographic omissions and article usage",
+      "pattern_name": "Gender and number agreement errors",
       "category": "linguistic",
-      "subcategory": "Orthography",
-      "impact_level": "LOW",
-      "frequency": "occasional",
-      "frequency_count": 1,
-      "description": "Omission of definite articles or minor orthographic elements that slightly affect the naturalness and correctness of the sentence.",
+      "subcategory": "Grammar",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 5,
+      "description": "Mistakes in matching gender and number between nouns, adjectives, and verbs, which can confuse learners and reduce the professionalism of the content.",
       "examples": [
         {
-          "wrong": "gordura para reter calor no Ártico",
-          "correct": "gordura para reter o calor no Ártico",
-          "context": "Describing animal adaptations; missing definite article before 'calor'"
+          "wrong": "Strings podem ser armazenados como números.",
+          "correct": "Strings podem ser armazenadas como números.",
+          "context": "Incorrect gender agreement with the noun 'strings'."
+        },
+        {
+          "wrong": "compartilhar tal dados pessoal",
+          "correct": "compartilhar tais dados pessoais",
+          "context": "Mismatch in number and gender in noun phrase."
         }
       ]
     },
     {
-      "pattern_name": "Non-idiomatic collocations for emotional states",
+      "pattern_name": "Incorrect sentence type for Yes/No questions",
       "category": "linguistic",
       "subcategory": "Lexical",
-      "impact_level": "LOW",
-      "frequency": "occasional",
-      "frequency_count": 1,
-      "description": "Use of literal or less natural collocations to express emotional states, resulting in slightly awkward or non-idiomatic phrasing.",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 5,
+      "description": "Statements are used instead of questions in Yes/No quiz items, missing the question mark and proper interrogative structure.",
       "examples": [
         {
-          "wrong": "sentimentos magoados",
-          "correct": "sentimentos feridos",
-          "context": "Referring to 'hurt feelings' in a social/emotional context"
+          "wrong": "O numerador pode ser maior que o denominador em uma fração.",
+          "correct": "O numerador pode ser maior que o denominador em uma fração?",
+          "context": "Yes/No question context in math quizzes"
+        },
+        {
+          "wrong": "Toda fração é maior que um todo.",
+          "correct": "Toda fração é maior que um todo?",
+          "context": "Yes/No question context in math quizzes"
         }
       ]
     },
     {
-      "pattern_name": "Typographic conventions for punctuation spacing",
+      "pattern_name": "Grammatical agreement and article usage errors",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 5,
+      "description": "Omission or incorrect use of definite articles, verb conjugation mismatches, and number agreement errors that affect sentence correctness.",
+      "examples": [
+        {
+          "wrong": "Desperdício de materiais e energia não tem impacto...",
+          "correct": "O desperdício de materiais e energia não tem impacto...",
+          "context": "Missing definite article before subject"
+        },
+        {
+          "wrong": "Exemplos incluem mastros de bandeira...",
+          "correct": "Exemplos incluem mastros de bandeiras...",
+          "context": "Number agreement in noun phrases"
+        },
+        {
+          "wrong": "Por exemplo, enquanto mercados emergentes como China e Índia prosperam...",
+          "correct": "Por exemplo, enquanto mercados emergentes como a China e a Índia prosperam...",
+          "context": "Missing definite articles before country names"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Orthographic errors and regional variants",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 4,
+      "description": "Spelling mistakes and use of European Portuguese variants instead of Brazilian Portuguese, which can distract learners and reduce localization quality.",
+      "examples": [
+        {
+          "wrong": "prototipos",
+          "correct": "protótipos",
+          "context": "Missing accent in a scientific term."
+        },
+        {
+          "wrong": "Percentagens",
+          "correct": "Porcentagens",
+          "context": "European Portuguese variant instead of Brazilian Portuguese."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Cultural References Not Adapted for Brazilian Context",
+      "category": "localization",
+      "subcategory": "Cultural",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 4,
+      "description": "Examples, anecdotes, or references that are US-centric or globally generic, rather than locally relevant, reducing relatability and engagement for Brazilian students.",
+      "examples": [
+        {
+          "wrong": "Exemplos incluem os Estados Unidos importando eletrônicos da China e exportando produtos agrícolas como trigo e milho...",
+          "correct": "Exemplos incluem o Brasil importando eletrônicos da China e exportando produtos agrícolas como soja e café...",
+          "context": "Economics lesson examples"
+        },
+        {
+          "wrong": "Michael Jordan, considerado um dos maiores jogadores de basquete de todos os tempos...",
+          "correct": "Use a Brazilian sports figure or provide more context.",
+          "context": "Motivational anecdotes"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Non-standard Scientific and Technical Terminology",
+      "category": "localization",
+      "subcategory": "Terminology",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 4,
+      "description": "Use of general or imprecise terms instead of standard scientific or technical vocabulary, affecting accuracy and comprehension.",
+      "examples": [
+        {
+          "wrong": "segmento de linha",
+          "correct": "segmento de reta",
+          "context": "Geometry lessons"
+        },
+        {
+          "wrong": "forma de matéria",
+          "correct": "estado da matéria",
+          "context": "Science explanations"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect or Unnatural Imperative and Instructional Style",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 3,
+      "description": "Use of impersonal or singular imperative forms in instructions where plural or direct forms are more natural and engaging for Brazilian learners.",
+      "examples": [
+        {
+          "wrong": "Evitar escrever em CAIXA ALTA, que pode parecer gritar.",
+          "correct": "Evite escrever em CAIXA ALTA, pois isso pode ser interpretado como grito.",
+          "context": "Guidelines for online communication"
+        },
+        {
+          "wrong": "Trabalhe juntos para encontrar soluções.",
+          "correct": "Trabalhem juntos para encontrar soluções.",
+          "context": "Group activity instructions"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Currency and Format Not Localized",
+      "category": "localization",
+      "subcategory": "Format",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 1,
+      "description": "References to foreign currency or formats that do not match Brazilian standards, reducing cultural fit and comprehension.",
+      "examples": [
+        {
+          "wrong": "Uma moeda de 25 centavos vale 1/4 de um dólar.",
+          "correct": "Uma moeda de 25 centavos vale 1/4 de um real.",
+          "context": "Math or economics examples"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Non-Standard Abbreviation 'Ex.' Instead of 'Exemplo:'",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "LOW",
+      "frequency": "very_common",
+      "frequency_count": 13,
+      "description": "The abbreviation 'Ex.:' is repeatedly used instead of the standard 'Exemplo:' in Brazilian Portuguese educational materials, affecting clarity and professionalism.",
+      "examples": [
+        {
+          "wrong": "Ex.: pão, arroz, frutas.",
+          "correct": "Exemplo: pão, arroz, frutas.",
+          "context": "Food group examples"
+        },
+        {
+          "wrong": "Ex.: arroz, macarrão",
+          "correct": "Exemplo: arroz, macarrão",
+          "context": "Nutrition lists"
+        },
+        {
+          "wrong": "Ex.: espinafre, maçãs",
+          "correct": "Exemplo: espinafre, maçãs",
+          "context": "Vegetable and fruit examples"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect or missing punctuation and capitalization",
       "category": "linguistic",
       "subcategory": "Orthography",
       "impact_level": "LOW",
-      "frequency": "occasional",
-      "frequency_count": 1,
-      "description": "Missing spaces before and after dashes (travessão), which is a minor but recurring typographic issue in Brazilian Portuguese.",
+      "frequency": "common",
+      "frequency_count": 5,
+      "description": "Minor errors such as missing commas, unnecessary exclamation marks, incorrect capitalization at sentence start, or improper use of hyphens.",
       "examples": [
         {
-          "wrong": "adaptações especiais—mudanças",
-          "correct": "adaptações especiais — mudanças",
-          "context": "Explanatory phrases using dashes in educational content"
+          "wrong": "O número `5` na equação `x + 5 = 10` é de fato uma constante...",
+          "correct": "O número `5` na equação `x + 5 = 10` é, de fato, uma constante...",
+          "context": "Missing comma after interjection"
+        },
+        {
+          "wrong": "raios-X",
+          "correct": "raios X",
+          "context": "Compound noun spelling in science content"
+        },
+        {
+          "wrong": "a Torá é o texto sagrado...",
+          "correct": "A Torá é o texto sagrado...",
+          "context": "Capitalization at start of bullet point"
         }
       ]
     },
     {
-      "pattern_name": "Ambiguous or Incomplete Terminology",
-      "category": "localization",
-      "subcategory": "Terminology",
+      "pattern_name": "Adverb/adjective confusion in formal register",
+      "category": "linguistic",
+      "subcategory": "Grammar",
       "impact_level": "LOW",
       "frequency": "occasional",
-      "frequency_count": 1,
-      "description": "Use of terms that are technically correct but may be ambiguous or less clear in the educational context. Expanding or clarifying terminology improves understanding.",
+      "frequency_count": 2,
+      "description": "Use of adjectives instead of adverbs in formal educational contexts, reducing grammatical precision.",
       "examples": [
         {
-          "wrong": "Laços",
-          "correct": "Laços de repetição",
-          "context": "Clarifies that 'laços' refers to programming loops, not bows or ties."
+          "wrong": "crescem mais rápido do que em áreas sombreadas",
+          "correct": "crescem mais rapidamente do que em áreas sombreadas",
+          "context": "Describing growth rates in science content"
+        },
+        {
+          "wrong": "crescem mais rápido foi confirmada...",
+          "correct": "crescem mais rapidamente foi confirmada...",
+          "context": "Reporting scientific findings"
         }
       ]
     },
     {
-      "pattern_name": "Inconsistent Address or Imperative Form",
+      "pattern_name": "Non-Localized Formatting of Numbers and Dates",
       "category": "localization",
-      "subcategory": "Style",
+      "subcategory": "Format",
       "impact_level": "LOW",
       "frequency": "occasional",
-      "frequency_count": 1,
-      "description": "Use of plural imperative when singular is more appropriate for the target audience, leading to inconsistency in tone and directness.",
+      "frequency_count": 2,
+      "description": "Formatting conventions for numbers and date ranges follow English standards rather than Brazilian Portuguese, which can cause confusion or reduce cultural fit.",
       "examples": [
         {
-          "wrong": "Trabalhem juntos para encontrar soluções.",
-          "correct": "Trabalhe junto para encontrar soluções.",
-          "context": "Instruction should address the individual learner."
-        }
-      ]
-    },
-    {
-      "pattern_name": "Inappropriate Use of Emojis in Formal Contexts",
-      "category": "localization",
-      "subcategory": "Style",
-      "impact_level": "LOW",
-      "frequency": "occasional",
-      "frequency_count": 1,
-      "description": "Use of emojis that may not suit the formality or professionalism expected in educational content for certain audiences.",
-      "examples": [
+          "wrong": "123-456-789",
+          "correct": "123.456.789",
+          "context": "Number grouping (e.g., CPF, phone numbers)"
+        },
         {
-          "wrong": "🌟",
-          "correct": "",
-          "context": "Emoji may reduce seriousness in academic material."
+          "wrong": "século V–IV a.C.",
+          "correct": "século V a IV a.C.",
+          "context": "Historical date ranges"
         }
       ]
     }

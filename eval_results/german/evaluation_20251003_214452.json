@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Aktives Lesen ist eine tiefgehende Lesestrategie, die darauf abzielt, das Textverständnis und die Behaltensleistung zu verbessern.",
+      "correction": "Aktives Lesen ist eine tiefgehende Lesestrategie, die darauf abzielt, das Textverständnis und die Behaltensleistung zu verbessern.",
+      "description": "The word 'Behaltensleistung' is not standard in German educational terminology. The more commonly accepted term is 'Gedächtnisleistung' or 'Merkfähigkeit'. 'Behalten' is a verb, and its nominalization as 'Behaltensleistung' is awkward and not widely used. This affects both lexical precision and terminology consistency, as learners may not recognize or understand the term. Correction: Replace 'Behaltensleistung' with 'Gedächtnisleistung' for clarity and standard usage.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Diese Techniken ermöglichen es Ihnen, klüger zu lesen, nicht härter.",
+      "correction": "Diese Techniken ermöglichen es Ihnen, effizienter zu lesen, nicht härter.",
+      "description": "The phrase 'klüger zu lesen, nicht härter' is a direct translation of the English idiom 'work smarter, not harder', which is not idiomatic in German. The use of 'klüger' in this context is unnatural and may sound awkward to native speakers. A more natural and culturally appropriate expression would be 'effizienter zu lesen, nicht härter', which conveys the intended meaning in a way that aligns with German style and tone.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Reading_Strategies.llm.md",
+    "language": "German",
+    "timestamp": "2025-10-03T21:44:52.302849",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

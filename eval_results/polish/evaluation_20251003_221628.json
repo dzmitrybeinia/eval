@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Założenie tej deklaracji było odpowiedzieć na zbrodnie wojenne, w tym Holokaust.",
+      "correction": "Założeniem tej deklaracji było odpowiedzenie na zbrodnie wojenne, w tym Holokaust.",
+      "description": "The original sentence contains a grammatical error in the use of the noun 'założenie' in nominative case, while the instrumental case 'założeniem' is required. Additionally, the verb 'było odpowiedzieć' is incorrect; the correct form is 'było odpowiedzeniem', which matches the noun and aspect. These errors affect the clarity and correctness of the sentence.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "daje im ten sam poziom ochrony i szacowania.",
+      "correction": "daje im ten sam poziom ochrony i szacunku.",
+      "description": "The word 'szacowania' is a grammatical error; the correct noun in this context is 'szacunku'. 'Szacowanie' means 'estimation', while 'szacunek' means 'respect', which is the intended meaning in the context of human rights.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "To jest zgodne z ogólnej zasadą ochrony praw człowieka, ale konkretna interpretacja w tym artykulei jest niepoprawna.",
+      "correction": "To jest zgodne z ogólną zasadą ochrony praw człowieka, ale konkretna interpretacja w tym artykule jest niepoprawna.",
+      "description": "There are two grammatical errors: 'ogólnej zasadą' should be 'ogólną zasadą' (correct adjective-noun agreement in instrumental case), and 'artykulei' is a misspelling of 'artykule'. These errors affect the grammatical correctness and clarity of the feedback.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Ten stwierdzenie jest nieprawdziwie, ponieważ Deklaracja Praw Człowieka była znaczącą postacią w historii prawa międzynarodowego, a jej wpływ na system polityczny Stanów Związkowych Azowskich jest niezidentyfikowanym.",
+      "correction": "To stwierdzenie jest nieprawdziwe, ponieważ Deklaracja Praw Człowieka była znaczącym dokumentem w historii prawa międzynarodowego, a jej wpływ na system polityczny Stanów Związkowych Azowskich jest niezidentyfikowany.",
+      "description": "Multiple grammatical errors: 'Ten stwierdzenie' should be 'To stwierdzenie' (correct gender agreement), 'nieprawdziwie' should be 'nieprawdziwe' (correct adjective form), and 'znaczącą postacią' should be 'znaczącym dokumentem' for lexical precision, as 'postać' is not appropriate for 'declaration'. These errors affect both grammatical correctness and lexical precision.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Została ona przyjęta na brytyjską kolonię, a z czasem, gdy Polska odzyskała niepodległość, jej zasady stały się częścią międzynarodowego prawa i niekoniecznie wpływały bezpośrednio na politykę określonej narodowości.",
+      "correction": "Została ona przyjęta w brytyjskiej kolonii, a z czasem, gdy Polska odzyskała niepodległość, jej zasady stały się częścią międzynarodowego prawa i niekoniecznie wpływały bezpośrednio na politykę określonej narodowości.",
+      "description": "The phrase 'przyjęta na brytyjską kolonię' is grammatically incorrect; the correct preposition is 'w' with the locative case 'brytyjskiej kolonii'. This error affects the grammatical correctness and clarity of the sentence.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Human_Rights.slm.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T22:16:28.580364",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 8.6,
+    "classification": "PROFESSIONAL",
+    "total_issues": 5,
+    "total_penalty": 1.4,
+    "issue_breakdown": {
+      "linguistic": 5,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.4,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

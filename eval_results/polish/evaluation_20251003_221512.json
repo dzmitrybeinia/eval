@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Omała powieść autorstwa Ursuli Kona, która opisuje historię życia samotnej dziewczyny w Włoszech.",
+      "correction": "Omawiana powieść autorstwa Ursuli Kona, która opisuje historię życia samotnej dziewczyny we Włoszech.",
+      "description": "The original sentence contains two grammatical errors: 'Omała' is an incorrect form and should be 'Omawiana' to mean 'the discussed novel.' Additionally, 'w Włoszech' is incorrect due to improper case usage; the correct locative form is 'we Włoszech.' Both errors affect clarity and grammatical correctness.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Ten tekst nie jest literaturą faktu, ponieważ opowiada fikcyjną historia.",
+      "correction": "Ten tekst nie jest literaturą faktu, ponieważ opowiada fikcyjną historię.",
+      "description": "The noun 'historia' is in the accusative case and requires the ending '-ę' to match the adjective 'fikcyjną.' The original uses 'fikcyjną historia,' which is incorrect; it should be 'fikcyjną historię.' This is a case agreement error between adjective and noun.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Literatura faktu koncentruje się na rzeczystych wydarzeniach i prawdziwych postawach, często zawierającymi faktyczne informacje, na przykład biograficzne książki czy naukowy artykuł.",
+      "correction": "Literatura faktu koncentruje się na rzeczywistych wydarzeniach i prawdziwych postawach, często zawierając faktyczne informacje, na przykład biograficzne książki czy naukowy artykuł.",
+      "description": "There are two linguistic errors: 'rzeczystych' is a misspelling and should be 'rzeczywistych' (real/actual). The participle 'zawierającymi' is incorrectly used; it should be 'zawierając' to match the preceding clause and maintain correct sentence structure. Both errors affect clarity and grammatical accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Powieści, typem dzieła literackiego, charakteryzują się wyimaginowaną lub wymyśloną treścią.",
+      "correction": "Powieści, jako typ dzieła literackiego, charakteryzują się wyimaginowaną lub wymyśloną treścią.",
+      "description": "The phrase 'typem dzieła literackiego' is ungrammatical in this context; the correct construction is 'jako typ dzieła literackiego' to indicate 'as a type of literary work.' This improves sentence structure and clarity.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "To wyróżnia je na tle literatury faktu, która opiera się rzeczywistych wydarzeń lub zjawisk.",
+      "correction": "To wyróżnia je na tle literatury faktu, która opiera się na rzeczywistych wydarzeniach lub zjawiskach.",
+      "description": "The phrase 'opiera się rzeczywistych wydarzeń lub zjawisk' is missing the required preposition 'na' and the correct case endings. It should be 'opiera się na rzeczywistych wydarzeniach lub zjawiskach' to maintain proper grammatical structure.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Fiction_vs_Nonfiction.slm.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T22:15:12.031651",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 8.6,
+    "classification": "PROFESSIONAL",
+    "total_issues": 5,
+    "total_penalty": 1.4,
+    "issue_breakdown": {
+      "linguistic": 5,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.4,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

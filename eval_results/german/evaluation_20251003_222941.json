@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Testen von Designlösungen ist ein kritischer und obligatorischer Schritt im Designprozess. Ohne das Testen zu veranstalten, bleibt die Wirksamkeit der Lösung unbewertet.",
+      "correction": "Testen von Designlösungen ist ein kritischer und obligatorischer Schritt im Designprozess. Ohne das Testen bleibt die Wirksamkeit der Lösung unbewertet.",
+      "description": "The phrase 'das Testen zu veranstalten' is grammatically incorrect in German. The verb 'veranstalten' (to organize/host) is not appropriate in this context; 'Testen' is not something that is 'organized' but rather 'conducted' or simply 'done.' The correct construction is 'Ohne das Testen' to indicate 'without testing.' This correction improves grammatical accuracy and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Durch die Anpassung von Designs an das Feedback erhalten die Designer die Möglichkeit, ihre Arbeit zu verbessern.",
+      "correction": "Durch die Anpassung ihrer Designs an das Feedback haben Designer die Möglichkeit, ihre Arbeit zu verbessern.",
+      "description": "The original sentence uses 'Durch die Anpassung von Designs an das Feedback erhalten die Designer die Möglichkeit, ihre Arbeit zu verbessern,' which is understandable but slightly unnatural in German educational style. The phrase 'ihre Designs' is more idiomatic and personal, and 'haben Designer die Möglichkeit' is a more direct and natural way to express the opportunity. This correction enhances the naturalness and professional tone of the feedback.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Design_Process.slm.md",
+    "language": "German",
+    "timestamp": "2025-10-03T22:29:41.831998",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

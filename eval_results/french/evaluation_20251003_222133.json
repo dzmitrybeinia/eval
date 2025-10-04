@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "honneurant les traditions et les ancêtres",
+      "correction": "honorant les traditions et les ancêtres",
+      "description": "The word 'honneurant' is a lexical error; the correct present participle of 'honorer' is 'honorant'. This mistake affects the grammatical accuracy and clarity of the sentence.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Thanksgiving aux États-Unis, qui est un jour férié",
+      "correction": "Thanksgiving aux États-Unis, qui est une fête nationale",
+      "description": "Referring to Thanksgiving as 'un jour férié' is technically correct, but 'fête nationale' is more culturally appropriate in French educational contexts, as it better conveys the significance of the holiday. This adjustment improves cultural understanding for French-speaking learners.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Cultural_Celebrations.slm.md",
+    "language": "French",
+    "timestamp": "2025-10-03T22:21:33.847266",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

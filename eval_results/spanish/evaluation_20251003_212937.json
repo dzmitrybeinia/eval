@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Ser ciudadano de EE.UU.",
+      "correction": "Ser ciudadano estadounidense.",
+      "description": "The abbreviation 'EE.UU.' is correct in Spanish for 'Estados Unidos', but 'ciudadano de EE.UU.' is less natural and may be ambiguous for some Spanish-speaking audiences, especially in educational contexts. 'Ciudadano estadounidense' is the standard, clear, and culturally appropriate term for referring to a U.S. citizen in Spanish educational materials.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Trabajar como funcionario electoral o en mesas de votación.",
+      "correction": "Trabajar como funcionario electoral o en una mesa de votación.",
+      "description": "The phrase 'en mesas de votación' is grammatically correct, but in Spanish, it is more natural to use the singular 'en una mesa de votación' when referring to the typical role of an election worker. If referring to multiple locations, it should be clarified. The current phrasing may cause slight ambiguity.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "Tener al menos 18 años (en la mayoría de los casos).",
+      "correction": "Tener 18 años cumplidos (en la mayoría de los casos).",
+      "description": "The phrase 'al menos 18 años' is understandable, but '18 años cumplidos' is the standard way to express the legal voting age in Spanish-speaking contexts, especially in official or educational materials. This improves clarity and aligns with local conventions.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Voting_Process.llm.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-03T21:29:37.558726",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

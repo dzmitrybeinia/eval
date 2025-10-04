@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Estes são os blocos fundamentais para resolver problemas matemáticos e do dia a dia! 🧮",
+      "correction": "Estes são os elementos fundamentais para resolver problemas matemáticos e do cotidiano! 🧮",
+      "description": "The phrase 'blocos fundamentais' is a literal translation of 'building blocks' and sounds unnatural in Brazilian Portuguese for educational content. 'Elementos fundamentais' is the standard and more natural term. Additionally, 'do dia a dia' is less formal than 'do cotidiano', which is preferred in educational contexts. The emoji is acceptable for young audiences but should be used with awareness of the target age group.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "O ponto marcado por um lápis no papel é um exemplo de ponto.",
+      "correction": "O ponto marcado por um lápis no papel é um exemplo de ponto.",
+      "description": "No linguistic errors found. The sentence is grammatically correct and uses proper spelling and punctuation.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Normalmente identificada por duas letras maiúsculas (Linha AB) ou uma letra minúscula.",
+      "correction": "Normalmente identificada por duas letras maiúsculas (AB) ou por uma letra minúscula.",
+      "description": "The use of 'Linha AB' is not standard in Brazilian Portuguese geometry terminology. The correct and natural way is to refer to the line simply as 'AB' or by a lowercase letter. The phrase 'por uma letra minúscula' clarifies the convention and improves consistency with local educational standards.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Um ângulo é formado quando duas linhas ou raios se encontram em um ponto chamado vértice.",
+      "correction": "Um ângulo é formado quando duas linhas ou dois raios se encontram em um ponto chamado vértice.",
+      "description": "The phrase 'duas linhas ou raios' lacks parallel structure and agreement. It should be 'duas linhas ou dois raios' to maintain grammatical consistency and clarity.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Geometry_Basics.llm.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T21:47:16.356445",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.3,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.7,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.4,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

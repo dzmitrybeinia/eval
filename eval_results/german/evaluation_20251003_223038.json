@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Freundlichkeit gewährt sich durch Selbstbehauptung.",
+      "correction": "Freundlichkeit zeigt sich durch Selbstbehauptung.",
+      "description": "The verb 'gewährt sich' is incorrect in this context. In German, 'gewähren' means 'to grant' and is not reflexive in this sense. The correct verb is 'zeigt sich', which means 'is shown' or 'is demonstrated'. This correction improves the lexical precision and ensures the sentence is grammatically and semantically accurate.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "wie ein Lächeln oder das Aufnehmen einer Last",
+      "correction": "wie ein Lächeln oder das Helfen bei einer Aufgabe",
+      "description": "The phrase 'das Aufnehmen einer Last' is literal and may sound unnatural or overly formal in German educational content. 'Das Helfen bei einer Aufgabe' is a more natural and culturally appropriate way to express helping someone, which aligns better with everyday German usage and educational tone.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Dieses Prinzip der positiven Rückkopplung ist ein universelles Phänomen, das auch in anderen kulturellen Kontexten beobachtet wird.",
+      "correction": "Dieses Prinzip der positiven Rückmeldung ist ein universelles Phänomen, das auch in anderen kulturellen Kontexten beobachtet wird.",
+      "description": "The term 'Rückkopplung' is primarily used in technical or scientific contexts (e.g., feedback loops in engineering). For psychological or social contexts, 'Rückmeldung' is the more natural and widely accepted term in German, making the statement clearer and more appropriate for educational content.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Kindness_Matters.slm.md",
+    "language": "German",
+    "timestamp": "2025-10-03T22:30:38.711919",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

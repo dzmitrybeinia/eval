@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Hochgeschwindigkeitsabgase",
+      "correction": "Hochgeschwindigkeits-Abgase",
+      "description": "The compound noun 'Hochgeschwindigkeitsabgase' should be hyphenated as 'Hochgeschwindigkeits-Abgase' to improve readability and clarity, especially in technical contexts. While German allows long compounds, the Duden recommends hyphenation for clarity when the first part is itself a compound or when the word becomes difficult to parse. This is a minor orthographic improvement.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Widerstandsbänder",
+      "correction": "Widerstandsbänder (Resistance Bands)",
+      "description": "The term 'Widerstandsbänder' is correct in German, but in the context of space training equipment, it may be unfamiliar to some learners. Adding the English term in parentheses clarifies the meaning and ensures consistency with international terminology, especially for educational content aimed at a broad audience.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Die ISS nutzt Technologien zur Wiederverwertung von Wasser und Luft, um ihre Besatzung zu versorgen.",
+      "correction": "Die ISS nutzt Technologien zur Wiederverwertung von Wasser und Luft, um die Besatzung zu versorgen.",
+      "description": "The use of 'ihre Besatzung' is grammatically correct, but in formal scientific writing, 'die Besatzung' is preferred for clarity and neutrality. The possessive pronoun 'ihre' can be ambiguous, especially when multiple subjects are discussed. This correction improves precision and reduces potential confusion.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Bereit, die Wissenschaft hinter den Sternen zu entdecken?",
+      "correction": "Bereit, die Wissenschaft des Universums zu entdecken?",
+      "description": "The phrase 'die Wissenschaft hinter den Sternen' is a literal translation of the English idiom 'science behind the stars,' which is not idiomatic in German. 'Die Wissenschaft des Universums' is a more natural and culturally appropriate expression for German-speaking audiences, avoiding unnecessary anglicism.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Space_Travel.llm.md",
+    "language": "German",
+    "timestamp": "2025-10-03T21:45:02.791021",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

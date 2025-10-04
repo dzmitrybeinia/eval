@@ -1,35 +1,73 @@
 {
   "metadata": {
     "label": "slm",
-    "label_normalized": "slm",
-    "label_key": "slm",
     "language": "french",
-    "generated_at": "2025-10-03T16:10:08.774091",
+    "generated_at": "2025-10-03T22:42:23.373641",
     "source_files": [
-      "evaluation_20251003_160455.json",
-      "evaluation_20251003_160458.json",
-      "evaluation_20251003_160502.json",
-      "evaluation_20251003_160506.json",
-      "evaluation_20251003_160509.json",
-      "evaluation_20251003_160511.json",
-      "evaluation_20251003_160514.json",
-      "evaluation_20251003_160517.json",
-      "evaluation_20251003_160524.json",
-      "evaluation_20251003_160525.json"
+      "evaluation_20251003_222058.json",
+      "evaluation_20251003_222100.json",
+      "evaluation_20251003_222107.json",
+      "evaluation_20251003_222111.json",
+      "evaluation_20251003_222112.json",
+      "evaluation_20251003_222114.json",
+      "evaluation_20251003_222117.json",
+      "evaluation_20251003_222118.json",
+      "evaluation_20251003_222125.json",
+      "evaluation_20251003_222126.json",
+      "evaluation_20251003_222131.json",
+      "evaluation_20251003_222133.json",
+      "evaluation_20251003_222136.json",
+      "evaluation_20251003_222139.json",
+      "evaluation_20251003_222140.json",
+      "evaluation_20251003_222143.json",
+      "evaluation_20251003_222145.json",
+      "evaluation_20251003_222147.json",
+      "evaluation_20251003_222150.json",
+      "evaluation_20251003_222152.json",
+      "evaluation_20251003_222154.json",
+      "evaluation_20251003_222158.json",
+      "evaluation_20251003_222201.json",
+      "evaluation_20251003_222205.json",
+      "evaluation_20251003_222208.json",
+      "evaluation_20251003_222211.json",
+      "evaluation_20251003_222212.json",
+      "evaluation_20251003_222219.json",
+      "evaluation_20251003_222223.json",
+      "evaluation_20251003_222225.json",
+      "evaluation_20251003_222228.json",
+      "evaluation_20251003_222231.json",
+      "evaluation_20251003_222233.json",
+      "evaluation_20251003_222236.json",
+      "evaluation_20251003_222237.json",
+      "evaluation_20251003_222239.json",
+      "evaluation_20251003_222242.json",
+      "evaluation_20251003_222245.json",
+      "evaluation_20251003_222247.json",
+      "evaluation_20251003_222252.json",
+      "evaluation_20251003_222256.json",
+      "evaluation_20251003_222258.json",
+      "evaluation_20251003_222301.json",
+      "evaluation_20251003_222304.json",
+      "evaluation_20251003_222310.json",
+      "evaluation_20251003_222327.json",
+      "evaluation_20251003_222329.json",
+      "evaluation_20251003_222332.json",
+      "evaluation_20251003_222333.json",
+      "evaluation_20251003_222335.json"
     ],
     "issue_counts": {
-      "linguistic": 17,
-      "localization": 8
+      "linguistic": 88,
+      "localization": 43
     }
   },
   "issues": {
     "linguistic": [
       {
         "category": "linguistic",
-        "subcategory": "Grammar",
-        "original": "Les Égyptiens ont appris à exploiter les crues annuelles du Nil, qui apportaient des alluvions riche en nutriments à leurs champs.",
-        "correction": "Les Égyptiens ont appris à exploiter les crues annuelles du Nil, qui apportaient des alluvions riches en nutriments à leurs champs.",
-        "description": "The adjective 'riche' should agree in number with 'alluvions', which is plural. The correct form is 'riches'. This error affects grammatical agreement and clarity.",
+        "subcategory": "Orthography",
+        "original": "des alluvions riche en nutriments",
+        "correction": "des alluvions riches en nutriments",
+        "description": "The adjective 'riche' should agree in number with 'alluvions', which is plural. The correct form is 'riches'. This is a grammatical agreement error affecting the precision and correctness of the sentence.",
         "severity": "HIGH"
       },
       {
@@ -42,18 +80,26 @@
       },
       {
         "category": "linguistic",
-        "subcategory": "Grammar",
-        "original": "comme le comportement de hibernation des chauves-souris",
-        "correction": "comme le comportement d'hibernation des chauves-souris",
-        "description": "The contraction 'de' + 'hibernation' should be 'd'hibernation' due to the vowel at the beginning of 'hibernation'. This is a mandatory contraction in French grammar and its omission is a grammatical error.",
-        "severity": "HIGH"
+        "subcategory": "Orthography",
+        "original": "En effet, les symboles comme `x`, `y`, ou `z` servent à représenter des quantités inconnues ou variables dans des équations algébriques. Cette flexibilité facilite l'application de règles mathématiques à divers problèmes.",
+        "correction": "En effet, les symboles comme `x`, `y` ou `z` servent à représenter des quantités inconnues ou variables dans des équations algébriques. Cette flexibilité facilite l'application de règles mathématiques à divers problèmes.",
+        "description": "There is an unnecessary comma before 'ou' in the list 'x, y, ou z'. In French, the serial comma is generally not used, so the correct form is 'x, y ou z'. This correction aligns with standard French punctuation rules.",
+        "severity": "MINOR"
       },
       {
         "category": "linguistic",
-        "subcategory": "Grammar",
-        "original": "pour naviguer dans les arbres",
-        "correction": "pour se déplacer dans les arbres",
-        "description": "While 'naviguer' is not incorrect, it is not the most natural verb choice for describing how rodents move in trees. 'Se déplacer' is more idiomatic and precise in this context, improving lexical precision and naturalness.",
+        "subcategory": "Orthography",
+        "original": "En mathématiques, les constantes sont des valeurs fixes qui ne changent pas, contrairement aux variables qui peuvent changer en fonction de l'équation. Ainsi, la notion que les constantes changent est incorrecte.",
+        "correction": "En mathématiques, les constantes sont des valeurs fixes qui ne changent pas, contrairement aux variables qui peuvent changer en fonction de l'équation. Ainsi, l’idée que les constantes changent est incorrecte.",
+        "description": "The word 'notion' is not the most precise choice in this context. 'Idée' is more appropriate when referring to a mistaken belief or concept. This improves lexical precision and clarity.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "En réalité, une équation est une déclaration mathématique qui indique l'égalité entre deux expressions. Lorsque nous parlons d'équations, nous sommes toujours intéressés par l'idée que les deux côtés du signe égal ont la même valeur.",
+        "correction": "En réalité, une équation est une déclaration mathématique qui indique l'égalité entre deux expressions. Lorsque nous parlons d'équations, nous nous intéressons toujours à l'idée que les deux côtés du signe égal ont la même valeur.",
+        "description": "The phrase 'nous sommes toujours intéressés par' is less idiomatic in French. 'Nous nous intéressons toujours à' is more natural and commonly used in educational contexts.",
         "severity": "MINOR"
       },
       {
@@ -61,7 +107,15 @@
         "subcategory": "Grammar",
         "original": "Dans la résolution des équations simples, l'opération inverse à celle effectuée sur la variable doit être appliquée des deux côtés pour isoler la variable. Dans l'exemple donné, il faut soustraire 4 des deux côtés pour trouver la valeur de 'x', ce qui donne `x = 6`. L'opération d'addition ne mène pas à la solution dans ce contexte.",
         "correction": "Dans la résolution des équations simples, l'opération inverse de celle effectuée sur la variable doit être appliquée des deux côtés pour isoler la variable. Dans l'exemple donné, il faut soustraire 4 des deux côtés pour trouver la valeur de 'x', ce qui donne `x = 6`. L'opération d'addition ne mène pas à la solution dans ce contexte.",
-        "description": "The phrase 'inverse à celle effectuée' is grammatically incorrect in French; the correct preposition is 'de' as in 'l'opération inverse de celle effectuée'. This correction improves grammatical accuracy and clarity.",
+        "description": "The phrase 'inverse à celle effectuée' should be 'inverse de celle effectuée' for correct prepositional usage in French. This correction ensures grammatical accuracy.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "En algèbre, une constante reste une valeur fixe et ne varie pas, contrairement aux variables qui peuvent représenter des quantités inconnues. Les constantes sont essentielles pour établir des relations mathématiques et résoudre des équations. Comprendre cette distinction est crucial pour maîtriser les principes algébriques.",
+        "correction": "En algèbre, une constante reste une valeur fixe et ne varie pas, contrairement aux variables qui peuvent représenter des quantités inconnues. Les constantes sont essentielles pour établir des relations mathématiques et résoudre des équations. Comprendre cette distinction est essentiel pour maîtriser les principes algébriques.",
+        "description": "The use of 'crucial' is correct but 'essentiel' is more commonly used in French educational contexts to express importance. This improves lexical precision and naturalness.",
         "severity": "MINOR"
       },
       {
@@ -69,31 +123,23 @@
         "subcategory": "Grammar",
         "original": "Les ribosomes travaillent en collant les acides aminés pour former des protéines, ce qui est essentiel pour la croissance, la réparation et les réponses immunitaires chez les organismes.",
         "correction": "Les ribosomes assemblent les acides aminés pour former des protéines, ce qui est essentiel pour la croissance, la réparation et les réponses immunitaires chez les organismes.",
-        "description": "The verb 'collant' is not appropriate in this scientific context; 'assembler' is the correct term for describing how ribosomes link amino acids. This is a lexical and grammatical issue affecting precision and clarity.",
+        "description": "The verb 'collant' is not appropriate in this scientific context; 'assembler' is the correct term for describing how ribosomes join amino acids. This correction improves lexical precision and scientific accuracy.",
         "severity": "MEDIUM"
       },
       {
         "category": "linguistic",
         "subcategory": "Orthography",
-        "original": "Marchi.e.",
-        "correction": "Marchiée",
-        "description": "The original text 'Marchi.e.' contains an incorrect use of punctuation and is not a valid French word or name. It appears to be a typographical error, possibly intended to be 'Marchiée' or another proper noun. This error affects comprehension and the credibility of the content. Correction is required to ensure proper spelling and clarity.",
-        "severity": "HIGH"
-      },
-      {
-        "category": "linguistic",
-        "subcategory": "Orthography",
         "original": "Marchi.e.e.",
-        "correction": "Marchiée",
-        "description": "The text 'Marchi.e.e.' is not a valid French word or name and contains multiple periods, which is incorrect orthographically. This error disrupts the flow and understanding of the sentence. It should be corrected to a proper noun or removed if not relevant.",
-        "severity": "HIGH"
+        "correction": "Marchi.e.",
+        "description": "The original text contains a typographical error with an extra period ('Marchi.e.e.'). The correct form should be 'Marchi.e.'. This error affects the clarity and professionalism of the content.",
+        "severity": "MEDIUM"
       },
       {
         "category": "linguistic",
         "subcategory": "Lexical",
-        "original": "l'égalité accréditée par la loi",
-        "correction": "l'égalité garantie par la loi",
-        "description": "The phrase 'l'égalité accréditée par la loi' is a lexical error. 'Accréditée' is not idiomatic in this context; the standard French expression is 'l'égalité garantie par la loi' or 'l'égalité reconnue par la loi'. The use of 'accréditée' may confuse learners and does not accurately convey the intended meaning of legal equality.",
+        "original": "égalité accréditée par la loi",
+        "correction": "égalité garantie par la loi",
+        "description": "The phrase 'égalité accréditée par la loi' is a lexical error. 'Accréditée' is not idiomatic in this context; the standard French expression is 'égalité garantie par la loi' or 'égalité reconnue par la loi.' This correction improves semantic accuracy and naturalness.",
         "severity": "MEDIUM"
       },
       {
@@ -101,7 +147,7 @@
         "subcategory": "Lexical",
         "original": "Les courants océaniques sont essentiels dans la formation des climats régionaux.",
         "correction": "Les courants océaniques jouent un rôle essentiel dans la formation des climats régionaux.",
-        "description": "The original sentence uses 'sont essentiels dans la formation', which is less idiomatic in French. The corrected version 'jouent un rôle essentiel dans la formation' is more natural and precise, improving lexical choice and overall clarity.",
+        "description": "The original sentence uses 'sont essentiels dans la formation', which is less idiomatic in French. The more natural and precise phrasing is 'jouent un rôle essentiel dans la formation', which better conveys the idea that ocean currents actively influence regional climates. This correction improves lexical precision and naturalness.",
         "severity": "MINOR"
       },
       {
@@ -109,7 +155,7 @@
         "subcategory": "Grammar",
         "original": "qui mènent à des climats plus secs, comme dans le désert d'Atacama.",
         "correction": "ce qui mène à des climats plus secs, comme dans le désert d'Atacama.",
-        "description": "The relative pronoun 'qui' incorrectly refers to 'conditions plus fraîches', but the intended subject is the overall situation described previously. Using 'ce qui mène' correctly links the cause and effect, improving grammatical accuracy.",
+        "description": "The relative clause 'qui mènent à des climats plus secs' incorrectly uses the plural verb 'mènent' when referring to 'conditions plus fraîches', which is singular. The correct structure is 'ce qui mène à des climats plus secs', ensuring proper subject-verb agreement and grammatical accuracy.",
         "severity": "MEDIUM"
       },
       {
@@ -125,57 +171,649 @@
         "subcategory": "Lexical",
         "original": "En Python, vous devez toujours déclarer le type de données d'une variable.",
         "correction": "En Python, vous n'avez pas besoin de déclarer le type de données d'une variable.",
-        "description": "The original statement is linguistically correct but semantically inaccurate in the context of Python programming. The phrase 'vous devez toujours déclarer le type de données d'une variable' incorrectly implies that explicit type declaration is required in Python, which is not the case. The correction provides a more accurate statement for educational clarity.",
-        "severity": "HIGH"
+        "description": "The original statement is misleading in French because 'déclarer le type de données' suggests an obligatory action, which is not the case in Python. The correction clarifies that it is not necessary to declare the data type, aligning with Python's dynamic typing. No grammatical errors are present, but the lexical choice affects comprehension.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "La variable x peut stocker une valeur décimale.",
+        "correction": "La variable x peut contenir une valeur décimale.",
+        "description": "The verb 'stocker' is not the most natural choice in French for variables; 'contenir' is more idiomatic in programming contexts. This improves lexical precision and naturalness. No grammatical errors are present.",
+        "severity": "MINOR"
       },
       {
         "category": "linguistic",
         "subcategory": "Lexical",
         "original": "En Python, les entiers (`int`) sont utilisés pour stocker des nombres entiers, pas des nombres décimaux. Les nombres décimaux sont représentés par des flottants (`float`). La variable x a été déclarée avec une valeur entière (10), ce qui est correct pour un entier, mais si vous voulez stocker un nombre décimal, vous devriez utiliser `float`.",
-        "correction": "En Python, les entiers (`int`) servent à stocker des nombres entiers, tandis que les nombres décimaux sont représentés par des flottants (`float`). La variable x a été initialisée avec une valeur entière (10), ce qui convient pour un entier. Si vous souhaitez stocker un nombre décimal, il faut utiliser le type `float`.",
-        "description": "The original feedback contains minor lexical inaccuracies and slightly awkward phrasing. 'Déclarée avec une valeur entière' is less natural than 'initialisée avec une valeur entière' in French programming context. The correction improves lexical precision and naturalness, enhancing clarity for learners.",
-        "severity": "MINOR"
+        "correction": "En Python, les entiers (`int`) sont utilisés pour contenir des nombres entiers, pas des nombres décimaux. Les nombres décimaux sont représentés par des flottants (`float`). La variable x a été initialisée avec une valeur entière (10), ce qui est correct pour un entier, mais si vous voulez contenir un nombre décimal, vous devriez utiliser `float`.",
+        "description": "The use of 'stocker' is less natural than 'contenir' in this context. Additionally, 'déclarée' is not the most accurate term in Python, where 'initialisée' is preferred for assigning a value. These lexical choices improve clarity and align with standard programming terminology in French.",
+        "severity": "MEDIUM"
       },
       {
         "category": "linguistic",
-        "subcategory": "Grammar",
+        "subcategory": "Orthography",
         "original": "Dans Python, la fonction `float()` est spécifiquement conçue pour convertir des chaînes ou des nombres d'autres types en nombres à virgule flottante, ce qui est essentiel pour effectuer des calculs avec précision.",
-        "correction": "En Python, la fonction `float()` est conçue pour convertir des chaînes ou des nombres d'autres types en nombres à virgule flottante, ce qui est essentiel pour effectuer des calculs précis.",
-        "description": "The original feedback uses 'Dans Python' instead of the grammatically correct 'En Python'. Additionally, 'des calculs avec précision' is less idiomatic than 'des calculs précis'. The correction addresses these grammatical and lexical issues for improved clarity and correctness.",
+        "correction": "En Python, la fonction `float()` est spécifiquement conçue pour convertir des chaînes ou des nombres d'autres types en nombres à virgule flottante, ce qui est essentiel pour effectuer des calculs avec précision.",
+        "description": "The phrase 'Dans Python' should be 'En Python' for correct prepositional usage in French when referring to programming languages. No other linguistic or localization issues are present.",
         "severity": "MINOR"
       },
       {
         "category": "linguistic",
         "subcategory": "Lexical",
         "original": "En Python, les variables sont polyvalentes et peuvent stocker différents types de données, comme des entiers, des flottants, des chaînes de caractères et des booléens, pas seulement des données numériques.",
-        "correction": "En Python, les variables sont polyvalentes et peuvent stocker différents types de données, tels que des entiers, des flottants, des chaînes de caractères ou des booléens, et pas seulement des données numériques.",
-        "description": "The original feedback uses 'comme' for listing examples, but 'tels que' is more precise in formal educational French. Also, 'et pas seulement' is more natural than 'pas seulement' at the end of the sentence. The correction improves lexical precision and naturalness.",
+        "correction": "En Python, les variables sont polyvalentes et peuvent contenir différents types de données, comme des entiers, des flottants, des chaînes de caractères et des booléens, pas seulement des données numériques.",
+        "description": "The verb 'stocker' is less idiomatic than 'contenir' for describing what variables do in French programming contexts. This correction improves lexical precision and naturalness.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Syntax",
+        "original": "En attendant, montrer de l'empathie et une volonté de comprendre la perspective de l'autre peut créer un climat plus propice à une discussion constructive.",
+        "correction": "Montrer de l'empathie et une volonté de comprendre la perspective de l'autre peut créer un climat plus propice à une discussion constructive.",
+        "description": "The introductory phrase 'En attendant,' is syntactically misplaced and creates ambiguity, as it suggests waiting rather than actively listening or showing empathy. Removing it clarifies the sentence and aligns with the intended meaning of attentive listening. No other linguistic or localization issues are present.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Le biais de confirmation est un type de biais cognitif qui a tendance à favoriser les informations qui confirment nos croyances préexistantes tout en ignorant ou minimisant les preuves qui les contredisent. Ce biais peut significativement affecter notre manière de traiter de nouvelles informations, car il peut conduire à une interprétation sélective et à une prise de décision biaisée.",
+        "correction": "Le biais de confirmation est un type de biais cognitif qui tend à favoriser les informations confirmant nos croyances préexistantes tout en ignorant ou en minimisant les preuves qui les contredisent. Ce biais peut affecter de manière significative notre façon de traiter de nouvelles informations, car il peut conduire à une interprétation sélective et à une prise de décision biaisée.",
+        "description": "The phrase 'a tendance à favoriser' is wordy and less idiomatic in French; 'tend à favoriser' is more concise and natural. 'Les informations qui confirment' can be streamlined to 'les informations confirmant' for better flow. 'Notre manière de traiter' is less idiomatic than 'notre façon de traiter'. 'Significativement affecter' is less natural than 'affecter de manière significative'. These changes improve lexical precision and naturalness, enhancing clarity and idiomatic expression.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Une preuve peut prendre de nombreuses formes : faits concrets, statistiques, exemples concrets, ou témoignages d'experts. Une citation seule peut être pertinente, mais elle doit répondre aux autres critères comme la crédibilité de la source et l'exactitude pour être considérée comme une preuve solide.",
+        "correction": "Une preuve peut prendre de nombreuses formes : faits, statistiques, exemples concrets ou témoignages d'experts. Une citation seule peut être pertinente, mais elle doit répondre à d'autres critères tels que la crédibilité de la source et l'exactitude pour être considérée comme une preuve solide.",
+        "description": "The repetition of 'concrets' in 'faits concrets, statistiques, exemples concrets' is redundant; 'faits' alone suffices. 'Répondre aux autres critères comme' should be 'répondre à d'autres critères tels que' for more precise and formal language. These changes improve lexical precision and stylistic clarity.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Syntax",
+        "original": "Un argument logique est considéré comme solide et convaincant lorsqu'il est bien construit avec des preuves fiables, un raisonnement clair, et une réponse appropriée aux contre-arguments. La clarté et la pertinence des preuves, ainsi que la manière dont l'argumentateur relie les preuves aux conclusions, jouent un rôle vital dans l'évaluation de la force de l'argument.",
+        "correction": "Un argument logique est considéré comme solide et convaincant lorsqu'il est bien construit, avec des preuves fiables, un raisonnement clair et une réponse appropriée aux contre-arguments. La clarté et la pertinence des preuves, ainsi que la façon dont l'argumentateur relie les preuves aux conclusions, jouent un rôle essentiel dans l'évaluation de la force de l'argument.",
+        "description": "The comma before 'et' in the list 'un raisonnement clair, et une réponse appropriée' is unnecessary in French. 'La manière dont' can be replaced by 'la façon dont' for more idiomatic expression. 'Un rôle vital' is less common than 'un rôle essentiel' in formal French. These changes improve syntactic accuracy and lexical naturalness.",
         "severity": "MINOR"
       },
       {
         "category": "linguistic",
         "subcategory": "Lexical",
-        "original": "En attendant, montrer de l'empathie et une volonté de comprendre la perspective de l'autre peut créer un climat plus propice à une discussion constructive.",
-        "correction": "En écoutant, montrer de l'empathie et une volonté de comprendre la perspective de l'autre peut créer un climat plus propice à une discussion constructive.",
-        "description": "The phrase 'En attendant' is a lexical error in this context. It literally means 'while waiting', which does not fit the intended meaning of 'while listening' or 'by listening'. The correct expression should be 'En écoutant', which accurately conveys the idea of listening attentively. This correction improves both the linguistic accuracy and the clarity of the feedback.",
+        "original": "Bien que les biais puissent influencer notre jugement, ils ne le font pas toujours. Il est important d'être conscient des biais potentiels et d'examiner les informations de manière critique pour arriver à une compréhension plus équilibrée.",
+        "correction": "Bien que les biais puissent influencer notre jugement, ce n'est pas toujours le cas. Il est important d'être conscient des biais potentiels et d'examiner les informations de manière critique afin d'arriver à une compréhension plus équilibrée.",
+        "description": "The phrase 'ils ne le font pas toujours' is less idiomatic than 'ce n'est pas toujours le cas' in French. 'Pour arriver à une compréhension plus équilibrée' can be improved to 'afin d'arriver à une compréhension plus équilibrée' for better stylistic flow. These changes enhance lexical precision and naturalness.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "honneurant les traditions et les ancêtres",
+        "correction": "honorant les traditions et les ancêtres",
+        "description": "The word 'honneurant' is a lexical error; the correct present participle of 'honorer' is 'honorant'. This mistake affects the grammatical accuracy and clarity of the sentence.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Mutations de l'ADN n'ont aucun effet sur les traits des organismes vivants.",
+        "correction": "Les mutations de l'ADN n'ont aucun effet sur les traits des organismes vivants.",
+        "description": "The original sentence is missing the definite article 'Les' before 'Mutations de l'ADN', which is required for grammatical correctness in French. This omission affects sentence structure and clarity.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "L'étape identifiant la décision est en réalité la première étape du processus de décision.",
+        "correction": "L'étape d'identification de la décision est en réalité la première étape du processus de décision.",
+        "description": "The original sentence uses 'identifiant' as a present participle, which is incorrect in this context. The correct form is 'd'identification', which is a noun and properly refers to the process of identifying the decision. This correction improves grammatical accuracy and clarity.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Dans la décision d'engagement dans une activité extrascolaire, il est important de prendre en compte plusieurs facteurs tels que l'intérêt personnel, l'alignement avec les objectifs et le temps disponible.",
+        "correction": "Lorsqu'on décide de s'engager dans une activité extrascolaire, il est important de prendre en compte plusieurs facteurs tels que l'intérêt personnel, l'alignement avec les objectifs et le temps disponible.",
+        "description": "The phrase 'Dans la décision d'engagement dans une activité extrascolaire' is awkward and not idiomatic in French. The corrected version 'Lorsqu'on décide de s'engager dans une activité extrascolaire' is more natural and clearly expresses the intended meaning.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "peaufer une compréhension approfondie du problème",
+        "correction": "peaufiner une compréhension approfondie du problème",
+        "description": "The word 'peaufer' is a misspelling and does not exist in French. The correct verb is 'peaufiner', which means to refine or perfect. This lexical error affects the clarity and professionalism of the feedback. The rest of the sentence is linguistically and culturally appropriate.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Cela peut rendre vous vulnérable à des arnaques et à d'autres formes d'exploitation.",
+        "correction": "Cela peut vous rendre vulnérable à des arnaques et à d'autres formes d'exploitation.",
+        "description": "The original sentence contains an incorrect word order for the pronominal object 'vous' in French. In French, the pronoun should precede the verb 'rendre', not follow it. The corrected version places 'vous' before 'rendre', which is the standard grammatical structure. This error affects clarity and grammatical accuracy.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "C'est important de considérer les conséquences potentielles de ce que vous partagez sur Internet.",
+        "correction": "Il est important de considérer les conséquences potentielles de ce que vous partagez sur Internet.",
+        "description": "The original sentence uses 'C'est important de', which is less idiomatic and grammatically awkward in French. The preferred and grammatically correct construction is 'Il est important de', which is the standard impersonal expression for stating importance. This correction improves both grammatical accuracy and naturalness.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "La texture dans le dessin ne se limite pas aux techniques de mouchage.",
+        "correction": "La texture dans le dessin ne se limite pas aux techniques de hachurage.",
+        "description": "The term 'mouchage' is incorrect in this context. The standard French term for shading techniques involving lines is 'hachurage', not 'mouchage', which is not used in art terminology. This lexical error could confuse learners and should be corrected to ensure accurate technical vocabulary.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "L'autogestion ne permet pas de contrôler ses émotions dans toutes les situations.",
+        "correction": "L'autogestion ne permet pas toujours de contrôler ses émotions dans toutes les situations.",
+        "description": "The original sentence is grammatically correct, but the use of 'ne permet pas de contrôler ses émotions dans toutes les situations' is ambiguous and could be misinterpreted. Adding 'toujours' clarifies that self-management does not always allow for control in every situation, which is more precise and natural in French. This improves both clarity and accuracy.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "interprètons",
+        "correction": "interprétons",
+        "description": "The verb 'interprètons' is incorrectly spelled; the correct form is 'interprétons' with an acute accent on the 'e'. This is a common orthographic error in French, as the first person plural of 'interpréter' should use 'é' (aigu) rather than 'è' (grave). This affects the accuracy and professionalism of the educational content.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Oui, 'Atlas des animaux' est un excellent exemple de non-fiction. Il est conçu pour enseigner les faits sur la vie des animaux, ce qui en fait un excellent outil d'apprentissage et de découverte de nouvelles informations.",
+        "correction": "Oui, « Atlas des animaux » est un excellent exemple de non-fiction. Il est conçu pour enseigner les faits sur la vie des animaux, ce qui en fait un excellent outil d'apprentissage et de découverte de nouvelles informations.",
+        "description": "French typographic conventions require the use of guillemets (« ») instead of English quotation marks (' ') when referencing book titles. This correction improves orthographic accuracy and aligns with standard French publishing practices.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar|Lexical",
+        "original": "Dans un incendie, il est recommandé de rester à l'écart du sol pour éviter la fumée et les débris. Les incidents d'incendie peuvent mener à des débris et de la fumée qui descendent, donc rester au-dessus du sol peut être plus sûr.",
+        "correction": "Dans un incendie, il est recommandé de rester près du sol pour éviter la fumée, qui monte généralement, et les débris. Les incidents d'incendie peuvent entraîner la présence de fumée et de débris en hauteur, donc rester près du sol peut être plus sûr.",
+        "description": "The feedback contains a critical factual error: in fire safety, it is recommended to stay close to the ground because smoke rises, not to stay away from the ground. The phrase 'rester à l'écart du sol' is misleading and incorrect. Additionally, 'des débris et de la fumée qui descendent' is inaccurate, as smoke typically rises. The correction provides the proper safety advice and clarifies the natural behavior of smoke and debris during a fire.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "La détection précoces des signes d'étouffement est cruciale.",
+        "correction": "La détection précoce des signes d'étouffement est cruciale.",
+        "description": "The adjective 'précoce' should agree in gender and number with 'détection', which is singular and feminine. 'Précoces' is plural, but the context requires the singular form 'précoce'. This is a lexical and grammatical error affecting clarity.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "L'asymptomie peut se manifester par un changement de couleur de la peau, notamment une teinte bleuâtre, indiquant une diminution du flux sanguin vers les tissus en raison d'un manque d'oxygène.",
+        "correction": "L'asphyxie peut se manifester par un changement de couleur de la peau, notamment une teinte bleuâtre, indiquant une diminution du flux sanguin vers les tissus en raison d'un manque d'oxygène.",
+        "description": "The term 'asymptomie' is incorrect in this medical context. The correct term is 'asphyxie', which refers to suffocation or lack of oxygen. 'Asymptomie' means absence of symptoms and is not appropriate here. This lexical error could lead to misunderstanding of the medical concept.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "La comparaison des fractions peut être effectuée même si les numérateurs sont différents. La méthode consiste à examiner les dénominateurs pour déterminer si une fraction est plus grande ou plus petite. Des fractions ont le même dénominateur si elles représentent des parties de mêmes unités, ce qui facilite la comparaison.",
+        "correction": "La comparaison des fractions peut être effectuée même si les numérateurs sont différents. La méthode consiste à examiner les dénominateurs pour déterminer si une fraction est plus grande ou plus petite. Des fractions ont le même dénominateur si elles représentent des parties de la même unité, ce qui facilite la comparaison.",
+        "description": "The phrase 'de mêmes unités' is semantically inaccurate in this context. The correct expression is 'de la même unité', which refers to fractions representing parts of the same whole. This correction improves clarity and aligns with standard mathematical terminology in French.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Mentir peut en fait diminuer la confiance et la confiance dans une amitié, car cela suggère que l'ami ne peut pas compter sur vous pour dire la vérité.",
+        "correction": "Mentir peut en fait diminuer la confiance dans une amitié, car cela suggère que l'ami ne peut pas compter sur vous pour dire la vérité.",
+        "description": "The phrase 'diminuer la confiance et la confiance' is a lexical redundancy, repeating 'la confiance' unnecessarily. This affects clarity and naturalness. The corrected version removes the repetition, resulting in a more precise and idiomatic sentence.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Syntax",
+        "original": "Pratiquer l'écoute active en attendant pauses naturelles pour poser des questions approfondies peut réellement renforcer la compréhension mutuelle.",
+        "correction": "Pratiquer l'écoute active en attendant des pauses naturelles pour poser des questions approfondies peut réellement renforcer la compréhension mutuelle.",
+        "description": "The sentence is missing the article 'des' before 'pauses naturelles', which is required for grammatical correctness in French. This omission affects the syntactic structure and clarity of the sentence.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Syntax",
+        "original": "Maintien de la tranquillité est une étape fondamentale dans la gestion des désaccords.",
+        "correction": "Le maintien de la tranquillité est une étape fondamentale dans la gestion des désaccords.",
+        "description": "The sentence lacks the definite article 'Le' before 'maintien', which is necessary for proper noun phrase construction in French. This omission affects the grammaticality and naturalness of the sentence.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Comme un segment de ligne est une portion d'une ligne délimitée par deux points finaux, il est possible de le diviser en plusieurs tranches, chacune représentant une portion plus petite de la ligne originale.",
+        "correction": "Comme un segment de ligne est une portion d'une ligne délimitée par deux points finaux, il est possible de le diviser en plusieurs segments plus petits, chacun représentant une portion plus petite de la ligne originale.",
+        "description": "The word 'tranches' is not appropriate in the context of geometry, as it usually refers to slices or portions of food or other objects, not geometric segments. The correct term is 'segments', which accurately reflects the mathematical concept. Additionally, 'chacune' should agree with 'segments' and be replaced by 'chacun' for gender agreement.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "plutôt que par les relations culturelles qui sont plus largement gérées par l'échange culturel.",
+        "correction": "plutôt que par les relations culturelles qui sont plus largement gérées par les échanges culturels.",
+        "description": "The phrase 'l'échange culturel' is singular, but the context refers to the broader concept of cultural exchanges between countries, which should be plural ('les échanges culturels'). This correction improves lexical precision and clarity.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "La branche exécutive, dirigée par le Président et le Cabinet, a pour rôle principal d'appliquer et d'interpréter les lois, tout comme les enseignants appliquent les règles dans une école.",
+        "correction": "La branche exécutive, dirigée par le Président et le Cabinet, a pour rôle principal d'appliquer les lois, tout comme les enseignants appliquent les règles dans une école.",
+        "description": "The phrase 'd'interpréter les lois' is inaccurate in this context. In the U.S. government, the executive branch is responsible for enforcing (applying) laws, not interpreting them; interpretation is the role of the judiciary. This lexical error could mislead learners about the separation of powers.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Le président nomme effectivement des juges, mais il doit obtenir l'approbation du Sénat pour que les nommés prennent leur poste.",
+        "correction": "Le président nomme effectivement des juges, mais il doit obtenir l'approbation du Sénat pour que les personnes nommées prennent leur poste.",
+        "description": "The use of 'les nommés' is grammatically awkward and not standard in French. 'Les personnes nommées' or 'les candidats nommés' is more natural and precise, improving clarity and correctness.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "La branche judiciaire, qui comprend la Cour suprême et d'autres tribunaux fédéraux, est principalement chargée de l'interprétation des lois et de la Constitution, de la résolution des conflits juridiques et de l'évaluation de la conformité des lois et des actions exécutives avec la Constitution. Elle n'a pas de pouvoir de légiférer; c'est le rôle du pouvoir législatif, qui est l'assemblée élue.",
+        "correction": "La branche judiciaire, qui comprend la Cour suprême et d'autres tribunaux fédéraux, est principalement chargée de l'interprétation des lois et de la Constitution, de la résolution des conflits juridiques et de l'évaluation de la conformité des lois et des actions exécutives avec la Constitution. Elle n'a pas le pouvoir de légiférer ; c'est le rôle du pouvoir législatif, qui est l'assemblée élue.",
+        "description": "The phrase 'n'a pas de pouvoir de légiférer' should be 'n'a pas le pouvoir de légiférer' for correct grammar. Additionally, a space is required before the semicolon in French punctuation conventions.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "La branche législative, composée du Congrès, a des pouvoirs qui peuvent limiter la branche exécutive. Par exemple, elle peut refuser de voter sur les nominations de la Cour suprême, qui doivent être confirmées par le Sénat.",
+        "correction": "La branche législative, composée du Congrès, a des pouvoirs qui peuvent limiter la branche exécutive. Par exemple, elle peut refuser de voter sur les nominations à la Cour suprême, qui doivent être confirmées par le Sénat.",
+        "description": "The phrase 'nominations de la Cour suprême' is incorrect; it should be 'nominations à la Cour suprême' to indicate appointments to the Supreme Court. This improves grammatical accuracy and clarity.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Un étudiant qui adopte un mindset de croissance voit les défis comme des opportunités de croissance et de développement personnel.",
+        "correction": "Un étudiant qui adopte un état d'esprit de croissance voit les défis comme des opportunités de croissance et de développement personnel.",
+        "description": "The phrase 'mindset de croissance' uses an unnecessary anglicism ('mindset') where the standard French term 'état d'esprit' is preferred for clarity and linguistic accuracy. This correction improves lexical precision and aligns with French educational terminology.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "À l'inverse, un étudiant avec un mindset fixe peut voir les mêmes défis comme insurmontables, ce qui peut entraver le progrès et la motivation continue.",
+        "correction": "À l'inverse, un étudiant avec un état d'esprit fixe peut voir les mêmes défis comme insurmontables, ce qui peut entraver le progrès et la motivation continue.",
+        "description": "The term 'mindset fixe' is an anglicism and should be replaced with 'état d'esprit fixe' for proper French usage. This correction ensures lexical precision and avoids unnecessary loanwords.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Les aliments de différentes couleurs contiennent généralement différents vitamines et minéraux essentiels à votre santé.",
+        "correction": "Les aliments de différentes couleurs contiennent généralement différentes vitamines et minéraux essentiels à votre santé.",
+        "description": "The adjective 'différents' should agree in gender and number with 'vitamines', which is feminine plural. The correct form is 'différentes vitamines'. This error affects grammatical agreement and clarity.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Les droits humains sont conçus pour être inaliénables, ce qui signifie qu'ils ne peuvent généralement pas être retirés par les gouvernements, même en cas de crise nationale. Il existe des exceptions dans le droit international, mais celles-ci sont limitées et sujettes à des vérifications éthiques et juridiques.",
+        "correction": "Les droits humains sont conçus pour être inaliénables, ce qui signifie qu'ils ne peuvent généralement pas être retirés par les gouvernements, même en cas de crise nationale. Il existe des exceptions en droit international, mais celles-ci sont limitées et soumises à des vérifications éthiques et juridiques.",
+        "description": "The phrase 'dans le droit international' should be 'en droit international' to match standard French usage for fields of law. Additionally, 'sujettes à des vérifications' is less idiomatic than 'soumises à des vérifications' in this context. These lexical choices improve the precision and naturalness of the feedback.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Dans un environnement d'apprentissage, l'acte de gentillesse, comme l'aide à la compréhension des devoirs, peut créer un sentiment de sécurité et d'appréciation, ce qui favorise une ambiance plus positive et constructive.",
+        "correction": "Dans un environnement d'apprentissage, un acte de gentillesse, comme l'aide à la compréhension des devoirs, peut créer un sentiment de sécurité et d'appréciation, ce qui favorise une ambiance plus positive et constructive.",
+        "description": "The use of the definite article 'l'acte de gentillesse' is awkward in this context, as it suggests a specific act rather than the general concept. The indefinite article 'un acte de gentillesse' is more appropriate to refer to any act of kindness in a general sense. This improves grammatical accuracy and clarity.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "L'empathie implique non seulement de comprendre les paroles des autres, mais aussi de reconnaître leurs émotions et sentiments à travers leurs comportements et actions.",
+        "correction": "L'empathie implique non seulement de comprendre les paroles des autres, mais aussi de reconnaître leurs émotions et leurs sentiments à travers leurs comportements et leurs actions.",
+        "description": "The omission of the article 'leurs' before 'sentiments' and 'actions' creates a slight lexical inaccuracy and affects parallelism. In French, repeating 'leurs' before each noun in a list is preferred for clarity and emphasis, especially in educational content. This correction enhances the precision and naturalness of the sentence.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Cette méthode, connue sous le nom de 'association', aide à ancrer de nouvelles connaissances aux concepts déjà maîtrisés, renforçant ainsi la compréhension et la rétention.",
+        "correction": "Cette méthode, connue sous le nom d'« association », aide à ancrer de nouvelles connaissances aux concepts déjà maîtrisés, renforçant ainsi la compréhension et la rétention.",
+        "description": "The original text uses single quotation marks ('association') which are not standard in French for denoting terms or concepts. French typographic conventions require the use of guillemets (« ») for this purpose. Additionally, the contraction 'de' + 'association' should be 'd'« association » to avoid a hiatus. This correction improves both orthographic accuracy and adherence to French typographic standards.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Le rock music est caractérisé par l'utilisation de guitares électriques et de voix puissantes.",
+        "correction": "Le rock est caractérisé par l'utilisation de guitares électriques et de voix puissantes.",
+        "description": "The phrase 'Le rock music' incorrectly mixes French and English. In French, 'rock' alone is sufficient and standard; 'music' should be omitted. This is a lexical error affecting the naturalness and correctness of the statement.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Ceci est incorrect car la musique classique a eu un impact considérable sur l'art. Elle a influencé la peinture et la littérature, et a souvent reflété les valeurs et les tensions politiques de son époque.",
+        "correction": "Ceci est incorrect, car la musique classique a eu un impact considérable sur l'art. Elle a influencé la peinture et la littérature, et a souvent reflété les valeurs et les tensions politiques de son époque.",
+        "description": "A comma is required after 'Ceci est incorrect' to separate the clauses and improve sentence structure. This is a minor grammatical issue affecting clarity.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "L'affirmation est incorrecte car les pratiques durables impliquent de privilégier les sources d'énergie renouvelables, telles que l'énergie solaire, éolienne et hydraulique, plutôt que les énergies fossiles qui sont finies et contributent à l'épuisement des ressources naturelles.",
+        "correction": "L'affirmation est incorrecte car les pratiques durables impliquent de privilégier les sources d'énergie renouvelables, telles que l'énergie solaire, éolienne et hydraulique, plutôt que les énergies fossiles qui sont finies et contribuent à l'épuisement des ressources naturelles.",
+        "description": "The original text contains a verb conjugation error: 'contributent' should be 'contribuent' to match the third person plural form of 'contribuer'. This affects grammatical accuracy and may hinder comprehension. No localization issues are present.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Il est crucial de préserver votre confidentialité en ligne pour protéger vous-même et votre famille.",
+        "correction": "Il est crucial de préserver votre confidentialité en ligne pour vous protéger, ainsi que votre famille.",
+        "description": "The original sentence contains a grammatical error in the reflexive construction 'protéger vous-même', which is incorrect in French. The correct form is 'vous protéger'. Additionally, the phrase 'protéger vous-même et votre famille' is awkward; 'vous protéger, ainsi que votre famille' is more natural and clear. This correction improves both grammatical accuracy and clarity.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Les éléments des groupes 1 et 2, qui sont respectivement connus sous le nom de les métaux alcalins et les métaux alcalino-terreux, ont des configurations électroniques différentes.",
+        "correction": "Les éléments des groupes 1 et 2, qui sont respectivement connus sous le nom de métaux alcalins et de métaux alcalino-terreux, ont des configurations électroniques différentes.",
+        "description": "The phrase 'sous le nom de les métaux alcalins et les métaux alcalino-terreux' contains a grammatical error: the definite article 'les' should be omitted after 'de' and replaced with the correct contraction. The correct form is 'de métaux alcalins et de métaux alcalino-terreux.' This ensures proper article contraction and preposition usage in French.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Cela est dû au fait que, à mesure que vous progressez dans une période, les couches électroniques ajoutées contiennent plus d'électrons, ce qui entraîne une augmentation de la répulsion électronique interne et une diminution de la taille atomique globale.",
+        "correction": "Cela est dû au fait que, à mesure que vous progressez dans une période, la charge nucléaire augmente, ce qui attire les électrons plus fortement et diminue la taille atomique globale.",
+        "description": "The explanation incorrectly states that added electron shells increase internal electron repulsion, leading to a decrease in atomic size. In reality, as you move across a period, the number of protons (nuclear charge) increases, pulling electrons closer and reducing atomic size. The feedback should reflect the correct scientific reasoning for atomic radius trends.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Utiliser la pathos ne convient qu'aux écrivains peu réfléchis.",
+        "correction": "Utiliser le pathos ne convient qu'aux écrivains peu réfléchis.",
+        "description": "The definite article 'la' is incorrect with 'pathos', which is a masculine noun in French. The correct form is 'le pathos'. This error affects grammatical gender agreement and lexical precision. No other linguistic or localization issues are present in this text.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "L'ethos est établi par l'appel aux autorités ou à l'expertise, comme on le voit dans la référence aux 'scientifiques' dans le discours. L'éthos est clairement présenté.",
+        "correction": "L'ethos est établi par l'appel aux autorités ou à l'expertise, comme on le voit dans la référence aux 'scientifiques' dans le discours. L'ethos est clairement présenté.",
+        "description": "The word 'éthos' is used with an accent in the second sentence ('L'éthos est clairement présenté'), while the first sentence uses 'ethos' without an accent. For consistency and lexical precision, the same spelling should be used throughout. In French, 'ethos' is commonly written without an accent, especially in academic contexts. This inconsistency may cause confusion and affects terminology consistency.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Une bonne argumentation persuasive ne nécessite que l'utilisation de pathos.",
+        "correction": "Une bonne argumentation persuasive ne nécessite que l'utilisation du pathos.",
+        "description": "The phrase 'l'utilisation de pathos' is missing the definite article 'du' before 'pathos', which is required for grammatical correctness and naturalness in French. The correct form is 'l'utilisation du pathos'. No other linguistic or localization issues are present in this text.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "souvent capturant une image ou un sentiment brève et puissant.",
+        "correction": "souvent capturant une image ou un sentiment bref et puissant.",
+        "description": "The adjective 'brève' is incorrectly used in agreement with 'sentiment', which is masculine and requires 'bref'. This is a gender agreement error. The sentence should use 'bref' to match the masculine noun 'sentiment'.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "La probabilité d'un événement peut être supérieure à 1.",
+        "correction": "La probabilité d'un événement peut dépasser 1.",
+        "description": "The original uses 'supérieure à 1', which is correct, but 'dépasser 1' is slightly more precise in mathematical contexts. However, this is a minor lexical improvement and not strictly necessary. No grammatical or spelling errors are present.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Syntax",
+        "original": "Chaque face d'un dé standard est numérotée de 1 à 6. Il y a trois nombres impairs (1, 3, 5) et trois nombres pairs (2, 4, 6). Par conséquent, la probabilité de tomber sur un nombre impair est la même que celle de tomber sur un nombre pair, soit 3/6 ou 1/2, ce qui donne une probabilité de 50 % pour chaque cas.",
+        "correction": "Chaque face d'un dé standard est numérotée de 1 à 6. Il y a trois nombres impairs (1, 3, 5) et trois nombres pairs (2, 4, 6). Par conséquent, la probabilité d'obtenir un nombre impair est la même que celle d'obtenir un nombre pair, soit 3/6 ou 1/2, ce qui donne une probabilité de 50 % pour chaque cas.",
+        "description": "The phrase 'tomber sur un nombre impair' is colloquial and less precise in mathematical French. 'Obtenir un nombre impair' is the standard terminology in probability contexts. This correction improves lexical precision and aligns with educational standards. No grammatical errors are present.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Chaque lancer d'un dé est un événement indépendant, ce qui signifie que le résultat d'un lancer n'affecte pas celui d'un autre. Par conséquent, on ne peut pas prédire le résultat d'un lancer en fonction des lancements précédents.",
+        "correction": "Chaque lancer de dé est un événement indépendant, ce qui signifie que le résultat d'un lancer n'affecte pas celui d'un autre. Par conséquent, on ne peut pas prédire le résultat d'un lancer en fonction des lancements précédents.",
+        "description": "The phrase 'lancer d'un dé' is grammatically awkward; the standard form is 'lancer de dé'. This correction improves grammatical accuracy and naturalness. All other elements are correct.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Cette déclaration est vraie car un tableau est un moyen efficace de visualiser les résultats possibles d'un événement simple comme lancer un dé. En comptant le nombre de fois où chaque résultat apparaît, on peut calculer la probabilité en divisant ce nombre par le nombre total de résultats possibles, qui est de six pour un dé standard.",
+        "correction": "Cette affirmation est vraie car un tableau est un moyen efficace de visualiser les résultats possibles d'un événement simple comme lancer un dé. En comptant le nombre de fois où chaque résultat apparaît, on peut calculer la probabilité en divisant ce nombre par le nombre total de résultats possibles, qui est de six pour un dé standard.",
+        "description": "The word 'déclaration' is less appropriate in this context; 'affirmation' is the standard term for a true/false statement in educational French. This correction improves lexical precision and aligns with pedagogical norms. No grammatical errors are present.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "La recherche rapide est la stratégie de lecture qui consiste à lire tout le texte pour comprendre pleinement le sujet.",
+        "correction": "La recherche rapide est une stratégie de lecture qui consiste à trouver des informations spécifiques dans un texte sans le lire en entier.",
+        "description": "The original sentence incorrectly defines 'recherche rapide' as reading the entire text for full understanding, which is a factual inaccuracy and a lexical error. The correction provides the accurate definition and uses the indefinite article 'une' instead of the definite 'la', which is more appropriate in this context. This addresses both the lexical precision and article usage.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "La lecture approfondie est une stratégie qui bénéficie d'une compréhension globale préliminaire obtenue par le survol et des informations spécifiques extraites par la recherche rapide.",
+        "correction": "La lecture approfondie est une stratégie qui bénéficie d'une compréhension globale préliminaire obtenue grâce au survol et d'informations spécifiques extraites par la recherche rapide.",
+        "description": "The original sentence uses 'par le survol' and 'par la recherche rapide', which are grammatically correct but less idiomatic in French. The preposition 'grâce à' is more natural for expressing benefit or advantage, and 'd'informations spécifiques' is preferable to 'des informations spécifiques' for parallel structure. The correction enhances both grammatical accuracy and idiomatic expression.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "En excluant les biais et en se concentrant sur des preuves et des données, elle permet d'obtenir des résultats fiables et impartiaux.",
+        "correction": "En excluant les biais et en se concentrant sur des preuves et des données, elle permet d'obtenir des résultats fiables et impartiaux.",
+        "description": "The sentence is grammatically correct, but the use of 'en excluant les biais' could be improved for clarity. In scientific contexts, 'réduire les biais' or 'minimiser les biais' is more precise than 'excluant', since biases are rarely fully excluded. However, this is a minor lexical nuance and does not constitute a grammatical error.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Les machines simples sont capables d'augmenter l'énergie que nous utilisons pour accomplir une tâche.",
+        "correction": "Les machines simples sont capables de faciliter l'utilisation de l'énergie que nous utilisons pour accomplir une tâche.",
+        "description": "The original statement contains a semantic inaccuracy: 'augmenter l'énergie' implies that simple machines increase the amount of energy, which is scientifically incorrect. The correct concept is that simple machines facilitate or optimize the use of energy, not increase it. This lexical error could mislead learners about the physical principles involved.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Spelling",
+        "original": "Les machines simples, comme les poulies et les leviathés, sont conçues pour rendre les tâches plus faciles en divisant la force nécessaire.",
+        "correction": "Les machines simples, comme les poulies et les leviers, sont conçues pour rendre les tâches plus faciles en divisant la force nécessaire.",
+        "description": "The word 'leviathés' is a spelling error; the correct term is 'leviers'. This mistake affects comprehension and the accuracy of technical terminology, as 'leviathés' is not a recognized word in French and could confuse learners about the types of simple machines.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Les particules dans un solide sont à l'état le plus émoussé par rapport aux autres états de la matière.",
+        "correction": "Les particules dans un solide sont à l'état le moins énergétique par rapport aux autres états de la matière.",
+        "description": "The word 'émoussé' is a lexical error in this scientific context. In French, 'émoussé' means 'blunted' or 'dulled', which is not appropriate for describing the energy state of particles. The correct term should refer to the energy level, such as 'le moins énergétique'. This correction improves both scientific accuracy and clarity.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Cela leur donne une forme et un volume fixes, ce qui les rend plus émoussés par rapport aux particules dans des états liquides, gazeux et plasmiques où elles peuvent se déplacer plus librement.",
+        "correction": "Cela leur donne une forme et un volume fixes, ce qui les rend moins énergétiques par rapport aux particules dans des états liquides, gazeux et plasmiques où elles peuvent se déplacer plus librement.",
+        "description": "The use of 'plus émoussés' is a lexical error. 'Émoussé' is not appropriate for describing particle energy or movement. The correct phrase should be 'moins énergétiques', which accurately reflects the scientific concept and improves clarity.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Sublimation est un processus où un solide passe directement à l'état gazeux sans devenir liquide. Cela nécessite l'absorption d'énergie, pas la libération d'énergie.",
+        "correction": "La sublimation est un processus où un solide passe directement à l'état gazeux sans devenir liquide. Cela nécessite l'absorption d'énergie, pas la libération d'énergie.",
+        "description": "The sentence incorrectly omits the definite article 'La' before 'sublimation'. In French, scientific processes require the definite article for proper grammatical structure. This correction improves grammatical accuracy and naturalness.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "A basse température, les particules bougent très rapidement et sont éloignées.",
+        "correction": "À basse température, les particules bougent très lentement et sont proches les unes des autres.",
+        "description": "The sentence contains two issues: the missing accent on 'À' and a scientific inaccuracy. 'À basse température' requires the accent for correct orthography. Additionally, the statement is factually incorrect; at low temperatures, particles move slowly and are close together, not rapidly and far apart. Both linguistic and factual accuracy are addressed in the correction.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Un protagoniste est souvent considéré comme le personnage principal d'une histoire, qui est généralement bienveillant ou positif. L'idée d'un personnage maléfique ne s'applique pas universellement aux protagonistes.",
+        "correction": "Un protagoniste est souvent considéré comme le personnage principal d'une histoire, qui n'est pas nécessairement bienveillant ou positif. L'idée d'un personnage maléfique ne s'applique pas universellement aux protagonistes.",
+        "description": "The phrase 'qui est généralement bienveillant ou positif' inaccurately suggests that protagonists are usually benevolent or positive, which is misleading. A protagonist is simply the main character and can be either good or evil. The correction clarifies that the protagonist is not necessarily benevolent or positive, improving lexical precision and conceptual accuracy.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Syntax",
+        "original": "Le cadre d'une histoire est essentiel pour définir l'atmosphère et le ton. Il influence les interactions des personnages et le cadre peut être aussi précis que la période historique ou aussi vague que le fantastique.",
+        "correction": "Le cadre d'une histoire est essentiel pour définir l'atmosphère et le ton. Il influence les interactions des personnages et peut être aussi précis qu'une période historique ou aussi vague qu'un univers fantastique.",
+        "description": "The sentence 'le cadre peut être aussi précis que la période historique ou aussi vague que le fantastique' is syntactically awkward and semantically imprecise. 'La période historique' should be preceded by an article, and 'le fantastique' is a genre, not a setting. The correction uses 'qu'une période historique' and 'qu'un univers fantastique' for improved syntactic flow and semantic clarity.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Dans une structure narrative, l'exposition précède l'action montante. L'exposition introduit les personnages et le cadre, tandis que l'action montante développe les conflits. L'ordre correct est essentiel pour comprendre la progression de l'histoire.",
+        "correction": "Dans une structure narrative, l'exposition précède l'action montante. L'exposition introduit les personnages et le cadre, tandis que l'action montante développe les conflits. L'ordre correct est essentiel pour comprendre la progression de l'histoire.",
+        "description": "No linguistic or localization errors found. The text is grammatically correct, uses proper terminology, and is culturally appropriate.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Syntax",
+        "original": "Cette affirmation est incorrecte. Les thèmes, ou 'message ou idée centrale', d'une histoire peuvent être révélés de manière subtile ou explicite. Parfois, les thèmes sont découverts par l'observation minutieuse des détails, des symboles, ou des interactions entre les personnages, plutôt que par des déclarations directes.",
+        "correction": "Cette affirmation est incorrecte. Les thèmes, ou le 'message ou l'idée centrale', d'une histoire peuvent être révélés de manière subtile ou explicite. Parfois, les thèmes sont découverts par l'observation minutieuse des détails, des symboles ou des interactions entre les personnages, plutôt que par des déclarations directes.",
+        "description": "The phrase 'ou 'message ou idée centrale'' lacks proper article usage and coordination. It should be 'ou le 'message ou l'idée centrale'' for correct syntax. Additionally, the comma before 'ou des interactions' is unnecessary and should be removed for proper punctuation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Syntax",
+        "original": "Les éléments narratifs sont intrinsèquement liés et leur interaction est cruciale pour construire une histoire complète. Les personnages, le cadre, les conflits et l'intrigue ne fonctionnent pas de manière autonome, mais plutôt en harmonie pour enrichir la compréhension et la résonance de la trame narrative.",
+        "correction": "Les éléments narratifs sont intrinsèquement liés et leur interaction est cruciale pour construire une histoire complète. Les personnages, le cadre, les conflits et l'intrigue ne fonctionnent pas de manière autonome, mais plutôt en harmonie pour enrichir la compréhension et la résonance de la trame narrative.",
+        "description": "No linguistic or localization errors found. The text is syntactically correct, uses appropriate terminology, and is culturally suitable.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Syntax",
+        "original": "La méthode Cornell comprend de diviser la page en quatre sections.",
+        "correction": "La méthode Cornell consiste à diviser la page en quatre sections.",
+        "description": "The original sentence uses 'comprend de diviser', which is a syntactic error in French. The correct construction is 'consiste à diviser', as 'comprendre de' is not idiomatic or grammatically correct in this context. This error affects the clarity and correctness of the statement.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Les notes peuvent être révisées plus tard pour renforcer le concept.",
+        "correction": "Les notes peuvent être révisées plus tard pour renforcer la compréhension du concept.",
+        "description": "The phrase 'renforcer le concept' is semantically imprecise in French. The intended meaning is to reinforce understanding of the concept, not the concept itself. The correction clarifies the educational intent and improves lexical precision.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "processus de décision-taking",
+        "correction": "processus de prise de décision",
+        "description": "The phrase 'processus de décision-taking' incorrectly uses an English loanword ('decision-taking') instead of the proper French term. The correct expression is 'processus de prise de décision'. This lexical error affects clarity and naturalness, and should be corrected to maintain standard French usage.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "par de petits margins",
+        "correction": "par de petites marges",
+        "description": "The word 'margins' is an English term mistakenly used in a French sentence. The correct French word is 'marges', and the adjective should agree in gender and number ('petites marges'). This orthographic and agreement error impacts comprehension and should be corrected.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "le résultat. Les élections sont souvent remportées par de petits margins, mais la décisions finale est généralement déterminée par un grand nombre de votes.",
+        "correction": "le résultat. Les élections sont souvent remportées par de petites marges, mais la décision finale est généralement déterminée par un grand nombre de votes.",
+        "description": "In addition to the lexical error ('margins'), there is a grammatical error with 'la décisions finale', which should be 'la décision finale' (singular noun to match the context). Both errors affect grammatical correctness and clarity.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "déveloermener",
+        "correction": "développer",
+        "description": "The word 'déveloermener' is a misspelling and does not exist in French. The correct term is 'développer', which means 'to develop'. This error affects comprehension and should be corrected for clarity and accuracy.",
         "severity": "HIGH"
       }
     ],
     "localization": [
       {
         "category": "localization",
-        "subcategory": "Terminology",
-        "original": "En algèbre, un symbole comme `x` ou `y` peut représenter n’importe quel nombre.",
-        "correction": "En algèbre, un symbole comme `x` ou `y` peut représenter une valeur inconnue ou variable.",
-        "description": "The phrase 'n’importe quel nombre' is not fully precise in the context of algebra, as variables typically represent unknown or variable values, not just any number. For educational clarity and mathematical accuracy, it is better to specify 'une valeur inconnue ou variable' to avoid confusion between variables and constants.",
+        "subcategory": "Lexical",
+        "original": "La maîtrise du Nil a donc eu un impact déterminant sur la vie quotidienne et le développement de la société égyptienne.",
+        "correction": "La gestion du Nil a donc eu un impact déterminant sur la vie quotidienne et le développement de la société égyptienne.",
+        "description": "The term 'maîtrise du Nil' is somewhat unnatural in French when referring to agricultural management. 'Gestion du Nil' is more idiomatic and better reflects the concept of managing the river's resources. This improves the naturalness and clarity of the statement.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Lexical",
+        "original": "Les pyramides ont été conçues comme des tombes funéraires pour les pharaons après leur mort.",
+        "correction": "Les pyramides ont été conçues comme des tombeaux pour les pharaons après leur mort.",
+        "description": "The phrase 'tombes funéraires' is redundant and less idiomatic in French. 'Tombeaux' is the standard term for monumental burial structures and is more culturally and historically appropriate in this context.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Lexical",
+        "original": "Leur taille monumentale et la précision de la construction sont le témoignage de l'ingéniosité des anciens Égyptiens dans les domaines de la mathématique et de l'ingénierie.",
+        "correction": "Leur taille monumentale et la précision de la construction témoignent de l'ingéniosité des anciens Égyptiens dans les domaines des mathématiques et de l'ingénierie.",
+        "description": "The phrase 'sont le témoignage de' is less natural than 'témoignent de' in French. Additionally, 'la mathématique' should be pluralized to 'des mathématiques' to refer to the field in general. These changes improve the naturalness and accuracy of the statement.",
         "severity": "MEDIUM"
       },
       {
         "category": "localization",
         "subcategory": "Terminology",
+        "original": "le comportement de hibernation des chauves-souris",
+        "correction": "le comportement d'hibernation des chauves-souris",
+        "description": "The phrase 'de hibernation' should use the contracted form 'd'hibernation' for naturalness and adherence to French orthographic conventions. This improves the flow and professionalism of the text.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "En algèbre, un symbole comme `x` ou `y` peut représenter n’importe quel nombre.",
+        "correction": "En algèbre, un symbole comme `x` ou `y` peut représenter une valeur quelconque.",
+        "description": "The use of 'n’importe quel nombre' is understandable but not the most natural or precise terminology in French mathematical context. 'Une valeur quelconque' is more standard and aligns better with how variables are described in French educational materials. This improves clarity and naturalness for learners.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
         "original": "L'énoncé est inexact car la formule originale indique que chaque collation coûte 2 euros, ce qui fait que la formule correcte est `Coût total = 2x`. La vérification des informations fournies est cruciale pour comprendre comment les variables représentent les quantités réelles dans les équations.",
-        "correction": "L'énoncé est inexact car la formule correcte est `Coût total = 2x`, chaque collation coûtant 2 euros. Il est important de vérifier les informations pour comprendre comment les variables représentent les quantités réelles dans les équations.",
-        "description": "The feedback references a 'formule originale' which is not present in the current lesson context, potentially confusing learners. The correction clarifies the statement by directly referencing the correct formula and price, improving educational clarity and localization appropriateness.",
+        "correction": "L'énoncé est inexact car la formule originale indique que chaque collation coûte 2 euros, donc la formule correcte est `Coût total = 2x`. La vérification des informations fournies est cruciale pour comprendre comment les variables représentent les quantités réelles dans les équations.",
+        "description": "The phrase 'ce qui fait que' is less formal and not ideal for educational content. 'Donc' is more concise and standard in French academic explanations, improving the professional tone and clarity.",
         "severity": "MINOR"
       },
       {
@@ -183,23 +821,23 @@
         "subcategory": "Cultural",
         "original": "La digestion des aliments est un processus qui se produit dans l'intestin grêle chez les humains et les animaux, tandis que dans les plantes, elle se produit dans des structures comme les glandes.",
         "correction": "La digestion des aliments est un processus qui se produit principalement dans l'intestin grêle chez les humains et les animaux. Chez les plantes, il s'agit plutôt de la décomposition et de l'absorption des nutriments, qui ne se fait pas dans des glandes comme chez les animaux.",
-        "description": "The original sentence inaccurately describes plant digestion as occurring in 'glandes', which is misleading and not scientifically accurate. Plants do not have digestive glands; nutrient breakdown and absorption occur differently. This is a cultural and scientific localization issue, as it may confuse learners about plant biology. Correction clarifies the distinction and avoids anthropomorphizing plant processes.",
+        "description": "The original text inaccurately describes plant digestion as occurring in 'structures like glands,' which is misleading and not culturally or scientifically appropriate for French educational content. Plants do not have digestive glands; instead, they absorb nutrients through different mechanisms. The correction clarifies the distinction and avoids anthropomorphizing plant biology.",
         "severity": "HIGH"
       },
       {
         "category": "localization",
-        "subcategory": "Terminology",
+        "subcategory": "Cultural",
         "original": "Les vacuoles dans les cellules animales peuvent varier considérablement en taille et fonction selon le type de tissu.",
-        "correction": "Les vacuoles des cellules animales peuvent varier considérablement en taille et en fonction selon le type de tissu.",
-        "description": "The phrase 'taille et fonction' should use 'en taille et en fonction' for parallel structure and naturalness in French. This is a terminology and style issue affecting the natural flow of the sentence.",
+        "correction": "Les vacuoles dans les cellules animales peuvent varier considérablement en taille et en fonction selon le type de tissu.",
+        "description": "The phrase 'en taille et fonction' lacks the necessary conjunction 'en' before 'fonction' for correct French coordination. While this is a minor linguistic issue, the main concern is that the explanation could be misleading for French learners, as animal vacuoles are typically much smaller and less prominent than those in plant cells. The correction addresses both the grammatical coordination and clarifies the scientific context.",
         "severity": "MINOR"
       },
       {
         "category": "localization",
         "subcategory": "Cultural",
-        "original": "Marchiée",
+        "original": "Marchi.e.",
         "correction": "",
-        "description": "The reference to 'Marchiée' is not recognized as a historical event in the context of the Civil Rights Movement. This creates confusion for learners and is culturally inappropriate, as it introduces a non-existent or irrelevant event. The content should reference actual historical events to maintain educational accuracy and cultural relevance.",
+        "description": "The reference to 'Marchi.e.' is culturally inappropriate and factually incorrect, as it does not correspond to any recognized historical event in the context of the Civil Rights Movement. This can mislead learners and undermines the educational value of the content. The reference should be replaced with an actual event or omitted entirely.",
         "severity": "HIGH"
       },
       {
@@ -207,23 +845,271 @@
         "subcategory": "Terminology",
         "original": "le Gulf Stream chauffe les côtes est-américaines et européennes",
         "correction": "le Gulf Stream réchauffe les côtes de l'est de l'Amérique du Nord et de l'Europe",
-        "description": "The term 'chauffe' is less commonly used in scientific or educational French when referring to ocean currents; 'réchauffe' is more appropriate. Additionally, 'côtes est-américaines' is ambiguous and not standard; specifying 'côtes de l'est de l'Amérique du Nord et de l'Europe' provides clearer, more localized terminology.",
+        "description": "The term 'côtes est-américaines' is ambiguous and not standard in French climatological context. 'Les côtes de l'est de l'Amérique du Nord et de l'Europe' is more precise and aligns with how these regions are typically described in French educational materials. This correction ensures terminology consistency and clarity for learners.",
         "severity": "MEDIUM"
       },
       {
         "category": "localization",
-        "subcategory": "Style",
-        "original": "Dans le domaine de la programmation, les boucles sont des outils puissants qui nous permettent de répéter des opérations. Cela aide à organiser le code de manière efficiente et évite des répétitions inutiles.",
-        "correction": "Dans le domaine de la programmation, les boucles sont des outils puissants qui permettent de répéter des opérations. Cela aide à organiser le code de manière efficace et évite des répétitions inutiles.",
-        "description": "The use of 'nous permettent' introduces an unnecessary first-person plural perspective, which is less formal and less neutral for educational content. Replacing 'nous permettent' with 'permettent' maintains a more objective and professional tone. Additionally, 'de manière efficiente' is less commonly used in French educational contexts than 'de manière efficace', which is more natural and widely accepted.",
-        "severity": "MEDIUM"
-      },
-      {
-        "category": "localization",
-        "subcategory": "Style",
+        "subcategory": "Terminology",
         "original": "Cette déclaration est exacte. Dans Python, la fonction 'input' est effectivement utilisée pour interagir avec l'utilisateur en demandant des données. Lorsque le programme s'exécute, il est arrêté pendant que l'utilisateur fournit les informations requises, ce qui permet d'ajouter une fonctionnalité interactive à votre programme.",
-        "correction": "Cette affirmation est correcte. En Python, la fonction 'input' permet d'interagir avec l'utilisateur en lui demandant des données. Lorsque le programme s'exécute, il attend que l'utilisateur saisisse les informations requises, ce qui ajoute une dimension interactive à votre programme.",
-        "description": "The original feedback uses 'déclaration' instead of the more contextually appropriate 'affirmation' for a true/false statement. The phrase 'le programme est arrêté' is less idiomatic than 'le programme attend'. The correction improves style and naturalness, making the explanation more suitable for French learners.",
+        "correction": "Cette affirmation est correcte. En Python, la fonction 'input' est utilisée pour interagir avec l'utilisateur en demandant des données. Lorsque le programme s'exécute, il attend que l'utilisateur fournisse les informations requises, ce qui permet d'ajouter une fonctionnalité interactive à votre programme.",
+        "description": "The term 'déclaration' is less appropriate than 'affirmation' in this educational context. The phrase 'le programme est arrêté' may be misinterpreted; 'le programme attend' is more accurate and natural for describing input behavior in French programming pedagogy. These changes improve terminology consistency and naturalness.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "Thanksgiving aux États-Unis, qui est un jour férié",
+        "correction": "Thanksgiving aux États-Unis, qui est une fête nationale",
+        "description": "Referring to Thanksgiving as 'un jour férié' is technically correct, but 'fête nationale' is more culturally appropriate in French educational contexts, as it better conveys the significance of the holiday. This adjustment improves cultural understanding for French-speaking learners.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Imaginez chaque nucléotide comme un ingrédient de base dans une recette, indispensable pour que le plat final, l'ADN, prenne vie.",
+        "correction": "Imaginez chaque nucléotide comme un élément essentiel dans la construction de l'ADN.",
+        "description": "The culinary metaphor ('ingrédient de base dans une recette, indispensable pour que le plat final, l'ADN, prenne vie') is culturally informal and may not be appropriate for educational scientific content in French. A more neutral analogy is recommended to maintain a professional and academic tone.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Se concentrer uniquement sur le nombre de participants peut ne pas refléter les besoins individuels et les circonstances uniques de chaque étudiant.",
+        "correction": "Se concentrer uniquement sur le nombre de participants peut ne pas correspondre aux besoins individuels ni aux circonstances particulières de chaque élève.",
+        "description": "The use of 'refléter' and 'étudiant' is acceptable but not the most natural in French educational contexts. 'Correspondre' and 'élève' are more commonly used in school settings, and 'circonstances particulières' is a more idiomatic phrase. This correction enhances the naturalness and appropriateness for a French-speaking audience.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "la brainstorming en groupe",
+        "correction": "le brainstorming en groupe",
+        "description": "The phrase uses the incorrect article 'la' with 'brainstorming', which is a masculine noun in French. The correct form is 'le brainstorming en groupe'. Additionally, while 'brainstorming' is commonly used in French professional contexts, it is an anglicism; alternatives like 'remue-méninges' could be considered for more natural or educational French, but 'brainstorming' is acceptable in this context. The main issue is the article agreement.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "cas d'études",
+        "correction": "cas d'étude",
+        "description": "The phrase 'cas d'études' is not the standard term in French; the correct expression is 'cas d'étude' (singular) or 'cas d'études' (plural), but in this context, 'cas d'étude' is more natural and commonly used in educational and professional settings. This improves the naturalness and consistency of terminology.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "C'est comme si vous commenciez par écouter une histoire pour savoir ce qui se passe avant de penser à la solution.",
+        "correction": "C'est comme commencer par écouter une histoire pour comprendre ce qui se passe avant de penser à la solution.",
+        "description": "The original sentence uses the second person plural 'vous', which is acceptable, but the phrase 'pour savoir ce qui se passe' is less natural in educational French. 'Pour comprendre ce qui se passe' is more idiomatic and aligns better with the context of design thinking. This change enhances the naturalness and clarity of the feedback.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Elles sont essentielles pour définir des formes, créer du dynamisme, et orienter le regard du spectateur.",
+        "correction": "Elles sont essentielles pour définir des formes, créer du dynamisme et orienter le regard du spectateur.",
+        "description": "The use of a comma before 'et' in a simple list is not standard in French punctuation conventions. Removing the comma aligns with French stylistic norms and improves the naturalness of the text.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "L'intelligence émotionnelle, ou EI, permet de comprendre et d'apprécier les sentiments d'autrui, ce qui est crucial dans la résolution des conflits.",
+        "correction": "L'intelligence émotionnelle, ou IE, permet de comprendre et d'apprécier les sentiments d'autrui, ce qui est crucial dans la résolution des conflits.",
+        "description": "The abbreviation 'EI' is an anglicism derived from 'Emotional Intelligence' in English. In French, the standard abbreviation is 'IE' for 'Intelligence Émotionnelle'. Using the correct local abbreviation ensures professional terminology and avoids confusion for French-speaking learners.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "en permettant aux individus de se sentir vécus et compris",
+        "correction": "en permettant aux individus de se sentir compris et entendus",
+        "description": "The phrase 'se sentir vécus' is unnatural and not idiomatic in French. The intended meaning is likely 'to feel understood and heard.' The recommended correction uses 'compris et entendus,' which is the standard and culturally appropriate expression in French for describing emotional resonance in interpersonal relationships.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "non-fiction",
+        "correction": "documentaire",
+        "description": "The term 'non-fiction' is a direct anglicism and, while increasingly used in French publishing, 'documentaire' or 'littérature documentaire' is more natural and widely accepted in educational contexts for young learners. Using 'documentaire' enhances clarity and cultural appropriateness for a French-speaking audience.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology|Style",
+        "original": "Pour maintenir leur efficacité, il est recommandé de les vérifier et de les remplacer annuellement, ce qui contribue à une meilleure prévention de l'incendie.",
+        "correction": "Pour maintenir leur efficacité, il est recommandé de les tester régulièrement et de remplacer les piles chaque année, ce qui contribue à une meilleure prévention des incendies.",
+        "description": "The original text suggests replacing smoke detectors annually, which is not standard practice in French-speaking regions; typically, only the batteries are replaced annually, and the detectors themselves are tested regularly. The phrase 'prévention de l'incendie' is less natural than 'prévention des incendies' in French. The correction uses terminology and advice that align with local fire safety recommendations and improves the naturalness of the expression.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "En milieu d'urgence, il est crucial de contrôler les saignements avec soin pour éviter une perte excessive de sang, ce qui pourrait altérer la capacité du corps à maintenir l'homéostasie et mettre en danger la vie.",
+        "correction": "En situation d'urgence, il est crucial de contrôler les saignements avec soin pour éviter une perte excessive de sang, ce qui pourrait altérer la capacité du corps à maintenir l'homéostasie et mettre en danger la vie.",
+        "description": "The phrase 'en milieu d'urgence' is less natural in French for emergency scenarios. 'En situation d'urgence' is the standard and culturally appropriate expression in French medical and educational contexts. This improves the naturalness and professionalism of the content.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Le numérateur d'une fraction indique le nombre de parties considérées, tandis que le dénominateur représente le nombre total de parties égales qui composent le tout. Cela peut être visualisé par des fractions telles que 3/8 ou 2/5, où le numérateur (3 et 2) est inférieur ou égal au dénominateur (8 et 5).",
+        "correction": "Le numérateur d'une fraction indique le nombre de parties considérées, tandis que le dénominateur représente le nombre total de parties égales qui composent le tout. Cela peut être illustré par des fractions telles que 3/8 ou 2/5, où le numérateur (3 et 2) est inférieur ou égal au dénominateur (8 et 5).",
+        "description": "The use of 'visualisé' is less natural in French educational context when referring to examples. 'Illustré' is the preferred term for presenting examples in mathematics, making the explanation more idiomatic and culturally appropriate for French learners.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "tout comme les enseignants appliquent les règles dans une école.",
+        "correction": "tout comme les enseignants appliquent les règles dans une école.",
+        "description": "While the analogy to teachers applying rules is understandable, it may oversimplify the complexity of the executive branch's role in a way that is not fully appropriate for an educational context about government structure. Consider using a more precise analogy relevant to government functions for French-speaking learners.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Le Sénat est composé de 100 membres, pas de 435. Le nombre de 435 correspond à la Chambre des représentants, qui est la plus grande chambre du Congrès.",
+        "correction": "Le Sénat est composé de 100 membres, pas de 435. Le nombre de 435 correspond à la Chambre des représentants, qui est la chambre basse du Congrès.",
+        "description": "The phrase 'la plus grande chambre du Congrès' is not the standard way to refer to the House of Representatives in French political terminology. 'La chambre basse du Congrès' is more accurate and aligns with established terminology for bicameral legislatures.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "En réalité, le pouvoir de déclarer la guerre est un frein au pouvoir exécutif, car il nécessite l'approbation du Congrès. Cette limitation assure un processus de décision collective pour les grandes décisions militaires.",
+        "correction": "En réalité, le pouvoir de déclarer la guerre appartient au Congrès, ce qui limite le pouvoir exécutif. Cette disposition assure un processus de décision collective pour les grandes décisions militaires.",
+        "description": "The phrase 'un frein au pouvoir exécutif' is stylistically awkward and not idiomatic in French political discourse. 'Appartient au Congrès, ce qui limite le pouvoir exécutif' is clearer and more natural, improving the educational quality and localization.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Cet état d'esprit encourage l'adaptabilité et une approche positive face aux revers, ce qui est crucial pour la persévérance.",
+        "correction": "Cet état d'esprit encourage l'adaptabilité et une approche positive face aux revers, ce qui est essentiel pour la persévérance.",
+        "description": "The use of 'crucial' is acceptable but 'essentiel' is more natural and commonly used in French educational contexts. This change enhances the naturalness and professional tone of the feedback.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Cette approche est éprouvée pour réduire la sensation d'être submergé par le projet.",
+        "correction": "Cette approche est éprouvée pour réduire la sensation d'être submergé par une tâche ou un projet.",
+        "description": "The use of 'le projet' is too specific and may not fit all contexts. Replacing it with 'une tâche ou un projet' makes the statement more universally applicable and culturally appropriate for educational content.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Il est essentiel de choisir des produits laitiers avec une teneur élevée en matières grasses pour bénéficier de cet aspect nutritionnel.",
+        "correction": "Il est essentiel de choisir des produits laitiers adaptés à vos besoins nutritionnels, en tenant compte de leur teneur en matières grasses.",
+        "description": "The original sentence may mislead learners by implying that only high-fat dairy products are nutritionally beneficial, which is not culturally or scientifically accurate in French dietary education. The correction provides a more neutral and culturally appropriate recommendation, reflecting the diversity of dietary needs and official guidelines.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "La DUDH a eu un impact significatif sur la société, mais son influence sur le développement des technologies modernes n'est pas directe. Cependant, les technologies peuvent être utilisées pour promouvoir les droits humains, comme le téléphone portable qui aide à la communication et l'éducation.",
+        "correction": "La DUDH a eu un impact significatif sur la société, mais son influence sur le développement des technologies modernes n'est pas directe. Cependant, les technologies peuvent être utilisées pour promouvoir les droits humains, comme le téléphone portable qui facilite la communication et l'accès à l'éducation.",
+        "description": "The phrase 'aide à la communication et l'éducation' is not fully idiomatic in French. 'Facilite la communication et l'accès à l'éducation' is more natural and precise, especially in educational contexts. This correction improves the localization quality and ensures the terminology is appropriate for a French-speaking audience.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Le jazz est en fait célèbre pour son caractère improvisé et ses rythmes syncopés, ce qui diffère de la structure musicale rigide de nombreux autres genres.",
+        "correction": "Le jazz est célèbre pour son caractère improvisé et ses rythmes syncopés, ce qui le distingue de la structure musicale rigide de nombreux autres genres.",
+        "description": "The use of 'en fait' is unnecessary and slightly informal in educational French. Removing it improves the style and maintains a more neutral, formal register appropriate for educational content.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Les limericks suivent une structure distinctive AABBA, où les deux premières et les deux dernières lignes sont identiques ou très proches, et les lignes du milieu (troisième et quatrième) sont courtes et riment entre elles.",
+        "correction": "Les limericks suivent une structure distinctive AABBA, où les deux premières et les deux dernières lignes riment entre elles, et les lignes du milieu (troisième et quatrième) sont courtes et riment entre elles.",
+        "description": "The explanation incorrectly states that the two first and two last lines are 'identiques ou très proches', which is misleading. In a limerick, the rhyme scheme is AABBA, meaning the first, second, and fifth lines rhyme, while the third and fourth lines rhyme with each other. The correction clarifies the rhyme pattern for accuracy and better educational value.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "La lecture approfondie consiste à comprendre et analyser en profondeur les textes pour en saisir la signification, les thèmes et les nuances, plutôt que de se concentrer uniquement sur la collecte de faits.",
+        "correction": "La lecture approfondie consiste à comprendre et à analyser en profondeur les textes afin d’en saisir la signification, les thèmes et les nuances, plutôt que de se concentrer uniquement sur la collecte de faits.",
+        "description": "The original sentence lacks the conjunction 'à' before 'analyser', which is required for parallelism and naturalness in French ('comprendre et à analyser'). Additionally, 'pour en saisir' is less idiomatic than 'afin d’en saisir' in formal educational contexts. The correction improves both grammatical parallelism and stylistic naturalness.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Cela s'applique à des situations comme diagnostiquer un problème technique ou améliorer une recette.",
+        "correction": "Cela s'applique à des situations telles que diagnostiquer un problème technique ou améliorer une recette.",
+        "description": "The use of 'comme' is acceptable in informal French, but in educational or formal contexts, 'telles que' is preferred for listing examples. This change improves the naturalness and appropriateness of the style for instructional content.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "La balançoire est en fait un exemple de machine à levier, qui fonctionne sur le principe de la puissance mécanique multipliée par un bras de levier.",
+        "correction": "La balançoire est en fait un exemple de machine à levier, qui fonctionne sur le principe de la force mécanique appliquée à un bras de levier.",
+        "description": "The phrase 'puissance mécanique multipliée par un bras de levier' is not standard in French educational contexts for simple machines. The correct terminology is 'force mécanique appliquée à un bras de levier'. Using 'puissance' instead of 'force' may confuse learners, as 'puissance' refers to power, not force, in physics. This affects the naturalness and technical accuracy of the explanation.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Les fusées à poudre ont été largement remplacées par des moteurs-fusées plus efficaces.",
+        "correction": "Les fusées à poudre ont été largement remplacées par des moteurs-fusées à propergol liquide, qui sont généralement plus efficaces.",
+        "description": "The term 'moteurs-fusées plus efficaces' is vague and lacks technical precision. In French educational and scientific contexts, it is more accurate to specify 'moteurs-fusées à propergol liquide' when referring to the technology that has largely replaced solid-fuel rockets. This correction improves clarity and aligns with standard terminology used in French-speaking scientific communities.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Des avancées technologiques, comme les fusées réutilisables, ont permis de réduire les coûts et d'augmenter la fréquence des voyages spatiaux.",
+        "correction": "Des avancées technologiques, telles que les fusées réutilisables, ont permis de réduire les coûts et d'augmenter la fréquence des missions spatiales.",
+        "description": "The phrase 'voyages spatiaux' is less commonly used in French scientific discourse compared to 'missions spatiales', which is the standard term for spaceflights and expeditions. Additionally, 'comme' is less formal than 'telles que' in this context. The correction enhances the naturalness and professionalism of the language.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "comme l'initiative de SpaceX pour rendre le voyage spatial plus accessible.",
+        "correction": "comme les initiatives de SpaceX et d'autres agences spatiales pour rendre le voyage spatial plus accessible.",
+        "description": "Referencing only SpaceX may present a US-centric perspective and overlook the contributions of other international space agencies, which is less culturally inclusive for a French-speaking audience. The correction broadens the scope to include other agencies, making the content more culturally appropriate and balanced.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "La transition de l'eau de l'état liquide à l'état solide se produit à 0°C lorsqu'elle est sous pression atmosphérique standard.",
+        "correction": "La transition de l'eau de l'état liquide à l'état solide se produit à 0 °C sous pression atmosphérique normale.",
+        "description": "The phrase 'pression atmosphérique standard' is less commonly used in French scientific discourse than 'pression atmosphérique normale'. Additionally, a space is required between the number and the degree symbol according to French typographic conventions. This correction improves both terminology consistency and formatting.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Bien que les solides, les liquides et les gaz soient des états de la matière, le quatrième état mentionné dans le résumé est le plasma, ce qui rend l'énonciation incorrecte.",
+        "correction": "Bien que les solides, les liquides et les gaz soient des états de la matière, le quatrième état mentionné dans le résumé est le plasma, ce qui rend l'affirmation incorrecte.",
+        "description": "The use of 'énonciation' is not appropriate in this context. The correct term is 'affirmation', which is standard in French educational and scientific language when referring to a statement or claim. This correction improves terminology and naturalness.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "C'est vrai. Dans cette œuvre célèbre, le conflit externe est en effet une rivalité entre les familles Montague et Capulet. Cela illustre comment les conflits externes peuvent façonner l'histoire et l'intrigue.",
+        "correction": "C'est vrai. Dans cette œuvre célèbre, le conflit principal est en effet une rivalité entre les familles Montague et Capulet. Cela illustre comment les conflits externes peuvent façonner l'histoire et l'intrigue.",
+        "description": "The use of 'conflit externe' is less precise than 'conflit principal' in this context, as the question refers to the main conflict. Adjusting to 'conflit principal' ensures terminology consistency and better aligns with the educational focus of the lesson.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "En France, l'intégration de l'IA dans les voitures permet une navigation plus précise et sécurisée.",
+        "correction": "L'intégration de l'IA dans les voitures permet une navigation plus précise et sécurisée.",
+        "description": "The reference to 'En France' is unnecessary and may limit the applicability of the statement, as autonomous vehicles and AI integration are global phenomena. Removing the country-specific mention makes the feedback more universally relevant and avoids unintended cultural bias.",
         "severity": "MINOR"
       }
     ]

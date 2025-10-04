@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Exemplos incluem os Estados Unidos importando eletrônicos da China e exportando produtos agrícolas como trigo e milho, ou a Alemanha exportando carros e importando matérias-primas como petróleo.",
+      "correction": "Exemplos incluem o Brasil importando eletrônicos da China e exportando produtos agrícolas como soja e café, ou a Alemanha exportando carros e importando matérias-primas como petróleo.",
+      "description": "The examples provided focus on the United States and Germany, which may not be as relatable for Brazilian learners. For improved cultural relevance and engagement, it is recommended to use Brazil as the primary example, highlighting typical Brazilian exports and imports such as soy and coffee. This adjustment makes the content more locally meaningful and educational for the target audience.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "NAFTA",
+      "correction": "USMCA (Acordo Estados Unidos-México-Canadá)",
+      "description": "The term 'NAFTA' is outdated, as the agreement was replaced by the USMCA (United States-Mexico-Canada Agreement) in 2020. For accuracy and current relevance, the updated name should be used. Additionally, providing the Portuguese translation or explanation of the acronym enhances clarity for Brazilian learners.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "União Europeia, que promove o livre movimento de bens e serviços entre seus membros.",
+      "correction": "União Europeia, que promove o livre movimento de bens, serviços, pessoas e capitais entre seus membros.",
+      "description": "The description of the European Union omits the free movement of people and capital, which are key aspects of the EU's single market. Including these elements provides a more complete and accurate representation, aligning with educational standards and improving the content's informativeness.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Global_Trade.llm.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T21:47:19.500146",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.5,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

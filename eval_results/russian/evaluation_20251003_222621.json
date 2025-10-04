@@ -1,0 +1,91 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "повсеместные пути были основным мостом для торговли в средние века.",
+      "correction": "повсеместные пути не были основным мостом для торговли в средние века.",
+      "description": "The phrase 'повсеместные пути были основным мостом для торговли в средние века' is linguistically awkward and semantically imprecise. The term 'повсеместные пути' is not standard in Russian historical or economic discourse and does not accurately convey the concept of major trade routes. Additionally, the use of 'мостом' (bridge) in this context is metaphorical but not idiomatic in Russian. The sentence should be rephrased to use more precise terminology, such as 'основные торговые маршруты' or directly reference specific routes. This correction improves both grammatical accuracy and lexical precision.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "упомянутые исторические торговые маршруты, такие как Шелковый путь, Транссахарская торговля и Индийская океанская торговля, являются более точными примерами древних торговых путем, которые значительно влияли на экономическую и культурную взаимодействие в их конкретных регионах.",
+      "correction": "упомянутые исторические торговые маршруты, такие как Шелковый путь, Транссахарская торговля и Индийская океанская торговля, являются более точными примерами древних торговых путей, которые значительно влияли на экономическое и культурное взаимодействие в их конкретных регионах.",
+      "description": "There are two grammatical errors: 'древних торговых путем' should be 'древних торговых путей' (Genitive plural), and 'экономическую и культурную взаимодействие' should be 'экономическое и культурное взаимодействие' (neuter gender agreement). These errors affect the clarity and correctness of the sentence.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "может быть затрошены",
+      "correction": "могут быть затронуты",
+      "description": "The word 'затрошены' is a misspelling and not a valid Russian word. The correct form is 'затронуты', which means 'affected'. This is a lexical and spelling error that impacts comprehension.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Россия и Китай активно обмениваются ресурсами и продуктами друг с другом, что показывает глобальную привлекательность и интеграцию экономик.",
+      "correction": "Россия и Китай активно обмениваются ресурсами и товарами друг с другом, что демонстрирует глобальную интеграцию экономик.",
+      "description": "The use of 'продуктами' is less natural in the context of international trade; 'товарами' is the standard term. Additionally, 'глобальная привлекательность' is not idiomatic in Russian economic discourse; 'глобальная интеграция' is more appropriate. This correction improves the naturalness and professionalism of the terminology.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "продукцию высокого качества из-за границы",
+      "correction": "качественную продукцию из-за границы",
+      "description": "The phrase 'продукцию высокого качества' is grammatically correct but less natural in Russian; 'качественную продукцию' is a more idiomatic and concise way to express the idea of high-quality products.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Это может привести к уменьшению потребления местных продуктов и потенциальной утрате рабочих мест в отраслях, которые могут быть затрошены.",
+      "correction": "Это может привести к уменьшению потребления местных продуктов и потенциальной утрате рабочих мест в отраслях, которые могут быть затронуты.",
+      "description": "The verb 'затрошены' is incorrect and should be 'затронуты'. This is a grammatical and lexical error that affects the clarity of the sentence.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Это не является обязательным фактом.",
+      "correction": "Это не всегда так.",
+      "description": "The phrase 'Это не является обязательным фактом' is overly formal and unnatural in Russian educational discourse. 'Это не всегда так' is a more natural and concise way to express the idea that something is not universally true.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Экологические проблемы и неравенство в доходах являются значительными отрицательными факторами, которые требуют тщательного рассмотрения и управления.",
+      "correction": "Экологические проблемы и неравенство в доходах — это значительные негативные факторы, которые требуют тщательного рассмотрения и регулирования.",
+      "description": "The term 'отрицательные факторы' is less idiomatic than 'негативные факторы' in Russian. Additionally, 'управления' is less precise than 'регулирования' in the context of economic and social issues. This correction improves the naturalness and professionalism of the terminology.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Global_Trade.slm.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T22:26:21.411753",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 8.3,
+    "classification": "PROFESSIONAL",
+    "total_issues": 8,
+    "total_penalty": 1.7,
+    "issue_breakdown": {
+      "linguistic": 4,
+      "localization": 4,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.2,
+      "localization_penalty": 0.5,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

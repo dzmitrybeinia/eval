@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Эксперименты проводятся для проверки гипотезы путем изменения одного переменного при сохранении остальных постоянными.",
+      "correction": "Эксперименты проводятся для проверки гипотезы путем изменения одной переменной при сохранении остальных постоянными.",
+      "description": "The phrase 'изменения одного переменного' contains a grammatical error: 'переменного' is masculine singular, but the word 'переменная' (variable) is feminine in Russian. The correct form is 'одной переменной' (genitive singular feminine). This error affects grammatical agreement and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Пенопластовая изоляция сохраняла воду холодной на 3 часа дольше, чем пластиковая.",
+      "correction": "Пенопластовая изоляция сохраняла воду холодной на 3 часа дольше, чем пластиковая изоляция.",
+      "description": "The sentence 'чем пластиковая' is ambiguous because 'пластиковая' is an adjective without a clear noun reference. For clarity and grammatical correctness, the noun 'изоляция' should be repeated to avoid confusion and ensure parallel structure.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Он обеспечивает логичность, повторяемость и доказательность исследований.",
+      "correction": "Он обеспечивает логичность, воспроизводимость и обоснованность исследований.",
+      "description": "The terms 'повторяемость' and 'доказательность' are not standard in Russian scientific discourse. 'Воспроизводимость' (reproducibility) and 'обоснованность' (validity/justification) are more natural and widely accepted in Russian academic style, improving the localization and professionalism of the text.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Scientific_Method.llm.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T21:41:11.575615",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.3,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.7,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.5,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

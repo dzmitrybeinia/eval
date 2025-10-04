@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Mentir peut en fait diminuer la confiance et la confiance dans une amitié, car cela suggère que l'ami ne peut pas compter sur vous pour dire la vérité.",
+      "correction": "Mentir peut en fait diminuer la confiance dans une amitié, car cela suggère que l'ami ne peut pas compter sur vous pour dire la vérité.",
+      "description": "The phrase 'diminuer la confiance et la confiance' is a lexical redundancy, repeating 'la confiance' unnecessarily. This affects clarity and naturalness. The corrected version removes the repetition, resulting in a more precise and idiomatic sentence.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "Pratiquer l'écoute active en attendant pauses naturelles pour poser des questions approfondies peut réellement renforcer la compréhension mutuelle.",
+      "correction": "Pratiquer l'écoute active en attendant des pauses naturelles pour poser des questions approfondies peut réellement renforcer la compréhension mutuelle.",
+      "description": "The sentence is missing the article 'des' before 'pauses naturelles', which is required for grammatical correctness in French. This omission affects the syntactic structure and clarity of the sentence.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "Maintien de la tranquillité est une étape fondamentale dans la gestion des désaccords.",
+      "correction": "Le maintien de la tranquillité est une étape fondamentale dans la gestion des désaccords.",
+      "description": "The sentence lacks the definite article 'Le' before 'maintien', which is necessary for proper noun phrase construction in French. This omission affects the grammaticality and naturalness of the sentence.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Friendship_Skills.slm.md",
+    "language": "French",
+    "timestamp": "2025-10-03T22:22:08.394850",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.6,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

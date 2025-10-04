@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "label": "v3",
+    "language": "serbian",
+    "generated_at": "2025-10-04T14:19:49.281941",
+    "source_files": [
+      "evaluation_20251004_141949.json"
+    ],
+    "issue_counts": {
+      "linguistic": 8,
+      "localization": 1
+    }
+  },
+  "issues": {
+    "linguistic": [
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Животиње су развијали на невероватни начини да преживе у своје средине, од физичке особине као камуфлажа до понашајне стратегије као миграција.",
+        "correction": "Животиње су се развијале на невероватне начине да преживе у својим срединама, од физичких особина као што је камуфлажа до понашајних стратегија као што је миграција.",
+        "description": "This sentence contains multiple grammatical errors: incorrect verb form ('су развијали' should be 'су се развијале'), adjective-noun agreement ('невероватни начини' should be 'невероватне начине'), case errors ('у своје средине' should be 'у својим срединама'), and missing reflexive particle. Additionally, 'физичке особине као камуфлажа' and 'понашајне стратегије као миграција' require the use of 'као што је' for proper clause formation. All errors have been corrected in the suggested version.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Ове адаптације су кључ за разумети како врсте преживљавају у различите екосистеме.",
+        "correction": "Ове адаптације су кључ за разумевање како врсте преживљавају у различитим екосистемима.",
+        "description": "The phrase 'за разумети' is incorrect; the noun form 'за разумевање' should be used. There are also case errors: 'у различите екосистеме' should be 'у различитим екосистемима' to match the locative case required by the preposition 'у'.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Адаптације је особине или понашања које помажу организми да преживе и размножавају у њихове средине.",
+        "correction": "Адаптације су особине или понашања које помажу организмима да преживе и размножавају се у својим срединама.",
+        "description": "This sentence has several grammatical errors: 'је' should be 'су' to agree with the plural subject, 'организми' should be in dative plural ('организмима'), and 'у њихове средине' should be 'у својим срединама' for proper case and possessive agreement. The reflexive particle 'се' is missing after 'размножавају'.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Они се развијају кроз генерације преко процес природна селекција.",
+        "correction": "Оне се развијају кроз генерације путем процеса природне селекције.",
+        "description": "The subject 'Они' should agree in gender with 'адаптације' (feminine plural: 'Оне'). The phrase 'преко процес природна селекција' is incorrect; it should be 'путем процеса природне селекције' to use the correct preposition and genitive case.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Арктички лисица има бело крзно које меша се са снег, и помаже да избегне предаторе.",
+        "correction": "Арктичка лисица има бело крзно које се меша са снегом и помаже да избегне предаторе.",
+        "description": "There are gender and case errors: 'Арктички лисица' should be 'Арктичка лисица' (feminine), 'меша се са снег' should be 'се меша са снегом' (instrumental case), and the clitic 'се' should be placed immediately after the relative clause verb. The comma before 'и' is unnecessary.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Птице мигрирају југ за зиму да побегну од хладноћа и нађу храну.",
+        "correction": "Птице мигрирају на југ за зиму да побегну од хладноће и нађу храну.",
+        "description": "The preposition 'на' is required before 'југ' to indicate direction. 'Од хладноћа' should be 'од хладноће' (singular genitive), as 'cold' in this context is not plural.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Понашајне адаптације су физичке промене које животиња пролази да би боље преживео у своје средине.",
+        "correction": "Понашајне адаптације нису физичке промене које животиња пролази да би боље преживела у својој средини.",
+        "description": "This sentence contains a logical contradiction and grammatical errors. 'Понашајне адаптације су физичке промене' is incorrect; behavioral adaptations are not physical changes. The verb 'пролази' should agree with 'животиња' (feminine: 'пролази'), and 'преживео' should be 'преживела' to match the feminine subject. 'У своје средине' should be 'у својој средини' for proper case and possessive agreement.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Понашајне адаптације значи радње или понашања, не физичке промене.",
+        "correction": "Понашајне адаптације значе радње или понашања, не физичке промене.",
+        "description": "The verb 'значи' should be 'значе' to agree with the plural subject 'адаптације'.",
+        "severity": "MINOR"
+      }
+    ],
+    "localization": [
+      {
+        "category": "localization",
+        "subcategory": "Format",
+        "original": "🌱🐾",
+        "correction": "",
+        "description": "The use of emojis in formal educational content is not appropriate for the Serbian academic context. Emojis should be removed to maintain a professional tone.",
+        "severity": "MINOR"
+      }
+    ]
+  }
+}

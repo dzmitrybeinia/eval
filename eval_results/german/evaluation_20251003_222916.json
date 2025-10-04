@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Variablen können mehr als einen Wert haben.",
+      "correction": "Variablen können im Laufe eines Programms verschiedene Werte annehmen.",
+      "description": "The original sentence is misleading from a technical perspective. In programming, a variable can only hold one value at a time, but this value can change during program execution. The phrase 'mehr als einen Wert haben' could be interpreted as a variable holding multiple values simultaneously, which is incorrect. The correction clarifies that variables can take on different values over time, which is accurate and precise.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Datenbanken sind tatsächlich ein wichtiger Aspekt der Programmierung, der zur Speicherung und Organisation großer Datenmengen, einschließlich Eingabe- und Ausgabedaten, genutzt wird.",
+      "correction": "Datenbanken sind tatsächlich ein wichtiger Aspekt der Programmierung, die zur Speicherung und Organisation großer Datenmengen, einschließlich Eingabe- und Ausgabedaten, genutzt werden.",
+      "description": "The original sentence incorrectly uses 'der' to refer to 'Datenbanken', which is plural and feminine. The relative pronoun should be 'die' to match the gender and number of 'Datenbanken'. This is a grammatical error affecting agreement between the noun and the relative clause.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "In Navigations-Apps ist die Berechnung der schnellsten Route tatsächlich eine Funktion von Algorithmen, nicht von Variablen.",
+      "correction": "In Navigations-Apps ist die Berechnung der schnellsten Route tatsächlich Aufgabe von Algorithmen, nicht von Variablen.",
+      "description": "The phrase 'eine Funktion von Algorithmen' is a literal translation from English ('a function of algorithms') and is not idiomatic in German. The more natural and precise expression is 'Aufgabe von Algorithmen', which better conveys that algorithms are responsible for route calculation.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Ein Algorithmus benötigt Variablen, um Daten zu speichern und zu manipulieren.",
+      "correction": "Ein Algorithmus kann auch ohne Variablen ausgeführt werden, wenn er keine Daten speichern oder verändern muss.",
+      "description": "The original statement is factually incorrect. Not all algorithms require variables; some, such as simple procedures or mathematical formulas, can operate without storing or manipulating data. The correction provides a more accurate and nuanced explanation.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Coding_Basics_1.slm.md",
+    "language": "German",
+    "timestamp": "2025-10-03T22:29:16.417113",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.0,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 1.0,
+    "issue_breakdown": {
+      "linguistic": 4,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.0,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

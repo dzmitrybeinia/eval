@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Un étudiant qui adopte un mindset de croissance voit les défis comme des opportunités de croissance et de développement personnel.",
+      "correction": "Un étudiant qui adopte un état d'esprit de croissance voit les défis comme des opportunités de croissance et de développement personnel.",
+      "description": "The phrase 'mindset de croissance' uses an unnecessary anglicism ('mindset') where the standard French term 'état d'esprit' is preferred for clarity and linguistic accuracy. This correction improves lexical precision and aligns with French educational terminology.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Cet état d'esprit encourage l'adaptabilité et une approche positive face aux revers, ce qui est crucial pour la persévérance.",
+      "correction": "Cet état d'esprit encourage l'adaptabilité et une approche positive face aux revers, ce qui est essentiel pour la persévérance.",
+      "description": "The use of 'crucial' is acceptable but 'essentiel' is more natural and commonly used in French educational contexts. This change enhances the naturalness and professional tone of the feedback.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "À l'inverse, un étudiant avec un mindset fixe peut voir les mêmes défis comme insurmontables, ce qui peut entraver le progrès et la motivation continue.",
+      "correction": "À l'inverse, un étudiant avec un état d'esprit fixe peut voir les mêmes défis comme insurmontables, ce qui peut entraver le progrès et la motivation continue.",
+      "description": "The term 'mindset fixe' is an anglicism and should be replaced with 'état d'esprit fixe' for proper French usage. This correction ensures lexical precision and avoids unnecessary loanwords.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Cette approche est éprouvée pour réduire la sensation d'être submergé par le projet.",
+      "correction": "Cette approche est éprouvée pour réduire la sensation d'être submergé par une tâche ou un projet.",
+      "description": "The use of 'le projet' is too specific and may not fit all contexts. Replacing it with 'une tâche ou un projet' makes the statement more universally applicable and culturally appropriate for educational content.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Growth_Mindset.slm.md",
+    "language": "French",
+    "timestamp": "2025-10-03T22:22:23.541424",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.4,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

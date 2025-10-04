@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Schraffieren ist die Technik, die Licht- und Schattenbereiche durch Verwendung von Farben zu erfassen.",
+      "correction": "Schraffieren ist die Technik, Licht- und Schattenbereiche durch die Verwendung von Linien zu erfassen.",
+      "description": "The original sentence incorrectly states that 'Schraffieren' uses colors to capture light and shadow areas. Lexically, 'Schraffieren' refers to the use of lines, not colors, for shading. This is a semantic error that could mislead learners about the technique.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Schattierung ist ein grundlegender Aspekt der Zeichentechniken, der nicht nur der natürlichen Schatten im Outdoor-Szenario zugeordnet wird.",
+      "correction": "Schattierung ist ein grundlegender Aspekt der Zeichentechniken, der nicht nur natürlichen Schatten im Außenbereich zugeordnet wird.",
+      "description": "The phrase 'der nicht nur der natürlichen Schatten im Outdoor-Szenario zugeordnet wird' contains a grammatical error: the article 'der' is incorrectly used with the plural noun 'Schatten'. It should be 'nicht nur natürlichen Schatten'. Additionally, 'Outdoor-Szenario' is an unnecessary anglicism; 'Außenbereich' is more natural and appropriate in German educational contexts.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Drawing_Techniques.slm.md",
+    "language": "German",
+    "timestamp": "2025-10-03T22:29:48.646947",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.5,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "滅菌バンデージ",
+      "correction": "滅菌包帯",
+      "description": "The term 'バンデージ' is a katakana loanword for 'bandage', but in Japanese medical contexts, '包帯' is the standard and more natural term. Using '滅菌包帯' improves lexical precision and aligns with professional terminology. This correction also enhances localization by using a culturally appropriate term.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "非粘着性のドレッシング",
+      "correction": "非粘着性のガーゼ",
+      "description": "The word 'ドレッシング' is a direct loanword from English and is less commonly used in everyday Japanese first aid instructions. 'ガーゼ' is the standard term for gauze in Japanese medical and educational contexts, making the content more natural and locally accepted.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "クリームやオイルは避ける",
+      "correction": "クリームやオイルの使用は避ける",
+      "description": "The original phrase is understandable but slightly abrupt. Adding 'の使用は避ける' clarifies that the application of creams or oils should be avoided, making the instruction more polite and natural in Japanese educational materials.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "弾性包帯で圧迫し、心臓の高さより高く持ち上げる。",
+      "correction": "弾性包帯で圧迫し、患部を心臓の高さより高く保つ。",
+      "description": "The phrase '持ち上げる' can sound unnatural in medical instructions. '保つ' is the standard verb used in Japanese first aid guidance to indicate maintaining the affected area above heart level. This correction improves cultural appropriateness and naturalness.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "First_Aid_Basics.llm.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-03T21:50:53.658377",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.4,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

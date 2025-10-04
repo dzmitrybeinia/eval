@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "carbón, petróleo, gas natural",
+      "correction": "carbón, petróleo, gas natural",
+      "description": "The list of fossil fuels uses commas, which is standard in Spanish. However, for educational clarity and consistency, especially in lists, the use of the Oxford comma before the last item is not customary in Spanish. The current format is correct and culturally appropriate for Spanish educational materials. No correction needed, but this confirms proper localization formatting.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "EE. UU.",
+      "correction": "Estados Unidos",
+      "description": "The abbreviation 'EE. UU.' for 'Estados Unidos' is correct in Spanish, but in educational contexts, especially for learners, it is clearer to use the full country name to avoid confusion. This enhances accessibility and clarity for all audiences.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Acuerdo de París",
+      "correction": "Acuerdo de París",
+      "description": "The reference to 'Acuerdo de París' is culturally appropriate and relevant for a global audience. However, for Spanish-speaking learners unfamiliar with international agreements, a brief parenthetical explanation (e.g., 'Acuerdo de París (tratado internacional sobre cambio climático)') would improve comprehension and localization quality.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Natural_Resources.llm.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-03T21:28:51.919132",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Nauka zarządzania emocjami pozwala reagować spokojnie i podejmować przemyślane decyzje.",
+      "correction": "Nauka zarządzania emocjami pozwala reagować spokojnie oraz podejmować przemyślane decyzje.",
+      "description": "The sentence uses 'i' (and) to connect two verbs, which is grammatically correct but stylistically less natural in Polish when listing actions that are closely related. Using 'oraz' (as well as) improves the flow and clarity, making the sentence more idiomatic and cohesive. This is a minor stylistic improvement, not a critical error.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "🌟",
+      "correction": "",
+      "description": "The use of the star emoji at the end of the introduction is not standard in Polish educational materials, especially in formal or semi-formal contexts. While emojis can make content more engaging, they may reduce perceived professionalism and distract from the educational message. It is recommended to remove the emoji for a more culturally appropriate and professional tone.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Emotions_and_Feelings.llm.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T21:31:44.463219",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.8,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.2,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

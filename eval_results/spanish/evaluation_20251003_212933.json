@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "En *Don Quijote*, Don Quijote es el protagonista, mientras que los molinos de viento representan antagonistas simbólicos.",
+      "correction": "En *Don Quijote*, Don Quijote es el protagonista, mientras que los molinos de viento representan obstáculos simbólicos.",
+      "description": "The use of 'antagonistas simbólicos' to refer to the windmills in Don Quijote is culturally imprecise. In Spanish literary tradition, the windmills are not considered true antagonists but rather symbolic obstacles or challenges. This correction improves cultural accuracy and aligns with how the work is typically discussed in Spanish-speaking educational contexts.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "¡Vamos a explorar cada uno de ellos y cómo interactúan! 🌟",
+      "correction": "¡Vamos a explorar cada uno de ellos y cómo interactúan!",
+      "description": "The use of the emoji '🌟' in educational Spanish content may be considered informal and not standard in academic materials. Removing it ensures a more professional and neutral tone appropriate for educational contexts.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Story_Elements.llm.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-03T21:29:33.237414",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

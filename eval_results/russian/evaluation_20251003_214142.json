@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Священного Писания",
+      "correction": "Священного писания",
+      "description": "In Russian, when referring to religious texts in a general sense, 'Священное писание' is not capitalized unless it is the official title of a specific book. Here, the context is general, so the word 'писание' should be lowercase. This improves orthographic accuracy and aligns with standard Russian usage.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Празднование фестивалей, таких как Дивали и Холи.",
+      "correction": "Празднование праздников, таких как Дивали и Холи.",
+      "description": "The word 'фестиваль' is a direct loanword from English and is less natural in Russian when referring to traditional religious holidays. The culturally appropriate term is 'праздник', which better reflects the nature of these events in Russian-speaking contexts. This correction enhances cultural appropriateness and naturalness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Еврейской Библии",
+      "correction": "Танаха",
+      "description": "The term 'Еврейская Библия' is not standard in Russian religious studies; the accepted term is 'Танах', which is the traditional name for the Hebrew Bible in Russian. Using 'Танах' ensures terminological accuracy and consistency with local academic and religious discourse.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "World_Religions.llm.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T21:41:42.849003",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.4,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Вклад в научную сплочёнку не должен быть сохранён, а не обменён.",
+      "correction": "Вклад в научное сообщество не должен быть сохранён, а должен быть обменён.",
+      "description": "The phrase 'научную сплочёнку' is a lexical error; 'сплочёнка' is not a standard or meaningful term in Russian scientific discourse. The correct term is 'научное сообщество' (scientific community). Additionally, the construction 'а не обменён' is awkward and unclear; it should be 'а должен быть обменён' to clearly express the intended contrast. This correction improves both the lexical precision and the clarity of the statement.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Гипотеза представляет собой предсказание, которое можно протестировать. Она не является финальным результатом, а начальным утверждением, которое устанаввается перед проведением эксперимента. Это не то, что ожидается узнать через эксперимент.",
+      "correction": "Гипотеза представляет собой предсказание, которое можно протестировать. Она не является финальным результатом, а начальным утверждением, которое устанавливается перед проведением эксперимента. Это не то, что ожидается узнать через эксперимент.",
+      "description": "The word 'устанаввается' contains a spelling error; the correct form is 'устанавливается'. This is a critical orthographic mistake that affects readability and professionalism. The rest of the sentence is grammatically correct and contextually appropriate.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Scientific_Method.slm.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T22:27:20.530442",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.6,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

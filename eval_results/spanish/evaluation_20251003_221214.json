@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "El soneto se divide en dos cuartetos. ¿Es esta afirmación verdadera o falsa?.",
+      "correction": "El soneto se divide en dos cuartetos. ¿Es esta afirmación verdadera o falsa?",
+      "description": "There is an incorrect use of punctuation: a period is placed after the question mark at the end of the sentence. In Spanish, only the question mark should be used to close an interrogative sentence. This error affects orthographic correctness and should be corrected for proper punctuation.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Claro, el soneto tradicionalmente consta de dos cuartetos o secciones. La primera parte presenta un problema o pregunta, mientras que la segunda parte ofrece una resolución o reflexión.",
+      "correction": "El soneto tradicionalmente consta de dos cuartetos y dos tercetos. La primera parte presenta un problema o pregunta, mientras que la segunda parte ofrece una resolución o reflexión.",
+      "description": "The feedback uses 'cuartetos o secciones' to describe the structure of a sonnet, which is misleading and not terminologically precise in Spanish literary context. A traditional sonnet consists of two quatrains (cuartetos) and two tercets (tercetos). The correction provides the accurate terminology, ensuring consistency with standard Spanish literary education.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Poetry_Forms.slm.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-03T22:12:14.667112",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "O DNA, ou ácido desoxirribonucleico, é a molécula que contém as instruções para a vida. Presente em quase todas as células de organismos vivos, ele atua como um plano para construir e manter a vida. Vamos explorar sua estrutura, função e o processo de replicação, que garante a transmissão precisa das informações genéticas durante a divisão celular. 🌟",
+      "correction": "O DNA, ou ácido desoxirribonucleico, é a molécula que contém as instruções para a vida. Presente em quase todas as células de organismos vivos, ele atua como um plano para construir e manter a vida. Vamos explorar sua estrutura, função e o processo de replicação, que garante a transmissão precisa das informações genéticas durante a divisão celular.",
+      "description": "The use of the star emoji (🌟) at the end of the introduction is not appropriate for formal educational content in Brazilian Portuguese, as it may reduce the perceived seriousness and professionalism of the material. Removing the emoji ensures the tone remains suitable for academic contexts.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "A estrutura do DNA é um formato de dupla hélice, semelhante a uma escada torcida.",
+      "correction": "A estrutura do DNA é uma dupla hélice, semelhante a uma escada torcida.",
+      "description": "The phrase 'um formato de dupla hélice' is not idiomatic in Brazilian Portuguese scientific writing. The correct and natural expression is 'uma dupla hélice', which directly refers to the structure without unnecessary wording. This improves lexical precision and clarity.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "A replicação é \"semi-conservativa\", pois cada nova molécula contém uma fita original e uma recém-sintetizada.",
+      "correction": "A replicação é \"semiconservativa\", pois cada nova molécula contém uma fita original e uma recém-sintetizada.",
+      "description": "The term 'semi-conservativa' should be written as 'semiconservativa' in Brazilian Portuguese, following standard scientific terminology and correct compound word formation. This ensures grammatical and terminological accuracy.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "DNA_Basics.llm.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T21:46:40.007202",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

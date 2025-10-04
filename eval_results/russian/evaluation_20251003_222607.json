@@ -1,0 +1,171 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "так как это противорежившее бы определение дроби",
+      "correction": "так как это противоречило бы определению дроби",
+      "description": "The word 'противорежившее' is a misspelling and incorrect form; the correct word is 'противоречило'. Additionally, 'определение дроби' should be in the dative case after 'противоречило бы', resulting in 'определению дроби'. This error affects both lexical choice and grammatical agreement.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "В математике дробь всегда ограничена целым числом, где числитель (верх) не превышает знаменатель (низ).",
+      "correction": "В математике дробь всегда ограничена целым числом, где числитель (верх) не превышает знаменатель (низ).",
+      "description": "The statement is linguistically correct, but conceptually inaccurate: in mathematics, a fraction can be greater than one if the numerator exceeds the denominator. The phrase 'дробь всегда ограничена целым числом' is misleading and should be revised for mathematical accuracy. However, there are no linguistic errors in this sentence.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Это наблюдается в большинстве дробей, где числитель представляет собой количество частей, которые мы имеем, а знаменатель — общее количество равных частей, в которых целое делится.",
+      "correction": "Это наблюдается в некоторых дробях, где числитель больше знаменателя, а знаменатель — общее количество равных частей, на которые делится целое.",
+      "description": "The phrase 'в большинстве дробей' is misleading, as most fractions in educational contexts have numerators less than denominators. The explanation should be localized to reflect typical mathematical instruction and avoid confusion. The rest of the sentence is linguistically correct.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Использование визуальных инструментов, таких как полоски дробей, предоставляет представление, что позволяет легко определить, какая дробь представляет большую часть целого, и, таким образом, больше.",
+      "correction": "Использование визуальных инструментов, таких как полоски дробей, позволяет легко определить, какая дробь представляет большую часть целого и, таким образом, является большей.",
+      "description": "The phrase 'предоставляет представление, что позволяет' is awkward and redundant. The corrected version improves clarity and naturalness by streamlining the sentence structure. This is a lexical and stylistic issue affecting readability.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Этот метод основан на понятии, что при сравнении дробей с одинаковым знаменателем, увеличивается дробь, когда увеличивается знаменатель.",
+      "correction": "Этот метод основан на понятии, что при сравнении дробей с одинаковым знаменателем, дробь становится больше, когда увеличивается числитель.",
+      "description": "The sentence incorrectly states that a fraction increases when the denominator increases, which is mathematically inaccurate. The correct explanation is that the fraction increases when the numerator increases, given a constant denominator. This is a lexical and conceptual error.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "Это верно, потому что при умножении числителя и знаменателя на одно число вычисляете фактическое значение дроби, а не его представление.",
+      "correction": "Это верно, потому что при умножении числителя и знаменателя на одно число фактическое значение дроби не изменяется.",
+      "description": "The sentence contains a syntactic error: 'вычисляете фактическое значение дроби, а не его представление' is unclear and unidiomatic. The corrected version clarifies that the value of the fraction remains unchanged, improving both syntax and clarity.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Это основное свойство эквивалентных дробей, которое подтверждается при выполнении умножения или деления на число, не изменяя величину дроби.",
+      "correction": "Это основное свойство эквивалентных дробей, которое подтверждается при умножении или делении числителя и знаменателя на одно и то же число, не изменяя величину дроби.",
+      "description": "The original sentence lacks clarity regarding what is being multiplied or divided. For educational localization, it is important to specify that both numerator and denominator are multiplied or divided by the same number. This improves instructional accuracy.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Поверхность визуального модели дроби остается неизменной при её разделении на большее количество равных частей.",
+      "correction": "Поверхность визуальной модели дроби остается неизменной при её разделении на большее количество равных частей.",
+      "description": "The phrase 'визуального модели' is incorrect due to gender agreement; 'модель' is feminine and requires 'визуальной'. This is a grammatical error affecting adjective-noun agreement.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Когда визуальная модель дроби делится на большее количество равных частей, площадь, покрытая дробом, становится меньше.",
+      "correction": "Когда визуальная модель дроби делится на большее количество равных частей, площадь, покрытая дробью, становится меньше.",
+      "description": "The word 'дробом' is incorrect; the correct instrumental case of 'дробь' is 'дробью'. This is a grammatical error in case usage.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "разделив дробь **1/2** на 4 равные части, каждая часть становится **1/8**, что означает, что площадь, покрытая каждой из них, уменьшилась.",
+      "correction": "разделив дробь **1/2** на 4 равные части, каждая часть становится **1/8**, что означает, что площадь, покрытая каждой из них, уменьшилась.",
+      "description": "The sentence is linguistically correct and conceptually accurate. No errors found.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Умножение числителя и знаменателя на одно и то же число, называется упрощением дроби.",
+      "correction": "Умножение числителя и знаменателя на одно и то же число называется получением эквивалентной дроби.",
+      "description": "The term 'упрощение дроби' is incorrect in this context. Multiplying numerator and denominator by the same number creates an equivalent fraction, not a simplified one. This is a terminology error affecting mathematical accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Это делает дроби эквивалентными друг другу.",
+      "correction": "Это делает дроби эквивалентными.",
+      "description": "The phrase 'эквивалентными друг другу' is redundant; 'эквивалентными' is sufficient and more natural in Russian mathematical terminology.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "В данном случае умножение на 2 сохраняет отношение величины дроби.",
+      "correction": "В данном случае умножение на 2 сохраняет значение дроби.",
+      "description": "The phrase 'отношение величины дроби' is awkward and not standard in Russian mathematical language. 'Значение дроби' is the correct term for the value of a fraction.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Высота дроби определяет её величину, а не её площадь.",
+      "correction": "Величина дроби определяется отношением числителя к знаменателю, а не её площадью.",
+      "description": "The phrase 'высота дроби' is incorrect; the value of a fraction is determined by the ratio of numerator to denominator, not by 'height'. This is a lexical and conceptual error.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Поскольку 3/4 имеет большую высоту, чем 2/3, 3/4 больше.",
+      "correction": "Поскольку 3/4 больше, чем 2/3, 3/4 является большей дробью.",
+      "description": "The phrase 'имеет большую высоту' is incorrect and misleading in mathematical context. The correct explanation is that 3/4 is greater than 2/3, not that it has greater height. This is a lexical and conceptual error.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "Дроби могут быть больше, чем 1, когда мы умножаем числитель и знаменатель на одну и ту же пропорцию.",
+      "correction": "Дроби могут быть больше, чем 1, если числитель больше знаменателя.",
+      "description": "The sentence is syntactically incorrect and conceptually inaccurate. Multiplying numerator and denominator by the same number does not make a fraction greater than one; a fraction is greater than one when the numerator exceeds the denominator. This is both a syntactic and conceptual error.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "В делении дроби мы делим числитель и знаменатель на общий множитель, чтобы получить результат меньше 1.",
+      "correction": "При сокращении дроби мы делим числитель и знаменатель на общий делитель, чтобы получить более простую дробь.",
+      "description": "The sentence incorrectly uses 'деление дроби' instead of 'сокращение дроби', and 'общий множитель' should be 'общий делитель'. The explanation should focus on simplification, not making the fraction less than one. This is a syntactic and terminology error.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "Умножение числителя и знаменателя на одну и ту же пропорцию, однако, приводит к тому, что дробь остается неизменной, а не становится больше 1.",
+      "correction": "Умножение числителя и знаменателя на одно и то же число, однако, приводит к тому, что значение дроби остается неизменным, а не становится больше 1.",
+      "description": "The phrase 'одну и ту же пропорцию' is incorrect; the standard term is 'одно и то же число'. The sentence also benefits from clarifying that the value of the fraction remains unchanged. This is a syntactic and terminology error.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Fractions_Basics.slm.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T22:26:07.399257",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 5.9,
+    "classification": "POOR",
+    "total_issues": 18,
+    "total_penalty": 4.1,
+    "issue_breakdown": {
+      "linguistic": 13,
+      "localization": 5,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 3.3,
+      "localization_penalty": 0.8,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

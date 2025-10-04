@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Die legislative Gewalt liegt bei der Gesetzgebung bei der Bundesversammlung, die aus dem Kongress besteht.",
+      "correction": "Die legislative Gewalt liegt bei der Gesetzgebung beim Kongress.",
+      "description": "The original sentence incorrectly uses 'Bundesversammlung' to refer to the US Congress. 'Bundesversammlung' is a German term for a specific German political body and is not appropriate in the context of US government structure. The correct term is 'Kongress'. Additionally, the phrase 'liegt bei der Gesetzgebung bei der Bundesversammlung' is redundant and awkward; it should be simplified to 'liegt bei der Gesetzgebung beim Kongress'.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "hauptseteiglich",
+      "correction": "hauptsächlich",
+      "description": "The word 'hauptseteiglich' is a misspelling and does not exist in German. The correct word is 'hauptsächlich', meaning 'primarily'. This spelling error significantly affects comprehension.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "In Deutschland ist die Anzahl der Senatoren nicht festgelegt und variiert je nach Bundesland. Im Gegensatz zur Struktur der US-Regierung, wo es genau zwei Senatoren pro Bundesstaat gibt, gibt es in Deutschland keine direkte Entsprechung in der Bundespolitik.",
+      "correction": "Im Senat der Vereinigten Staaten gibt es genau zwei Senatoren pro Bundesstaat, insgesamt 100 Senatoren. In Deutschland gibt es keine direkte Entsprechung zum US-Senat.",
+      "description": "The feedback incorrectly discusses the German system, which is irrelevant to the US government lesson. This confuses learners and is culturally inappropriate for the context. The explanation should focus on the US Senate structure and clarify the lack of a direct German equivalent, without introducing unnecessary details about German federal states.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Der Präsident von Deutschland, ähnlich wie der Präsident der Vereinigten Staaten, hat die Macht, Gesetze des Parlaments zu blockieren.",
+      "correction": "Der Präsident der Vereinigten Staaten kann Gesetze des Kongresses durch ein Veto blockieren.",
+      "description": "The feedback incorrectly references the German president, which is misleading in the context of US government. The German president does not have a comparable veto power. The explanation should focus solely on the US president's powers to avoid cultural confusion.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Der Präsident, der Exekutivzweig, kann Gesetzentwürfe vorschlagen, aber nicht schreiben.",
+      "correction": "Der Präsident, als Teil des Exekutivzweigs, kann Gesetzentwürfe vorschlagen, aber nicht verfassen.",
+      "description": "The phrase 'der Präsident, der Exekutivzweig' is misleading, as the president is not the entire executive branch but a part of it. Additionally, 'schreiben' is not the most precise verb for legislative drafting; 'verfassen' is more appropriate in this context.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Government_Structure_1.slm.md",
+    "language": "German",
+    "timestamp": "2025-10-03T22:30:26.966806",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 8.7,
+    "classification": "PROFESSIONAL",
+    "total_issues": 5,
+    "total_penalty": 1.3,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.8,
+      "localization_penalty": 0.5,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical Precision",
+      "original": "The Universal Declaration of Human Rights was adopted after the end of World War II.",
+      "correction": "The Universal Declaration of Human Rights was adopted after World War II.",
+      "description": "The phrase 'after the end of World War II' is redundant and slightly awkward. 'After World War II' is the standard and precise phrasing for this historical context.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Conceptual Accuracy",
+      "original": "The adoption of the Universal Declaration of Human Rights occurred in the aftermath of World War II, not after its end.",
+      "correction": "The adoption of the Universal Declaration of Human Rights occurred after the end of World War II.",
+      "description": "The feedback incorrectly distinguishes between 'in the aftermath of World War II' and 'after its end.' Both refer to the period following the war's conclusion. The correction clarifies the timeline and avoids unnecessary semantic distinction.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Human_Rights.slm.md",
+    "language": "English",
+    "timestamp": "2025-10-03T22:08:55.859182",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.8,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.2,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

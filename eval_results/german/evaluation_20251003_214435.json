@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "🌐",
+      "correction": "",
+      "description": "The globe emoji at the end of the introductory paragraph may be considered informal or distracting in educational content aimed at a general or formal audience. For German educational materials, especially in formal or instructional contexts, emojis are typically avoided to maintain a professional tone. Removing the emoji would enhance the appropriateness and professionalism of the lesson.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Systemstörungen",
+      "correction": "Systemmanipulationen",
+      "description": "The term 'Systemstörungen' (system disruptions) is not the most precise or standard term in the context of cyber threats. In German cybersecurity terminology, 'Systemmanipulationen' (system manipulations) or 'Systemangriffe' (system attacks) are more accurate and commonly used to describe malicious actions targeting systems. Using the correct technical term improves clarity and aligns with industry standards.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Online_Safety.llm.md",
+    "language": "German",
+    "timestamp": "2025-10-03T21:44:35.293246",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "友情は成長する中で非常に重要な部分です。",
+      "correction": "友情は成長の過程で非常に重要な部分です。",
+      "description": "The phrase '成長する中で' is grammatically awkward in Japanese. The more natural and correct expression is '成長の過程で', which means 'in the process of growing up'. This correction improves both grammatical accuracy and naturalness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "その状況を自分が経験した場合の気持ちを想像し、慰めること。",
+      "correction": "その状況を自分が経験した場合の気持ちを想像して、慰めること。",
+      "description": "The use of 'し、' to connect clauses is less natural in this context. In Japanese, 'して' is preferred for smoother connection between imagining and comforting actions. This correction enhances the flow and clarity of the sentence.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "「気持ちが辛いんだね。それは本当に大変だね。」",
+      "correction": "「気持ちがつらいんだね。それは本当に大変だね。」",
+      "description": "The word '辛い' should be written in hiragana as 'つらい' when referring to emotional pain, especially in educational content for children. Using kanji here may be difficult for younger learners to read. This correction improves accessibility and appropriateness for the target audience.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "他人が聞かれ、価値を感じるようにする。",
+      "correction": "他人が聞いてもらい、価値を感じるようにする。",
+      "description": "The passive form '聞かれ' is incorrect in this context. The correct expression is '聞いてもらい', which means 'being listened to'. This correction ensures proper verb usage and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "話し手に向かい、目を合わせ、注意を払っていることを示すためにうなずく。",
+      "correction": "話し手の方を向き、目を合わせ、注意を払っていることを示すためにうなずく。",
+      "description": "The phrase '話し手に向かい' is less natural than '話し手の方を向き'. The latter is the standard way to express 'facing the speaker' in Japanese. This correction improves grammatical accuracy and naturalness.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "「つまり、起こったことで気分が悪くなったということですね？」",
+      "correction": "「つまり、起こったことで気分が悪くなったということですか？」",
+      "description": "The use of 'ですね？' is less appropriate for confirming understanding in this context. 'ですか？' is the standard question form and is more suitable for checking comprehension.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "表情やジェスチャーを使って関心を示す。",
+      "correction": "表情やジェスチャーを使い、関心を示す。",
+      "description": "The use of 'を使って' is grammatically correct but less natural in this context. 'を使い、' is preferred for listing actions in Japanese, improving sentence flow.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "意見の相違や争いを平和で尊重のある方法で解決するプロセスです。",
+      "correction": "意見の相違や争いを平和的で尊重のある方法で解決するプロセスです。",
+      "description": "The phrase '平和で尊重のある方法' is grammatically incorrect. The correct adjective is '平和的', meaning 'peaceful'. This correction ensures proper adjective usage and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "健康な関係を維持する助けとなる。",
+      "correction": "健康な関係を維持する助けになる。",
+      "description": "The phrase '助けとなる' is grammatically correct but less natural in modern Japanese. '助けになる' is more commonly used and improves readability.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "順番にするか、両方が楽しめる新しいゲームを提案する。",
+      "correction": "順番に遊ぶか、両方が楽しめる新しいゲームを提案する。",
+      "description": "The verb 'する' is vague in this context. '遊ぶ' is the correct verb for playing games, making the sentence clearer and more precise.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "冷静を保ち、叫んだり非難したりしない。",
+      "correction": "冷静さを保ち、叫んだり非難したりしない。",
+      "description": "The noun '冷静' should be '冷静さ' to correctly express 'calmness' in this context. This correction ensures proper noun usage.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "みんなにとって良い解決方法を一緒に見つける。",
+      "correction": "みんなにとって良い解決方法を一緒に見つけましょう。",
+      "description": "The use of the plain form '見つける' is less appropriate in instructional content. '見つけましょう' is more suitable for encouraging collaborative action in educational settings.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "これらのツールは友人だけでなく、家族やクラスメート、そして私たちが関わるすべての人々に役立ちます。",
+      "correction": "これらのスキルは友人だけでなく、家族やクラスメート、そして私たちが関わるすべての人々に役立ちます。",
+      "description": "The word 'ツール' is an anglicism and less natural in Japanese educational content. 'スキル' is more appropriate and consistent with the lesson theme, improving localization quality.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Friendship_Skills.llm.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-03T21:51:12.420140",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 8.1,
+    "classification": "PROFESSIONAL",
+    "total_issues": 13,
+    "total_penalty": 1.9,
+    "issue_breakdown": {
+      "linguistic": 11,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.7,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "族1の元素である水素（H）やナトリウム（Na）は非常に反応性が高い金属です。",
+      "correction": "族1の元素である水素（H）やナトリウム（Na）は非常に反応性が高い元素です。",
+      "description": "This sentence incorrectly refers to hydrogen (水素) as a metal, which is a lexical error. Hydrogen is not classified as a metal in the periodic table, even though it is placed in group 1. The correction removes '金属' and uses '元素' to accurately describe both hydrogen and sodium as reactive elements in group 1.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "原子構造は元素の性質、例えば反応性、物質の状態、結合行動を決定します。",
+      "correction": "原子構造は元素の性質、例えば反応性、物質の状態、結合の仕方を決定します。",
+      "description": "The phrase '結合行動' is not a natural or standard expression in Japanese scientific writing. The more appropriate term is '結合の仕方', which means 'the way of bonding' or 'bonding behavior'. This correction improves grammatical and lexical naturalness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "さあ、周期表の構造とその秘密を一緒に探ってみましょう！ 🌟",
+      "correction": "さあ、周期表の構造とその特徴を一緒に探ってみましょう！",
+      "description": "The use of '秘密' (secrets) and the star emoji 🌟 is overly casual and may not be appropriate for educational content aimed at a general or academic audience. Replacing '秘密' with '特徴' (features) maintains a more neutral and professional tone, and removing the emoji aligns with standard Japanese educational style.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "周期表は化学の重要な道具であり、元素をその原子構造と性質に基づいて整理しています。",
+      "correction": "周期表は化学の重要な道具であり、元素をその原子構造と性質に基づいて整理したものです。",
+      "description": "The original sentence uses the present progressive '整理しています', which implies ongoing action. However, the periodic table is a completed arrangement. The correction changes the verb to '整理したものです', which properly describes the periodic table as an established tool.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Periodic_Table.llm.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-03T21:51:57.520145",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.2,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.8,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.7,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

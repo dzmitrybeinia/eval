@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Lasst uns gemeinsam die faszinierende Struktur der DNA, ihre Funktion als Träger genetischer Daten und den Prozess ihrer Replikation erkunden! 🧬",
+      "correction": "Lassen Sie uns gemeinsam die faszinierende Struktur der DNA, ihre Funktion als Träger genetischer Daten und den Prozess ihrer Replikation erkunden! 🧬",
+      "description": "The use of 'Lasst uns' employs the informal plural imperative, which is more suitable for casual or peer-to-peer communication. In educational content, especially for a broad or adult audience, the formal 'Lassen Sie uns' is preferred to maintain a professional and inclusive tone. The rest of the sentence is linguistically correct.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "In der Landwirtschaft wird durch genetische Modifikation resistentere Ernte erzeugt.",
+      "correction": "In der Landwirtschaft werden durch genetische Modifikation resistentere Pflanzen erzeugt.",
+      "description": "The term 'Ernte' refers to the harvest or the act of harvesting, not the crops themselves. The correct term in this context is 'Pflanzen' (plants) or 'Kulturen' (crops), which are genetically modified to be more resistant. This improves clarity and aligns with standard scientific terminology in German.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "DNA_Basics.llm.md",
+    "language": "German",
+    "timestamp": "2025-10-03T21:43:08.883891",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.4,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

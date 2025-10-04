@@ -1,0 +1,123 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Starożytny Egipt to jedna z najstarszych cywilizacji w historii, która kwitła dzięki korzystnemu położeniu geograficznemu i wyjątkowej kulturze.",
+      "correction": "Starożytny Egipt to jedna z najstarszych cywilizacji w historii, która rozkwitła dzięki korzystnemu położeniu geograficznemu i wyjątkowej kulturze.",
+      "description": "The verb 'kwitła' is acceptable, but 'rozkwitła' is a more natural and idiomatic choice in Polish when describing the flourishing of a civilization. This improves the style and naturalness of the text for educational content.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Egipt leży w północno-wschodniej Afryce, wzdłuż rzeki Nil, która odgrywała kluczową rolę w rozwoju cywilizacji.",
+      "correction": "Egipt leży w północno-wschodniej Afryce, wzdłuż Nilu, który odgrywał kluczową rolę w rozwoju cywilizacji.",
+      "description": "In Polish, 'wzdłuż Nilu' is the standard and more natural way to refer to the Nile in this context, rather than 'wzdłuż rzeki Nil'. This aligns with local terminology and improves the flow of the sentence.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Nil zapewniał wodę do picia, nawadniania i transportu, a jego coroczne wylewy dostarczały żyznego mułu, umożliwiając rozwój rolnictwa.",
+      "correction": "Nil zapewniał wodę do picia, nawadniania i transportu, a jego coroczne wylewy dostarczały żyzny muł, umożliwiając rozwój rolnictwa.",
+      "description": "The phrase 'żyznego mułu' is grammatically correct, but 'żyzny muł' is more idiomatic and natural in Polish when referring to the fertile silt provided by the Nile. This enhances the style and clarity of the sentence.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Otaczające pustynie, takie jak Sahara, chroniły Egipt przed najazdami i sprzyjały rozwojowi samodzielnej kultury.",
+      "correction": "Otaczające pustynie, takie jak Sahara, chroniły Egipt przed najazdami i sprzyjały rozwojowi odrębnej kultury.",
+      "description": "The term 'samodzielnej kultury' is understandable but 'odrębnej kultury' is more natural and precise in Polish when describing a distinct culture that developed independently. This improves the localization and clarity of the content.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Religia była centralnym elementem życia Egipcjan.",
+      "correction": "Religia była centralnym elementem życia starożytnych Egipcjan.",
+      "description": "Adding 'starożytnych' clarifies that the reference is to ancient Egyptians, which is important for educational context and avoids ambiguity. This improves the precision and localization of the content.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Wierzyli w wielu bogów i życie po śmierci, co prowadziło do rozwinięcia praktyk, takich jak mumifikacja.",
+      "correction": "Wierzyli w wielu bogów i życie po śmierci, co prowadziło do rozwoju praktyk, takich jak mumifikacja.",
+      "description": "The phrase 'do rozwinięcia praktyk' is less natural than 'do rozwoju praktyk' in Polish. The latter is the standard way to express the development of practices, improving the style and clarity of the sentence.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Społeczeństwo egipskie było zorganizowane hierarchicznie, z faraonem na szczycie, który był zarówno władcą, jak i boską istotą.",
+      "correction": "Społeczeństwo egipskie było zorganizowane hierarchicznie, z faraonem na szczycie, który był zarówno władcą, jak i uważany za boską istotę.",
+      "description": "The phrase 'był zarówno władcą, jak i boską istotą' may imply literal divinity, while 'uważany za boską istotę' more accurately reflects the cultural belief that the pharaoh was considered divine. This improves cultural accuracy and localization.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Sztuka i architektura rozwijały się, tworząc monumentalne budowle, takie jak piramidy i świątynie.",
+      "correction": "Sztuka i architektura rozwijały się, powstawały monumentalne budowle, takie jak piramidy i świątynie.",
+      "description": "The phrase 'rozwijały się, tworząc' is understandable, but 'powstawały monumentalne budowle' is a more natural and idiomatic way to express the emergence of monumental structures in Polish. This enhances the style and clarity of the sentence.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Egipcjanie opracowali hieroglify, system pisma obrazkowego, który służył do zapisywania tekstów religijnych i dokumentów.",
+      "correction": "Egipcjanie opracowali hieroglify, system pisma obrazkowego, który służył do zapisywania tekstów religijnych oraz dokumentów.",
+      "description": "In Polish, 'oraz' is preferred over 'i' when listing items in formal or educational contexts, as it adds emphasis and clarity. This improves the terminology and style of the sentence.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Zbudowali monumentalne budowle, takie jak piramidy i obeliski, które są świadectwem ich umiejętności inżynieryjnych.",
+      "correction": "Wznosili monumentalne budowle, takie jak piramidy i obeliski, które są świadectwem ich umiejętności inżynieryjnych.",
+      "description": "The verb 'zbudowali' is correct, but 'wznosili' is more idiomatic and commonly used in Polish when referring to the construction of monumental structures. This improves the style and naturalness of the text.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Ich sztuka była precyzyjna, symetryczna i kolorowa.",
+      "correction": "Ich sztuka była precyzyjna, symetryczna oraz kolorowa.",
+      "description": "Using 'oraz' instead of 'i' in a list adds emphasis and is preferred in formal educational contexts in Polish. This improves the style and clarity of the sentence.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Kluczowym elementem sukcesu Egiptu była rzeka Nil, która wspierała rolnictwo i handel.",
+      "correction": "Kluczowym elementem sukcesu Egiptu był Nil, który wspierał rolnictwo i handel.",
+      "description": "Referring to 'Nil' directly rather than 'rzeka Nil' is more natural and idiomatic in Polish, especially in educational content. This improves the style and localization of the sentence.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Ancient_Egypt.llm.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T21:30:37.245920",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 8.8,
+    "classification": "PROFESSIONAL",
+    "total_issues": 12,
+    "total_penalty": 1.2,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 12,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 1.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Przeprowadź badania wstępne",
+      "correction": "Przeprowadź wstępne badania",
+      "description": "The phrase 'badania wstępne' is grammatically correct, but in Polish, the adjective typically precedes the noun in this context. 'Wstępne badania' is the more natural and standard word order, improving clarity and flow.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Przeprowadź eksperyment",
+      "correction": "Wykonaj eksperyment",
+      "description": "While 'przeprowadź eksperyment' is not incorrect, 'wykonaj eksperyment' is more idiomatic and commonly used in Polish scientific and educational contexts. This change enhances lexical precision and naturalness.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Stosując metodę naukową, możemy podejmować świadome decyzje i skuteczniej rozwiązywać problemy.",
+      "correction": "Stosując metodę naukową, możemy podejmować bardziej świadome decyzje i skuteczniej rozwiązywać problemy.",
+      "description": "The phrase 'podejmować świadome decyzje' is understandable, but 'bardziej świadome decyzje' is a more natural collocation in Polish, emphasizing the improvement in decision-making. This adjustment improves the style and tone for Polish readers.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Scientific_Method.llm.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T21:33:03.130013",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

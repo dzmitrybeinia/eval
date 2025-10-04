@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Например, подсолнух в вашем саду питается энергией, полученной хлоропластами.",
+      "correction": "Например, подсолнух использует энергию, полученную хлоропластами, для роста.",
+      "description": "The phrase 'подсолнух в вашем саду питается энергией, полученной хлоропластами' is culturally inappropriate for a Russian educational context, as not all students have sunflowers in their gardens, and the idea of a plant 'feeding' on energy is not scientifically precise. The correction uses a more neutral and accurate description, focusing on the plant's growth, which is universally applicable and scientifically correct.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "энергетическая станция",
+      "correction": "энергетическая станция клетки",
+      "description": "The term 'энергетическая станция' is ambiguous and could refer to a power plant in general Russian usage. Adding 'клетки' clarifies that mitochondria are the 'power stations of the cell,' which is the intended meaning in a biological context.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "эндоплазматическому ретикулуму",
+      "correction": "эндоплазматическому ретикулуму (ЭПР)",
+      "description": "The term 'эндоплазматический ретикулум' is correct, but in Russian biology education, the abbreviation 'ЭПР' is commonly used alongside the full term for clarity and consistency. Adding the abbreviation improves terminology consistency and aligns with local educational standards.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Cell_Parts_1.llm.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T21:38:11.737367",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

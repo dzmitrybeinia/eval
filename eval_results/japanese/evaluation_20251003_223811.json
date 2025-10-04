@@ -1,0 +1,91 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "共感は、他人が耐えることができるポジティブな反応を含むことができます。.",
+      "correction": "共感は、他人が耐えることができるポジティブな反応を含むことができます。",
+      "description": "There is an unnecessary period after the Japanese full stop, resulting in double punctuation. In Japanese, only the full-width period (。) should be used at the end of a sentence, without an additional Western period.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "共感は、他人の感情に共感し、その感情を認識し、共有する能力を指します。ポジティブな反応を含むわけではありません。共感は、感情的に関わり、理解し、気遣いを示すことに焦点を当てています。.",
+      "correction": "共感は、他人の感情に共感し、その感情を認識し、共有する能力を指します。ポジティブな反応を含むわけではありません。共感は、感情的に関わり、理解し、気遣いを示すことに焦点を当てています。",
+      "description": "There is an unnecessary period after the Japanese full stop at the end of the feedback. Only the Japanese full stop (。) should be used, not a Western period.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "積極的傾聴は、話し手のメッセージを完全に理解するための技術です。.",
+      "correction": "積極的傾聴は、話し手のメッセージを完全に理解するための技術です。",
+      "description": "There is an unnecessary period after the Japanese full stop, resulting in double punctuation. Only the Japanese full stop (。) should be used at the end of a sentence.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography|Lexical",
+      "original": "積極的傾聽は、理解を促すために話し手の考えを完全に捉える能力を指します。これは、積極的な聞き方であり、聞き手が積極的に関与し、共感し、誤解を避けることを可能にする技術です。.",
+      "correction": "積極的傾聴は、理解を促すために話し手の考えを完全に捉える能力を指します。これは、積極的な聞き方であり、聞き手が積極的に関与し、共感し、誤解を避けることを可能にする技術です。",
+      "description": "There are two issues: (1) The term '積極的傾聽' uses the Chinese character '聽' instead of the standard Japanese '聴'. The correct term in Japanese is '積極的傾聴'. (2) There is an unnecessary period after the Japanese full stop at the end of the feedback. Only the Japanese full stop (。) should be used.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "対立解消は対立を怒りに変えることです。.",
+      "correction": "対立解消は対立を怒りに変えることです。",
+      "description": "There is an unnecessary period after the Japanese full stop, resulting in double punctuation. Only the Japanese full stop (。) should be used at the end of a sentence.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "対立解消は、紛争を平和で尊重のある方法で解決することを意味します。これには怒りを避けることは含まれません。むしろ、対立を健全に処理する方法を考えることが重要です。.",
+      "correction": "対立解消は、紛争を平和で尊重のある方法で解決することを意味します。これには怒りを避けることは含まれません。むしろ、対立を健全に処理する方法を考えることが重要です。",
+      "description": "There is an unnecessary period after the Japanese full stop at the end of the feedback. Only the Japanese full stop (。) should be used.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "友情スキルには競争力のある競争が含まれます。.",
+      "correction": "友情スキルには競争力のある競争が含まれます。",
+      "description": "There is an unnecessary period after the Japanese full stop, resulting in double punctuation. Only the Japanese full stop (。) should be used at the end of a sentence.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "友情スキルは相互理解、支援、積極的な聞き取りの側面を強調しており、競争や競合を含むことはありません。.",
+      "correction": "友情スキルは相互理解、支援、積極的な聞き取りの側面を強調しており、競争や競合を含むことはありません。",
+      "description": "There is an unnecessary period after the Japanese full stop at the end of the feedback. Only the Japanese full stop (。) should be used.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Friendship_Skills.slm.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-03T22:38:11.208112",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.0,
+    "classification": "NATIVE",
+    "total_issues": 8,
+    "total_penalty": 1.0,
+    "issue_breakdown": {
+      "linguistic": 8,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.0,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

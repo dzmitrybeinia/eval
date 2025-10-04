@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "O Carnaval no Brasil é uma celebração vibrante que ocorre antes da Quaresma no calendário cristão.",
+      "correction": "O Carnaval no Brasil é uma celebração vibrante que ocorre antes da Quaresma, período que antecede a Páscoa no calendário cristão.",
+      "description": "The original text assumes that all readers understand what 'Quaresma' refers to, which may not be the case for learners unfamiliar with Christian traditions. For educational clarity and cultural appropriateness, it is important to briefly explain that 'Quaresma' is the period leading up to Easter in the Christian calendar. This helps avoid cultural ambiguity and ensures the content is accessible to a diverse audience.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "O Dia dos Mortos no México é uma tradição de honra aos entes queridos falecidos, celebrado com altares decorados, flores, caveiras de açúcar e desfiles.",
+      "correction": "O Dia dos Mortos no México é uma tradição de homenagem aos entes queridos falecidos, celebrado com altares decorados, flores, caveiras de açúcar e desfiles.",
+      "description": "The phrase 'tradição de honra aos entes queridos falecidos' is not idiomatic in Portuguese. The correct and natural expression is 'tradição de homenagem aos entes queridos falecidos.' This correction improves lexical precision and naturalness, ensuring the text is both linguistically accurate and culturally appropriate.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Cultural_Celebrations.llm.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T21:46:36.841379",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

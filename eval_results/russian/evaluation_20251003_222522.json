@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "ДНК представляет собой симметричную структуру, похожущую на звезд.",
+      "correction": "ДНК представляет собой симметричную структуру, похожую на звёзды.",
+      "description": "The word 'похожущую' is a misspelling; the correct form is 'похожую'. Additionally, 'звезд' should be 'звёзды' to match the correct case and spelling. The sentence also lacks naturalness, as DNA is not typically described as 'symmetrical' or 'star-like' in Russian scientific discourse, but the main issue is lexical and orthographic.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Каждая основание внутри ДНК связывается с противоположной основанией, что способствует двойной структуре, необходимой для правильной функции ДНК.",
+      "correction": "Каждое основание внутри ДНК связывается с противоположным основанием, что способствует двойной структуре, необходимой для правильной функции ДНК.",
+      "description": "The word 'основание' is neuter, so the correct forms are 'каждое основание' and 'с противоположным основанием'. The original uses incorrect gender agreement and case endings, which are critical grammatical errors.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Punctuation",
+      "original": "Однако клеточные процессы, такие как регенерация и мутации могут происходить.",
+      "correction": "Однако клеточные процессы, такие как регенерация и мутации, могут происходить.",
+      "description": "A comma is required after 'мутации' to separate the subordinate clause, following Russian punctuation rules for introductory phrases.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "DNA_Basics.slm.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T22:25:22.330183",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.3,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.7,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.7,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

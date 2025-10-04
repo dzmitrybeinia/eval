@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Willkommen zu einer Reise in die Welt des Alten Ägypten! 🌍 Diese faszinierende Zivilisation, die sich entlang des Nils erstreckte, hat mit ihrer einzigartigen Geographie, lebendigen Kultur und beeindruckenden Errungenschaften die Geschichte der Menschheit geprägt. Lass uns gemeinsam mehr über diese außergewöhnliche Epoche erfahren!",
+      "correction": "Willkommen zu einer Reise in die Welt des Alten Ägypten! Diese faszinierende Zivilisation, die sich entlang des Nils erstreckte, hat mit ihrer einzigartigen Geographie, lebendigen Kultur und beeindruckenden Errungenschaften die Geschichte der Menschheit geprägt. Lass uns gemeinsam mehr über diese außergewöhnliche Epoche erfahren!",
+      "description": "The use of the globe emoji (🌍) in educational German content is generally considered informal and may not align with standard academic style conventions. Removing the emoji ensures a more professional and culturally appropriate tone for educational materials.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Die Hieroglyphen, ein Symbolschrift-System, wurden für religiöse Texte und Aufzeichnungen verwendet.",
+      "correction": "Die Hieroglyphen, ein Schriftsystem aus Symbolen, wurden für religiöse Texte und Aufzeichnungen verwendet.",
+      "description": "The term 'Symbolschrift-System' is not standard in German; 'Schriftsystem aus Symbolen' or simply 'Schriftsystem' is more accurate and natural. This correction improves lexical precision and aligns with commonly accepted terminology in German educational contexts.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Die Pyramiden von Gizeh und Tempel wie Karnak sind Meisterwerke der Ingenieurskunst und des Designs.",
+      "correction": "Die Pyramiden von Gizeh und Tempel wie Karnak sind Meisterwerke der Ingenieurskunst und des Designs.",
+      "description": "The term 'Designs' is an anglicism and, while increasingly used in German, 'Gestaltung' or 'Baukunst' would be more appropriate in an educational context discussing ancient architecture. However, since 'Designs' is not incorrect, this is a minor localization issue regarding terminology naturalness.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Ancient_Egypt.llm.md",
+    "language": "German",
+    "timestamp": "2025-10-03T21:42:28.266992",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

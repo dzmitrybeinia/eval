@@ -1,0 +1,83 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "mangelnde Organisation",
+      "correction": "mangelnde Organisation",
+      "description": "The phrase 'mangelnde Organisation' is correctly spelled and capitalized, as 'Organisation' is a noun and must be capitalized in German. No linguistic errors are present in this text span.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Kreativität steht im Vordergrund – es gibt keine schlechten Ideen.",
+      "correction": "Kreativität steht im Vordergrund – es gibt keine schlechten Ideen.",
+      "description": "While the sentence is linguistically correct, the phrase 'es gibt keine schlechten Ideen' may be perceived as overly informal or motivational in some educational contexts. For a more neutral and professional tone, consider rephrasing to 'Alle Ideen sind willkommen.'",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Designer überprüfen, ob ihre Lösungen die gewünschten Ziele erreichen und das Problem effektiv lösen.",
+      "correction": "Designer überprüfen, ob ihre Lösungen die gewünschten Ziele erreichen und das Problem effektiv lösen.",
+      "description": "The sentence is grammatically correct, with proper verb placement and agreement. No linguistic errors are present.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Feedback von Benutzern sammeln.",
+      "correction": "Rückmeldungen von Nutzern sammeln.",
+      "description": "The use of 'Feedback' and 'Benutzern' is understandable, but 'Rückmeldungen von Nutzern sammeln' is a more natural and locally accepted terminology in German educational contexts. 'Feedback' is an anglicism and 'Nutzer' is more commonly used than 'Benutzer' in design-related fields.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Ein Designer könnte ein Modell mit mehreren Fächern und gepolsterten Trägern skizzieren und ein leichtes, langlebiges Material für den Prototyp auswählen.",
+      "correction": "Ein Designer könnte ein Modell mit mehreren Fächern und gepolsterten Trägern skizzieren und ein leichtes, langlebiges Material für den Prototyp auswählen.",
+      "description": "All nouns are correctly capitalized and compound nouns are properly formed. No orthographic errors are present.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Stellen Sie sich vor, Sie entwerfen einen Rucksack für Schüler.",
+      "correction": "Stellen Sie sich vor, Sie entwerfen einen Rucksack für Schülerinnen und Schüler.",
+      "description": "The phrase 'Schüler' is gender-neutral in some contexts, but for inclusivity and modern educational standards, 'Schülerinnen und Schüler' is preferred to address all genders.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "🌟",
+      "correction": "",
+      "description": "The use of the star emoji '🌟' may not be appropriate in formal educational materials, as it can be perceived as informal or distracting. Consider removing it for a more professional presentation.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Design_Process.llm.md",
+    "language": "German",
+    "timestamp": "2025-10-03T21:43:27.026473",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.1,
+    "classification": "NATIVE",
+    "total_issues": 7,
+    "total_penalty": 0.9,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 4,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.6,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

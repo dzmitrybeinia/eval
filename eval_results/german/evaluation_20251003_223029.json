@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Lehrende Herausforderungen bedeuten, dass man nicht zurückweicht.",
+      "correction": "Herausfordernde Aufgaben bedeuten, dass man nicht zurückweicht.",
+      "description": "The original sentence uses 'Lehrende Herausforderungen', which is grammatically incorrect and semantically unclear in German. 'Lehrende' is a present participle meaning 'teaching', which does not fit the intended meaning. The correct phrase should be 'Herausfordernde Aufgaben' or 'Herausforderungen', meaning 'challenging tasks' or 'challenges'. This correction addresses both the grammatical error and improves clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Ein Misserfolg kann in einem Wachstumsmentalitätsansatz als ein Lernchance gesehen werden.",
+      "correction": "Ein Misserfolg kann im Rahmen einer Wachstumsmentalität als eine Lernchance gesehen werden.",
+      "description": "The phrase 'Wachstumsmentalitätsansatz' is an unnatural compound in German and does not reflect standard usage. The more natural and culturally appropriate expression is 'im Rahmen einer Wachstumsmentalität'. Additionally, 'ein Lernchance' should be 'eine Lernchance' to match the feminine gender of 'Chance'. This correction improves both naturalness and grammatical accuracy.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Growth_Mindset.slm.md",
+    "language": "German",
+    "timestamp": "2025-10-03T22:30:29.242902",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

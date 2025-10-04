@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Internationalen Pakt über bürgerliche und politische Rechte (IPbpR)",
+      "correction": "Internationaler Pakt über bürgerliche und politische Rechte (IPbpR)",
+      "description": "The phrase uses the incorrect case for 'Internationaler Pakt'. As the subject of the sentence, the nominative case 'Internationaler Pakt' should be used instead of the accusative 'Internationalen Pakt'. This is a grammatical error affecting the accuracy of the terminology.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Internationalen Pakt über wirtschaftliche, soziale und kulturelle Rechte (IPwSKR)",
+      "correction": "Internationaler Pakt über wirtschaftliche, soziale und kulturelle Rechte (IPwSKR)",
+      "description": "The abbreviation 'IPwSKR' is not the standard German abbreviation for 'Internationaler Pakt über wirtschaftliche, soziale und kulturelle Rechte'. The commonly accepted abbreviation is 'IPWSKR' or 'UN-Sozialpakt'. Using a non-standard abbreviation may cause confusion for German-speaking learners and reduce the professionalism of the content.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "🌍 In dieser Lektion werden wir die Prinzipien der Allgemeinen Erklärung der Menschenrechte (AEMR) untersuchen und ihre Bedeutung für Gesellschaften weltweit beleuchten.",
+      "correction": "In dieser Lektion werden wir die Prinzipien der Allgemeinen Erklärung der Menschenrechte (AEMR) untersuchen und ihre Bedeutung für Gesellschaften weltweit beleuchten.",
+      "description": "The use of the globe emoji '🌍' at the beginning of a formal educational text is not standard in German academic writing and may be perceived as informal or unprofessional. Removing the emoji improves the tone and maintains the expected register for educational content.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Human_Rights.llm.md",
+    "language": "German",
+    "timestamp": "2025-10-03T21:44:16.663846",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

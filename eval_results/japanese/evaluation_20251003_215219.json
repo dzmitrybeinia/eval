@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "ドライバー（車輪と軸またはねじ）",
+      "correction": "ドライバー（ねじ）",
+      "description": "The term 'ドライバー（車輪と軸またはねじ）' is inaccurate because a screwdriver is not an example of '車輪と軸' (wheel and axle) in Japanese science education. It is only an example of 'ねじ' (screw). Listing '車輪と軸' here is a lexical error and may confuse learners about the classification of simple machines.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "ブラインド",
+      "correction": "カーテン",
+      "description": "The example 'ブラインド' (window blinds) may not be familiar to all Japanese learners, especially younger students, as blinds are less common in Japanese homes compared to curtains. Using 'カーテン' (curtain) as an example would be more culturally appropriate and relatable for the target audience.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "これらは物を動かすための努力を減らし、仕事をより簡単にする役割があります。",
+      "correction": "これらは物を動かすための力を減らし、仕事をより簡単にする役割があります。",
+      "description": "The word '努力' (effort) is not the standard scientific term in Japanese for describing the force required to move objects in the context of simple machines. The correct term is '力' (force). This lexical error affects the scientific accuracy and clarity of the explanation.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "これらを実際に観察したり使ったりすることで、学びが深まります。",
+      "correction": "これらを実際に観察したり使ったりすることで、理解が深まります。",
+      "description": "The phrase '学びが深まります' is less natural in Japanese educational materials compared to '理解が深まります', which is the standard expression for deepening understanding. This change improves the naturalness and professionalism of the educational tone.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Simple_Machines.llm.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-03T21:52:19.021499",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.4,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

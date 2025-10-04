@@ -1,0 +1,35 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "A técnica SQ3R incentiva a engajamento com o material, o que é crucial para a aprendizagem eficaz.",
+      "correction": "A técnica SQ3R incentiva o engajamento com o material, o que é crucial para a aprendizagem eficaz.",
+      "description": "The original sentence incorrectly uses the feminine article 'a' before 'engajamento', which is a masculine noun in Portuguese. The correct form is 'o engajamento'. This error affects grammatical agreement and clarity.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Study_Skills.slm.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T22:34:38.354470",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

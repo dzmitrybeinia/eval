@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Michael Jordan, considerado um dos maiores jogadores de basquete de todos os tempos, foi cortado do time de basquete da escola. Em vez de desistir, ele trabalhou mais duro, praticou mais e se tornou uma lenda no esporte.",
+      "correction": "Michael Jordan, considerado um dos maiores jogadores de basquete de todos os tempos, foi cortado do time de basquete da escola. Em vez de desistir, ele se dedicou ainda mais, praticou intensamente e se tornou uma lenda no esporte.",
+      "description": "The phrase 'trabalhou mais duro' and 'praticou mais' are direct translations of 'worked harder' and 'practiced more', which can sound unnatural in Brazilian Portuguese. 'Se dedicou ainda mais' and 'praticou intensamente' are more idiomatic and culturally appropriate expressions for perseverance and effort in Brazilian educational contexts. This adjustment improves the naturalness and resonance of the example for local learners.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Ela persistiu, aprendeu com os feedbacks e continuou tentando até que seu trabalho fosse publicado.",
+      "correction": "Ela persistiu, aprendeu com os retornos e continuou tentando até que seu trabalho fosse publicado.",
+      "description": "The word 'feedbacks' is an unnecessary anglicism and is not standard in Brazilian Portuguese. The correct and natural term is 'retornos' or 'comentários'. Using 'retornos' ensures lexical precision and maintains the professional tone expected in educational content.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Em vez de desistir, ela trabalhou mais duro, aprendeu com seus contratempos e permaneceu comprometida em melhorar suas habilidades.",
+      "correction": "Em vez de desistir, ela se dedicou ainda mais, aprendeu com seus contratempos e manteve o compromisso de aprimorar suas habilidades.",
+      "description": "The phrase 'trabalhou mais duro' is a literal translation from English and is less idiomatic in Brazilian Portuguese. 'Se dedicou ainda mais' and 'manteve o compromisso de aprimorar suas habilidades' are more natural and culturally appropriate, enhancing the style and tone of the message.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Growth_Mindset.llm.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T21:47:27.924001",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

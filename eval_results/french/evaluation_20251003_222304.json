@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Les fusées à poudre ont été largement remplacées par des moteurs-fusées plus efficaces.",
+      "correction": "Les fusées à poudre ont été largement remplacées par des moteurs-fusées à propergol liquide, qui sont généralement plus efficaces.",
+      "description": "The term 'moteurs-fusées plus efficaces' is vague and lacks technical precision. In French educational and scientific contexts, it is more accurate to specify 'moteurs-fusées à propergol liquide' when referring to the technology that has largely replaced solid-fuel rockets. This correction improves clarity and aligns with standard terminology used in French-speaking scientific communities.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Des avancées technologiques, comme les fusées réutilisables, ont permis de réduire les coûts et d'augmenter la fréquence des voyages spatiaux.",
+      "correction": "Des avancées technologiques, telles que les fusées réutilisables, ont permis de réduire les coûts et d'augmenter la fréquence des missions spatiales.",
+      "description": "The phrase 'voyages spatiaux' is less commonly used in French scientific discourse compared to 'missions spatiales', which is the standard term for spaceflights and expeditions. Additionally, 'comme' is less formal than 'telles que' in this context. The correction enhances the naturalness and professionalism of the language.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "comme l'initiative de SpaceX pour rendre le voyage spatial plus accessible.",
+      "correction": "comme les initiatives de SpaceX et d'autres agences spatiales pour rendre le voyage spatial plus accessible.",
+      "description": "Referencing only SpaceX may present a US-centric perspective and overlook the contributions of other international space agencies, which is less culturally inclusive for a French-speaking audience. The correction broadens the scope to include other agencies, making the content more culturally appropriate and balanced.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Space_Travel.slm.md",
+    "language": "French",
+    "timestamp": "2025-10-03T22:23:04.942698",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.5,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

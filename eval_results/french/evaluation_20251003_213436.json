@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Aujourd'hui, nous allons découvrir trois concepts essentiels qui sont à la base de tout programme informatique : les variables, les boucles et les conditionnels.",
+      "correction": "Aujourd'hui, nous allons découvrir trois concepts essentiels qui sont à la base de tout programme informatique : les variables, les boucles et les instructions conditionnelles.",
+      "description": "The term 'conditionnels' is technically correct but less natural in French educational contexts, where 'instructions conditionnelles' or 'structures conditionnelles' is preferred for clarity and precision. This adjustment improves the naturalness and professional tone of the content.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Ils utilisent des mots-clés comme \"if\", \"else if\" et \"else\" pour déterminer le chemin à suivre selon les données disponibles.",
+      "correction": "Ils utilisent des mots-clés comme \"if\", \"elif\" et \"else\" pour déterminer le chemin à suivre selon les données disponibles.",
+      "description": "In Python, the correct keyword for 'else if' is 'elif', not 'else if'. Using 'else if' may confuse learners and does not reflect standard Python terminology. This correction ensures technical accuracy and consistency with programming language conventions.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Ces trois concepts sont les fondations de la programmation et vous ouvriront les portes d'un univers passionnant !",
+      "correction": "Ces trois concepts sont les fondements de la programmation et vous ouvriront les portes d'un univers passionnant !",
+      "description": "The word 'fondations' is more commonly used for physical foundations (e.g., buildings), while 'fondements' is the standard term for conceptual or theoretical bases in French. This change improves lexical precision and naturalness in an educational context.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Coding_Basics.llm.md",
+    "language": "French",
+    "timestamp": "2025-10-03T21:34:36.908903",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.4,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

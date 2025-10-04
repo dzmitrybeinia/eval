@@ -1,0 +1,75 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Она служит чертежом для построения и поддержания тела организма, играя ключевую роль в наследственности и определении признаков, передаваемых от родителей потомкам.",
+      "correction": "Она служит матрицей для построения и поддержания организма, играя ключевую роль в наследственности и определении признаков, передаваемых от родителей потомкам.",
+      "description": "The term 'чертеж' is not the most natural or scientifically accurate way to describe DNA's function in Russian educational or scientific contexts. 'Матрица' is the standard term used to convey the concept of DNA as a template for biological processes. The rest of the sentence is linguistically correct.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Стороны лестницы состоят из чередующихся молекул сахара (дезоксирибозы) и фосфатных групп.",
+      "correction": "Стороны лестницы состоят из чередующихся остатков сахара (дезоксирибозы) и фосфатных групп.",
+      "description": "In Russian scientific terminology, 'остатки сахара' is preferred over 'молекулы сахара' when describing the backbone of DNA, as it more accurately reflects the chemical structure. The rest of the sentence is linguistically correct.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "ДНК содержит инструкции для синтеза белков, которые необходимы для структуры и функций клеток.",
+      "correction": "ДНК содержит информацию для синтеза белков, которые необходимы для структуры и функций клеток.",
+      "description": "The word 'инструкции' is less commonly used in Russian scientific texts to describe genetic information. 'Информация' is the standard term for DNA's role in encoding proteins. The rest of the sentence is linguistically correct.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Гены, являющиеся сегментами ДНК, определяют конкретные признаки, такие как цвет глаз или рост.",
+      "correction": "Гены, представляющие собой участки ДНК, определяют конкретные признаки, такие как цвет глаз или рост.",
+      "description": "The phrase 'являющиеся сегментами ДНК' is less natural in Russian scientific style. 'Представляющие собой участки ДНК' is the standard way to refer to genes as regions of DNA. The rest of the sentence is linguistically correct.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Репликация ДНК обеспечивает передачу генетической информации во время деления клеток.",
+      "correction": "Репликация ДНК обеспечивает копирование и передачу генетической информации во время деления клеток.",
+      "description": "Adding 'копирование' clarifies the process for educational purposes, as 'репликация' may not be immediately clear to all learners. This improves clarity and aligns with Russian educational standards. The rest of the sentence is linguistically correct.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Учёные изучают ДНК для понимания болезней, разработки методов лечения и улучшения культур с помощью генной инженерии.",
+      "correction": "Учёные изучают ДНК для понимания болезней, разработки методов лечения и улучшения сельскохозяйственных культур с помощью генной инженерии.",
+      "description": "The word 'культур' without specification may be ambiguous in Russian. Adding 'сельскохозяйственных' clarifies that the reference is to agricultural crops, which is standard in Russian scientific and educational texts.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "DNA_Basics.llm.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T21:39:14.360593",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.3,
+    "classification": "NATIVE",
+    "total_issues": 6,
+    "total_penalty": 0.7,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 6,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.7,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

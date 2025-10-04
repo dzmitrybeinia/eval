@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Sacar un número de 6 en una sola tirada de un mazo estándar de cartas.",
+      "correction": "Sacar un 6 en una sola tirada de un mazo estándar de cartas.",
+      "description": "The phrase 'número de 6' is incorrect in Spanish; the correct form is 'un 6'. The use of 'de' is unnecessary and ungrammatical in this context. This affects clarity and accuracy in the statement.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "La probabilidad de sacar dos 'cruz' seguidas es más alta que sacar una 'cara'.",
+      "correction": "La probabilidad de sacar dos 'cruces' seguidas es más alta que sacar una 'cara'.",
+      "description": "The term 'cruz' should be pluralized as 'cruces' when referring to two coin tosses. This improves naturalness and aligns with standard Spanish terminology for coin sides. Additionally, using quotation marks for 'cruz' and 'cara' is acceptable, but the plural form is required for consistency.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Probability_Games.slm.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-03T22:12:16.639091",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

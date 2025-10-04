@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "LGBTQ+の権利",
+      "correction": "LGBTQの権利",
+      "description": "The use of the '+' symbol in 'LGBTQ+の権利' is not standard in Japanese educational or academic contexts. While 'LGBTQ+' is increasingly used in English to indicate inclusivity of additional identities, Japanese typically uses 'LGBT' or 'LGBTQ' without the '+'. For clarity and consistency with local terminology, 'LGBTQの権利' is recommended. This improves naturalness and aligns with Japanese conventions.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "権利を求めるために疎外されたコミュニティが力を得ました。",
+      "correction": "権利を求めて疎外されたコミュニティが力を得ました。",
+      "description": "The phrase '権利を求めるために疎外されたコミュニティが力を得ました' is grammatically ambiguous. The use of 'ために' suggests purpose, but the intended meaning is that marginalized communities gained power by seeking rights. '権利を求めて' (using the te-form) more accurately expresses the causal relationship and is the standard way to indicate 'by seeking rights' in Japanese. This correction improves clarity and grammatical accuracy.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "「公民権運動の母」として知られる。",
+      "correction": "「公民権運動の母」として知られています。",
+      "description": "The phrase '「公民権運動の母」として知られる。' uses the plain form, which is less appropriate for educational content intended for a general audience. The polite form '知られています' is preferred in Japanese educational materials to maintain a respectful and formal tone. This correction enhances the style and tone consistency.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "不正義に直面した際の即時行動と自衛の必要性を強調しました。",
+      "correction": "不正義に直面した際には即時行動と自衛の必要性を強調しました。",
+      "description": "The original sentence lacks a particle after '際', which makes the sentence less natural and slightly ambiguous. Adding 'には' after '際' clarifies that the emphasis on immediate action and self-defense applies specifically when facing injustice. This correction improves grammatical accuracy and naturalness.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Civil_Rights_Movement.llm.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-03T21:49:34.899533",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

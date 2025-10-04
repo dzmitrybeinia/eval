@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Erneuerbare Ressourcen wie Solarenergie und Windenergie aus natürlichen Prozessen stammen, die sich im Laufe der Zeit wieder auffüllen können.",
+      "correction": "Erneuerbare Ressourcen wie Solarenergie und Windenergie stammen aus natürlichen Prozessen, die sich im Laufe der Zeit wieder auffüllen können.",
+      "description": "The original sentence contains a word order error: the verb 'stammen' should directly follow the subject 'Erneuerbare Ressourcen wie Solarenergie und Windenergie' in the main clause. The corrected sentence places the verb in the correct position, improving grammatical accuracy and clarity.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Solarenergie eine erneuerbare Ressource ist",
+      "correction": "Solarenergie eine erneuerbare Energiequelle ist",
+      "description": "The term 'erneuerbare Ressource' is less commonly used in German when referring to energy sources; 'erneuerbare Energiequelle' is the standard and more natural term in educational and scientific contexts. This correction improves terminology consistency and naturalness for German-speaking learners.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Ihre Erschöpfung ist nicht 'schnell', sondern ein langfristiger Prozess, der durch menschliche Aktivitäten beschleunigt wird.",
+      "correction": "Ihre Erschöpfung erfolgt nicht schnell, sondern ist ein langfristiger Prozess, der durch menschliche Aktivitäten beschleunigt wird.",
+      "description": "The use of quotation marks around 'schnell' is stylistically awkward and unnecessary in German educational content. Replacing the phrase with 'erfolgt nicht schnell' provides a more natural and professional tone, improving readability and style.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Natural_Resources.slm.md",
+    "language": "German",
+    "timestamp": "2025-10-03T22:30:47.959114",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

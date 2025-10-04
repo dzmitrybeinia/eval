@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "El clorofila dentro de los cloroplastos captura la energía solar, que es esencial para este proceso.",
+      "correction": "La clorofila dentro de los cloroplastos captura la energía solar, que es esencial para este proceso.",
+      "description": "The noun 'clorofila' is feminine in Spanish and should be preceded by the feminine article 'la' instead of the masculine 'el'. This is a gender agreement error that affects grammatical correctness and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "La función de generar energía la realiza principalmente las mitocondrias, que son conocidas como la central energética de la célula.",
+      "correction": "La función de generar energía la realizan principalmente las mitocondrias, que son conocidas como la central energética de la célula.",
+      "description": "There is a subject-verb agreement error: 'las mitocondrias' is plural, so the verb should be 'realizan' instead of 'realiza'. This affects grammatical accuracy and comprehension.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Cell_Parts.slm.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-03T22:10:16.913614",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.6,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

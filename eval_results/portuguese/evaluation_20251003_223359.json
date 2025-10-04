@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "sites faladores",
+      "correction": "sites falsos",
+      "description": "The phrase 'sites faladores' is a lexical error; the intended meaning is 'fake websites' or 'malicious websites.' The correct term in Brazilian Portuguese is 'sites falsos.' This error could confuse learners, as 'faladores' means 'talkative,' which is unrelated to cybersecurity threats.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "tal dados pessoal",
+      "correction": "tais dados pessoais",
+      "description": "The phrase 'tal dados pessoal' contains errors in both number and gender agreement. 'Tal' should be 'tais' to agree with the plural 'dados,' and 'pessoal' should be 'pessoais' to match the plural and gender of 'dados.' This affects grammatical correctness and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "utilizam o internet",
+      "correction": "utilizam a internet",
+      "description": "The phrase 'utilizam o internet' uses the incorrect article for 'internet.' In Brazilian Portuguese, 'internet' is feminine and should be preceded by 'a.' This is a common localization issue that affects naturalness and correctness.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Online_Safety.slm.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T22:33:59.281873",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.2,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.8,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.6,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

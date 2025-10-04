@@ -1,0 +1,83 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "desertos escaldantes até tundras árticas congelantes",
+      "correction": "desertos escaldantes até tundras árticas congelantes",
+      "description": "The phrase is linguistically correct, but the use of 'tundras árticas congelantes' is slightly redundant since 'árticas' already implies coldness. However, this is a stylistic choice and not an error. No correction needed.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Vamos explorar como essas adaptações permitem que os animais enfrentem os desafios do ambiente. 🌍",
+      "correction": "Vamos explorar como essas adaptações permitem que os animais enfrentem os desafios do ambiente.",
+      "description": "The use of the globe emoji (🌍) may not be appropriate for formal educational content in Brazilian Portuguese, as it can be perceived as informal or distracting in academic contexts. Removing the emoji improves the professional tone.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Adaptações dos animais são características ou comportamentos que aumentam sua capacidade de sobreviver e se reproduzir em um ambiente.",
+      "correction": "Adaptações dos animais são características ou comportamentos que aumentam a capacidade dos animais de sobreviver e se reproduzir em um ambiente.",
+      "description": "The use of 'sua capacidade' creates ambiguity regarding the referent (whose capacity). Replacing with 'a capacidade dos animais' clarifies the subject and improves grammatical precision.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "ex.: pelagem ou garras",
+      "correction": "exemplo: pelagem ou garras",
+      "description": "The abbreviation 'ex.' is not standard in Brazilian Portuguese educational texts. Using 'exemplo:' is clearer and more appropriate for the context.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Camuflagem em animais como camaleões ou tigres, que se misturam ao ambiente para evitar predadores ou capturar presas.",
+      "correction": "Camuflagem em animais como camaleões ou tigres, que se misturam ao ambiente para evitar predadores ou capturar presas.",
+      "description": "The terminology and examples are appropriate for Brazilian Portuguese and culturally relevant. No correction needed.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Estratégias de caça, como lobos que caçam em grupos para capturar presas de forma eficiente.",
+      "correction": "Estratégias de caça, como lobos que caçam em grupo para capturar presas de forma eficiente.",
+      "description": "The phrase 'em grupos' is acceptable, but 'em grupo' is more idiomatic in Brazilian Portuguese when referring to animals hunting together. This improves naturalness and grammatical accuracy.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Ratos-canguru que sobrevivem sem beber água ao extrair umidade dos alimentos e produzir urina concentrada;",
+      "correction": "Ratos-canguru que sobrevivem sem beber água, extraindo umidade dos alimentos e produzindo urina concentrada;",
+      "description": "The original sentence uses 'ao extrair' and 'produzir' in a way that can be improved for clarity and parallel structure. Changing to 'extraindo' and 'produzindo' creates a clearer, more natural sequence of actions.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Animal_Adaptations.llm.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T21:46:11.002177",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.2,
+    "classification": "NATIVE",
+    "total_issues": 7,
+    "total_penalty": 0.8,
+    "issue_breakdown": {
+      "linguistic": 5,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.6,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

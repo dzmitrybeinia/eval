@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Este é o laço número",
+      "correction": "Este é o laço número",
+      "description": "The word 'laço' is used here to mean 'loop' in programming. While 'laço' is a valid term in Brazilian Portuguese for 'loop', it can sometimes be confused with 'laço' meaning 'bow' or 'tie'. However, in the context of programming, 'laço' is accepted and correct. No orthographic error is present, but educators should clarify the meaning to avoid confusion for beginners.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Declarações Condicionais",
+      "correction": "Estruturas condicionais",
+      "description": "The term 'Declarações Condicionais' is less commonly used in Brazilian Portuguese programming education. The standard term is 'Estruturas condicionais' or simply 'Condicionais'. Using the more natural and widely accepted terminology improves clarity and aligns with local educational standards.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Computer_Programming.llm.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T21:46:28.775156",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

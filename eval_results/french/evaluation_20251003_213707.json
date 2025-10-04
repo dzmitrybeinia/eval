@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Eid al-Fitr (fin du Ramadan) et Eid al-Adha (sacrifice d'Abraham)",
+      "correction": "Aïd el-Fitr (fin du Ramadan) et Aïd el-Adha (fête du sacrifice)",
+      "description": "The terms 'Eid al-Fitr' and 'Eid al-Adha' are presented in their anglicized/Arabic forms, which is less common in French educational contexts. The standard French transliterations are 'Aïd el-Fitr' and 'Aïd el-Adha'. Additionally, 'sacrifice d'Abraham' is not the usual French description; 'fête du sacrifice' is more neutral and widely used. This correction improves terminology consistency and cultural appropriateness for French learners.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Textes sacrés : Les Védas, Upanishads, Bhagavad Gita et Ramayana.",
+      "correction": "Textes sacrés : les Védas, les Upanishads, la Bhagavad Gita et le Ramayana.",
+      "description": "The original text incorrectly capitalizes 'Les' and omits definite articles before each sacred text, which is required in French for lists of specific works. The corrected version uses lowercase 'les' and adds definite articles for each item, ensuring proper noun phrase structure and article usage.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "7ème siècle de notre ère",
+      "correction": "VIIe siècle de notre ère",
+      "description": "In French academic and educational writing, centuries are typically written in Roman numerals followed by 'e' (e.g., 'VIIe siècle'), not with Arabic numerals and 'ème'. This correction aligns with standard French formatting conventions for historical periods.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "5ème-6ème siècle avant notre ère",
+      "correction": "Ve-VIe siècle avant notre ère",
+      "description": "French convention for centuries uses Roman numerals and 'e' (e.g., 'Ve-VIe siècle'), not Arabic numerals with 'ème'. This correction ensures proper historical date formatting and consistency with French academic standards.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Fêtes principales : Pâque (commémoration de l'Exode d'Égypte) et Yom Kippour (Jour du Grand Pardon).",
+      "correction": "Fêtes principales : Pessa'h (commémoration de l'Exode d'Égypte) et Yom Kippour (Jour du Grand Pardon).",
+      "description": "The term 'Pâque' is ambiguous in French, as it usually refers to the Christian holiday. The Jewish holiday is more accurately called 'Pessa'h' in French. This correction clarifies the reference and avoids confusion between Christian and Jewish holidays.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "World_Religions.llm.md",
+    "language": "French",
+    "timestamp": "2025-10-03T21:37:07.542270",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.3,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 0.7,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.4,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

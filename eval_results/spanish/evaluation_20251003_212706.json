@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Campaña de Birmingham",
+      "correction": "Campaña de Birmingham (1963)",
+      "description": "The reference to 'Campaña de Birmingham' lacks a year, which is important for clarity and educational context in Spanish-language materials. Adding '(1963)' ensures learners can situate the event historically, which is a standard practice in educational Spanish content for major historical events.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Comité Coordinador Estudiantil No Violento (SNCC)",
+      "correction": "Comité Coordinador Estudiantil No Violento (SNCC, por sus siglas en inglés)",
+      "description": "The acronym 'SNCC' is in English, but the Spanish translation does not clarify this. For Spanish educational audiences, it is standard to indicate that the acronym is from the English name, ensuring clarity and avoiding confusion with a Spanish acronym.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Madre del Movimiento por los Derechos Civiles",
+      "correction": "Madre del Movimiento por los Derechos Civiles",
+      "description": "While the phrase 'Madre del Movimiento por los Derechos Civiles' is culturally appropriate and widely used in Spanish-language educational contexts, it is important to note that this honorific is a direct translation of the English 'Mother of the Civil Rights Movement.' The phrase is acceptable, but educators should be aware that it is a borrowed honorific and may not carry the same emotional resonance in all Spanish-speaking regions.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Ley de Derecho al Voto de 1965",
+      "correction": "Ley de Derechos Electorales de 1965",
+      "description": "The official Spanish translation for the 'Voting Rights Act of 1965' is 'Ley de Derechos Electorales de 1965.' The phrase 'Ley de Derecho al Voto de 1965' is a literal translation and not the standard term used in Spanish-language legal and educational materials. Using the correct terminology ensures lexical precision and consistency.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Civil_Rights_Movement.llm.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-03T21:27:06.553285",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

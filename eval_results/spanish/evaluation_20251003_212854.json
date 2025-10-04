@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Imaginen un día sin agua, electricidad o combustible. La vida sería muy difícil.",
+      "correction": "Imagina un día sin agua, electricidad o combustible. La vida sería muy difícil.",
+      "description": "The use of 'Imaginen' (second person plural imperative) is less natural in educational Spanish content aimed at a general audience, especially in Latin America, where the singular 'Imagina' is preferred for direct address. This change improves the naturalness and engagement of the text for a broader Spanish-speaking audience.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Reciclar materiales como papel, plástico y metal.",
+      "correction": "Reciclar materiales como papel, plástico, vidrio y metal.",
+      "description": "The list omits 'vidrio' (glass), which is a standard recyclable material commonly included in Spanish-speaking environmental education. Adding 'vidrio' ensures the terminology is comprehensive and aligns with local expectations for recycling practices.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "Carbón: Para electricidad y calefacción.",
+      "correction": "Carbón: Para generar electricidad y calefacción.",
+      "description": "The phrase 'Para electricidad y calefacción' is slightly ambiguous and less natural in Spanish. Specifying 'Para generar electricidad y calefacción' clarifies the intended use and aligns with standard educational phrasing in Spanish-speaking regions.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Natural_Resources_1.llm.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-03T21:28:54.420976",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.4,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

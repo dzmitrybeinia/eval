@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Każdej akcji odpowiada reakcja o tej samej sile, lecz przeciwnym kierunku",
+      "correction": "Każdej akcji odpowiada reakcja o tej samej sile, lecz w przeciwnym kierunku",
+      "description": "The phrase is missing the preposition 'w' before 'przeciwnym kierunku', which is required in Polish to indicate direction. The correct form is 'w przeciwnym kierunku'. This is a grammatical error affecting the instrumental case and prepositional usage.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "łazik Marsa",
+      "correction": "łazik Curiosity",
+      "description": "The term 'łazik Marsa' is vague and does not specify which Mars rover is being referenced. For clarity and consistency, especially in educational content, it is better to use the specific name 'łazik Curiosity', which is mentioned earlier in the lesson and is the most relevant example for the discussed period.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Podróże kosmiczne pozwalają ludziom przekraczać granice naszej wiedzy o wszechświecie.",
+      "correction": "Podróże kosmiczne pozwalają nam przekraczać granice naszej wiedzy o wszechświecie.",
+      "description": "The use of 'ludziom' is less engaging and impersonal in educational contexts. Using 'nam' creates a more inclusive and natural tone, directly addressing the learners and making the content more relatable.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Space_Travel.llm.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T21:33:12.934838",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

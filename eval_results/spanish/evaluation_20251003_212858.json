@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Evita divulgar información personal como tu número de teléfono o dirección.",
+      "correction": "Evita divulgar información personal como tu número de teléfono o tu dirección.",
+      "description": "The sentence lacks parallel structure in the list, as 'tu' is used before 'número de teléfono' but omitted before 'dirección'. For clarity and grammatical consistency, 'tu' should be repeated before 'dirección'. This improves readability and maintains correct possessive adjective usage.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Usa contraseñas fuertes con letras, números y símbolos, y no las compartas.",
+      "correction": "Usa contraseñas seguras que incluyan letras, números y símbolos, y no las compartas.",
+      "description": "The term 'contraseñas fuertes' is understandable but 'contraseñas seguras' is more commonly used in Spanish cybersecurity contexts. This change improves the naturalness and professionalism of the terminology, aligning with industry standards.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "Usa sitios web seguros (busca \"https\" en la URL) para ingresar información sensible.",
+      "correction": "Usa sitios web seguros (busca \"https://\" en la URL) para ingresar información sensible.",
+      "description": "The instruction to look for 'https' in the URL is correct, but the standard way to refer to secure websites in Spanish is to specify 'https://' to clearly indicate the protocol prefix. This improves clarity and aligns with local digital literacy practices.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Online_Safety.llm.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-03T21:28:58.606196",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

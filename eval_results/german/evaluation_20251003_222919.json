@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Python ist eine Programmiersprache, die vor allem für ihre komplexe Syntax bekannt ist.",
+      "correction": "Python ist eine Programmiersprache, die vor allem für ihre einfache Syntax bekannt ist.",
+      "description": "The statement incorrectly describes Python as being known for its 'komplexe Syntax' (complex syntax), which is factually inaccurate and misleading. The correct lexical choice is 'einfache Syntax' (simple syntax), as Python is widely recognized for its readable and straightforward syntax, making it accessible for beginners. This error affects the accuracy and clarity of the educational content.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "In Python können Variablen sowohl eine einzelne Datenmenge, wie eine Zahl, als auch mehrere Daten sammeln, was als 'Listen' oder 'Dictionaries' bezeichnet wird. Dies ermöglicht die Speicherung von mehreren Werten in einer einzigen Variablen, was die Flexibilität und den Umfang dessen, was mit Variablen in Python erreicht werden kann, erheblich erweitert.",
+      "correction": "In Python können Variablen sowohl eine einzelne Datenmenge, wie eine Zahl, als auch mehrere Daten speichern, beispielsweise in sogenannten Listen oder Dictionaries. Dies ermöglicht die Speicherung mehrerer Werte in einer einzigen Variablen und erhöht die Flexibilität und den Umfang dessen, was mit Variablen in Python erreicht werden kann.",
+      "description": "The original feedback uses the verb 'sammeln' (to collect), which is less natural in the context of programming. The more appropriate term is 'speichern' (to store), which aligns with standard German technical terminology. Additionally, the phrase 'was als 'Listen' oder 'Dictionaries' bezeichnet wird' is awkward; 'beispielsweise in sogenannten Listen oder Dictionaries' is clearer and more idiomatic. These changes improve the naturalness and professionalism of the explanation, making it more suitable for German-speaking learners.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Computer_Programming.slm.md",
+    "language": "German",
+    "timestamp": "2025-10-03T22:29:19.356778",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

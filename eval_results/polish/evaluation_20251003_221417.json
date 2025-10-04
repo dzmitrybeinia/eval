@@ -1,0 +1,91 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Rozwiązywanie konfliktów zazwyczniwuje rozwiązanie konfliktów przez zniechęcanie stron do nieustanowania sporu.",
+      "correction": "Rozwiązywanie konfliktów nie polega na rozwiązywaniu konfliktów przez zniechęcanie stron do podtrzymywania sporu.",
+      "description": "The word 'zazwyczniwuje' is not a valid Polish word and appears to be a misspelling or incorrect lexical choice. The phrase 'nieustanowania sporu' is also incorrect; the intended meaning is likely 'podtrzymywania sporu' (maintaining the dispute). The sentence structure is awkward and repetitive, as it uses 'rozwiązywanie konfliktów' twice. Correction addresses the lexical errors and improves clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Rozwiązywanie konfliktów nie chodzi o zniechęcanie stron do nieustanowania sporu. Zamiast tego, skupia się na znalezieniu rozwiązania, które rozważa potrzeby i obawy obu stron. Zapewnia to możliwość rozwiązania konfliktu w sposób, który promuje zrozumienie i harmonijną współpracę.",
+      "correction": "Rozwiązywanie konfliktów nie polega na zniechęcaniu stron do podtrzymywania sporu. Zamiast tego skupia się na znalezieniu rozwiązania, które uwzględnia potrzeby i obawy obu stron. Zapewnia to możliwość rozwiązania konfliktu w sposób, który promuje zrozumienie i harmonijną współpracę.",
+      "description": "The phrase 'nie chodzi o zniechęcanie stron do nieustanowania sporu' is unnatural and contains a lexical error; 'nieustanowania' is not standard Polish and should be replaced with 'podtrzymywania'. The verb 'rozważa' is not appropriate in this context; 'uwzględnia' (takes into account) is more precise. Correction improves lexical accuracy and naturalness.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Uczniowie, którzy popierają te umiejętności, zazwyczni bardziej rozumieją się nawzajdzie i mają silniejsze relacje z kolegami.",
+      "correction": "Uczniowie, którzy rozwijają te umiejętności, zazwyczaj lepiej się rozumieją nawzajem i mają silniejsze relacje z kolegami.",
+      "description": "The word 'popierają' (support) is not appropriate in this context; 'rozwijają' (develop) is the correct verb for skills. 'Zazwyczni' is a misspelling and should be 'zazwyczaj' (usually). 'Rozumieją się nawzajdzie' is incorrect; the correct phrase is 'lepiej się rozumieją nawzajem'. Correction addresses lexical errors and improves clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "To nie tylko poprawia ich osobisty rozwój, ale także pomaga w rozwiązaniu konfliktów, ponieważ pozwala na pełne zrozumienie różnic w punktach widzenia.",
+      "correction": "To nie tylko wspiera ich rozwój osobisty, ale także pomaga w rozwiązywaniu konfliktów, ponieważ pozwala na pełne zrozumienie różnic w punktach widzenia.",
+      "description": "The phrase 'poprawia ich osobisty rozwój' is awkward; 'wspiera ich rozwój osobisty' is more natural. 'Pomaga w rozwiązaniu konfliktów' should be 'pomaga w rozwiązywaniu konfliktów' to match the aspect and context. Correction improves lexical precision and naturalness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Empatia obejmuje nie tylko działanie, ale także zrozumienie i docenienie uczuć innych. To nie jest to samo co poleganie na zobowiązaniach, ale raczej na empatycznej interakcji, która może pomóc w rozwiązywaniu konfliktów.",
+      "correction": "Empatia obejmuje nie tylko działanie, ale także zrozumienie i docenienie uczuć innych. To nie jest to samo co składanie zobowiązań, ale raczej empatyczna interakcja, która może pomóc w rozwiązywaniu konfliktów.",
+      "description": "The phrase 'poleganie na zobowiązaniach' is not accurate in this context; 'składanie zobowiązań' (making commitments) is more precise. The phrase 'na empatycznej interakcji' should be 'empatyczna interakcja' for correct syntax. Correction improves lexical accuracy and sentence structure.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "Podczas rozwiązywania konfliktów ważne jest, aby wyrażać i rozumieć uczucia drugiej osoby. Ignorowanie emocji może pogarszać sytuację.",
+      "correction": "Podczas rozwiązywania konfliktów ważne jest, aby wyrażać i rozumieć uczucia drugiej osoby. Ignorowanie emocji może pogorszyć sytuację.",
+      "description": "The verb 'pogarszać' (to worsen) is imperfective and does not fit the context, which requires a perfective verb to indicate a completed action. 'Pogorszyć' is the correct form. Correction addresses verb aspect and improves clarity.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Efektywna komunikacja polega na wyrażaniu myśli i uczuć odpowiednio, co pomaga poprawić zrozumienie i złagodzić napięte rozmowy.",
+      "correction": "Efektywna komunikacja polega na odpowiednim wyrażaniu myśli i uczuć, co pomaga poprawić zrozumienie i złagodzić napięte rozmowy.",
+      "description": "The phrase 'wyrażaniu myśli i uczuć odpowiednio' is awkward; the adverb should precede the verb phrase: 'odpowiednim wyrażaniu myśli i uczuć'. Correction improves word order and naturalness.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "To podstawowe narzędzie w rozwiązywaniu konfliktów, ponieważ umożliwia wyrażanie własnych perspektyw, jednocześnie otwierając się na uznanie i wyrażanie również drugiej strony. Dodatkowo, rozważanie uznania emocjonalnego stanu drugiej osoby może zwiększyć szacun i zwiększyć szczegółowe rozwiązanie problemu.",
+      "correction": "To podstawowe narzędzie w rozwiązywaniu konfliktów, ponieważ umożliwia wyrażanie własnych perspektyw, jednocześnie otwierając się na uznanie i wyrażanie perspektywy drugiej strony. Dodatkowo, uwzględnienie emocjonalnego stanu drugiej osoby może zwiększyć szacunek i przyczynić się do bardziej szczegółowego rozwiązania problemu.",
+      "description": "The phrase 'uznanie i wyrażanie również drugiej strony' is unclear; it should specify 'perspektywy drugiej strony'. 'Rozważanie uznania emocjonalnego stanu' is awkward; 'uwzględnienie emocjonalnego stanu' is more natural. 'Zwiększyć szacun' is incorrect; the correct word is 'szacunek'. 'Zwiększyć szczegółowe rozwiązanie problemu' is unnatural; 'przyczynić się do bardziej szczegółowego rozwiązania problemu' is more precise. Correction addresses lexical errors, clarity, and naturalness.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Conflict_Resolution.slm.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T22:14:17.506778",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 8.2,
+    "classification": "PROFESSIONAL",
+    "total_issues": 8,
+    "total_penalty": 1.8,
+    "issue_breakdown": {
+      "linguistic": 8,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.8,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

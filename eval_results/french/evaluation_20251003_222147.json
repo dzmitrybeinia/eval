@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "La texture dans le dessin ne se limite pas aux techniques de mouchage.",
+      "correction": "La texture dans le dessin ne se limite pas aux techniques de hachurage.",
+      "description": "The term 'mouchage' is incorrect in this context. The standard French term for shading techniques involving lines is 'hachurage', not 'mouchage', which is not used in art terminology. This lexical error could confuse learners and should be corrected to ensure accurate technical vocabulary.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Elles sont essentielles pour définir des formes, créer du dynamisme, et orienter le regard du spectateur.",
+      "correction": "Elles sont essentielles pour définir des formes, créer du dynamisme et orienter le regard du spectateur.",
+      "description": "The use of a comma before 'et' in a simple list is not standard in French punctuation conventions. Removing the comma aligns with French stylistic norms and improves the naturalness of the text.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Drawing_Techniques.slm.md",
+    "language": "French",
+    "timestamp": "2025-10-03T22:21:47.935917",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

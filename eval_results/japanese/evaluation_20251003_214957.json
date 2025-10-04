@@ -1,0 +1,147 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "プログラミングとは何かについて学び始めましょう！",
+      "correction": "プログラミングとは何かを学び始めましょう！",
+      "description": "The phrase uses 'について' which is less natural in this context. '何かを学び始めましょう' is a more standard and natural way to express 'let's start learning what programming is' in Japanese. The current phrasing is understandable but slightly awkward for educational content.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "これらの指示は、PythonやJavaScriptなどのプログラミング言語で書かれます。",
+      "correction": "これらの指示は、PythonやJavaScriptなどのプログラミング言語で記述されます。",
+      "description": "The verb '書かれます' is acceptable, but '記述されます' is more natural and commonly used in Japanese technical and educational contexts when referring to writing code or instructions.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "今日のレッスンでは、プログラミングの基礎である変数、データ型、簡単なアルゴリズムについて探求します。✨",
+      "correction": "今日のレッスンでは、プログラミングの基礎である変数、データ型、簡単なアルゴリズムについて学びます。",
+      "description": "The use of '探求します' is slightly formal and less common in introductory educational content. '学びます' is more natural and appropriate for the context. The emoji '✨' may be considered informal and is not standard in Japanese educational materials.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "例: 箱に「名前」とラベルを付けて、中に「アレックス」や「テイラー」といった名前を入れることを想像してください。",
+      "correction": "例: 箱に「名前」とラベルを付けて、中に「アレックス」や「テイラー」といった名前を入れることを想像してみてください。",
+      "description": "Adding 'みて' to '想像してください' makes the request softer and more natural in Japanese educational contexts. The current phrasing is understandable but slightly direct.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "保存するデータは変更可能または固定のままです。",
+      "correction": "保存するデータは変更できる場合もあれば、固定されている場合もあります。",
+      "description": "The original sentence is slightly awkward and could be misinterpreted. The correction provides a clearer and more natural explanation of variable mutability in Japanese.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "データ型は、変数に保存される情報の種類を示します。",
+      "correction": "データ型は、変数に保存される情報の種類を表します。",
+      "description": "While '示します' is not incorrect, '表します' is more commonly used in Japanese technical writing to indicate representation of types.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "ブール値: 真または偽の値で、決定を助ける (例: `True`, `False`)",
+      "correction": "ブール値: 真または偽の値 (例: `True`, `False`)",
+      "description": "The phrase '決定を助ける' is unnecessary and may confuse beginners. It is clearer to simply state that Boolean values are true or false.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "適切なデータ型を選ぶことはプログラムの機能において重要です。",
+      "correction": "適切なデータ型を選ぶことは、プログラムの動作において重要です。",
+      "description": "The word '機能' is less natural in this context. '動作' is more appropriate when discussing how a program works or behaves.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "アルゴリズムとは、問題を解決したりタスクを完了したりするためのステップバイステップの指示です。",
+      "correction": "アルゴリズムとは、問題を解決したり、タスクを完了したりするための手順です。",
+      "description": "The phrase 'ステップバイステップの指示' is a direct translation from English and sounds unnatural in Japanese. '手順' is the standard term for 'steps' or 'procedure' in this context.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "アルゴリズムは、コンピューターがタスクを実行するために従う指示です。",
+      "correction": "アルゴリズムは、コンピューターがタスクを実行するために従う手順です。",
+      "description": "Again, '指示' is less natural than '手順' when describing algorithms in Japanese educational content.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "問題に応じてシンプルまたは複雑になることがあります。",
+      "correction": "問題によっては、シンプルな場合もあれば複雑な場合もあります。",
+      "description": "The original sentence is understandable but the correction is more natural and idiomatic in Japanese.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "変数、データ型、アルゴリズムを合わせて簡単な問題を解決してみましょう。",
+      "correction": "変数、データ型、アルゴリズムを組み合わせて、簡単な問題を解決してみましょう。",
+      "description": "The verb '合わせて' is understandable, but '組み合わせて' is more natural when talking about combining concepts in Japanese.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "名前や年齢のようなデータを保存するために変数を使用します。",
+      "correction": "名前や年齢などのデータを保存するために変数を使用します。",
+      "description": "The phrase 'のような' is acceptable, but 'などの' is more concise and natural in Japanese when listing examples.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "情報を定義して操作するためにデータ型を使用します。",
+      "correction": "情報を定義し、操作するためにデータ型を使用します。",
+      "description": "Using 'し' to connect verbs is more natural than 'して' in this context.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "ステップバイステップで問題を解決するためにアルゴリズムを作成します。",
+      "correction": "問題をステップバイステップで解決するためにアルゴリズムを作成します。",
+      "description": "Placing 'ステップバイステップで' before '問題を解決する' is more natural in Japanese sentence structure.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Coding_Basics.llm.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-03T21:49:57.210826",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 8.5,
+    "classification": "PROFESSIONAL",
+    "total_issues": 15,
+    "total_penalty": 1.5,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 15,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 1.5,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

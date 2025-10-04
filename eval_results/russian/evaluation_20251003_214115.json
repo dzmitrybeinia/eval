@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Тянув вниз за веревку, вы облегчаете подъем объекта вверх.",
+      "correction": "Тянув верёвку вниз, вы облегчаете подъём объекта вверх.",
+      "description": "The participial construction 'Тянув вниз за веревку' is awkward and ungrammatical in Russian. The correct form is 'Тянув верёвку вниз', which properly places the adverb after the object and uses the correct case. Additionally, 'подъем' should be spelled 'подъём' with the correct accent mark for standard Russian orthography.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Когда вы нажимаете клин в объект, он заставляет объект разделяться.",
+      "correction": "Когда вы вбиваете клин в объект, он заставляет объект разделяться.",
+      "description": "The verb 'нажимаете' is incorrect in this context; the proper verb for inserting a wedge is 'вбиваете'. This correction ensures the sentence accurately describes the action of using a wedge in Russian.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Коготь молотка",
+      "correction": "гвоздодёр",
+      "description": "The term 'Коготь молотка' is a literal translation of 'hammer claw' and is not commonly used in Russian. The standard term is 'гвоздодёр', which is widely recognized and culturally appropriate for describing the claw part of a hammer.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Крышки банок",
+      "correction": "крышки от банок",
+      "description": "The phrase 'Крышки банок' is ambiguous and could mean 'jar lids' in general. The more natural and precise expression in Russian is 'крышки от банок', which clearly indicates lids belonging to jars.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Пандусы для инвалидных колясок",
+      "correction": "пандусы для маломобильных граждан",
+      "description": "The phrase 'Пандусы для инвалидных колясок' is technically correct but may be considered less inclusive. The more culturally sensitive and modern term is 'пандусы для маломобильных граждан', which encompasses a broader group of people who benefit from ramps.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Simple_Machines.llm.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T21:41:15.638098",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.1,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 0.9,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.5,
+      "localization_penalty": 0.4,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

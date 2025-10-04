@@ -1,0 +1,91 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "La Rama Legislativa es responsable de interpretar las leyes.",
+      "correction": "La Rama Legislativa es responsable de crear las leyes.",
+      "description": "The original statement incorrectly assigns the role of interpreting laws to the Legislative Branch, which is a lexical and factual error. In Spanish, 'interpretar las leyes' refers to the Judicial Branch's function. The correction clarifies the actual responsibility of the Legislative Branch, ensuring both linguistic precision and factual accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "La Rama Legislativa redacta y aprueba leyes, gestiona el presupuesto federal y declara la guerra.",
+      "correction": "La Rama Legislativa redacta y aprueba leyes, gestiona el presupuesto federal y declara la guerra.",
+      "description": "No linguistic errors are present in this sentence. The spelling, punctuation, and grammar are correct, and the terminology is appropriate for the context.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "En el sistema de cheques y balances del gobierno de los Estados Unidos, el Presidente no tiene la capacidad de destituir a los jueces de la Corte Suprema sin supervisión.",
+      "correction": "En el sistema de pesos y contrapesos del gobierno de los Estados Unidos, el Presidente no tiene la capacidad de destituir a los jueces de la Corte Suprema sin supervisión.",
+      "description": "The phrase 'cheques y balances' is a direct anglicism from 'checks and balances' and is not standard in Spanish. The correct and widely accepted term is 'pesos y contrapesos.' This correction improves both linguistic accuracy and localization quality by using the proper Spanish terminology.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "La destitución de jueces solo puede ocurrir por una votación de dos tercios tanto en el Senado como en la Cámara de Representantes, lo cual es un proceso muy raro y estrictamente regulado.",
+      "correction": "La destitución de jueces solo puede ocurrir por una votación de dos tercios tanto en el Senado como en la Cámara de Representantes, lo cual es un proceso muy raro y estrictamente regulado.",
+      "description": "No linguistic or localization errors are present. The sentence is grammatically correct, uses proper terminology, and is culturally appropriate.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Aunque el Presidente de los EE.UU. tiene el poder de veto de leyes, este no es un ejemplo práctico de cómo las ramas del gobierno colaboran.",
+      "correction": "Aunque el Presidente de los EE.UU. tiene el poder de veto de leyes, esto no es un ejemplo práctico de cómo las ramas del gobierno colaboran.",
+      "description": "The use of 'este' to refer to the previous clause is less natural in Spanish; 'esto' is the correct neuter pronoun for referring to an abstract idea or situation. This correction improves the naturalness and style of the sentence.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "El Presidente puede vetar cualquier ley aprobada por el Congreso.",
+      "correction": "El Presidente puede vetar cualquier ley aprobada por el Congreso.",
+      "description": "No linguistic or localization errors are present. The sentence is grammatically correct and uses appropriate terminology.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "La rama judicial es responsable de crear las leyes.",
+      "correction": "La rama judicial es responsable de interpretar las leyes.",
+      "description": "The original statement incorrectly assigns the role of creating laws to the Judicial Branch, which is a lexical and factual error. In Spanish, 'crear las leyes' refers to the Legislative Branch's function. The correction clarifies the actual responsibility of the Judicial Branch, ensuring both linguistic precision and factual accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "La rama judicial interpreta las leyes y asegura que se apliquen de manera justa.",
+      "correction": "La rama judicial interpreta las leyes y asegura que se apliquen de manera justa.",
+      "description": "No linguistic or localization errors are present. The sentence is grammatically correct, uses proper terminology, and is culturally appropriate.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Government_Structure.slm.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-03T22:11:43.446175",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 8.5,
+    "classification": "PROFESSIONAL",
+    "total_issues": 8,
+    "total_penalty": 1.5,
+    "issue_breakdown": {
+      "linguistic": 7,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.3,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

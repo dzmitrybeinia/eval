@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Лиса не является главным героем, а скорее противоречием, играющего второстепенную роль.",
+      "correction": "Лиса не является главным героем, а скорее антагонистом, играющим второстепенную роль.",
+      "description": "The word 'противоречием' is a lexical error in this context. In Russian literary analysis, 'антагонист' is the correct term for a character who opposes the protagonist. 'Противоречие' means 'contradiction' and is not used to describe a character's role. The sentence also contains a participle agreement error: 'играющего' should agree with 'антагонистом' in gender and case, but the correction resolves this by using the standard term.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "деревнейю",
+      "correction": "деревней",
+      "description": "The word 'деревнейю' is a spelling error. The correct instrumental case form is 'деревней'. The extra 'ю' is incorrect and does not exist in Russian declension patterns for this noun.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Пlaces of action are crucial in setting the mood and influencing events in a story.",
+      "correction": "Место действия играет важную роль в создании настроения и развитии событий в истории.",
+      "description": "The feedback contains an English sentence instead of Russian, which is a localization error. For Russian educational content, all feedback should be in Russian to maintain consistency and accessibility for learners. The corrected version provides a natural and culturally appropriate Russian equivalent.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Story_Elements.slm.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T22:27:44.396962",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.1,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.9,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.6,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

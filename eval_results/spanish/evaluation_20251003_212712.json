@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "¡Bienvenidos a una emocionante aventura en el mundo de la programación! 🌟 En esta lección, exploraremos los conceptos básicos que nos permiten dar instrucciones a las computadoras para resolver problemas y automatizar tareas. Prepárense para descubrir cómo los algoritmos, las variables y los bucles simples nos ayudan a construir soluciones efectivas y creativas.",
+      "correction": "¡Bienvenidos a una emocionante aventura en el mundo de la programación! En esta lección, exploraremos los conceptos básicos que nos permiten dar instrucciones a las computadoras para resolver problemas y automatizar tareas. Prepárense para descubrir cómo los algoritmos, las variables y los bucles simples nos ayudan a construir soluciones efectivas y creativas.",
+      "description": "The use of the star emoji (🌟) in educational Spanish content may be considered informal and less appropriate for some academic or professional contexts. Removing the emoji ensures a more neutral and universally accepted tone, which is preferable for formal educational materials.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Inicio del juego: `monedasJugador = 0`",
+      "correction": "Inicio del juego: monedasJugador = 0",
+      "description": "The use of backticks (`) to enclose variable assignments is not standard in Spanish educational materials and may confuse learners, as backticks are not used in Spanish orthography or in most programming languages for variable assignment. Removing the backticks improves clarity and aligns with conventional usage.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "PARA número = 1 HASTA 10\n    IMPRIMIR número\nFIN PARA",
+      "correction": "PARA número = 1 HASTA 10\n    IMPRIME número\nFIN PARA",
+      "description": "In Spanish pseudocode, the verb 'IMPRIME' is more natural and commonly used than 'IMPRIMIR' for imperative instructions. 'IMPRIMIR' is the infinitive form, while 'IMPRIME' is the command form, which is standard in educational programming examples. Adjusting this improves the naturalness and clarity of the example.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Coding_Basics.llm.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-03T21:27:12.185869",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

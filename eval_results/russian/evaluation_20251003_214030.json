@@ -1,0 +1,75 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Берёт начало в средневековье, с развитием в эпохи Ренессанса, Барокко, Классицизма и Романтизма.",
+      "correction": "Берёт начало в средневековье, с развитием в эпохах Ренессанса, Барокко, Классицизма и Романтизма.",
+      "description": "The noun 'эпоха' should be in the prepositional plural form 'в эпохах' to match the context of multiple historical periods. The original uses the singular 'в эпохи', which is grammatically incorrect in Russian when referring to several eras after the preposition 'в'.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Исполняется оркестрами, камерными ансамблями или солистами.",
+      "correction": "Исполняется симфоническими оркестрами, камерными ансамблями или солистами.",
+      "description": "The term 'оркестрами' is too general for classical music in Russian educational context. Specifying 'симфоническими оркестрами' provides clarity and aligns with standard Russian music terminology, enhancing educational precision and naturalness.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Вдохновлён блюзом, рэгтаймом и спиричуэлс.",
+      "correction": "Вдохновлён блюзом, рэгтаймом и спиричуэлами.",
+      "description": "The word 'спиричуэлс' is an anglicism and not the standard Russian plural form. The correct term is 'спиричуэлы', which is more natural and widely accepted in Russian musical discourse.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Сильный ритм и звучание, основанное на гитаре.",
+      "correction": "Сильный ритм и звучание, основанные на гитаре.",
+      "description": "The participle 'основанное' should agree in number with the compound subject 'ритм и звучание', requiring the plural form 'основанные'. The original uses the singular neuter, which is a grammatical error.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Тексты часто затрагивают социальные проблемы, личные переживания и культурную идентичность.",
+      "correction": "Тексты часто затрагивают социальные вопросы, личные переживания и культурную идентичность.",
+      "description": "In Russian educational and journalistic style, 'социальные вопросы' is preferred over 'социальные проблемы' for a neutral and professional tone when discussing topics addressed in hip-hop lyrics. This improves naturalness and aligns with local conventions.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Создаётся с помощью синтезаторов, драм-машин и цифрового программного обеспечения.",
+      "correction": "Создаётся с помощью синтезаторов, драм-машин и цифровых аудиопрограмм.",
+      "description": "The phrase 'цифровое программное обеспечение' is overly formal and not idiomatic in Russian music context. 'Цифровые аудиопрограммы' is more natural and commonly used among Russian musicians and educators.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Music_Genres.llm.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T21:40:30.298693",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 8.9,
+    "classification": "PROFESSIONAL",
+    "total_issues": 6,
+    "total_penalty": 1.1,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 4,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.6,
+      "localization_penalty": 0.5,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "911",
+      "correction": "119",
+      "description": "The emergency number '911' is used in the United States, but in Japan, the correct emergency number for fire and ambulance is '119'. Using '911' is culturally inappropriate and may cause confusion for Japanese learners. The text should be localized to reflect the Japanese emergency services system.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "ロウソクやマッチの使用不適切。",
+      "correction": "ロウソクやマッチの不適切な使用。",
+      "description": "The phrase 'ロウソクやマッチの使用不適切' is grammatically awkward in Japanese. The correct structure is '不適切な使用', which places the adjective before the noun, resulting in a more natural and grammatically correct expression.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "探知機全体は10年ごとに交換する。",
+      "correction": "探知機本体は10年ごとに交換する。",
+      "description": "The term '探知機全体' is not the standard way to refer to the device in Japanese. '本体' is the correct term for the main unit of a device. This correction improves lexical precision and naturalness.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Fire_Safety.llm.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-03T21:50:50.122323",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Koło: Okrągły kształt bez boków ani kątów.",
+      "correction": "Koło: Okrągły kształt bez boków i kątów.",
+      "description": "The phrase 'bez boków ani kątów' uses 'ani' incorrectly in this context. In Polish, when negating two nouns in a positive descriptive sentence, 'i' should be used instead of 'ani'. 'Ani' is reserved for negative sentences. The correct form is 'bez boków i kątów'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Kawałek pizzy ma kształt trójkąta.",
+      "correction": "Kawałek ciasta ma kształt trójkąta.",
+      "description": "The example 'Kawałek pizzy ma kształt trójkąta' uses pizza as a reference, which may not be the most culturally neutral or universally relatable example for Polish primary education. A more locally relevant and neutral example would be 'Kawałek ciasta', which is commonly used in Polish classrooms and textbooks.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Geometry_Basics.llm.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T21:32:02.709796",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "En France, l'intégration de l'IA dans les voitures permet une navigation plus précise et sécurisée.",
+      "correction": "L'intégration de l'IA dans les voitures permet une navigation plus précise et sécurisée.",
+      "description": "The reference to 'En France' is unnecessary and may limit the applicability of the statement, as autonomous vehicles and AI integration are global phenomena. Removing the country-specific mention makes the feedback more universally relevant and avoids unintended cultural bias.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "What_is_AI.slm.md",
+    "language": "French",
+    "timestamp": "2025-10-03T22:23:33.775244",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.9,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.1,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

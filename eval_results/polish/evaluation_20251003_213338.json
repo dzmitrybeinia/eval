@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Buddyzm został założony przez Siddharthę Gautamę (Buddę) i liczy około 500 milionów wyznawców.",
+      "correction": "Buddyzm został założony przez Siddharthę Gautamę (Buddę) i ma około 500 milionów wyznawców.",
+      "description": "The verb 'liczy' is not the most appropriate choice in this context. In Polish, 'liczyć' can mean 'to count' or 'to number', but when referring to the number of followers, 'ma' (has) is more natural and idiomatic. This improves the lexical precision and naturalness of the sentence.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Diwali (Święto Świateł)",
+      "correction": "Diwali (Święto Światła)",
+      "description": "The translation 'Święto Świateł' is a literal rendering of 'Festival of Lights', but the more commonly accepted Polish term is 'Święto Światła'. This correction ensures the use of locally accepted terminology and improves cultural appropriateness.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "bar micwa",
+      "correction": "bar micwa (Bar Micwa)",
+      "description": "The term 'bar micwa' is written in lowercase, which is not standard for proper names of religious ceremonies in Polish. It should be capitalized as 'Bar Micwa' to align with Polish orthographic conventions and respect the cultural significance of the term.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "World_Religions.llm.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T21:33:38.914141",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

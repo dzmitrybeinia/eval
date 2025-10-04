@@ -1,0 +1,75 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "café da manhã",
+      "correction": "café da manhã",
+      "description": "The phrase 'café da manhã' is correct in Brazilian Portuguese for 'breakfast.' However, in some educational contexts, especially for younger audiences or in certain regions, 'desjejum' may be used as a more formal or technical term. No orthographic error is present, but educators should be aware of regional preferences. No correction needed.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Decidir entre estudar para uma prova ou ir a uma festa.",
+      "correction": "Decidir entre estudar para uma prova ou ir a uma festa.",
+      "description": "The example of choosing between studying for a test or going to a party is culturally appropriate for Brazilian students and reflects common scenarios. However, the use of 'festa' may not resonate with all age groups or educational settings. Consider specifying the type of event (e.g., 'evento social') for broader applicability. No linguistic errors present.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "A escolha ideal integra emoção e lógica, garantindo satisfação e estabilidade.",
+      "correction": "A escolha ideal integra emoção e lógica, garantindo satisfação e estabilidade.",
+      "description": "The sentence is grammatically correct, with proper verb conjugation and agreement. However, the use of 'integra' (singular) matches 'a escolha ideal' (singular), and 'garantindo' correctly refers to the result of the integration. No correction needed.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "homeostase cerebral",
+      "correction": "homeostase cerebral",
+      "description": "The term 'homeostase cerebral' is not commonly used in everyday Brazilian Portuguese; 'homeostase' typically refers to physiological balance. For clarity, consider rephrasing as 'homeostase do cérebro' or explaining the concept further for educational audiences. No linguistic errors present.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Esse equilíbrio promove produtividade e bem-estar.",
+      "correction": "Esse equilíbrio promove produtividade e bem-estar.",
+      "description": "The sentence uses a formal register appropriate for educational content. However, the phrase 'produtividade e bem-estar' may benefit from further contextualization depending on the target audience (e.g., students vs. professionals). No linguistic errors present.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Compreender a ciência por trás da tomada de decisões nos capacita a controlar nossas escolhas e navegar pela vida com maior confiança e clareza.",
+      "correction": "Compreender a ciência por trás da tomada de decisões nos capacita a controlar nossas escolhas e navegar pela vida com mais confiança e clareza.",
+      "description": "The phrase 'com maior confiança e clareza' is grammatically correct, but 'com mais confiança e clareza' is more idiomatic in Brazilian Portuguese. The use of 'maior' is acceptable but less natural in this context. Correction improves naturalness and idiomatic usage.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Decision_Making.llm.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T21:46:45.285946",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.3,
+    "classification": "NATIVE",
+    "total_issues": 6,
+    "total_penalty": 0.7,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.4,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

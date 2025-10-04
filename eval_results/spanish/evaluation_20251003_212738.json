@@ -1,0 +1,83 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "¡Bienvenidos a una exploración sobre la etiqueta digital! 🌐 En este mundo conectado, nuestras acciones en línea tienen un impacto significativo.",
+      "correction": "¡Bienvenidos a una exploración sobre la etiqueta digital! 🌐 En este mundo conectado, nuestras acciones en línea tienen un impacto significativo.",
+      "description": "No issues found. The opening exclamation mark is correctly used, and accent marks are present where required. The sentence is grammatically correct and natural.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "utiliza un lenguaje constructivo y amable, como lo harías en una conversación cara a cara.",
+      "correction": "utiliza un lenguaje constructivo y amable, como lo harías en una conversación presencial.",
+      "description": "The phrase 'conversación cara a cara' is understandable but 'conversación presencial' is more commonly used in educational Spanish contexts, especially in digital literacy materials. This change improves naturalness and aligns with standard terminology.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Antes de compartir una foto grupal de un evento escolar, pide permiso a todos los involucrados para asegurarte de que están cómodos con la publicación.",
+      "correction": "Antes de compartir una foto grupal de un evento escolar, pide permiso a todos los involucrados para asegurarte de que se sienten cómodos con la publicación.",
+      "description": "The phrase 'están cómodos' is grammatically correct, but 'se sienten cómodos' is more idiomatic in Spanish when referring to comfort with an action. This correction improves the naturalness and clarity of the sentence.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "No descargar ni compartir materiales protegidos por derechos de autor sin permiso.",
+      "correction": "No descargues ni compartas materiales protegidos por derechos de autor sin permiso.",
+      "description": "The use of the infinitive form 'No descargar ni compartir' is acceptable in lists, but the imperative 'No descargues ni compartas' is more direct and commonly used in educational instructions in Spanish, making the advice clearer and more actionable.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "En lugar de copiar texto directamente de un sitio web para un proyecto escolar, parafrasea la información y da crédito al autor original.",
+      "correction": "En lugar de copiar texto directamente de un sitio web para un proyecto escolar, parafrasea la información y da crédito al autor original.",
+      "description": "No issues found. The sentence is grammatically correct, uses appropriate verb forms, and is clear and natural.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "defiende a la persona y reporta el comportamiento a un profesor o administrador.",
+      "correction": "apoya a la persona y reporta el comportamiento a un profesor o administrador.",
+      "description": "The verb 'defiende' is strong and may imply confrontation. 'Apoya' is more neutral and aligns better with the supportive tone typically recommended in digital citizenship education, making the advice more culturally appropriate.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "El ciberacoso tiene consecuencias serias—sé proactivo en prevenirlo y abordarlo.",
+      "correction": "El ciberacoso tiene consecuencias serias; sé proactivo en prevenirlo y abordarlo.",
+      "description": "The use of an em dash (—) to separate clauses is less common in Spanish than a semicolon (;) for this purpose. Replacing the em dash with a semicolon improves orthographic correctness and aligns with standard Spanish punctuation conventions.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Digital_Etiquette.llm.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-03T21:27:38.913073",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.3,
+    "classification": "NATIVE",
+    "total_issues": 7,
+    "total_penalty": 0.7,
+    "issue_breakdown": {
+      "linguistic": 4,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.4,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

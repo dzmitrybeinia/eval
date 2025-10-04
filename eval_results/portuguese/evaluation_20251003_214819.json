@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "gás hélio",
+      "correction": "gás hélio",
+      "description": "Although 'gás hélio' is technically correct, the more natural and precise term in Brazilian Portuguese is simply 'hélio' when referring to the element as an example of a gas. The use of 'gás' before 'hélio' is redundant, as 'hélio' is universally understood as a gas in this context. However, this is a minor stylistic improvement rather than a strict linguistic error.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "luzes de neon",
+      "correction": "lâmpadas de neon",
+      "description": "The phrase 'luzes de neon' is understandable but less natural in Brazilian Portuguese. The standard and more commonly used term is 'lâmpadas de neon' when referring to neon lights as an example of plasma. This correction improves the naturalness and clarity of the content for Brazilian learners.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "States_of_Matter.llm.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T21:48:19.925236",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.8,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.2,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

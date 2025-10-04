@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "🌈",
+      "correction": "",
+      "description": "The use of the rainbow emoji at the end of the introductory paragraph may be perceived as informal or childish in Japanese educational content, especially for older students or professional settings. Japanese educational materials typically avoid emojis unless targeting young children or aiming for a casual tone. Removing the emoji would improve the professionalism and appropriateness of the content.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "冷静さを保ち、より良い決断を下し、強い人間関係を築くことができます。",
+      "correction": "冷静さを保ち、より良い決断を下し、良好な人間関係を築くことができます。",
+      "description": "The phrase '強い人間関係' is grammatically correct but semantically awkward in Japanese. '強い' (strong) is not commonly used to describe relationships in this context; '良好な' (good/healthy) is more natural and idiomatic. This correction improves both lexical precision and naturalness, making the sentence more appropriate for Japanese readers.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "冷静になる技術",
+      "correction": "冷静になる方法",
+      "description": "The term '技術' (technique/skill) is not the most natural choice in this context. In Japanese, '方法' (method/way) is more commonly used when referring to strategies for calming oneself. This change enhances the naturalness and clarity of the expression.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Emotions_and_Feelings.llm.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-03T21:50:32.851037",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

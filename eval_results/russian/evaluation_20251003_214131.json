@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Метод Корнелла",
+      "correction": "Метод К Cornell",
+      "description": "The term 'Метод Корнелла' uses a direct transliteration of 'Cornell', which is common in Russian educational contexts. However, the correct spelling in Russian is 'метод Корнелла' with a lowercase 'м' for 'метод' unless it starts a sentence. In this context, it is used as a bullet point and should be lowercase. Additionally, the transliteration 'Корнелла' is accepted, but for formal educational materials, it is sometimes preferable to use the original English name 'Cornell' in Latin script to avoid confusion, especially in international or bilingual settings. This is a minor orthographic and terminology issue.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Создайте тихое место для учебы.",
+      "correction": "Организуйте удобное и спокойное пространство для учебы.",
+      "description": "The phrase 'Создайте тихое место для учебы' is understandable but may not fully reflect the cultural and practical realities for Russian learners, many of whom may not have the ability to create a completely quiet space. A more culturally appropriate and natural expression would be 'Организуйте удобное и спокойное пространство для учебы', which emphasizes comfort and calmness rather than absolute quiet, aligning better with Russian educational advice and living conditions.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Ментальные карты",
+      "correction": "Интеллект-карты",
+      "description": "The term 'Ментальные карты' is a literal translation of 'mind maps', but in Russian educational and professional contexts, 'интеллект-карты' is the more widely accepted and natural term. Using 'интеллект-карты' improves terminology consistency and aligns with local standards.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Study_Skills.llm.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T21:41:31.005644",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

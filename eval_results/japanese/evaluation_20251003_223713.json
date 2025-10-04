@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "冷革な対話が続きます。",
+      "correction": "冷静な対話が続きます。",
+      "description": "The word '冷革' is a lexical error; it is not a valid Japanese word and appears to be a misspelling or incorrect kanji selection. The intended meaning is 'calm' or 'composed', which should be '冷静'. This error affects comprehension and should be corrected for clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "個人情報は誰にも貸い渡されることはないべきでしょう。",
+      "correction": "個人情報は誰にも渡すべきではありません。",
+      "description": "The phrase '貸い渡されることはないべきでしょう' is incorrect both lexically and grammatically. '貸い渡される' is not a standard Japanese expression; the correct verb is '渡す' (to give/hand over). The construction 'ないべきでしょう' is also unnatural; the standard negative obligation is '渡すべきではありません'. This correction improves both accuracy and naturalness.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "オリジナルの作品の著作者に感謝と支払いの形で承認を得るべきです。",
+      "correction": "オリジナルの作品の著作者から許可を得るべきです。",
+      "description": "The phrase '感謝と支払いの形で承認を得る' is unnatural and potentially misleading in Japanese. It suggests that both gratitude and payment are required for permission, which is not always the case and may confuse learners. The standard and culturally appropriate expression is '許可を得る', which simply means 'obtain permission'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "デジタルエチケットは、オンラインでの行動が誰かにとってもっとも重要であることを強調します。これは、相互作用がフィールドが異なる可能性があるためです。",
+      "correction": "デジタルエチケットは、オンラインでの行動が他者に与える影響の重要性を強調します。これは、相手によって状況や価値観が異なる可能性があるためです。",
+      "description": "The original sentences are awkward and unclear in Japanese. 'フィールドが異なる可能性がある' is not a natural way to express differences in context or values. The correction uses more natural and culturally appropriate phrasing, clarifying that digital etiquette emphasizes the impact of one's actions on others and that contexts and values may differ.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Digital_Etiquette.slm.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-03T22:37:13.795952",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.0,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 1.0,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.6,
+      "localization_penalty": 0.4,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

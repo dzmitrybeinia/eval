@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Głosowanie jest jednym z rodzajów wyrazującego opinię, ale nie jest jedynym. Inne formy wyrazującego opinię obejmują protesty, petelki i media społecznościowe. Głosowanie jest unikalnym, demokratycznym procesem, który zapewnia głosy dla wyborców na wybory.",
+      "correction": "Głosowanie jest jednym ze sposobów wyrażania opinii, ale nie jest jedynym. Inne formy wyrażania opinii obejmują protesty, petycje i media społecznościowe. Głosowanie jest unikalnym, demokratycznym procesem, który umożliwia wyborcom oddanie głosu.",
+      "description": "The original text contains multiple grammatical errors: incorrect noun case usage ('rodzajów wyrazującego opinię' should be 'sposobów wyrażania opinii'), incorrect word choice ('petelki' should be 'petycje'), and awkward phrasing ('zapewnia głosy dla wyborców na wybory' should be 'umożliwia wyborcom oddanie głosu'). These errors affect clarity and naturalness, and the correction addresses all linguistic issues in one comprehensive revision.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "W procesie głosowania wybory są zrobione po złożeniu głosu. Przed tym wypadkiem wyborcy zaznaczają swoje wybory na karcie do głosowania.",
+      "correction": "W procesie głosowania wybór jest dokonywany podczas składania głosu. Przed tym wyborcy zaznaczają swoje preferencje na karcie do głosowania.",
+      "description": "The original text misuses noun forms and verb aspect: 'wybory są zrobione' is incorrect, as 'wybory' refers to the event, not the act of choosing; it should be 'wybór jest dokonywany'. 'Przed tym wypadkiem' is an unnatural phrase and should be replaced with 'przed tym'. The correction improves grammatical accuracy and naturalness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "W krajach demokratycznych zazwycznią się okres rejestracji, który zazwycznią się przed dniami wyborowymi. Dodatkowe czas na rejestrację może zostać ustalony przez urzędy wyborcze, ale zazwycznią się to zrównoważać z okresem rejestracji. To zachęca obywateli do zaangażowania się w procesy wyborcze.",
+      "correction": "W krajach demokratycznych zazwyczaj występuje okres rejestracji, który odbywa się przed dniami wyborczymi. Dodatkowy czas na rejestrację może zostać ustalony przez urzędy wyborcze, ale zwykle jest on zbieżny z okresem rejestracji. To zachęca obywateli do zaangażowania się w proces wyborczy.",
+      "description": "The original text contains repeated spelling errors ('zazwycznią się' should be 'zazwyczaj'), incorrect noun forms ('dniami wyborowymi' should be 'dniami wyborczymi'), and unnatural phrasing ('procesy wyborcze' should be singular 'proces wyborczy'). The correction addresses all spelling and grammatical issues for improved clarity.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Voting_Process.slm.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T22:18:54.856617",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.2,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.8,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.8,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

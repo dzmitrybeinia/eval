@@ -1,0 +1,35 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "El rock music es el único género que ha tenido un impacto cultural significativo.",
+      "correction": "El rock es el único género que ha tenido un impacto cultural significativo.",
+      "description": "The phrase 'El rock music' incorrectly mixes Spanish and English, resulting in a lexical error. The correct term in Spanish is 'el rock.' This error affects the naturalness and clarity of the statement, and should be corrected to maintain linguistic consistency.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Music_Genres.slm.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-03T22:11:57.673485",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

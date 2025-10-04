@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "¡Bienvenidos! Hoy exploraremos cómo las ideas pueden convertirse en soluciones prácticas mediante el proceso de diseño. Este enfoque creativo y estructurado nos ayudará a resolver problemas y crear innovaciones. 🌟",
+      "correction": "¡Bienvenidos! Hoy exploraremos cómo las ideas pueden convertirse en soluciones prácticas mediante el proceso de diseño. Este enfoque creativo y estructurado nos ayudará a resolver problemas y crear innovaciones.",
+      "description": "The use of the emoji '🌟' at the end of the introduction is not standard in formal educational Spanish content and may reduce the perceived professionalism of the material. Removing the emoji ensures the tone remains appropriate for an educational context.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Lluvia de ideas (Brainstorming)",
+      "correction": "Lluvia de ideas",
+      "description": "The inclusion of the English term 'Brainstorming' in parentheses is unnecessary for a Spanish-speaking audience, especially in educational content aimed at native speakers. 'Lluvia de ideas' is a well-established term in Spanish and should be used alone for consistency and naturalness.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "retroalimentación",
+      "correction": "feedback",
+      "description": "While 'retroalimentación' is a correct translation of 'feedback', in some Spanish-speaking regions, especially in professional and educational contexts, 'feedback' is commonly used as a loanword. Consider the target audience and regional preferences; if the content is for a region where 'feedback' is preferred, use it for greater naturalness and alignment with local terminology. Otherwise, 'retroalimentación' is acceptable.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Design_Process.llm.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-03T21:27:33.668845",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

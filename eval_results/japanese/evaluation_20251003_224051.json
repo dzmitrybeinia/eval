@@ -1,0 +1,83 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "主人公は物語において常に正と負の両方を表します。.",
+      "correction": "主人公は物語において常に正と負の両方を表します。",
+      "description": "There is an unnecessary period after the Japanese full stop, resulting in double punctuation (。.). In Japanese, only the full-width period (。) should be used at the end of a sentence. This error affects orthographic correctness and should be corrected for proper punctuation.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "物語の舞台は、読者に物語の緊張感を伝える役割を持っていません。.",
+      "correction": "物語の舞台は、読者に物語の緊張感を伝える役割を持っていません。",
+      "description": "The sentence ends with both a Japanese full stop (。) and an English period (.), which is incorrect. Only the Japanese full stop (。) should be used at the end of a Japanese sentence. This is an orthographic error that should be corrected for proper punctuation.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "物語の緊迫感は、登場人物の動きによって引き起こされる。.",
+      "correction": "物語の緊迫感は、登場人物の動きによって引き起こされる。",
+      "description": "There is a double period at the end of the sentence (。.), which is incorrect in Japanese writing. Only the Japanese full stop (。) should be used. This is an orthographic issue that should be corrected for proper punctuation.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "登場人物と自然が直面する葛藤は、物語の進行を妨げません。.",
+      "correction": "登場人物と自然が直面する葛藤は、物語の進行を妨げません。",
+      "description": "The sentence ends with both a Japanese full stop (。) and an English period (.), which is incorrect. Only the Japanese full stop (。) should be used at the end of a Japanese sentence. This is an orthographic error that should be corrected for proper punctuation.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "物語の中心的なアイデアは物語の説得力としかりみです。.",
+      "correction": "物語の中心的なアイデアは物語の説得力としかりみです。",
+      "description": "There is a double period at the end of the sentence (。.), which is incorrect in Japanese writing. Only the Japanese full stop (。) should be used. This is an orthographic issue that should be corrected for proper punctuation.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "物語の中心的なアイデアは物語の説得力としかりみです。",
+      "correction": "物語の中心的なアイデアは物語の説得力と魅力です。",
+      "description": "The word 'しかりみ' is not a standard Japanese word and appears to be a typographical or lexical error. The intended meaning is likely '魅力' (charm/appeal). This lexical error affects comprehension and should be corrected to use the appropriate term.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "物語の舞台は主に登場人物に依存しています。.",
+      "correction": "物語の舞台は主に登場人物に依存しています。",
+      "description": "The sentence ends with both a Japanese full stop (。) and an English period (.), which is incorrect. Only the Japanese full stop (。) should be used at the end of a Japanese sentence. This is an orthographic error that should be corrected for proper punctuation.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Story_Elements.slm.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-03T22:40:51.933897",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.1,
+    "classification": "NATIVE",
+    "total_issues": 7,
+    "total_penalty": 0.9,
+    "issue_breakdown": {
+      "linguistic": 7,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.9,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

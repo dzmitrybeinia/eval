@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Préparez-vous à découvrir comment les fusées fonctionnent, les grandes étapes de l'exploration spatiale et les défis uniques de la vie dans l'espace, tout en explorant le rôle de la gravité dans ces aventures incroyables 🚀.",
+      "correction": "Préparez-vous à découvrir comment les fusées fonctionnent, les grandes étapes de l'exploration spatiale et les défis uniques de la vie dans l'espace, tout en explorant le rôle de la gravité dans ces aventures incroyables.",
+      "description": "The use of the rocket emoji 🚀 at the end of the sentence is not standard in formal French educational content. While emojis can add visual interest, they are generally avoided in academic or instructional materials to maintain a professional tone. Removing the emoji ensures the style remains appropriate for educational contexts.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Les entreprises privées comme SpaceX ont commencé à développer des fusées réutilisables, rendant le voyage spatial plus accessible.",
+      "correction": "Des entreprises privées telles que SpaceX ont commencé à développer des fusées réutilisables, rendant le voyage spatial plus accessible.",
+      "description": "The phrase 'Les entreprises privées comme SpaceX' uses 'comme' in a way that is more colloquial and less formal in French educational writing. 'Telles que' is preferred for listing examples in formal or academic contexts, ensuring the terminology and style are consistent with French educational standards.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Space_Travel.llm.md",
+    "language": "French",
+    "timestamp": "2025-10-03T21:36:40.517455",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.8,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.2,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

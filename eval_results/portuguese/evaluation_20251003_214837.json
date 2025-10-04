@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Jogos de realidade virtual (VR) usam IA para criar ambientes interativos e realistas.",
+      "correction": "Jogos de realidade virtual (RV) usam IA para criar ambientes interativos e realistas.",
+      "description": "The abbreviation 'VR' is in English, while the standard in Brazilian Portuguese is 'RV' for 'realidade virtual'. Using the local abbreviation ensures consistency and naturalness for the target audience.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "NGSS HS-ETS1-4",
+      "correction": "NGSS HS-ETS1-4",
+      "description": "The reference to 'NGSS HS-ETS1-4' is a US educational standard. For Brazilian audiences, this may be unfamiliar and could benefit from a brief explanation or contextualization, such as clarifying that it is a US science education standard. However, the text does not contain a linguistic error.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "What_is_AI.llm.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T21:48:37.008656",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

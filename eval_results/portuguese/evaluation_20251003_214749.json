@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Ameaças cibernéticas são atividades maliciosas que visam roubar, danificar ou interromper informações e sistemas digitais.",
+      "correction": "Ameaças cibernéticas são atividades maliciosas que visam roubar, danificar ou interromper informações e sistemas digitais.",
+      "description": "No linguistic errors found in this sentence. The orthography, punctuation, and accentuation are correct. No correction needed.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Evite informações fáceis de adivinhar.",
+      "correction": "Evite informações fáceis de serem adivinhadas.",
+      "description": "The original phrase is understandable but slightly unnatural in Brazilian Portuguese. The recommended correction uses the passive construction 'de serem adivinhadas', which is more idiomatic and aligns with local style conventions.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Desconfie de mensagens urgentes pedindo informações ou pagamentos.",
+      "correction": "Desconfie de mensagens urgentes que peçam informações ou pagamentos.",
+      "description": "The original sentence uses a gerund ('pedindo') which is grammatically acceptable, but the use of the subjunctive ('que peçam') is more precise and formal in this context, improving grammatical accuracy and clarity.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Pegada digital",
+      "correction": "Pegada digital",
+      "description": "The term 'pegada digital' is correct and widely used in Brazilian Portuguese. No terminology issue found. No correction needed.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Fique informado e seguro!",
+      "correction": "Mantenha-se informado e seguro!",
+      "description": "The original phrase is understandable but 'Mantenha-se informado e seguro!' is more natural and commonly used in Brazilian Portuguese for calls to action, improving the style and tone.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Online_Safety.llm.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T21:47:49.298272",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

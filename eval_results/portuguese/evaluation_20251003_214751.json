@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "não metais",
+      "correction": "não-metais",
+      "description": "The term 'não metais' should be hyphenated as 'não-metais' according to Brazilian Portuguese orthographic rules for compound nouns. This ensures correct spelling and clarity in scientific terminology.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "semimetais",
+      "correction": "semi-metais",
+      "description": "The correct spelling in Brazilian Portuguese for this scientific term is 'semi-metais' with a hyphen, following the orthographic rules for prefixes. This improves lexical precision and aligns with standard chemistry terminology.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "🌟",
+      "correction": "",
+      "description": "The use of the star emoji '🌟' in educational content may be considered informal and less appropriate for academic materials in Brazilian Portuguese. It is recommended to remove the emoji to maintain a professional and neutral tone.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Periodic_Table.llm.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T21:47:51.808618",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

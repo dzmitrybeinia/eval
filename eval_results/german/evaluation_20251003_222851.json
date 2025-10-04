@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical|Grammar|Orthography",
+      "original": "Mitochondrien tragen nicht zur DNA-Bildung bei; sie sind hauptseteled in der ATP-Produktion, die Energie liefert. DNA-Synthese findet in der Zellkern statt.",
+      "correction": "Mitochondrien tragen nicht zur DNA-Bildung bei; sie sind hauptsächlich an der ATP-Produktion beteiligt, die Energie liefert. Die DNA-Synthese findet im Zellkern statt.",
+      "description": "The original text contains a spelling error ('hauptseteled' should be 'hauptsächlich'), incorrect preposition usage ('in der Zellkern' should be 'im Zellkern'), and a lexical inaccuracy ('hauptsächlich an der ATP-Produktion beteiligt' is the correct phrase for describing the mitochondria's role). These errors affect both clarity and grammatical correctness.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar|Lexical",
+      "original": "Eine Zelle benötigt einen Zellkern, um ihre Funktionen zu steuern und als Zellkern bekannt. Mitochondrien sind die Zelle, die für die Energieproduktion verantwortlich ist. Die Zusammenarbeit von Zellbestandteilen ist entscheidend für die Gesundheit und das Funktionieren der Zelle.",
+      "correction": "Eine Zelle benötigt einen Zellkern, um ihre Funktionen zu steuern. Mitochondrien sind die Zellorganellen, die für die Energieproduktion verantwortlich sind. Die Zusammenarbeit der Zellbestandteile ist entscheidend für die Gesundheit und das Funktionieren der Zelle.",
+      "description": "The original text contains grammatical and lexical errors: 'und als Zellkern bekannt' is an incorrect and confusing phrase, and 'Mitochondrien sind die Zelle' is incorrect; mitochondria are organelles, not cells. The corrected version clarifies the meaning and uses proper terminology. Additionally, 'Zusammenarbeit von Zellbestandteilen' should use the genitive 'Zusammenarbeit der Zellbestandteile' for standard German.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Cell_Parts.slm.md",
+    "language": "German",
+    "timestamp": "2025-10-03T22:28:51.330676",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.6,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

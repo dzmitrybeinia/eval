@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "In vielen Ländern bieten Wahlberechtigten die Möglichkeit, ihre Stimme auch per Brief oder Fax abzugeben, wenn sie nicht persönlich teilnehmen können.",
+      "correction": "In vielen Ländern haben Wahlberechtigte die Möglichkeit, ihre Stimme auch per Briefwahl abzugeben, wenn sie nicht persönlich teilnehmen können.",
+      "description": "The original sentence incorrectly uses 'Fax' as a voting method, which is not a standard or widely accepted way to cast votes in German-speaking countries. The term 'Briefwahl' is the culturally appropriate and legally recognized method for absentee voting. Additionally, 'Wahlberechtigten bieten' is grammatically incorrect; the correct subject is 'Wahlberechtigte haben die Möglichkeit'. This correction addresses both the cultural inaccuracy and the grammatical error.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Jeder Bürger muss sich vor den Wahlbeginn registrieren lassen.",
+      "correction": "Jeder Bürger muss sich vor dem Wahlbeginn registrieren lassen.",
+      "description": "The preposition 'vor' requires the dative case, so 'den Wahlbeginn' should be 'dem Wahlbeginn'. This is a grammatical error affecting case usage and must be corrected for proper German syntax.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "In vielen Ländern bieten Wahlberechtigten die Möglichkeit, ihre Stimme auch per Brief oder Fax abzugeben, wenn sie nicht persönlich teilnehmen können.",
+      "correction": "In vielen Ländern haben Wahlberechtigte die Möglichkeit, ihre Stimme auch per Briefwahl abzugeben, wenn sie nicht persönlich teilnehmen können.",
+      "description": "The phrase 'bieten Wahlberechtigten die Möglichkeit' is grammatically incorrect because 'Wahlberechtigten' is dative plural, but the sentence structure requires the nominative plural 'Wahlberechtigte' as the subject. The correct construction is 'Wahlberechtigte haben die Möglichkeit'. This correction ensures proper subject-verb agreement and case usage.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Voting_Process.slm.md",
+    "language": "German",
+    "timestamp": "2025-10-03T22:31:35.926779",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.1,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.9,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.6,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

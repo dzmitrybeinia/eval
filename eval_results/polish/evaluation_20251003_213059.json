@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Burza mózgów – Wspólnie poszukajcie rozwiązania, które zadowoli obie strony.",
+      "correction": "Burza mózgów – Wspólnie poszukajcie rozwiązania, które zadowoli obie strony.",
+      "description": "The phrase 'Burza mózgów' is correctly used as a noun meaning 'brainstorming.' However, in Polish educational contexts, it is more natural to use the verb form 'Przeprowadźcie burzę mózgów' to indicate the action. The current form is grammatically correct but could be improved for clarity and naturalness by using the verb form. No grammatical errors are present, but a minor stylistic adjustment would enhance the instructional tone.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "🌟",
+      "correction": "",
+      "description": "The use of the star emoji '🌟' in educational Polish content may be considered informal and less appropriate for formal or instructional materials. While emojis can engage younger audiences, their use should be consistent with the overall tone and age group. In this context, omitting the emoji or replacing it with a more neutral visual element would be preferable for professional educational settings.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Conflict_Resolution.llm.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T21:30:59.826530",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.8,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.2,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

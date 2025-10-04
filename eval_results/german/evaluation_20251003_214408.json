@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "dass keine Zweig zu mächtig wird",
+      "correction": "dass kein Zweig zu mächtig wird",
+      "description": "The indefinite article 'keine' is incorrectly used with the masculine noun 'Zweig'. The correct form is 'kein Zweig', matching the gender and case. This error affects grammatical agreement and clarity. No other linguistic or localization issues are present in this span.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Checks and Balances",
+      "correction": "Gewaltenteilung und gegenseitige Kontrolle",
+      "description": "The English term 'Checks and Balances' is used in quotation marks throughout the content. While it is sometimes referenced in German political discourse, a more natural and educationally appropriate translation for German learners is 'Gewaltenteilung und gegenseitige Kontrolle'. This improves comprehension and aligns with standard German terminology for the concept. No linguistic errors are present in this span.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "Zwei-Drittel-Mehrheit",
+      "correction": "Zweidrittelmehrheit",
+      "description": "The term 'Zwei-Drittel-Mehrheit' is formatted with unnecessary hyphens. In standard German, 'Zweidrittelmehrheit' is written as a single compound noun without hyphens, following orthographic conventions for compound words. This improves naturalness and consistency. No linguistic errors are present in this span.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Government_Structure_1.llm.md",
+    "language": "German",
+    "timestamp": "2025-10-03T21:44:08.544678",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

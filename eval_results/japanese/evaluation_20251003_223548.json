@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "定数は変数と同じように変わることがあります。",
+      "correction": "定数は変数と同じように変わることはありません。",
+      "description": "The original statement incorrectly uses the verb '変わることがあります' (can change) for '定数' (constant), which is a contradiction in mathematical terminology. Grammatically, the sentence is correct, but the meaning is inaccurate and misleading for educational content. The correction clarifies that constants do not change like variables.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "方程式は2つの式が等しいかどうかを表すものです。",
+      "correction": "方程式は2つの項が等しい状態を表すものです。",
+      "description": "The original uses '式' (expressions) instead of '項' (terms), which is less precise in the context of basic algebra. Additionally, '等しいかどうかを表す' (expresses whether they are equal) is ambiguous; an equation asserts equality, not just the possibility. The correction improves both lexical precision and clarity.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "方程式は2つの項が等しい状慁を表すものであり、それによって解を見つけるために使用されます。",
+      "correction": "方程式は2つの項が等しい状態を表すものであり、それによって解を見つけるために使用されます。",
+      "description": "The original contains a typographical error: '状慁' should be '状態'. This is a kanji misselection that affects readability and comprehension. The correction replaces the incorrect character with the correct one.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "本質的にはそうです。代数において、変数は未知の数を表しています。その値を確認するために、代数的な操作を通じて解くことができます。",
+      "correction": "基本的にはそうです。代数において、変数は未知の数を表しています。その値を求めるために、代数的な操作を通じて解くことができます。",
+      "description": "The phrase '本質的にはそうです' is overly formal and philosophical for basic educational feedback. '基本的にはそうです' is more natural and appropriate for the context. Additionally, 'その値を確認するために' (to confirm the value) is less precise than 'その値を求めるために' (to find the value), which is standard in algebra education.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "経済学では、変数を使って消費行動や市場の動態をモデル化します。物理学では、変数を使って物体の状態や動きを表します。これらの例は、日常生活や学習する際に変数と定数の基本的な使用を理解するための実際のシナリオを提供します。",
+      "correction": "経済学では、変数を使って消費行動や市場の動向をモデル化します。物理学では、変数を使って物体の状態や動きを表します。これらの例は、日常生活や学習の場面で変数と定数の基本的な使い方を理解するための実際のシナリオを提供します。",
+      "description": "The term '市場の動態' is less commonly used than '市場の動向' in Japanese economics education. Also, '学習する際に' is less natural than '学習の場面で'. The phrase '基本的な使用' is better expressed as '基本的な使い方'. These changes improve the naturalness and educational appropriateness of the feedback.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Basic_Algebra.slm.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-03T22:35:48.336908",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.0,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 1.0,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.8,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

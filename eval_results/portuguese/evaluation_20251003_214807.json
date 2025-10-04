@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "skimming",
+      "correction": "leitura dinâmica",
+      "description": "The term 'skimming' is used in English to describe a reading technique, but in Brazilian Portuguese, the direct use of 'skimming' is uncommon and may sound unnatural or overly technical to learners. The more culturally appropriate and widely understood term is 'leitura dinâmica', which conveys the intended meaning in a natural way. Using the English term without adaptation can hinder comprehension and reduce the educational effectiveness of the content.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "scanning",
+      "correction": "leitura seletiva",
+      "description": "The term 'scanning' is borrowed directly from English and, while sometimes used in academic contexts, is not the most natural or widely recognized term in Brazilian Portuguese for this reading strategy. 'Leitura seletiva' is a more appropriate and familiar term for the target audience, ensuring better understanding and cultural alignment. Using 'scanning' without explanation or adaptation may confuse learners and reduce the clarity of the lesson.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "artigo de notícias",
+      "correction": "artigo de notícia",
+      "description": "In Brazilian Portuguese, 'notícia' is typically used in the singular when referring to a news article ('artigo de notícia'). The plural form 'notícias' is used when referring to multiple news items or articles. In this context, the singular is more precise and idiomatic, improving the linguistic accuracy and naturalness of the phrase.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Estatísticas sobre aumento de temperatura, exemplos de espécies afetadas e citações de cientistas.",
+      "correction": "Estatísticas sobre o aumento da temperatura, exemplos de espécies afetadas e citações de cientistas.",
+      "description": "The phrase 'aumento de temperatura' is missing the definite article 'o' and the preposition 'da' to indicate 'the increase in temperature' ('o aumento da temperatura'). This omission affects grammatical correctness and clarity, as the article and preposition are required for proper noun phrase construction in Portuguese.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Essas técnicas irão ajudá-lo a analisar textos com confiança e eficiência. 📚",
+      "correction": "Essas técnicas irão ajudá-lo a analisar textos com confiança e eficiência.",
+      "description": "The use of the book emoji (📚) at the end of a formal educational sentence may be considered informal or unprofessional in Brazilian Portuguese academic contexts. While emojis can add visual interest, they are generally avoided in formal instructional materials to maintain a professional tone and ensure cultural appropriateness.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Reading_Strategies.llm.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T21:48:07.345311",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.3,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 0.7,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.5,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

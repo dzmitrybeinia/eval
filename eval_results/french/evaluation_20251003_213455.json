@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Dinde et sauce aux canneberges pendant Thanksgiving (symbolisant la récolte et la gratitude)",
+      "correction": "Dinde et sauce aux canneberges pendant Thanksgiving (symbolisant la récolte et la gratitude)",
+      "description": "The word 'canneberges' is correct in standard French, but in some regions, 'cranberries' is used as a loanword. For educational content, 'canneberges' is preferred for linguistic accuracy and clarity. No correction needed, but educators should be aware of regional lexical variation.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Thanksgiving aux États-Unis",
+      "correction": "Thanksgiving aux États-Unis (Action de grâce au Canada)",
+      "description": "The mention of 'Thanksgiving' is culturally accurate for the United States, but omits the Canadian equivalent 'Action de grâce'. For a global audience, it is important to acknowledge both versions to avoid cultural bias and improve inclusivity.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Le Nouvel An lunaire en Chine",
+      "correction": "Le Nouvel An lunaire (principalement célébré en Chine et dans d'autres pays d'Asie de l'Est)",
+      "description": "The phrase 'Le Nouvel An lunaire en Chine' is somewhat limiting, as the Lunar New Year is celebrated in multiple East Asian countries. For localization and inclusivity, the description should be broadened to reflect its wider cultural significance.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "motifs rangoli",
+      "correction": "motifs de rangoli",
+      "description": "The phrase 'motifs rangoli' lacks the preposition 'de', which is required for natural French expression. The correct term is 'motifs de rangoli', ensuring both linguistic accuracy and localization for French-speaking learners.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Cultural_Celebrations.llm.md",
+    "language": "French",
+    "timestamp": "2025-10-03T21:34:55.143295",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.5,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

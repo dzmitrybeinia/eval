@@ -1,0 +1,139 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Hoy aprenderemos cómo las fracciones nos ayudan a representar partes de un todo, como dividir una pizza o compartir dulces con amigos.",
+      "correction": "Hoy aprenderemos cómo las fracciones nos ayudan a representar partes de un todo, como dividir una pizza o compartir caramelos con amigos.",
+      "description": "The word 'dulces' is commonly used in Spain and some Latin American countries, but 'caramelos' is more universally understood and avoids regional ambiguity. Using 'caramelos' ensures broader comprehension and naturalness for Spanish-speaking learners across regions.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Por ejemplo, imagina un círculo (como una pizza) dividido en 4 partes iguales.",
+      "correction": "Por ejemplo, imagina un círculo (como una pizza) dividido en cuatro partes iguales.",
+      "description": "Numbers below ten should be written out in words in educational and formal Spanish texts for clarity and style consistency. '4' should be 'cuatro' to align with standard conventions.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Si una parte está sombreada, la fracción es 1/4.",
+      "correction": "Si una parte está sombreada, la fracción es 1/4.",
+      "description": "Although the use of numerals is acceptable in mathematical contexts, for consistency with previous correction, consider writing 'una cuarta parte' or '1/4' depending on the didactic approach. No critical error, but style consistency could be improved.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "En la vida real, si compartes una pizza con amigos y comes 2 de las 8 rebanadas, la fracción sería 2/8, equivalente a 1/4.",
+      "correction": "En la vida real, si compartes una pizza con amigos y comes dos de las ocho rebanadas, la fracción sería 2/8, equivalente a 1/4.",
+      "description": "Numbers below ten should be written out in words for style consistency in educational Spanish. '2' and '8' should be 'dos' and 'ocho'.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Visualiza un rectángulo dividido en 2 partes iguales con 1 parte sombreada (1/2). Si dividimos el mismo rectángulo en 4 partes iguales, 2 partes serán sombreadas (2/4).",
+      "correction": "Visualiza un rectángulo dividido en dos partes iguales con una parte sombreada (1/2). Si dividimos el mismo rectángulo en cuatro partes iguales, dos partes serán sombreadas (2/4).",
+      "description": "Numbers below ten should be written out in words for style consistency. '2', '1', and '4' should be 'dos', 'una', and 'cuatro'.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Si una pizza se divide en 12 rebanadas y comes 6, la fracción es 6/12, que se simplifica a 1/2.",
+      "correction": "Si una pizza se divide en doce rebanadas y comes seis, la fracción es 6/12, que se simplifica a 1/2.",
+      "description": "Numbers below ten should be written out in words for style consistency. '6' should be 'seis'. '12' can remain as a numeral due to its mathematical context, but consistency with previous corrections suggests 'doce'.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Si un pastel se corta en 8 partes y comes 3, la fracción es 3/8.",
+      "correction": "Si un pastel se corta en ocho partes y comes tres, la fracción es 3/8.",
+      "description": "Numbers below ten should be written out in words for style consistency. '8' and '3' should be 'ocho' and 'tres'.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Al cocinar, puedes usar 1/4 de taza de azúcar, representando una parte de un todo dividido en cuatro.",
+      "correction": "Al cocinar, puedes usar 1/4 de taza de azúcar, representando una parte de un todo dividido en cuatro.",
+      "description": "No critical error, but for style consistency, consider 'una cuarta parte de taza de azúcar'. The current form is acceptable in mathematical context.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Las operaciones básicas con fracciones incluyen:",
+      "correction": "Las operaciones básicas con fracciones incluyen:",
+      "description": "No linguistic or localization errors found. The style is appropriate for educational content.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Si tienen el mismo denominador, suma los numeradores. Ejemplo: 1/4 + 2/4 = 3/4.",
+      "correction": "Si tienen el mismo denominador, suma los numeradores. Ejemplo: 1/4 + 2/4 = 3/4.",
+      "description": "No critical error, but for style consistency, consider writing numbers below ten in words outside of mathematical expressions. Mathematical expressions are correctly presented in numerals.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Si tienen el mismo denominador, resta los numeradores. Ejemplo: 3/8 - 1/8 = 2/8.",
+      "correction": "Si tienen el mismo denominador, resta los numeradores. Ejemplo: 3/8 - 1/8 = 2/8.",
+      "description": "No critical error, mathematical expressions are correctly presented in numerals.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Multiplica numeradores y denominadores. Ejemplo: 1/2 × 1/3 = 1/6.",
+      "correction": "Multiplica numeradores y denominadores. Ejemplo: 1/2 × 1/3 = 1/6.",
+      "description": "No critical error, mathematical expressions are correctly presented in numerals.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Invierte la segunda fracción y multiplica. Ejemplo: 1/2 ÷ 1/3 = 1/2 × 3/1 = 3/2.",
+      "correction": "Invierte la segunda fracción y multiplica. Ejemplo: 1/2 ÷ 1/3 = 1/2 × 3/1 = 3/2.",
+      "description": "No critical error, mathematical expressions are correctly presented in numerals.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Las fracciones nos ayudan a representar partes de un todo, como compartir una pizza o medir ingredientes.",
+      "correction": "Las fracciones nos ayudan a representar partes de un todo, como compartir una pizza o medir ingredientes.",
+      "description": "No linguistic or localization errors found. The style is appropriate for educational content.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Fractions_Basics.llm.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-03T21:28:06.762087",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 8.6,
+    "classification": "PROFESSIONAL",
+    "total_issues": 14,
+    "total_penalty": 1.4,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 14,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 1.4,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

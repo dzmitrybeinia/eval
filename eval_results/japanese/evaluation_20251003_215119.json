@@ -1,0 +1,99 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "円は角や辺のない丸い形です。",
+      "correction": "円は角や辺がない丸い形です。",
+      "description": "The particle 'のない' is grammatically correct but less natural in this context. The phrase '角や辺がない' is more standard and idiomatic when describing the absence of features in Japanese. This improves clarity and naturalness.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "ピザや時計は円の形をしています！",
+      "correction": "ピザや時計は円の形をしています。",
+      "description": "The use of the exclamation mark is less common in formal Japanese educational content. Removing it aligns the tone with standard Japanese academic style, making the text more appropriate for the intended context.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "三角形は3つの直線と3つの角を持つ形状です。",
+      "correction": "三角形は3つの辺と3つの角を持つ形状です。",
+      "description": "The term '直線' (straight lines) is incorrect when describing the sides of a triangle. The correct term is '辺' (sides), which is the standard mathematical terminology in Japanese for polygons.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "鋭角（90°未満）、直角（90°）、鈍角（90°より大きい）のいずれかの角を持つことができます。",
+      "correction": "鋭角（90°未満）、直角（90°）、鈍角（90°より大きい）のいずれかの角を持つことがあります。",
+      "description": "The phrase '持つことができます' implies ability, which is unnatural when describing geometric properties. '持つことがあります' is the correct expression to indicate that a triangle may have these types of angles.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "家の屋根はしばしば三角形の形をしています。",
+      "correction": "家の屋根は三角形の形をしていることが多いです。",
+      "description": "The phrase 'しばしば' is grammatically correct but less natural in this context. '〜ことが多いです' is a more idiomatic and commonly used expression in Japanese when describing frequent occurrences.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "正方形は4つの等しい辺と4つの直角（90°）を持つ形状です。",
+      "correction": "正方形は4つの同じ長さの辺と4つの直角（90°）を持つ形状です。",
+      "description": "The phrase '等しい辺' is understandable but '同じ長さの辺' is the standard mathematical expression in Japanese for describing equal-length sides.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "チェスボードや窓枠はしばしば正方形の形をしています。",
+      "correction": "チェスボードや窓枠は正方形の形をしていることが多いです。",
+      "description": "Similar to a previous issue, 'しばしば' is less natural in this context. '〜ことが多いです' is more idiomatic and aligns with standard Japanese usage for describing frequent characteristics.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "円は曲線を持ち、三角形と正方形は直線を持ちます。",
+      "correction": "円は曲線でできており、三角形と正方形は直線でできています。",
+      "description": "The verb '持つ' (to have) is not appropriate for describing the composition of shapes in Japanese. '〜でできている' (is made of) is the correct and natural way to express that a shape consists of certain lines.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "遊び場の形状を考えてみてください。タイヤ（円）、滑り台の屋根（三角形）、地面のタイル（正方形）。",
+      "correction": "遊び場の形状を考えてみましょう。タイヤ（円）、滑り台の屋根（三角形）、地面のタイル（正方形）。",
+      "description": "The phrase '考えてみてください' is polite but less natural in educational content aimed at children or general audiences. '考えてみましょう' is more engaging and commonly used in Japanese educational materials.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Geometry_Basics.llm.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-03T21:51:19.237385",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 8.7,
+    "classification": "PROFESSIONAL",
+    "total_issues": 9,
+    "total_penalty": 1.3,
+    "issue_breakdown": {
+      "linguistic": 5,
+      "localization": 4,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.9,
+      "localization_penalty": 0.4,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

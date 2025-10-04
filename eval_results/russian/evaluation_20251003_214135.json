@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Пример: На президентских выборах в США в 2000 году результат был определен всего 537 голосами в штате Флорида, подчеркивая важность участия каждого гражданина.",
+      "correction": "Пример: На президентских выборах в США в 2000 году результат был определён всего 537 голосами в штате Флорида, что подчёркивает важность участия каждого гражданина.",
+      "description": "The original sentence uses a culturally specific example (the 2000 US presidential election) that may not be immediately relevant or familiar to Russian learners. While the example is educational, it could be supplemented with a more locally relevant scenario for better engagement. Additionally, the participial phrase 'подчеркивая важность' is less natural in Russian in this context; using 'что подчёркивает важность' improves clarity and flow. The word 'определен' should use the correct accent: 'определён'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Пример: Сайты, такие как Ballotpedia, предоставляют непредвзятую информацию о кандидатах и инициативах.",
+      "correction": "Пример: Сайты, такие как Ballotpedia, предоставляют непредвзятую информацию о кандидатах и инициативах.",
+      "description": "No linguistic errors are present in this sentence. The spelling, punctuation, and word choice are correct. The use of the English website name 'Ballotpedia' is appropriate in this context, as it is a proper noun and relevant to the example.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "Пример: На выборах 2020 года в США голосование по почте стало важным вариантом из-за пандемии COVID-19.",
+      "correction": "Пример: На выборах 2020 года в США голосование по почте стало важным вариантом из-за пандемии COVID-19.",
+      "description": "The sentence is linguistically correct, but the reference to 'пандемии COVID-19' and mail-in voting is highly US-centric. For Russian learners, it would be beneficial to mention whether similar practices exist in Russia or to provide a comparative note for better localization. The date format '2020 года' is appropriate for Russian.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Примеры реальных выборов демонстрируют, как участие граждан влияет на общество, подчеркивая важность демократических принципов и активного голосования.",
+      "correction": "Примеры реальных выборов демонстрируют, как участие граждан влияет на общество, подчёркивая важность демократических принципов и активного голосования.",
+      "description": "The word 'подчеркивая' should be spelled with the correct accent: 'подчёркивая'. This is a common orthographic error in Russian, especially in educational materials. The rest of the sentence is grammatically and stylistically correct.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Voting_Process.llm.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T21:41:35.337723",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

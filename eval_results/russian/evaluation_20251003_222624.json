@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "В России президент elected by a direct national vote, a process known as a presidential election, which is a part of the democratic system designed to ensure that the highest office in the land is chosen by the people.",
+      "correction": "В России президент избирается путем прямого национального голосования, что является частью демократической системы, обеспечивающей выбор высшей должности в стране народом.",
+      "description": "The feedback contains a code-switching error where the English word 'elected' is used instead of the correct Russian verb 'избирается'. This disrupts comprehension and is a clear linguistic error. The sentence should be fully in Russian for consistency and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Верховный суд имеет широкие pouvoir для рассмотрения различных вопросов, включая споры не только между государственными уровнями, но и между ютизим и государством.",
+      "correction": "Верховный суд имеет широкие полномочия для рассмотрения различных вопросов, включая споры не только между государственными уровнями, но и между юридическими лицами и государством.",
+      "description": "The word 'pouvoir' is a French loanword and is not appropriate in Russian; the correct term is 'полномочия'. Additionally, 'ютизим' appears to be a typographical or lexical error, likely intended to be 'юридическими лицами'. Both errors affect clarity and accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Великая Советская Дума является основным органом власти в Советской России, но в Конституции США указано, что правительство разделено на три ветви: законодательную, исполнительную и судебную.",
+      "correction": "Великая Советская Дума была основным органом власти в Советской России, но в Конституции США указано, что правительство разделено на три ветви: законодательную, исполнительную и судебную.",
+      "description": "The phrase 'является основным органом власти в Советской России' uses present tense ('является') for an institution that no longer exists. For historical accuracy and cultural appropriateness, the past tense ('была') should be used.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Government_Structure.slm.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T22:26:24.746873",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.2,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.8,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.6,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

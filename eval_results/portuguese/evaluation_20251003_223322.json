@@ -1,0 +1,35 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax|Lexical",
+      "original": "A comunicação aberta e honesta, usando 'Eu' frases, é crucial para entender perspectivas e encontrar uma solução que respeite os sentimentos de todos envolvidos.",
+      "correction": "A comunicação aberta e honesta, usando frases com 'Eu', é crucial para entender perspectivas e encontrar uma solução que respeite os sentimentos de todos os envolvidos.",
+      "description": "The phrase 'usando 'Eu' frases' is syntactically incorrect in Portuguese. The correct structure is 'usando frases com 'Eu''. Additionally, 'todos envolvidos' lacks the definite article 'os', which is required for proper grammatical agreement: 'todos os envolvidos'. Both issues affect clarity and grammatical correctness.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Friendship_Skills.slm.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T22:33:22.599546",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.8,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.2,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

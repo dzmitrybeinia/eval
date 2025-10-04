@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "estações eleitorais",
+      "correction": "locais de votação",
+      "description": "The term 'estações eleitorais' is a literal translation of 'polling stations' and is not commonly used in Brazilian Portuguese. The culturally appropriate and standard term is 'locais de votação', which is widely understood and used in Brazil. Using the correct terminology ensures clarity and naturalness for the target audience.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "cédulas enviadas pelo correio",
+      "correction": "voto por correspondência",
+      "description": "The phrase 'cédulas enviadas pelo correio' is a literal translation and not the standard way to refer to mail-in voting in Brazilian Portuguese. The accepted term is 'voto por correspondência', which aligns with local conventions and improves comprehension.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "registro de eleitores",
+      "correction": "alistamento eleitoral",
+      "description": "The term 'registro de eleitores' is a direct translation of 'voter registration' but the standard term in Brazilian Portuguese is 'alistamento eleitoral'. Using the correct term ensures cultural appropriateness and aligns with local electoral terminology.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Voting_Process.llm.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T21:48:35.129381",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.4,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

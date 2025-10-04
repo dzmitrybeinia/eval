@@ -1,0 +1,75 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "La lectura rápida es una técnica para comprender rápidamente el mensaje principal de un texto sin detallar cada palabra.",
+      "correction": "La lectura rápida es una técnica para comprender rápidamente el mensaje principal de un texto sin leer cada palabra en detalle.",
+      "description": "The phrase 'sin detallar cada palabra' is not idiomatic in Spanish. The correct and natural expression is 'sin leer cada palabra en detalle.' This correction improves lexical precision and naturalness, ensuring the sentence is clear and idiomatic for Spanish speakers.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Se basa en elementos visuales del texto como títulos, encabezados y elementos destacados para obtener una visión general.",
+      "correction": "Se basa en elementos visuales del texto, como títulos, subtítulos y palabras destacadas, para obtener una visión general.",
+      "description": "The term 'encabezados' is less commonly used than 'subtítulos' in educational contexts for Spanish. Additionally, 'elementos destacados' is vague; 'palabras destacadas' is more precise and natural. This correction enhances clarity and aligns with standard terminology in Spanish educational materials.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Se basa en reconocer palabras clave o pistas visuales para encontrar los datos necesarios de manera eficiente.",
+      "correction": "Se basa en reconocer palabras clave o pistas visuales para encontrar la información necesaria de manera eficiente.",
+      "description": "The use of 'los datos necesarios' is less precise in this context; 'la información necesaria' is more accurate and natural when referring to reading strategies. This correction improves lexical precision and clarity.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "En la lectura detallada, el objetivo es comprender profundamente el contenido, lo que implica tomar notas y revisar el material para asegurar una comprensión completa.",
+      "correction": "En la lectura detallada, el objetivo es comprender a fondo el contenido, lo que implica tomar notas y revisar el material para asegurar una comprensión completa.",
+      "description": "The phrase 'comprender profundamente' is less idiomatic than 'comprender a fondo' in Spanish educational contexts. The correction improves naturalness and aligns with standard usage.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "La lectura rápida es ideal para obtener una idea general de un texto, no para leer un artículo completo.",
+      "correction": "La lectura rápida es ideal para obtener una visión general de un texto, no para leer un artículo completo.",
+      "description": "The term 'idea general' is less precise than 'visión general' in Spanish educational contexts. 'Visión general' is the standard term for summarizing content, improving clarity and consistency.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Escaneo es una técnica de lectura que ayuda a localizar rápidamente información específica dentro de un texto, lo cual es útil para obtener información importante de manera eficiente.",
+      "correction": "El escaneo es una técnica de lectura que ayuda a localizar rápidamente información específica dentro de un texto, lo cual es útil para obtener datos importantes de manera eficiente.",
+      "description": "The sentence lacks the definite article 'El' before 'escaneo,' which is required for naturalness in Spanish. Additionally, 'información importante' can be replaced with 'datos importantes' for variety and precision, as 'datos' is commonly used in educational contexts.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Reading_Strategies.slm.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-03T22:12:21.430959",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.3,
+    "classification": "NATIVE",
+    "total_issues": 6,
+    "total_penalty": 0.7,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 4,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.4,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

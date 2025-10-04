@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Bienvenue dans le monde fascinant de la chimie ! Aujourd'hui, nous allons découvrir le tableau périodique, un outil essentiel qui nous aide à comprendre les éléments chimiques et leurs relations. 🌟",
+      "correction": "Bienvenue dans le monde fascinant de la chimie ! Aujourd'hui, nous allons découvrir le tableau périodique, un outil essentiel qui nous aide à comprendre les éléments chimiques et leurs relations.",
+      "description": "The use of the emoji 🌟 is not standard in formal French educational content and may be perceived as informal or distracting in academic contexts. Removing the emoji ensures the tone remains professional and appropriate for educational materials.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Les métaux, non-métaux et métalloïdes se distinguent par leurs propriétés physiques et chimiques. Les métaux sont conducteurs et malléables, les non-métaux sont cassants et isolants, et les métalloïdes possèdent des propriétés intermédiaires.",
+      "correction": "Les métaux, non-métaux et métalloïdes se distinguent par leurs propriétés physiques et chimiques. Les métaux sont conducteurs et malléables, les non-métaux sont généralement cassants et isolants, et les métalloïdes possèdent des propriétés intermédiaires.",
+      "description": "The statement 'les non-métaux sont cassants et isolants' is an overgeneralization. Not all non-metals are brittle or insulators (e.g., le carbone sous forme de graphite est conducteur). Adding 'généralement' clarifies that these are typical but not universal properties, improving scientific accuracy and localization for French science education.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Periodic_Table.llm.md",
+    "language": "French",
+    "timestamp": "2025-10-03T21:36:18.040300",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "bojkocie autobusowym w Montgomery",
+      "correction": "bojkocie autobusów w Montgomery",
+      "description": "The phrase 'bojkocie autobusowym w Montgomery' incorrectly uses the adjective 'autobusowym' instead of the noun 'autobusów' in the locative case. The correct collocation in Polish is 'bojkot autobusów', and in the locative case it should be 'bojkocie autobusów'. This error affects grammatical correctness and naturalness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Student Nonviolent Coordinating Committee (SNCC)",
+      "correction": "Komitet Koordynacyjny Studentów na rzecz Niestosowania Przemocy (SNCC)",
+      "description": "The name 'Student Nonviolent Coordinating Committee (SNCC)' is left untranslated, which may hinder comprehension for learners unfamiliar with English acronyms. For educational clarity and localization, the organization name should be provided in Polish, followed by the English acronym in parentheses.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Marsz na Waszyngton",
+      "correction": "Marsz na Waszyngton w 1963 roku",
+      "description": "The phrase 'Marsz na Waszyngton' lacks a date, which is important for clarity and context in Polish educational materials. Adding 'w 1963 roku' ensures the event is clearly identified and aligns with Polish style conventions for historical references.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Jima Crowa",
+      "correction": "Jima Crowa (Jim Crow laws)",
+      "description": "The term 'Jima Crowa' is a direct adaptation of 'Jim Crow', which may not be immediately clear to Polish learners. For cultural clarity, it is recommended to add the English term in parentheses: 'Jima Crowa (Jim Crow laws)'.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Civil_Rights_Movement.llm.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T21:30:48.466276",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.4,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

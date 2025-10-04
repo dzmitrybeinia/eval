@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "プレートの半分を果物と野菜で埋める。",
+      "correction": "プレートの半分を果物と野菜で満たす。",
+      "description": "The verb '埋める' typically means 'to bury' or 'to fill in a hole,' which is unnatural when describing filling a plate with food. The more appropriate verb in this context is '満たす,' which means 'to fill' or 'to cover' in a positive sense. This correction improves both grammatical accuracy and naturalness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "七面鳥サンドイッチ",
+      "correction": "チキンサンドイッチ",
+      "description": "Turkey sandwiches are not commonly consumed in Japan and may not be culturally familiar to the target audience. Replacing '七面鳥サンドイッチ' with 'チキンサンドイッチ' provides a more relatable and culturally appropriate example for Japanese learners.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "バランスの取れたプレート",
+      "correction": "バランスの取れた食事",
+      "description": "The term 'プレート' (plate) is a loanword from English and is less natural in Japanese educational contexts, where '食事' (meal) is preferred. Using 'バランスの取れた食事' aligns better with standard Japanese style and avoids unnecessary anglicism.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Healthy_Eating.llm.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-03T21:51:33.390621",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

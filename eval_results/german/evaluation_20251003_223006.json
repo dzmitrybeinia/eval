@@ -1,0 +1,35 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Brüche repräsentieren Teile eines Ganzen, und da ein Ganzes ein komplettes Stück darstellt, kann ein Bruch nicht größer als ein Ganzes sein. Brüche werden verwendet, um Teile eines Ganzen zu beschreiben, die kleiner als das Ganze sein können, wie z. B. ein halber Apfel oder ein Viertel einer Pizza.",
+      "correction": "Brüche repräsentieren Teile eines Ganzen, aber ein Bruch kann auch größer als ein Ganzes sein, wenn der Zähler größer als der Nenner ist. Zum Beispiel ist 5/4 größer als 1. Brüche werden verwendet, um Teile eines Ganzen zu beschreiben, aber auch Mengen, die größer als ein Ganzes sind.",
+      "description": "The feedback contains a factual error regarding fractions: it incorrectly states that a fraction cannot be greater than a whole, which is misleading in mathematical education. This is a cultural and conceptual localization issue, as German math curricula recognize improper fractions (e.g., 5/4 > 1). The explanation should clarify that fractions can represent quantities greater than one when the numerator exceeds the denominator. This correction is critical for accurate mathematical understanding.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Fractions_Basics.slm.md",
+    "language": "German",
+    "timestamp": "2025-10-03T22:30:06.227932",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

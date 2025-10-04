@@ -1,0 +1,99 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Zawartość żywieniowa omała zboża, aby zapobiec nadmiernemu spożyciu węglowodanów.",
+      "correction": "Zawartość żywieniowa omawiała zboża, aby zapobiec nadmiernemu spożyciu węglowodanów.",
+      "description": "The verb 'omała' is incorrect; the correct form is 'omawiała' (third person singular, imperfective aspect, past tense). This error affects grammatical accuracy and comprehension.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "W zdrowym zrównoważonej diecie zboża odgrywa kluczową rolę jako źródło węglowodanów, które są niezbędne do dostarczania energii organizmowi.",
+      "correction": "W zdrowej, zrównoważonej diecie zboża odgrywają kluczową rolę jako źródło węglowodanów, które są niezbędne do dostarczania energii organizmowi.",
+      "description": "There are multiple grammatical errors: 'W zdrowym zrównoważonej diecie' should be 'W zdrowej, zrównoważonej diecie' (correct case and gender agreement), and 'zboża odgrywa' should be 'zboża odgrywają' (plural subject requires plural verb). These errors significantly affect clarity and correctness.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Zmniejszanie spożycia zboża może prowadzić do braku niezbędnych składników odżywiania.",
+      "correction": "Zmniejszanie spożycia zbóż może prowadzić do braku niezbędnych składników odżywczych.",
+      "description": "The noun 'zboża' should be in plural 'zbóż' to match the context, and 'składników odżywiania' should be 'składników odżywczych' (correct adjective form). These errors affect grammatical accuracy and semantic precision.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Zrównoważona dieta wymaga równoważenia różnych grup żywności, a nie skupienia się na jednej, jak zbożach.",
+      "correction": "Zrównoważona dieta wymaga równoważenia różnych grup żywności, a nie skupiania się na jednej, jak na zbożach.",
+      "description": "The phrase 'skupienia się na jednej, jak zbożach' is incorrect; it should be 'skupiania się na jednej, jak na zbożach' to maintain proper grammatical structure and case usage.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Zawiera wszystkie grupę żywności, aby zapewnić wszystkie potrzebne żywności, w tym węglowodany, białko, tłuszcz, witaminy i minerały.",
+      "correction": "Zawiera wszystkie grupy żywności, aby zapewnić wszystkie potrzebne składniki odżywcze, w tym węglowodany, białko, tłuszcze, witaminy i minerały.",
+      "description": "There are multiple errors: 'wszystkie grupę żywności' should be 'wszystkie grupy żywności' (plural noun), and 'wszystkie potrzebne żywności' should be 'wszystkie potrzebne składniki odżywcze' (correct terminology and grammatical form). Also, 'tłuszcz' should be plural 'tłuszcze' to match the list. These errors affect both grammar and lexical precision.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "To jest prawda, ponieważ węglowodany są zbudowane z jednolikowego szkieletu glukozy, co czyni je łatwą do przenoszenia energią przez organizm.",
+      "correction": "To jest prawda, ponieważ węglowodany są zbudowane z jednolitego szkieletu glukozy, co czyni je łatwą do przyswajania energią przez organizm.",
+      "description": "The word 'jednolikowego' is incorrect; the correct term is 'jednolitego'. Also, 'łatwą do przenoszenia energią' is unnatural; 'łatwą do przyswajania energią' is more accurate and idiomatic. These errors affect lexical precision and naturalness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "W przeciwieństwie do białek i tłuszczów, które wymagają większego czasu przetwórczego.",
+      "correction": "W przeciwieństwie do białek i tłuszczów, które wymagają więcej czasu na przetworzenie.",
+      "description": "The phrase 'większego czasu przetwórczego' is grammatically incorrect and unnatural. The correct form is 'więcej czasu na przetworzenie'. This error affects grammatical accuracy and clarity.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Węglowodany są kluczowe w dietach, które zaspokaja szybkie potrzeby energii, jak wspomniano w przykładzie dotyczącym sportowców.",
+      "correction": "Węglowodany są kluczowe w dietach, które zaspokajają szybkie potrzeby energii, jak wspomniano w przykładzie dotyczącym sportowców.",
+      "description": "The verb 'zaspokaja' should be 'zaspokajają' to agree with the plural subject 'diety'. This error affects grammatical agreement and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Dzięki zawartości witaminy C i błonnika w owocach i warzywach, organizm może lepiej zarządzać energią i koncentracją.",
+      "correction": "Dzięki zawartości witaminy C i błonnika w owocach i warzywach organizm może lepiej zarządzać energią i koncentracją.",
+      "description": "There is an unnecessary comma after 'warzywach'. In Polish, a comma is not required before the main clause when the introductory phrase is short. This is a minor punctuation issue.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Healthy_Eating.slm.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T22:16:22.891882",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 7.8,
+    "classification": "ACCEPTABLE",
+    "total_issues": 9,
+    "total_penalty": 2.2,
+    "issue_breakdown": {
+      "linguistic": 9,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 2.2,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

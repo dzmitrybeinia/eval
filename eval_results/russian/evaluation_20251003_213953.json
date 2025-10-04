@@ -1,0 +1,131 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Добро пожаловать в увлекательный мир дробей! 📏 Дроби помогают нам описывать части целого, используя два числа: числитель и знаменатель. Сегодня мы узнаем, как находить дроби, сравнивать их и понимать их эквивалентность с помощью моделей.",
+      "correction": "Добро пожаловать в увлекательный мир дробей! 📏 Дроби помогают нам описывать части целого с помощью двух чисел: числителя и знаменателя. Сегодня мы узнаем, как находить дроби, сравнивать их и понимать их эквивалентность с помощью моделей.",
+      "description": "The phrase 'используя два числа' is slightly unnatural in Russian educational style; 'с помощью двух чисел' is more idiomatic and aligns better with standard Russian math terminology. This improves the naturalness and clarity of the introduction for Russian learners.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Дробь представляет часть целого. Она записывается в виде двух чисел: **числителя** (вверху) и **знаменателя** (внизу).",
+      "correction": "Дробь — это часть целого. Она записывается двумя числами: **числителем** (вверху) и **знаменателем** (внизу).",
+      "description": "The phrase 'Дробь представляет часть целого' is grammatically correct but less natural than 'Дробь — это часть целого' in Russian educational context. Also, 'в виде двух чисел' is less idiomatic than 'двумя числами'. These changes improve the naturalness and clarity for Russian learners.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "**Числитель** показывает, сколько частей рассматривается.\n**Знаменатель** показывает, на сколько равных частей разделено целое.",
+      "correction": "**Числитель** показывает, сколько частей рассматривается.\n**Знаменатель** показывает, на сколько равных частей делится целое.",
+      "description": "The phrase 'разделено целое' is understandable but 'делится целое' is more natural and commonly used in Russian math education. This change enhances the clarity and idiomatic expression.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "**Числитель** — это верхнее число, показывающее, сколько частей рассматривается.\n**Знаменатель** — это нижнее число, показывающее, на сколько равных частей разделено целое.",
+      "correction": "**Числитель** — это верхнее число, показывающее, сколько частей рассматривается.\n**Знаменатель** — это нижнее число, показывающее, на сколько равных частей делится целое.",
+      "description": "Similar to previous, 'разделено целое' is less idiomatic than 'делится целое' in Russian math terminology. This correction improves the naturalness and educational clarity.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Дроби можно сравнивать, чтобы определить, какая больше или меньше.\nДля сравнения дробей можно использовать **визуальные модели**, такие как полоски дробей или числовые прямые.",
+      "correction": "Дроби можно сравнивать, чтобы определить, какая из них больше или меньше.\nДля сравнения дробей можно использовать **визуальные модели**, такие как полоски дробей или числовые прямые.",
+      "description": "The phrase 'какая больше или меньше' is ambiguous; 'какая из них больше или меньше' is clearer and more precise in Russian educational context. This improves clarity for learners.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Сравните **1/2** и **1/4** с помощью полоски дробей:\n- **1/2** больше, так как представляет большую часть целого, чем **1/4**.",
+      "correction": "Сравните **1/2** и **1/4** с помощью полоски дробей:\n- **1/2** больше, так как это большая часть целого по сравнению с **1/4**.",
+      "description": "The phrase 'представляет большую часть целого, чем' is understandable but 'это большая часть целого по сравнению с' is more natural and idiomatic in Russian math explanations.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Две дроби эквивалентны, если они представляют одинаковую величину, даже если числитель и знаменатель разные.",
+      "correction": "Две дроби эквивалентны, если они выражают одинаковую величину, даже если числитель и знаменатель разные.",
+      "description": "The verb 'представляют' is acceptable, but 'выражают' is more precise and commonly used in Russian math terminology when discussing equivalence of fractions.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "**Правило:** Умножение или деление числителя и знаменателя на одно и то же число не изменяет значение дроби.",
+      "correction": "**Правило:** Если числитель и знаменатель умножить или разделить на одно и то же число, значение дроби не изменится.",
+      "description": "The original sentence is grammatically correct but less natural. The correction uses a more standard Russian construction for math rules, improving clarity and idiomatic expression.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Визуальные модели помогают увидеть, почему две дроби эквивалентны.",
+      "correction": "Визуальные модели помогают понять, почему две дроби эквивалентны.",
+      "description": "The verb 'увидеть' is less precise in this context; 'понять' is more appropriate for educational explanations about conceptual understanding.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "- Нарисуйте полоску дроби для **1/2**.\n- Разделите её на 4 равные части вместо 2:\n  - **1/2 = 2/4**, потому что размер частей стал меньше, но покрытая область осталась той же.",
+      "correction": "- Нарисуйте полоску дроби для **1/2**.\n- Разделите её на 4 равные части вместо 2:\n  - **1/2 = 2/4**, потому что размер частей уменьшился, но покрытая область осталась той же.",
+      "description": "The phrase 'размер частей стал меньше' is understandable but 'размер частей уменьшился' is more idiomatic and precise in Russian math explanations.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Сравните дроби **3/4** и **6/8**.\n\n- Умножьте числитель и знаменатель дроби **3/4** на 2:\n  **(3 × 2)/(4 × 2) = 6/8**.\n- **3/4** и **6/8** эквивалентны, так как они представляют одинаковую величину.",
+      "correction": "Сравните дроби **3/4** и **6/8**.\n\n- Умножьте числитель и знаменатель дроби **3/4** на 2:\n  **(3 × 2)/(4 × 2) = 6/8**.\n- **3/4** и **6/8** эквивалентны, так как они выражают одинаковую величину.",
+      "description": "As previously noted, 'представляют одинаковую величину' is less precise than 'выражают одинаковую величину' in Russian math terminology.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Сравним дроби **2/3** и **3/4**.\n\nИспользуем числовую прямую:\n- **2/3** находится ближе к 1, чем **3/4**, значит, **2/3** больше.\n\nИспользуем полоски дробей:\n- Нарисуйте полоски для каждой дроби и сравните их длину.",
+      "correction": "Сравним дроби **2/3** и **3/4**.\n\nИспользуем числовую прямую:\n- **2/3** находится ближе к 1, чем **3/4**, поэтому **2/3** больше.\n\nИспользуем полоски дробей:\n- Нарисуйте полоски для каждой дроби и сравните их длину.",
+      "description": "The use of 'значит' is less formal and idiomatic in Russian educational style; 'поэтому' is preferred for logical conclusions in math explanations.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "- Знать, что числитель показывает части, а знаменатель — их количество.",
+      "correction": "- Знать, что числитель показывает количество частей, а знаменатель — на сколько частей делится целое.",
+      "description": "The original phrase is ambiguous; 'числитель показывает количество частей' and 'знаменатель — на сколько частей делится целое' are more precise and standard in Russian math education.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Fractions_Basics.llm.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T21:39:53.454949",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 8.7,
+    "classification": "PROFESSIONAL",
+    "total_issues": 13,
+    "total_penalty": 1.3,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 13,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 1.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

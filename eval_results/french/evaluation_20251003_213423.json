@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Aujourd’hui, nous allons découvrir les **variables**, les **constantes**, et les **équations simples**, des concepts fondamentaux pour comprendre l’algèbre et résoudre des problèmes mathématiques.",
+      "correction": "Aujourd’hui, nous allons découvrir les **variables**, les **constantes** et les **équations simples**, des concepts fondamentaux pour comprendre l’algèbre et résoudre des problèmes mathématiques.",
+      "description": "In French, the serial comma before 'et' is generally not used in standard writing, especially in educational contexts. Removing the comma before 'et' aligns the sentence with natural French style and improves localization quality.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Le coût total est représenté par l’équation `Coût total = 2x`.",
+      "correction": "Le coût total est représenté par l’équation `C = 2x`.",
+      "description": "In French mathematical convention, variable names in equations are typically single letters rather than full words. Using 'C' instead of 'Coût total' for the variable name makes the equation more natural and consistent with standard mathematical notation in French educational materials.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "La distance parcourue en `t` heures peut être représentée par l’équation `Distance = 60t`.",
+      "correction": "La distance parcourue en `t` heures peut être représentée par l’équation `D = 60t`.",
+      "description": "French math textbooks and educational resources use single-letter variables for equations. Replacing 'Distance' with 'D' in the equation improves consistency and aligns with local conventions for mathematical expressions.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Basic_Algebra.llm.md",
+    "language": "French",
+    "timestamp": "2025-10-03T21:34:23.148023",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.5,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

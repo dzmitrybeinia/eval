@@ -1,0 +1,75 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "pery, mitochondria czy placoda",
+      "correction": "peroksysomy, mitochondria czy plastydy",
+      "description": "The terms 'pery' and 'placoda' are incorrect and do not refer to actual cell organelles in Polish. The correct terms should be 'peroksysomy' (peroxisomes) and 'plastydy' (plastids). This lexical error could confuse learners and should be corrected for scientific accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Inne komponenty, jak jądro, kształtują DNA i kontrolują funkcje komórkową, a perycytry są odpowiedzialne za rozkładanie materiałów organicznych.",
+      "correction": "Inne komponenty, takie jak jądro, zawierają DNA i kontrolują funkcje komórkowe, a peroksysomy są odpowiedzialne za rozkładanie materiałów organicznych.",
+      "description": "Multiple linguistic issues: 'komponenty' is less natural than 'składniki' or 'organella' in Polish scientific context. 'jak jądro' should be 'takie jak jądro' for proper clause introduction. 'kształtują DNA' is incorrect; the nucleus contains DNA, not shapes it. 'funkcje komórkową' should be 'funkcje komórkowe' for correct case and number agreement. 'perycytry' is not a recognized organelle; the correct term is 'peroksysomy'. All these errors affect clarity and scientific accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Rybosomy są odpowiedzialne za tworzenie różnych białek, takich jak enzymy i przeciwciała, poprzez interpretację instrukcji DNA.",
+      "correction": "Rybosomy są odpowiedzialne za tworzenie różnych białek, takich jak enzymy, poprzez interpretację instrukcji DNA.",
+      "description": "The inclusion of 'przeciwciała' (antibodies) is misleading in the context of cell biology, as ribosomes synthesize proteins generally, but antibodies are specific to immune cells and not a typical example in basic cell structure lessons. This lexical inaccuracy could mislead learners about ribosome function.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Ta propozycja jest poprawną, ponieważ błona komórkowa rzeczywiście odgrywa kluczową rolę w kontroli substancji wewnątrz komórki.",
+      "correction": "Ta propozycja jest poprawna, ponieważ błona komórkowa rzeczywiście odgrywa kluczową rolę w kontroli substancji wewnątrz komórki.",
+      "description": "The word 'poprawną' is incorrect in this context; the correct form is 'poprawna' to agree with the feminine noun 'propozycja' in nominative case. This is a grammatical error affecting agreement.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "'elektrarnicami komórki'",
+      "correction": "'elektrowniami komórki'",
+      "description": "The term 'elektrarnicami' is not a correct Polish word. The standard metaphor for mitochondria is 'elektrownie komórki' (powerhouses of the cell). This lexical error affects the naturalness and clarity of the scientific explanation.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "głównego formy energii używanej przez komórki",
+      "correction": "głównej formy energii używanej przez komórki",
+      "description": "The phrase 'głównego formy' is incorrect; 'formy' is feminine, so the adjective should be 'głównej'. This is a gender agreement error.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Cell_Parts.slm.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T22:13:45.094480",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 8.7,
+    "classification": "PROFESSIONAL",
+    "total_issues": 6,
+    "total_penalty": 1.3,
+    "issue_breakdown": {
+      "linguistic": 6,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.3,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

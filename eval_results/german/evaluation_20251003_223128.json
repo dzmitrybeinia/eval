@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Die Einleitung einer Geschichte befasst sich hauptseteilt mit der Einführung der Charaktere, des Schauplatzes und der Hintergrundgeschichte, nicht mit der Charakterentwicklung.",
+      "correction": "Die Einleitung einer Geschichte befasst sich hauptsächlich mit der Einführung der Charaktere, des Schauplatzes und der Hintergrundgeschichte, nicht mit der Charakterentwicklung.",
+      "description": "The word 'hauptseteilt' is a misspelling and should be 'hauptsächlich'. This is a significant orthographic error that affects comprehension and professionalism. The rest of the sentence is grammatically correct and contextually appropriate.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Konflikte in Geschichten können verschiedene Arten haben und sind nicht auf menschliche Figuren beschränkt. Sie können zwischen Figuren, der Natur oder einem Charakter und seinen inneren Zügen auftreten.",
+      "correction": "Konflikte in Geschichten können verschiedene Arten haben und sind nicht auf menschliche Figuren beschränkt. Sie können zwischen Figuren, der Natur oder einem Charakter und seinen inneren Konflikten auftreten.",
+      "description": "The phrase 'seinen inneren Zügen' is a lexical error; the correct term in German for 'inner struggles' is 'innere Konflikte'. 'Züge' does not convey the intended meaning in this context and may confuse learners.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Story_Elements.slm.md",
+    "language": "German",
+    "timestamp": "2025-10-03T22:31:28.009145",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.5,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

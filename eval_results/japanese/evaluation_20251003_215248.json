@@ -1,0 +1,75 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "宗教は、個人やコミュニティに指針を提供し、人生の大きな疑問に対する枠組みを提供し、芸術、政治、伝統に影響を与えます。",
+      "correction": "宗教は、個人やコミュニティに指針を提供し、人生の大きな疑問に対する枠組みを提供し、芸術、政治、伝統に影響を与えてきました。",
+      "description": "The sentence mixes present and past tense inconsistently. The phrase '影響を与えます' is in the present tense, while the rest of the paragraph discusses historical impact. For consistency and accuracy, the verb should be in the past tense ('影響を与えてきました') to match the context of historical influence.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "イースター（イエスの復活）",
+      "correction": "イースター（復活祭）",
+      "description": "The explanation 'イエスの復活' is accurate but not the most natural or standard way to refer to Easter in Japanese educational contexts. '復活祭' is the commonly accepted term for Easter and is more appropriate for formal or educational materials.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "五つの柱：信仰、祈り、断食、慈善、メッカへの巡礼（ハッジ）。",
+      "correction": "五つの柱：信仰、礼拝、断食、喜捨、メッカへの巡礼（ハッジ）。",
+      "description": "The terms '祈り' and '慈善' are not the standard translations for the Five Pillars of Islam. '礼拝' is the correct term for the daily prayers, and '喜捨' is the standard term for almsgiving/charity. Using the correct terminology is important for both linguistic accuracy and localization consistency.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "金曜の夕方から土曜の夕方までの安息日（礼拝と休息の日）の遵守。",
+      "correction": "金曜の日没から土曜の日没までの安息日（礼拝と休息の日）の遵守。",
+      "description": "The phrase '金曜の夕方から土曜の夕方まで' is not the precise way to describe the timing of the Jewish Sabbath. The correct timing is from sunset on Friday to sunset on Saturday ('金曜の日没から土曜の日没まで'). This correction improves both linguistic precision and cultural accuracy.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "バガヴァッド・ギーターやウパニシャッドなどの神聖なテキスト。",
+      "correction": "バガヴァッド・ギーターやウパニシャッドなどの聖典。",
+      "description": "The term '神聖なテキスト' is understandable but '聖典' is the standard and more natural term for sacred scriptures in Japanese educational and religious contexts. This improves the naturalness and professionalism of the terminology.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "仏陀の誕生、悟り、死を称えるヴェーサックの祝祭。",
+      "correction": "仏陀の誕生、悟り、入滅を称えるヴェーサックの祝祭。",
+      "description": "The word '死' is not the appropriate term for the passing of the Buddha in Buddhist contexts. '入滅' is the correct term for the Buddha's passing (parinirvana) and is standard in Japanese Buddhist terminology. This correction addresses both linguistic and cultural accuracy.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "World_Religions.llm.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-03T21:52:48.646744",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.0,
+    "classification": "NATIVE",
+    "total_issues": 6,
+    "total_penalty": 1.0,
+    "issue_breakdown": {
+      "linguistic": 4,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.8,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

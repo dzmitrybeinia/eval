@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "🌟",
+      "correction": "",
+      "description": "The use of the star emoji at the end of the introductory paragraph is not standard in Russian educational materials, especially in formal or semi-formal contexts. While emojis can be engaging, their use should be carefully considered for appropriateness and consistency with local educational norms. In Russian school settings, such symbols are typically avoided in instructional text unless the material is specifically designed for very young children or informal digital communication. Removing the emoji would make the style more professional and culturally appropriate.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Нерешённые конфликты могут вызывать стресс и негативные эмоции.",
+      "correction": "Нерешённые конфликты могут вызывать стресс и негативные эмоции.",
+      "description": "The word 'Нерешённые' is spelled correctly with the letter 'ё', which is the standard in educational and formal texts. However, in many Russian publications, 'ё' is often replaced with 'е', which can lead to ambiguity. For educational clarity, especially for learners, it is best practice to retain 'ё' in words like 'нерешённые'. No correction is needed, but this is a positive note on orthographic accuracy.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Используйте «Я»-утверждения:",
+      "correction": "Используйте «Я»-высказывания:",
+      "description": "The term '«Я»-утверждения' is a direct translation of the English 'I-statements', but in Russian educational and psychological literature, '«Я»-высказывания' is the more natural and widely accepted term. Using 'высказывания' instead of 'утверждения' improves the naturalness and professional tone of the content, aligning it with local terminology standards.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Сделайте глубокий вдох, если эмоции накаляются.",
+      "correction": "Сделайте глубокий вдох, если эмоции накаляются.",
+      "description": "The phrase is natural and appropriate in Russian, but the use of the imperative 'Сделайте' is slightly formal for the overall tone of the lesson, which is otherwise neutral and conversational. For consistency, consider using 'Сделайте' throughout or switch to a more neutral form like 'Можно сделать глубокий вдох, если эмоции накаляются.' This would maintain a consistent register and tone.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Навыки разрешения конфликтов пригодятся вам на протяжении всей жизни — в школе, дома и на рабочем месте.",
+      "correction": "Навыки разрешения конфликтов пригодятся вам на протяжении всей жизни — в школе, дома и на работе.",
+      "description": "The phrase 'на рабочем месте' is grammatically correct, but in Russian educational contexts, 'на работе' is more commonly used and sounds more natural. 'На рабочем месте' is a formal term often used in HR or legal documents, while 'на работе' is preferred in general educational materials. Adjusting this improves the naturalness and accessibility of the content.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Conflict_Resolution.llm.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T21:38:54.371386",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 4,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.5,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

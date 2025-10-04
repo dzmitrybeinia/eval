@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Zasoby odnawialne mogą być naturalnie zrewzględowane w czasie.",
+      "correction": "Zasoby odnawialne mogą być naturalnie odnowione w czasie.",
+      "description": "The word 'zrewzględowane' is incorrect and not used in Polish; it appears to be a mistranslation or a non-existent word. The correct term is 'odnowione', which accurately conveys the idea that renewable resources can be naturally replenished over time. This error affects comprehension and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "musimy stosować rozważane prace, aby zapobiec wyczerpaniu i zachować równowagę ekosystemu.",
+      "correction": "musimy podejmować rozważne działania, aby zapobiec wyczerpaniu i zachować równowagę ekosystemu.",
+      "description": "The phrase 'stosować rozważane prace' is grammatically incorrect and unnatural in Polish. The correct expression is 'podejmować rozważne działania', which means 'take considered actions'. This correction improves both grammatical accuracy and naturalness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "mogą się odnawiać ponownie naturalnym procesom.",
+      "correction": "mogą się odnawiać dzięki naturalnym procesom.",
+      "description": "The phrase 'ponownie naturalnym procesom' is grammatically incorrect and does not make sense in Polish. The correct preposition is 'dzięki', resulting in 'dzięki naturalnym procesom', which means 'thanks to natural processes'. This correction is necessary for proper sentence structure and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Koncepcja zrównoważonego zarządzania obejmuje czyny takie jak ochrona, odnawialne źródła energii, recykling oraz zalesianie, które wszystkie wspierają równowagę między potrzebami ludzi a zdrowiem środowiska.",
+      "correction": "Koncepcja zrównoważonego zarządzania obejmuje działania takie jak ochrona, odnawialne źródła energii, recykling oraz zalesianie, które wspierają równowagę między potrzebami ludzi a zdrowiem środowiska.",
+      "description": "The word 'czyny' is not appropriate in this context; 'działania' is the correct term for 'actions' or 'measures'. Additionally, 'które wszystkie wspierają' is redundant; 'które wspierają' is sufficient and more natural. These corrections improve grammatical accuracy and naturalness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "naturalne zasoby są wykorzystywane do produkcji energii, żywności, materiałów budowlanych i utrzymania równowagi ekologicznej, która jest kluczowa dla bioróżnorodności i zdrowia planety.",
+      "correction": "zasoby naturalne są wykorzystywane do produkcji energii, żywności, materiałów budowlanych i utrzymania równowagi ekologicznej, która jest kluczowa dla bioróżnorodności i zdrowia planety.",
+      "description": "The phrase 'naturalne zasoby' should be 'zasoby naturalne' to maintain correct word order in Polish. This correction ensures proper syntax and aligns with standard usage.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Natural_Resources.slm.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T22:17:07.109786",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 8.9,
+    "classification": "PROFESSIONAL",
+    "total_issues": 5,
+    "total_penalty": 1.1,
+    "issue_breakdown": {
+      "linguistic": 5,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.1,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

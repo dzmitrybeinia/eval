@@ -1,0 +1,83 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "¡Bienvenidos al fascinante mundo de las máquinas simples! Estas herramientas nos ayudan a realizar tareas con menos esfuerzo y son esenciales en nuestra vida diaria. 🌟 Hoy exploraremos cómo funcionan y dónde se encuentran en nuestro entorno.",
+      "correction": "¡Bienvenidos al fascinante mundo de las máquinas simples! Estas herramientas nos ayudan a realizar tareas con menos esfuerzo y son esenciales en nuestra vida diaria. Hoy exploraremos cómo funcionan y dónde se encuentran en nuestro entorno.",
+      "description": "The use of the emoji '🌟' in educational Spanish content is generally considered informal and may not align with standard academic style, especially for older students or formal learning environments. Removing the emoji ensures a more professional and culturally appropriate tone.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "palanca de botella",
+      "correction": "abridor de botellas",
+      "description": "The term 'palanca de botella' is not a standard or widely recognized term in Spanish for the tool used to open bottles. The correct and commonly accepted term is 'abridor de botellas', which is clear and consistent with local usage.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "manija de puerta",
+      "correction": "picaporte",
+      "description": "The term 'manija de puerta' is understandable but less commonly used in standard Spanish. 'Picaporte' is the more natural and widely accepted term for a door handle in most Spanish-speaking regions, improving localization quality.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "carrito rodante",
+      "correction": "carro",
+      "description": "The phrase 'carrito rodante' is somewhat redundant and not the standard term for a wheeled cart in Spanish. 'Carro' or 'carrito' is the more natural and commonly used term, ensuring consistency and clarity.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "resbaladilla",
+      "correction": "tobogán",
+      "description": "The term 'resbaladilla' is regionally used (mainly in Mexico), but 'tobogán' is the standard and widely recognized term for a slide in most Spanish-speaking countries. Using 'tobogán' ensures broader understanding and neutral localization.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "tope de puerta",
+      "correction": "cuña de puerta",
+      "description": "While 'tope de puerta' is understandable, 'cuña de puerta' is more precise and directly relates to the concept of a wedge, which is the focus of the lesson. This improves technical accuracy and consistency.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "base de bombilla",
+      "correction": "casquillo de bombilla",
+      "description": "The term 'base de bombilla' is less precise; 'casquillo de bombilla' is the correct technical term for the socket or base of a light bulb in Spanish, ensuring proper terminology and clarity.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Simple_Machines.llm.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-03T21:29:26.305184",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.2,
+    "classification": "NATIVE",
+    "total_issues": 7,
+    "total_penalty": 0.8,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 7,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.8,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

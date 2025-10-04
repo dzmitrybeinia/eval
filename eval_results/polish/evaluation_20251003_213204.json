@@ -1,0 +1,35 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "🌍",
+      "correction": "",
+      "description": "The use of the globe emoji at the end of the introductory paragraph is not standard in formal Polish educational materials. While emojis can enhance engagement in informal contexts, their inclusion here may undermine the professional tone expected in academic content. It is recommended to remove the emoji to maintain a consistent and formal style throughout the lesson.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Global_Trade.llm.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T21:32:04.225348",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.9,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.1,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

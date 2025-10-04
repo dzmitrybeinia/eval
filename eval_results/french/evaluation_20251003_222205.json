@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "La comparaison des fractions peut être effectuée même si les numérateurs sont différents. La méthode consiste à examiner les dénominateurs pour déterminer si une fraction est plus grande ou plus petite. Des fractions ont le même dénominateur si elles représentent des parties de mêmes unités, ce qui facilite la comparaison.",
+      "correction": "La comparaison des fractions peut être effectuée même si les numérateurs sont différents. La méthode consiste à examiner les dénominateurs pour déterminer si une fraction est plus grande ou plus petite. Des fractions ont le même dénominateur si elles représentent des parties de la même unité, ce qui facilite la comparaison.",
+      "description": "The phrase 'de mêmes unités' is semantically inaccurate in this context. The correct expression is 'de la même unité', which refers to fractions representing parts of the same whole. This correction improves clarity and aligns with standard mathematical terminology in French.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Le numérateur d'une fraction indique le nombre de parties considérées, tandis que le dénominateur représente le nombre total de parties égales qui composent le tout. Cela peut être visualisé par des fractions telles que 3/8 ou 2/5, où le numérateur (3 et 2) est inférieur ou égal au dénominateur (8 et 5).",
+      "correction": "Le numérateur d'une fraction indique le nombre de parties considérées, tandis que le dénominateur représente le nombre total de parties égales qui composent le tout. Cela peut être illustré par des fractions telles que 3/8 ou 2/5, où le numérateur (3 et 2) est inférieur ou égal au dénominateur (8 et 5).",
+      "description": "The use of 'visualisé' is less natural in French educational context when referring to examples. 'Illustré' is the preferred term for presenting examples in mathematics, making the explanation more idiomatic and culturally appropriate for French learners.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Fractions_Basics.slm.md",
+    "language": "French",
+    "timestamp": "2025-10-03T22:22:05.516800",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

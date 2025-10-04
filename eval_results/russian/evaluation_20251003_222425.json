@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Правильность этого утверждения подтверждается тем, что алгебраические выражения представляют собой математические уравнения, которые можно решить, подставляя значения переменным и выполняя соответствующие вычисления.",
+      "correction": "Правильность этого утверждения подтверждается тем, что алгебраические выражения представляют собой математические выражения, которые можно вычислить, подставляя значения переменным и выполняя соответствующие операции.",
+      "description": "The original text incorrectly refers to 'алгебраические выражения' as 'математические уравнения', which is a semantic error. Algebraic expressions are not equations; they are expressions that can be evaluated, not solved. Additionally, the verb 'решить' (to solve) is inappropriate for expressions; 'вычислить' (to calculate/evaluate) is correct. The word 'вычисления' (calculations) should be replaced with 'операции' (operations) for greater precision, as the context is about performing mathematical operations.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Это заключается в принципе обратности операций: если на одной стороне добавление, то на другой стороне вычитание.",
+      "correction": "Это отражает принцип равенства: если на одной стороне выполняется операция, то на другой стороне должна быть выполнена та же операция.",
+      "description": "The original sentence misrepresents the mathematical principle. The phrase 'принцип обратности операций' is incorrect in this context; the correct principle is maintaining equality by performing the same operation on both sides. The example given ('если на одной стороне добавление, то на другой стороне вычитание') is misleading, as it suggests performing opposite operations, which is not the correct method for solving equations. The correction clarifies the principle and ensures grammatical accuracy.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Basic_Algebra.slm.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T22:24:25.355218",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.6,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

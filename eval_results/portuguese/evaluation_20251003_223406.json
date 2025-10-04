@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Outros elementos como kairos (oportunidade) e ao (apelo à autoridade) também desempenham papéis significativos na construção de argumentos persuasivos.",
+      "correction": "Outros elementos como kairos (oportunidade) e apelo à autoridade também desempenham papéis significativos na construção de argumentos persuasivos.",
+      "description": "The phrase 'e ao (apelo à autoridade)' contains a lexical error: 'ao' is not the correct term for 'appeal to authority' in Portuguese. The correct expression is 'apelo à autoridade'. This correction ensures the terminology is accurate and clear for educational purposes.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Música animada e imagens vibrantes são elementos visuais projetados para evocar emoções positivas, como alegria ou entusiasmo, o que é uma estratégia comum para apelar ao pathos no marketing e publicidade.",
+      "correction": "Música animada e imagens vibrantes são elementos visuais projetados para evocar emoções positivas, como alegria ou entusiasmo, o que é uma estratégia comum para apelar ao pathos em marketing e publicidade.",
+      "description": "The phrase 'no marketing e publicidade' should use 'em' instead of 'no' because 'marketing' and 'publicidade' are two separate fields, not a single entity. The correct preposition is 'em' to indicate the general context, improving the naturalness and correctness of the sentence.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "A declaração é falsa porque contraria a ideia de promover opções de almoço mais saudáveis.",
+      "correction": "A afirmação é falsa porque contraria a ideia de promover opções de almoço mais saudáveis.",
+      "description": "The use of 'declaração' is less appropriate in this context; 'afirmação' is the standard term for referring to a statement in educational or assessment settings. This correction improves lexical precision and aligns with common usage in Brazilian Portuguese.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Persuasive_Writing.slm.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T22:34:06.623451",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.6,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

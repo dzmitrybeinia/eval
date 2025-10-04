@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "souvent capturant une image ou un sentiment brève et puissant.",
+      "correction": "souvent capturant une image ou un sentiment bref et puissant.",
+      "description": "The adjective 'brève' is incorrectly used in agreement with 'sentiment', which is masculine and requires 'bref'. This is a gender agreement error. The sentence should use 'bref' to match the masculine noun 'sentiment'.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Les limericks suivent une structure distinctive AABBA, où les deux premières et les deux dernières lignes sont identiques ou très proches, et les lignes du milieu (troisième et quatrième) sont courtes et riment entre elles.",
+      "correction": "Les limericks suivent une structure distinctive AABBA, où les deux premières et les deux dernières lignes riment entre elles, et les lignes du milieu (troisième et quatrième) sont courtes et riment entre elles.",
+      "description": "The explanation incorrectly states that the two first and two last lines are 'identiques ou très proches', which is misleading. In a limerick, the rhyme scheme is AABBA, meaning the first, second, and fifth lines rhyme, while the third and fourth lines rhyme with each other. The correction clarifies the rhyme pattern for accuracy and better educational value.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Poetry_Forms.slm.md",
+    "language": "French",
+    "timestamp": "2025-10-03T22:22:47.759972",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

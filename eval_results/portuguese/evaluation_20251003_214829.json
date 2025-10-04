@@ -1,0 +1,107 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "O tema de *O Sol é para Todos* é justiça e a importância da empatia.",
+      "correction": "O tema de *O Sol É Para Todos* é justiça e a importância da empatia.",
+      "description": "The book title 'O Sol é para Todos' should be capitalized according to Brazilian Portuguese title conventions, where all principal words in a title are capitalized. This improves orthographic accuracy and aligns with standard publishing practices.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "O tema de *O Doador de Memórias* é o valor da individualidade e os perigos da conformidade.",
+      "correction": "O tema de *O Doador de Memórias* é o valor da individualidade e os perigos da conformidade.",
+      "description": "The book title 'O Doador de Memórias' is correctly capitalized, following Brazilian Portuguese conventions for titles. No correction needed, but this confirms proper orthographic usage.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Em *Harry Potter*, Harry é o protagonista, enquanto Voldemort é o antagonista.",
+      "correction": "Em *Harry Potter*, Harry é o protagonista, enquanto Voldemort é o antagonista.",
+      "description": "The use of 'Harry Potter' as an example is culturally appropriate for Brazilian audiences, as the series is widely known. However, the explanation could be enhanced by mentioning the Portuguese translation of character names if relevant, but in this case, the original names are standard in Brazil.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Em *A Teia de Charlotte*, Wilbur, o porco, é o personagem principal, e Charlotte, a aranha, é sua amiga.",
+      "correction": "Em *A Teia de Charlotte*, Wilbur, o porco, é o personagem principal, e Charlotte, a aranha, é sua amiga.",
+      "description": "The example uses the Brazilian Portuguese title 'A Teia de Charlotte', which is appropriate. The character names are kept in their original form, which is standard in Brazilian editions. No correction needed, but this confirms good localization practice.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "O cenário de *Jogos Vorazes* é um futuro distópico em Panem.",
+      "correction": "O cenário de *Jogos Vorazes* é um futuro distópico em Panem.",
+      "description": "The example uses the localized title 'Jogos Vorazes', which is correct for Brazilian Portuguese. The reference to 'Panem' is appropriate as it is the official name in the series and recognized by Brazilian readers.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Em *Anne de Green Gables*, o cenário é a comunidade rural de Avonlea no final do século XIX.",
+      "correction": "Em *Anne de Green Gables*, o cenário é a comunidade rural de Avonlea no final do século XIX.",
+      "description": "The title 'Anne de Green Gables' is not localized; the Brazilian edition is usually titled 'Anne de Green Gables' or 'Anne de Avonlea'. Consider using the most common Brazilian title for better localization, but the current usage is acceptable.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Em *O Rei Leão*, o enredo segue a jornada de Simba desde a perda de seu pai até recuperar seu lugar como rei.",
+      "correction": "Em *O Rei Leão*, o enredo segue a jornada de Simba desde a perda de seu pai até recuperar seu lugar como rei.",
+      "description": "The title 'O Rei Leão' is correctly localized for Brazilian audiences. The example is culturally relevant and widely recognized.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Em *Extraordinário*, o enredo gira em torno de Auggie navegando pela vida como uma criança com uma diferença facial.",
+      "correction": "Em *Extraordinário*, o enredo gira em torno de Auggie navegando pela vida como uma criança com uma diferença facial.",
+      "description": "The title 'Extraordinário' is the correct Brazilian Portuguese translation of 'Wonder'. The example is appropriate and uses terminology familiar to Brazilian readers.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Conflito interno: Em *O Resgate*, Brian luta contra o medo e a solidão enquanto sobrevive na natureza.",
+      "correction": "Conflito interno: Em *O Resgate*, Brian luta contra o medo e a solidão enquanto sobrevive na natureza.",
+      "description": "The title 'O Resgate' may refer to 'Hatchet' by Gary Paulsen, which is known in Brazil as 'O Resgate'. The example is appropriate, but consider clarifying the reference for educational purposes.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Conflito externo: Em *Percy Jackson e os Olimpianos*, Percy enfrenta monstros e deuses para completar sua missão.",
+      "correction": "Conflito externo: Em *Percy Jackson e os Olimpianos*, Percy enfrenta monstros e deuses para completar sua missão.",
+      "description": "The title 'Percy Jackson e os Olimpianos' is correctly localized for Brazilian readers. The example is culturally relevant and uses terminology familiar to the target audience.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Story_Elements_1.llm.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T21:48:29.166538",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.0,
+    "classification": "NATIVE",
+    "total_issues": 10,
+    "total_penalty": 1.0,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 8,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.8,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

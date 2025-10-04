@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Die DNA-Struktur besteht aus zwei verschiedenen Arten von Molekülen: Desoxyribose-Zucker und Phosphatgruppen, die die beiden Seiten der Doppelhelix bilden. Die stickstoffhaltigen Basen, Adenin (A), Thymin (T), Cytosin (C) und Guanin (G), paaren sich auf der Innenseite und tragen zur Stabilität bei durch Wasserstoffbrücken.",
+      "correction": "Die DNA-Struktur besteht aus zwei verschiedenen Arten von Molekülen: Desoxyribose und Phosphatgruppen, die die beiden Seiten der Doppelhelix bilden. Die stickstoffhaltigen Basen, Adenin (A), Thymin (T), Cytosin (C) und Guanin (G), paaren sich auf der Innenseite und tragen durch Wasserstoffbrücken zur Stabilität bei.",
+      "description": "The term 'Desoxyribose-Zucker' is redundant, as 'Desoxyribose' already refers to a sugar. The phrase 'tragen zur Stabilität bei durch Wasserstoffbrücken' is syntactically awkward; the correct word order is 'tragen durch Wasserstoffbrücken zur Stabilität bei.' These corrections improve lexical precision and sentence structure for clarity and naturalness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Obwohl DNA-Mutationen manchmal zu genetischen Erkrankungen wie Mukoviszidose führen können, sind nicht alle Mutationen schädlich. Einige können neutral sein oder sogar vorteilhaft sein, wie beispielsweise bei der natürlichen Variation innerhalb einer Population. Mutationen sind ein grundlegendes Konzept in der Genetik, das sowohl negative als auch positive Auswirkungen auf den Organismus haben kann.",
+      "correction": "Obwohl DNA-Mutationen manchmal zu genetischen Erkrankungen wie Mukoviszidose führen können, sind nicht alle Mutationen schädlich. Einige können neutral oder sogar vorteilhaft sein, wie beispielsweise bei der natürlichen Variation innerhalb einer Population. Mutationen sind ein grundlegendes Konzept in der Genetik, das sowohl negative als auch positive Auswirkungen auf den Organismus haben kann.",
+      "description": "The phrase 'neutral sein oder sogar vorteilhaft sein' is repetitive; omitting the second 'sein' creates a more natural and concise sentence. This correction enhances lexical precision and improves the flow of the text.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Die DNA-Replikation findet im Zellkern statt, nicht in den Mitochondrien. Mitochondrien haben ihre eigene DNA, die sich unabhängig von der eukaryotischen DNA-Replikationsmechanik vermehrt. Die Hauptaktivität der DNA-Replikation, die von Enzymen wie Helikasen und DNA-Polymerasen durchgeführt wird, ist eine kritische Phase der Zellteilung und stellt sicher, dass jede neue Zelle eine identische Kopie der genetischen Information erhält.",
+      "correction": "Die DNA-Replikation findet im Zellkern statt, nicht in den Mitochondrien. Mitochondrien haben ihre eigene DNA, die sich unabhängig von der eukaryotischen DNA-Replikation vermehrt. Die Hauptaktivität der DNA-Replikation, die von Enzymen wie Helikasen und DNA-Polymerasen durchgeführt wird, ist eine kritische Phase der Zellteilung und stellt sicher, dass jede neue Zelle eine identische Kopie der genetischen Information erhält.",
+      "description": "The term 'DNA-Replikationsmechanik' is not standard in German scientific usage; 'DNA-Replikation' is the correct and commonly accepted term. This correction ensures the use of industry-standard terminology and improves clarity.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Diese Aussage ist falsch, da genetische Tests tatsächlich wertvolle Informationen liefern können. Sie sind entscheidend für die präzise Diagnose genetischer Störungen, die Einschätzung des Risikos für bestimmte Krankheiten und die Planung angemessener medizinischer Interventionen. Genetische Tests sind ein wichtiges Instrument in der modernen Medizin zur Personalisierung der Behandlung und zur Förderung der präventiven Gesundheitsvorsorge.",
+      "correction": "Diese Aussage ist falsch, da genetische Tests tatsächlich wertvolle Informationen liefern können. Sie sind entscheidend für die präzise Diagnose genetischer Erkrankungen, die Einschätzung des Risikos für bestimmte Krankheiten und die Planung angemessener medizinischer Interventionen. Genetische Tests sind ein wichtiges Instrument in der modernen Medizin zur Personalisierung der Behandlung und zur Förderung der präventiven Gesundheitsvorsorge.",
+      "description": "The term 'genetischer Störungen' is less precise than 'genetischer Erkrankungen' in this context, as 'Erkrankungen' is the standard term for diseases in medical German. This correction improves lexical precision and aligns with professional terminology.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "DNA_Basics.slm.md",
+    "language": "German",
+    "timestamp": "2025-10-03T22:29:33.307656",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 4,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.5,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

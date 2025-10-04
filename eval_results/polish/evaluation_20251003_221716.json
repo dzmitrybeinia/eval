@@ -1,0 +1,91 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "wypisywać dane",
+      "correction": "wykradać dane",
+      "description": "The verb 'wypisywać' is a lexical error in this context. In Polish, 'wypisywać' means 'to write out' or 'to list', which does not accurately convey the intended meaning of 'stealing' or 'extracting' data. The correct verb is 'wykradać', which means 'to steal' or 'to exfiltrate' data. This error affects the clarity and accuracy of the statement.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Aktywuj włączenia bezpieczeństwa w swojej przeglądarki.",
+      "correction": "Aktywuj ustawienia bezpieczeństwa w swojej przeglądarce.",
+      "description": "There are multiple grammatical errors in this sentence. 'Włączenia bezpieczeństwa' is not a correct noun phrase in Polish; the proper term is 'ustawienia bezpieczeństwa' (security settings). Additionally, 'w swojej przeglądarki' is incorrect due to case mismatch; it should be 'w swojej przeglądarce' (locative case). These errors significantly impact comprehension and naturalness.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Ustawianie włączonych bezpieczeństwa w przeglądarki może pomóc w chronieniu danych osobowych przed nieautoryzowanym dostępem.",
+      "correction": "Ustawienie ustawień bezpieczeństwa w przeglądarce może pomóc w ochronie danych osobowych przed nieautoryzowanym dostępem.",
+      "description": "This sentence contains several grammatical errors. 'Ustawianie włączonych bezpieczeństwa' is incorrect; the correct phrase is 'Ustawienie ustawień bezpieczeństwa'. 'W przeglądarki' should be 'w przeglądarce' (locative case). The verb 'chronieniu' is not appropriate here; 'ochronie' is the correct noun form. These errors affect both clarity and grammatical correctness.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "ryzyko niepodejmowania, które może wystąpić podczas przeglądania stron internetowych.",
+      "correction": "ryzyko zagrożeń, które mogą wystąpić podczas przeglądania stron internetowych.",
+      "description": "The phrase 'ryzyko niepodejmowania' is a lexical error and does not make sense in Polish. The intended meaning is likely 'risk of threats' or 'risk of security incidents'. The correct phrase is 'ryzyko zagrożeń'. This error impacts the clarity and accuracy of the feedback.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Komplikowanie słów haseł poprzez dodanie symboliów i znaków zazwyczniowania może znacznie zwiększyć bezpieczeństwo danych osobowych.",
+      "correction": "Utrudnianie haseł poprzez dodanie symboli i znaków specjalnych może znacznie zwiększyć bezpieczeństwo danych osobowych.",
+      "description": "There are multiple lexical errors in this sentence. 'Komplikowanie słów haseł' is unnatural; 'Utrudnianie haseł' is the correct phrase. 'Symboliów' is a misspelling; the correct word is 'symboli'. 'Znaków zazwyczniowania' is not a valid term in Polish; the correct term is 'znaków specjalnych' (special characters). These errors affect both clarity and naturalness.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Różne symbole i znaki zazwyczniowania dodają różnorodności do słów haseł, co sprawia, że są one trudniejsze do zastosowania za pomocą automatycznych ataków lub kradzieży, co zwiększa ogólne bezpieczeństwo.",
+      "correction": "Różne symbole i znaki specjalne dodają różnorodności do haseł, co sprawia, że są one trudniejsze do złamania za pomocą automatycznych ataków lub kradzieży, co zwiększa ogólne bezpieczeństwo.",
+      "description": "This sentence contains several lexical errors. 'Znaki zazwyczniowania' is not a valid term; 'znaki specjalne' is correct. 'Słów haseł' is unnatural; 'haseł' is sufficient. 'Trudniejsze do zastosowania' is incorrect in this context; the correct phrase is 'trudniejsze do złamania' (harder to crack). These errors affect clarity and technical accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Wszystkie dane osobowe są zawsze w zasłonie bezpieczeństwa online.",
+      "correction": "Wszystkie dane osobowe są zawsze chronione przez zabezpieczenia online.",
+      "description": "The phrase 'w zasłonie bezpieczeństwa online' is grammatically incorrect and unnatural in Polish. The correct expression is 'chronione przez zabezpieczenia online'. This error affects both grammatical correctness and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "niezakłócanie prywatności danych",
+      "correction": "naruszenie prywatności danych",
+      "description": "The phrase 'niezakłócanie prywatności danych' is a lexical error. The intended meaning is 'violation of data privacy', which in Polish is 'naruszenie prywatności danych'. The original phrase is misleading and affects the accuracy of the feedback.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Online_Safety.slm.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T22:17:16.493758",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 7.6,
+    "classification": "ACCEPTABLE",
+    "total_issues": 8,
+    "total_penalty": 2.4,
+    "issue_breakdown": {
+      "linguistic": 8,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 2.4,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

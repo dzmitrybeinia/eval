@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Esta afirmación no refleja correctamente el papel del escenario en la naratura.",
+      "correction": "Esta afirmación no refleja correctamente el papel del escenario en la narrativa.",
+      "description": "The word 'naratura' is a misspelling; the correct term is 'narrativa'. This lexical error affects clarity and professionalism. The rest of the sentence is linguistically correct and culturally appropriate.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "por ejemplo, en *La isla del tesoro*, la naturaleza peligrosa de la isla afecta directamente las acciones y decisiones de los personajes, lo cual es esencial para la narrativa.",
+      "correction": "Por ejemplo, en *La isla del tesoro*, la naturaleza peligrosa de la isla afecta directamente las acciones y decisiones de los personajes, lo cual es esencial para la narrativa.",
+      "description": "The sentence should begin with a capital letter 'Por ejemplo' instead of 'por ejemplo'. This is a minor orthographic issue but improves the professionalism and readability of the feedback.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "por ejemplo, en 'El lazarillo de Tormes', el protagonista enfrenta pobreza y cuestiones éticos, lo que demuestra que el conflicto no se limita a relaciones personales.",
+      "correction": "Por ejemplo, en 'El lazarillo de Tormes', el protagonista enfrenta pobreza y cuestiones éticas, lo que demuestra que el conflicto no se limita a relaciones personales.",
+      "description": "The sentence should start with a capital letter 'Por ejemplo'. Additionally, 'cuestiones éticos' should be 'cuestiones éticas' to ensure gender agreement between the noun and adjective. Both are linguistic errors affecting grammatical correctness and clarity.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Story_Elements.slm.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-03T22:12:35.999989",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.6,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

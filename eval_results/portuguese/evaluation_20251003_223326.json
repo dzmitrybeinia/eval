@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Sua amplitude é amplamente diversificada, refletindo as necessidades e capacidades econômicas de diferentes nações.",
+      "correction": "Sua amplitude é diversificada, refletindo as necessidades e capacidades econômicas de diferentes nações.",
+      "description": "The phrase 'amplitude é amplamente diversificada' contains a redundancy due to the use of 'amplitude' (scope) and 'amplamente' (widely), which both refer to breadth. The adverb 'amplamente' is unnecessary and creates a pleonasm. Removing 'amplamente' improves clarity and linguistic precision.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "A implementação de acordos comerciais como o NAFTA geralmente diminui as barreiras ao comércio entre os países signatários.",
+      "correction": "A implementação de acordos comerciais como o NAFTA geralmente diminui as barreiras ao comércio entre os países participantes.",
+      "description": "The term 'signatários' is technically correct but less commonly used in Brazilian Portuguese educational contexts when referring to countries involved in trade agreements. 'Participantes' is more natural and widely accepted, improving localization and reader familiarity.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Cada nação especializa-se em diferentes aspectos do processo de produção, o que mostra como as economias estão conectadas e dependem umas das outras para fornecer bens e serviços.",
+      "correction": "Cada nação se especializa em diferentes aspectos do processo de produção, o que mostra como as economias estão conectadas e dependem umas das outras para fornecer bens e serviços.",
+      "description": "The use of 'especializa-se' is grammatically correct but less natural in Brazilian Portuguese, where 'se especializa' is preferred in educational and conversational contexts. This change improves the naturalness and flow of the sentence.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Global_Trade.slm.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T22:33:26.833689",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

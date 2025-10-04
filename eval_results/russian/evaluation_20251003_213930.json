@@ -1,0 +1,115 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Эмоциональный интеллект (ЭИ) — это способность понимать и управлять своими эмоциями, а также распознавать и влиять на эмоции других людей.",
+      "correction": "Эмоциональный интеллект (ЭИ) — это способность понимать и управлять своими эмоциями, а также распознавать и влиять на эмоции других людей.",
+      "description": "No linguistic errors found in this sentence. The use of punctuation, spelling, and grammar is correct. The sentence is well-structured and clear.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "🌟",
+      "correction": "",
+      "description": "The use of the star emoji may be considered informal and less appropriate for educational content in Russian, especially in professional or academic contexts. It is recommended to remove the emoji to maintain a formal and neutral tone.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "На этом уроке мы изучим четыре ключевых компонента ЭИ: самосознание, саморегуляцию, эмпатию и социальные навыки.",
+      "correction": "На этом уроке мы изучим четыре ключевых компонента ЭИ: самосознание, саморегуляцию, эмпатию и социальные навыки.",
+      "description": "No grammatical errors detected. The sentence uses correct case forms and agreement. The list of components is clear and properly punctuated.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Эмоциональный интеллект — это способность эффективно воспринимать, понимать и управлять эмоциями.",
+      "correction": "Эмоциональный интеллект — это способность эффективно воспринимать, понимать и управлять эмоциями.",
+      "description": "The terminology is appropriate and matches standard Russian usage for educational contexts. No localization issues found.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Ежедневно размышляйте о своих эмоциях.",
+      "correction": "Ежедневно размышляйте о своих эмоциях.",
+      "description": "The imperative form is correctly used, and the prepositional case is appropriate. No linguistic errors present.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Ведите дневник для фиксации мыслей и чувств.",
+      "correction": "Ведите дневник для записи мыслей и чувств.",
+      "description": "The word 'фиксации' is technically correct but less natural in everyday Russian. 'Записи' is more commonly used in the context of keeping a diary. This change improves the naturalness and readability of the sentence.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Получайте обратную связь от доверенных друзей или наставников.",
+      "correction": "Получайте обратную связь от доверенных друзей или наставников.",
+      "description": "The sentence is grammatically correct, with proper case usage and agreement. No errors detected.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Во время ожесточённого спора вместо того, чтобы кричать, вы делаете паузу, чтобы вдохнуть и спокойно объяснить свою точку зрения.",
+      "correction": "Во время ожесточённого спора вместо того, чтобы кричать, вы делаете паузу, чтобы вдохнуть и спокойно объяснить свою точку зрения.",
+      "description": "No orthographic or punctuation errors found. The sentence is clear and correctly structured.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Активно слушайте, не перебивая.",
+      "correction": "Активно слушайте, не перебивая.",
+      "description": "The style is appropriate for educational content, using a polite imperative form. No localization issues detected.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Старайтесь понять точку зрения другого человека перед тем, как делать выводы.",
+      "correction": "Старайтесь понять точку зрения другого человека перед тем, как делать выводы.",
+      "description": "The sentence is grammatically correct, with proper use of infinitives and case forms. No errors present.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Во время группового проекта вы помогаете разрешить конфликт между членами команды, поощряя открытый диалог и компромисс.",
+      "correction": "Во время группового проекта вы помогаете разрешить конфликт между членами команды, поощряя открытый диалог и компромисс.",
+      "description": "The sentence is grammatically correct, with proper use of participles and case forms. No errors detected.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Emotional_Intelligence.llm.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T21:39:30.170681",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 8.8,
+    "classification": "PROFESSIONAL",
+    "total_issues": 11,
+    "total_penalty": 1.2,
+    "issue_breakdown": {
+      "linguistic": 7,
+      "localization": 4,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.7,
+      "localization_penalty": 0.5,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "🧮",
+      "correction": "",
+      "description": "The use of the abacus emoji (🧮) in an educational German context may be perceived as informal or childish, which can undermine the professional tone expected in instructional materials. For German educational content, especially at the introductory level, it is preferable to avoid emojis unless the target audience is very young children and the overall style is playful. Removing the emoji will ensure a more neutral and professional presentation.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Real-World-Beispiel",
+      "correction": "Praxisbeispiel",
+      "description": "The term 'Real-World-Beispiel' is an anglicism and not standard in German educational materials. The more natural and widely accepted term in German is 'Praxisbeispiel' or 'Beispiel aus der Praxis'. Using the correct terminology improves the naturalness and professionalism of the content, ensuring it aligns with local educational standards.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Basic_Algebra.llm.md",
+    "language": "German",
+    "timestamp": "2025-10-03T21:42:34.055809",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

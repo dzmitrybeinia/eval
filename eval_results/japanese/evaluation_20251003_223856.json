@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "儿 童は自分の感情を完全に理解することができます。.",
+      "correction": "子どもは自分の感情を完全に理解することができます。",
+      "description": "The original text uses the Chinese characters '儿童' instead of the standard Japanese '子ども' for 'child/children.' This is a significant orthographic error, as '儿童' is not used in Japanese and may confuse learners. The period is also followed by an unnecessary full stop, which is not standard in Japanese. Correction ensures proper Japanese vocabulary and punctuation.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "儿 童が友達と喉を水で満たしてもいいですか？.",
+      "correction": "子どもが友達と喉を水で満たしてもいいですか？",
+      "description": "The text incorrectly uses '儿童' (Chinese) instead of '子ども' (Japanese) for 'child/children.' This is a major orthographic error and affects comprehension. Additionally, the sentence ends with both a question mark and a period, which is not standard in Japanese. Correction uses the proper Japanese term and punctuation.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Lexical",
+      "original": "水を喉に入れることは健康に良くありません。",
+      "correction": "水を喉に流し込むことは健康に良くありません。",
+      "description": "The phrase '水を喉に入れる' is unnatural in Japanese and may not clearly convey the intended meaning. A more natural expression would be '水を喉に流し込む,' which better describes the act of pouring water down the throat. This correction improves the naturalness and clarity of the statement.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Lexical",
+      "original": "他人の幸福や幸福を考えることで、私たちにとってもより充実した生活がもたらされることがあります。",
+      "correction": "他人の幸福を考えることで、私たちにとってもより充実した生活がもたらされることがあります。",
+      "description": "The phrase '他人の幸福や幸福' is redundant and unnatural in Japanese, as it repeats the same word. Removing the repetition improves the clarity and naturalness of the sentence.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Kindness_Matters.slm.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-03T22:38:56.034243",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.1,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.9,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.6,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

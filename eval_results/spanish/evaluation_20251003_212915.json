@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "figuras (J, Q, K) y el As",
+      "correction": "figuras (J, Q, K) y el as",
+      "description": "The word 'As' should be lowercase ('as') in Spanish when referring to the playing card, as it is not a proper noun. This improves consistency and aligns with standard Spanish terminology for cards.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "mazo estándar de cartas",
+      "correction": "baraja estándar de cartas",
+      "description": "The term 'mazo' is less commonly used in Spain and Latin America for a deck of playing cards; 'baraja' is the standard term. Using 'baraja' ensures the terminology is natural and widely understood in educational contexts.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "corazones, diamantes, tréboles y espadas",
+      "correction": "corazones, diamantes, tréboles y picas",
+      "description": "The suit 'espadas' is a literal translation of 'spades', but the standard term in Spanish for the suit is 'picas'. Using 'picas' ensures the content matches the terminology used in Spanish-language card games and educational materials.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Probability_Games.llm.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-03T21:29:15.419638",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

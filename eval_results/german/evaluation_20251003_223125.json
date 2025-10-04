@@ -1,0 +1,75 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Flüssigkeiten haben das Eigenschaft, dass sie eindeutig definierte Volumina besitzen, aber nicht die Form.",
+      "correction": "Flüssigkeiten haben die Eigenschaft, dass sie eindeutig definierte Volumina besitzen, aber nicht die Form.",
+      "description": "The definite article 'das' is incorrect here; it should be 'die' to match the feminine noun 'Eigenschaft'. This is a grammatical gender agreement error that affects the clarity and correctness of the sentence.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Sie können sich ausbreiten, um die Form ihres Behälters zu erfüllen.",
+      "correction": "Sie können sich ausbreiten, um die Form ihres Behälters anzunehmen.",
+      "description": "The verb 'erfüllen' is not idiomatic in this context. The correct collocation is 'die Form ... anzunehmen' when describing how liquids adapt to the shape of their container. This lexical error affects the naturalness and precision of the explanation.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "die geringe stöchiometrische Spannung zwischen ihnen",
+      "correction": "die geringe zwischenmolekulare Anziehung zwischen ihnen",
+      "description": "The term 'stöchiometrische Spannung' is incorrect and misleading in this context. The correct scientific terminology is 'zwischenmolekulare Anziehung' to describe the forces between liquid particles. This lexical error impacts scientific accuracy and comprehension.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Gase zeichnen sich durch ein frei bewegendes Teilchen aus und nehmen den gesamten Raum des Behälters ein.",
+      "correction": "Gase zeichnen sich durch frei bewegliche Teilchen aus und nehmen den gesamten Raum des Behälters ein.",
+      "description": "The phrase 'ein frei bewegendes Teilchen' incorrectly uses the singular form, implying only one particle. The correct plural form is 'frei bewegliche Teilchen', as gases consist of many particles. This grammatical error affects scientific accuracy and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Wenn Wasser gefriert, gewinnen die Wassermoleküle tatsächlich Energie.",
+      "correction": "Wenn Wasser gefriert, verlieren die Wassermoleküle tatsächlich Energie.",
+      "description": "The verb 'gewinnen' (to gain) is incorrect in this context. During freezing, water molecules lose energy, not gain it. This is a critical scientific and grammatical error that misrepresents the physical process.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Wenn die Energie hingegen gewonnen wird, werden die Moleküle schneller und können sich zu einer Flüssigkeit oder einem Gas verdünnen.",
+      "correction": "Wenn hingegen Energie aufgenommen wird, bewegen sich die Moleküle schneller und können in einen flüssigen oder gasförmigen Zustand übergehen.",
+      "description": "The phrase 'zu einer Flüssigkeit oder einem Gas verdünnen' is incorrect and unidiomatic. The correct scientific expression is 'in einen flüssigen oder gasförmigen Zustand übergehen'. Additionally, 'Energie gewonnen wird' should be 'Energie aufgenommen wird' for scientific accuracy. These lexical errors affect both clarity and scientific correctness.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "States_of_Matter.slm.md",
+    "language": "German",
+    "timestamp": "2025-10-03T22:31:25.658827",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 8.3,
+    "classification": "PROFESSIONAL",
+    "total_issues": 6,
+    "total_penalty": 1.7,
+    "issue_breakdown": {
+      "linguistic": 6,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.7,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

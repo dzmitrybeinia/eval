@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Durante Diwali, la comida tradicionalmente incluye dulces y snacks, no carnes y mariscos. Esto refleja la importancia de compartir alimentos que simbolizan alegría y unidad.",
+      "correction": "Durante Diwali, la comida tradicionalmente incluye dulces y aperitivos, no carnes y mariscos. Esto refleja la importancia de compartir alimentos que simbolizan alegría y unidad.",
+      "description": "The use of 'snacks' is an anglicism and not the most natural or culturally appropriate term in Spanish for educational content. 'Aperitivos' is the standard term in Spanish for small savory foods served at celebrations. The rest of the sentence is linguistically correct and culturally appropriate.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Durante el Año Nuevo Lunar, es costumbre dar sobres rojos con dinero, no sándwiches, como regalos. Este acto simboliza prosperidad y buena fortuna para el próximo año.",
+      "correction": "Durante el Año Nuevo Lunar, es costumbre dar sobres rojos con dinero, no sándwiches, como regalos. Este acto simboliza prosperidad y buena fortuna para el próximo año.",
+      "description": "No linguistic errors are present. The feedback is culturally accurate and uses appropriate terminology for the context of the Lunar New Year. No correction needed.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "El Carnaval es una celebración conocida en varios lugares alrededor del mundo. Aunque es muy popular en Brasil, también se celebra en el Caribe y Europa, donde cada región aporta su propio estilo y tradiciones. Esto muestra la diversidad y universalidad del fenómeno cultural.",
+      "correction": "El Carnaval es una celebración conocida en varios lugares alrededor del mundo. Aunque es muy popular en Brasil, también se celebra en el Caribe y Europa, donde cada región aporta su propio estilo y tradiciones. Esto muestra la diversidad y universalidad del fenómeno cultural.",
+      "description": "The feedback is linguistically correct and culturally appropriate, accurately reflecting the global nature of Carnival. No correction needed.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "El Carnaval se celebra con alegría y es conocido por su esplendor en la música y en los disfraces, lo cual es diferente a la contemplación y reflexión que mencionan.",
+      "correction": "El Carnaval se celebra con alegría y es conocido por su esplendor en la música y los disfraces, lo cual es diferente a la contemplación y reflexión que se menciona.",
+      "description": "The phrase 'en la música y en los disfraces' is unnecessarily repetitive with the preposition 'en'. In Spanish, it is more natural to say 'en la música y los disfraces'. Additionally, 'que mencionan' is ambiguous since the subject is not clear; 'que se menciona' is more precise and impersonal, which fits the educational context.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Cultural_Celebrations.slm.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-03T22:10:47.789680",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.4,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

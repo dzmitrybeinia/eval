@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "princípulos",
+      "correction": "princípios",
+      "description": "The word 'princípulos' is a misspelling in Portuguese. The correct term is 'princípios', which means 'principles'. This error affects the clarity and professionalism of the educational content and should be corrected to maintain linguistic accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "qualidades éticas conhecidas como 'sangha'",
+      "correction": "qualidades éticas conhecidas como 'sīla'",
+      "description": "The term 'sangha' refers to the Buddhist monastic community, not to ethical qualities. The correct term for ethical qualities in Buddhism is 'sīla'. This terminology error may mislead learners about Buddhist concepts and should be corrected for accuracy and cultural appropriateness.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "World_Religions_1.slm.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T22:34:47.101121",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

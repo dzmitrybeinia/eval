@@ -1,0 +1,107 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "感情は私たちの経験に影響を与える。.",
+      "correction": "感情は私たちの経験に影響を与える。",
+      "description": "There is a redundant period at the end of the sentence, resulting in '。.' which is incorrect in Japanese punctuation. Only the full-width Japanese period '。' should be used at the end of a sentence. This affects the orthographic accuracy and professionalism of the content.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "感情は私たちの経験、たとえそれが短期間であっても長期間もあります。喜びや悲しみ、怒りなど、感情は私たちの行動や考え方に影響を与え、人間関係において重要な役割を果たします。.",
+      "correction": "感情は私たちの経験、たとえそれが短期間であっても、長期間にも影響を与えます。喜びや悲しみ、怒りなど、感情は私たちの行動や考え方に影響を与え、人間関係において重要な役割を果たします。",
+      "description": "The first sentence contains a syntactic error: 'たとえそれが短期間であっても長期間もあります' is unclear and ungrammatical. The phrase should clarify that emotions affect both short-term and long-term experiences. The corrected version improves clarity and grammatical structure by explicitly stating '短期間であっても、長期間にも影響を与えます'. Additionally, the redundant period at the end ('。.') should be removed.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "感情を正確に識別するためには、身体的および感情的なサインを観察することが重要です。.",
+      "correction": "感情を正確に識別するためには、身体的および感情的なサインを観察することが重要です。",
+      "description": "There is a redundant period at the end of the sentence, resulting in '。.' which is incorrect in Japanese punctuation. Only the full-width Japanese period '。' should be used at the end of a sentence.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "身体的な反応や行動は、私たちが感じている感情を理解する際の重要な手がかりです。例えば、笑いや涙は喜びや悲しみを表します。これらのサインを観察することで、自分の感情や他者の感情をよりよく理解することができます。.",
+      "correction": "身体的な反応や行動は、私たちが感じている感情を理解する際の重要な手がかりです。例えば、笑いや涙は喜びや悲しみを表します。これらのサインを観察することで、自分の感情や他者の感情をよりよく理解することができます。",
+      "description": "There is a redundant period at the end of the sentence, resulting in '。.' which is incorrect in Japanese punctuation. Only the full-width Japanese period '。' should be used at the end of a sentence.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "感情を明確に言葉にして共有することは、自分の気持ちを他人に伝える助けになります。.",
+      "correction": "感情を明確に言葉にして共有することは、自分の気持ちを他人に伝える助けになります。",
+      "description": "There is a redundant period at the end of the sentence, resulting in '。.' which is incorrect in Japanese punctuation. Only the full-width Japanese period '。' should be used at the end of a sentence.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "この文は、感情をどのように表現するかについての重要なポイントを正確に伝えています。感情を具体的に言葉にすることで、自分の気持ちをより明確に伝え、他人が理解しやすくなります。.",
+      "correction": "この文は、感情をどのように表現するかについての重要なポイントを正確に伝えています。感情を具体的に言葉にすることで、自分の気持ちをより明確に伝え、他人が理解しやすくなります。",
+      "description": "There is a redundant period at the end of the sentence, resulting in '。.' which is incorrect in Japanese punctuation. Only the full-width Japanese period '。' should be used at the end of a sentence.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "笑いや落ち込むような感情は、自分の行動に影響を与えることがあります。.",
+      "correction": "笑いや落ち込むような感情は、自分の行動に影響を与えることがあります。",
+      "description": "There is a redundant period at the end of the sentence, resulting in '。.' which is incorrect in Japanese punctuation. Only the full-width Japanese period '。' should be used at the end of a sentence.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "笑いや落ち込むような感情は確かに、自分の考えや行動に影響を与えることがあります。これらの感情は、自信を高めたり、自分を守ろうとする動機付けとなることがあります。.",
+      "correction": "笑いや落ち込むような感情は確かに、自分の考えや行動に影響を与えることがあります。これらの感情は、自信を高めたり、自分を守ろうとする動機付けとなることがあります。",
+      "description": "There is a redundant period at the end of the sentence, resulting in '。.' which is incorrect in Japanese punctuation. Only the full-width Japanese period '。' should be used at the end of a sentence.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "感情は自動的に良いものに転換されることが一般的です。.",
+      "correction": "感情は自動的に良いものに転換されることが一般的です。",
+      "description": "There is a redundant period at the end of the sentence, resulting in '。.' which is incorrect in Japanese punctuation. Only the full-width Japanese period '。' should be used at the end of a sentence.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "感情は人独自のもので、それがどのように変わるかは個人によって異なる可能性があります。認識をすることが重要ですが、必ずしも良いまたは悪いとは限りません。.",
+      "correction": "感情は人独自のもので、それがどのように変わるかは個人によって異なる可能性があります。認識をすることが重要ですが、必ずしも良いまたは悪いとは限りません。",
+      "description": "There is a redundant period at the end of the sentence, resulting in '。.' which is incorrect in Japanese punctuation. Only the full-width Japanese period '。' should be used at the end of a sentence.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Emotions_and_Feelings.slm.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-03T22:37:38.338945",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 8.8,
+    "classification": "PROFESSIONAL",
+    "total_issues": 10,
+    "total_penalty": 1.2,
+    "issue_breakdown": {
+      "linguistic": 10,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.2,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

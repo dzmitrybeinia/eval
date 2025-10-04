@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "luces de neón",
+      "correction": "tubos de neón",
+      "description": "The term 'luces de neón' is commonly used in everyday Spanish, but in scientific and educational contexts, 'tubos de neón' is more precise and standard when referring to plasma as found in neon signs. This correction improves technical accuracy and aligns with locally accepted terminology for educational materials.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Ejemplo: hielo seco convirtiéndose en dióxido de carbono.",
+      "correction": "Ejemplo: el hielo seco se convierte en dióxido de carbono.",
+      "description": "The original sentence uses a gerund construction ('convirtiéndose') that is less formal and less direct for educational content. Rewriting as 'el hielo seco se convierte en dióxido de carbono' provides a clearer, more natural, and formal style appropriate for instructional materials.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "States_of_Matter.llm.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-03T21:29:31.143831",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.8,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.2,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

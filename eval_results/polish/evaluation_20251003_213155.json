@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Na przykład, jeśli dzielisz jedną pizzę na cztery osoby, każda osoba dostaje część pizzy.",
+      "correction": "Na przykład, jeśli dzielisz jedną pizzę na cztery osoby, każda osoba dostaje kawałek pizzy.",
+      "description": "The phrase 'część pizzy' is technically correct but less natural in Polish when describing dividing a pizza. 'Kawałek pizzy' is the culturally and contextually appropriate term, as 'kawałek' is commonly used in everyday speech to refer to a slice or piece of pizza. This change improves the naturalness and cultural relevance of the example.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "1/2 szklanki cukru",
+      "correction": "½ szklanki cukru",
+      "description": "In Polish recipe writing, the fraction '1/2' is typically written using the Unicode fraction character '½' rather than the slash format. This aligns with standard formatting conventions in Polish cookbooks and recipes, making the content more professional and locally appropriate.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Jeśli dzielisz worek 12 cukierków na 3 osoby, każda osoba otrzymuje 1/4 cukierków.",
+      "correction": "Jeśli dzielisz worek 12 cukierków na 3 osoby, każda osoba otrzymuje 4 cukierki.",
+      "description": "The example incorrectly states that each person receives '1/4 cukierków' when dividing 12 candies among 3 people. Mathematically, each person receives 4 candies, not a quarter of the candies. This correction ensures the example is accurate and contextually appropriate for Polish learners.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Fractions_Basics.llm.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T21:31:55.845219",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.6,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

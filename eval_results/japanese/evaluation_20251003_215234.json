@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "📚",
+      "correction": "",
+      "description": "The use of the book emoji at the end of the introductory paragraph may be considered informal and less appropriate for educational content aimed at a broad audience, especially in Japanese academic contexts where a more formal tone is preferred. Removing the emoji would enhance professionalism and align with local expectations for educational materials.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "学習ガイドを活用する: キーコンセプトを見直すアウトラインやフラッシュカードを作成。",
+      "correction": "学習ガイドを活用する: キーコンセプトを見直すためのアウトラインやフラッシュカードを作成する。",
+      "description": "The original sentence lacks a verb at the end, making it incomplete and less natural in Japanese. Adding 'ための' clarifies the purpose, and ending with '作成する' provides a complete and grammatically correct sentence. This improves both clarity and linguistic accuracy.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "コーネル式やアウトライン形式を活用。",
+      "correction": "コーネル式やアウトライン形式を活用する。",
+      "description": "The original phrase omits the verb 'する' at the end, which is necessary for a complete and natural Japanese sentence. While this is a minor linguistic issue, it primarily affects the naturalness and professional tone expected in educational content. Adding 'する' makes the expression more standard and appropriate for the context.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Study_Skills.llm.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-03T21:52:34.080523",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "NGSS HS-LS1-3で示されているように、これらの記憶テクニックは脳の構造が認知機能をサポートする証拠を提供します。記憶の科学を理解することで、学習能力を向上させ適応することができます。",
+      "correction": "NGSS（次世代科学基準）HS-LS1-3で示されているように、これらの記憶テクニックは脳の構造が認知機能をサポートする証拠を提供します。記憶の科学を理解することで、学習能力を向上させ適応することができます。",
+      "description": "The abbreviation 'NGSS' is used without explanation, which may be unclear for Japanese learners unfamiliar with US educational standards. For localization, it is important to clarify that NGSS refers to '次世代科学基準' (Next Generation Science Standards) to ensure comprehension and cultural appropriateness. The rest of the sentence is linguistically correct.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "例えば、虹の色（赤、橙、黄、緑、青、藍、紫）を覚えるための頭字語「ROYGBIV」がよく使われます。",
+      "correction": "例えば、虹の色（赤、橙、黄、緑、青、藍、紫）を覚えるために英語圏で使われる頭字語「ROYGBIV」がよく知られています。",
+      "description": "The example 'ROYGBIV' is an English mnemonic and may not be familiar or relevant to Japanese learners. For localization, it should be clarified that this is commonly used in English-speaking countries. This helps avoid confusion and increases cultural appropriateness. The Japanese text is otherwise linguistically correct.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "チャンク化は、情報をより小さく管理しやすい単位、つまり「チャンク」に分割する方法です。",
+      "correction": "チャンク化は、情報をより小さく管理しやすい単位、つまり「チャンク（かたまり）」に分割する方法です。",
+      "description": "The term 'チャンク' is a loanword from English and may not be immediately clear to all Japanese learners. For better localization, it is recommended to provide the Japanese equivalent 'かたまり' in parentheses to aid understanding and naturalness.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Memory_Techniques.llm.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-03T21:51:44.031580",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.5,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

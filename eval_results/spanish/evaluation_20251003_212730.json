@@ -1,0 +1,35 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "El estándar HS-ETS1-1 de NGSS enfatiza el análisis de desafíos globales.",
+      "correction": "El estándar HS-ETS1-1 de NGSS enfatiza el análisis de desafíos globales.",
+      "description": "The reference to 'HS-ETS1-1 de NGSS' may not be familiar or relevant to Spanish-speaking audiences outside the U.S. educational context. NGSS (Next Generation Science Standards) is a U.S.-specific framework, and its mention without explanation or adaptation could reduce accessibility and cultural appropriateness for learners in other regions. Consider providing a brief explanation of NGSS or adapting the reference to a more universally recognized standard if targeting a broader Spanish-speaking audience.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Decision_Making.llm.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-03T21:27:30.018229",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.8,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.2,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

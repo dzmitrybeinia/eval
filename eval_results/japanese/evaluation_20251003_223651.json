@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "ディワリでは家を飾るだけでなく、甘いものや贈り物を交換することも重要です。.",
+      "correction": "ディワリでは家を飾るだけでなく、甘いものや贈り物を交換することも重要です。",
+      "description": "There is an unnecessary period after the Japanese full stop (。) at the end of the statement. In Japanese, only one full-width period should be used to end a sentence. The extra period is a typographical error and should be removed.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "ディワリでは、伝統的に家を飾り、甘いものや贈り物を交換することが重要です。これは家族や友人とのつながりを育む重要な部分です。.",
+      "correction": "ディワリでは、伝統的に家を飾り、甘いものや贈り物を交換することが重要です。これは家族や友人とのつながりを育む重要な部分です。",
+      "description": "The feedback contains an unnecessary period after the Japanese full stop (。) at the end of the sentence. Japanese sentences should end with a single full-width period. The extra period is a typographical error and should be removed.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "感謝祭は日本でも祝われています。.",
+      "correction": "感謝祭は日本でも祝われています。",
+      "description": "There is an unnecessary period after the Japanese full stop (。) at the end of the statement. In Japanese, only one full-width period should be used to end a sentence. The extra period is a typographical error and should be removed.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "感謝祭は主にアメリらみとカナダで祝われる独特の祝日です。日本には異なる祝日がありますが、感謝祭はそのような祝日の一つではありません。.",
+      "correction": "感謝祭は主にアメリカとカナダで祝われる独特の祝日です。日本には異なる祝日がありますが、感謝祭はそのような祝日の一つではありません。",
+      "description": "The word 'アメリらみ' is a misspelling of 'アメリカ' (America). This spelling error affects comprehension and should be corrected to the proper Katakana representation. Additionally, there is an unnecessary period after the Japanese full stop (。) at the end of the sentence, which should be removed.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Cultural_Celebrations.slm.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-03T22:36:51.396223",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 4,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.6,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

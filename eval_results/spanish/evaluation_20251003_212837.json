@@ -1,0 +1,35 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "LGBTQ+",
+      "correction": "LGBTI+",
+      "description": "The term 'LGBTQ+' is commonly used in English, but in Spanish-speaking contexts, 'LGBTI+' is the more widely accepted and standard term for referring to lesbian, gay, bisexual, trans, and intersex communities. Using 'LGBTI+' ensures consistency with local terminology and increases cultural appropriateness for Spanish-speaking audiences.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Human_Rights.llm.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-03T21:28:37.478335",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.8,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.2,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

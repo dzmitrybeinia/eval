@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Booleano: Verdadero o falso.",
+      "correction": "Booleano: verdadero o falso.",
+      "description": "The terms 'Verdadero' and 'Falso' are capitalized, which is not standard in Spanish when referring to boolean values in a general educational context. In Spanish, these should be lowercase unless they are used as code keywords or at the beginning of a sentence. This improves naturalness and consistency with Spanish technical writing conventions.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Flotante: Números con decimales.",
+      "correction": "Flotante: números con decimales.",
+      "description": "The word 'Números' is unnecessarily capitalized. In Spanish, list items following a colon should begin with lowercase unless they are proper nouns or the start of a new sentence. This correction aligns with standard Spanish formatting and improves consistency.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Entero: Números enteros.",
+      "correction": "Entero: números enteros.",
+      "description": "The word 'Números' is capitalized, which is not standard in Spanish for list items after a colon. Lowercase should be used for naturalness and consistency in technical writing.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Cadena: Texto o caracteres.",
+      "correction": "Cadena: texto o caracteres.",
+      "description": "The word 'Texto' is capitalized, which is not standard in Spanish for list items after a colon. Lowercase should be used for naturalness and consistency in technical writing.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Computer_Programming.llm.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-03T21:27:15.126852",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 4,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.4,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

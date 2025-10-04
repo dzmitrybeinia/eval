@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Bem-vindos à aula sobre inteligência emocional! 🌟 Hoje, vamos explorar como reconhecer, entender e gerenciar suas emoções, além de aprender a compreender os sentimentos dos outros. Prepare-se para descobrir os cinco componentes essenciais da inteligência emocional que podem transformar suas interações e ajudar você a alcançar seus objetivos.",
+      "correction": "Bem-vindos à aula sobre inteligência emocional! Hoje, vamos explorar como reconhecer, entender e gerenciar suas emoções, além de aprender a compreender os sentimentos dos outros. Prepare-se para descobrir os cinco componentes essenciais da inteligência emocional que podem transformar suas interações e ajudar você a alcançar seus objetivos.",
+      "description": "The use of the emoji '🌟' in educational content may be considered informal and less professional in Brazilian Portuguese academic contexts. Removing the emoji ensures a more neutral and formal tone, which is appropriate for educational materials.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Autorregulação é a capacidade de gerenciar suas emoções e comportamentos de forma produtiva e apropriada.",
+      "correction": "Autorregulação é a capacidade de gerenciar suas emoções e comportamentos de maneira produtiva e apropriada.",
+      "description": "The use of 'de forma' is grammatically correct but less idiomatic in Brazilian Portuguese compared to 'de maneira', which is more natural in this context. This lexical choice improves the flow and naturalness of the sentence.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Durante um debate acalorado, a autorregulação ajuda você a pausar antes de responder, garantindo que suas palavras sejam pensadas e respeitosas.",
+      "correction": "Durante um debate acalorado, a autorregulação ajuda você a pausar antes de responder, garantindo que suas palavras sejam ponderadas e respeitosas.",
+      "description": "The term 'pensadas' is understandable but 'ponderadas' is the more idiomatic and culturally appropriate term in Brazilian Portuguese for describing thoughtful speech. This change enhances the naturalness and professionalism of the content.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Emotional_Intelligence.llm.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T21:47:00.327735",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

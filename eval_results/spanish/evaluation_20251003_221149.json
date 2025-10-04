@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "La alimentación saludable abarca una amplia gama de tipos de alimentos, incluyendo frutas, vegetales, proteínas magras, granos enteros y productos lácteos.",
+      "correction": "La alimentación saludable abarca una amplia gama de alimentos, incluyendo frutas, vegetales, proteínas magras, granos enteros y productos lácteos.",
+      "description": "The phrase 'una amplia gama de tipos de alimentos' is redundant and less natural in Spanish. The correct and more idiomatic expression is 'una amplia gama de alimentos.' This improves clarity and naturalness while maintaining grammatical accuracy.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "De hecho, las verduras son una excelente fuente de antioxidantes, que ayudan a proteger el cuerpo del daño de las sustancias nocivas llamadas radicales libres.",
+      "correction": "De hecho, las verduras son una excelente fuente de antioxidantes, que ayudan a proteger el cuerpo del daño causado por sustancias nocivas llamadas radicales libres.",
+      "description": "The phrase 'del daño de las sustancias nocivas' is slightly awkward and less idiomatic in Spanish. The more natural expression is 'del daño causado por sustancias nocivas.' This adjustment enhances the flow and clarity of the sentence for Spanish-speaking audiences.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Su rol principal es ser el medio en el que se transportan y reaccionan los nutrientes vitales, mantener el equilibrio de fluidos dentro y fuera de las células y ayudar en la digestión.",
+      "correction": "Su rol principal es ser el medio en el que se transportan y reaccionan los nutrientes vitales, mantener el equilibrio de los fluidos dentro y fuera de las células y ayudar en la digestión.",
+      "description": "The phrase 'el equilibrio de fluidos' should use the definite article 'los' to agree with 'fluidos,' resulting in 'el equilibrio de los fluidos.' This correction ensures proper article usage and grammatical agreement.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Una dieta desequilibrada, que puede carecer de nutrientes esenciales, no suele tener un impacto positivo en el estado de ánimo y la concentración.",
+      "correction": "Una dieta desequilibrada, que puede carecer de nutrientes esenciales, no suele tener un impacto positivo en el estado de ánimo ni en la concentración.",
+      "description": "The phrase 'en el estado de ánimo y la concentración' is understandable but less idiomatic. In Spanish, 'ni' is often used to connect two negative outcomes, resulting in 'en el estado de ánimo ni en la concentración.' This change improves the naturalness and clarity of the sentence.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Aunque la frecuencia de las comidas es importante, el enfoque principal de la alimentación saludable está en la calidad y la variedad de los alimentos elegidos, asegurando una mezcla rica en nutrientes esenciales.",
+      "correction": "Aunque la frecuencia de las comidas es importante, el enfoque principal de la alimentación saludable está en la calidad y la variedad de los alimentos elegidos, asegurando una dieta rica en nutrientes esenciales.",
+      "description": "The phrase 'una mezcla rica en nutrientes esenciales' is less natural in this context. The more appropriate and idiomatic expression is 'una dieta rica en nutrientes esenciales.' This change enhances clarity and aligns with standard Spanish usage in nutritional contexts.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Healthy_Eating.slm.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-03T22:11:49.132758",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

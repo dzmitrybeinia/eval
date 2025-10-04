@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "PEMDAS (operaciones matemáticas)",
+      "correction": "PEMDAS (operaciones matemáticas en inglés)",
+      "description": "The acronym 'PEMDAS' refers to the order of operations in mathematics, but it is specific to English-speaking contexts. In Spanish, the equivalent is 'PEMDAS' or 'PEMDAS' is not commonly used; instead, 'PEMDAS' should be clarified as an English mnemonic, or the Spanish equivalent 'PEMDAS' or 'PEMDAS' should be used if available. This ensures cultural and educational appropriateness for Spanish-speaking learners.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "\"I antes de E excepto después de C\"",
+      "correction": "Este ejemplo no es relevante en español; se recomienda eliminarlo o reemplazarlo por una regla ortográfica española.",
+      "description": "The rhyme 'I antes de E excepto después de C' is an English spelling rule and does not apply to Spanish orthography. Including this example may confuse Spanish-speaking learners, as it is not relevant to their language. It should be replaced with a Spanish-specific mnemonic or orthographic rule to maintain cultural and linguistic relevance.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Visualización: Hacerlo Memorables",
+      "correction": "Visualización: Hacerlo Memorable",
+      "description": "The word 'Memorables' is incorrectly pluralized in this context. The phrase should be 'Hacerlo Memorable' to agree in number with 'Hacerlo', which is singular. This correction ensures proper grammatical agreement and clarity.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Memory_Techniques.llm.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-03T21:28:42.788956",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.4,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

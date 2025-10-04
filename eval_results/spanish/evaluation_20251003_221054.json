@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "El pensamiento crítico solo se beneficia de la evidencia y no de la lógica personal.",
+      "correction": "El pensamiento crítico no solo se beneficia de la evidencia, sino también de la lógica personal.",
+      "description": "The original sentence uses 'solo' without an accent, which should be 'sólo' when meaning 'only' to avoid ambiguity, although current RAE guidelines allow omission. More importantly, the sentence structure is misleading and could be interpreted as excluding logic entirely. The corrected version clarifies that critical thinking benefits from both evidence and personal logic, improving both grammatical accuracy and clarity.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "La toma de decisiones, especialmente en desafíos globales, implica un análisis multidimensional. Los criterios pueden incluir sostenibilidad, beneficios sociales, viabilidad económica y más. El costo es importante, pero no exclusivo, ya que las decisiones deben balancear varios factores para lograr un resultado equilibrado y efectivo.",
+      "correction": "La toma de decisiones, especialmente en contextos globales, implica un análisis multidimensional. Los criterios pueden incluir sostenibilidad, impacto social, viabilidad económica y otros factores. El costo es importante, pero no es el único aspecto a considerar, ya que las decisiones deben equilibrar varios elementos para lograr un resultado óptimo.",
+      "description": "The original feedback uses 'desafíos globales', which may not be the most natural or widely understood term in educational Spanish; 'contextos globales' is more neutral and appropriate. 'Beneficios sociales' is better localized as 'impacto social', which is the standard term in decision-making contexts. The phrase 'y más' is informal; 'y otros factores' is more precise. The sentence 'no exclusivo' is awkward; 'no es el único aspecto a considerar' is clearer and more natural. The final phrase 'resultado equilibrado y efectivo' is improved to 'resultado óptimo' for conciseness and professionalism.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Decision_Making.slm.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-03T22:10:54.131478",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Środkowy Zachód USA: cztery wyraźne sezony, wsparcie dla rolnictwa.",
+      "correction": "Środkowy Zachód USA: cztery wyraźne pory roku, sprzyjające warunki dla rolnictwa.",
+      "description": "The phrase 'cztery wyraźne sezony' uses the anglicism 'sezony' instead of the more natural Polish 'pory roku'. Additionally, 'wsparcie dla rolnictwa' is awkward and literal; 'sprzyjające warunki dla rolnictwa' is more idiomatic and culturally appropriate for Polish educational content.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Climate_Zones.llm.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T21:30:49.985317",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.8,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.2,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

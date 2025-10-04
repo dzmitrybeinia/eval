@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "машины обучаются на данных без явного программирования.",
+      "correction": "машины обучаются на данных без явного программирования.",
+      "description": "Although the sentence is grammatically correct, the phrase 'обучаются на данных' is slightly ambiguous in Russian. A more precise formulation would be 'машины обучаются на основе данных', which better reflects the process of machine learning. This is a lexical precision issue, but since the grammar is correct, no correction is strictly necessary. However, for clarity and educational value, consider revising the phrase.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Голосовые помощники, такие как Siri или Алиса, используют ИИ для общения с человеком.",
+      "correction": "Голосовые помощники, такие как Siri и Алиса, используют ИИ для общения с человеком.",
+      "description": "The use of 'или' (or) between Siri and Алиса is unnatural in Russian when listing examples; 'и' (and) is preferred for enumeration. Additionally, referencing both Siri and Алиса is culturally appropriate, as Алиса is a popular Russian voice assistant. The correction improves naturalness and aligns with Russian stylistic conventions.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "ИИ — это способность машин имитировать человеческий интеллект, выполняя задачи, требующие навыков, таких как обучение, анализ, принятие решений.",
+      "correction": "ИИ — это способность машин имитировать человеческий интеллект, выполняя задачи, требующие навыков, таких как обучение, анализ, принятие решений.",
+      "description": "The phrase 'требующие навыков, таких как обучение, анализ, принятие решений' is grammatically correct, but semantically, 'навыков' is not the most precise word. In Russian, 'умений' or 'способностей' would better convey the idea of skills required for tasks like learning, analysis, and decision-making. This is a lexical precision issue affecting clarity.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Готовы погрузиться в будущее технологий? 🚀",
+      "correction": "Готовы погрузиться в будущее технологий? 🚀",
+      "description": "The use of the informal, engaging style and emoji is appropriate for educational content aimed at a general audience, but may be considered too informal for some Russian educational contexts, especially in formal or academic settings. If the lesson is intended for a younger or general audience, this style is acceptable; otherwise, consider a more neutral tone.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "ИИ — это мощная технология, которая позволяет машинам выполнять задачи, требующие человеческого интеллекта.",
+      "correction": "ИИ — это мощная технология, которая позволяет машинам выполнять задачи, требующие человеческого интеллекта.",
+      "description": "The sentence is grammatically correct, but the phrase 'требующие человеческого интеллекта' could be improved for clarity. A more precise formulation would be 'требующие использования человеческого интеллекта' or 'требующие интеллектуальных способностей человека'. This is a minor lexical issue.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "What_is_AI.llm.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T21:41:40.188862",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

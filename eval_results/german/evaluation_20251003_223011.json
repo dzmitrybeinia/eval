@@ -1,0 +1,75 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Empathie bedeutet, dass wir immer mit dem Urteilen der anderen Menschen umgehen.",
+      "correction": "Empathie bedeutet, dass wir immer mit den Urteilen anderer Menschen umgehen.",
+      "description": "The phrase 'mit dem Urteilen der anderen Menschen' is incorrect in German. The correct form is 'mit den Urteilen anderer Menschen', as 'Urteilen' should be plural and in the dative case, and 'anderer Menschen' is the standard genitive construction. Additionally, the statement is semantically inaccurate, as empathy does not inherently involve dealing with others' judgments. However, the primary issue is linguistic.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "Aktives Zuhören bedeutet, sich volle Aufmerksamkeit zu schenken und Ablenkungen wie Handys auszuschalten.",
+      "correction": "Aktives Zuhören bedeutet, dem Gespräch volle Aufmerksamkeit zu schenken und Ablenkungen wie Handys auszuschalten.",
+      "description": "The phrase 'sich volle Aufmerksamkeit zu schenken' is syntactically incorrect. In German, one 'schenkt' (gives) attention to someone or something, not to oneself in this context. The correct construction is 'dem Gespräch volle Aufmerksamkeit zu schenken', which clarifies the recipient of the attention.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Es geht nicht darum, Ablenkungen zu ignorieren, sondern sie zu minimieren, um vollständig zuzuhören.",
+      "correction": "Es geht nicht darum, Ablenkungen zu ignorieren, sondern sie zu vermeiden, um vollständig zuzuhören.",
+      "description": "The verb 'minimieren' is technically correct but less natural in this context. 'Vermeiden' is the more idiomatic choice in German when referring to distractions in the context of active listening.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Es ist wichtig, während eines Streits den Raum für den anderen zu gewinnen.",
+      "correction": "Es ist wichtig, während eines Streits dem anderen Raum zu geben.",
+      "description": "The phrase 'den Raum für den anderen zu gewinnen' is a literal translation from English and is not idiomatic in German. The correct and natural expression is 'dem anderen Raum zu geben', which accurately conveys the intended meaning of allowing the other person space to express themselves.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Es geht darum, dem Sprecher volle Aufmerksamkeit zu schenken und nicht den eigenen Gedanken innezuwohnen.",
+      "correction": "Es geht darum, dem Sprecher volle Aufmerksamkeit zu schenken und sich nicht in den eigenen Gedanken zu verlieren.",
+      "description": "The phrase 'den eigenen Gedanken innezuwohnen' is awkward and not idiomatic in German. The standard expression is 'sich in den eigenen Gedanken zu verlieren', which better communicates the idea of being distracted by one's own thoughts.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "Empathie bedeutet, dass wir unsere eigenen Probleme immer zuerst priorieren müssen.",
+      "correction": "Empathie bedeutet, dass wir unsere eigenen Probleme immer zuerst priorisieren müssen.",
+      "description": "The verb 'priorieren' is a misspelling; the correct German verb is 'priorisieren'. This is a spelling error that affects the professionalism and clarity of the statement.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Friendship_Skills.slm.md",
+    "language": "German",
+    "timestamp": "2025-10-03T22:30:11.471278",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 8.6,
+    "classification": "PROFESSIONAL",
+    "total_issues": 6,
+    "total_penalty": 1.4,
+    "issue_breakdown": {
+      "linguistic": 6,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.4,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

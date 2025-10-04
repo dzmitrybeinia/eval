@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Системы тяги — это двигатели ракет, обеспечивающие необходимую тягу для старта и полета.",
+      "correction": "Системы тяги — это двигатели ракет, обеспечивающие необходимую силу тяги для старта и полета.",
+      "description": "The phrase 'необходимую тягу' is grammatically correct, but in technical Russian, 'сила тяги' is more precise and commonly used to refer to the thrust force. This correction improves lexical precision and technical accuracy, which is important in educational content about rocket propulsion.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Современные ракеты берут начало от военных разработок, но теперь они являются ключевым элементом научной и космической деятельности.",
+      "correction": "Современные ракеты произошли от военных разработок, но теперь они являются ключевым элементом научной и космической деятельности.",
+      "description": "The phrase 'берут начало' is understandable but less natural in modern Russian scientific style. 'Произошли от' is a more standard and natural way to express the historical origin of rockets in educational and technical contexts.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Ракеты — это уникальные транспортные средства, которые преодолевают силу тяжести и доставляют полезные грузы в космос.",
+      "correction": "Ракеты — это уникальные транспортные средства, которые преодолевают силу тяжести и доставляют полезный груз в космос.",
+      "description": "The phrase 'полезные грузы' is grammatically correct, but in Russian technical and scientific writing, the singular 'полезный груз' is more commonly used as a collective term for payload. This correction improves lexical precision and aligns with standard terminology.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Space_Travel.llm.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T21:41:18.913706",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

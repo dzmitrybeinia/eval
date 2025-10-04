@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "🌟",
+      "correction": "",
+      "description": "The use of the star emoji in educational German content may be considered informal and potentially distracting, especially in formal or academic contexts. It is recommended to remove the emoji to maintain a professional tone and ensure the content is culturally appropriate for educational settings.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "„Ich“-Aussagen",
+      "correction": "Ich-Botschaften",
+      "description": "The term '„Ich“-Aussagen' is understandable but 'Ich-Botschaften' is the more widely accepted and standard term in German educational and psychological contexts. Using 'Ich-Botschaften' ensures consistency with professional terminology and improves the naturalness of the content.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Conflict_Resolution.llm.md",
+    "language": "German",
+    "timestamp": "2025-10-03T21:42:58.220012",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.8,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.2,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

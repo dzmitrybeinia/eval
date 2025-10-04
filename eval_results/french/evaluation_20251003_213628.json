@@ -1,0 +1,75 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Un jeu standard contient 52 cartes réparties en quatre couleurs (cœurs, carreaux, trèfles, piques), chacune ayant 13 cartes.",
+      "correction": "Un jeu standard contient 52 cartes réparties en quatre enseignes (cœurs, carreaux, trèfles, piques), chacune ayant 13 cartes.",
+      "description": "The term 'couleurs' is commonly used in French, but 'enseignes' is the precise term for suits in playing cards in educational and mathematical contexts. Using 'enseignes' ensures terminological accuracy and aligns with standard French mathematical and educational usage, improving clarity and professionalism.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Probabilité = 1/6 ≈ 0,167 ou 16,7 %",
+      "correction": "Probabilité = 1/6 ≈ 0,167 ou 16,7 %",
+      "description": "In French typographic conventions, a non-breaking space should be used before the percent sign (%). This improves orthographic correctness and aligns with French formatting standards.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Probabilité d'obtenir un nombre pair = 3/6 = 1/2 = 50 %.",
+      "correction": "Probabilité d'obtenir un nombre pair = 3/6 = 1/2 = 50 %.",
+      "description": "A non-breaking space is required before the percent sign in French according to typographic rules. This correction ensures proper orthographic formatting.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Probabilité de tirer un cœur = 13/52 = 1/4 = 25 %.",
+      "correction": "Probabilité de tirer un cœur = 13/52 = 1/4 = 25 %.",
+      "description": "French typographic standards require a non-breaking space before the percent sign. This correction improves orthographic accuracy.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Probabilité d'atterrir sur une couleur spécifique (si la roue a 4 sections égales) = 1/4 = 25 %.",
+      "correction": "Probabilité d'atterrir sur une couleur spécifique (si la roue a 4 sections égales) = 1/4 = 25 %.",
+      "description": "A non-breaking space should precede the percent sign in French. This correction ensures compliance with French orthographic conventions.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "somme de 7 = 6/36 = 1/6 = 16,7 %",
+      "correction": "somme de 7 = 6/36 = 1/6 = 16,7 %",
+      "description": "A non-breaking space is required before the percent sign in French. This correction aligns with French typographic standards.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Probability_Games.llm.md",
+    "language": "French",
+    "timestamp": "2025-10-03T21:36:28.996582",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.3,
+    "classification": "NATIVE",
+    "total_issues": 6,
+    "total_penalty": 0.7,
+    "issue_breakdown": {
+      "linguistic": 5,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.5,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

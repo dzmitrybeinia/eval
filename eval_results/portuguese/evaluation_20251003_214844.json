@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "O Islamismo influenciou profundamente a arquitetura, ciência e leis.",
+      "correction": "O Islamismo influenciou profundamente a arquitetura, a ciência e as leis.",
+      "description": "The sentence omits the definite articles before 'ciência' and 'leis', which is required for proper enumeration in Portuguese. The corrected version adds 'a' before 'ciência' and 'as' before 'leis' to ensure grammatical accuracy and naturalness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "É a segunda maior religião do mundo, com mais de 1,8 bilhões de seguidores.",
+      "correction": "É a segunda maior religião do mundo, com mais de 1,8 bilhão de seguidores.",
+      "description": "The word 'bilhões' should be singular ('bilhão') because it refers to '1,8', which in Portuguese is treated as a singular quantity (one point eight billion). The plural form is only used for numbers greater than one in whole numbers.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "É praticado por mais de 1 bilhão de pessoas, principalmente na Índia e Nepal.",
+      "correction": "É praticado por mais de 1 bilhão de pessoas, principalmente na Índia e no Nepal.",
+      "description": "The sentence omits the definite article 'no' before 'Nepal', which is required for correct prepositional use in Portuguese when referring to countries. The corrected version adds 'no Nepal' for grammatical accuracy.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "World_Religions_1.llm.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T21:48:44.040964",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.4,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

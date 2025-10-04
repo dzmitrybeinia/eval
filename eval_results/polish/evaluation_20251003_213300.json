@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Psy są lojalnymi towarzyszami i świetnymi zwierzętami domowymi.",
+      "correction": "Psy są lojalnymi towarzyszami i świetnymi zwierzętami domowymi.",
+      "description": "No linguistic errors detected in this sentence. The noun and adjective endings are correct, and the sentence structure is appropriate for Polish. No correction needed.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "To pomoże Ci nie tylko lepiej zrozumieć informacje, ale także rozwijać umiejętności krytycznego myślenia! 📚",
+      "correction": "To pomoże Ci nie tylko lepiej zrozumieć informacje, ale także rozwijać umiejętności krytycznego myślenia!",
+      "description": "The use of the book emoji (📚) at the end of the sentence may be considered informal and less appropriate for educational content aimed at older students or adults. Removing the emoji ensures a more neutral and professional tone, which is preferable in formal educational materials.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Jej wysiłek się opłacił, gdy kolorowe kwiaty zakwitły wokół jej podwórka.",
+      "correction": "Jej wysiłek się opłacił, gdy kolorowe kwiaty zakwitły wokół jej podwórza.",
+      "description": "The word 'podwórka' is in the genitive case, but the intended meaning requires the locative case 'podwórzu' or the genitive 'podwórza' depending on context. 'Wokół' requires the genitive, so the correct form is 'podwórza'. This correction ensures proper case usage and grammatical accuracy.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Centrum zostało sfinansowane z lokalnych darowizn.",
+      "correction": "Centrum zostało sfinansowane z darowizn lokalnej społeczności.",
+      "description": "The phrase 'z lokalnych darowizn' is somewhat ambiguous and less natural in Polish. 'Z darowizn lokalnej społeczności' is more idiomatic and clearly indicates that the funding came from community donations, improving clarity and naturalness.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Reading_Strategies.llm.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T21:33:00.305349",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

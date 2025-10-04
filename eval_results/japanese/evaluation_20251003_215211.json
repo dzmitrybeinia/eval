@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "読む力を高める：主題と補足情報の特定",
+      "correction": "読解力を高める：主題と補足情報の特定",
+      "description": "The phrase '読む力' is less natural and less commonly used in educational contexts compared to '読解力', which is the standard term for reading comprehension in Japanese. Using '読解力' improves lexical precision and aligns with educational terminology.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "読むほど、さまざまな種類のテキストを理解し分析する能力が向上します。",
+      "correction": "読むほど、さまざまな種類のテキストを理解し、分析する能力が向上します。",
+      "description": "A comma is needed between '理解し' and '分析する' to properly separate the two verbs in a compound predicate, following Japanese punctuation conventions for clarity and readability.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "読むたびにこれらのスキルを使って、言葉の背後にある意味を見つけ、自信を持って読む力を育てましょう！",
+      "correction": "読むたびにこれらのスキルを使って、言葉の背後にある意味を見つけ、自信を持って読解力を育てましょう！",
+      "description": "The use of '読む力' is less natural than '読解力' in this context. '読解力' is the standard term for reading comprehension and is more appropriate for educational materials, ensuring naturalness and consistency in style.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Reading_Strategies.llm.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-03T21:52:11.340203",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

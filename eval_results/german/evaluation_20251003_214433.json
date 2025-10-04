@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Nicht erneuerbare Ressourcen",
+      "correction": "Nicht-erneuerbare Ressourcen",
+      "description": "In German, compound adjectives preceding nouns are typically hyphenated for clarity, especially in educational and scientific contexts. 'Nicht erneuerbare Ressourcen' should be written as 'Nicht-erneuerbare Ressourcen' to follow standard orthographic conventions and avoid ambiguity. This improves readability and aligns with formal German usage.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Nuklearressourcen",
+      "correction": "Kernbrennstoffe",
+      "description": "The term 'Nuklearressourcen' is not commonly used in German educational or scientific contexts. The standard term is 'Kernbrennstoffe' when referring to uranium and other materials used for nuclear energy. Using 'Kernbrennstoffe' ensures terminological accuracy and aligns with local expectations in German-speaking regions.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Unbegrenzte Energiequelle von der Sonne.",
+      "correction": "Unerschöpfliche Energiequelle von der Sonne.",
+      "description": "The phrase 'Unbegrenzte Energiequelle' is a literal translation of 'unlimited energy source' and is less natural in German. 'Unerschöpfliche Energiequelle' is the preferred term in German educational materials, conveying the intended meaning more idiomatically and professionally.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Natural_Resources.llm.md",
+    "language": "German",
+    "timestamp": "2025-10-03T21:44:33.099264",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

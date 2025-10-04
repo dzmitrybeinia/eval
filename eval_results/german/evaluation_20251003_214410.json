@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Anstrengung glauben",
+      "correction": "An die Anstrengung glauben",
+      "description": "The phrase 'Anstrengung glauben' is unnatural and not idiomatic in German. The intended meaning is to believe in the value of effort. The corrected version 'An die Anstrengung glauben' is more natural, but even better would be 'An die Kraft der Anstrengung glauben' or 'Daran glauben, dass Anstrengung zum Erfolg führt.' This issue affects clarity and naturalness, and may confuse learners about standard German phrasing.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Bemühen wertschätzen und schätzen.",
+      "correction": "Bemühungen wertschätzen und feiern.",
+      "description": "The phrase 'Bemühen wertschätzen und schätzen' is redundant and stylistically awkward. 'Bemühungen wertschätzen und feiern' is more idiomatic and natural in German, clearly expressing the idea of appreciating and celebrating efforts. This improves the overall tone and readability.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Growth_Mindset.llm.md",
+    "language": "German",
+    "timestamp": "2025-10-03T21:44:10.750997",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

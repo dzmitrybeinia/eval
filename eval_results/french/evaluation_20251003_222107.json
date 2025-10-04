@@ -1,0 +1,83 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "En algèbre, un symbole comme `x` ou `y` peut représenter n’importe quel nombre.",
+      "correction": "En algèbre, un symbole comme `x` ou `y` peut représenter une valeur quelconque.",
+      "description": "The use of 'n’importe quel nombre' is understandable but not the most natural or precise terminology in French mathematical context. 'Une valeur quelconque' is more standard and aligns better with how variables are described in French educational materials. This improves clarity and naturalness for learners.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "En effet, les symboles comme `x`, `y`, ou `z` servent à représenter des quantités inconnues ou variables dans des équations algébriques. Cette flexibilité facilite l'application de règles mathématiques à divers problèmes.",
+      "correction": "En effet, les symboles comme `x`, `y` ou `z` servent à représenter des quantités inconnues ou variables dans des équations algébriques. Cette flexibilité facilite l'application de règles mathématiques à divers problèmes.",
+      "description": "There is an unnecessary comma before 'ou' in the list 'x, y, ou z'. In French, the serial comma is generally not used, so the correct form is 'x, y ou z'. This correction aligns with standard French punctuation rules.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "En mathématiques, les constantes sont des valeurs fixes qui ne changent pas, contrairement aux variables qui peuvent changer en fonction de l'équation. Ainsi, la notion que les constantes changent est incorrecte.",
+      "correction": "En mathématiques, les constantes sont des valeurs fixes qui ne changent pas, contrairement aux variables qui peuvent changer en fonction de l'équation. Ainsi, l’idée que les constantes changent est incorrecte.",
+      "description": "The word 'notion' is not the most precise choice in this context. 'Idée' is more appropriate when referring to a mistaken belief or concept. This improves lexical precision and clarity.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "En réalité, une équation est une déclaration mathématique qui indique l'égalité entre deux expressions. Lorsque nous parlons d'équations, nous sommes toujours intéressés par l'idée que les deux côtés du signe égal ont la même valeur.",
+      "correction": "En réalité, une équation est une déclaration mathématique qui indique l'égalité entre deux expressions. Lorsque nous parlons d'équations, nous nous intéressons toujours à l'idée que les deux côtés du signe égal ont la même valeur.",
+      "description": "The phrase 'nous sommes toujours intéressés par' is less idiomatic in French. 'Nous nous intéressons toujours à' is more natural and commonly used in educational contexts.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "L'énoncé est inexact car la formule originale indique que chaque collation coûte 2 euros, ce qui fait que la formule correcte est `Coût total = 2x`. La vérification des informations fournies est cruciale pour comprendre comment les variables représentent les quantités réelles dans les équations.",
+      "correction": "L'énoncé est inexact car la formule originale indique que chaque collation coûte 2 euros, donc la formule correcte est `Coût total = 2x`. La vérification des informations fournies est cruciale pour comprendre comment les variables représentent les quantités réelles dans les équations.",
+      "description": "The phrase 'ce qui fait que' is less formal and not ideal for educational content. 'Donc' is more concise and standard in French academic explanations, improving the professional tone and clarity.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Dans la résolution des équations simples, l'opération inverse à celle effectuée sur la variable doit être appliquée des deux côtés pour isoler la variable. Dans l'exemple donné, il faut soustraire 4 des deux côtés pour trouver la valeur de 'x', ce qui donne `x = 6`. L'opération d'addition ne mène pas à la solution dans ce contexte.",
+      "correction": "Dans la résolution des équations simples, l'opération inverse de celle effectuée sur la variable doit être appliquée des deux côtés pour isoler la variable. Dans l'exemple donné, il faut soustraire 4 des deux côtés pour trouver la valeur de 'x', ce qui donne `x = 6`. L'opération d'addition ne mène pas à la solution dans ce contexte.",
+      "description": "The phrase 'inverse à celle effectuée' should be 'inverse de celle effectuée' for correct prepositional usage in French. This correction ensures grammatical accuracy.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "En algèbre, une constante reste une valeur fixe et ne varie pas, contrairement aux variables qui peuvent représenter des quantités inconnues. Les constantes sont essentielles pour établir des relations mathématiques et résoudre des équations. Comprendre cette distinction est crucial pour maîtriser les principes algébriques.",
+      "correction": "En algèbre, une constante reste une valeur fixe et ne varie pas, contrairement aux variables qui peuvent représenter des quantités inconnues. Les constantes sont essentielles pour établir des relations mathématiques et résoudre des équations. Comprendre cette distinction est essentiel pour maîtriser les principes algébriques.",
+      "description": "The use of 'crucial' is correct but 'essentiel' is more commonly used in French educational contexts to express importance. This improves lexical precision and naturalness.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Basic_Algebra.slm.md",
+    "language": "French",
+    "timestamp": "2025-10-03T22:21:07.503583",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.3,
+    "classification": "NATIVE",
+    "total_issues": 7,
+    "total_penalty": 0.7,
+    "issue_breakdown": {
+      "linguistic": 5,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.5,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

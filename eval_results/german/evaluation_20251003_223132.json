@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Versuche, nicht zu überfordern, indem du all deine Lernaktivitäten auf einen Tag legst.",
+      "correction": "Versuche, dich nicht zu überfordern, indem du all deine Lernaktivitäten auf einen Tag legst.",
+      "description": "The reflexive pronoun 'dich' is missing after 'überfordern'. In German, 'sich überfordern' is the correct reflexive construction when referring to oneself. Without 'dich', the sentence is grammatically incorrect and unclear about who is being overwhelmed.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Die Zusammenfassung spielt eine entscheidende Rolle, da sie die Hauptpunkte unter die Lupe nimmt und die eigentlichen Lektionen zusammenfasst.",
+      "correction": "Die Zusammenfassung spielt eine entscheidende Rolle, da sie die Hauptpunkte zusammenfasst und die wichtigsten Lektionen hervorhebt.",
+      "description": "The phrase 'unter die Lupe nimmt' is idiomatic but not appropriate in this educational context, as it implies close scrutiny rather than summarizing. 'Die eigentlichen Lektionen zusammenfasst' is redundant after 'Hauptpunkte zusammenfasst'; instead, 'die wichtigsten Lektionen hervorhebt' is clearer and more precise.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Das bloße Lesen ohne das Erarbeiten von Anmerkungen oder das Fragen nach Kontexten kann das Verständnis nicht erheblich verbessern.",
+      "correction": "Das bloße Lesen ohne das Erstellen von Anmerkungen oder das Nachfragen zu Kontexten kann das Verständnis nicht erheblich verbessern.",
+      "description": "The term 'Erarbeiten von Anmerkungen' is unnatural in German educational style; 'Erstellen von Anmerkungen' is the standard phrase for making notes. Similarly, 'das Fragen nach Kontexten' is awkward; 'das Nachfragen zu Kontexten' is more idiomatic and natural.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Die Priorisierung von Aufgaben ist ein wesentlicher Bestandteil des Stressmanagements, da das Identifizieren und Konzentrieren auf den wichtigsten Aufgabenbereich ermöglicht, mehr Zeit für die Aufgaben zu verwenden, die wirklich Priorität haben.",
+      "correction": "Die Priorisierung von Aufgaben ist ein wesentlicher Bestandteil des Stressmanagements, da das Identifizieren und Konzentrieren auf die wichtigsten Aufgaben ermöglicht, mehr Zeit für die Aufgaben zu verwenden, die wirklich Priorität haben.",
+      "description": "The phrase 'auf den wichtigsten Aufgabenbereich' is grammatically incorrect because 'Aufgabenbereich' is singular, but the context requires the plural 'die wichtigsten Aufgaben'. This correction ensures proper agreement and clarity.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Study_Skills.slm.md",
+    "language": "German",
+    "timestamp": "2025-10-03T22:31:32.478343",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.1,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.9,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.7,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

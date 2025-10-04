@@ -1,0 +1,131 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Radość jest jedyną emocją, która może pojawić się w określone sytuacje.",
+      "correction": "Radość jest jedyną emocją, która może pojawić się w określonych sytuacjach.",
+      "description": "The phrase 'w określone sytuacje' is incorrect due to case mismatch; 'sytuacje' is accusative plural, but the preposition 'w' requires the locative case here. The correct form is 'w określonych sytuacjach'. This error affects grammatical accuracy and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Radość, jak wskazano, to przykład emocji pozytywnej, która może pojawić się z różnych okoliczności, takich jak osiągnięcie cele lub szczęście.",
+      "correction": "Radość, jak wskazano, to przykład emocji pozytywnej, która może pojawić się w różnych okolicznościach, takich jak osiągnięcie celu lub szczęście.",
+      "description": "There are two grammatical errors: 'z różnych okoliczności' should be 'w różnych okolicznościach' (locative case required after 'w'), and 'osiągnięcie cele' should be 'osiągnięcie celu' (genitive singular, not accusative plural). These errors impact grammatical correctness and comprehension.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Sugerowanie, że jest to jedyna emocja przyjmowana w określone sytuacje, nie jest dokładne.",
+      "correction": "Sugerowanie, że jest to jedyna emocja pojawiająca się w określonych sytuacjach, nie jest dokładne.",
+      "description": "The phrase 'przyjmowana w określone sytuacje' is grammatically incorrect; 'przyjmowana' is not the appropriate verb for emotions in this context, and 'w określone sytuacje' should be 'w określonych sytuacjach' (locative case). The correct verb is 'pojawiająca się'.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Emocje, jak wypisano, są wieloaspektowe i różnorodne, co odzwierciedla podane stwierdzenie.",
+      "correction": "Emocje, jak wypisano, są wieloaspektowe i różnorodne, czego nie odzwierciedla podane stwierdzenie.",
+      "description": "The sentence 'co odzwierciedla podane stwierdzenie' is misleading and grammatically incorrect in context. It should be 'czego nie odzwierciedla podane stwierdzenie' to properly convey that the statement does not reflect the complexity of emotions.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "To stwierdzenie nie odzwierciedla z naukami uczenia się, które mówią, że emocje są złożone i są wpływane zarówno przez elementy wrodzone, jak i zewnętrzną środowisko.",
+      "correction": "To stwierdzenie nie jest zgodne z naukami o uczeniu się, które mówią, że emocje są złożone i są kształtowane zarówno przez elementy wrodzone, jak i zewnętrzne środowisko.",
+      "description": "Multiple grammatical errors: 'nie odzwierciedla z naukami uczenia się' is incorrect; the correct phrase is 'nie jest zgodne z naukami o uczeniu się'. 'są wpływane' is not idiomatic; 'są kształtowane' is correct. 'zewnętrzną środowisko' should be 'zewnętrzne środowisko' (adjective-noun agreement).",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Zewnętrzne doświadczenia, takie jak spotkania z innymi lub wydarzenia, mogą znacznie wpływać na nasze emocje.",
+      "correction": "Zewnętrzne doświadczenia, takie jak spotkania z innymi lub wydarzenia, mogą znacząco wpływać na nasze emocje.",
+      "description": "The adverb 'znacznie' is less precise in this context; 'znacząco' is the more appropriate adverb to describe the degree of influence. This is a minor lexical improvement for clarity.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Dlatego stwierdzenie, że emocje są 'wyłącznie wrodzone', nie jest dokładne.",
+      "correction": "Dlatego stwierdzenie, że emocje są 'wyłącznie wrodzone', nie jest precyzyjne.",
+      "description": "The word 'dokładne' is less appropriate in this context; 'precyzyjne' better conveys the intended meaning of accuracy regarding the statement.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Chociaż emocje mogą mieć związek z fizycznym zdrowie, ta afirmacja jest nieścisła w kontekście zachowania emocjonalnego.",
+      "correction": "Chociaż emocje mogą mieć związek ze zdrowiem fizycznym, ta afirmacja jest nieścisła w kontekście zachowań emocjonalnych.",
+      "description": "Two grammatical errors: 'z fizycznym zdrowie' should be 'ze zdrowiem fizycznym' (instrumental case), and 'zachowania emocjonalnego' should be 'zachowań emocjonalnych' (plural genitive to match context).",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Emocje mogą wpływać na zachowanie, poprzez wpływać na nasze reakcje, decyzje i interakcje z innymi, ale bez dodatkowego kontekstu, ta propozycja nie odnosi się bezpośrednio na zrozumienie różnych typów emocji i ich wpływu na zachowanie.",
+      "correction": "Emocje mogą wpływać na zachowanie, wpływając na nasze reakcje, decyzje i interakcje z innymi, ale bez dodatkowego kontekstu ta propozycja nie odnosi się bezpośrednio do zrozumienia różnych typów emocji i ich wpływu na zachowanie.",
+      "description": "The phrase 'poprzez wpływać' is incorrect; it should be 'wpływając'. Also, 'odnosi się bezpośrednio na zrozumienie' should be 'odnosi się bezpośrednio do zrozumienia' (correct preposition usage).",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Praktyczne aktywności, takie jak sport czy codzienne poranny spacery, mogą zwiększyć produkcję endorfynów, które przyczyniają się do poprawy nastroju i redukcji stresu, co prowadzi do lepszego zarządzania emocjami.",
+      "correction": "Praktyczne aktywności, takie jak sport czy codzienne poranne spacery, mogą zwiększyć produkcję endorfin, które przyczyniają się do poprawy nastroju i redukcji stresu, co prowadzi do lepszego zarządzania emocjami.",
+      "description": "Two errors: 'poranny spacery' should be 'poranne spacery' (adjective-noun agreement), and 'endorfinów' should be 'endorfin' (genitive plural, not genitive masculine-personal).",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Tego nie zgadzamy, ponieważ emocje mogą być zarówno pozytywne, jak i negatywne, ale wszystkie mogą wpływać na nasze zachowanie w różny sposób.",
+      "correction": "Nie zgadzamy się z tym, ponieważ emocje mogą być zarówno pozytywne, jak i negatywne, ale wszystkie mogą wpływać na nasze zachowanie w różny sposób.",
+      "description": "The phrase 'Tego nie zgadzamy' is grammatically incorrect; the correct form is 'Nie zgadzamy się z tym'. This error affects the clarity and grammatical correctness of the feedback.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Na przykład, szczęście może prowadzić do zachowań eksploracyjnych, podczas gdy smutek może skłonić do ostrożności.",
+      "correction": "Na przykład szczęście może prowadzić do zachowań eksploracyjnych, podczas gdy smutek może skłaniać do ostrożności.",
+      "description": "Minor stylistic improvement: 'może skłonić do ostrożności' should be 'może skłaniać do ostrożności' to maintain aspectual consistency and naturalness in Polish.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "To rozumowanie emocji i ich wpływu na zachowanie jest kluczowym elementem rozwijania inteligencji emocjonalnej i samoświadomości.",
+      "correction": "Takie rozumienie emocji i ich wpływu na zachowanie jest kluczowym elementem rozwijania inteligencji emocjonalnej i samoświadomości.",
+      "description": "The phrase 'To rozumowanie emocji' is awkward and not idiomatic in Polish; 'Takie rozumienie emocji' is the correct and natural expression.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Emotions_and_Feelings.slm.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T22:15:07.078709",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 6.9,
+    "classification": "SUBSTANDARD",
+    "total_issues": 13,
+    "total_penalty": 3.1,
+    "issue_breakdown": {
+      "linguistic": 13,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 3.1,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Boolean: Wahrheitswerte (True oder False)",
+      "correction": "Boolean: Wahrheitswerte (Wahr oder Falsch)",
+      "description": "The terms 'True' and 'False' are English and may not be immediately clear to beginners in a German educational context. For introductory lessons, it is more culturally appropriate and pedagogically effective to use the German equivalents 'Wahr' and 'Falsch' when explaining Boolean values, while still referencing the English terms as used in code. This ensures clarity and supports learners who may not be familiar with English programming terminology.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Programmieren mag anfangs komplex erscheinen, aber das Verständnis dieser Grundlagen wird dir helfen, Vertrauen zu gewinnen und dich auf fortgeschrittene Themen vorzubereiten.",
+      "correction": "Programmieren mag anfangs komplex erscheinen, aber das Verständnis dieser Grundlagen wird Ihnen helfen, Vertrauen zu gewinnen und sich auf fortgeschrittene Themen vorzubereiten.",
+      "description": "The sentence uses the informal 'du' form ('dir', 'dich'), which may not be appropriate for all educational contexts, especially in formal or mixed-age settings. For broader applicability and professionalism, the formal 'Sie' form ('Ihnen', 'sich') is recommended. This change ensures the content is suitable for a wider audience and maintains a consistent, respectful tone throughout the lesson.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Coding_Basics.llm.md",
+    "language": "German",
+    "timestamp": "2025-10-03T21:42:50.494486",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Sua perseverança e aprendizado com os feedbacks foram fundamentais para o eventual sucesso de sua série Harry Potter.",
+      "correction": "Sua perseverança e aprendizado com os feedbacks foram fundamentais para o sucesso eventual de sua série Harry Potter.",
+      "description": "The phrase 'sucesso eventual' is the correct collocation in Portuguese, meaning 'eventual success.' The original uses 'eventual sucesso,' which is a calque from English and not idiomatic in Portuguese. This is a grammatical and lexical issue affecting naturalness and clarity.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Estudos mostram que quando os estudantes acreditam no seu potencial de desenvolver habilidades e conhecimentos, eles são mais propensos a se envolver em estudos rigorosos, buscar ajuda quando necessário e persistir diante dos desafios.",
+      "correction": "Estudos mostram que quando os estudantes acreditam em seu potencial de desenvolver habilidades e conhecimentos, eles são mais propensos a se dedicar aos estudos, buscar ajuda quando necessário e persistir diante dos desafios.",
+      "description": "The phrase 'se envolver em estudos rigorosos' is not the most natural or commonly used expression in Brazilian Portuguese for academic engagement. 'Se dedicar aos estudos' is more idiomatic and culturally appropriate. This is a localization issue related to terminology and naturalness.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Growth_Mindset.slm.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T22:33:32.192533",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

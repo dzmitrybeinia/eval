@@ -209,8 +209,6 @@ class ErrorPatternAnalyzer:
         payload = {
             "metadata": {
                 "label": label.original,
-                "label_normalized": label.normalized,
-                "label_key": label.key,
                 "language": language,
                 "generated_at": datetime.now().isoformat(),
             },
@@ -235,16 +233,15 @@ class ErrorPatternAnalyzer:
                     payload = existing
                 elif isinstance(existing, dict) and existing.get("analyses"):
                     legacy_label = existing.get("label") or "legacy"
+                    legacy_label_key = sanitize_label(existing.get("label", legacy_label))
                     legacy_entry = {
                         "label": legacy_label,
-                        "label_normalized": legacy_label.lower(),
-                        "label_key": sanitize_label(existing.get("label_key", legacy_label)),
                         "generated_at": existing.get("generated_at", ""),
                         "languages": existing.get("languages", list(existing.get("analyses", {}).keys())),
                         "analyses": existing.get("analyses", {}),
                     }
-                    payload["labels"] = {legacy_entry["label_key"]: legacy_entry}
-                    payload["latest_label"] = legacy_entry["label_key"]
+                    payload["labels"] = {legacy_label_key: legacy_entry}
+                    payload["latest_label"] = legacy_label_key
             except (OSError, json.JSONDecodeError):
                 pass
 
@@ -271,8 +268,6 @@ class ErrorPatternAnalyzer:
 
         labels_dict[label.key] = {
             "label": label.original,
-            "label_normalized": label.normalized,
-            "label_key": label.key,
             "generated_at": datetime.now().isoformat(),
             "languages": sorted(languages),
             "analyses": merged_analyses,
@@ -293,8 +288,7 @@ class ErrorPatternAnalyzer:
         self, language: str, label: LabelInfo
     ) -> Optional[Dict[str, List[Dict]]]:
         combined_base = self.issues_dir / "combined_issues"
-        label_key = label.key
-        candidates = [combined_base / label_key / f"{language}_issues.json"]
+        candidates = [combined_base / label.key / f"{language}_issues.json"]
 
         # Fallback for legacy structure without label directories
         candidates.append(combined_base / f"{language}_issues.json")
@@ -311,8 +305,7 @@ class ErrorPatternAnalyzer:
 
             metadata = data.get("metadata", {}) if isinstance(data, dict) else {}
             stored_label = metadata.get("label")
-            stored_normalized = metadata.get("label_normalized")
-            if stored_label and stored_label != label.original and stored_normalized != label.normalized:
+            if stored_label and stored_label != label.original:
                 continue
 
             issues_payload = data.get("issues") if isinstance(data, dict) else None

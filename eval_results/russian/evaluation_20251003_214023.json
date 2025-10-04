@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Готовы начать? 😄",
+      "correction": "Готовы начать?",
+      "description": "The use of the smiley emoji 😄 in educational Russian content may be considered informal and less appropriate for certain classroom or academic settings, especially in written materials. While emojis can help engage younger audiences, their use should be carefully considered based on the target age group and educational context. Removing the emoji ensures a more neutral and universally acceptable tone.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "школьными принадлежностями",
+      "correction": "канцелярскими принадлежностями",
+      "description": "The term 'школьными принадлежностями' is understandable but less precise and less commonly used in Russian educational contexts compared to 'канцелярскими принадлежностями', which is the standard term for school supplies or stationery. Using the more widely accepted terminology improves clarity and professionalism.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "Организация сбора средств на местные нужды.",
+      "correction": "Организация благотворительного сбора на местные нужды.",
+      "description": "The phrase 'сбор средств' is correct, but adding 'благотворительного' clarifies the context and aligns with common Russian phrasing for community fundraising activities. This adjustment makes the example more culturally specific and natural for Russian audiences.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Kindness_Matters.llm.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T21:40:23.046545",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

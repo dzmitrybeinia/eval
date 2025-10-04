@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Dans cette leçon, nous allons découvrir leur origine, leur importance, et comment ils influencent nos vies et nos sociétés 🌍.",
+      "correction": "Dans cette leçon, nous allons découvrir leur origine, leur importance, et comment ils influencent nos vies et nos sociétés.",
+      "description": "The use of the globe emoji (🌍) at the end of the sentence is not appropriate for formal educational content in French, especially in written lessons. While emojis can be engaging in informal contexts, they are generally avoided in academic or professional materials to maintain a formal and neutral tone. Removing the emoji ensures the style aligns with standard French educational conventions.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Liberté de parole, de religion, et de réunion.",
+      "correction": "Liberté d'expression, de religion et de réunion.",
+      "description": "The phrase 'Liberté de parole' is a literal translation of 'freedom of speech' but is not the standard term in French legal or educational contexts. The correct and widely accepted term is 'Liberté d'expression.' Additionally, the Oxford comma before 'et' is not standard in French; it should be omitted for naturalness and consistency with French punctuation norms.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Human_Rights.llm.md",
+    "language": "French",
+    "timestamp": "2025-10-03T21:35:56.103986",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

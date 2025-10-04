@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "アクティブリスニング",
+      "correction": "アクティブ・リスニング",
+      "description": "The term 'アクティブリスニング' is a loanword from English ('active listening') and should be written with a middle dot (・) between the two words in Katakana to follow Japanese orthographic conventions for compound loanwords. This improves readability and aligns with standard usage in educational and professional contexts.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "アクティブリスニングの技術：",
+      "correction": "アクティブ・リスニングのスキル：",
+      "description": "The word '技術' typically refers to technical skills or technology, which is less natural in the context of communication strategies. 'スキル' is more commonly used in Japanese educational and business contexts to refer to interpersonal or soft skills, making the terminology more culturally appropriate and natural.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "気を散らさない。",
+      "correction": "注意をそらさない。",
+      "description": "The phrase '気を散らさない' is understandable but slightly informal and less natural in educational materials. '注意をそらさない' is a more standard and formal expression for maintaining focus, which is better suited for instructional content.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "家族の間での休日の計画に関する意見の相違がある場合、家族全員が好みを話し合い、毎年行き先を交代することで合意します。",
+      "correction": "家族の間での休日の計画に関する意見の相違がある場合、家族全員が希望を話し合い、毎年行き先を交代することで合意します。",
+      "description": "The word '好み' (preference) is acceptable, but '希望' (wish/desire) is more commonly used in Japanese when discussing family decisions or group consensus, especially in formal or educational contexts. This change makes the example more culturally natural and appropriate.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "全員に利益をもたらす行動計画に合意する。",
+      "correction": "全員に利益をもたらす行動計画に全員で合意する。",
+      "description": "The original sentence is grammatically correct but slightly ambiguous regarding who agrees. Adding '全員で' clarifies that all members agree together, improving grammatical precision and clarity in the context of collaborative problem-solving.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Conflict_Resolution.llm.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-03T21:50:06.881632",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.4,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

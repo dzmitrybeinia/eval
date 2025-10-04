@@ -1,0 +1,91 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "分数は2つの部分で構成されています：",
+      "correction": "分数は2つの部分から構成されています。",
+      "description": "The original uses the particle 'で' which is less natural in this context. In Japanese, 'から' is more idiomatic when describing components or elements that make up something. Additionally, the use of the colon '：' is a Western style; Japanese educational content typically uses a full-width period or omits the colon for smoother flow.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "分数の上部の数字で、考慮されている部分の数を表します。",
+      "correction": "分数の上の数字で、考えられている部分の数を表します。",
+      "description": "The phrase '上部の数字' is less natural than '上の数字' in Japanese educational contexts. Also, '考慮されている部分' is formal and unnatural; '考えられている部分' is more commonly used in this context. This improves the naturalness and readability for Japanese learners.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "分数の下部の数字で、全体を構成する等しい部分の総数を表します。",
+      "correction": "分数の下の数字で、全体をいくつの等しい部分に分けるかを表します。",
+      "description": "The phrase '下部の数字' should be '下の数字' for naturalness. The original sentence is somewhat formal and wordy; simplifying to '全体をいくつの等しい部分に分けるかを表します' is more natural and clear for Japanese learners.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "これは「4つの等しい部分のうち1つ」を意味します。",
+      "correction": "これは「4つの等しい部分のうちの1つ」を意味します。",
+      "description": "The phrase 'うち1つ' is missing the particle 'の', which is required for naturalness and grammatical correctness in Japanese. 'うちの1つ' is the standard way to express 'one of the four equal parts'.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "分数を比較するには、次の記号を使用します：",
+      "correction": "分数を比較するには、次の記号を使います。",
+      "description": "The verb '使用します' is formal and less natural in educational content for children. '使います' is more appropriate and natural. Also, the colon '：' is a Western style and should be replaced with a full-width period or omitted for Japanese educational materials.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "比較する方法：",
+      "correction": "比較する方法は次の通りです。",
+      "description": "The use of the colon '：' is a Western style and not standard in Japanese educational writing. '比較する方法は次の通りです。' is a more natural and idiomatic way to introduce a method or procedure in Japanese.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "分母が同じ場合は、分子を比較します。",
+      "correction": "分母が同じ場合は、分子を比べます。",
+      "description": "The verb '比較します' is more formal and less natural in this context. '比べます' is commonly used in educational materials and is more accessible for learners.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "分母が異なる場合は、共通の分母を見つけて比較します。",
+      "correction": "分母が異なる場合は、共通の分母を見つけて比べます。",
+      "description": "Similar to the previous issue, '比較します' is formal and '比べます' is more natural and commonly used in educational contexts.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Fractions_Basics.llm.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-03T21:51:03.035205",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 8.9,
+    "classification": "PROFESSIONAL",
+    "total_issues": 8,
+    "total_penalty": 1.1,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 8,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 1.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "このレッスンでは、気候帯がどのように生態系や人々の活動に影響を与えるかを学びます🌍。",
+      "correction": "このレッスンでは、気候帯がどのように生態系や人々の活動に影響を与えるかを学びます。",
+      "description": "The use of the globe emoji (🌍) at the end of the sentence is not standard in formal Japanese educational content and may be perceived as informal or distracting. Removing the emoji ensures the tone remains professional and appropriate for an educational context.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "気候帯は、温度、降水量、植生に基づいて分類されます。主要な気候帯には以下の種類があります：",
+      "correction": "気候帯は、気温、降水量、植生に基づいて分類されます。主要な気候帯には以下の種類があります。",
+      "description": "The term '温度' is less natural than '気温' when referring to climate zones in Japanese; '気温' is the standard term for air temperature in climatology. Additionally, the colon (：) at the end of the sentence should be replaced with a Japanese full stop (。) for proper punctuation.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "熱帯気候: 高温多湿で赤道付近に位置。",
+      "correction": "熱帯気候：高温多湿で赤道付近に位置します。",
+      "description": "The use of the Western colon (:) is not standard in Japanese; the Japanese full-width colon (：) should be used. Additionally, the sentence fragment style is less natural in educational Japanese, which typically uses full sentences. Changing to '位置します' improves naturalness and clarity.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "乾燥気候: 降水量が少ない砂漠や半乾燥地域。",
+      "correction": "乾燥気候：降水量が少ない砂漠や半乾燥地域です。",
+      "description": "The Western colon (:) should be replaced with the Japanese full-width colon (：). The sentence should be completed with 'です' for a more natural and formal register in educational content.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "温帯気候: 温暖な気温と四季がある。",
+      "correction": "温帯気候：温暖な気温と四季があります。",
+      "description": "Replace the Western colon (:) with the Japanese full-width colon (：). The sentence should be completed with 'あります' for naturalness and formality.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "大陸性気候: 冬の寒さと夏の暑さが顕著な内陸地域。",
+      "correction": "大陸性気候：冬の寒さと夏の暑さが顕著な内陸地域です。",
+      "description": "Replace the Western colon (:) with the Japanese full-width colon (：). The sentence should be completed with 'です' for a more natural and formal register.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "極地気候: 一年中寒冷な、極地付近の地域。",
+      "correction": "極地気候：一年中寒冷な、極地付近の地域です。",
+      "description": "Replace the Western colon (:) with the Japanese full-width colon (：). The sentence should be completed with 'です' for naturalness and formality.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "例: アマゾン熱帯雨林は熱帯気候帯に属しています。",
+      "correction": "例：アマゾン熱帯雨林は熱帯気候帯に属しています。",
+      "description": "Replace the Western colon (:) with the Japanese full-width colon (：) for proper Japanese punctuation.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "例: 熱帯雨林（多様な動植物が生息）。",
+      "correction": "例：熱帯雨林（多様な動植物が生息しています）。",
+      "description": "Replace the Western colon (:) with the Japanese full-width colon (：). The sentence fragment should be completed with '生息しています' for naturalness and clarity.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "例: サハラ砂漠（乾燥に強い植物が生息）。",
+      "correction": "例：サハラ砂漠（乾燥に強い植物が生息しています）。",
+      "description": "Replace the Western colon (:) with the Japanese full-width colon (：). The sentence fragment should be completed with '生息しています' for naturalness and clarity.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "例: 落葉樹林（鹿やリスなどが生息）。",
+      "correction": "例：落葉樹林（鹿やリスなどが生息しています）。",
+      "description": "Replace the Western colon (:) with the Japanese full-width colon (：). The sentence fragment should be completed with '生息しています' for naturalness and clarity.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "例: 針葉樹林（寒冷に適応した動物が生息）。",
+      "correction": "例：針葉樹林（寒冷に適応した動物が生息しています）。",
+      "description": "Replace the Western colon (:) with the Japanese full-width colon (：). The sentence fragment should be completed with '生息しています' for naturalness and clarity.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "例: 北極地域（ホッキョクグマなどが生息）。",
+      "correction": "例：北極地域（ホッキョクグマなどが生息しています）。",
+      "description": "Replace the Western colon (:) with the Japanese full-width colon (：). The sentence fragment should be completed with '生息しています' for naturalness and clarity.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "例: アマゾン熱帯雨林は温暖な気温と多雨により数百万種の生物を支えています。",
+      "correction": "例：アマゾン熱帯雨林は温暖な気温と多雨により数百万種の生物を支えています。",
+      "description": "Replace the Western colon (:) with the Japanese full-width colon (：) for proper Japanese punctuation.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "農業: 気候帯に応じた作物が栽培される（例: 温帯地域では小麦、熱帯地域では稲）。",
+      "correction": "農業：気候帯に応じた作物が栽培される（例：温帯地域では小麦、熱帯地域では稲）。",
+      "description": "Replace the Western colon (:) with the Japanese full-width colon (：) for both '農業' and '例'. This ensures consistency with Japanese punctuation standards.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "住居: 地域の気候に合わせた住居設計（例: 極地では断熱性の高い住宅、熱帯では開放的な設計）。",
+      "correction": "住居：地域の気候に合わせた住居設計（例：極地では断熱性の高い住宅、熱帯では開放的な設計）。",
+      "description": "Replace the Western colon (:) with the Japanese full-width colon (：) for both '住居' and '例'. This ensures consistency with Japanese punctuation standards.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "生活様式: 気候に応じた衣類や日常生活（例: 極地では防寒着、熱帯では軽装）。",
+      "correction": "生活様式：気候に応じた衣類や日常生活（例：極地では防寒着、熱帯では軽装）。",
+      "description": "Replace the Western colon (:) with the Japanese full-width colon (：) for both '生活様式' and '例'. This ensures consistency with Japanese punctuation standards.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "例: 極地地域では暖房システムが重要で、熱帯地域では扇風機や軽い服装が一般的です。",
+      "correction": "例：極地地域では暖房システムが重要で、熱帯地域では扇風機や軽い服装が一般的です。",
+      "description": "Replace the Western colon (:) with the Japanese full-width colon (：) for proper Japanese punctuation.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "地球は以下の5つの主要な気候帯に分かれています：熱帯、乾燥、温帯、大陸性、極地。",
+      "correction": "地球は以下の5つの主要な気候帯に分かれています：熱帯、乾燥、温帯、大陸性、極地。",
+      "description": "The use of the Japanese full-width colon (：) is correct here, but ensure consistency throughout the content. No correction needed, but this highlights the importance of using the full-width colon in all similar cases.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Climate_Zones.llm.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-03T21:49:47.150505",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 8.0,
+    "classification": "PROFESSIONAL",
+    "total_issues": 19,
+    "total_penalty": 2.0,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 18,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 1.8,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

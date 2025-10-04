@@ -1,0 +1,123 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Kiedy ktoś utraci krwotok, należy natychmiastowo ustąpić tightenerze.",
+      "correction": "Kiedy ktoś ma krwotok, należy natychmiast zastosować opaskę uciskową.",
+      "description": "The original sentence contains a lexical error: 'utraci krwotok' is incorrect, as 'krwotok' means 'hemorrhage' and cannot be 'lost'; the correct phrase is 'ma krwotok'. The word 'tightenerze' is an anglicism and not a Polish medical term; the proper term is 'opaska uciskowa'. The verb 'ustąpić' is also incorrect in this context; 'zastosować' (to apply) is appropriate. These errors significantly affect comprehension and accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "W przypadku utraty krwotoku kluczowe jest utrzymanie przy życiu, na przykład, utrzymanie oddechu, nie ustanieć tightenerze. Taniec z tightenerzem może pować ostateczne szkody.",
+      "correction": "W przypadku krwotoku kluczowe jest utrzymanie osoby przy życiu, na przykład utrzymanie oddechu, nie zdejmowanie opaski uciskowej. Manipulowanie opaską uciskową może spowodować poważne szkody.",
+      "description": "Multiple linguistic errors: 'utrata krwotoku' is incorrect, as one cannot 'lose a hemorrhage'; the correct term is 'krwotok'. 'Nie ustanieć tightenerze' is grammatically incorrect and uses an anglicism; the correct phrase is 'nie zdejmowanie opaski uciskowej'. 'Taniec z tightenerzem' is nonsensical and should be replaced with 'manipulowanie opaską uciskową'. 'Pować ostateczne szkody' is a misspelling and should be 'spowodować poważne szkody'. These errors severely impact clarity and medical accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Przy skaleczeniach można wykorzystać gumę do zapakowania wrany.",
+      "correction": "Przy skaleczeniach nie należy używać gumy do zabezpieczenia rany.",
+      "description": "Lexical and spelling errors: 'guma do zapakowania wrany' is incorrect; 'guma' is not used for wound care, and 'wrany' is a misspelling of 'rany'. The correct term is 'zabezpieczenia rany'. The sentence should clearly state that using rubber is inappropriate for wound care.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Użycie gumy do zapakowania w ranie może nie tylko utrudnić czyszczenie, ale także zwiększyć ryzyko kontaminacji. Ważne jest, aby ranę oczyścić czystą wodą, a następnie zabezpieczyć antyseptykiem, co zapewnia bezpieczne środowisko do szybkiego leczenia.",
+      "correction": "Użycie gumy do zabezpieczenia rany może nie tylko utrudnić czyszczenie, ale także zwiększyć ryzyko zakażenia. Ważne jest, aby ranę oczyścić czystą wodą, a następnie zabezpieczyć środkiem antyseptycznym, co zapewnia bezpieczne warunki do szybkiego leczenia.",
+      "description": "Orthographic and lexical issues: 'zapakowania w ranie' is incorrect; the proper phrase is 'zabezpieczenia rany'. 'Kontaminacji' is a technical term, but 'zakażenia' is more natural in Polish medical context. 'Antyseptykiem' should be 'środkiem antyseptycznym' for clarity. 'Środowisko' is less precise than 'warunki' in this context.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Podczas podania pierwszej pomocy w przypadku oparzenia, używanie lodu na szczurkę pretentacyjnego jest racjonalną praktyką.",
+      "correction": "Podczas udzielania pierwszej pomocy w przypadku oparzenia, używanie lodu na oparzone miejsce nie jest zalecaną praktyką.",
+      "description": "Lexical and grammatical errors: 'podania pierwszej pomocy' is incorrect; the correct phrase is 'udzielania pierwszej pomocy'. 'Szczurkę pretentacyjnego' is nonsensical and should be replaced with 'oparzone miejsce'. 'Racjonalną praktyką' is misleading; the sentence should state that it is not recommended.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Używanie lodu na szczurka pretentacyjnego nie jest zalecana, ponieważ może prowadzić do uszkodzeń skóry. Zamiast tego, najlepiej chłodzić oparzenie pod bieżącą wodą przez co najmniej 10 minut, aby złagodzić ból i zapalić obszar bez przywierania.",
+      "correction": "Używanie lodu na oparzone miejsce nie jest zalecane, ponieważ może prowadzić do uszkodzenia skóry. Zamiast tego najlepiej chłodzić oparzenie pod bieżącą wodą przez co najmniej 10 minut, aby złagodzić ból i zapobiec dalszym uszkodzeniom.",
+      "description": "Grammatical and lexical errors: 'szczurka pretentacyjnego' is incorrect; should be 'oparzone miejsce'. 'Nie jest zalecana' should agree in gender with 'używanie' ('nie jest zalecane'). 'Uszkodzeń skóry' should be singular ('uszkodzenia skóry'). 'Zapalić obszar bez przywierania' is incorrect and unclear; the correct phrase is 'zapobiec dalszym uszkodzeniom'.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Jeśli osoba kaszli, powinieneś obejmować ją w talii, aby pomóc.",
+      "correction": "Jeśli osoba kaszle, nie należy jej obejmować w talii, aby pomóc.",
+      "description": "Lexical and grammatical errors: 'kaszli' is incorrect; the correct form is 'kaszle'. The advice is misleading; wrapping arms around the waist is not recommended for someone who is coughing. The sentence should clearly state that this is not the correct procedure.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Podczas pierwszej pomocy przy zadławieniu nie powinno się obejmować osoby. Może to być szkodliwe. Zamiast tego, zachęć do silnego kaszlu, jeśli to bezpieczne, następowoż wykonaj manewr Heimlicha poprzez pozycjonowanie się przed osobą i stosowanie odpowiednich ruchów, aby pomóc w usunięciu przeszkody.",
+      "correction": "Podczas udzielania pierwszej pomocy przy zadławieniu nie należy obejmować osoby. Może to być szkodliwe. Zamiast tego należy zachęcać do silnego kaszlu, jeśli to bezpieczne, a następnie wykonać manewr Heimlicha, ustawiając się za osobą i stosując odpowiednie ruchy, aby pomóc w usunięciu przeszkody.",
+      "description": "Grammatical and lexical errors: 'podczas pierwszej pomocy' should be 'podczas udzielania pierwszej pomocy'. 'Nie powinno się obejmować osoby' is less precise than 'nie należy obejmować osoby'. 'Zachęć do silnego kaszlu' should be 'należy zachęcać do silnego kaszlu'. 'Następowoż' is a misspelling; the correct word is 'a następnie'. 'Pozycjonowanie się przed osobą' is incorrect; the Heimlich maneuver is performed from behind ('ustawiając się za osobą').",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Pierwsza pomoc przy omdleniu obejmuje uzyskanie bezpiecznej pozycji dla osoby.",
+      "correction": "Pierwsza pomoc przy omdleniu polega na zapewnieniu osobie bezpiecznej pozycji.",
+      "description": "Grammatical issue: 'obejmuje uzyskanie bezpiecznej pozycji dla osoby' is less natural and slightly awkward; the standard phrase is 'polega na zapewnieniu osobie bezpiecznej pozycji'. This improves clarity and naturalness.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "W sytuacji, w której ktoś odczuwa omdlenie, kluczowa akcja to upewnienie, że osoba znajduje się w bezpiecznej pozycji. To zapobiega dodatkowemu uszkodzeniom i umożliwia lepszy przepływ krwi do mózgu. Zapewniając, że osoba jest na podłodze, co może poprawić przepływ krwi, i upewniając się, że nie znajduje się na sztywnym powierzchni, można zmniejszyć ryzyko potencjalnych win, które mogą zwiększyć problem.",
+      "correction": "W sytuacji, gdy ktoś omdlewa, kluczowe jest upewnienie się, że osoba znajduje się w bezpiecznej pozycji. To zapobiega dodatkowym urazom i umożliwia lepszy przepływ krwi do mózgu. Zapewniając, że osoba leży na podłodze, można poprawić przepływ krwi i zmniejszyć ryzyko dalszych komplikacji.",
+      "description": "Grammatical and lexical errors: 'w której ktoś odczuwa omdlenie' should be 'gdy ktoś omdlewa'. 'Kluczowa akcja to upewnienie' is awkward; 'kluczowe jest upewnienie się' is more natural. 'Dodatkowemu uszkodzeniom' should be 'dodatkowym urazom'. 'Zapewniając, że osoba jest na podłodze' is less precise than 'osoba leży na podłodze'. 'Sztywnym powierzchni' is incorrect; should be omitted for clarity. 'Ryzyko potencjalnych win' is nonsensical; should be 'ryzyko dalszych komplikacji'.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Oczyszczanie ran zawsze powinno być wykonywane tylko przez pracowników służby ratunkowej.",
+      "correction": "Oczyszczanie ran nie musi być wykonywane wyłącznie przez pracowników służby ratunkowej.",
+      "description": "Grammatical and lexical issue: 'zawsze powinno być wykonywane tylko przez' is redundant and misleading. The correct phrase is 'nie musi być wykonywane wyłącznie przez', which accurately reflects that wound cleaning can be performed by others in emergency situations.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "W sytuacjach awaryjnych wymaga szybkiego działania, ale oczyszczanie ran może być wykonywane przez osoby, które są blisko z wdowie, zgodnie z ogólnie zalecanych zasad bezpieczeństwa. Kluczowa jest szybkość i bezpieczeństwo, a nie wyłącznie obecność pracownika służby ratunkowej.",
+      "correction": "W sytuacjach awaryjnych wymagane jest szybkie działanie, a oczyszczanie ran może być wykonywane przez osoby znajdujące się w pobliżu, zgodnie z ogólnie zalecanymi zasadami bezpieczeństwa. Kluczowa jest szybkość i bezpieczeństwo, a nie wyłącznie obecność pracownika służby ratunkowej.",
+      "description": "Grammatical errors: 'wymaga szybkiego działania' should be 'wymagane jest szybkie działanie'. 'Osoby, które są blisko z wdowie' is incorrect; the correct phrase is 'osoby znajdujące się w pobliżu'. 'Z ogólnie zalecanych zasad bezpieczeństwa' should be 'zgodnie z ogólnie zalecanymi zasadami bezpieczeństwa'. These corrections improve clarity and grammatical accuracy.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "First_Aid_Basics.slm.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T22:15:37.200868",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 6.8,
+    "classification": "SUBSTANDARD",
+    "total_issues": 12,
+    "total_penalty": 3.2,
+    "issue_breakdown": {
+      "linguistic": 12,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 3.2,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

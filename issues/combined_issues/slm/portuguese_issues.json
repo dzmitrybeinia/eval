@@ -1,25 +1,63 @@
 {
   "metadata": {
     "label": "slm",
-    "label_normalized": "slm",
-    "label_key": "slm",
     "language": "portuguese",
-    "generated_at": "2025-10-03T16:10:08.798121",
+    "generated_at": "2025-10-03T22:42:23.478999",
     "source_files": [
-      "evaluation_20251003_160757.json",
-      "evaluation_20251003_160800.json",
-      "evaluation_20251003_160803.json",
-      "evaluation_20251003_160807.json",
-      "evaluation_20251003_160808.json",
-      "evaluation_20251003_160811.json",
-      "evaluation_20251003_160814.json",
-      "evaluation_20251003_160819.json",
-      "evaluation_20251003_160824.json",
-      "evaluation_20251003_160826.json"
+      "evaluation_20251003_223217.json",
+      "evaluation_20251003_223220.json",
+      "evaluation_20251003_223222.json",
+      "evaluation_20251003_223225.json",
+      "evaluation_20251003_223227.json",
+      "evaluation_20251003_223231.json",
+      "evaluation_20251003_223237.json",
+      "evaluation_20251003_223239.json",
+      "evaluation_20251003_223242.json",
+      "evaluation_20251003_223243.json",
+      "evaluation_20251003_223246.json",
+      "evaluation_20251003_223249.json",
+      "evaluation_20251003_223251.json",
+      "evaluation_20251003_223255.json",
+      "evaluation_20251003_223256.json",
+      "evaluation_20251003_223301.json",
+      "evaluation_20251003_223307.json",
+      "evaluation_20251003_223309.json",
+      "evaluation_20251003_223312.json",
+      "evaluation_20251003_223314.json",
+      "evaluation_20251003_223317.json",
+      "evaluation_20251003_223321.json",
+      "evaluation_20251003_223322.json",
+      "evaluation_20251003_223323.json",
+      "evaluation_20251003_223326.json",
+      "evaluation_20251003_223329.json",
+      "evaluation_20251003_223332.json",
+      "evaluation_20251003_223336.json",
+      "evaluation_20251003_223342.json",
+      "evaluation_20251003_223349.json",
+      "evaluation_20251003_223351.json",
+      "evaluation_20251003_223355.json",
+      "evaluation_20251003_223356.json",
+      "evaluation_20251003_223359.json",
+      "evaluation_20251003_223403.json",
+      "evaluation_20251003_223406.json",
+      "evaluation_20251003_223409.json",
+      "evaluation_20251003_223412.json",
+      "evaluation_20251003_223414.json",
+      "evaluation_20251003_223418.json",
+      "evaluation_20251003_223426.json",
+      "evaluation_20251003_223428.json",
+      "evaluation_20251003_223434.json",
+      "evaluation_20251003_223435.json",
+      "evaluation_20251003_223437.json",
+      "evaluation_20251003_223438.json",
+      "evaluation_20251003_223440.json",
+      "evaluation_20251003_223442.json",
+      "evaluation_20251003_223445.json",
+      "evaluation_20251003_223447.json"
     ],
     "issue_counts": {
-      "linguistic": 19,
-      "localization": 5
+      "linguistic": 90,
+      "localization": 31
     }
   },
   "issues": {
@@ -29,15 +67,15 @@
         "subcategory": "Grammar",
         "original": "A arte egípcia servia múltiplos propósitos, não apenas decoração.",
         "correction": "A arte egípcia servia a múltiplos propósitos, não apenas à decoração.",
-        "description": "The original sentence lacks the preposition 'a' before 'múltiplos propósitos' and 'à' before 'decoração', which are required for correct grammatical structure in Portuguese. The use of 'servir a' is standard, and the contraction 'à' (crase) is necessary before 'decoração' to indicate the feminine noun. This correction improves grammatical accuracy and naturalness.",
+        "description": "The original sentence lacks the preposition 'a' before 'múltiplos propósitos' and 'à' before 'decoração', which are required for correct grammatical structure in Portuguese. The use of 'a' and 'à' ensures proper verb-object relationship and correct application of the crase, improving clarity and grammatical accuracy.",
         "severity": "MEDIUM"
       },
       {
         "category": "linguistic",
         "subcategory": "Grammar",
-        "original": "Isso influenciou profundamente a estrutura social e o governo do Egito.",
-        "correction": "Isso influenciou profundamente a estrutura social e o governo do Egito Antigo.",
-        "description": "The original sentence omits 'Antigo' after 'Egito', which is necessary for clarity and consistency, as the context is specifically about Ancient Egypt. Adding 'Antigo' ensures precise reference and maintains terminological consistency throughout the lesson.",
+        "original": "Esses símbolos não só permitiram a documentação de eventos e ideias antigas, mas também ofereceram insights sobre a estrutura social e religiosa da civilização, demonstrando a importância do Egito em moldar a história humana.",
+        "correction": "Esses símbolos não só permitiram a documentação de eventos e ideias antigas, mas também ofereceram insights sobre a estrutura social e religiosa da civilização, demonstrando a importância do Egito para a história humana.",
+        "description": "The phrase 'em moldar a história humana' is awkward and unnecessary in this context. The more natural and grammatically correct expression is 'para a história humana', which conveys the intended meaning without redundancy. This correction improves the sentence's clarity and naturalness.",
         "severity": "MINOR"
       },
       {
@@ -45,7 +83,7 @@
         "subcategory": "Lexical",
         "original": "Camaleões são conhecidos por sua capacidade de se misturar com o entorno através de mudanças rápidas de cor. Essa característica ajuda a evitar predadores e a capturar presas, demonstrando uma adaptação estrutural que lhes proporciona sobrevivência.",
         "correction": "Camaleões são conhecidos por sua capacidade de se misturar ao ambiente através de mudanças rápidas de cor. Essa característica ajuda a evitar predadores e a capturar presas, demonstrando uma adaptação estrutural que lhes proporciona sobrevivência.",
-        "description": "The word 'entorno' is less natural in Brazilian Portuguese for this context; 'ambiente' is the standard and more precise term when referring to an animal's surroundings. This correction improves lexical precision and naturalness, ensuring the text aligns with local usage.",
+        "description": "The word 'entorno' is less precise and less commonly used in Brazilian Portuguese for describing an animal's surroundings in a biological context. 'Ambiente' is the standard term for environment in scientific and educational materials, ensuring lexical precision and naturalness. The rest of the sentence is linguistically correct and culturally appropriate.",
         "severity": "MEDIUM"
       },
       {
@@ -53,7 +91,7 @@
         "subcategory": "Grammar",
         "original": "Os ratos-canguru possuem um processo de eliminação de água muito eficiente. Eles conseguem absorver água suficiente da sua dieta, reduzindo assim a necessidade de consumo de água externo. Este é um exemplo fascinante da adaptação fisiológica que permite a vida em ambientes desafiadores.",
         "correction": "Os ratos-canguru possuem um processo de eliminação de água muito eficiente. Eles conseguem absorver água suficiente de sua dieta, reduzindo assim a necessidade de consumo de água externo. Este é um exemplo fascinante da adaptação fisiológica que permite a vida em ambientes desafiadores.",
-        "description": "The phrase 'da sua dieta' should be 'de sua dieta' to maintain formal register and avoid unnecessary repetition of possessive pronouns, which is preferred in educational and scientific writing in Brazilian Portuguese. This correction improves grammatical accuracy and stylistic appropriateness.",
+        "description": "The phrase 'da sua dieta' should use 'de sua dieta' for correct contraction and more formal register, which is preferred in educational content. The rest of the feedback is linguistically accurate and culturally appropriate.",
         "severity": "MINOR"
       },
       {
@@ -66,18 +104,18 @@
       },
       {
         "category": "linguistic",
-        "subcategory": "Syntax",
+        "subcategory": "Lexical",
         "original": "A álgebra é um ramo da matemática que inclui a formulação e resolução de problemas usando símbolos, variáveis e expressões. Embora envolva constantes, variáveis e equações, seu escopo vai além da 'manipulação' para incluir a construção, a compreensão e a análise de estruturas matemáticas.",
-        "correction": "A álgebra é um ramo da matemática que inclui a formulação e resolução de problemas usando símbolos, variáveis e expressões. Embora envolva constantes, variáveis e equações, seu escopo vai além da manipulação, incluindo a construção, compreensão e análise de estruturas matemáticas.",
-        "description": "The use of single quotation marks around 'manipulação' is unnecessary and non-standard in Portuguese educational texts. The phrase 'para incluir a construção, a compreensão e a análise' can be made more concise and natural by using 'incluindo' and omitting repeated articles. These changes improve syntactic flow and stylistic consistency.",
+        "correction": "A álgebra é um ramo da matemática que inclui a formulação e resolução de problemas usando símbolos, variáveis e expressões. Embora envolva constantes, variáveis e equações, seu escopo vai além da manipulação para incluir a construção, compreensão e análise de estruturas matemáticas.",
+        "description": "Quotation marks around 'manipulação' are unnecessary in this context and should be removed for standard academic style. This correction improves lexical precision and maintains a formal register.",
         "severity": "MINOR"
       },
       {
         "category": "linguistic",
         "subcategory": "Lexical",
-        "original": "pelos mitocôndrias",
-        "correction": "pelas mitocôndrias",
-        "description": "The original text incorrectly uses the masculine article 'pelos' with the feminine noun 'mitocôndrias'. In Portuguese, 'mitocôndria' is a feminine noun, so the correct form is 'pelas mitocôndrias'. This error affects gender agreement and can confuse learners about proper noun-article concordance.",
+        "original": "No entanto, a produção de energia, ou ATP, é uma função principalmente realizada pelos mitocôndrias, não pelo núcleo.",
+        "correction": "No entanto, a produção de energia, ou ATP, é uma função principalmente realizada pelas mitocôndrias, não pelo núcleo.",
+        "description": "The original sentence contains a gender agreement error: 'pelos mitocôndrias' should be 'pelas mitocôndrias' because 'mitocôndrias' is feminine plural. This affects grammatical correctness and clarity.",
         "severity": "HIGH"
       },
       {
@@ -85,15 +123,15 @@
         "subcategory": "Lexical",
         "original": "A membrana celular é bastante selectiva na sua permissividade.",
         "correction": "A membrana celular é bastante seletiva na sua permissividade.",
-        "description": "The word 'selectiva' uses the European Portuguese spelling. In Brazilian Portuguese, the correct spelling is 'seletiva'. This affects orthographic consistency and may cause confusion for learners in Brazil, where the lesson is intended.",
+        "description": "The word 'selectiva' uses European Portuguese spelling. In Brazilian Portuguese, the correct spelling is 'seletiva'. This is a spelling and localization issue, as the content should follow Brazilian Portuguese standards.",
         "severity": "MEDIUM"
       },
       {
         "category": "linguistic",
         "subcategory": "Lexical",
         "original": "O retículo endoplasmático liso, sem ribossomos, é especializado na elaboração de proteínas que a célula vai liberar para fora.",
-        "correction": "O retículo endoplasmático liso, sem ribossomos, é especializado na elaboração de lipídios e no metabolismo de carboidratos, não na síntese de proteínas para secreção.",
-        "description": "This sentence contains a factual inaccuracy regarding cell biology terminology. The smooth endoplasmic reticulum (retículo endoplasmático liso) is not responsible for synthesizing proteins for secretion; that is the function of the rough endoplasmic reticulum. The smooth ER is involved in lipid synthesis and carbohydrate metabolism. This error could mislead learners about cellular functions.",
+        "correction": "O retículo endoplasmático liso, sem ribossomos, é especializado na elaboração de lipídios e na desintoxicação celular, enquanto a síntese de proteínas destinadas à secreção é função do retículo endoplasmático rugoso.",
+        "description": "The original sentence contains a factual inaccuracy regarding cell biology terminology. The smooth endoplasmic reticulum (retículo endoplasmático liso) is not responsible for synthesizing proteins for secretion; this is the function of the rough endoplasmic reticulum. The smooth ER is involved in lipid synthesis and detoxification. This is a lexical and scientific accuracy issue.",
         "severity": "HIGH"
       },
       {
@@ -109,7 +147,7 @@
         "subcategory": "Lexical",
         "original": "O formador de zonas climáticas é influenciado por vários fatores como o aquecimento desigual da Terra, a rotação e a forma da Terra, e as correntes oceânicas.",
         "correction": "A formação das zonas climáticas é influenciada por vários fatores, como o aquecimento desigual da Terra, a rotação e a forma do planeta, e as correntes oceânicas.",
-        "description": "The original sentence uses 'O formador de zonas climáticas', which is an incorrect lexical choice and does not convey the intended meaning. The correct term is 'A formação das zonas climáticas', which accurately refers to the process of climate zone formation. Additionally, 'forma da Terra' is better expressed as 'forma do planeta' for clarity and naturalness. These changes improve both linguistic accuracy and clarity.",
+        "description": "The original sentence uses 'O formador de zonas climáticas', which is an incorrect lexical choice and does not convey the intended meaning. The correct term is 'A formação das zonas climáticas', which accurately refers to the process of climate zone formation. Additionally, 'forma da Terra' is better expressed as 'forma do planeta' for clarity and naturalness.",
         "severity": "HIGH"
       },
       {
@@ -117,106 +155,882 @@
         "subcategory": "Lexical",
         "original": "Variáveis podem armazenar vários tipos de informações simultaneamente. Por exemplo, uma variável pode conter um número, uma string ou uma lista contendo vários dados. O tipo de informação que uma variável pode conter é determinado pelo tipo de dado que é atribuído a ela.",
         "correction": "Variáveis podem armazenar diferentes tipos de informações, mas apenas um tipo de dado por vez. Por exemplo, uma variável pode conter um número, uma string ou uma lista, mas não múltiplos tipos simultaneamente. O tipo de informação que uma variável pode conter é determinado pelo tipo de dado atribuído a ela.",
-        "description": "The feedback incorrectly states that a variable can store multiple types of information simultaneously, which is misleading in most programming languages, including Python. Variables can only hold one value of a specific type at a time, although the value can be changed to another type if the language allows dynamic typing. The correction clarifies this concept for educational accuracy.",
+        "description": "The feedback incorrectly states that variables can store multiple types of information simultaneously, which is misleading in most programming languages, including Python. Variables can only hold one value of a specific type at a time, although the type can change if reassigned. The correction clarifies this concept for educational accuracy.",
         "severity": "HIGH"
       },
       {
         "category": "linguistic",
         "subcategory": "Syntax",
-        "original": "Os nomes devem começar com uma letra minúscula ou um underscore seguido de uma letra minúscula.",
-        "correction": "Os nomes devem começar com uma letra ou um underscore.",
-        "description": "The feedback incorrectly specifies that variable names must start with a lowercase letter or an underscore followed by a lowercase letter. In Python, variable names can start with any letter (uppercase or lowercase) or an underscore, not necessarily a lowercase letter. The correction provides the accurate rule for variable naming in Python.",
+        "original": "Em Python, o início de um nome de variável não pode ser um número. Os nomes devem começar com uma letra minúscula ou um underscore seguido de uma letra minúscula.",
+        "correction": "Em Python, o início de um nome de variável não pode ser um número. Os nomes devem começar com uma letra ou um underscore.",
+        "description": "The feedback incorrectly specifies that variable names must start with a lowercase letter or an underscore followed by a lowercase letter. In Python, variable names can start with any letter (uppercase or lowercase) or an underscore, not necessarily a lowercase letter. The correction provides the accurate rule.",
         "severity": "MEDIUM"
       },
       {
         "category": "linguistic",
         "subcategory": "Lexical",
-        "original": "Variáveis em um programa podem armazenar só uma vez.",
-        "correction": "Variáveis em um programa podem armazenar valores apenas uma vez.",
-        "description": "The phrase 'só uma vez' is not the most precise or natural way to express 'only once' in Brazilian Portuguese in this context. The correct and more formal expression is 'apenas uma vez'. Additionally, the sentence lacks clarity because it omits the word 'valores', which is essential for understanding what is being stored. The corrected version improves lexical precision and clarity.",
-        "severity": "MEDIUM"
-      },
-      {
-        "category": "linguistic",
-        "subcategory": "Grammar",
-        "original": "Declarações condicionais e laços são essenciais para controlar o fluxo do programa e automatizar tarefas.",
-        "correction": "Declarações condicionais e laços são essenciais para controlar o fluxo do programa e automatizar tarefas.",
-        "description": "No linguistic or localization issues found. The sentence is grammatically correct, uses appropriate terminology, and is culturally appropriate for Brazilian Portuguese.",
-        "severity": "MINOR"
-      },
-      {
-        "category": "linguistic",
-        "subcategory": "Lexical",
-        "original": "A programação não é usada em muitas indústrias.",
-        "correction": "A programação não é utilizada em muitas indústrias.",
-        "description": "The verb 'usada' is acceptable, but 'utilizada' is more formal and commonly used in educational and professional contexts in Brazilian Portuguese. This correction enhances lexical precision and aligns with standard usage in instructional materials.",
-        "severity": "MINOR"
+        "original": "Strings podem ser armazenados como números.",
+        "correction": "Strings podem ser armazenadas como números.",
+        "description": "The word 'strings' is feminine in Portuguese ('as strings'), so the verb and adjective should agree in gender and number. The correct form is 'armazenadas' instead of 'armazenados'. This error affects grammatical agreement and clarity.",
+        "severity": "HIGH"
       },
       {
         "category": "linguistic",
         "subcategory": "Grammar",
         "original": "como pode ser observado em situações comuns, como no ambiente escolar.",
         "correction": "como pode ser observado em situações comuns, como no ambiente escolar.",
-        "description": "Although the sentence is grammatically correct, the repetition of 'como' in close proximity can lead to awkwardness and reduce clarity. For improved linguistic precision and style, consider rephrasing to avoid redundancy, such as: 'como pode ser observado em situações comuns no ambiente escolar.' This change streamlines the sentence and enhances readability.",
+        "description": "Although the sentence is grammatically correct, the repetition of 'como' in close proximity can lead to awkwardness and reduce clarity. For improved linguistic flow, consider rephrasing to avoid redundancy, such as: 'como pode ser observado em situações comuns, por exemplo, no ambiente escolar.' This enhances readability and maintains grammatical accuracy.",
         "severity": "MINOR"
       },
       {
         "category": "linguistic",
         "subcategory": "Grammar",
-        "original": "Quando as pessoas permanecem calmas, elas podem ouvir melhor e entender melhor as perspectivas dos outros.",
-        "correction": "Quando as pessoas permanecem calmas, podem ouvir melhor e entender melhor as perspectivas dos outros.",
-        "description": "The use of the pronoun 'elas' is unnecessary and redundant after the subject 'as pessoas.' Omitting 'elas' improves sentence flow and aligns with standard Portuguese grammar, where the subject is already clear.",
+        "original": "elas podem ouvir melhor e entender melhor as perspectivas dos outros.",
+        "correction": "elas podem ouvir melhor e entender melhor as perspectivas dos outros.",
+        "description": "The phrase 'ouvir melhor e entender melhor' repeats 'melhor' unnecessarily, which can be stylistically improved for conciseness. A more natural construction would be 'elas podem ouvir e entender melhor as perspectivas dos outros.' This adjustment streamlines the sentence and maintains correct grammar.",
         "severity": "MINOR"
       },
       {
         "category": "linguistic",
         "subcategory": "Lexical",
-        "original": "Fontes como estudos científicos revisados por pares são consideradas de alta confiabilidade devido ao seu rigor metodológico e revisão por pares.",
-        "correction": "Fontes como estudos científicos revisados por pares são consideradas altamente confiáveis devido ao seu rigor metodológico e revisão por pares.",
-        "description": "The phrase 'de alta confiabilidade' is grammatically correct but less natural in Brazilian Portuguese. The more idiomatic expression is 'altamente confiáveis.' This change improves lexical precision and naturalness, making the sentence flow better for native speakers.",
+        "original": "O Carnaval é uma celebração que ocorre antes da Quaresma, que é o período de jejum imediatamente após o Natal. Isso significa que o Carnaval acontece no final do ano, não no início.",
+        "correction": "O Carnaval é uma celebração que ocorre antes da Quaresma, que é o período de jejum imediatamente após o Carnaval. Isso significa que o Carnaval acontece no início do ano, não no final.",
+        "description": "The feedback contains a semantic inaccuracy regarding the timing of Carnival and Lent. Lent does not occur immediately after Christmas; it follows Carnival. The statement incorrectly claims Carnival happens at the end of the year, when in fact it occurs at the beginning of the year, typically in February or March. This error affects both factual accuracy and comprehension.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "A informação genética é realmente armazenada no DNA, que serve como um manual para a síntese de proteínas, que são cruciais para várias funções no corpo, como construir estruturas e proteger contra doenças.",
+        "correction": "A informação genética é realmente armazenada no DNA, que serve como um guia para a síntese de proteínas, que são cruciais para várias funções no organismo, como formar estruturas e proteger contra doenças.",
+        "description": "The use of 'manual' is not the most natural or precise term in Brazilian Portuguese for describing the role of DNA; 'guia' is more appropriate in scientific contexts. Additionally, 'corpo' is less formal and less precise than 'organismo' when referring to biological functions. The verb 'construir estruturas' is better replaced by 'formar estruturas' for scientific accuracy and naturalness.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Ambos trabalham em conjunto para formar a tomada de decisões, não um controla todas as emoções.",
+        "correction": "Ambos trabalham em conjunto para formar a tomada de decisões, mas nenhum deles controla todas as emoções.",
+        "description": "The original sentence contains a grammatical error in the clause 'não um controla todas as emoções.' The use of 'não um' is incorrect and ungrammatical in Portuguese. The correct structure should use 'mas nenhum deles' to convey that neither controls all emotions. This correction improves clarity and grammatical accuracy.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "O passo final é a implementação ou 'lance' ao público, que ocorre após várias iterações.",
+        "correction": "O passo final é a implementação ou lançamento ao público, que ocorre após várias iterações.",
+        "description": "The word 'lance' is a literal translation from English ('launch') and is not idiomatic in Brazilian Portuguese for this context. The correct term is 'lançamento', which is the standard word for releasing a product to the public. This is both a lexical and style issue, but the primary category is linguistic due to incorrect word choice.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "prototipos",
+        "correction": "protótipos",
+        "description": "The word 'prototipos' is missing the required accent on the first 'o'. In Brazilian Portuguese, 'protótipos' must have the acute accent to indicate correct pronunciation and stress. This is an orthographic error affecting clarity.",
         "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "seguir regras que promovem respeito e clareza nos mensagens mantém as conversas positivas e evita mal-entendidos.",
+        "correction": "seguir regras que promovem respeito e clareza nas mensagens mantém as conversas positivas e evita mal-entendidos.",
+        "description": "The preposition 'nos' is incorrect in this context; the correct form is 'nas mensagens' to indicate 'in the messages' with proper gender and number agreement. This error affects grammatical accuracy and clarity.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "As hachuras são uma técnica que envolve desenhar linhas paralelas que ajudam a criar uma sensação de profundidade e volume na superfície de um objeto, contribuindo para a representação tridimensional no desenho.",
+        "correction": "Hachura é uma técnica que envolve desenhar linhas paralelas que ajudam a criar uma sensação de profundidade e volume na superfície de um objeto, contribuindo para a representação tridimensional no desenho.",
+        "description": "The use of the definite article 'As' before 'hachuras' is not standard in Brazilian Portuguese when referring to the technique in general. The singular 'Hachura' is more appropriate and natural in this context, as it refers to the drawing technique itself rather than specific instances. This correction improves lexical precision and naturalness.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "A perspectiva de um ponto é tipicamente usada para representar estradas ou corredores que vão em direção à distância, não para ângulos oblíquos. A perspectiva de dois pontos é a técnica que permite representar objetos em ângulos.",
+        "correction": "A perspectiva de um ponto é tipicamente usada para representar estradas ou corredores que vão em direção ao horizonte, não para ângulos oblíquos. A perspectiva de dois pontos é a técnica que permite representar objetos em ângulos.",
+        "description": "The phrase 'em direção à distância' is not the most precise or natural way to describe the vanishing point in perspective drawing. 'Em direção ao horizonte' is the standard terminology in art education and better conveys the intended meaning. This correction enhances lexical precision and aligns with industry-standard terminology.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "A inteligência emocional é uma habilidade que pode ser refinada e desenvolvida com prática e experiência, não sendo determinada exclusivamente pela predisposição genética.",
+        "correction": "A inteligência emocional é uma habilidade que pode ser refinada e desenvolvida com prática e experiência, não sendo determinada exclusivamente pela predisposição genética.",
+        "description": "No linguistic or localization issues found. The sentence is grammatically correct, uses proper accentuation, and is culturally appropriate for Brazilian Portuguese.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Autoconsciência é a capacidade de se reconectar com suas próprias emoções e pensamentos, não ignorá-los. Reconhecer esses aspectos internos é crucial para entender como eles influenciam as decisões e ações.",
+        "correction": "Autoconsciência é a capacidade de se conectar com suas próprias emoções e pensamentos, não ignorá-los. Reconhecer esses aspectos internos é crucial para entender como eles influenciam as decisões e ações.",
+        "description": "The use of 'reconectar' is not the most precise verb in this context. 'Conectar' is more natural and accurate in Brazilian Portuguese when referring to awareness of one's own emotions and thoughts. 'Reconectar' implies a previous disconnection, which is not necessarily the case in the definition of self-awareness.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Autorregulação refere-se à capacidade de controlar e gerenciar emoções e reações, não a expressá-las indiscriminadamente. É importante aprender a reconhecer quando é apropriado expressar sentimentos e quando é melhor manter a calma e pensar sobre a resposta.",
+        "correction": "Autorregulação refere-se à capacidade de controlar e gerenciar emoções e reações, não de expressá-las indiscriminadamente. É importante aprender a reconhecer quando é apropriado expressar sentimentos e quando é melhor manter a calma e pensar sobre a resposta.",
+        "description": "The preposition 'a' before 'expressá-las' should be 'de' to correctly match the construction 'não de expressá-las indiscriminadamente'. This ensures proper grammatical parallelism and clarity in Portuguese.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Motivação é o impulso para alcançar objetivos pessoais, o que inclui persistir e superar desafios. Desistir quando encontramos obstáculos não define motivação.",
+        "correction": "Motivação é o impulso para alcançar objetivos pessoais, o que inclui persistir e superar desafios. Desistir quando encontramos obstáculos não define motivação.",
+        "description": "No linguistic or localization issues found. The sentence is clear, uses correct terminology, and is culturally appropriate.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Empatia é mais do que apenas entender um sentimento; também inclui a capacidade de experimentar uma resposta emocional similar ao que outra pessoa está sentindo. Isso envolve uma combinação de escuta ativa, reconhecimento das emoções dos outros e resposta com compaixão.",
+        "correction": "Empatia é mais do que apenas entender um sentimento; também inclui a capacidade de experimentar uma resposta emocional semelhante ao que outra pessoa está sentindo. Isso envolve uma combinação de escuta ativa, reconhecimento das emoções dos outros e resposta com compaixão.",
+        "description": "The word 'similar' should be replaced with 'semelhante', which is the standard and more natural equivalent in Brazilian Portuguese. 'Similar' is acceptable but less idiomatic in this context.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "A adaptabilidade é uma característica chave das habilidades sociais, pois permite que os indivíduos interajam eficazmente em diferentes situações e com diversos grupos de pessoas.",
+        "correction": "A adaptabilidade é uma característica-chave das habilidades sociais, pois permite que os indivíduos interajam eficazmente em diferentes situações e com diversos grupos de pessoas.",
+        "description": "The compound noun 'característica chave' should be hyphenated as 'característica-chave' according to Brazilian Portuguese orthographic rules for compound adjectives preceding nouns.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Compreender essas sinaças é vital para a comunicação eficaz.",
+        "correction": "Compreender esses sinais é vital para a comunicação eficaz.",
+        "description": "The word 'sinaças' is a misspelling and does not exist in Portuguese. The correct term is 'sinais', which means 'signals' or 'signs' and fits the context of emotional expressions. This error affects comprehension and lexical precision.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Isso inclui as artes narrativas, como romances, contos, poemas e peças de teatro, que são criados para entreter e provocar emoção e reflexão.",
+        "correction": "Isso inclui as formas narrativas, como romances, contos, poemas e peças de teatro, que são criadas para entreter e provocar emoção e reflexão.",
+        "description": "The term 'artes narrativas' is not standard in Brazilian Portuguese for this context; 'formas narrativas' is more precise and natural. Additionally, 'criadas' should agree in gender and number with 'formas narrativas', which is feminine plural. This correction improves lexical precision and grammatical agreement.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "não é garantado que uma pessoa se mantenha calma por necessidade de fazer escolhas rápidas.",
+        "correction": "não é garantido que uma pessoa se mantenha calma por necessidade de fazer escolhas rápidas.",
+        "description": "The word 'garantado' is a lexical error; the correct form is 'garantido'. 'Garantido' is the proper past participle of 'garantir' in Portuguese. This error affects the grammatical accuracy and clarity of the sentence.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Syntax",
+        "original": "A dificuldade para respirar, acompanhada por posição das mãos no pescoço, é um sinal comum de engasgo.",
+        "correction": "A dificuldade para respirar, acompanhada pela posição das mãos no pescoço, é um sinal comum de engasgo.",
+        "description": "The phrase 'acompanhada por posição das mãos' is syntactically incorrect. The correct form is 'acompanhada pela posição das mãos', which uses the definite article and preposition contraction ('pela') to indicate the specific position of the hands. This correction improves sentence structure and clarity.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "O numerador pode ser maior que o denominador em uma fração.",
+        "correction": "O numerador pode ser maior que o denominador em uma fração?",
+        "description": "The statement is presented as a declarative sentence, but in the context of a Yes/No question, it should be phrased as a question. In Portuguese, adding a question mark clarifies the intent and matches the expected format for Yes/No statements.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Embora possa parecer que o numerador poderia ser maior, o denominador sempre será um inteiro positivo. No entanto, o numerador pode ser zero, o que significa que não se consideram partes, mas o denominador ainda será positivo.",
+        "correction": "Embora possa parecer que o numerador poderia ser maior, o denominador sempre será um inteiro positivo. No entanto, o numerador pode ser zero, o que significa que não se consideram partes, mas o denominador ainda será positivo.",
+        "description": "The feedback incorrectly states that the numerator cannot be greater than the denominator, which is not accurate in mathematics. In fact, fractions where the numerator is greater than the denominator (improper fractions) are valid and represent values greater than 1. This is a conceptual error affecting the educational accuracy of the content.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Syntax|Lexical",
+        "original": "A comunicação aberta e honesta, usando 'Eu' frases, é crucial para entender perspectivas e encontrar uma solução que respeite os sentimentos de todos envolvidos.",
+        "correction": "A comunicação aberta e honesta, usando frases com 'Eu', é crucial para entender perspectivas e encontrar uma solução que respeite os sentimentos de todos os envolvidos.",
+        "description": "The phrase 'usando 'Eu' frases' is syntactically incorrect in Portuguese. The correct structure is 'usando frases com 'Eu''. Additionally, 'todos envolvidos' lacks the definite article 'os', which is required for proper grammatical agreement: 'todos os envolvidos'. Both issues affect clarity and grammatical correctness.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "segmento de linha",
+        "correction": "segmento de reta",
+        "description": "The term 'segmento de linha' is not standard in Brazilian Portuguese geometry. The correct term is 'segmento de reta', which refers to a straight line segment. Using the proper terminology is essential for clarity and educational accuracy.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Sua amplitude é amplamente diversificada, refletindo as necessidades e capacidades econômicas de diferentes nações.",
+        "correction": "Sua amplitude é diversificada, refletindo as necessidades e capacidades econômicas de diferentes nações.",
+        "description": "The phrase 'amplitude é amplamente diversificada' contains a redundancy due to the use of 'amplitude' (scope) and 'amplamente' (widely), which both refer to breadth. The adverb 'amplamente' is unnecessary and creates a pleonasm. Removing 'amplamente' improves clarity and linguistic precision.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "O Presidente dos Estados Unidos tem a autoridade de nomear magistrados da Suprema Corte, mas essa ação requer confirmação pelo Senado, não por si mesmo.",
+        "correction": "O Presidente dos Estados Unidos tem a autoridade de nomear ministros da Suprema Corte, mas essa ação requer confirmação pelo Senado, não por si mesmo.",
+        "description": "The term 'magistrados' is not the standard term used in Brazilian Portuguese for Supreme Court justices; 'ministros' is the correct and widely accepted term for members of the Supreme Court. Using 'magistrados' may cause confusion or reduce the professionalism of the content.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Syntax",
+        "original": "O Poder Judiciário interpreta as leis e garante que elas estejam em conformidade com a Constituição. Não se responsabiliza por criar leis, que é a função do Poder Legislativo, nem fiscaliza o Executivo, que é uma função do Poder Executivo.",
+        "correction": "O Poder Judiciário interpreta as leis e garante que elas estejam em conformidade com a Constituição. Não é responsável por criar leis, que é função do Poder Legislativo, nem por fiscalizar o Executivo, que é função do Poder Executivo.",
+        "description": "The phrase 'Não se responsabiliza por criar leis' is syntactically awkward and less direct than 'Não é responsável por criar leis'. Additionally, 'que é a função do Poder Legislativo' and 'que é uma função do Poder Executivo' are more naturally expressed as 'que é função do Poder Legislativo' and 'que é função do Poder Executivo' in Brazilian Portuguese, improving clarity and conciseness.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Sua perseverança e aprendizado com os feedbacks foram fundamentais para o eventual sucesso de sua série Harry Potter.",
+        "correction": "Sua perseverança e aprendizado com os feedbacks foram fundamentais para o sucesso eventual de sua série Harry Potter.",
+        "description": "The phrase 'sucesso eventual' is the correct collocation in Portuguese, meaning 'eventual success.' The original uses 'eventual sucesso,' which is a calque from English and not idiomatic in Portuguese. This is a grammatical and lexical issue affecting naturalness and clarity.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Syntax",
+        "original": "Proteínas são a principal fonte de energia para atividades diárias e não são importantes para o crescimento e reparo dos tecidos.",
+        "correction": "Proteínas não são a principal fonte de energia para atividades diárias e são importantes para o crescimento e reparo dos tecidos.",
+        "description": "The original statement contains a syntactic ambiguity due to the use of 'e' (and) which connects two contradictory ideas, making the sentence misleading. The correction clarifies the intended meaning by properly negating the first clause and affirming the second, improving both logical coherence and linguistic accuracy.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Uma refeição equilibrada deve incluir uma variedade de grupos alimentares para atender às necessidades energéticas e nutricionais do corpo. A exclusão de carboidratos, vitaminas, minerais e água resultaria em uma dieta incompleta e potencialmente desequilibrada.",
+        "correction": "Uma refeição equilibrada deve incluir uma variedade de grupos alimentares para atender às necessidades energéticas e nutricionais do corpo. A exclusão de carboidratos, vitaminas, minerais e água resultaria em uma dieta incompleta e potencialmente desequilibrada.",
+        "description": "No linguistic or localization errors found. The text demonstrates correct grammar, spelling, and natural style for educational content in Brazilian Portuguese.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Proteínas desempenham um papel crucial na síntese de compostos como queratina, que é a principal proteína presente no cabelo. Portanto, uma ingestão adequada de proteínas é importante para o crescimento e manutenção de um cabelo saudável.",
+        "correction": "Proteínas desempenham um papel crucial na síntese de compostos como a queratina, que é a principal proteína presente no cabelo. Portanto, uma ingestão adequada de proteínas é importante para o crescimento e manutenção de um cabelo saudável.",
+        "description": "The original text omits the definite article 'a' before 'queratina', which is required in Brazilian Portuguese for clarity and correctness when referring to specific compounds. The correction adds the article, improving lexical precision and grammatical accuracy.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Isso ocorreu após a Segunda Guerra Mundial, que destacou a necessidade de uma estrutura global para garantir os direitos humanos.",
+        "correction": "Isso ocorreu após a Segunda Guerra Mundial, que evidenciou a necessidade de uma estrutura global para garantir os direitos humanos.",
+        "description": "The word 'destacou' is not incorrect, but 'evidenciou' is a more precise and contextually appropriate verb in this sentence, as it better conveys the idea that the war made the need for a global human rights framework evident. This improves lexical precision and clarity.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "A afirmação é falsa. Embora a DUDH tenha grande influência e inspiração para muitas constituições e leis ao redor do mundo, nem todos os países a adotaram como direito constitucional. Alguns países optaram por seguir outros padrões ou adotar apenas partes da DUDH.",
+        "correction": "A afirmação é falsa. Embora a DUDH exerça grande influência e sirva de inspiração para muitas constituições e leis ao redor do mundo, nem todos os países a adotaram como direito constitucional. Alguns países optaram por seguir outros padrões ou adotar apenas partes da DUDH.",
+        "description": "The verbs 'tenha' and 'inspiração' are not incorrect, but 'exerça' and 'sirva de inspiração' are more idiomatic and precise in Brazilian Portuguese. This correction improves grammatical accuracy and naturalness of expression.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Este documento de grande importância estabeleceu os direitos fundamentais que todos os seres humanos devem ser livres para apreciar e exercer.",
+        "correction": "Este documento de grande importância estabeleceu os direitos fundamentais que todos os seres humanos devem ser livres para exercer.",
+        "description": "The verb 'apreciar' is not appropriate in this context. The correct collocation is 'exercer direitos', not 'apreciar direitos'. Removing 'apreciar' ensures lexical precision and avoids semantic inaccuracy.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Este documento histórico estabelece os direitos humanos fundamentais reconhecidos globalmente.",
+        "correction": "Este documento histórico estabelece os direitos humanos fundamentais reconhecidos internacionalmente.",
+        "description": "The term 'globalmente' is understandable, but 'internacionalmente' is the standard and more precise term in Brazilian Portuguese when referring to recognition among nations. This correction improves lexical precision and aligns with common usage in educational and legal contexts.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "A bondade frequentemente envolve considerar e atender às necessidades dos outros. Quando alguém se concentra exclusivamente em suas próprias necessidades, não está atendendo ao princípio de ter compaixão. O valor da bondade é amplificado quando também se inclina para ajudar os outros.",
+        "correction": "A bondade frequentemente envolve considerar e atender às necessidades dos outros. Quando alguém se concentra exclusivamente em suas próprias necessidades, não está seguindo o princípio da compaixão. O valor da bondade é amplificado quando também se dispõe a ajudar os outros.",
+        "description": "The phrase 'não está atendendo ao princípio de ter compaixão' is lexically awkward and not idiomatic in Brazilian Portuguese. The more natural and precise expression is 'não está seguindo o princípio da compaixão.' Additionally, 'se inclina para ajudar os outros' is an anglicism and should be replaced with 'se dispõe a ajudar os outros' for naturalness and clarity.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Ao demonstrar bondade, como ajudar um amigo com tarefas ou mostrar empatia, não só melhoramos nossas conexões pessoais, mas também contribuímos para um ambiente social mais harmonioso. Essas ações criam um ciclo de positividade que pode se espalhar, fortalecendo o tecido social como um todo.",
+        "correction": "Ao demonstrar bondade, como ajudar um amigo com tarefas ou mostrar empatia, não só melhoramos nossas conexões pessoais, mas também contribuímos para um ambiente social mais harmonioso. Essas ações criam um ciclo de positividade que pode se espalhar, fortalecendo o tecido social como um todo.",
+        "description": "No significant linguistic or localization issues found. The text is accurate, natural, and culturally appropriate.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "O efeito de cadeia da bondade é bem documentado. Ações consideradas bondade podem inspirar outros a agir de forma positiva, enfraquecendo as barreiras sociais e promovendo um sentido de comunidade. Por exemplo, um dia de limpeza não só melhora o ambiente, mas também fortalece os laços entre os moradores.",
+        "correction": "O efeito de cadeia da bondade é bem documentado. Ações consideradas bondosas podem inspirar outros a agir de forma positiva, enfraquecendo as barreiras sociais e promovendo um senso de comunidade. Por exemplo, um dia de limpeza não só melhora o ambiente, mas também fortalece os laços entre os moradores.",
+        "description": "The phrase 'Ações consideradas bondade' is incorrect; the adjective 'bondosas' should be used to describe actions. Additionally, 'sentido de comunidade' is less idiomatic than 'senso de comunidade' in Brazilian Portuguese.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "O contrário é verdadeiro. Ouvir contos de bondade ou ajudar nas tarefas diárias pode aumentar a felicidade e reduzir o estresse, o que é benéfico para a saúde mental e emocional.",
+        "correction": "O contrário é verdadeiro. Ouvir histórias de bondade ou ajudar nas tarefas diárias pode aumentar a felicidade e reduzir o estresse, o que é benéfico para a saúde mental e emocional.",
+        "description": "The word 'contos' typically refers to fictional stories or tales, which is not appropriate in this context. 'Histórias de bondade' is the correct term for real-life accounts or examples.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "A bondade é fundamental para fortalecer relacionamentos e construir comunidades. Atos de bondade, mesmo pequenos, podem ter um grande impacto em redes sociais, criando um efeito dominó positivo e promovendo um ambiente mais conectado.",
+        "correction": "A bondade é fundamental para fortalecer relacionamentos e construir comunidades. Atos de bondade, mesmo pequenos, podem ter um grande impacto nas redes sociais, criando um efeito dominó positivo e promovendo um ambiente mais conectado.",
+        "description": "The preposition 'em redes sociais' should be 'nas redes sociais' to indicate impact within social networks. This is a minor lexical preposition error.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Ela utiliza uma frase com as iniciais de cada planeta, criando uma estrutura memorável para relembrar a ordem dos planetas do sistema solar.",
+        "correction": "Ela utiliza uma frase com as iniciais de cada planeta, criando uma estrutura memorável para lembrar a ordem dos planetas do sistema solar.",
+        "description": "The verb 'relembrar' is not the most precise choice in this context. The correct verb is 'lembrar', which means 'to remember'. 'Relembrar' implies recalling something already known, while 'lembrar' is more appropriate for the act of memorizing or recalling for the first time. This correction improves lexical precision and clarity.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "O rock é um gênero musical marcado pelo uso de instrumentos elétricos e temas de rebelde.",
+        "correction": "O rock é um gênero musical marcado pelo uso de instrumentos elétricos e temas de rebeldia.",
+        "description": "The phrase 'temas de rebelde' is incorrect in Portuguese. The correct term is 'temas de rebeldia', as 'rebeldia' is the noun that refers to the concept of rebellion, while 'rebelde' is an adjective or noun referring to a rebellious person. This lexical error affects the clarity and correctness of the statement.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "A música hip-hop é conhecida por sua presença rítmica e letras fortes, muitas vezes focando em questões sociais e identidade personal.",
+        "correction": "A música hip-hop é conhecida por sua presença rítmica e letras fortes, muitas vezes focando em questões sociais e identidade pessoal.",
+        "description": "The word 'personal' is incorrect in Portuguese; the correct term is 'pessoal'. This is a lexical error due to the use of a false friend, which can confuse learners and affects the accuracy of the feedback.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Ela é continuamente reabastecida pelo ciclo do processo de combinação-ionização da energia solar, diferente de combustíveis fósseis que são finitos.",
+        "correction": "Ela é continuamente reabastecida pelo ciclo natural da energia solar, diferente dos combustíveis fósseis, que são finitos.",
+        "description": "The phrase 'ciclo do processo de combinação-ionização da energia solar' is not a standard or accurate expression in Brazilian Portuguese and may confuse learners. The correct and natural way to express this concept is 'ciclo natural da energia solar.' Additionally, 'combustíveis fósseis' should be preceded by 'dos' for proper article usage, and a comma should be added before 'que são finitos' for clarity.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "sites faladores",
+        "correction": "sites falsos",
+        "description": "The phrase 'sites faladores' is a lexical error; the intended meaning is 'fake websites' or 'malicious websites.' The correct term in Brazilian Portuguese is 'sites falsos.' This error could confuse learners, as 'faladores' means 'talkative,' which is unrelated to cybersecurity threats.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "tal dados pessoal",
+        "correction": "tais dados pessoais",
+        "description": "The phrase 'tal dados pessoal' contains errors in both number and gender agreement. 'Tal' should be 'tais' to agree with the plural 'dados,' and 'pessoal' should be 'pessoais' to match the plural and gender of 'dados.' This affects grammatical correctness and clarity.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Esta afirmação é verdadeira porque, à medida que você se move para cima em um grupo, mais camadas eletrônicas são adicionadas, o que aumenta o tamanho atômico.",
+        "correction": "Esta afirmação é verdadeira porque, à medida que você se move para baixo em um grupo, mais camadas eletrônicas são adicionadas, o que aumenta o tamanho atômico.",
+        "description": "The original sentence contains a scientific inaccuracy due to incorrect use of the phrase 'para cima'. In the context of the periodic table, moving 'down' a group adds more electron shells, increasing atomic size. The sentence incorrectly states that moving 'up' adds shells, which is factually incorrect and misleading. The correction changes 'para cima' to 'para baixo' to accurately reflect the scientific concept.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "O sódio (Na) tem 1 elétron de valência, enquanto o cloro (Cl) tem 7 elétrons de valência, tornando o cloro mais reativo e mais propenso a ganhar elétrons para completar sua camada de valência, não ter mais de elétrons de valência.",
+        "correction": "O sódio (Na) tem 1 elétron de valência, enquanto o cloro (Cl) tem 7 elétrons de valência, tornando o cloro mais reativo e mais propenso a ganhar elétrons para completar sua camada de valência, não tendo mais elétrons de valência.",
+        "description": "The phrase 'não ter mais de elétrons de valência' is grammatically incorrect and awkward. It should be 'não tendo mais elétrons de valência' to properly convey the intended meaning. The correction improves grammatical structure and clarity, ensuring the sentence is both accurate and natural in Brazilian Portuguese.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "A eletronegatividade de um elemento aumenta ao se mover de esquerda para direita em uma coluna da tabela periódica.",
+        "correction": "A eletronegatividade de um elemento aumenta ao se mover da esquerda para a direita em um período da tabela periódica.",
+        "description": "The original sentence incorrectly uses 'coluna' (column) instead of 'período' (period) and omits the definite articles 'da' and 'a' required for natural phrasing. In the periodic table, electronegativity increases from left to right across a period, not down a column. The correction addresses both the scientific inaccuracy and improves grammatical structure.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Outros elementos como kairos (oportunidade) e ao (apelo à autoridade) também desempenham papéis significativos na construção de argumentos persuasivos.",
+        "correction": "Outros elementos como kairos (oportunidade) e apelo à autoridade também desempenham papéis significativos na construção de argumentos persuasivos.",
+        "description": "The phrase 'e ao (apelo à autoridade)' contains a lexical error: 'ao' is not the correct term for 'appeal to authority' in Portuguese. The correct expression is 'apelo à autoridade'. This correction ensures the terminology is accurate and clear for educational purposes.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Música animada e imagens vibrantes são elementos visuais projetados para evocar emoções positivas, como alegria ou entusiasmo, o que é uma estratégia comum para apelar ao pathos no marketing e publicidade.",
+        "correction": "Música animada e imagens vibrantes são elementos visuais projetados para evocar emoções positivas, como alegria ou entusiasmo, o que é uma estratégia comum para apelar ao pathos em marketing e publicidade.",
+        "description": "The phrase 'no marketing e publicidade' should use 'em' instead of 'no' because 'marketing' and 'publicidade' are two separate fields, not a single entity. The correct preposition is 'em' to indicate the general context, improving the naturalness and correctness of the sentence.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "A declaração é falsa porque contraria a ideia de promover opções de almoço mais saudáveis.",
+        "correction": "A afirmação é falsa porque contraria a ideia de promover opções de almoço mais saudáveis.",
+        "description": "The use of 'declaração' is less appropriate in this context; 'afirmação' is the standard term for referring to a statement in educational or assessment settings. This correction improves lexical precision and aligns with common usage in Brazilian Portuguese.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "O Verso Livre é conhecido por sua liberdade de forma e estrutura, muitas vezes refletindo a cadência natural da fala. Ele não segue uma estrutura de dez sílabas, que é característica da forma poética haica japonês.",
+        "correction": "O Verso Livre é conhecido por sua liberdade de forma e estrutura, muitas vezes refletindo a cadência natural da fala. Ele não segue uma estrutura de dez sílabas, que é característica da forma poética haikai japonês.",
+        "description": "The term 'haica japonês' is incorrect; the correct term in Brazilian Portuguese is 'haikai japonês'. This lexical error could cause confusion regarding the poetic form being referenced. The rest of the sentence is linguistically and culturally appropriate.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "O Haikai é, na verdade, uma forma poética japonesa conhecida por suas breves e centrais, muitas vezes focando em natureza ou emoções, e segue um padrão de sílabas de 5-7-5.",
+        "correction": "O Haikai é, na verdade, uma forma poética japonesa conhecida por seus versos breves e concisos, muitas vezes focando na natureza ou emoções, e segue um padrão de sílabas de 5-7-5.",
+        "description": "The phrase 'por suas breves e centrais' is grammatically incorrect and semantically unclear. The correct expression is 'por seus versos breves e concisos', which accurately describes the haikai's characteristics. Additionally, 'focando em natureza' should be 'focando na natureza' for proper prepositional use.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "No Jogos de Probabilidade, a sorte é o único fator que determina o resultado final.",
+        "correction": "Nos Jogos de Probabilidade, a sorte é o único fator que determina o resultado final.",
+        "description": "The original sentence incorrectly uses 'No' instead of the required contraction 'Nos' to agree with the plural noun 'Jogos'. This is a grammatical and orthographic error involving mandatory contraction ('em + os = nos'). The correction ensures proper preposition and article agreement, which is essential for standard Brazilian Portuguese.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Entender as probabilidades de diferentes resultados permite que os jogadores tirem decisões informadas, assim como ajustar estratégias com base no que ocorreu durante o jogo.",
+        "correction": "Entender as probabilidades de diferentes resultados permite que os jogadores tomem decisões informadas, assim como ajustem estratégias com base no que ocorreu durante o jogo.",
+        "description": "The verbs 'tirem' and 'ajustar' are incorrectly used in the subjunctive clause after 'permite que'. The correct forms are 'tomem' (for 'tomar decisões') and 'ajustem' (for 'ajustar estratégias'), both in the present subjunctive to match the structure 'permite que'. This correction addresses verb conjugation and maintains parallelism in the sentence.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "não para evitar a ativação deles.",
+        "correction": "não para evitar o uso deles.",
+        "description": "The phrase 'evitar a ativação deles' is a lexical error. The word 'ativação' is not appropriate in this context; the correct term should be 'uso', as the sentence refers to the act of using highlights and underlining, not activating them. This error affects clarity and naturalness of the feedback.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "É utilizado para investigar fenômenos e adquirir novos conhecimentos com base em evidências e lógica.",
+        "correction": "É utilizado para investigar fenômenos e adquirir novos conhecimentos com base em evidências e lógica.",
+        "description": "Although the sentence is grammatically correct, the use of 'É utilizado' in passive voice is acceptable but could be improved for clarity and naturalness by specifying the subject, such as 'Os cientistas utilizam o método científico para investigar fenômenos...'. However, since there is no objective error, no correction is required.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Este processo ajuda a entender se a hipótese foi suportada ou contradita pelos resultados experimentais.",
+        "correction": "Este processo ajuda a entender se a hipótese foi confirmada ou refutada pelos resultados experimentais.",
+        "description": "The use of 'suportada' and 'contradita' is not standard in scientific Portuguese. The correct terms are 'confirmada' (confirmed) and 'refutada' (refuted) when referring to hypotheses. This correction improves lexical precision and aligns with scientific conventions.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "A conclusão de um experimento é um passo crucial, pois permite entender se a hipótese foi apoiada pelos resultados.",
+        "correction": "A conclusão de um experimento é um passo crucial, pois permite entender se a hipótese foi confirmada pelos resultados.",
+        "description": "The term 'apoiada' is not the most precise word in scientific context. 'Confirmada' is the standard term used to indicate that results support a hypothesis. This correction enhances lexical accuracy and scientific appropriateness.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Quanto maior a inclinação de um plano inclinado, menos força é necessária para mover um objeto para cima.",
+        "correction": "Quanto menor a inclinação de um plano inclinado, menos força é necessária para mover um objeto para cima.",
+        "description": "The original statement contains a conceptual error that leads to a linguistic inaccuracy: in physics, the greater the inclination (steeper angle) of an inclined plane, the more force is required to move an object upward. The correct statement should indicate that a smaller inclination (gentler slope) requires less force. This error affects the accuracy and clarity of the educational content.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Syntax",
+        "original": "devido à maior distância do centro de atração gravitacional (a Terra).",
+        "correction": "devido à menor distância do centro de atração gravitacional (a Terra).",
+        "description": "The phrase incorrectly states that a low Earth orbit is at a greater distance from the center of gravitational attraction (Earth), when in fact it is at a lesser distance compared to a high orbit. This creates a logical contradiction with the rest of the explanation and may confuse learners. The correct wording should indicate that the low orbit is closer to the center of attraction, which is why the centripetal force required is greater.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "O plasma é um estado da matéria raro na Terra, comum em estrelas e no sol. A Terra normalmente experimenta sólidos, líquidos e gases.",
+        "correction": "O plasma é um estado da matéria raro na Terra, comum em estrelas e no Sol. Na Terra, normalmente encontramos sólidos, líquidos e gases.",
+        "description": "The word 'sol' should be capitalized as 'Sol' when referring to the star, according to standard Portuguese orthography. Additionally, the verb 'experimenta' is not the most precise choice in this context; 'encontramos' is more natural and accurate for describing the states of matter present on Earth. These changes improve both linguistic accuracy and naturalness.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Syntax",
+        "original": "Eles são caracterizados por partículas que estão organizadas em um padrão específico, mantendo uma forma constante.",
+        "correction": "Eles são caracterizados por partículas organizadas em um padrão específico, mantendo uma forma constante.",
+        "description": "The phrase 'partículas que estão organizadas' is unnecessarily wordy. In Portuguese, 'partículas organizadas' is more concise and natural, improving sentence flow and clarity.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Líquidos são caracterizados por ter volume fixo, mas não possuem forma fixa, pois adaptam-se à forma do recipiente que ocupam. Exemplos como água e leite demonstram essa propriedade ao assumir a forma do copo ou recipiente em que são colocados.",
+        "correction": "Líquidos são caracterizados por terem volume fixo, mas não possuem forma fixa, pois adaptam-se à forma do recipiente que ocupam. Exemplos como água e leite demonstram essa propriedade ao assumirem a forma do copo ou recipiente em que são colocados.",
+        "description": "The verb forms 'por ter volume fixo' and 'ao assumir a forma' should agree in number with 'líquidos' and 'exemplos', respectively. The correct forms are 'por terem volume fixo' and 'ao assumirem a forma', ensuring proper subject-verb agreement.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Isso ocorre porque as partículas de gás têm energia suficiente para se mover livremente e ocupar todo o espaço disponível sem limitações.",
+        "correction": "Isso ocorre porque as partículas do gás têm energia suficiente para se moverem livremente e ocupar todo o espaço disponível sem limitações.",
+        "description": "The phrase 'partículas de gás' should be 'partículas do gás' for correct article usage. Additionally, 'para se mover' should be 'para se moverem' to agree with the plural subject 'partículas'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "O plasma é caracterizado por ter partículas carregadas, como íons e elétrons, devido à sua alta energia. Ele não é neutro, contrastando com o estado de sólido, líquido ou gás, que geralmente têm partículas carregadas em menor quantidade ou nenhuma. A confusão pode surgir devido às várias formas de matéria e seu comportamento, mas o plasma é único em sua composição e propriedades.",
+        "correction": "O plasma é caracterizado por ter partículas carregadas, como íons e elétrons, devido à sua alta energia. Ele não é neutro, contrastando com os estados sólido, líquido ou gasoso, que geralmente têm partículas carregadas em menor quantidade ou nenhuma. A confusão pode surgir devido às várias formas de matéria e seu comportamento, mas o plasma é único em sua composição e propriedades.",
+        "description": "The phrase 'estado de sólido, líquido ou gás' should be 'os estados sólido, líquido ou gasoso' for correct terminology and agreement. 'Gasoso' is the proper adjective for 'estado', and the plural 'estados' matches the enumeration.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "O congelamento é o processo pelo qual um líquido se transforma em sólido, o que acontece quando o líquido perde energia, não ganha. Por exemplo, quando a água esfria e forma gelo.",
+        "correction": "O congelamento é o processo pelo qual um líquido se transforma em sólido, o que acontece quando o líquido perde energia, e não ganha. Por exemplo, quando a água esfria e forma gelo.",
+        "description": "The phrase 'não ganha' should be preceded by 'e' for clarity and correct contrast: 'e não ganha'. This improves the logical connection and readability of the sentence.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Syntax",
+        "original": "Não todos os personagens em uma história são protagonistas.",
+        "correction": "Nem todos os personagens em uma história são protagonistas.",
+        "description": "The sentence uses 'Não todos', which is incorrect syntax in Portuguese. The correct form is 'Nem todos', which properly expresses 'Not all' in this context. This error affects clarity and naturalness, and should be corrected for proper comprehension.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Personagens não se limitam à personagens principais; eles também incluem personagens secundários que desempenham papéis significativos na história.",
+        "correction": "Personagens não se limitam a personagens principais; eles também incluem personagens secundários que desempenham papéis significativos na história.",
+        "description": "The use of 'à' before 'personagens principais' is incorrect because the preposition 'a' is not followed by a feminine singular noun, so the crase should not be used. The correct form is 'a personagens principais'. This is a common grammatical error in Portuguese involving the misuse of the crase.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "A técnica SQ3R incentiva a engajamento com o material, o que é crucial para a aprendizagem eficaz.",
+        "correction": "A técnica SQ3R incentiva o engajamento com o material, o que é crucial para a aprendizagem eficaz.",
+        "description": "The original sentence incorrectly uses the feminine article 'a' before 'engajamento', which is a masculine noun in Portuguese. The correct form is 'o engajamento'. This error affects grammatical agreement and clarity.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Ela não está limitada a dias especiais, mas ocorre diariamente, através de várias ações como votar, participar de debates e defender causas, todos contribuindo para o processo democrático.",
+        "correction": "Ela não está limitada a dias especiais, mas ocorre diariamente, por meio de várias ações como votar, participar de debates e defender causas, todas contribuindo para o processo democrático.",
+        "description": "The sentence contains two issues: (1) The preposition 'através de' is misused; in Brazilian Portuguese, 'por meio de' is preferred when referring to means or methods, while 'através de' is reserved for physical passage. (2) The word 'todos' should agree in gender and number with 'ações', which is feminine plural, so 'todas' is correct. Both errors affect grammatical accuracy and naturalness.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "A precisão e a eficiência das simulações são aprimoradas pela IA, permitindo a rápida processação de dados complexos e a previsão de resultados potenciais.",
+        "correction": "A precisão e a eficiência das simulações são aprimoradas pela IA, permitindo o rápido processamento de dados complexos e a previsão de resultados potenciais.",
+        "description": "The word 'processação' is not standard in Brazilian Portuguese; the correct term is 'processamento'. This lexical error affects the professionalism and clarity of the feedback. The correction ensures the use of proper technical terminology.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "O Cristianismo é uma religião polideísta, reconhecendo muitos deuses.",
+        "correction": "O Cristianismo é uma religião politeísta, reconhecendo muitos deuses.",
+        "description": "The word 'polideísta' is a misspelling; the correct term is 'politeísta' for 'polytheistic' in Portuguese. This lexical error could cause confusion regarding the meaning of the statement.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "O Judaísmo é uma religião politeísta com diversas divindades.",
+        "correction": "O Judaísmo é uma religião monoteísta com a crença em um único Deus.",
+        "description": "The statement incorrectly describes Judaism as 'politeísta' (polytheistic), which is a factual and lexical error. Judaism is monotheistic, and this mistake could mislead learners about a fundamental aspect of the religion.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "princípulos",
+        "correction": "princípios",
+        "description": "The word 'princípulos' is a misspelling in Portuguese. The correct term is 'princípios', which means 'principles'. This error affects the clarity and professionalism of the educational content and should be corrected to maintain linguistic accuracy.",
+        "severity": "HIGH"
       }
     ],
     "localization": [
       {
         "category": "localization",
         "subcategory": "Lexical",
-        "original": "Deserto do Saara, onde as temperaturas são extremamente baixas.",
-        "correction": "Deserto do Saara, onde as temperaturas podem ser extremamente altas durante o dia e baixas à noite.",
-        "description": "The original text states that temperatures in the Sahara Desert are 'extremamente baixas', which is misleading and culturally inaccurate. The Sahara is known for extreme temperature variations, with very high daytime temperatures and low nighttime temperatures. The correction provides a more accurate and culturally appropriate description.",
+        "original": "O conceito de zonas climáticas inclui a zona tropical, que é contrastante com regiões como o Deserto do Saara, onde as temperaturas são extremamente baixas.",
+        "correction": "O conceito de zonas climáticas inclui a zona tropical, que contrasta com regiões como o Deserto do Saara, onde as temperaturas podem ser extremamente altas durante o dia e baixas à noite.",
+        "description": "The original sentence inaccurately states that temperatures in the Sahara Desert are 'extremamente baixas', which is misleading. The Sahara is known for extremely high daytime temperatures and low nighttime temperatures. The correction provides a more accurate and culturally appropriate description, improving both factual accuracy and naturalness.",
         "severity": "MEDIUM"
       },
       {
         "category": "localization",
         "subcategory": "Style",
-        "original": "Strings podem ser armazenados como números.",
-        "correction": "Strings podem ser armazenadas como números.",
-        "description": "The word 'Strings' should agree in gender and number with the rest of the sentence. In Brazilian Portuguese, 'string' is commonly treated as a feminine noun ('a string'), so the correct form is 'Strings podem ser armazenadas como números.' This correction improves naturalness and consistency with local usage.",
+        "original": "A programação é uma ferramenta essencial em uma ampla gama de indústrias, desde tecnologia até saúde, finanças e muito mais. É uma habilidade altamente valorizada em muitos campos.",
+        "correction": "A programação é uma ferramenta essencial em uma ampla gama de setores, como tecnologia, saúde, finanças e outros. É uma habilidade altamente valorizada em diversas áreas.",
+        "description": "The use of 'indústrias' and 'campos' is less natural in Brazilian Portuguese when referring to professional areas; 'setores' and 'áreas' are more commonly used. This correction improves the naturalness and localization of the text for Brazilian learners.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "potencialmente levando a uma solução que respeite as necessidades de todos os envolvidos.",
+        "correction": "levando a uma solução que respeite as necessidades de todos os envolvidos.",
+        "description": "The use of 'potencialmente' is somewhat formal and less common in educational contexts aimed at younger audiences. Removing 'potencialmente' makes the statement more direct and natural, which is preferable for Brazilian Portuguese educational materials.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Fontes como estudos científicos revisados por pares são consideradas de alta confiabilidade devido ao seu rigor metodológico e revisão por pares.",
+        "correction": "Fontes como estudos científicos revisados por pares são consideradas altamente confiáveis devido ao seu rigor metodológico e revisão por pares.",
+        "description": "The phrase 'de alta confiabilidade' is grammatically correct but less natural in Brazilian Portuguese educational contexts. The more idiomatic and widely accepted term is 'altamente confiáveis'. This change improves the naturalness and professional tone of the feedback, aligning with standard terminology used in academic and educational materials.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "O Ano Novo Chinês, conhecido também como Festival da Primavera, é uma celebração que envolve reuniões familiares, danças tradicionais e decorações vermelhas. Embora desfiles possam ocorrer em alguns locais, o evento principal não inclui carros alegóricos.",
+        "correction": "O Ano Novo Chinês, conhecido também como Festival da Primavera, é uma celebração que envolve reuniões familiares, danças tradicionais e decorações vermelhas. Embora desfiles possam ocorrer em alguns locais, o evento principal não inclui carros alegóricos, mas sim apresentações como a Dança do Leão e do Dragão.",
+        "description": "The feedback is culturally accurate but lacks mention of the most iconic elements of Chinese New Year parades, such as the Lion and Dragon dances, which are more representative than floats. Adding this detail improves cultural appropriateness and educational value.",
         "severity": "MINOR"
       },
       {
         "category": "localization",
         "subcategory": "Style",
-        "original": "As habilidades de comunicação, como a escuta ativa e a empatia, são fundamentais para entender as necessidades e perspectivas dos outros, facilitando uma resolução harmoniosa dos conflitos.",
-        "correction": "As habilidades de comunicação, como a escuta ativa e a empatia, são fundamentais para entender as necessidades e perspectivas dos outros, facilitando uma resolução harmoniosa dos conflitos.",
-        "description": "The phrase 'resolução harmoniosa dos conflitos' is linguistically correct but may sound overly formal and less natural in the context of educational content for younger audiences. A more localized and natural expression would be 'solução pacífica dos conflitos,' which is commonly used in Brazilian Portuguese educational settings and better matches the tone expected in school environments.",
+        "original": "Ao colocar de lado atividades que exigem menor esforço mental, como assistir TV, e dedicar tempo para tarefas como fazer lição de casa, você está utilizando raciocínio lógico para otimizar seu dia.",
+        "correction": "Ao deixar para depois atividades que exigem menor esforço mental, como assistir TV, e dedicar tempo para tarefas como fazer lição de casa, você está utilizando raciocínio lógico para otimizar seu dia.",
+        "description": "The phrase 'colocar de lado' is somewhat literal and less natural in Brazilian Portuguese for this context. 'Deixar para depois' is a more idiomatic and culturally appropriate way to express postponing leisure activities in favor of important tasks. This adjustment enhances the naturalness and readability of the feedback.",
         "severity": "MINOR"
       },
       {
         "category": "localization",
         "subcategory": "Style",
-        "original": "Ao abrir espaço para a comunicação, as partes envolvidas podem entender melhor a perspectiva um do outro, potencialmente levando a uma solução que respeite as necessidades de todos os envolvidos.",
-        "correction": "Ao abrir espaço para a comunicação, as partes envolvidas podem entender melhor a perspectiva uma da outra, potencialmente levando a uma solução que respeite as necessidades de todos os envolvidos.",
-        "description": "The phrase 'a perspectiva um do outro' is a literal translation from English ('each other's perspective') and is not idiomatic in Portuguese. The correct and natural expression is 'a perspectiva uma da outra,' which better reflects standard usage and avoids anglicism.",
+        "original": "É como quando você testa um novo prato e descobre que o sabor é ótimo, mas a textura poderia ser melhorada.",
+        "correction": "É como testar uma solução e perceber que alguns aspectos funcionam bem, enquanto outros podem ser aprimorados.",
+        "description": "The culinary analogy ('testa um novo prato') may not be universally relatable or appropriate in an educational context focused on design. A more neutral analogy related to design or problem-solving would be preferable for broader cultural relevance and professionalism.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "As linhas de contorno são uma técnica fundamental em desenho para delinear a forma básica de um objeto. Elas diferem das técnicas de sombreamento, que são usadas para representar luz e sombra, proporcionando uma representação mais 2D do objeto. Usando linhas de contorno, os artistas conseguem transmitir a estrutura tridimensional de um objeto em uma superfície bidimensional, como papel ou tela.",
+        "correction": "As linhas de contorno são uma técnica fundamental no desenho para delinear a forma básica de um objeto. Elas diferem das técnicas de sombreamento, que são usadas para representar luz e sombra, proporcionando uma representação mais bidimensional do objeto. Usando linhas de contorno, os artistas conseguem transmitir a estrutura tridimensional de um objeto em uma superfície bidimensional, como papel ou tela.",
+        "description": "The phrase 'em desenho' should be 'no desenho' to match standard Brazilian Portuguese usage when referring to the field or activity. Additionally, 'mais 2D' is an anglicism and should be replaced with 'mais bidimensional' for naturalness and professional terminology. These changes improve localization quality and ensure the use of locally accepted terminology.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "Este é um mal-entendido comum. Embora textos de ficção possam ser interessantes e envolventes, eles são principalmente criados para entretenimento e não para fins educacionais. O ensino, por outro lado, depende de textos que fornecem informações factuais e educativas.",
+        "correction": "Este é um mal-entendido comum. Embora textos de ficção possam ser interessantes e envolventes, eles também podem ser utilizados para fins educacionais, como no desenvolvimento de habilidades de leitura, interpretação e análise crítica. O ensino pode se beneficiar tanto de textos ficcionais quanto de textos informativos.",
+        "description": "The feedback presents a culturally inaccurate generalization by stating that fiction is mainly for entertainment and not for educational purposes. In Brazilian educational contexts, fiction is widely used for teaching reading, interpretation, and critical thinking. The correction provides a more culturally appropriate and accurate perspective.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "Por exemplo, incêndios na cozinha frequentemente ocorrem devido à supervisão inadequada dos alimentos no fogão.",
+        "correction": "Por exemplo, incêndios na cozinha frequentemente ocorrem devido à falta de supervisão dos alimentos no fogão.",
+        "description": "The phrase 'supervisão inadequada' is unnatural in Brazilian Portuguese for this context. The culturally appropriate and natural expression is 'falta de supervisão', which clearly conveys the idea of unattended cooking. This correction improves clarity and aligns with local usage.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "Por exemplo, em uma praia, é importante manter as instalações de resgate em caso de incêndio.",
+        "correction": "Por exemplo, em espaços públicos, é importante conhecer as rotas de evacuação e os procedimentos de emergência em caso de incêndio.",
+        "description": "The reference to 'manter as instalações de resgate em caso de incêndio' at a beach is culturally inappropriate and unclear, as beaches typically do not have fire rescue installations. The correction generalizes the advice to public spaces and focuses on knowing evacuation routes and emergency procedures, which is more relevant and culturally appropriate.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "pomada antibiótica",
+        "correction": "pomada com antibiótico",
+        "description": "The term 'pomada antibiótica' is not the most natural or commonly used expression in Brazilian Portuguese for topical antibiotic ointments. 'Pomada com antibiótico' is more idiomatic and aligns better with local medical terminology, improving the naturalness and professional tone of the content.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "Frações representam partes de um todo, e quando o numerador (parte) é menor que o denominador (todo), a fração é menor que 1. Por exemplo, se você tem 2 maçãs e divide entre 3 pessoas, cada pessoa recebe 2/3 de uma maçã, o que é menos de uma maçã inteira.",
+        "correction": "Frações representam partes de um todo, e quando o numerador é menor que o denominador, a fração é menor que 1. Por exemplo, se você tem 2 maçãs e divide entre 3 pessoas, cada pessoa recebe 2/3 de uma maçã, o que é menos de uma maçã inteira.",
+        "description": "The feedback uses 'numerador (parte)' and 'denominador (todo)', which may confuse learners, as the denominator does not represent the 'whole' but the number of equal parts into which the whole is divided. This is a localization issue affecting conceptual clarity and educational appropriateness.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "A implementação de acordos comerciais como o NAFTA geralmente diminui as barreiras ao comércio entre os países signatários.",
+        "correction": "A implementação de acordos comerciais como o NAFTA geralmente diminui as barreiras ao comércio entre os países participantes.",
+        "description": "The term 'signatários' is technically correct but less commonly used in Brazilian Portuguese educational contexts when referring to countries involved in trade agreements. 'Participantes' is more natural and widely accepted, improving localization and reader familiarity.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Cada nação especializa-se em diferentes aspectos do processo de produção, o que mostra como as economias estão conectadas e dependem umas das outras para fornecer bens e serviços.",
+        "correction": "Cada nação se especializa em diferentes aspectos do processo de produção, o que mostra como as economias estão conectadas e dependem umas das outras para fornecer bens e serviços.",
+        "description": "The use of 'especializa-se' is grammatically correct but less natural in Brazilian Portuguese, where 'se especializa' is preferred in educational and conversational contexts. This change improves the naturalness and flow of the sentence.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Estudos mostram que quando os estudantes acreditam no seu potencial de desenvolver habilidades e conhecimentos, eles são mais propensos a se envolver em estudos rigorosos, buscar ajuda quando necessário e persistir diante dos desafios.",
+        "correction": "Estudos mostram que quando os estudantes acreditam em seu potencial de desenvolver habilidades e conhecimentos, eles são mais propensos a se dedicar aos estudos, buscar ajuda quando necessário e persistir diante dos desafios.",
+        "description": "The phrase 'se envolver em estudos rigorosos' is not the most natural or commonly used expression in Brazilian Portuguese for academic engagement. 'Se dedicar aos estudos' is more idiomatic and culturally appropriate. This is a localization issue related to terminology and naturalness.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Alimentos ricos em açúcar, como doces e alguns lanches, não são considerados parte dos principais grupos alimentares devido ao seu alto teor calórico e baixo valor nutricional. Ao escolher lanches, é melhor optar por opções que incluam frutas, vegetais ou grãos integrais.",
+        "correction": "Alimentos ricos em açúcar, como doces e alguns lanches, não fazem parte dos principais grupos alimentares devido ao seu alto teor calórico e baixo valor nutricional. Ao escolher lanches, prefira opções com frutas, vegetais ou grãos integrais.",
+        "description": "The original feedback uses a formal and somewhat repetitive style ('optar por opções que incluam'), which can be streamlined for naturalness and clarity in Brazilian Portuguese. The correction uses more concise and natural expressions ('não fazem parte', 'prefira opções com'), improving readability and aligning with local stylistic conventions.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "De acordo com os princípios fundamentais da DUDH, os artigos 18 e 19 protegem a liberdade de pensamento e religião, garantindo que esses direitos sejam invioláveis para todos os seres humanos.",
+        "correction": "De acordo com os princípios fundamentais da DUDH, os artigos 18 e 19 protegem a liberdade de expressão e religião, garantindo que esses direitos sejam invioláveis para todos os seres humanos.",
+        "description": "The feedback refers to 'liberdade de pensamento', but the statement is about 'liberdade de expressão'. For consistency and clarity, the terminology should match the statement and the actual content of the DUDH, which protects both freedom of expression and religion. This correction ensures terminological consistency and accurate reference to the rights discussed.",
         "severity": "MEDIUM"
       },
       {
         "category": "localization",
         "subcategory": "Style",
-        "original": "Ao adotar estratégias para gerenciar diferenças, os participantes frequentemente se sentem mais compreendidos e valorizados, o que promove um ambiente de trabalho mais cooperativo.",
-        "correction": "Ao adotar estratégias para gerenciar diferenças, os participantes frequentemente se sentem mais compreendidos e valorizados, o que promove um ambiente mais cooperativo.",
-        "description": "The use of 'ambiente de trabalho' may not be appropriate in the context of school projects or educational settings, as it implies a professional workplace. For better localization and cultural appropriateness, 'ambiente mais cooperativo' is recommended, which is more inclusive and suitable for both school and work contexts.",
+        "original": "Uma interação simples como sorrir e cumprimentar pode aumentar positivamente a energia de um ambiente. Este comportamento é um exemplo de bondade diária que pode ser facilmente incorporado na rotina diária de alguém.",
+        "correction": "Uma interação simples como sorrir e cumprimentar pode aumentar positivamente a energia de um ambiente. Esse comportamento é um exemplo de bondade cotidiana que pode ser facilmente incorporado à rotina de qualquer pessoa.",
+        "description": "The use of 'este comportamento' is grammatically correct but less natural than 'esse comportamento' in Brazilian Portuguese for this context. 'Bondade diária' is understandable, but 'bondade cotidiana' is more idiomatic. 'Na rotina diária de alguém' is repetitive and less inclusive; 'à rotina de qualquer pessoa' is more natural and inclusive.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Dispositivos mnemônicos são ferramentas que transformam informações complexas em padrões mais simples e memoráveis, o que melhora a capacidade de reter e recuperar dados, como nomes de pessoas ou conceitos científicos.",
+        "correction": "Dispositivos mnemônicos são ferramentas que transformam informações complexas em padrões mais simples e fáceis de memorizar, o que melhora a capacidade de reter e recuperar dados, como nomes de pessoas ou conceitos científicos.",
+        "description": "The term 'memoráveis' is not the most natural or commonly used in Brazilian Portuguese educational contexts when referring to information that is easy to remember. 'Fáceis de memorizar' is a more idiomatic and clear expression for this context, improving the naturalness and localization quality of the feedback.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "Ouça 'O Cravo Bem Temperado' de J.S. Bach para perceber a integração de vozes e instrumentos.",
+        "correction": "Ouça 'O Cravo Bem Temperado' de J.S. Bach para perceber a integração de instrumentos. Ouça também obras corais, como o 'Magnificat' de Bach, para perceber a integração de vozes e instrumentos.",
+        "description": "The example 'O Cravo Bem Temperado' (The Well-Tempered Clavier) by J.S. Bach is an instrumental work and does not feature voices, making it an inappropriate example for illustrating the integration of voices and instruments in classical music. A more culturally and musically accurate example would be a choral work, such as Bach's 'Magnificat'.",
         "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Format",
+        "original": "utilizam o internet",
+        "correction": "utilizam a internet",
+        "description": "The phrase 'utilizam o internet' uses the incorrect article for 'internet.' In Brazilian Portuguese, 'internet' is feminine and should be preceded by 'a.' This is a common localization issue that affects naturalness and correctness.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "É como testar se mais sol faz as plantas crescerem mais.",
+        "correction": "É como testar se uma maior quantidade de luz solar faz as plantas crescerem mais.",
+        "description": "The original uses 'mais sol' which is informal and may not be precise in an educational context. Replacing it with 'uma maior quantidade de luz solar' improves clarity and aligns with scientific terminology, making the feedback more appropriate for educational materials.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "O efeito da inclinação em um plano inclinado é deslocar a força necessária ao longo de uma distância maior, reduzindo assim o esforço necessário para mover um objeto. Isso é baseado na conservação de energia, onde a energia potencial é convertida em energia cinética, facilitando o movimento.",
+        "correction": "O efeito da inclinação em um plano inclinado é distribuir o esforço ao longo de uma distância maior, reduzindo a força necessária para mover um objeto. Isso está relacionado ao princípio da conservação de energia, onde a energia potencial é transferida durante o movimento.",
+        "description": "The original feedback uses the phrase 'deslocar a força necessária', which is unnatural in Brazilian Portuguese and may confuse learners. Additionally, the explanation about energy conversion is misleading, as the process primarily involves the transfer of potential energy rather than its conversion to kinetic energy in the context of moving objects up an inclined plane. The correction improves naturalness, clarity, and scientific accuracy for the local audience.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "A afirmação é verdadeira. A cunha é uma ferramenta que permite realizar tarefas que exigem força com menos esforço humano. Isso ocorre porque a cunha concentra a força em uma área menor, facilitando a execução de tarefas como cortar ou separar materiais.",
+        "correction": "A afirmação está correta. A cunha é uma ferramenta que permite realizar tarefas que exigem força com menos esforço. Isso ocorre porque a cunha concentra a força em uma área menor, facilitando o corte ou a separação de materiais.",
+        "description": "The original feedback uses the phrase 'menos esforço humano', which is redundant and less natural in Brazilian Portuguese. The correction streamlines the sentence for clarity and naturalness, and replaces 'facilitando a execução de tarefas como cortar ou separar materiais' with a more direct and concise expression, improving readability and localization quality.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "O parafuso é um componente essencial em muitas ferramentas de fixação, pois permite a aplicação de uma força menor ao longo de uma distância maior, tornando o processo mais eficiente.",
+        "correction": "O parafuso é um componente essencial em muitas ferramentas de fixação, pois permite aplicar menos força ao longo de uma distância maior, tornando o processo mais eficiente.",
+        "description": "The original feedback uses the phrase 'permite a aplicação de uma força menor', which is unnecessarily formal and less natural in Brazilian Portuguese. The correction uses a more direct and natural phrasing, improving the style and readability for the local audience.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Uma roda com eixo é projetada para facilitar o movimento de objetos, reduzindo a força necessária. Isso se deve à sua capacidade de rolar, o que oferece uma vantagem mecânica ao contrário de um plano inclinado, que exige mais esforço para movimentar objetos devido à sua superfície plana.",
+        "correction": "Uma roda com eixo é projetada para facilitar o movimento de objetos, reduzindo a força necessária. Isso ocorre porque a roda permite que os objetos rolem, oferecendo uma vantagem mecânica em relação ao plano inclinado, que exige mais esforço devido ao atrito.",
+        "description": "The original feedback contains the phrase 'ao contrário de um plano inclinado, que exige mais esforço para movimentar objetos devido à sua superfície plana', which is awkward and may confuse learners. The correction clarifies the mechanical advantage and specifies that the increased effort on an inclined plane is due to friction, improving scientific accuracy and localization quality.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "A alavanca é, de fato, uma máquina simples que pode ajudar a levantar pesos pesados, mas não necessariamente reduzir o esforço necessário para levantar um peso muito maior do que o próprio peso. Em vez disso, permite que o esforço seja distribuído ao longo de uma distância maior, tornando o movimento mais eficiente. Isso se baseia no princípio de vantagem mecânica, onde a alavanca permite que um menor esforço seja aplicado ao longo de uma distância maior para levantar um peso maior em uma distância menor.",
+        "correction": "A alavanca é uma máquina simples que pode ajudar a levantar pesos maiores, mas não reduz necessariamente o esforço para levantar um peso muito maior do que o seu próprio peso. Ela permite distribuir o esforço ao longo de uma distância maior, tornando o movimento mais eficiente. Isso se baseia no princípio da vantagem mecânica, em que a alavanca possibilita aplicar menos força ao longo de uma distância maior para levantar um peso maior em uma distância menor.",
+        "description": "The original feedback is wordy and contains redundancies, such as 'de fato' and 'não necessariamente', which are less natural in Brazilian Portuguese. The correction streamlines the explanation, improves clarity, and uses more natural phrasing, enhancing localization quality and readability.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Embora muitos estados tenham adotado a votação por correio, especialmente para facilitar a participação dos eleitores, isso não é uma prática universal.",
+        "correction": "Embora muitos estados tenham adotado o voto por correspondência, especialmente para facilitar a participação dos eleitores, isso não é uma prática universal.",
+        "description": "The term 'votação por correio' is not the most natural or standard in Brazilian Portuguese for 'mail-in voting.' The preferred term is 'voto por correspondência,' which is more widely used and understood in the local context. This change improves terminology consistency and localization quality.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Apreciar as diferenças e semelhanças entre várias tradições espirituais melhora a coexistência pacífica entre as pessoas.",
+        "correction": "Respeitar e compreender as diferenças entre várias tradições espirituais contribui para a coexistência pacífica entre as pessoas.",
+        "description": "The original sentence uses 'apreciar as diferenças e semelhanças', which is less natural and may not fully convey the intended meaning in Brazilian Portuguese. 'Respeitar e compreender as diferenças' is a more culturally appropriate and natural expression for educational content discussing religious harmony.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "qualidades éticas conhecidas como 'sangha'",
+        "correction": "qualidades éticas conhecidas como 'sīla'",
+        "description": "The term 'sangha' refers to the Buddhist monastic community, not to ethical qualities. The correct term for ethical qualities in Buddhism is 'sīla'. This terminology error may mislead learners about Buddhist concepts and should be corrected for accuracy and cultural appropriateness.",
+        "severity": "HIGH"
       }
     ]
   }

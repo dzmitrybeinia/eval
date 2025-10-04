@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Die Struktur wird durch die kürzere zweite Zeile von neun Silben gekennzeichnet, nicht fünf.",
+      "correction": "Die Struktur wird durch die mittlere Zeile mit sieben Silben gekennzeichnet, nicht fünf.",
+      "description": "The original sentence incorrectly states that the second line of a Haiku has nine syllables, which is factually wrong. The correct number is seven syllables. This is a lexical error affecting the accuracy of the educational content.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Freie Verse sind dafür bekannt, dass sie keinen festen Reimschema, Metrum oder Struktur haben, was sie sehr flexibel macht.",
+      "correction": "Freie Verse sind dafür bekannt, dass sie kein festes Reimschema, Metrum oder feste Struktur haben, was sie sehr flexibel macht.",
+      "description": "The phrase 'keinen festen Reimschema' is incorrect because 'Reimschema' is neuter ('das Reimschema'), so the correct form is 'kein festes Reimschema'. Additionally, for parallelism and clarity, 'feste Struktur' should be used instead of just 'Struktur'. This is a grammatical and lexical issue affecting agreement and naturalness.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Ein Limerick besteht aus fünfzehn Silben, nicht aus zehn.",
+      "correction": "Ein Limerick besteht nicht aus zehn Silben.",
+      "description": "The original sentence incorrectly states that a Limerick consists of fifteen syllables, which is factually inaccurate. Limericks do not have a fixed total syllable count; the syllable count varies by line. The correction removes the incorrect information and maintains factual accuracy.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Poetry_Forms.slm.md",
+    "language": "German",
+    "timestamp": "2025-10-03T22:31:03.422251",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.1,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.9,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.9,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

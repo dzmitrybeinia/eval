@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "📖",
+      "correction": "",
+      "description": "The use of the book emoji at the end of the introductory paragraph may be considered informal or out of place in educational Japanese content, especially in formal or academic contexts. Japanese educational materials typically avoid emojis unless targeting a very young audience or aiming for a casual tone. Removing the emoji would improve the professionalism and appropriateness of the content.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "彼らを一人で待たせないでください—今日里親になり、命を救いましょう。",
+      "correction": "彼らを一人で待たせないでください。今日、里親になって命を救いましょう。",
+      "description": "The sentence uses an em dash (—), which is not standard punctuation in Japanese. Japanese typically uses a full-width period (。) or a comma (、) to separate sentences. Additionally, '今日里親になり' would be more natural as '今日、里親になって', using the te-form to connect actions smoothly. This correction addresses both punctuation and natural sentence connection.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "エトス、パトス、ロゴス",
+      "correction": "エトス（信頼性）、パトス（感情）、ロゴス（論理）",
+      "description": "While 'エトス、パトス、ロゴス' are transliterations of the Greek terms, Japanese educational content often clarifies such foreign concepts with their Japanese meanings in parentheses for accessibility. Adding the Japanese explanations improves clarity and ensures the terminology is easily understood by all learners.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Persuasive_Writing.llm.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-03T21:52:00.854104",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

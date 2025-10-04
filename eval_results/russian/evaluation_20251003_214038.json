@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "один из основных аспектов безопасности в интернете",
+      "correction": "один из основных аспектов безопасности в Интернете",
+      "description": "The word 'интернет' should be capitalized as 'Интернет' when referring to the global network in formal and educational contexts, according to Russian orthographic standards. This improves the linguistic accuracy and aligns with standard usage in Russian educational materials.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "например \"password\" или \"123456\"",
+      "correction": "например «password» или «123456»",
+      "description": "Quotation marks should use Russian-style (« ») instead of English-style (\" \") for examples in educational content. This enhances the naturalness and professionalism of the text, making it culturally appropriate for Russian readers.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "T!ger$2023",
+      "correction": "T!ger$2023",
+      "description": "While the password example is technically correct, it uses Latin characters and symbols, which is common in global cybersecurity education. However, for Russian audiences, it may be helpful to clarify that strong passwords can include both Cyrillic and Latin characters, as some Russian services allow this. Consider adding a note or example with Cyrillic letters for better localization.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "письмо, якобы от вашего банка, с просьбой подтвердить аккаунт, введя пароль.",
+      "correction": "письмо, якобы от вашего банка, с просьбой подтвердить учётную запись, введя пароль.",
+      "description": "The term 'аккаунт' is an anglicism. In Russian educational and official contexts, 'учётная запись' is preferred for clarity and naturalness. This correction improves the localization quality and aligns with standard terminology.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "магазинов приложений",
+      "correction": "магазинов приложений",
+      "description": "The term 'магазинов приложений' is acceptable, but for Russian audiences, 'официальных магазинов приложений' or 'официальных источников' is more precise and natural. Consider using the more localized term for clarity.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Online_Safety.llm.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T21:40:38.020714",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 4,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.4,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

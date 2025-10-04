@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Diwali, conocido como el Festival de las Luces, es una celebración hinduista que marca el triunfo de la luz sobre la oscuridad y el bien sobre el mal.",
+      "correction": "Diwali, conocido como el Festival de las Luces, es una celebración hindú que marca el triunfo de la luz sobre la oscuridad y el bien sobre el mal.",
+      "description": "The term 'hinduista' is not the standard Spanish term for the religion or its adherents in this context. 'Hindú' is the correct and widely accepted term to refer to the religion and its festivals. 'Hinduista' refers to a follower of Hinduism, but when describing the festival, 'hindú' is the appropriate adjective. This correction improves terminology consistency and aligns with common usage in educational and cultural materials.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Dulces como laddoos y barfis, y snacks como samosas son compartidos entre familiares y amigos.",
+      "correction": "Dulces como laddus y barfis, y bocadillos como samosas se comparten entre familiares y amigos.",
+      "description": "The word 'laddoos' is an anglicized plural; the Spanish transliteration is 'laddu' or 'laddus'. 'Snacks' is an English loanword; 'bocadillos' or 'aperitivos' are more natural in Spanish. Additionally, 'son compartidos' is less idiomatic than 'se comparten' in this context. This correction improves naturalness, terminology, and style for Spanish-speaking audiences.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Entregar sobres rojos (hongbao) con dinero como regalos.",
+      "correction": "Se entregan sobres rojos (hongbao) con dinero como regalo.",
+      "description": "The phrase 'como regalos' is plural, but the act is typically singular per recipient. 'Como regalo' is more idiomatic and natural in Spanish. Additionally, using the impersonal 'se entregan' aligns with standard explanatory style in educational content.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Platos indulgentes como la feijoada en Brasil y pasteles de rey en Europa.",
+      "correction": "Platos típicos como la feijoada en Brasil y el roscón de reyes en Europa.",
+      "description": "The term 'pasteles de rey' is not the standard name for the traditional cake associated with Carnival in Europe. 'Roscón de reyes' is the correct term in Spanish for the cake eaten during Epiphany, but for Carnival, 'rosquillas' or other local specialties may be more appropriate. 'Platos indulgentes' is less common than 'platos típicos' or 'platos tradicionales' in Spanish educational content. This correction improves terminology and cultural accuracy.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Las máscaras y disfraces representan libertad y creatividad, mientras que el Carnaval celebra la unidad y la alegría.",
+      "correction": "Las máscaras y los disfraces representan libertad y creatividad, mientras que el Carnaval celebra la unidad y la alegría.",
+      "description": "The omission of the article 'los' before 'disfraces' is a minor grammatical issue. In Spanish, when listing two nouns, the article should be repeated for clarity and correctness: 'las máscaras y los disfraces'. This correction improves grammatical accuracy and maintains parallel structure.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Cultural_Celebrations.llm.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-03T21:27:26.041986",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.2,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 0.8,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 4,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.7,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

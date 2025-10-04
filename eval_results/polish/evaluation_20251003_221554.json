@@ -1,0 +1,75 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Punkty w geometryczu są abstrakcyjnymi pojęciami, które reprezentują dokładną pozycję bez zajmowania jakiejkolwiek przestrzeni.",
+      "correction": "Punkty w geometrii są abstrakcyjnymi pojęciami, które reprezentują dokładną pozycję bez zajmowania jakiejkolwiek przestrzeni.",
+      "description": "The word 'geometryczu' is a significant spelling error; the correct form is 'geometrii' (locative case of 'geometria'). This mistake affects comprehension and demonstrates incorrect noun case usage.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Podobnie jak twoja mama może być przedstawiona na słońcu, ale faktycznie jest w ciele, punkt zajmuje wewnętrznie miejsce w geometrii.",
+      "correction": "Podobnie jak osoba może być przedstawiona w różnych miejscach, punkt zajmuje miejsce w geometrii tylko teoretycznie.",
+      "description": "The original analogy involving 'your mother on the sun' is culturally inappropriate and confusing for educational content. It lacks clarity and may be perceived as odd or insensitive. The correction uses a neutral analogy suitable for Polish educational context.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Kąty półpełne można znaleźć na koństwowaniu pienięzi w układzie zakresu akcji.",
+      "correction": "Kąty półpełne można znaleźć w układzie zakresu akcji.",
+      "description": "The phrase 'koństwowaniu pienięzi' is not a valid Polish expression and contains lexical errors. It is unclear and does not make sense in the context of geometry. The correction removes the nonsensical phrase to improve clarity and accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Kąty półpełne, które mają dokładnie 180 stopni, występują w układzie zakresu akcji, ale nie na koństwowaniu pienięzi.",
+      "correction": "Kąty półpełne, które mają dokładnie 180 stopni, występują w układzie zakresu akcji, ale nie w innych obszarach geometrycznych.",
+      "description": "The phrase 'koństwowaniu pienięzi' is a lexical error and does not exist in Polish, making the sentence confusing and incorrect. The correction replaces it with a general term appropriate for the context.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Kąty są właściwością, która definiuje, czy linia jest ściszona, czy otwarta.",
+      "correction": "Kąty są właściwością, która definiuje, czy figura jest zamknięta, czy otwarta.",
+      "description": "The word 'linia' (line) is incorrectly used instead of 'figura' (figure). In geometry, angles define properties of figures, not lines. The correction ensures accurate terminology.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Bez kątów linia byłaby supełna, a nie figura.",
+      "correction": "Bez kątów figura nie byłaby zamknięta i nie spełniałaby definicji figury geometrycznej.",
+      "description": "The term 'supełna' is not standard Polish and is unclear in this context. The sentence also incorrectly refers to 'linia' instead of 'figura'. The correction uses proper terminology and clarifies the geometric concept.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Geometry_Basics.slm.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T22:15:54.075111",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 8.5,
+    "classification": "PROFESSIONAL",
+    "total_issues": 6,
+    "total_penalty": 1.5,
+    "issue_breakdown": {
+      "linguistic": 5,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.3,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

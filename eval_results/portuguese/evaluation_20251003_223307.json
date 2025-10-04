@@ -1,0 +1,75 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "A inteligência emocional é uma habilidade que pode ser refinada e desenvolvida com prática e experiência, não sendo determinada exclusivamente pela predisposição genética.",
+      "correction": "A inteligência emocional é uma habilidade que pode ser refinada e desenvolvida com prática e experiência, não sendo determinada exclusivamente pela predisposição genética.",
+      "description": "No linguistic or localization issues found. The sentence is grammatically correct, uses proper accentuation, and is culturally appropriate for Brazilian Portuguese.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Autoconsciência é a capacidade de se reconectar com suas próprias emoções e pensamentos, não ignorá-los. Reconhecer esses aspectos internos é crucial para entender como eles influenciam as decisões e ações.",
+      "correction": "Autoconsciência é a capacidade de se conectar com suas próprias emoções e pensamentos, não ignorá-los. Reconhecer esses aspectos internos é crucial para entender como eles influenciam as decisões e ações.",
+      "description": "The use of 'reconectar' is not the most precise verb in this context. 'Conectar' is more natural and accurate in Brazilian Portuguese when referring to awareness of one's own emotions and thoughts. 'Reconectar' implies a previous disconnection, which is not necessarily the case in the definition of self-awareness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Autorregulação refere-se à capacidade de controlar e gerenciar emoções e reações, não a expressá-las indiscriminadamente. É importante aprender a reconhecer quando é apropriado expressar sentimentos e quando é melhor manter a calma e pensar sobre a resposta.",
+      "correction": "Autorregulação refere-se à capacidade de controlar e gerenciar emoções e reações, não de expressá-las indiscriminadamente. É importante aprender a reconhecer quando é apropriado expressar sentimentos e quando é melhor manter a calma e pensar sobre a resposta.",
+      "description": "The preposition 'a' before 'expressá-las' should be 'de' to correctly match the construction 'não de expressá-las indiscriminadamente'. This ensures proper grammatical parallelism and clarity in Portuguese.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Motivação é o impulso para alcançar objetivos pessoais, o que inclui persistir e superar desafios. Desistir quando encontramos obstáculos não define motivação.",
+      "correction": "Motivação é o impulso para alcançar objetivos pessoais, o que inclui persistir e superar desafios. Desistir quando encontramos obstáculos não define motivação.",
+      "description": "No linguistic or localization issues found. The sentence is clear, uses correct terminology, and is culturally appropriate.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Empatia é mais do que apenas entender um sentimento; também inclui a capacidade de experimentar uma resposta emocional similar ao que outra pessoa está sentindo. Isso envolve uma combinação de escuta ativa, reconhecimento das emoções dos outros e resposta com compaixão.",
+      "correction": "Empatia é mais do que apenas entender um sentimento; também inclui a capacidade de experimentar uma resposta emocional semelhante ao que outra pessoa está sentindo. Isso envolve uma combinação de escuta ativa, reconhecimento das emoções dos outros e resposta com compaixão.",
+      "description": "The word 'similar' should be replaced with 'semelhante', which is the standard and more natural equivalent in Brazilian Portuguese. 'Similar' is acceptable but less idiomatic in this context.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "A adaptabilidade é uma característica chave das habilidades sociais, pois permite que os indivíduos interajam eficazmente em diferentes situações e com diversos grupos de pessoas.",
+      "correction": "A adaptabilidade é uma característica-chave das habilidades sociais, pois permite que os indivíduos interajam eficazmente em diferentes situações e com diversos grupos de pessoas.",
+      "description": "The compound noun 'característica chave' should be hyphenated as 'característica-chave' according to Brazilian Portuguese orthographic rules for compound adjectives preceding nouns.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Emotional_Intelligence.slm.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T22:33:07.902105",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.2,
+    "classification": "NATIVE",
+    "total_issues": 6,
+    "total_penalty": 0.8,
+    "issue_breakdown": {
+      "linguistic": 6,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.8,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

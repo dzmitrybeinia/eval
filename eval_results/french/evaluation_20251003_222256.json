@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "La recherche rapide est la stratégie de lecture qui consiste à lire tout le texte pour comprendre pleinement le sujet.",
+      "correction": "La recherche rapide est une stratégie de lecture qui consiste à trouver des informations spécifiques dans un texte sans le lire en entier.",
+      "description": "The original sentence incorrectly defines 'recherche rapide' as reading the entire text for full understanding, which is a factual inaccuracy and a lexical error. The correction provides the accurate definition and uses the indefinite article 'une' instead of the definite 'la', which is more appropriate in this context. This addresses both the lexical precision and article usage.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "La lecture approfondie consiste à comprendre et analyser en profondeur les textes pour en saisir la signification, les thèmes et les nuances, plutôt que de se concentrer uniquement sur la collecte de faits.",
+      "correction": "La lecture approfondie consiste à comprendre et à analyser en profondeur les textes afin d’en saisir la signification, les thèmes et les nuances, plutôt que de se concentrer uniquement sur la collecte de faits.",
+      "description": "The original sentence lacks the conjunction 'à' before 'analyser', which is required for parallelism and naturalness in French ('comprendre et à analyser'). Additionally, 'pour en saisir' is less idiomatic than 'afin d’en saisir' in formal educational contexts. The correction improves both grammatical parallelism and stylistic naturalness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "La lecture approfondie est une stratégie qui bénéficie d'une compréhension globale préliminaire obtenue par le survol et des informations spécifiques extraites par la recherche rapide.",
+      "correction": "La lecture approfondie est une stratégie qui bénéficie d'une compréhension globale préliminaire obtenue grâce au survol et d'informations spécifiques extraites par la recherche rapide.",
+      "description": "The original sentence uses 'par le survol' and 'par la recherche rapide', which are grammatically correct but less idiomatic in French. The preposition 'grâce à' is more natural for expressing benefit or advantage, and 'd'informations spécifiques' is preferable to 'des informations spécifiques' for parallel structure. The correction enhances both grammatical accuracy and idiomatic expression.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Reading_Strategies.slm.md",
+    "language": "French",
+    "timestamp": "2025-10-03T22:22:56.032646",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.4,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

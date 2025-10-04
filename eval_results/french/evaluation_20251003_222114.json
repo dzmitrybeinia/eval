@@ -1,0 +1,35 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "égalité accréditée par la loi",
+      "correction": "égalité garantie par la loi",
+      "description": "The phrase 'égalité accréditée par la loi' is a lexical error. 'Accréditée' is not idiomatic in this context; the standard French expression is 'égalité garantie par la loi' or 'égalité reconnue par la loi.' This correction improves semantic accuracy and naturalness.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Civil_Rights_Movement_1.slm.md",
+    "language": "French",
+    "timestamp": "2025-10-03T22:21:14.025797",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.8,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.2,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

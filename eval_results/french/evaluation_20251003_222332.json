@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "processus de décision-taking",
+      "correction": "processus de prise de décision",
+      "description": "The phrase 'processus de décision-taking' incorrectly uses an English loanword ('decision-taking') instead of the proper French term. The correct expression is 'processus de prise de décision'. This lexical error affects clarity and naturalness, and should be corrected to maintain standard French usage.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "par de petits margins",
+      "correction": "par de petites marges",
+      "description": "The word 'margins' is an English term mistakenly used in a French sentence. The correct French word is 'marges', and the adjective should agree in gender and number ('petites marges'). This orthographic and agreement error impacts comprehension and should be corrected.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "le résultat. Les élections sont souvent remportées par de petits margins, mais la décisions finale est généralement déterminée par un grand nombre de votes.",
+      "correction": "le résultat. Les élections sont souvent remportées par de petites marges, mais la décision finale est généralement déterminée par un grand nombre de votes.",
+      "description": "In addition to the lexical error ('margins'), there is a grammatical error with 'la décisions finale', which should be 'la décision finale' (singular noun to match the context). Both errors affect grammatical correctness and clarity.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Voting_Process.slm.md",
+    "language": "French",
+    "timestamp": "2025-10-03T22:23:32.556041",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.1,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.9,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.9,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

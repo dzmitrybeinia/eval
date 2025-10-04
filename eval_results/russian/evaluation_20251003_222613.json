@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Плоскость в геометрии определяется как поверхность без глубины, что отличает её от реальных объектов, таких как бутылки. В геометрии мы представляем плоскости как бесконечные, неутоresolveные поверхности, а не как толстой или заполняемые.",
+      "correction": "Плоскость в геометрии определяется как поверхность без глубины, что отличает её от реальных объектов, таких как бутылки. В геометрии мы представляем плоскости как бесконечные, неутолщённые поверхности, а не как толстые или заполняемые.",
+      "description": "The word 'неутоresolveные' contains a spelling error and is not a valid Russian word. The correct term is 'неутолщённые', which means 'not thickened'. Additionally, 'толстой' should be 'толстые' to match the plural form and agreement with 'поверхности'. These errors affect the clarity and correctness of the explanation.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Lexical",
+      "original": "В геометрии углы определяются как фиксированные измерения, которые измеряются в градусах. Бесконечные углы не существуют, так как это противорежит принцип измерения углов. Вместо этого, у нас есть горизонтальные углы, которые равны 180 градусам, и вертикальные углы, которые равны 90 градусам.",
+      "correction": "В геометрии углы определяются как фиксированные измерения, которые измеряются в градусах или радианах. Бесконечные углы не существуют, так как это противоречит принципу измерения углов. Вместо этого, существуют развернутые углы, равные 180 градусам, и прямые углы, равные 90 градусам.",
+      "description": "The terms 'горизонтальные углы' and 'вертикальные углы' are not standard in Russian geometry for describing 180° and 90° angles. The correct terms are 'развернутый угол' (straight angle) for 180° and 'прямой угол' (right angle) for 90°. This affects the naturalness and accuracy of terminology in the educational context.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Lexical",
+      "original": "Угол может быть измерен в градусах в основном в школьных учебниках и практике, хотя он также может быть измерен в радиан. Фрагмент содержит неверные сведения, так как он предполагает, что угол может быть измерен только в одном измерении, что неверно.",
+      "correction": "Угол может быть измерен как в градусах, так и в радианах. В школьных учебниках чаще используются градусы, но в математике и науке применяются оба измерения.",
+      "description": "The original feedback is wordy and contains unnatural phrasing, such as 'в радиан' instead of 'в радианах'. The explanation should be concise and use standard terminology, clarifying that both degrees and radians are used to measure angles in geometry.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Geometry_Basics.slm.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T22:26:13.689148",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

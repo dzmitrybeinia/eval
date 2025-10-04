@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Bei einem Erstickungsanfall ist es entscheidend, die Person in eine Hocke zu legen, um den Luftweg zu öffnen. Haltet die Person nicht fest, sondern helfen Sie, indem Sie sie in eine Hocke bringen und ihre Brust auf- und abwärts bewegen, um den Atemweg zu lüften.",
+      "correction": "Bei einem Erstickungsanfall ist es entscheidend, die Person in eine aufrechte Position zu bringen, um die Atemwege zu öffnen. Halten Sie die Person nicht fest, sondern helfen Sie, indem Sie sie aufrecht hinsetzen und ihre Atmung beobachten.",
+      "description": "The original text contains a grammatical inconsistency in the use of 'Haltet' (informal plural imperative) and 'helfen Sie' (formal singular imperative) within the same instruction, which disrupts register consistency. Additionally, the advice to 'die Person in eine Hocke zu legen' and 'ihre Brust auf- und abwärts bewegen, um den Atemweg zu lüften' is medically inaccurate and could be dangerous. The correction provides a linguistically consistent formal register and medically appropriate first aid advice.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Die Reinigung der Hände vor der Erst-Hilfe-Behandlung ist entscheidend, um Infektionen zu verhindern.",
+      "correction": "Die Reinigung der Hände vor der Erste-Hilfe-Behandlung ist entscheidend, um Infektionen zu verhindern.",
+      "description": "The compound noun 'Erst-Hilfe-Behandlung' is incorrect; the standard term is 'Erste-Hilfe-Behandlung'. This lexical error affects clarity and professionalism, as 'Erste Hilfe' is the accepted terminology in German for first aid.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Die Wissenslage über Erste Hilfe kann den Erfolg bei der ersten Reaktion auf Notfälle erheblich beeinflussen.",
+      "correction": "Das Wissen über Erste Hilfe kann den Erfolg bei der ersten Reaktion auf Notfälle erheblich beeinflussen.",
+      "description": "The word 'Wissenslage' is semantically inaccurate in this context; 'Wissenslage' refers to the general state of knowledge, not an individual's knowledge. The correct term is 'Das Wissen', which precisely conveys the intended meaning.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "First_Aid_Basics.slm.md",
+    "language": "German",
+    "timestamp": "2025-10-03T22:30:03.908590",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.3,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.7,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.7,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

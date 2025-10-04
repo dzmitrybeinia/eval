@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "systematischen Schritt-für-Schritt-Prozess",
+      "correction": "systematischen Schritt-für-Schritt-Prozess",
+      "description": "The phrase 'Schritt-für-Schritt-Prozess' is correctly written as a compound noun with hyphens, following German orthographic rules for multi-part compounds. However, the word 'Prozess' should be capitalized as it is a noun, which is already correct here. No correction needed, but this is a good example for learners of proper compound noun formation and capitalization in German.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "🌟",
+      "correction": "",
+      "description": "The use of the star emoji '🌟' in educational German content may be considered informal and less appropriate for formal or academic contexts. While emojis can enhance engagement in some settings, their use should be carefully considered for the target audience and context. For a lesson on scientific methodology, it is recommended to remove the emoji to maintain a professional tone.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Wenn du bemerkst, dass eine Pflanze in deinem Garten schneller wächst als andere, kannst du mit der wissenschaftlichen Methode systematisch untersuchen, warum dies geschieht.",
+      "correction": "Wenn du bemerkst, dass eine Pflanze in deinem Garten schneller wächst als andere, kannst du mit der wissenschaftlichen Methode systematisch untersuchen, warum das geschieht.",
+      "description": "In the clause 'warum dies geschieht', the pronoun 'dies' is used to refer to the situation of one plant growing faster than others. In German, 'das' is more natural and idiomatic in this context, as it refers to the previously mentioned fact or situation. 'Dies' is more formal and less commonly used in spoken or educational German for such references. The sentence is otherwise grammatically correct, but replacing 'dies' with 'das' improves naturalness and clarity.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Erkläre dein Experiment und deine Ergebnisse deinen Mitschülern.",
+      "correction": "Erkläre dein Experiment und deine Ergebnisse deinen Mitschülerinnen und Mitschülern.",
+      "description": "The phrase 'deinen Mitschülern' uses the generic masculine form, which is increasingly considered non-inclusive in contemporary German educational contexts. To ensure gender-inclusive language, especially in school settings, it is recommended to use 'Mitschülerinnen und Mitschülern'. This change reflects current best practices for inclusivity and aligns with modern localization standards in German educational materials.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Scientific_Method.llm.md",
+    "language": "German",
+    "timestamp": "2025-10-03T21:44:56.512125",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

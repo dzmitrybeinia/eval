@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "W algebrze zmienne reprezentują dowolne wartości, a nie są ograniczone do liczb całkowitych. Mogą być dowolnymi liczbami w tym zakresie, w tym ułamkami lub liczbami z dziesiątkami. Zmienne są używane do znalezienia tych wartości, które po podstawieniu do równania rozwiązują zmienną.",
+      "correction": "W algebrze zmienne reprezentują dowolne wartości i nie są ograniczone do liczb całkowitych. Mogą być dowolnymi liczbami, w tym ułamkami lub liczbami dziesiętnymi. Zmienne są używane do znalezienia tych wartości, które po podstawieniu do równania je spełniają.",
+      "description": "There are several linguistic issues: (1) The phrase 'liczbami z dziesiątkami' is incorrect; the proper term is 'liczbami dziesiętnymi' for 'decimal numbers'. (2) The sentence 'Zmienne są używane do znalezienia tych wartości, które po podstawieniu do równania rozwiązują zmienną' is ungrammatical and semantically unclear; it should be 'które po podstawieniu do równania je spełniają' to correctly express that the values satisfy the equation. (3) The conjunction 'a nie są ograniczone' is better replaced with 'i nie są ograniczone' for clarity. These errors affect both grammatical correctness and lexical precision.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "To jest poprawny zarys, ponieważ równanie to rzeczywiście jedna część matematycznego wyrażenia z znakiem równości, jak *x + 5 = 10*, gdzie *x* reprezentuje nieznaną zmienną, której musimy znaleźć.",
+      "correction": "To jest poprawny opis, ponieważ równanie to rzeczywiście wyrażenie matematyczne ze znakiem równości, jak *x + 5 = 10*, gdzie *x* reprezentuje nieznaną zmienną, którą musimy znaleźć.",
+      "description": "There are two linguistic issues: (1) The word 'zarys' is a false friend and should be replaced with 'opis' for 'description' in this context. (2) The phrase 'jedna część matematycznego wyrażenia z znakiem równości' is awkward and inaccurate; 'wyrażenie matematyczne ze znakiem równości' is the correct formulation. These errors affect lexical precision and grammatical clarity.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "W algebry równań jednoruchowe definiowane są jako te, które można rozwiązać przy zastosowaniu tylko jednej operacji. Jeśl wątpiesz, zauważ, że złożone operacje wymagają więcej kroków, aby utrzymać równanie równomierne.",
+      "correction": "W algebrze równania jednoruchowe definiuje się jako takie, które można rozwiązać przy zastosowaniu tylko jednej operacji. Jeśli masz wątpliwości, zauważ, że złożone operacje wymagają więcej kroków, aby zachować równowagę równania.",
+      "description": "Multiple linguistic errors are present: (1) 'W algebry' is incorrect; the correct form is 'W algebrze' (locative case). (2) 'równań jednoruchowe' is ungrammatical; it should be 'równania jednoruchowe' (nominative plural). (3) 'Jeśl wątpiesz' contains a spelling error ('Jeśl' should be 'Jeśli') and the verb 'wątpiesz' is not idiomatic; 'masz wątpliwości' is the proper phrase. (4) 'utrzymać równanie równomierne' is awkward and semantically incorrect; 'zachować równowagę równania' is the correct expression. These errors affect grammar, spelling, and lexical precision.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Basic_Algebra.slm.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T22:13:39.356475",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.2,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.8,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.8,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

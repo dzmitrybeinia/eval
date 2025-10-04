@@ -1,25 +1,160 @@
 {
   "metadata": {
     "label": "llm",
-    "label_normalized": "llm",
-    "label_key": "llm",
     "language": "portuguese",
-    "generated_at": "2025-10-03T15:59:54.920090"
+    "generated_at": "2025-10-03T21:57:37.189595"
   },
   "top_error_patterns": [
     {
-      "pattern_name": "Incorrect variable naming with spaces",
+      "pattern_name": "Non-localized cultural references",
+      "category": "localization",
+      "subcategory": "Cultural",
+      "impact_level": "HIGH",
+      "frequency": "common",
+      "frequency_count": 2,
+      "description": "Source content contains references (currency, country names) that are not adapted to the local context, leading to confusion or lack of relevance for the target audience.",
+      "examples": [
+        {
+          "wrong": "Uma moeda de 25 centavos vale 1/4 de um dólar.",
+          "correct": "Uma moeda de 25 centavos vale 1/4 de um real.",
+          "context": "Currency reference not adapted for Brazilian Portuguese; 'dólar' should be 'real'."
+        },
+        {
+          "wrong": "Havia um homem de Peru,",
+          "correct": "Havia um homem do Peru,",
+          "context": "Country reference uses incorrect preposition, causing ambiguity; 'de Peru' could mean 'from turkey (bird)' instead of 'from Peru (country)'."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect use or omission of crase ('à')",
       "category": "linguistic",
       "subcategory": "Orthography",
       "impact_level": "HIGH",
-      "frequency": "rare",
+      "frequency": "common",
       "frequency_count": 1,
-      "description": "Variable names use spaces instead of underscores, violating both programming syntax and Portuguese orthographic conventions for multi-word identifiers.",
+      "description": "Frequent omission or misuse of the crase ('à') in mandatory contexts, especially before feminine nouns following certain verbs or prepositions, leading to grammatical errors.",
       "examples": [
         {
-          "wrong": "idade usuario",
-          "correct": "idade_usuario",
-          "context": "Variable naming in code snippets within quiz items"
+          "wrong": "movido a energia solar",
+          "correct": "movido à energia solar",
+          "context": "Preposition 'a' + feminine noun 'energia' after 'movido' requires crase."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect past participle usage",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "HIGH",
+      "frequency": "common",
+      "frequency_count": 1,
+      "description": "Use of non-standard or incorrect past participle forms, especially with verbs that have irregular participles, resulting in unnatural or grammatically incorrect sentences.",
+      "examples": [
+        {
+          "wrong": "Como ele é expressado?",
+          "correct": "Como ele é expresso?",
+          "context": "Verb 'expressar' uses 'expresso' as the correct past participle in Brazilian Portuguese."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Use of Spanish loanwords instead of standard Portuguese terms",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "HIGH",
+      "frequency": "common",
+      "frequency_count": 1,
+      "description": "Inappropriate use of Spanish-origin words that are not standard in Portuguese, reducing clarity and professionalism in educational content.",
+      "examples": [
+        {
+          "wrong": "Encargado de criar e aprovar leis.",
+          "correct": "Responsável por criar e aprovar leis.",
+          "context": "Spanish 'Encargado' is not used in Brazilian Portuguese; 'Responsável' is correct."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect pronoun and dash usage due to English interference",
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "impact_level": "HIGH",
+      "frequency": "common",
+      "frequency_count": 1,
+      "description": "Mixing English pronouns and punctuation (e.g., 'they' and unspaced dash) in Portuguese sentences, causing grammatical and typographic errors.",
+      "examples": [
+        {
+          "wrong": "consumimos—they são o combustível",
+          "correct": "consumimos — eles são o combustível",
+          "context": "English 'they' and dash format used instead of Portuguese 'eles' and spaced dash."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Adjective-noun agreement errors in number",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "HIGH",
+      "frequency": "common",
+      "frequency_count": 1,
+      "description": "Adjectives not matching the number (singular/plural) of the nouns they modify, leading to grammatical agreement errors and reduced clarity.",
+      "examples": [
+        {
+          "wrong": "Argumentos Convincente",
+          "correct": "Argumentos Convincentes",
+          "context": "Adjective 'Convincente' should agree in number with plural noun 'Argumentos'."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Unnatural or Inaccurate Terminology",
+      "category": "localization",
+      "subcategory": "Terminology",
+      "impact_level": "MEDIUM",
+      "frequency": "very_common",
+      "frequency_count": 18,
+      "description": "Frequent use of literal translations, outdated terms, or English words instead of standard Brazilian Portuguese terminology, reducing clarity and cultural fit.",
+      "examples": [
+        {
+          "wrong": "Declarações Condicionais",
+          "correct": "Estruturas condicionais",
+          "context": "Programming education; 'declarações' is less common than 'estruturas'."
+        },
+        {
+          "wrong": "Cornell Notes",
+          "correct": "Método Cornell",
+          "context": "Note-taking strategies; English term used instead of localized name."
+        },
+        {
+          "wrong": "peixe gordo",
+          "correct": "peixes oleosos",
+          "context": "Nutrition; literal translation instead of accepted scientific term."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Unnatural or Literal Translations Affecting Idiomatic Style",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "MEDIUM",
+      "frequency": "very_common",
+      "frequency_count": 12,
+      "description": "Literal translations from English or awkward phrasing result in less idiomatic and less natural Brazilian Portuguese, reducing clarity and engagement.",
+      "examples": [
+        {
+          "wrong": "Elas reduzem o esforço necessário para realizar tarefas e estão presentes em muitos objetos do cotidiano.",
+          "correct": "Elas reduzem o esforço necessário para realizar tarefas e estão presentes em muitos objetos do dia a dia.",
+          "context": "Use of 'cotidiano' instead of 'dia a dia' for everyday objects."
+        },
+        {
+          "wrong": "Em vez de desistir, ela trabalhou mais duro, aprendeu com seus contratempos e permaneceu comprometida em melhorar suas habilidades.",
+          "correct": "Em vez de desistir, ela se dedicou ainda mais, aprendeu com seus contratempos e manteve o compromisso de aprimorar suas habilidades.",
+          "context": "Literal translation of 'worked harder' instead of idiomatic 'se dedicou ainda mais'."
+        },
+        {
+          "wrong": "Use pensamentos positivos, como dizer: \"Eu consigo lidar com isso.\"",
+          "correct": "Use pensamentos positivos, como dizer: \"Eu posso lidar com isso.\"",
+          "context": "Self-encouragement phrasing; more natural motivational tone."
         }
       ]
     },
@@ -29,266 +164,455 @@
       "subcategory": "Style",
       "impact_level": "MEDIUM",
       "frequency": "very_common",
-      "frequency_count": 6,
-      "description": "Emojis such as ✨, 🌍, 🎓, and 🌟 are frequently used in educational content, but they are considered informal and distracting in Brazilian Portuguese academic contexts. Their removal ensures a more professional and culturally appropriate tone.",
+      "frequency_count": 10,
+      "description": "Emojis such as ✨, 🌍, 🎓, 🌟, 📚, and 🚀 are frequently used in introductions and explanations, which undermines the professional and neutral tone expected in Brazilian Portuguese educational materials.",
       "examples": [
         {
           "wrong": "Bem-vindos ao fascinante mundo do Egito Antigo! ✨",
           "correct": "Bem-vindos ao fascinante mundo do Egito Antigo!",
-          "context": "Introductory sentence in a history lesson"
+          "context": "Lesson introduction; emoji removed for professionalism."
         },
         {
           "wrong": "Vamos explorar como essas adaptações permitem que os animais enfrentem os desafios do ambiente. 🌍",
           "correct": "Vamos explorar como essas adaptações permitem que os animais enfrentem os desafios do ambiente.",
-          "context": "Conclusion of a biology explanation"
+          "context": "End of explanatory sentence; emoji removed for formal tone."
         },
         {
-          "wrong": "Vamos começar! 🎓",
-          "correct": "Vamos começar!",
-          "context": "Lesson opening statement"
+          "wrong": "Essas técnicas irão ajudá-lo a analisar textos com confiança e eficiência. 📚",
+          "correct": "Essas técnicas irão ajudá-lo a analisar textos com confiança e eficiência.",
+          "context": "Instructional sentence; emoji removed for academic appropriateness."
         }
       ]
     },
     {
-      "pattern_name": "Grammatical ambiguity or incorrect structure",
+      "pattern_name": "Terminology Mismatch or Inconsistent Use of Local Terms",
+      "category": "localization",
+      "subcategory": "Terminology",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 9,
+      "description": "Use of anglicisms, direct translations, or less common terms instead of standard Brazilian Portuguese terminology, which can hinder comprehension and localization quality.",
+      "examples": [
+        {
+          "wrong": "Testar a durabilidade de um smartphone simulando quedas e impactos.",
+          "correct": "Testar a durabilidade de um celular simulando quedas e impactos.",
+          "context": "Use of 'smartphone' instead of 'celular'."
+        },
+        {
+          "wrong": "testes padronizados",
+          "correct": "provas padronizadas",
+          "context": "Use of 'testes' instead of 'provas' for school assessments."
+        },
+        {
+          "wrong": "Relatos anedóticos em redes sociais.",
+          "correct": "Depoimentos pessoais em redes sociais.",
+          "context": "Less common term replaced with more natural alternative."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Use of English Terms or Acronyms Without Localization",
+      "category": "localization",
+      "subcategory": "Terminology",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 7,
+      "description": "English terms, acronyms, or abbreviations are used directly in Portuguese content, which can hinder comprehension and reduce accessibility for learners.",
+      "examples": [
+        {
+          "wrong": "VR",
+          "correct": "RV",
+          "context": "Virtual reality abbreviation; English used instead of Portuguese."
+        },
+        {
+          "wrong": "drum machines",
+          "correct": "caixas de ritmos",
+          "context": "Music technology; English term not localized."
+        },
+        {
+          "wrong": "Survey, Question, Read, Recite, Review",
+          "correct": "Explorar, Questionar, Ler, Recitar, Revisar",
+          "context": "SQ3R method steps; English terms used instead of Portuguese."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Unnatural or Literal Translations Affecting Style",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 5,
+      "description": "Literal translations or awkward phrasing that do not match Brazilian Portuguese idiomatic usage, impacting professionalism and naturalness.",
+      "examples": [
+        {
+          "wrong": "cumprimentar calorosamente",
+          "correct": "cumprimentar de forma calorosa",
+          "context": "Social interaction; adverbial form is unnatural."
+        },
+        {
+          "wrong": "blocos fundamentais",
+          "correct": "elementos fundamentais",
+          "context": "Math education; literal translation of 'building blocks'."
+        },
+        {
+          "wrong": "trabalhou mais duro",
+          "correct": "se dedicou ainda mais",
+          "context": "Describing effort; direct translation instead of idiomatic expression."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Lexical Choices that Reduce Clarity or Naturalness",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 4,
+      "description": "Use of uncommon, literal, or awkward lexical items that are grammatically correct but not idiomatic or clear in Brazilian Portuguese.",
+      "examples": [
+        {
+          "wrong": "A localização do Egito conectava-o a outras regiões...",
+          "correct": "A localização do Egito conectava o país a outras regiões...",
+          "context": "Pronoun use is grammatically correct but unnatural."
+        },
+        {
+          "wrong": "dessegregação",
+          "correct": "fim da segregação",
+          "context": "Rare or technical term replaced by a more natural phrase."
+        },
+        {
+          "wrong": "Usar ferramentas como dedos ou tecidos para suavizar traços.",
+          "correct": "Usar ferramentas como dedos ou papel para suavizar traços.",
+          "context": "Nonstandard term for drawing technique."
+        },
+        {
+          "wrong": "Limerique",
+          "correct": "Limerique",
+          "context": "Direct adaptation of English term; needs clarification and consistency."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Non-idiomatic or Literal Translations",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 4,
+      "description": "Literal translations from English or other languages result in non-idiomatic expressions that are not standard in Brazilian Portuguese.",
+      "examples": [
+        {
+          "wrong": "Degradam materiais de resíduos...",
+          "correct": "Degradam materiais residuais...",
+          "context": "Literal translation of 'waste materials'."
+        },
+        {
+          "wrong": "O Dia dos Mortos no México é uma tradição de honra aos entes queridos falecidos...",
+          "correct": "O Dia dos Mortos no México é uma tradição de homenagem aos entes queridos falecidos...",
+          "context": "Non-idiomatic phrase for honoring the dead."
+        },
+        {
+          "wrong": "Sinto muito por sua prova...",
+          "correct": "Sinto muito pelo resultado da sua prova...",
+          "context": "Ambiguous and non-idiomatic empathy expression."
+        },
+        {
+          "wrong": "Ela persistiu, aprendeu com os feedbacks...",
+          "correct": "Ela persistiu, aprendeu com os retornos...",
+          "context": "Unnecessary anglicism 'feedbacks'."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Cultural Inaccuracy or Lack of Localization",
+      "category": "localization",
+      "subcategory": "Cultural",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 4,
+      "description": "Examples, mnemonics, or references that are not adapted to Brazilian context, reducing relatability and educational effectiveness.",
+      "examples": [
+        {
+          "wrong": "Exemplos incluem os Estados Unidos importando eletrônicos da China...",
+          "correct": "Exemplos incluem o Brasil importando eletrônicos da China...",
+          "context": "Trade examples; US-focused instead of Brazil-focused."
+        },
+        {
+          "wrong": "Minha Velha Mãe Estudada Jamais Saberá Usar Nada",
+          "correct": "Minha Velha Mãe Estudou Jantar Sem Usar Nada",
+          "context": "Mnemonic for planets; non-standard mnemonic used."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect or Unnatural Use of Educational Terms",
+      "category": "localization",
+      "subcategory": "Terminology",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 4,
+      "description": "Use of 'aprendizado' instead of 'aula' or 'lição' for lessons, which is not standard in Brazilian Portuguese educational contexts.",
+      "examples": [
+        {
+          "wrong": "Neste aprendizado, exploraremos...",
+          "correct": "Nesta aula, exploraremos...",
+          "context": "Lesson introductions; 'aprendizado' refers to the process, not the session."
+        },
+        {
+          "wrong": "Este aprendizado se concentra nas células eucarióticas...",
+          "correct": "Esta aula se concentra nas células eucarióticas...",
+          "context": "Lesson focus; unnatural term for instructional unit."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Omission of Definite Articles in Enumeration",
       "category": "linguistic",
       "subcategory": "Grammar",
       "impact_level": "MEDIUM",
       "frequency": "common",
       "frequency_count": 3,
-      "description": "Sentences contain grammatical ambiguities or incorrect structures, such as missing prepositions, improper adjective/noun usage, or lack of parallelism, which affect clarity and correctness.",
+      "description": "Definite articles are frequently omitted before nouns in lists or enumerations, which is required for grammatical accuracy and naturalness in Portuguese.",
       "examples": [
         {
-          "wrong": "Símbolos que representam valores desconhecidos ou variáveis.",
-          "correct": "Símbolos que representam valores desconhecidos ou que podem variar.",
-          "context": "Adjective 'variáveis' used as noun; parallel structure needed for clarity."
+          "wrong": "O Islamismo influenciou profundamente a arquitetura, ciência e leis.",
+          "correct": "O Islamismo influenciou profundamente a arquitetura, a ciência e as leis.",
+          "context": "List of influenced domains missing articles."
         },
         {
-          "wrong": "Lisossomos: Degradam materiais de resíduos...",
-          "correct": "Lisossomos: Degradam materiais residuais...",
-          "context": "Incorrect noun phrase; adjective 'residuais' should describe 'materiais'."
+          "wrong": "Redesenhar a estrutura de uma ponte após testes revelarem fraquezas em sua capacidade de suporte.",
+          "correct": "Redesenhar a estrutura de uma ponte após os testes revelarem fraquezas em sua capacidade de suporte.",
+          "context": "Definite article omitted before 'testes'."
         },
         {
-          "wrong": "Trabalhem juntos para achar opções que atendam todos.",
-          "correct": "Trabalhem juntos para achar opções que atendam a todos.",
-          "context": "Missing preposition 'a' before 'todos' for correct indirect object."
+          "wrong": "Um ângulo é formado quando duas linhas ou raios se encontram em um ponto chamado vértice.",
+          "correct": "Um ângulo é formado quando duas linhas ou dois raios se encontram em um ponto chamado vértice.",
+          "context": "Parallel structure and article omission in enumeration."
         }
       ]
     },
     {
-      "pattern_name": "Orthographic inconsistencies with hyphenation and pluralization",
-      "category": "linguistic",
-      "subcategory": "Orthography",
-      "impact_level": "MEDIUM",
-      "frequency": "common",
-      "frequency_count": 3,
-      "description": "Recurring minor orthographic issues, such as incorrect hyphenation (e.g., 'pré-existentes' instead of 'preexistentes') and incorrect singular/plural agreement (e.g., 'temperatura e precipitação' instead of 'temperaturas e precipitações'). These do not impede comprehension but affect standardization and professional tone.",
-      "examples": [
-        {
-          "wrong": "pré-existentes",
-          "correct": "preexistentes",
-          "context": "Hyphenation not in line with current orthographic rules."
-        },
-        {
-          "wrong": "temperatura e precipitação",
-          "correct": "temperaturas e precipitações",
-          "context": "Pluralization needed to match context of multiple climate features."
-        },
-        {
-          "wrong": "dessegregação",
-          "correct": "fim da segregação",
-          "context": "Rare term used; more natural alternatives preferred for clarity."
-        }
-      ]
-    },
-    {
-      "pattern_name": "Insufficient Cultural Context for Historical Terms",
-      "category": "localization",
-      "subcategory": "Cultural",
-      "impact_level": "MEDIUM",
-      "frequency": "common",
-      "frequency_count": 3,
-      "description": "Direct translations of American historical terms (e.g., 'Marcha sobre Washington', 'Lei dos Direitos Civis de 1964') may be unfamiliar to Brazilian learners. Adding parenthetical explanations or original English names improves comprehension and cultural fit.",
-      "examples": [
-        {
-          "wrong": "Lei dos Direitos Civis de 1964",
-          "correct": "Lei dos Direitos Civis de 1964 (Civil Rights Act of 1964)",
-          "context": "Reference to American legislation in a history lesson"
-        },
-        {
-          "wrong": "Lei de Direitos de Voto de 1965",
-          "correct": "Lei de Direitos de Voto de 1965 (Voting Rights Act of 1965)",
-          "context": "Reference to American legislation in a history lesson"
-        }
-      ]
-    },
-    {
-      "pattern_name": "Non-Standard or Unfamiliar Terminology",
-      "category": "localization",
-      "subcategory": "Terminology",
-      "impact_level": "MEDIUM",
-      "frequency": "common",
-      "frequency_count": 3,
-      "description": "Use of terms that are correct but not standard or familiar in Brazilian Portuguese educational contexts (e.g., 'Declarações Condicionais', 'Alpina (montanhosa)', 'ratos-canguru') can hinder comprehension. Prefer established terminology and consider brief explanations for less common terms.",
-      "examples": [
-        {
-          "wrong": "Declarações Condicionais",
-          "correct": "Estruturas condicionais",
-          "context": "Programming lesson terminology"
-        },
-        {
-          "wrong": "Alpina (montanhosa)",
-          "correct": "Alpina",
-          "context": "Climatology classification"
-        }
-      ]
-    },
-    {
-      "pattern_name": "Ambiguous or incorrect pronoun/reference usage",
+      "pattern_name": "Ambiguous or Incorrect Use of Pronouns and Prepositions",
       "category": "linguistic",
       "subcategory": "Grammar",
       "impact_level": "MEDIUM",
       "frequency": "common",
       "frequency_count": 2,
-      "description": "Ambiguous pronouns or references (e.g., 'sua', 'conectava-o') create confusion about the subject, reducing clarity and naturalness in Portuguese.",
+      "description": "Ambiguous pronoun references and missing prepositions lead to unclear or incorrect sentences, affecting comprehension.",
       "examples": [
         {
-          "wrong": "A localização do Egito conectava-o a outras regiões...",
-          "correct": "A localização do Egito conectava o país a outras regiões...",
-          "context": "Use of pronoun 'o' is grammatically correct but stylistically awkward and less clear."
+          "wrong": "Adaptações dos animais são características ou comportamentos que aumentam sua capacidade de sobreviver...",
+          "correct": "Adaptações dos animais são características ou comportamentos que aumentam a capacidade dos animais de sobreviver...",
+          "context": "Ambiguous pronoun 'sua' unclear referent."
         },
         {
-          "wrong": "Adaptações dos animais são características ou comportamentos que aumentam sua capacidade...",
-          "correct": "Adaptações dos animais são características ou comportamentos que aumentam a capacidade dos animais...",
-          "context": "Pronoun 'sua' is ambiguous; specifying 'dos animais' clarifies the subject."
+          "wrong": "Trabalhem juntos para achar opções que atendam todos.",
+          "correct": "Trabalhem juntos para achar opções que atendam a todos.",
+          "context": "Missing preposition 'a' before 'todos'."
         }
       ]
     },
     {
-      "pattern_name": "Inappropriate lexical choice for educational context",
+      "pattern_name": "Incorrect Use of Scientific and Quantitative Terminology",
       "category": "linguistic",
-      "subcategory": "Lexical",
+      "subcategory": "Grammar",
       "impact_level": "MEDIUM",
       "frequency": "occasional",
-      "frequency_count": 1,
-      "description": "Use of terms like 'aprendizado' instead of 'aula' or 'lição' is less natural in educational content, affecting localization fit and clarity.",
+      "frequency_count": 2,
+      "description": "Errors in scientific terms and quantitative expressions, such as incorrect compound word formation or number agreement, reduce professional accuracy.",
       "examples": [
         {
-          "wrong": "Neste aprendizado, exploraremos as principais organelas...",
-          "correct": "Nesta aula, exploraremos as principais organelas...",
-          "context": "Lexical choice 'aprendizado' is less idiomatic than 'aula' in this context."
+          "wrong": "A replicação é \"semi-conservativa\"...",
+          "correct": "A replicação é \"semiconservativa\"...",
+          "context": "Incorrect compound word for scientific term."
+        },
+        {
+          "wrong": "O Islamismo é a segunda maior religião, com mais de 1,9 bilhões de seguidores.",
+          "correct": "O Islamismo é a segunda maior religião, com mais de 1,9 bilhão de seguidores.",
+          "context": "Incorrect pluralization for numbers between 1 and 2."
         }
       ]
     },
     {
-      "pattern_name": "Culturally Inappropriate Examples",
+      "pattern_name": "Cultural References Lacking Context or Localization",
       "category": "localization",
       "subcategory": "Cultural",
-      "impact_level": "MEDIUM",
-      "frequency": "occasional",
-      "frequency_count": 1,
-      "description": "Use of global references instead of locally relevant examples reduces relatability and educational impact for the target audience.",
+      "impact_level": "LOW",
+      "frequency": "common",
+      "frequency_count": 7,
+      "description": "References to foreign events, concepts, or names are presented without sufficient explanation or adaptation, which may confuse learners unfamiliar with the context.",
       "examples": [
         {
-          "wrong": "A Floresta Amazônica representa uma zona tropical, enquanto o Deserto do Saara é um exemplo de zona seca.",
-          "correct": "A Floresta Amazônica representa uma zona tropical, enquanto o Sertão Nordestino é um exemplo de zona seca.",
-          "context": "Geographical examples in educational content for Brazilian learners."
+          "wrong": "Marcha sobre Washington",
+          "correct": "Marcha sobre Washington (importante manifestação pelos direitos civis nos EUA)",
+          "context": "Historical event; needs parenthetical explanation for Brazilian students."
+        },
+        {
+          "wrong": "testes de alfabetização",
+          "correct": "testes de alfabetização (literacy tests)",
+          "context": "US-specific concept; English term added for clarity."
+        },
+        {
+          "wrong": "NGSS HS-ETS1-4",
+          "correct": "NGSS HS-ETS1-4",
+          "context": "US educational standard; would benefit from contextualization."
         }
       ]
     },
     {
-      "pattern_name": "Terminology Mismatch in Technical Contexts",
-      "category": "localization",
-      "subcategory": "Terminology",
-      "impact_level": "MEDIUM",
-      "frequency": "occasional",
-      "frequency_count": 1,
-      "description": "Literal translations of technical terms that do not match industry-standard usage in the target language can hinder comprehension and consistency.",
+      "pattern_name": "Missing or Incorrect Use of Definite Articles",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "LOW",
+      "frequency": "common",
+      "frequency_count": 6,
+      "description": "Definite articles ('o', 'a', 'os', 'as') are omitted or incorrectly used, affecting the naturalness and grammatical correctness of noun phrases.",
       "examples": [
         {
-          "wrong": "Laços",
-          "correct": "Loops",
-          "context": "Programming terminology in educational materials."
+          "wrong": "Agrupamento divide informações complexas...",
+          "correct": "O agrupamento divide informações complexas...",
+          "context": "Introducing a concept"
+        },
+        {
+          "wrong": "Que sonhava que comia seu sapato.",
+          "correct": "Que sonhava que comia o seu sapato.",
+          "context": "Narrative or poetic context"
+        },
+        {
+          "wrong": "Estatísticas sobre aumento de temperatura...",
+          "correct": "Estatísticas sobre o aumento da temperatura...",
+          "context": "Scientific explanation"
+        },
+        {
+          "wrong": "É praticado por mais de 1 bilhão de pessoas, principalmente na Índia e Nepal.",
+          "correct": "É praticado por mais de 1 bilhão de pessoas, principalmente na Índia e no Nepal.",
+          "context": "Country references"
         }
       ]
     },
     {
-      "pattern_name": "Omission of Culturally Significant Roles",
-      "category": "localization",
-      "subcategory": "Terminology",
-      "impact_level": "MEDIUM",
-      "frequency": "occasional",
-      "frequency_count": 1,
-      "description": "Excluding important social or cultural roles from lists or descriptions leads to historical and cultural inaccuracies.",
+      "pattern_name": "Unnecessary Capitalization of Common Nouns and Adjectives",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "LOW",
+      "frequency": "common",
+      "frequency_count": 5,
+      "description": "Common nouns and adjectives are incorrectly capitalized, especially in section titles, bullet points, and terms, which goes against standard Brazilian Portuguese orthographic conventions.",
       "examples": [
         {
-          "wrong": "A sociedade era hierárquica, com o faraó no topo, seguido por sacerdotes, nobres, soldados, comerciantes e agricultores.",
-          "correct": "A sociedade era hierárquica, com o faraó no topo, seguido por sacerdotes, nobres, soldados, artesãos, comerciantes e agricultores.",
-          "context": "Descriptions of social hierarchies in historical educational content."
+          "wrong": "Aquecimento Desigual",
+          "correct": "Aquecimento desigual",
+          "context": "Section title or bullet point"
+        },
+        {
+          "wrong": "Verdadeiro ou Falso.",
+          "correct": "Verdadeiro ou falso.",
+          "context": "Quiz answer options"
+        },
+        {
+          "wrong": "Cyberbullying",
+          "correct": "cyberbullying",
+          "context": "Loanword in running text"
+        },
+        {
+          "wrong": "O tema de *O Sol é para Todos*",
+          "correct": "O tema de *O Sol É Para Todos*",
+          "context": "Book title capitalization"
         }
       ]
     },
     {
-      "pattern_name": "Literal Translation of Idiomatic Expressions",
-      "category": "localization",
-      "subcategory": "Style",
-      "impact_level": "MEDIUM",
-      "frequency": "occasional",
-      "frequency_count": 1,
-      "description": "Literal translations of English idioms, such as 'centro de controle', result in less natural phrasing in Brazilian Portuguese. Using idiomatic equivalents like 'centro de comando' improves clarity and professionalism.",
-      "examples": [
-        {
-          "wrong": "O núcleo é conhecido como o \"centro de controle\" da célula.",
-          "correct": "O núcleo é conhecido como o \"centro de comando\" da célula.",
-          "context": "Scientific explanation in biology"
-        }
-      ]
-    },
-    {
-      "pattern_name": "Lexical imprecision in conjunction usage",
+      "pattern_name": "Non-idiomatic or Less Natural Lexical Choices",
       "category": "linguistic",
       "subcategory": "Lexical",
       "impact_level": "LOW",
-      "frequency": "occasional",
-      "frequency_count": 1,
-      "description": "Use of conjunctions that imply exclusivity ('ou') where inclusivity ('e') is intended, leading to minor confusion about examples or lists.",
+      "frequency": "common",
+      "frequency_count": 5,
+      "description": "Use of words or phrases that are grammatically correct but less idiomatic or natural in Brazilian Portuguese, affecting the flow and clarity of the text.",
       "examples": [
         {
-          "wrong": "camaleões ou tigres",
-          "correct": "camaleões e tigres",
-          "context": "Both animals are examples; 'e' is more precise than 'ou'."
+          "wrong": "um formato de dupla hélice",
+          "correct": "uma dupla hélice",
+          "context": "Scientific description"
+        },
+        {
+          "wrong": "de forma produtiva",
+          "correct": "de maneira produtiva",
+          "context": "Describing actions or qualities"
+        },
+        {
+          "wrong": "artigo de notícias",
+          "correct": "artigo de notícia",
+          "context": "Referring to a news article"
         }
       ]
     },
     {
-      "pattern_name": "Grammatical ambiguity in attributive phrases",
+      "pattern_name": "Ambiguous or Incomplete Formatting in Educational Contexts",
+      "category": "localization",
+      "subcategory": "Format",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 5,
+      "description": "Ambiguous terms or incomplete references (e.g., addresses, classical music titles) reduce clarity and may not align with Brazilian educational conventions.",
+      "examples": [
+        {
+          "wrong": "Nome completo, endereço ou número de telefone.",
+          "correct": "Nome completo, endereço residencial ou número de telefone.",
+          "context": "Ambiguous 'endereço' clarified for online safety."
+        },
+        {
+          "wrong": "Sinfonia nº 40",
+          "correct": "Sinfonia nº 40 em Sol menor",
+          "context": "Classical music reference; key added for completeness."
+        },
+        {
+          "wrong": "Fundado pelo Profeta Muhammad no século VII.",
+          "correct": "Fundado pelo Profeta Maomé no século VII.",
+          "context": "Name localized for Brazilian Portuguese."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect or Inconsistent Hyphenation in Compound Nouns",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 3,
+      "description": "Compound nouns and scientific terms are written without required hyphens, leading to orthographic errors and reduced clarity.",
+      "examples": [
+        {
+          "wrong": "não metais",
+          "correct": "não-metais",
+          "context": "Scientific terminology"
+        },
+        {
+          "wrong": "semimetais",
+          "correct": "semi-metais",
+          "context": "Chemistry context"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Redundant or Non-parallel Noun and Verb Forms",
       "category": "linguistic",
       "subcategory": "Grammar",
       "impact_level": "LOW",
       "frequency": "occasional",
-      "frequency_count": 1,
-      "description": "Attributive phrases that lack clarity about agency or status, such as implying direct selection rather than perceived status, which can affect historical or factual accuracy.",
+      "frequency_count": 3,
+      "description": "Lack of parallelism or redundancy in noun and verb forms, such as missing plural agreement or inconsistent verb structures, which slightly affects clarity and naturalness.",
       "examples": [
         {
-          "wrong": "escolhidos pelos deuses",
-          "correct": "considerados escolhidos pelos deuses",
-          "context": "Clarifies that pharaohs were regarded as chosen, not directly selected."
-        }
-      ]
-    },
-    {
-      "pattern_name": "Inconsistent Use of Plural vs. Singular in Greetings",
-      "category": "localization",
-      "subcategory": "Style",
-      "impact_level": "LOW",
-      "frequency": "occasional",
-      "frequency_count": 1,
-      "description": "Greetings using the plural 'Bem-vindos' may not be appropriate when addressing an undefined or singular audience. The singular 'Bem-vindo' is more neutral and inclusive in Brazilian Portuguese educational introductions.",
-      "examples": [
+          "wrong": "É a partir de uma observação que surgem perguntas e curiosidade...",
+          "correct": "É a partir de uma observação que surgem perguntas e curiosidades...",
+          "context": "Listing multiple items"
+        },
         {
-          "wrong": "Bem-vindos ao mundo da programação!",
-          "correct": "Bem-vindo ao mundo da programação!",
-          "context": "General lesson introduction"
+          "wrong": "Ratos-canguru que sobrevivem sem beber água ao extrair umidade dos alimentos e produzir urina concentrada;",
+          "correct": "Ratos-canguru que sobrevivem sem beber água, extraindo umidade dos alimentos e produzindo urina concentrada;",
+          "context": "Describing sequential actions"
         }
       ]
     }

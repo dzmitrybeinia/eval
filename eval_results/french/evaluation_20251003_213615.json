@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Utilisez un gestionnaire de mots de passe pour stocker et générer des mots de passe.",
+      "correction": "Utilisez un gestionnaire de mots de passe pour enregistrer et générer des mots de passe.",
+      "description": "The term 'stocker' is technically correct but 'enregistrer' is more commonly used in French IT and cybersecurity contexts for password managers. This change improves the naturalness and professional tone of the advice.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Ne cliquez jamais sur des liens suspects ni ne téléchargez de pièces jointes provenant d'expéditeurs inconnus.",
+      "correction": "Ne cliquez jamais sur des liens suspects et ne téléchargez pas de pièces jointes provenant d'expéditeurs inconnus.",
+      "description": "The use of 'ni' in this negative construction is awkward and not standard in French. The correct structure is to use 'et ne... pas' for clarity and grammatical accuracy in negative coordination.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Réfléchissez avant de publier : une fois en ligne, il est difficile de supprimer complètement quelque chose.",
+      "correction": "Réfléchissez avant de publier : une fois en ligne, il est presque impossible de supprimer complètement une information.",
+      "description": "The phrase 'supprimer complètement quelque chose' is vague and less idiomatic in French. 'Supprimer complètement une information' is more precise and natural, especially in the context of digital privacy.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Signalez et bloquez les utilisateurs ayant un comportement suspect.",
+      "correction": "Signalez et bloquez les utilisateurs qui ont un comportement suspect.",
+      "description": "The use of 'ayant' is grammatically correct but less natural in everyday French. 'Qui ont un comportement suspect' is more commonly used and improves the flow and accessibility of the advice.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Online_Safety.llm.md",
+    "language": "French",
+    "timestamp": "2025-10-03T21:36:15.345106",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

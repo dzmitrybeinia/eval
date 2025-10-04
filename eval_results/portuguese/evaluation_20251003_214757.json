@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Construindo Argumentos Convincente com Ethos, Pathos e Logos",
+      "correction": "Construindo Argumentos Convincentes com Ethos, Pathos e Logos",
+      "description": "The word 'Convincente' is incorrectly used in the singular form, while 'Argumentos' is plural. Adjectives in Portuguese must agree in number with the nouns they modify. The correct form is 'Convincentes' to match the plural 'Argumentos'. This error affects grammatical agreement and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Neste aprendizado, exploraremos como usar as estratégias de ethos, pathos e logos para criar argumentos convincentes e eficazes.",
+      "correction": "Nesta aula, exploraremos como usar as estratégias de ethos, pathos e logos para criar argumentos convincentes e eficazes.",
+      "description": "The term 'aprendizado' is not the most natural or standard way to refer to a lesson or instructional session in Brazilian Portuguese educational contexts. 'Aula' is the preferred term for a lesson or class, making the content more culturally appropriate and professional.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "testes padronizados",
+      "correction": "provas padronizadas",
+      "description": "The term 'testes' is technically correct but less commonly used in Brazilian educational contexts compared to 'provas', which is the standard term for formal assessments in schools. Using 'provas padronizadas' improves naturalness and aligns with local terminology.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Persuasive_Writing.llm.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T21:47:57.013519",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

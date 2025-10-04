@@ -1,0 +1,35 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "déveloermener",
+      "correction": "développer",
+      "description": "The word 'déveloermener' is a misspelling and does not exist in French. The correct term is 'développer', which means 'to develop'. This error affects comprehension and should be corrected for clarity and accuracy.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "World_Religions.slm.md",
+    "language": "French",
+    "timestamp": "2025-10-03T22:23:35.039290",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

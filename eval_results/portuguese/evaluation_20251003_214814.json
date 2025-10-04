@@ -1,0 +1,83 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Elas reduzem o esforço necessário para realizar tarefas e estão presentes em muitos objetos do cotidiano.",
+      "correction": "Elas reduzem o esforço necessário para realizar tarefas e estão presentes em muitos objetos do dia a dia.",
+      "description": "The phrase 'objetos do cotidiano' is grammatically correct but less natural in Brazilian Portuguese for educational contexts. 'Objetos do dia a dia' is the preferred, more idiomatic expression for everyday objects, improving the naturalness and localization quality.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Exemplos do cotidiano incluem gangorras, pés-de-cabra e tesouras.",
+      "correction": "Exemplos do dia a dia incluem gangorras, pés-de-cabra e tesouras.",
+      "description": "The term 'cotidiano' is less commonly used in Brazilian Portuguese for everyday examples in educational materials. 'Dia a dia' is more natural and widely understood, enhancing localization and reader engagement.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Exemplos incluem mastros de bandeira, guindastes e varais.",
+      "correction": "Exemplos incluem mastros de bandeira, guindastes e varais de roupa.",
+      "description": "The word 'varais' alone may be ambiguous for younger learners. Specifying 'varais de roupa' clarifies the reference and aligns with common usage in Brazilian Portuguese, improving localization and comprehension.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Exemplos incluem rampas, escorregadores e estradas inclinadas.",
+      "correction": "Exemplos incluem rampas, escorregadores e ladeiras.",
+      "description": "The term 'estradas inclinadas' is technically correct but less natural in Brazilian Portuguese. 'Ladeiras' is the standard term for sloped roads, making the content more relatable and culturally appropriate.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Exemplos incluem machados, facas e calços de porta.",
+      "correction": "Exemplos incluem machados, facas e cunhas de porta.",
+      "description": "The term 'calços de porta' is understandable but 'cunhas de porta' is more precise and directly relates to the concept of a wedge, improving terminology consistency and educational clarity.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Exemplos incluem tampas de potes, lâmpadas e parafusos para madeira.",
+      "correction": "Exemplos incluem tampas de potes, lâmpadas e parafusos de madeira.",
+      "description": "The phrase 'parafusos para madeira' is less idiomatic than 'parafusos de madeira', which is the standard term in Brazilian Portuguese for wood screws, enhancing localization and technical accuracy.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Exemplos incluem pneus de carros, maçanetas e carrinhos de mão.",
+      "correction": "Exemplos incluem pneus de carro, maçanetas e carrinhos de mão.",
+      "description": "The plural 'pneus de carros' is less natural than 'pneus de carro', which is the common way to refer to car tires in Brazilian Portuguese, improving localization and naturalness.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Simple_Machines.llm.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T21:48:14.848099",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.3,
+    "classification": "NATIVE",
+    "total_issues": 7,
+    "total_penalty": 0.7,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 7,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.7,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

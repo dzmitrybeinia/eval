@@ -1,278 +1,672 @@
 {
   "metadata": {
     "label": "slm",
-    "label_normalized": "slm",
-    "label_key": "slm",
     "language": "spanish",
-    "generated_at": "2025-10-03T16:10:27.600617"
+    "generated_at": "2025-10-03T22:43:44.648434"
   },
   "top_error_patterns": [
     {
-      "pattern_name": "Gender Agreement Errors",
-      "category": "linguistic",
-      "subcategory": "Grammar",
-      "impact_level": "HIGH",
-      "frequency": "very_common",
-      "frequency_count": 4,
-      "description": "Frequent mismatches between the gender of articles/adjectives and the nouns they modify, leading to grammatical inaccuracies and reduced clarity.",
-      "examples": [
-        {
-          "wrong": "la camuflaje",
-          "correct": "el camuflaje",
-          "context": "Misuse of feminine article with masculine noun."
-        },
-        {
-          "wrong": "El clorofila",
-          "correct": "La clorofila",
-          "context": "Masculine article used with feminine noun."
-        },
-        {
-          "wrong": "limitado la capacidad",
-          "correct": "limitada la capacidad",
-          "context": "Adjective does not agree in gender with noun."
-        },
-        {
-          "wrong": "las sentimientos",
-          "correct": "los sentimientos",
-          "context": "Feminine article used with masculine plural noun."
-        }
-      ]
-    },
-    {
-      "pattern_name": "Lexical Choice and Terminology Errors",
+      "pattern_name": "Lexical Inaccuracies and False Friends",
       "category": "linguistic",
       "subcategory": "Lexical",
       "impact_level": "HIGH",
-      "frequency": "common",
-      "frequency_count": 3,
-      "description": "Incorrect or inappropriate word choices that distort meaning, misrepresent concepts, or use non-existent terms, affecting comprehension and credibility.",
+      "frequency": "very_common",
+      "frequency_count": 9,
+      "description": "Incorrect word choices, false cognates, or direct translations from English that distort meaning or technical accuracy.",
       "examples": [
         {
           "wrong": "Son de Reverde",
           "correct": "Sueño de Rev. King",
-          "context": "Misrepresentation of a well-known historical reference."
+          "context": "Incorrect reference to Martin Luther King Jr.'s speech."
         },
         {
           "wrong": "números sin signo",
           "correct": "números con o sin signo",
-          "context": "Incorrect terminology for signed/unsigned numbers."
+          "context": "Technical term misused, leading to conceptual error."
         },
         {
-          "wrong": "substractar",
-          "correct": "restar",
-          "context": "Use of a non-existent verb instead of the correct term."
+          "wrong": "El rock music",
+          "correct": "El rock",
+          "context": "Unnecessary English word in Spanish context."
         }
       ]
     },
     {
-      "pattern_name": "Lexical imprecision in technical or logical contexts",
-      "category": "linguistic",
-      "subcategory": "Lexical",
-      "impact_level": "MEDIUM",
-      "frequency": "common",
-      "frequency_count": 3,
-      "description": "Use of less precise or awkward lexical choices, such as 'no de tipo cadena' instead of 'no en tipo cadena', 'apoya' instead of 'respalda', and 'la realidad completa' instead of 'refleje completamente la realidad'.",
-      "examples": [
-        {
-          "wrong": "no de tipo cadena",
-          "correct": "no en tipo cadena",
-          "context": "Describing data types in programming"
-        },
-        {
-          "wrong": "la evidencia apoya una conclusión lógica",
-          "correct": "la evidencia respalda una conclusión lógica",
-          "context": "Describing evidence supporting a conclusion"
-        },
-        {
-          "wrong": "la realidad completa",
-          "correct": "refleje completamente la realidad",
-          "context": "Describing the completeness of information"
-        }
-      ]
-    },
-    {
-      "pattern_name": "Incorrect use of participle agreement",
+      "pattern_name": "Gender and Number Agreement Errors",
       "category": "linguistic",
       "subcategory": "Grammar",
-      "impact_level": "MEDIUM",
-      "frequency": "common",
-      "frequency_count": 2,
-      "description": "Frequent errors in participle agreement with nouns, especially with 'incluyendo' instead of 'incluidos', leading to gender and number mismatches.",
+      "impact_level": "HIGH",
+      "frequency": "very_common",
+      "frequency_count": 7,
+      "description": "Frequent mismatches between articles/adjectives and the gender or number of nouns, leading to grammatical inaccuracies and reduced clarity.",
       "examples": [
         {
-          "wrong": "incluyendo enteros, cadenas de texto, booleanos, y más",
-          "correct": "incluidos enteros, cadenas de texto, booleanos y más",
-          "context": "Listing types of data stored in variables"
+          "wrong": "la camuflaje",
+          "correct": "el camuflaje",
+          "context": "Incorrect gender article for masculine noun."
         },
         {
-          "wrong": "incluyendo contraargumentos",
-          "correct": "incluidos los contraargumentos",
-          "context": "Listing perspectives in an argument"
+          "wrong": "las sentimientos",
+          "correct": "los sentimientos",
+          "context": "Incorrect gender and number agreement with plural masculine noun."
+        },
+        {
+          "wrong": "las recuerdos",
+          "correct": "los recuerdos",
+          "context": "Incorrect gender article for masculine plural noun."
         }
       ]
     },
     {
-      "pattern_name": "Verb Tense Inconsistency",
+      "pattern_name": "Spelling and Accentuation Errors",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "HIGH",
+      "frequency": "common",
+      "frequency_count": 6,
+      "description": "Misspelled words and missing accent marks reduce professionalism and can hinder comprehension.",
+      "examples": [
+        {
+          "wrong": "individués",
+          "correct": "individuos",
+          "context": "Misspelling of common noun."
+        },
+        {
+          "wrong": "diagnócias médicas",
+          "correct": "diagnósticos médicos",
+          "context": "Misspelling and gender agreement error."
+        },
+        {
+          "wrong": "mnemonicos",
+          "correct": "mnemónicos",
+          "context": "Missing accent mark on technical term."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Subject-Verb Agreement Errors",
       "category": "linguistic",
       "subcategory": "Grammar",
-      "impact_level": "MEDIUM",
-      "frequency": "occasional",
-      "frequency_count": 1,
-      "description": "Mixing present and past tenses within the same sentence, leading to confusion and reduced clarity.",
+      "impact_level": "HIGH",
+      "frequency": "common",
+      "frequency_count": 5,
+      "description": "Verbs do not match the subject in person or number, causing confusion and undermining grammatical correctness.",
       "examples": [
         {
-          "wrong": "Proporcionando recursos esenciales como agua y nutrientes, permitió la agricultura, que sustenta el crecimiento de una civilización.",
-          "correct": "Proporcionando recursos esenciales como agua y nutrientes, permitió la agricultura, que sustentó el crecimiento de una civilización.",
-          "context": "Quiz explanations describing historical processes."
+          "wrong": "la función de generar energía la realiza principalmente las mitocondrias",
+          "correct": "la función de generar energía la realizan principalmente las mitocondrias",
+          "context": "Verb should agree with plural subject."
+        },
+        {
+          "wrong": "mejoras se realizan",
+          "correct": "se realizan mejoras",
+          "context": "Passive construction error; missing reflexive pronoun."
+        },
+        {
+          "wrong": "nunca confía en compartir información personal",
+          "correct": "nunca confíes en compartir información personal",
+          "context": "Incorrect verb form for imperative advice."
         }
       ]
     },
     {
-      "pattern_name": "Incomplete Lexical Construction",
+      "pattern_name": "Incorrect Technical or Cultural Terminology",
       "category": "linguistic",
-      "subcategory": "Lexical",
-      "impact_level": "MEDIUM",
+      "subcategory": "Terminology",
+      "impact_level": "HIGH",
       "frequency": "occasional",
-      "frequency_count": 1,
-      "description": "Omitting necessary adjectives or nouns after adverbs, resulting in incomplete or unclear statements.",
+      "frequency_count": 4,
+      "description": "Use of non-standard, anglicized, or inaccurate terms for technical or cultural concepts, affecting localization and educational value.",
       "examples": [
         {
-          "wrong": "No obstante, el verano puede ser bastante caluroso, pero no extremadamente.",
-          "correct": "No obstante, el verano puede ser bastante caluroso, pero no extremadamente caluroso.",
-          "context": "Quiz item explanations about climate or temperature."
+          "wrong": "cheques y balances",
+          "correct": "pesos y contrapesos",
+          "context": "Direct anglicism for government system terminology."
+        },
+        {
+          "wrong": "puentes levantadores",
+          "correct": "polipastos",
+          "context": "Incorrect term for simple machine."
+        },
+        {
+          "wrong": "velocidad de escape para mantener una órbita",
+          "correct": "velocidad constante hacia adelante para mantener una órbita",
+          "context": "Misuse of physics terminology."
         }
       ]
     },
     {
-      "pattern_name": "Non-standard Terminology",
+      "pattern_name": "Incorrect Use of Anglicisms for Established Terms",
       "category": "localization",
       "subcategory": "Terminology",
-      "impact_level": "MEDIUM",
-      "frequency": "occasional",
-      "frequency_count": 1,
-      "description": "Use of anglicisms or untranslated terms instead of standard Spanish equivalents, reducing naturalness and professional tone.",
+      "impact_level": "HIGH",
+      "frequency": "common",
+      "frequency_count": 2,
+      "description": "Anglicized terms are used instead of standard Spanish terminology for well-known concepts, leading to confusion and reduced professionalism.",
       "examples": [
         {
-          "wrong": "Sphinx",
-          "correct": "Esfinge",
-          "context": "Refers to mythological or historical terms; using the English term instead of the Spanish standard."
+          "wrong": "el Sphinx",
+          "correct": "la Esfinge",
+          "context": "Referring to the famous Egyptian monument in quiz questions."
+        },
+        {
+          "wrong": "máquinas de palanca inclinada",
+          "correct": "máquinas de plano inclinado",
+          "context": "Describing simple machines in educational content."
         }
       ]
     },
     {
-      "pattern_name": "Cultural Inaccuracy in Practical Contexts",
+      "pattern_name": "Cultural Misrepresentation of Mathematical Practices",
       "category": "localization",
       "subcategory": "Cultural",
-      "impact_level": "MEDIUM",
-      "frequency": "occasional",
+      "impact_level": "HIGH",
+      "frequency": "common",
       "frequency_count": 1,
-      "description": "Statements that misrepresent common practices or knowledge in Spanish-speaking cultures, potentially misleading learners.",
+      "description": "Explanations misrepresent common practices in Spanish-speaking cultures, such as the use of algebra for adjusting recipe quantities, leading to misleading or inaccurate feedback.",
       "examples": [
         {
           "wrong": "El álgebra no se usa para ajustar fracciones de ingredientes.",
           "correct": "El álgebra puede utilizarse para ajustar cantidades de ingredientes, incluyendo fracciones.",
-          "context": "Feedback about mathematical applications in cooking; original statement ignores common local practices."
+          "context": "Feedback on math applications in cooking contexts."
         }
       ]
     },
     {
-      "pattern_name": "Vague or Imprecise Educational Style",
+      "pattern_name": "Missing or incorrect definite articles",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "MEDIUM",
+      "frequency": "very_common",
+      "frequency_count": 8,
+      "description": "Omission or misuse of definite articles ('el', 'la', 'los', 'las') in general statements, enumerations, or before abstract concepts, leading to unnatural or grammatically incorrect sentences.",
+      "examples": [
+        {
+          "wrong": "No ficción está destinada a informar y educar sobre hechos verídicos...",
+          "correct": "La no ficción está destinada a informar y educar sobre hechos verídicos...",
+          "context": "Genre reference missing article"
+        },
+        {
+          "wrong": "fragmentación de información",
+          "correct": "fragmentación de la información",
+          "context": "Abstract noun missing article"
+        },
+        {
+          "wrong": "Acrónimos ayudan a simplificar y recordar información ordenada...",
+          "correct": "Los acrónimos ayudan a simplificar y recordar información ordenada...",
+          "context": "Subject missing article"
+        },
+        {
+          "wrong": "Utilizar solo ethos es suficiente para persuadir a la audiencia.",
+          "correct": "Utilizar solo el ethos es suficiente para persuadir a la audiencia.",
+          "context": "Abstract concept missing article"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Lexical imprecision or incorrect terminology",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 7,
+      "description": "Use of words or phrases that are not the most accurate or standard for the context, especially in technical, scientific, or educational explanations, which can mislead or confuse learners.",
+      "examples": [
+        {
+          "wrong": "El ADN almacena solo la información genética necesaria para la vida de la célula.",
+          "correct": "El ADN almacena no solo la información genética necesaria para la vida de la célula, sino también información relevante para la heredabilidad y la síntesis de proteínas.",
+          "context": "Biological function limited by imprecise wording"
+        },
+        {
+          "wrong": "Los ángulos mayores de 180° se denominan ángulos mayores o reflejos...",
+          "correct": "Los ángulos mayores de 180° se denominan ángulos reflejos...",
+          "context": "Mathematical terminology redundancy"
+        },
+        {
+          "wrong": "Esta declaración no refleja con precisión la relación entre programación y diseño.",
+          "correct": "Esta declaración no refleja con precisión la relación entre programación y algoritmos.",
+          "context": "Conceptual link misrepresented"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Non-Standard or Inconsistent Terminology",
+      "category": "localization",
+      "subcategory": "Terminology",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 7,
+      "description": "Use of terms that are literal translations or less standard in Spanish educational, scientific, or professional contexts. Corrections favor more widely accepted or idiomatic terminology.",
+      "examples": [
+        {
+          "wrong": "atención plena",
+          "correct": "mindfulness",
+          "context": "Psychological/educational context."
+        },
+        {
+          "wrong": "usar un paño limpio para evitar infección.",
+          "correct": "usar un paño limpio para evitar infecciones.",
+          "context": "Medical advice."
+        },
+        {
+          "wrong": "lo que refleja cómo la luz interactúa...",
+          "correct": "lo que muestra cómo la luz interactúa...",
+          "context": "Art technique explanation."
+        },
+        {
+          "wrong": "La lectura rápida es ideal para obtener una idea general...",
+          "correct": "La lectura rápida es ideal para obtener una visión general...",
+          "context": "Reading strategy."
+        },
+        {
+          "wrong": "manejo del tiempo",
+          "correct": "gestión del tiempo",
+          "context": "Study skills/time management."
+        },
+        {
+          "wrong": "proceso de prueba de vacunas",
+          "correct": "proceso de ensayo de vacunas",
+          "context": "Scientific/medical context."
+        },
+        {
+          "wrong": "simplificar fracciones para encontrar equivalentes.",
+          "correct": "reducir fracciones para encontrar equivalentes.",
+          "context": "Math education."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect or incomplete grammatical coordination",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 6,
+      "description": "Errors in coordinating nouns, adjectives, or clauses, such as missing articles in lists, incorrect use of conjunctions, or lack of parallel structure, which reduce clarity and grammatical accuracy.",
+      "examples": [
+        {
+          "wrong": "Se trata de la autoconciencia, empatía y habilidades interpersonales, no del conocimiento académico o la memoria.",
+          "correct": "Se trata de la autoconciencia, la empatía y las habilidades interpersonales, no del conocimiento académico ni de la memoria.",
+          "context": "Enumeration missing articles and incorrect conjunction"
+        },
+        {
+          "wrong": "La afirmación es incorrecta porque la deforestación tiene un impacto negativo significativo en los ecosistemas locales... y alteración de los patrones de precipitación...",
+          "correct": "...y la alteración de los patrones de precipitación...",
+          "context": "Parallel structure in coordinated nouns"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Unidiomatic or awkward syntactic constructions",
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 5,
+      "description": "Use of gerunds, participles, or sentence structures that do not connect properly to the subject or main clause, resulting in dangling modifiers or awkward phrasing that impairs clarity.",
+      "examples": [
+        {
+          "wrong": "Proporcionando recursos esenciales como agua y nutrientes, permitió la agricultura...",
+          "correct": "Al proporcionar recursos esenciales como agua y nutrientes, permitió la agricultura...",
+          "context": "Dangling modifier with gerund"
+        },
+        {
+          "wrong": "siguiendo pasos lógicos y basados en evidencia puede ser muy útil.",
+          "correct": "seguir pasos lógicos y basados en evidencia puede ser muy útil.",
+          "context": "Gerund incorrectly used as subject"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Unnatural Passive Constructions",
       "category": "localization",
       "subcategory": "Style",
       "impact_level": "MEDIUM",
-      "frequency": "occasional",
-      "frequency_count": 1,
-      "description": "Use of vague or non-standard phrasing that reduces clarity and precision in educational content.",
+      "frequency": "common",
+      "frequency_count": 5,
+      "description": "Frequent use of passive voice or less idiomatic phrasing that is grammatically correct but unnatural in Spanish educational contexts. Active voice or more idiomatic expressions are preferred for clarity and engagement.",
       "examples": [
         {
-          "wrong": "la relación entre programación y diseño",
-          "correct": "la relación entre programación y el diseño de algoritmos",
-          "context": "Educational explanations about programming; original phrasing is unclear and not aligned with standard terminology."
+          "wrong": "Su importancia en la programación no puede ser subestimada.",
+          "correct": "Su importancia en la programación no debe subestimarse.",
+          "context": "Feedback on programming concepts."
+        },
+        {
+          "wrong": "Estas características son transmitidas de generación en generación...",
+          "correct": "Estas características se transmiten de generación en generación...",
+          "context": "Explanation of genetic inheritance."
+        },
+        {
+          "wrong": "Siempre evalúa si la información que deseas compartir podría ser utilizada...",
+          "correct": "Siempre evalúa si la información que deseas compartir podría ser usada...",
+          "context": "Advice on information sharing."
+        },
+        {
+          "wrong": "permitir que respire sola...",
+          "correct": "permitir que respire por sí misma...",
+          "context": "Medical emergency instructions."
+        },
+        {
+          "wrong": "El puntillismo, una técnica que utiliza puntos de colores discretos...",
+          "correct": "El puntillismo, una técnica que utiliza puntos discretos...",
+          "context": "Art technique description."
         }
       ]
     },
     {
-      "pattern_name": "Unnecessary or missing comma before conjunctions",
+      "pattern_name": "Terminology Inaccuracy",
+      "category": "localization",
+      "subcategory": "Terminology",
+      "impact_level": "MEDIUM",
+      "frequency": "very_common",
+      "frequency_count": 4,
+      "description": "Incorrect or imprecise use of subject-specific terms, including pluralization, gender agreement, and standard nomenclature, which affects clarity and professionalism.",
+      "examples": [
+        {
+          "wrong": "La energía solar y eólica se obtienen de fuentes...",
+          "correct": "La energía solar y la energía eólica se obtienen de fuentes...",
+          "context": "Environmental science terminology"
+        },
+        {
+          "wrong": "lo que los diferencia de los recursos no renovables...",
+          "correct": "lo que las diferencia de los recursos no renovables...",
+          "context": "Pronoun agreement with feminine nouns"
+        },
+        {
+          "wrong": "Claro, el soneto tradicionalmente consta de dos cuartetos o secciones.",
+          "correct": "El soneto tradicionalmente consta de dos cuartetos y dos tercetos.",
+          "context": "Literary structure terminology"
+        },
+        {
+          "wrong": "La probabilidad de sacar dos 'cruz' seguidas...",
+          "correct": "La probabilidad de sacar dos 'cruces' seguidas...",
+          "context": "Probability and coin toss terminology"
+        },
+        {
+          "wrong": "religiones politeísticas",
+          "correct": "religiones politeístas",
+          "context": "Religious studies terminology"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Missing or Incorrect Definite Articles",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 4,
+      "description": "Omission of definite articles before nouns, which is required for natural and professional Spanish expression, especially in educational contexts.",
+      "examples": [
+        {
+          "wrong": "Por ejemplo, microestados pueden exportar productos únicos...",
+          "correct": "Por ejemplo, los microestados pueden exportar productos únicos...",
+          "context": "Geography/economics explanation."
+        },
+        {
+          "wrong": "La ubicación de recursos como petróleo o minerales...",
+          "correct": "La ubicación de recursos como el petróleo o los minerales...",
+          "context": "Resource distribution discussion."
+        },
+        {
+          "wrong": "Este paso... Se basa en el interés personal o curiosidad...",
+          "correct": "Este paso... Se basa en el interés personal o la curiosidad...",
+          "context": "Scientific method explanation."
+        },
+        {
+          "wrong": "Escaneo es una técnica de lectura...",
+          "correct": "El escaneo es una técnica de lectura...",
+          "context": "Reading technique description."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Gender and number agreement errors",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 2,
+      "description": "Adjectives or articles do not agree in gender or number with the nouns they modify, leading to grammatical inaccuracies and reduced clarity.",
+      "examples": [
+        {
+          "wrong": "No se mantienen igual todo el año...",
+          "correct": "No se mantienen iguales todo el año...",
+          "context": "Adjective not agreeing in number"
+        },
+        {
+          "wrong": "cuestiones éticos",
+          "correct": "cuestiones éticas",
+          "context": "Adjective not agreeing in gender"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Cultural Reference Mismatch",
+      "category": "localization",
+      "subcategory": "Cultural",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 2,
+      "description": "Use of examples or terms that are not culturally relevant or familiar to Spanish-speaking learners, reducing relatability and comprehension.",
+      "examples": [
+        {
+          "wrong": "Las zonas climáticas áridas, como el desierto del Sahara o el Outback australiano...",
+          "correct": "Las zonas climáticas áridas, como el desierto del Sahara o el desierto de Atacama...",
+          "context": "Geographical examples in science content"
+        },
+        {
+          "wrong": "Durante Diwali, la comida tradicionalmente incluye dulces y snacks...",
+          "correct": "Durante Diwali, la comida tradicionalmente incluye dulces y aperitivos...",
+          "context": "Cultural celebrations and food terminology"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Style and Naturalness Issues",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 2,
+      "description": "Use of unnatural phrasing, informal expressions, or incorrect pronouns that reduce the professional tone and clarity of educational content.",
+      "examples": [
+        {
+          "wrong": "desafíos globales",
+          "correct": "contextos globales",
+          "context": "General context description in decision-making"
+        },
+        {
+          "wrong": "beneficios sociales",
+          "correct": "impacto social",
+          "context": "Standard terminology in social sciences"
+        },
+        {
+          "wrong": "y más",
+          "correct": "y otros factores",
+          "context": "List expansion in academic writing"
+        },
+        {
+          "wrong": "no exclusivo",
+          "correct": "no es el único aspecto a considerar",
+          "context": "Clarifying exclusivity in decision criteria"
+        },
+        {
+          "wrong": "este no es un ejemplo práctico...",
+          "correct": "esto no es un ejemplo práctico...",
+          "context": "Pronoun use for abstract ideas"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect use of articles with abstract or general nouns",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "LOW",
+      "frequency": "common",
+      "frequency_count": 6,
+      "description": "Unnecessary or missing definite/indefinite articles before abstract or general nouns, affecting naturalness and grammatical accuracy.",
+      "examples": [
+        {
+          "wrong": "El pensamiento crítico se caracteriza por una mente abierta y un escepticismo...",
+          "correct": "El pensamiento crítico se caracteriza por una mente abierta y escepticismo...",
+          "context": "Unneeded indefinite article before abstract noun."
+        },
+        {
+          "wrong": "Permite a los individuos apoyarse mutuamente durante dificultades...",
+          "correct": "Permite a los individuos apoyarse mutuamente durante las dificultades...",
+          "context": "Missing definite article before general noun."
+        },
+        {
+          "wrong": "Su rol principal es ser el medio en el que se transportan y reaccionan los nutrientes vitales, mantener el equilibrio de fluidos...",
+          "correct": "Su rol principal es ser el medio en el que se transportan y reaccionan los nutrientes vitales, mantener el equilibrio de los fluidos...",
+          "context": "Missing definite article for grammatical agreement."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Redundant or awkward noun phrases",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "LOW",
+      "frequency": "common",
+      "frequency_count": 5,
+      "description": "Use of redundant or awkward noun phrases that reduce clarity and naturalness, often by repeating words or using non-idiomatic constructions.",
+      "examples": [
+        {
+          "wrong": "Estas habilidades...son esenciales no solo en el ámbito académico sino también en el ámbito personal y profesional.",
+          "correct": "Estas habilidades...son esenciales no solo en el ámbito académico, sino también en el personal y profesional.",
+          "context": "Unnecessary repetition of noun."
+        },
+        {
+          "wrong": "La alimentación saludable abarca una amplia gama de tipos de alimentos...",
+          "correct": "La alimentación saludable abarca una amplia gama de alimentos...",
+          "context": "Redundant phrase 'tipos de alimentos'."
+        },
+        {
+          "wrong": "No se trata exclusivamente de la administración de medicamentos, aunque esto puede ser una parte de la asistencia avanzada.",
+          "correct": "No se trata exclusivamente de la administración de medicamentos, aunque esto puede ser parte de la asistencia avanzada.",
+          "context": "Lexical redundancy in noun phrase."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect punctuation in lists and sentences",
       "category": "linguistic",
       "subcategory": "Orthography",
       "impact_level": "LOW",
       "frequency": "common",
-      "frequency_count": 2,
-      "description": "Recurring omission or misuse of commas before conjunctions like 'ya que' and 'y más', affecting sentence clarity and flow.",
+      "frequency_count": 5,
+      "description": "Misuse of commas in lists (serial comma before 'y') and incorrect sentence-ending punctuation, affecting orthographic correctness.",
       "examples": [
         {
-          "wrong": "No puede ser cualquier número ya que es el elemento cuyo valor se busca resolver.",
-          "correct": "No puede ser cualquier número, ya que es el elemento cuyo valor se busca resolver.",
-          "context": "Explanatory subordinate clause in a sentence"
+          "wrong": "Esto incluye foros en línea, chats grupales, correos electrónicos, y mensajes instantáneos.",
+          "correct": "Esto incluye foros en línea, chats grupales, correos electrónicos y mensajes instantáneos.",
+          "context": "Unnecessary comma before 'y' in a list."
         },
         {
-          "wrong": "incluidos enteros, cadenas de texto, booleanos, y más",
-          "correct": "incluidos enteros, cadenas de texto, booleanos y más",
-          "context": "Unnecessary comma before 'y más' in a list"
+          "wrong": "El uso excesivo de los recursos naturales puede llevar a la degradación del medio ambiente, como la deforestación, la contaminación del agua, y la pérdida de biodiversidad.",
+          "correct": "El uso excesivo de los recursos naturales puede llevar a la degradación del medio ambiente, como la deforestación, la contaminación del agua y la pérdida de biodiversidad.",
+          "context": "Serial comma before 'y' in a list."
+        },
+        {
+          "wrong": "El soneto se divide en dos cuartetos. ¿Es esta afirmación verdadera o falsa?.",
+          "correct": "El soneto se divide en dos cuartetos. ¿Es esta afirmación verdadera o falsa?",
+          "context": "Period after question mark."
         }
       ]
     },
     {
-      "pattern_name": "Unidiomatic use of definite articles in lists",
+      "pattern_name": "Lack of parallelism in coordinated phrases",
       "category": "linguistic",
       "subcategory": "Grammar",
       "impact_level": "LOW",
-      "frequency": "occasional",
-      "frequency_count": 1,
-      "description": "Insertion of unnecessary articles (e.g., 'un escepticismo') when listing qualities, resulting in less natural expressions.",
+      "frequency": "common",
+      "frequency_count": 4,
+      "description": "Failure to maintain parallel structure in coordinated phrases, leading to awkward or unclear sentences.",
       "examples": [
         {
-          "wrong": "una mente abierta y un escepticismo",
-          "correct": "una mente abierta y escepticismo",
-          "context": "Listing qualities of critical thinking"
+          "wrong": "El comercio global solo ocurre en grandes países y no en naciones pequeñas.",
+          "correct": "El comercio global solo ocurre en países grandes y no en países pequeños.",
+          "context": "Inconsistent noun usage in coordinated phrase."
+        },
+        {
+          "wrong": "Además, permite que los países accedan a una variedad de recursos...lo que beneficia a sus propias industrias y la calidad de vida de sus ciudadanos.",
+          "correct": "Además, permite que los países accedan a una variedad de recursos...lo que beneficia a sus industrias y a la calidad de vida de sus ciudadanos.",
+          "context": "Missing parallel preposition in coordinated phrase."
+        },
+        {
+          "wrong": "El comercio global...pueden beneficiarse de las oportunidades de mercado y el acceso a recursos...",
+          "correct": "El comercio global...pueden beneficiarse de las oportunidades de mercado y del acceso a recursos...",
+          "context": "Missing parallel article/preposition."
         }
       ]
     },
     {
-      "pattern_name": "Unnatural introductory phrasing",
+      "pattern_name": "Lexical imprecision or inappropriate word choice",
       "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 3,
+      "description": "Use of words or phrases that are less precise or not idiomatic in Spanish, affecting clarity and professionalism.",
+      "examples": [
+        {
+          "wrong": "Por ejemplo, si tienes una pizza cortada en 4 rebanadas...",
+          "correct": "Por ejemplo, si tienes una pizza cortada en 4 porciones...",
+          "context": "Non-idiomatic word for pizza slices."
+        },
+        {
+          "wrong": "Esto puede influir en las decisiones de una manera que no refleje la realidad completa...",
+          "correct": "Esto puede influir en las decisiones de una manera que no refleje completamente la realidad...",
+          "context": "Awkward phrase; adverb preferred."
+        },
+        {
+          "wrong": "Se basa en reconocer palabras clave o pistas visuales para encontrar los datos necesarios...",
+          "correct": "Se basa en reconocer palabras clave o pistas visuales para encontrar la información necesaria...",
+          "context": "Imprecise word for reading strategies."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Lexical Choices Not Matching Local Usage",
+      "category": "localization",
+      "subcategory": "Lexical",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 2,
+      "description": "Use of words that are understandable but not the most natural or standard in Spanish for the given context, affecting the local fit and clarity.",
+      "examples": [
+        {
+          "wrong": "Cuando una pizza se divide en 12 rebanadas...",
+          "correct": "Cuando una pizza se divide en 12 porciones...",
+          "context": "Math/food context."
+        },
+        {
+          "wrong": "elementos destacados",
+          "correct": "palabras destacadas",
+          "context": "Reading strategy."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Redundant or Wordy Phrasing",
+      "category": "localization",
       "subcategory": "Style",
       "impact_level": "LOW",
       "frequency": "occasional",
-      "frequency_count": 1,
-      "description": "Use of less natural introductory phrases such as 'En la programación' instead of the standard 'En programación', affecting professionalism and naturalness.",
+      "frequency_count": 2,
+      "description": "Sentences include unnecessary repetition or wordiness, which can reduce clarity and conciseness in educational Spanish.",
       "examples": [
         {
-          "wrong": "En la programación, los nombres de variables...",
-          "correct": "En programación, los nombres de variables...",
-          "context": "Introducing programming concepts"
-        }
-      ]
-    },
-    {
-      "pattern_name": "Use of culturally distant examples",
-      "category": "localization",
-      "subcategory": "Cultural",
-      "impact_level": "LOW",
-      "frequency": "occasional",
-      "frequency_count": 1,
-      "description": "References to regions or concepts less familiar to Spanish-speaking audiences reduce relatability and cultural fit.",
-      "examples": [
+          "wrong": "Representa un punto en la superficie e indica posición.",
+          "correct": "Indica una posición.",
+          "context": "Geometry definition."
+        },
         {
-          "wrong": "Outback australiano",
-          "correct": "desierto de Atacama",
-          "context": "Geographical examples in climate descriptions"
-        }
-      ]
-    },
-    {
-      "pattern_name": "Non-standard weather terminology",
-      "category": "localization",
-      "subcategory": "Terminology",
-      "impact_level": "LOW",
-      "frequency": "occasional",
-      "frequency_count": 1,
-      "description": "Use of less natural or non-standard terms for weather conditions affects professional tone and clarity.",
-      "examples": [
-        {
-          "wrong": "clima caliente",
-          "correct": "clima cálido",
-          "context": "Describing tropical climate characteristics"
+          "wrong": "afectando de manera significativa el crecimiento económico...",
+          "correct": "afectando significativamente el crecimiento económico...",
+          "context": "Economics/geography explanation."
         }
       ]
     }

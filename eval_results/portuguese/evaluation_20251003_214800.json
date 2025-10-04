@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Limerique",
+      "correction": "Limerique",
+      "description": "The term 'Limerique' is a direct adaptation of the English 'limerick' and is not widely accepted or standard in Brazilian Portuguese. The more commonly used term is 'limerique' (without the accent), but even this is rare and not officially recognized by major dictionaries. For educational content, it is important to clarify that this is a borrowed term and provide context for its usage, as it may not be familiar to all readers. Additionally, the spelling should remain consistent throughout the lesson.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Que sonhava que comia seu sapato.",
+      "correction": "Que sonhava que comia o seu sapato.",
+      "description": "In Brazilian Portuguese, the use of the definite article 'o' before 'seu sapato' is more natural and grammatically correct, especially in poetic or narrative contexts. Omitting the article can make the sentence sound abrupt or less idiomatic.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Havia um homem de Peru,",
+      "correction": "Havia um homem do Peru,",
+      "description": "The phrase 'de Peru' is ambiguous in Portuguese and could be misinterpreted as referring to the bird (turkey) rather than the country. The correct and culturally appropriate form is 'do Peru' to clearly indicate the country. This ensures the example aligns with local conventions and avoids confusion.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "pentâmetro iâmbico",
+      "correction": "pentâmetro iâmbico",
+      "description": "The term 'pentâmetro iâmbico' is a direct translation of 'iambic pentameter' and is not commonly used in Brazilian Portuguese poetry education. While technically correct, it may be unfamiliar to students. Consider providing a brief explanation or using more accessible terminology, such as 'versos de dez sílabas poéticas com ritmo alternado', to improve comprehension.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Poetry_Forms.llm.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T21:48:00.724213",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.3,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.7,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.4,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

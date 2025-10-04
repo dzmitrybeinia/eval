@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Ein historischer Roman, der das Leben während des Bürgerkriegs imaginiert.",
+      "correction": "Ein historischer Roman, der das Leben während des Bürgerkriegs beschreibt.",
+      "description": "The verb 'imaginiert' is not idiomatic in this context. In German, 'ein historischer Roman' typically 'beschreibt' or 'stellt dar' das Leben während des Bürgerkriegs, rather than 'imaginiert' it. The use of 'imaginiert' is a calque from English and is not standard in German narrative descriptions. This affects both grammatical correctness and naturalness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Eine Biografie von Martin Luther King Jr., die sein Leben und seine Errungenschaften beschreibt.",
+      "correction": "Eine Biografie über Martin Luther King Jr., die sein Leben und seine Errungenschaften beschreibt.",
+      "description": "The preposition 'von' is not the most natural choice in German for biographies; 'über' is preferred when referring to the subject of a biography. This is a localization issue affecting the naturalness and cultural appropriateness of the expression.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Romane wie *Harry Potter* von J.K. Rowling.",
+      "correction": "Romane wie *Harry Potter* von J.K. Rowling.",
+      "description": "While the sentence is linguistically correct, the use of 'Harry Potter' as an example in educational German content may not be locally relevant for all audiences, especially younger learners who may be more familiar with German children's literature. Consider including a German example such as 'Die unendliche Geschichte' by Michael Ende for better cultural resonance.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Fiction_vs_Nonfiction.llm.md",
+    "language": "German",
+    "timestamp": "2025-10-03T21:43:41.536220",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

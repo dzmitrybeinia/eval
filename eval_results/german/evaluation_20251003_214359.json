@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Typen: Gleichseitig (gleiche Seiten), Gleichschenklig (zwei gleiche Seiten), Ungleichseitig (keine gleichen Seiten).",
+      "correction": "Typen: Gleichseitig (alle Seiten gleich), Gleichschenklig (zwei Seiten gleich), Ungleichseitig (alle Seiten unterschiedlich).",
+      "description": "The original text uses 'gleiche Seiten' and 'keine gleichen Seiten' for triangle types, which is imprecise and could cause confusion. 'Gleichseitig' should be defined as 'alle Seiten gleich' for clarity, and 'Ungleichseitig' as 'alle Seiten unterschiedlich' to avoid ambiguity. This correction improves lexical precision and clarity for educational purposes.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Beispiel: Ein Stück Pizza.",
+      "correction": "Beispiel: Die Spitze eines Bleistifts.",
+      "description": "While 'Ein Stück Pizza' is understandable, it is less universally relatable and may not be the most neutral example for all German-speaking learners. 'Die Spitze eines Bleistifts' is a more standard and educationally appropriate example for a spitzer Winkel, ensuring cultural neutrality and relevance in a classroom context.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Beispiel: Eine Uhr.",
+      "correction": "Beispiel: Ein Münze.",
+      "description": "The example 'Eine Uhr' for a circle may be confusing, as not all clocks are circular. 'Ein Münze' (a coin) is a more universally recognized circular object and is culturally neutral, making the example clearer and more appropriate for educational content.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "Winkel werden in Grad (°) gemessen.",
+      "correction": "Winkel werden in Grad (°) gemessen.",
+      "description": "Although the sentence is linguistically correct, the use of the degree symbol (°) should be checked for proper spacing in German educational materials. In formal German, a non-breaking space is often used before the degree symbol (e.g., '90 °'). However, in this context, the usage is acceptable and does not require correction, but attention to formatting conventions is recommended for future materials.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Geometry_Basics.llm.md",
+    "language": "German",
+    "timestamp": "2025-10-03T21:43:59.414209",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "В Дивали принятие и украшение домов масляными лампами, известными как дия, является центральной частью праздника.",
+      "correction": "В Дивали принятие и украшение домов масляными лампами, известными как дии, является центральной частью праздника.",
+      "description": "The word 'дия' is not the standard Russian term for the traditional oil lamp used in Diwali; the correct plural form is 'дии'. Additionally, the sentence structure is awkward due to the use of 'принятие' (acceptance), which is not idiomatic in this context. However, the primary issue is the incorrect pluralization of 'дия'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Эти лампати играют важную роль в символизации победы света над тьмой.",
+      "correction": "Эти лампы играют важную роль в символизации победы света над тьмой.",
+      "description": "The word 'лампати' is not a correct Russian word; the proper term is 'лампы'. This lexical error affects clarity and comprehension.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Карнавал, в отличие от некоторых праздников, отмечается в конце года, перед началом Христовых постных месяцев.",
+      "correction": "Карнавал, в отличие от некоторых праздников, отмечается в начале года, перед началом Великого поста.",
+      "description": "The statement incorrectly claims that the Rio Carnival is celebrated at the end of the year, whereas it actually occurs at the beginning of the year, before Lent ('Великий пост'). The phrase 'Христовых постных месяцев' is not idiomatic or accurate in Russian; 'Великий пост' is the correct term.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Это время, полно насыщено яркими цветами и радостью, когда население и туристы собираются, чтобы насладиться культурной и музыкальной идентичности, которую этот праздник представляет.",
+      "correction": "Это время, насыщенное яркими цветами и радостью, когда местные жители и туристы собираются, чтобы насладиться культурной и музыкальной идентичностью, которую представляет этот праздник.",
+      "description": "The phrase 'полно насыщено' is ungrammatical and should be replaced with 'насыщенное'. 'Население' is not the natural term for 'locals' in this context; 'местные жители' is preferred. 'Идентичности' should be in the singular ('идентичностью'), and word order should be adjusted for naturalness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Лунный Новый год включает в себя подыскавание дома.",
+      "correction": "Лунный Новый год включает в себя уборку дома.",
+      "description": "The word 'подыскавание' is incorrect and does not exist in Russian; the correct term is 'уборка', which means cleaning. This lexical error significantly affects comprehension.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "В праздниках Лунного Нового года обычной практикой является очистка дома, а не подыскавание.",
+      "correction": "В празднованиях Лунного Нового года обычной практикой является уборка дома, а не подыскивание.",
+      "description": "The word 'подыскавание' is incorrect and should be 'уборка'. Additionally, 'праздниках' should be replaced with 'празднованиях' for better style, and 'очистка' is less idiomatic than 'уборка' in this context.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Этот процесс включает уборство всех предметов, чтобы облегчить удачу и избежать неудачи на новом горизонте.",
+      "correction": "Этот процесс включает уборку всех предметов, чтобы привлечь удачу и избежать неудачи в новом году.",
+      "description": "The word 'уборство' is incorrect; 'уборка' is the proper term. The phrase 'облегчить удачу' is unnatural; 'привлечь удачу' is idiomatic. 'На новом горизонте' is not a standard Russian expression for the New Year; 'в новом году' is preferred.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "На День мертвых, мексиканская культура празднует жизнь умерших с яркими цветами и лакомствами, такими как пан де муэрто, известные своим сочным вкусом.",
+      "correction": "В День мертвых мексиканская культура празднует жизнь ушедших с яркими цветами и угощениями, такими как пан де муэрто, известный своим особым вкусом.",
+      "description": "The phrase 'жизнь умерших' is awkward; 'жизнь ушедших' is more natural. 'Лакомствами' should be 'угощениями' for better style. 'Пан де муэрто' is singular and should agree with 'известный своим особым вкусом'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Октаберфст — немецкий фестиваль, который празднует немецкую культуру, особенно пивоварище.",
+      "correction": "Октоберфест — немецкий фестиваль, который празднует немецкую культуру, особенно пивоварение.",
+      "description": "The word 'Октаберфст' is misspelled; the correct spelling is 'Октоберфест'. 'Пивоварище' is incorrect; 'пивоварение' is the proper term for brewing.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "В России могут быть другие праздники с различными традициями, но октаберфст не является одним из них.",
+      "correction": "В России могут быть другие праздники с различными традициями, но Октоберфест не является одним из них.",
+      "description": "The word 'октаберфст' is misspelled; the correct spelling is 'Октоберфест'.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Style",
+      "original": "Динамика семейных праздников подчеркивает важность семейного единства и передачи традиций с поколения на поколение.",
+      "correction": "Динамика семейных праздников подчеркивает важность семейного единства и передачи традиций из поколения в поколение.",
+      "description": "The phrase 'с поколения на поколение' is less idiomatic than 'из поколения в поколение', which is the standard Russian expression for passing traditions.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Style",
+      "original": "Эти мероприятия предоставляют возможность для всех членов семьи, включая детей, участвовать и участвовать в праздничных мероприятиях, что способствует чувству общности и культурного наследия.",
+      "correction": "Эти мероприятия предоставляют возможность всем членам семьи, включая детей, принимать участие в праздничных событиях, что способствует чувству общности и культурного наследия.",
+      "description": "The phrase 'участвовать и участвовать' is repetitive; 'принимать участие' is more natural. 'Праздничных мероприятиях' can be replaced with 'праздничных событиях' for stylistic improvement.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Cultural_Celebrations.slm.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T22:25:12.873095",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 7.5,
+    "classification": "ACCEPTABLE",
+    "total_issues": 12,
+    "total_penalty": 2.5,
+    "issue_breakdown": {
+      "linguistic": 12,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 2.5,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Znacznące się rozwijać empatią zazwyczni jest wymagane połączenie z ludźmi i doświadczeniami społecznymi.",
+      "correction": "Znaczące rozwijanie empatii zazwyczaj wymaga połączenia z ludźmi i doświadczeń społecznych.",
+      "description": "The original sentence contains multiple grammatical errors: 'Znacznące się rozwijać empatią' is ungrammatical and should be rephrased to 'Znaczące rozwijanie empatii'. 'Zazwyczni' is a misspelling of 'zazwyczaj'. The phrase 'jest wymagane połączenie z ludźmi i doświadczeniami społecznymi' is awkward and should be clarified to 'wymaga połączenia z ludźmi i doświadczeń społecznych'. These errors affect clarity and comprehension.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "umiejawodne rozwiązanie napięcia",
+      "correction": "umiejętne rozwiązanie napięcia",
+      "description": "The word 'umiejawodne' is a misspelling and should be 'umiejętne', which means 'skillful' or 'competent'. This spelling error affects the professionalism and clarity of the feedback.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "zwiększać głębię relacji między ludźmiami",
+      "correction": "zwiększać głębię relacji między ludźmi",
+      "description": "The word 'ludźmiami' is an incorrect instrumental plural form; the correct form is 'ludźmi'. This is a noun case error that impacts grammatical correctness and naturalness.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Tak, rozsądczenie emocjonalne polega na samoświadomości.",
+      "correction": "Tak, rozsądzanie emocjonalne polega na samoświadomości.",
+      "description": "The word 'rozsądczenie' is incorrect; the proper noun form is 'rozsądzanie'. This is a lexical and grammatical error that affects the meaning and clarity of the statement.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "To jest poprawna.",
+      "correction": "To jest poprawne.",
+      "description": "The adjective 'poprawna' is in the feminine form, but it should agree with the neuter noun 'to', so the correct form is 'poprawne'. This is a gender agreement error.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Emotional_Intelligence.slm.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T22:14:54.888454",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 8.5,
+    "classification": "PROFESSIONAL",
+    "total_issues": 5,
+    "total_penalty": 1.5,
+    "issue_breakdown": {
+      "linguistic": 5,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.5,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

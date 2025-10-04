@@ -1,0 +1,35 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Uma moeda de 25 centavos vale 1/4 de um dólar.",
+      "correction": "Uma moeda de 25 centavos vale 1/4 de um real.",
+      "description": "The example uses 'dólar' and '25 centavos', which is culturally inappropriate for Brazilian Portuguese educational content. The local currency is 'real', and the coin denominations differ. For Brazilian students, referencing '1/4 de um real' is more relevant and accurate. No linguistic errors are present, but the cultural reference should be localized.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Fractions_Basics.llm.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T21:47:11.111841",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

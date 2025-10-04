@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Feuer ist eine unverzichtbare Energiequelle, kann jedoch auch eine ernsthafte Gefahr darstellen, wenn wir nicht wissen, wie wir es sicher verhindern und darauf reagieren können.",
+      "correction": "Feuer ist eine unverzichtbare Energiequelle, kann jedoch auch eine ernsthafte Gefahr darstellen, wenn wir nicht wissen, wie wir es sicher vermeiden und darauf reagieren können.",
+      "description": "The verb 'verhindern' is incorrect in this context. In German, 'verhindern' means 'to prevent' something from happening, but it is not idiomatic to say 'Feuer verhindern.' The correct verb is 'vermeiden' (to avoid), which fits the context of fire safety. This is a lexical and collocational error affecting clarity and naturalness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "PASS-Methode",
+      "correction": "P.A.S.S.-Methode",
+      "description": "The acronym 'PASS' is an English mnemonic for fire extinguisher use. In German fire safety training, the equivalent is often 'P.A.S.S.' with periods to indicate the acronym, or a localized mnemonic such as 'ALLES' or 'R.A.S.S.' may be used. Using 'PASS' without periods may confuse learners and does not fully localize the concept. Consider using the German standard or clarifying the acronym.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "Notrufnummer wählen (112).",
+      "correction": "Notrufnummer 112 wählen.",
+      "description": "The format 'Notrufnummer wählen (112)' is not standard in German emergency instructions. The number should be presented directly after the term, e.g., 'Notrufnummer 112 wählen.' This improves clarity and matches German conventions for presenting emergency numbers.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Kochgeräte niemals unbeaufsichtigt lassen.",
+      "correction": "Kochgeräte sollten niemals unbeaufsichtigt bleiben.",
+      "description": "The imperative form is acceptable, but the modal construction 'sollten niemals unbeaufsichtigt bleiben' is more typical in German safety instructions, providing a slightly more formal and instructive tone. This enhances the professional style and aligns with local expectations for educational content.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Fire_Safety.llm.md",
+    "language": "German",
+    "timestamp": "2025-10-03T21:43:45.302988",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.4,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

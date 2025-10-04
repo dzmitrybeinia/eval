@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Учитывая эмоциональный интеллект и самосознание, можно улучшить способность к эмпатии.",
+      "correction": "Учитывая эмоциональный интеллект и самосознание, можно улучшить способность к эмпатии.",
+      "description": "The sentence is grammatically correct and uses proper case and verb forms. No linguistic errors are present. However, the statement may be misleading in terms of logical connection, but this is not a linguistic issue.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Эмоциональный интеллект включает в себя понимание себя и других. Эмпатия — это способность понимать и чувствовать эмоции других, что отличается от самосознания. Улучшение эмпатии часто включает в себя улучшение эмоционального интеллекта, но они не являются прямыми эквивалентами.",
+      "correction": "Эмоциональный интеллект включает в себя понимание себя и других. Эмпатия — это способность понимать и чувствовать эмоции других, что отличается от самосознания. Улучшение эмпатии часто связано с развитием эмоционального интеллекта, но они не являются прямыми эквивалентами.",
+      "description": "The phrase 'включает в себя улучшение эмоционального интеллекта' is slightly awkward and not fully idiomatic in Russian. Replacing it with 'связано с развитием эмоционального интеллекта' improves naturalness and clarity. No grammatical errors are present, but the correction enhances lexical precision and style.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Это неверно. Умение эффективно общаться и сотрудничать в группах, что являются частью социальных навыков, имеет решающее значение для успеха в командной деятельности. Улучшенная коммуникация и способность к разрешению конфликтов значительно улучшают работу команды и достижение её целей.",
+      "correction": "Это неверно. Умение эффективно общаться и сотрудничать в группах, что является частью социальных навыков, имеет решающее значение для успеха в командной деятельности. Улучшенная коммуникация и способность к разрешению конфликтов значительно улучшают работу команды и достижение её целей.",
+      "description": "The sentence 'что являются частью социальных навыков' contains a subject-verb agreement error: 'что являются' should be 'что является', because 'умение эффективно общаться и сотрудничать в группах' is a singular concept. The corrected phrase is 'что является частью социальных навыков'. This is a grammatical error affecting clarity.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Emotional_Intelligence.slm.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T22:25:33.081213",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.4,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

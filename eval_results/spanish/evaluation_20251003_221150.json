@@ -1,0 +1,35 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "Los derechos humanos son inherentes a todos los individuicios.",
+      "correction": "Los derechos humanos son inherentes a todos los individuos.",
+      "description": "The word 'individuicios' is a spelling error; the correct term is 'individuos'. This mistake affects comprehension and undermines the credibility of the statement. No other linguistic or localization issues are present in this text.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Human_Rights.slm.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-03T22:11:50.217408",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

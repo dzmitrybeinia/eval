@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "「私は〇〇で悲しく感じます」といった「I」ステートメントを使う。",
+      "correction": "「私は〇〇だから悲しいです」といった「私」を主語にした表現を使う。",
+      "description": "The phrase '「I」ステートメント' is an English loanword and not commonly used in Japanese educational contexts. It would be more natural and culturally appropriate to refer to '「私」を主語にした表現' or '自分の気持ちを主語にして伝える表現'. Additionally, '悲しく感じます' is grammatically correct but less natural than '悲しいです' in this context. The correction improves both naturalness and cultural appropriateness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "感情は、私たちが周囲の出来事にどのように感じて反応するかを教えてくれる大切な部分です。",
+      "correction": "感情は、私たちが周囲の出来事にどのように感じ、反応するかを教えてくれる大切な部分です。",
+      "description": "The sentence uses '感じて反応するか', which is an incorrect use of the te-form for listing actions. In Japanese, when listing multiple actions or states, the te-form should be used for all but the last verb, which should be in the dictionary form. Here, '感じて反応する' should be '感じ、反応する' to correctly coordinate the two verbs.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "日記を書く。",
+      "correction": "日記を書いたりする。",
+      "description": "In Japanese educational content, when listing examples, it is more natural to use the '〜たりする' form to indicate that these are examples among several possible actions. '日記を書く' as a standalone item in a list can sound abrupt and less natural. The correction improves the flow and naturalness of the example list.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Emotions_and_Feelings_1.llm.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-03T21:50:36.385090",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

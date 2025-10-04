@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "🌟 ¡Prepárate para descubrir cómo funciona este fascinante mapa de los elementos!",
+      "correction": "¡Prepárate para descubrir cómo funciona este fascinante mapa de los elementos!",
+      "description": "The use of the star emoji (🌟) at the beginning of the sentence is not standard in formal educational Spanish content. While emojis can add visual interest, they may reduce the perceived professionalism and clarity in academic materials. Removing the emoji ensures the tone remains appropriate for an educational context.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "La tabla periódica es un cuadro que organiza todos los elementos químicos conocidos según su número atómico, configuración electrónica y propiedades químicas recurrentes.",
+      "correction": "La tabla periódica es una tabla que organiza todos los elementos químicos conocidos según su número atómico, configuración electrónica y propiedades químicas recurrentes.",
+      "description": "The word 'cuadro' is not the most precise term for 'table' in the context of chemistry. The standard term in Spanish for the periodic table is 'tabla', not 'cuadro'. Using 'tabla' ensures technical accuracy and aligns with scientific terminology.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Los elementos del Grupo 1 (metales alcalinos) son altamente reactivos y comparten propiedades como puntos de fusión bajos.",
+      "correction": "Los elementos del Grupo 1 (metales alcalinos) son muy reactivos y comparten propiedades como puntos de fusión bajos.",
+      "description": "The phrase 'altamente reactivos' is a literal translation of 'highly reactive', but in Spanish scientific writing, 'muy reactivos' is more natural and commonly used. This change improves the naturalness and consistency of terminology in educational materials.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Propiedades: Malos conductores de electricidad, frágiles y opacos.",
+      "correction": "Propiedades: Son malos conductores de electricidad, frágiles y opacos.",
+      "description": "The list omits the verb 'son', which is standard in Spanish when enumerating properties in educational contexts. Adding 'son' improves clarity and aligns with natural Spanish usage for describing characteristics.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Periodic_Table.llm.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-03T21:29:02.276341",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

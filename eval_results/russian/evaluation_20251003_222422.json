@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "к своему округу",
+      "correction": "к своей среде обитания",
+      "description": "The word 'округу' is a lexical error in this context. In Russian, 'округ' refers to an administrative district, not an environment or habitat. The correct term for 'environment' or 'habitat' in biological context is 'среда обитания'. This error affects the scientific accuracy and clarity of the feedback.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "толпады",
+      "correction": "норы",
+      "description": "The word 'толпады' is a spelling and lexical error. It is not a valid Russian word and appears to be a misspelling or mistranslation. The correct term for the underground burrows that kangaroo rats use is 'норы'. This error significantly affects comprehension.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Крысы кенгуру, также известные как кенгуру",
+      "correction": "Крысы кенгуру, также известные как кенгуровые крысы",
+      "description": "The phrase 'также известные как кенгуру' is a lexical error. 'Крысы кенгуру' (kangaroo rats) are not known as 'кенгуру' (kangaroos) in Russian; this confuses two unrelated animals. The correct alternative name is 'кенгуровые крысы'. This error affects scientific accuracy and could mislead learners.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "для большего сила и устойчивости",
+      "correction": "для большей силы и устойчивости",
+      "description": "The phrase 'для большего сила и устойчивости' contains a grammatical error: 'большего' is the wrong gender and case for 'сила'. The correct form is 'для большей силы и устойчивости', matching the feminine noun 'сила' in the genitive case. This error affects grammatical correctness and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "пантепон",
+      "correction": "пантера",
+      "description": "The word 'пантепон' is a lexical error; it is not a recognized animal in Russian or scientific terminology. Based on context, the intended animal is likely 'пантера' (panther). Using an incorrect or non-existent term confuses learners and undermines educational value.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Animal_Adaptations.slm.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T22:24:22.117839",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 8.5,
+    "classification": "PROFESSIONAL",
+    "total_issues": 5,
+    "total_penalty": 1.5,
+    "issue_breakdown": {
+      "linguistic": 5,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.5,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "A informação genética é realmente armazenada no DNA, que serve como um manual para a síntese de proteínas, que são cruciais para várias funções no corpo, como construir estruturas e proteger contra doenças.",
+      "correction": "A informação genética é realmente armazenada no DNA, que serve como um guia para a síntese de proteínas, que são cruciais para várias funções no organismo, como formar estruturas e proteger contra doenças.",
+      "description": "The use of 'manual' is not the most natural or precise term in Brazilian Portuguese for describing the role of DNA; 'guia' is more appropriate in scientific contexts. Additionally, 'corpo' is less formal and less precise than 'organismo' when referring to biological functions. The verb 'construir estruturas' is better replaced by 'formar estruturas' for scientific accuracy and naturalness.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "DNA_Basics.slm.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T22:32:49.182883",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.8,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.2,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

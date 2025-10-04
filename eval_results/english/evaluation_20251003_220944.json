@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical Precision",
+      "original": "Random guesses, known as 'hypotheses,' are actually well-considered, testable predictions that are opposite to what is expected.",
+      "correction": "Random guesses are not considered 'hypotheses.' Hypotheses are well-considered, testable predictions based on prior knowledge and observation.",
+      "description": "The sentence incorrectly states that hypotheses are 'opposite to what is expected,' which is misleading. Hypotheses are not necessarily the opposite of expectations; they are predictions based on evidence. The phrase also conflates random guesses with hypotheses, which is conceptually inaccurate.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "Random guesses, known as 'hypotheses,' are actually well-considered, testable predictions that are opposite to what is expected.",
+      "correction": "Random guesses are not known as 'hypotheses.' Hypotheses are well-considered, testable predictions.",
+      "description": "The sentence structure is confusing and incorrectly equates random guesses with hypotheses, which may mislead learners about the scientific method.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical Precision",
+      "original": "This ensures that the scientific method is a systematic and objective process based on evidence and logical reasoning.",
+      "correction": "This ensures that the scientific method is a systematic and objective process based on evidence and logical reasoning, rather than random guessing.",
+      "description": "The feedback does not clearly contrast the scientific method with random guessing, which is the focus of the question. Adding the contrast improves clarity and educational effectiveness.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Scientific_Method_1.slm.md",
+    "language": "English",
+    "timestamp": "2025-10-03T22:09:44.760322",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.2,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.8,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.8,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

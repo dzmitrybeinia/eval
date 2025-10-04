@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Układ okresowy pierwiastków organizuje elementy według rosnącej liczby atomowej, grupując je na podstawie wspólnych właściwości chemicznych.",
+      "correction": "Układ okresowy pierwiastków organizuje pierwiastki według rosnącej liczby atomowej, grupując je na podstawie wspólnych właściwości chemicznych.",
+      "description": "The word 'elementy' is less precise in this context, as the standard Polish terminology for the periodic table is 'pierwiastki', not 'elementy'. Using 'pierwiastki' ensures lexical precision and aligns with scientific conventions in Polish chemistry education. This correction improves both linguistic accuracy and terminological consistency.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Przygotujcie się na fascynującą podróż po strukturze układu okresowego, jego grupach, okresach oraz trendach takich jak wielkość atomowa i elektroujemność! 🌟",
+      "correction": "Przygotujcie się na fascynującą podróż po strukturze układu okresowego, jego grupach, okresach oraz trendach takich jak wielkość atomowa i elektroujemność!",
+      "description": "The use of the emoji '🌟' is not standard in Polish educational materials, especially in formal science lessons. Removing the emoji ensures the tone remains professional and culturally appropriate for the target audience.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Lit (Li) jest większy od fluoru (F) w okresie 2, a cez (Cs) jest większy od sodu (Na) w grupie 1.",
+      "correction": "Lit (Li) jest większy niż fluor (F) w okresie 2, a cez (Cs) jest większy niż sód (Na) w grupie 1.",
+      "description": "The comparative construction 'większy od' is less natural in scientific Polish when comparing two items; 'większy niż' is preferred for clarity and correctness. Additionally, 'sodu' should be replaced with 'sód' to match nominative case, as the comparison is between two subjects, not possession.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Periodic_Table.llm.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T21:32:44.671212",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.4,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

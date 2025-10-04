@@ -1,0 +1,197 @@
+{
+  "metadata": {
+    "label": "v1",
+    "language": "arabic",
+    "generated_at": "2025-10-04T14:12:35.513161"
+  },
+  "top_error_patterns": [
+    {
+      "pattern_name": "Incorrect Subject-Verb Agreement",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "HIGH",
+      "frequency": "very_common",
+      "frequency_count": 5,
+      "description": "Frequent mismatches between subject and verb in gender and number, especially with feminine plural nouns and collective subjects, leading to confusion and ungrammatical sentences.",
+      "examples": [
+        {
+          "wrong": "الحيوانات تطوروا بطرق مذهلات لكي يعيشوا في بيئاتهم",
+          "correct": "الحيوانات تطورت بطرق مذهلة لكي تعيش في بيئاتها",
+          "context": "Subject 'الحيوانات' (feminine plural) incorrectly paired with masculine plural verbs."
+        },
+        {
+          "wrong": "هذي التكيفات مفتاح لفهم كيف الأنواع يبقوا في أنظمة بيئية مختلفة",
+          "correct": "هذه التكيفات مفتاح لفهم كيف تبقى الأنواع في أنظمة بيئية مختلفة",
+          "context": "Plural noun 'الأنواع' incorrectly paired with plural verb instead of singular feminine."
+        },
+        {
+          "wrong": "التكيفات هو صفات أو سلوكيات يساعدوا الكائنات يعيشوا ويتكاثروا في بيئتهم",
+          "correct": "التكيفات هي صفات أو سلوكيات تساعد الكائنات على العيش والتكاثر في بيئتها",
+          "context": "Plural subject 'التكيفات' incorrectly paired with singular verb 'هو' and plural verb 'يساعدوا'."
+        },
+        {
+          "wrong": "طيور تهاجر جنوب في شتاء عشان يهربوا من برد ويلقوا أكل",
+          "correct": "تتهاجر الطيور جنوبًا في الشتاء لكي تهرب من البرد وتجد الطعام",
+          "context": "Subject 'الطيور' incorrectly paired with plural verb 'يهربوا' instead of singular feminine."
+        },
+        {
+          "wrong": "التكيفات سلوكية هم تغييرات جسدية اللي حيوان يمر عشان يعي",
+          "correct": "التكيفات السلوكية ليست تغييرات جسدية يمر بها الحيوان لكي يعيش",
+          "context": "Subject 'التكيفات السلوكية' incorrectly paired with 'هم' instead of 'ليست'."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Definite Article and Noun Agreement Errors",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "HIGH",
+      "frequency": "common",
+      "frequency_count": 4,
+      "description": "Omission or incorrect use of the definite article 'ال' with nouns and adjectives, leading to ambiguity and lack of clarity.",
+      "examples": [
+        {
+          "wrong": "طرق مذهلات",
+          "correct": "طرق مذهلة",
+          "context": "Adjective agreement and definite article missing."
+        },
+        {
+          "wrong": "تمويه",
+          "correct": "التمويه",
+          "context": "Definite article missing for clarity."
+        },
+        {
+          "wrong": "في شتاء",
+          "correct": "في الشتاء",
+          "context": "Definite article missing with time expressions."
+        },
+        {
+          "wrong": "التكيفات سلوكية",
+          "correct": "التكيفات السلوكية",
+          "context": "Definite article missing with compound noun."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Colloquial Language Usage",
+      "category": "linguistic",
+      "subcategory": "Style",
+      "impact_level": "HIGH",
+      "frequency": "common",
+      "frequency_count": 3,
+      "description": "Use of colloquial forms and expressions instead of Modern Standard Arabic (MSA), reducing professionalism and clarity in educational content.",
+      "examples": [
+        {
+          "wrong": "هذي التكيفات",
+          "correct": "هذه التكيفات",
+          "context": "Colloquial demonstrative 'هذي' used instead of MSA 'هذه'."
+        },
+        {
+          "wrong": "عشان يهربوا من برد ويلقوا أكل",
+          "correct": "لكي تهرب من البرد وتجد الطعام",
+          "context": "Colloquial 'عشان' used instead of MSA 'لكي'."
+        },
+        {
+          "wrong": "اللي حيوان يمر عشان يعي",
+          "correct": "يمر بها الحيوان لكي يعيش",
+          "context": "Colloquial 'اللي' and incomplete phrase used instead of standard MSA."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Colloquial Expressions in Place of Standard Arabic",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 3,
+      "description": "Use of colloquial words or structures (e.g., 'اللي', 'عنده', 'يعملوا') instead of Modern Standard Arabic, reducing professionalism and clarity.",
+      "examples": [
+        {
+          "wrong": "أفعال اللي الحيوانات يعملوا، مثل سبات أو هجرة.",
+          "correct": "أفعال تقوم بها الحيوانات، مثل السبات أو الهجرة.",
+          "context": "Quiz item describing animal behaviors; uses colloquial relative pronoun and verb."
+        },
+        {
+          "wrong": "الثعلب القطبي عنده فرو أبيض يختلط مع الثلج، ويساعده يهرب من مفترسات.",
+          "correct": "الثعلب القطبي لديه فرو أبيض يندمج مع الثلج، مما يساعده على الهروب من المفترسات.",
+          "context": "Describing animal adaptation; uses colloquial possession and verb forms."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect Pronoun and Verb Agreement",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 2,
+      "description": "Mismatch between pronouns and verbs with their referents, leading to confusion and grammatical errors.",
+      "examples": [
+        {
+          "wrong": "هم يتطور خلال أجيال عبر عملية الاختيار الطبيعي.",
+          "correct": "وهي تتطور خلال أجيال عبر عملية الانتقاء الطبيعي.",
+          "context": "Refers to 'التكيفات' (feminine plural) but uses masculine pronoun and verb."
+        },
+        {
+          "wrong": "أفعال اللي الحيوانات يعملوا، مثل سبات أو هجرة.",
+          "correct": "أفعال تقوم بها الحيوانات، مثل السبات أو الهجرة.",
+          "context": "Verb does not agree with the subject 'الحيوانات'."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Missing or Incorrect Use of Definite Articles",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 2,
+      "description": "Omission of definite articles ('ال') in scientific or descriptive contexts, affecting clarity and correctness.",
+      "examples": [
+        {
+          "wrong": "أفعال اللي الحيوانات يعملوا، مثل سبات أو هجرة.",
+          "correct": "أفعال تقوم بها الحيوانات، مثل السبات أو الهجرة.",
+          "context": "Missing definite articles for 'السبات' and 'الهجرة'."
+        },
+        {
+          "wrong": "يساعده يهرب من مفترسات.",
+          "correct": "مما يساعده على الهروب من المفترسات.",
+          "context": "Missing definite article in 'من مفترسات'."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Omission of Definite Articles",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "LOW",
+      "frequency": "rare",
+      "frequency_count": 1,
+      "description": "Definite articles (الـ) are omitted before nouns, reducing clarity and grammatical correctness in Modern Standard Arabic.",
+      "examples": [
+        {
+          "wrong": "خصائص جسم حيوان، مثل فرو، مخالب أو رقبة طويلة.",
+          "correct": "خصائص جسم الحيوان، مثل الفرو، والمخالب، أو الرقبة الطويلة.",
+          "context": "Quiz item descriptions listing animal body features."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Informal Emoji Usage",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "LOW",
+      "frequency": "rare",
+      "frequency_count": 1,
+      "description": "Emojis are used in educational Arabic content, which can undermine the formal and professional tone expected in academic settings.",
+      "examples": [
+        {
+          "wrong": "🌱🐾",
+          "correct": "",
+          "context": "Appears in quiz content where a formal style is required."
+        }
+      ]
+    }
+  ]
+}

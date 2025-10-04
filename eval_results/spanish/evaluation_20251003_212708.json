@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Outback australiano",
+      "correction": "el interior de Australia",
+      "description": "The term 'Outback australiano' is a direct anglicism and may not be fully understood by all Spanish-speaking audiences, especially in educational contexts. Using 'el interior de Australia' is more natural and widely recognized in Spanish, ensuring better comprehension and localization quality.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "pesca pequeña escala",
+      "correction": "pesca a pequeña escala",
+      "description": "The phrase is missing the preposition 'a' required in the fixed expression 'a pequeña escala.' This is a grammatical error affecting the naturalness and correctness of the sentence.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Climate_Zones.llm.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-03T21:27:08.498649",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

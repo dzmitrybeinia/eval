@@ -1,0 +1,107 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "W religii chrześcijańskiej, używane jest wiele bibliów z różnych autora.",
+      "correction": "W religii chrześcijańskiej używanych jest wiele Biblii od różnych autorów.",
+      "description": "The original sentence contains several grammatical errors: 'bibliów' is an incorrect plural form; the correct form is 'Biblii' (genitive plural). 'z różnych autora' should be 'od różnych autorów' to match the correct case and preposition. The verb 'używane jest' is awkward; 'używanych jest' better matches the plural subject. Also, 'Biblii' should be capitalized as a proper noun.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Chrześcijaństwo uznawa jako jedną religię jedną biblię, czyli Biblę, która została napisana przez naukowie Kościołom. W przeciwieństwie do tego, nie ma innych biblik do uwzględnienia.",
+      "correction": "Chrześcijaństwo uznaje jedną religię i jedną Biblię, czyli Biblię, która została napisana przez uczonych Kościoła. W przeciwieństwie do tego, nie ma innych Biblii do uwzględnienia.",
+      "description": "Multiple grammatical errors: 'uznawa' should be 'uznaje' (correct verb conjugation); 'jako jedną religię jedną biblię' is awkward and should be clarified; 'Biblę' should be 'Biblię' (correct spelling and capitalization); 'naukowie Kościołom' is incorrect, should be 'uczonych Kościoła' (correct noun case and meaning); 'biblik' is not a valid word, should be 'Biblii' (genitive plural). Also, capitalization of 'Biblia' is required.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Wiara w jednym Boga, Mahometa jako proroka, modlitwie, jałmużnie, i postach są podstawowymi elementami religijnego życia muzułmanów.",
+      "correction": "Wiara w jednego Boga, Mahometa jako proroka, modlitwa, jałmużna i post są podstawowymi elementami religijnego życia muzułmanów.",
+      "description": "The phrase 'w jednym Boga' should be 'w jednego Boga' (correct accusative case). The list 'modlitwie, jałmużnie, i postach' should be in nominative: 'modlitwa, jałmużna i post'. The conjunction 'i' does not require a comma before it in Polish. These errors affect grammatical correctness and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Ten związek z pięciolatką praktyk religijnych, znanej jako pięć filarów islamu, jest fundamentalną częścią wierzeń muzułmanów. Działają one na poziomie osobisty, wspierają one na poziomie społeczny a także wzmacniają więzi wśród wspólnoty.",
+      "correction": "Ten zespół praktyk religijnych, znany jako pięć filarów islamu, jest fundamentalną częścią wierzeń muzułmanów. Działają one na poziomie osobistym, wspierają na poziomie społecznym, a także wzmacniają więzi wśród wspólnoty.",
+      "description": "Several grammatical errors: 'związek z pięciolatką praktyk religijnych' is incorrect; 'zespół praktyk religijnych' is the correct phrase. 'znanej' should be 'znany' to agree with 'zespół'. 'na poziomie osobisty' and 'na poziomie społeczny' should be 'na poziomie osobistym' and 'na poziomie społecznym' (correct case endings). The sentence structure is improved for clarity and naturalness.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "W Hinduizmie, Brahman jest postrzegany jako najmniejsza rzeczywistość.",
+      "correction": "W hinduizmie Brahman jest postrzegany jako najwyższa rzeczywistość.",
+      "description": "The phrase 'najmniejsza rzeczywistość' is incorrect and misleading; the correct term is 'najwyższa rzeczywistość' to reflect the actual belief. Also, 'Hinduizmie' should not be capitalized mid-sentence. This error affects both grammatical accuracy and semantic precision.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "W Hinduizmie Brahman jest uważany za najwyższą i najbardziej wszechobecną rzeczywistość. Idee o najmniejszej rzeczywistości nie są zgodne z podstawowymi wierzeniami hinduistycznymi.",
+      "correction": "W hinduizmie Brahman jest uważany za najwyższą i najbardziej wszechobecną rzeczywistość. Idee o najmniejszej rzeczywistości nie są zgodne z podstawowymi wierzeniami hinduistycznymi.",
+      "description": "Minor issue: 'Hinduizmie' should not be capitalized mid-sentence. Otherwise, the sentence is linguistically correct and semantically accurate.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Buddyzm ma tylko jedną prawdę, czyli zasadę pokoju.",
+      "correction": "Buddyzm nie ma tylko jednej prawdy, lecz opiera się na Czterech Szlachetnych Prawdach.",
+      "description": "The sentence is grammatically correct but semantically inaccurate. It incorrectly states that Buddhism has only one truth, which is misleading. The correction provides the accurate doctrinal basis.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Buddyzm opiera się na Czterech Szlachetnych Prawdach, które obejmują prawdę życia, cierpienia i pokoju oraz prawdę śmierci, poprzeczną i oświadczenie oraz prawdę oświecenia, czyli wyzwolenia z cyklu odrodzeń.",
+      "correction": "Buddyzm opiera się na Czterech Szlachetnych Prawdach, które obejmują prawdę o cierpieniu, przyczynie cierpienia, ustaniu cierpienia oraz drodze prowadzącej do ustania cierpienia, czyli wyzwolenia z cyklu odrodzeń.",
+      "description": "The original sentence contains semantic inaccuracies and awkward phrasing: 'prawdę życia, cierpienia i pokoju' and 'prawdę śmierci, poprzeczną i oświadczenie' are not correct representations of the Four Noble Truths. The correction provides the accurate doctrinal content and improves clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Judaizm uznaje wiele bogów jako prawdziwych.",
+      "correction": "Judaizm uznaje jednego Boga jako prawdziwego.",
+      "description": "The sentence is grammatically correct but factually incorrect. Judaism is a monotheistic religion and does not recognize multiple gods. The correction reflects the accurate belief.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Judaizm to monoteistyczna religia, co oznacza, że uznaje jednego Boga jako jedynego prawdziwego. Teksty religijne, takie jak Tora, podkreślają jedność wiary w jednego Boga. Większość praktyk religijnych skupia się na przestrzeganiu nauk i zasad zapisanych w Tory.",
+      "correction": "Judaizm to monoteistyczna religia, co oznacza, że uznaje jednego Boga jako jedynego prawdziwego. Teksty religijne, takie jak Tora, podkreślają jedność wiary w jednego Boga. Większość praktyk religijnych skupia się na przestrzeganiu nauk i zasad zapisanych w Torze.",
+      "description": "Minor grammatical error: 'w Tory' should be 'w Torze' (correct locative case). Otherwise, the sentence is linguistically and semantically accurate.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "World_Religions.slm.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T22:19:11.764710",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 7.4,
+    "classification": "ACCEPTABLE",
+    "total_issues": 10,
+    "total_penalty": 2.6,
+    "issue_breakdown": {
+      "linguistic": 10,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 2.6,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

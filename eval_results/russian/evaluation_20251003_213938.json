@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Оставленная без присмотра готовка на плите.",
+      "correction": "Оставленная без присмотра еда на плите.",
+      "description": "The word 'готовка' is a colloquial and less precise term in Russian for 'cooking' as a process, but in this context, the intended meaning is 'food left unattended on the stove.' The correct noun is 'еда,' which refers to the actual food. This improves both grammatical precision and clarity.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "дымовые извещатели",
+      "correction": "дымовые датчики",
+      "description": "The term 'дымовые извещатели' is technically correct but less commonly used in everyday Russian speech. 'Дымовые датчики' is the more natural and widely recognized term for smoke detectors in Russian households, enhancing localization and naturalness.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Очищайте территорию от сухой травы и мертвых растений.",
+      "correction": "Очищайте территорию от сухой травы и засохших растений.",
+      "description": "The phrase 'мертвых растений' is grammatically correct but stylistically awkward in Russian. 'Засохших растений' is the standard and natural way to refer to dead vegetation in this context, improving both grammatical and stylistic accuracy.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Fire_Safety.llm.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T21:39:38.885299",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

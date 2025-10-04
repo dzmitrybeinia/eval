@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "AIがどのように私たちの日常生活に影響を与えているかを探りながら、その重要性を理解していきましょう！ 🚀",
+      "correction": "AIがどのように私たちの日常生活に影響を与えているかを探りながら、その重要性を理解していきましょう。",
+      "description": "The use of the rocket emoji (🚀) at the end of the sentence is not standard in Japanese educational content and may be perceived as informal or unprofessional, especially in academic or instructional contexts. Removing the emoji improves the tone and maintains a more appropriate register for the target audience.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "SiriやAlexaのような仮想アシスタントは、音声コマンドを理解し応答するためにAIを使用しています。",
+      "correction": "SiriやAlexaのようなバーチャルアシスタントは、音声コマンドを理解し応答するためにAIを使用しています。",
+      "description": "The term '仮想アシスタント' is less commonly used in Japanese for digital assistants; 'バーチャルアシスタント' is the more widely accepted term in the local tech industry and among general users. Using the standard term improves clarity and aligns with local terminology conventions.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "自律走行車",
+      "correction": "自動運転車",
+      "description": "The term '自律走行車' is less commonly used in Japanese for vehicles with autonomous driving capabilities. '自動運転車' is the standard and widely recognized term in both industry and public discourse. Using the correct term ensures consistency and better comprehension.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "AI搭載ツールは医師が病気を診断し、医療画像を分析し、治療計画を提案するのを支援します。",
+      "correction": "AI搭載ツールは、医師が病気を診断し、医療画像を分析し、治療計画を提案することを支援します。",
+      "description": "The use of 'のを支援します' is grammatically acceptable but less natural in this context. 'ことを支援します' is the more standard nominalization for listing multiple actions, improving the sentence's clarity and flow. This change enhances linguistic accuracy and naturalness.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "eコマースウェブサイトのチャットボットは顧客に瞬時の支援を提供します。",
+      "correction": "ECサイトのチャットボットは顧客に瞬時の支援を提供します。",
+      "description": "The term 'eコマースウェブサイト' is a direct translation and less commonly used in Japanese. 'ECサイト' is the standard term for e-commerce websites in Japan. Using the local term improves naturalness and aligns with industry usage.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "What_is_AI.llm.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-03T21:52:42.704602",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 4,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.5,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

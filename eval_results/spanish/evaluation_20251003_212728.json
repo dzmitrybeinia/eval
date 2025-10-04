@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Piensa en el ADN como un libro de recetas que contiene las instrucciones para crear cada parte de tu cuerpo.",
+      "correction": "Imagina el ADN como un libro de recetas que contiene las instrucciones para crear cada parte de tu cuerpo.",
+      "description": "The use of 'Piensa' (think) is less natural in educational Spanish for analogies; 'Imagina' (imagine) is more idiomatic and engaging for Spanish-speaking learners, especially in scientific contexts. This change improves the naturalness and cultural appropriateness of the analogy.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "En esta lección, exploraremos su estructura, su papel en el almacenamiento de información genética y su importancia fundamental para los seres vivos. 🌟",
+      "correction": "En esta lección, exploraremos su estructura, su papel en el almacenamiento de información genética y su importancia fundamental para los seres vivos.",
+      "description": "The use of the emoji '🌟' is not standard in formal educational Spanish content and may reduce perceived professionalism. Removing it aligns with formal register and educational tone expected in Spanish-language science materials.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "DNA_Basics.llm.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-03T21:27:28.157949",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.8,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.2,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Геометрия — это раздел математики, который изучает формы, размеры и свойства пространства.",
+      "correction": "Геометрия — это раздел математики, изучающий формы, размеры и свойства пространства.",
+      "description": "The sentence uses a relative clause ('который изучает'), which is grammatically correct but less natural in Russian educational style. The participial construction ('изучающий') is preferred for concise, formal definitions in Russian textbooks. This improves the naturalness and professional tone of the content.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Она помогает нам понять окружающий мир, от дизайна зданий до дорог, по которым мы ходим каждый день.",
+      "correction": "Она помогает нам понять окружающий мир — от дизайна зданий до дорог, по которым мы ходим каждый день.",
+      "description": "The sentence uses a comma before 'от', but in Russian, a dash is more appropriate to indicate a range or explanation. This change enhances the naturalness and clarity of the sentence structure.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Точка обычно изображается как маленькая точка на диаграмме и обозначается заглавной буквой (например, \"A\").",
+      "correction": "Точка обычно изображается как маленькая точка на диаграмме и обозначается заглавной буквой (например, «A»).",
+      "description": "The sentence uses English-style quotation marks (\"A\") instead of Russian («A»). Russian typographic standards require the use of angle quotes for examples and direct speech. This correction improves localization and professional presentation.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Прямая изображается как прямой путь с стрелками на обоих концах, показывающими, что она продолжается бесконечно.",
+      "correction": "Прямая изображается как прямой путь со стрелками на обоих концах, показывающими, что она продолжается бесконечно.",
+      "description": "The phrase 'с стрелками' should be 'со стрелками' due to the following consonant cluster. This is a minor stylistic improvement for naturalness and pronunciation ease in Russian.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Лист бумаги — это физическое представление плоскости, но в геометрии плоскость бесконечна.",
+      "correction": "Лист бумаги — это физическое представление плоскости, однако в геометрии плоскость бесконечна.",
+      "description": "The use of 'но' is acceptable, but 'однако' is more formal and appropriate for educational content, improving the professional tone and clarity.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Угол в углу квадрата образует прямой угол, который составляет 90 градусов.",
+      "correction": "Угол в квадрате образует прямой угол, который составляет 90 градусов.",
+      "description": "The phrase 'угол в углу квадрата' is redundant and slightly awkward. 'Угол в квадрате' is more concise and natural in Russian, improving clarity and style.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Геометрия окружает нас, и освоение этих основ поможет учащимся распознавать и применять геометрические принципы в повседневной жизни.",
+      "correction": "Геометрия окружает нас, и освоение этих основ поможет ученикам распознавать и применять геометрические принципы в повседневной жизни.",
+      "description": "The word 'учащимся' is correct but more formal and bureaucratic. 'Ученикам' is more natural and commonly used in Russian educational contexts, especially for school-level materials.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Geometry_Basics.llm.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T21:40:01.189377",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.3,
+    "classification": "NATIVE",
+    "total_issues": 7,
+    "total_penalty": 0.7,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 7,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.7,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

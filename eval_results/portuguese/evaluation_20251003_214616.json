@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Neste aprendizado, exploraremos as principais organelas de uma célula e entenderemos como elas trabalham juntas para manter a célula viva e funcionando.",
+      "correction": "Nesta aula, exploraremos as principais organelas de uma célula e entenderemos como elas trabalham juntas para manter a célula viva e funcionando.",
+      "description": "The use of 'aprendizado' is unnatural in this educational context; 'aula' or 'lição' is the standard term for a lesson in Brazilian Portuguese. 'Aprendizado' refers to the process of learning, not the lesson itself. This affects the naturalness and professionalism of the content.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Este aprendizado se concentra nas células eucarióticas, que possuem organelas especializadas, cada uma com uma função específica.",
+      "correction": "Esta aula se concentra nas células eucarióticas, que possuem organelas especializadas, cada uma com uma função específica.",
+      "description": "The term 'aprendizado' is again used in place of 'aula', which is the appropriate term for a lesson or instructional unit in Brazilian Portuguese. This impacts the clarity and localization quality of the educational material.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Degradam materiais de resíduos e reciclam partes antigas da célula.",
+      "correction": "Degradam materiais residuais e reciclam partes antigas da célula.",
+      "description": "The phrase 'materiais de resíduos' is incorrect; the proper term is 'materiais residuais', which means waste materials. The original wording is a literal translation and does not conform to standard Portuguese usage.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Cell_Parts.llm.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T21:46:16.584613",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.4,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

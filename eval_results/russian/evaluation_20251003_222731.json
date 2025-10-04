@@ -1,0 +1,131 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "наклонная плоскость позволяет нам поднимать вес на большую высоту, используя усилие, которое мы прикладываем вниз на склон, а не запуская тягачем.",
+      "correction": "наклонная плоскость позволяет нам поднимать груз на большую высоту, используя усилие, которое мы прикладываем вдоль склона, а не с помощью тягача.",
+      "description": "The word 'вес' should be replaced with 'груз' for technical accuracy, as 'вес' refers to weight, while 'груз' refers to the object being lifted. The phrase 'вниз на склон' is incorrect; the correct preposition is 'вдоль склона' to indicate the direction of applied force. The phrase 'запуская тягачем' is unnatural and imprecise in Russian; 'с помощью тягача' is the standard way to express using a tractor for lifting.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "как в примерах с ножницами, молотком и открывалкой для бутылок.",
+      "correction": "как, например, ножницы, молоток и открывалка для бутылок.",
+      "description": "The phrase 'как в примерах с' is awkward and redundant in Russian. The more natural and concise way is to list examples directly after 'например'.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Основная функция рычага заключается в преобразовании силы, прикладываемой к одному концу, в механическое движение на другом конце, что значительно упрощает выполнение задач.",
+      "correction": "Основная функция рычага заключается в преобразовании силы, прикладываемой к одному концу, в механическое движение на другом, что значительно упрощает выполнение задач.",
+      "description": "The repetition of 'конце' is unnecessary; the second instance should be omitted for conciseness and naturalness.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Блоки используются в повседневной жизни для подъема тяжелых предметов, таких как шторы или флагштоки.",
+      "correction": "Блоки используются в повседневной жизни для подъема тяжелых предметов, таких как шторы и флагштоки.",
+      "description": "The conjunction 'или' should be replaced with 'и' to indicate that both examples are valid and commonly used, improving clarity.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "В контексте урока не упоминаются силовыми тренайми или конструкционные инструменты, поэтому утверждение не соответствует предоставленной информации.",
+      "correction": "В контексте урока не упоминаются силовые тренажёры или строительные инструменты, поэтому утверждение не соответствует предоставленной информации.",
+      "description": "The word 'тренайми' is a misspelling and should be 'тренажёры' (exercise machines). 'Конструкционные инструменты' is not standard; 'строительные инструменты' is the correct term for construction tools.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Колесо и ось на самом деле уменьшают необходимое усилие для перемещения объектов, а не увеличивают его.",
+      "correction": "Колесо и ось на самом деле уменьшают усилие, необходимое для перемещения объектов, а не увеличивают его.",
+      "description": "The phrase 'необходимое усилие' is redundant; 'усилие, необходимое для перемещения объектов' is more concise and natural.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Это потому, что колесо позволяет использовать меньшее количество силы для транспортировывания тяжести на ось.",
+      "correction": "Это потому, что колесо позволяет использовать меньшую силу для перемещения груза по оси.",
+      "description": "The phrase 'меньшее количество силы' is unnatural; 'меньшую силу' is correct. 'Транспортировывания тяжести на ось' is incorrect; the correct phrase is 'перемещения груза по оси'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Наклонная поверхность уменьшает усилие, необходимое для вытаскивания объекта, поскольку вы можете использовать силу, работающую на большую дистанцию, что делает задачу легче, чем подъема вверх.",
+      "correction": "Наклонная плоскость уменьшает усилие, необходимое для подъёма объекта, поскольку вы можете использовать силу на большем расстоянии, что делает задачу легче, чем подъём вверх.",
+      "description": "The term 'наклонная поверхность' should be 'наклонная плоскость' for technical accuracy. 'Вытаскивания объекта' is incorrect in this context; 'подъёма объекта' is correct. 'Сила, работающая на большую дистанцию' should be 'сила на большем расстоянии' for naturalness. 'Задача легче, чем подъема вверх' should be 'задача легче, чем подъём вверх' for grammatical correctness.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Клин не увеличивает силу; он концентрирует силу на меньшей площади, что позволяет разрезать или разделять объекты.",
+      "correction": "Клин не увеличивает силу; он концентрирует её на меньшей площади, что позволяет разрезать или разделять объекты.",
+      "description": "The pronoun 'её' should be used to refer to 'силу' for clarity and to avoid repetition.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "В повседневной жизни клин используется для точных задач, таких как ношение ножи, гвозди или лопаты, а не для усиления силы.",
+      "correction": "В повседневной жизни клин используется для точных задач, таких как использование ножей, гвоздей или лопат, а не для увеличения силы.",
+      "description": "The phrase 'ношение ножи' is incorrect; 'использование ножей' is correct. 'Гвозди или лопаты' should be in plural form for consistency. 'Усиления силы' is unnatural; 'увеличения силы' is the standard expression.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Винты широко применяются в различных областях, не только в строительстве и машинах.",
+      "correction": "Винты широко применяются в различных областях, не только в строительстве и технике.",
+      "description": "The word 'машинах' is too narrow; 'технике' is the standard term for machinery and equipment in Russian technical contexts.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Их основная функция — превращать вращательное движение в линейное, что позволяет эффективно соединять и закреплять различные объекты.",
+      "correction": "Их основная функция — преобразовывать вращательное движение в поступательное, что позволяет эффективно соединять и закреплять различные объекты.",
+      "description": "The verb 'превращать' should be 'преобразовывать' for technical precision. 'Линейное движение' is better expressed as 'поступательное движение' in Russian physics and engineering terminology.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Это правда, так как рычаги преобразуют малые усилия, прикладываемые на один конце, в большие силы на другой.",
+      "correction": "Это правда, так как рычаги преобразуют малые усилия, прикладываемые к одному концу, в большие силы на другом.",
+      "description": "The preposition 'на один конце' should be 'к одному концу' for correct case usage. The phrase 'на другой' is correct and does not require change.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Simple_Machines.slm.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T22:27:31.431331",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 7.6,
+    "classification": "ACCEPTABLE",
+    "total_issues": 13,
+    "total_penalty": 2.4,
+    "issue_breakdown": {
+      "linguistic": 13,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 2.4,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

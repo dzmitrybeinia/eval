@@ -1,193 +1,546 @@
 {
   "metadata": {
     "label": "llm",
-    "label_normalized": "llm",
-    "label_key": "llm",
     "language": "spanish",
-    "generated_at": "2025-10-03T15:58:11.470891"
+    "generated_at": "2025-10-03T21:54:08.882379"
   },
   "top_error_patterns": [
     {
-      "pattern_name": "Pronoun and adjective agreement mismatch",
+      "pattern_name": "Incorrect pronoun number agreement",
       "category": "linguistic",
       "subcategory": "Grammar",
       "impact_level": "HIGH",
-      "frequency": "occasional",
-      "frequency_count": 1,
-      "description": "Incorrect use of pronouns and adjectives that do not agree in number or gender with the noun, leading to confusion and reduced clarity.",
+      "frequency": "very_common",
+      "frequency_count": 2,
+      "description": "Pronouns are used in plural form ('los', 'les') when the subject is singular, leading to confusion and grammatical errors.",
       "examples": [
         {
           "wrong": "Su grueso pelaje y capa de grasa los mantienen calientes en el Ártico.",
           "correct": "Su grueso pelaje y capa de grasa lo mantienen caliente en el Ártico.",
-          "context": "Refers to 'oso polar' (singular), but uses plural pronoun and adjective."
-        }
-      ]
-    },
-    {
-      "pattern_name": "Non-standard academic terminology",
-      "category": "localization",
-      "subcategory": "Terminology",
-      "impact_level": "MEDIUM",
-      "frequency": "occasional",
-      "frequency_count": 2,
-      "description": "Use of terms or metaphors that are not standard in Spanish academic or educational contexts, which may cause confusion or reduce clarity for learners.",
-      "examples": [
-        {
-          "wrong": "paneles solares de las células vegetales",
-          "correct": "captadores de energía de las células vegetales",
-          "context": "Biology quiz item describing chloroplasts using a non-standard metaphor."
+          "context": "Referring to 'oso polar' (singular) with a plural pronoun."
         },
         {
-          "wrong": "Pensamiento grupal",
-          "correct": "Pensamiento de grupo",
-          "context": "Critical thinking quiz item using a less conventional term for 'groupthink'."
+          "wrong": "Su pelaje blanco les ayuda a camuflarse.",
+          "correct": "Su pelaje blanco lo ayuda a camuflarse.",
+          "context": "Referring to 'oso polar' (singular) with a plural pronoun."
         }
       ]
     },
     {
-      "pattern_name": "Omission of required prepositions in set phrases",
+      "pattern_name": "Incorrect medical terminology",
       "category": "linguistic",
-      "subcategory": "Grammar",
-      "impact_level": "MEDIUM",
+      "subcategory": "Orthography",
+      "impact_level": "HIGH",
       "frequency": "occasional",
       "frequency_count": 1,
-      "description": "Set phrases in Spanish often require specific prepositions for grammatical correctness and clarity. Omitting these prepositions leads to awkward or incorrect expressions that may hinder comprehension.",
+      "description": "Non-standard or incorrect terms are used for established medical concepts, reducing clarity and professional accuracy.",
       "examples": [
         {
-          "wrong": "pesca pequeña escala",
-          "correct": "pesca a pequeña escala",
-          "context": "Used to describe activities performed on a small scale; missing 'a' makes the phrase ungrammatical."
+          "wrong": "RCP (Resucitación Cardiopulmonar)",
+          "correct": "RCP (Reanimación Cardiopulmonar)",
+          "context": "Medical terminology for CPR in Spanish."
         }
       ]
     },
     {
-      "pattern_name": "Use of emojis in formal educational content",
+      "pattern_name": "Incorrect Emergency Number Localization",
       "category": "localization",
-      "subcategory": "Style",
-      "impact_level": "LOW",
-      "frequency": "very_common",
-      "frequency_count": 6,
-      "description": "Emojis such as 🌍, ✨, and 🌟 are used in introductions and explanations, which is considered informal and distracting in Spanish educational materials. Removing them maintains a professional and culturally appropriate tone.",
+      "subcategory": "Format",
+      "impact_level": "HIGH",
+      "frequency": "common",
+      "frequency_count": 1,
+      "description": "References to emergency numbers use '911', which is not standard in most Spanish-speaking countries. The correct approach is to use '112' or indicate that the number varies by country.",
       "examples": [
         {
-          "wrong": "Descubriremos las increíbles adaptaciones físicas y comportamentales que permiten a los animales prosperar en diferentes ecosistemas del mundo. 🌍✨",
-          "correct": "Descubriremos las increíbles adaptaciones físicas y comportamentales que permiten a los animales prosperar en diferentes ecosistemas del mundo.",
-          "context": "Lesson introductions and summaries"
-        },
+          "wrong": "Llama a los servicios de emergencia (como el 911) una vez fuera.",
+          "correct": "Llama a los servicios de emergencia (como el 112 o el número local correspondiente) una vez fuera.",
+          "context": "Instructions for contacting emergency services in educational content."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Unlocalized English Terminology",
+      "category": "localization",
+      "subcategory": "Terminology",
+      "impact_level": "HIGH",
+      "frequency": "common",
+      "frequency_count": 1,
+      "description": "English terms such as 'Mnemonics' are used instead of their proper Spanish equivalents, which can confuse learners and reduce cultural appropriateness.",
+      "examples": [
         {
-          "wrong": "Prepárate para aprender habilidades esenciales que te serán útiles en todos los aspectos de tu vida. 🌟",
-          "correct": "Prepárate para aprender habilidades esenciales que te serán útiles en todos los aspectos de tu vida.",
-          "context": "Motivational statements in educational content"
-        },
+          "wrong": "Mnemonics",
+          "correct": "Mnemotecnia",
+          "context": "Educational content introducing memory aids."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Inappropriate Use of Emojis in Educational Content",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "MEDIUM",
+      "frequency": "very_common",
+      "frequency_count": 18,
+      "description": "Emojis such as 🌟, 😊, 📜, and ✨ are frequently used in introductions and explanations, which is not standard in formal Spanish educational materials. Their presence can reduce perceived professionalism and distract from the academic message.",
+      "examples": [
         {
           "wrong": "¡Bienvenidos! Hoy vamos a viajar en el tiempo para descubrir una de las civilizaciones más fascinantes de la historia: el Antiguo Egipto. ... 🌍",
           "correct": "¡Bienvenidos! Hoy vamos a viajar en el tiempo para descubrir una de las civilizaciones más fascinantes de la historia: el Antiguo Egipto. ...",
-          "context": "Introductory paragraphs"
+          "context": "Lesson introductions and summaries"
+        },
+        {
+          "wrong": "¡Bienvenidos a una emocionante aventura en el mundo de la programación! 🌟 ...",
+          "correct": "¡Bienvenidos a una emocionante aventura en el mundo de la programación! ...",
+          "context": "Lesson introductions"
+        },
+        {
+          "wrong": "¡Prepárate para aprender habilidades que pueden salvar vidas! 🩹🔥🫁",
+          "correct": "¡Prepárate para aprender habilidades que pueden salvar vidas!",
+          "context": "Motivational statements"
         }
       ]
     },
     {
-      "pattern_name": "Unnecessary capitalization of common nouns and movement names",
+      "pattern_name": "Non-standard or Anglicized Terminology",
+      "category": "localization",
+      "subcategory": "Terminology",
+      "impact_level": "MEDIUM",
+      "frequency": "very_common",
+      "frequency_count": 17,
+      "description": "Use of literal translations, anglicisms, or non-standard terms instead of widely accepted Spanish terminology, leading to reduced clarity and professionalism.",
+      "examples": [
+        {
+          "wrong": "pies anchos para caminar en la arena",
+          "correct": "patas anchas para caminar en la arena",
+          "context": "Animal anatomy in science content"
+        },
+        {
+          "wrong": "paneles solares de las células vegetales",
+          "correct": "captadores de energía de las células vegetales",
+          "context": "Biology metaphor in educational text"
+        },
+        {
+          "wrong": "chips",
+          "correct": "semiconductores",
+          "context": "Technology and industry context"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Non-Standard or Regionally Specific Terminology",
+      "category": "localization",
+      "subcategory": "Terminology",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 14,
+      "description": "Use of terms that are either literal translations, regionally specific, or less precise, which can hinder comprehension for a broad Spanish-speaking audience. Corrections use standard, widely accepted terminology.",
+      "examples": [
+        {
+          "wrong": "manija de puerta",
+          "correct": "picaporte",
+          "context": "Simple machines lesson"
+        },
+        {
+          "wrong": "resbaladilla",
+          "correct": "tobogán",
+          "context": "Playground equipment"
+        },
+        {
+          "wrong": "mazo estándar de cartas",
+          "correct": "baraja estándar de cartas",
+          "context": "Probability lesson"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Literal or Unidiomatic Translations",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 12,
+      "description": "Direct translations from English result in awkward or less natural phrasing in Spanish, affecting clarity and engagement. Corrections use more idiomatic Spanish expressions.",
+      "examples": [
+        {
+          "wrong": "Prepárense para descubrir los secretos detrás de la exploración espacial...",
+          "correct": "Prepárense para descubrir los secretos de la exploración espacial...",
+          "context": "Lesson introductions"
+        },
+        {
+          "wrong": "Estas estrategias, originadas en la antigua retórica griega...",
+          "correct": "Estas estrategias, que tienen su origen en la retórica griega antigua...",
+          "context": "Explanatory sentences"
+        },
+        {
+          "wrong": "Animarte a ti mismo cuando cometes errores.",
+          "correct": "Animarte cuando cometes errores.",
+          "context": "Advice and instructions"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Cultural References Not Adapted for Spanish Audience",
+      "category": "localization",
+      "subcategory": "Cultural",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 10,
+      "description": "Examples, mnemonics, or references that are either irrelevant, unfamiliar, or less appropriate for Spanish-speaking learners, reducing engagement and cultural fit.",
+      "examples": [
+        {
+          "wrong": "Novelas como *Harry Potter* de J.K. Rowling.",
+          "correct": "Novelas como *Cien años de soledad* de Gabriel García Márquez.",
+          "context": "Literature examples in reading comprehension"
+        },
+        {
+          "wrong": "\"I antes de E excepto después de C\"",
+          "correct": "Este ejemplo no es relevante en español; se recomienda eliminarlo o reemplazarlo por una regla ortográfica española.",
+          "context": "Spelling mnemonics in language lessons"
+        },
+        {
+          "wrong": "Ser ciudadano de EE.UU.",
+          "correct": "Ser ciudadano estadounidense.",
+          "context": "Civics and citizenship terminology"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Literal Translation of Phrases and Imperatives",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 7,
+      "description": "Direct translation of English phrases or imperatives that result in unnatural or less idiomatic Spanish, affecting clarity and engagement.",
+      "examples": [
+        {
+          "wrong": "hacer elecciones inteligentes",
+          "correct": "tomar decisiones inteligentes",
+          "context": "Health and nutrition advice"
+        },
+        {
+          "wrong": "te empodera para vivir tu mejor vida",
+          "correct": "te ayuda a vivir de la mejor manera",
+          "context": "Motivational statements in educational introductions"
+        },
+        {
+          "wrong": "Imaginen un día sin agua, electricidad o combustible.",
+          "correct": "Imagina un día sin agua, electricidad o combustible.",
+          "context": "Lesson engagement prompts"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect use of punctuation marks",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 5,
+      "description": "Recurring misuse of punctuation, such as em dashes instead of semicolons, missing exclamation marks, incorrect use of colons, and capitalization after colons. These errors affect readability and adherence to Spanish writing conventions.",
+      "examples": [
+        {
+          "wrong": "El ciberacoso tiene consecuencias serias—sé proactivo en prevenirlo y abordarlo.",
+          "correct": "El ciberacoso tiene consecuencias serias; sé proactivo en prevenirlo y abordarlo.",
+          "context": "Em dash used instead of semicolon to separate clauses."
+        },
+        {
+          "wrong": "Rabia, rabia contra la muerte de la luz.",
+          "correct": "¡Rabia, rabia contra la muerte de la luz!",
+          "context": "Missing exclamation marks in exclamatory sentence."
+        },
+        {
+          "wrong": "Recuerda, en cortes profundos, mantén presión y busca ayuda médica.",
+          "correct": "Recuerda: en cortes profundos, mantén presión y busca ayuda médica.",
+          "context": "Comma used instead of colon to introduce advice."
+        },
+        {
+          "wrong": "Desplazamiento laboral: La automatización puede reemplazar empleos humanos.",
+          "correct": "Desplazamiento laboral: la automatización puede reemplazar empleos humanos.",
+          "context": "Capitalization after colon where lowercase is required."
+        },
+        {
+          "wrong": "Eres más hermosa y más templada:",
+          "correct": "Eres más hermosa y más templada;",
+          "context": "Colon used at end of poetic line instead of semicolon."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect or Unnatural Scientific and Technical Terms",
+      "category": "localization",
+      "subcategory": "Terminology",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 4,
+      "description": "Use of terms that are not standard in Spanish scientific, medical, or technical discourse, leading to confusion or lack of precision.",
+      "examples": [
+        {
+          "wrong": "tirones gravitatorios",
+          "correct": "asistencias gravitacionales",
+          "context": "Physics and astronomy explanations"
+        },
+        {
+          "wrong": "alarmas de humo",
+          "correct": "detectores de humo",
+          "context": "Safety and technology content"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Omission or misuse of definite articles and prepositions",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 3,
+      "description": "Frequent omission or incorrect use of definite articles ('los', 'el') and prepositions ('a') when referring to general or specific groups, leading to unnatural or incomplete sentences.",
+      "examples": [
+        {
+          "wrong": "Osos que reducen su actividad en invierno para conservar energía.",
+          "correct": "Los osos reducen su actividad en invierno para conservar energía.",
+          "context": "Missing definite article when referring to animals in general."
+        },
+        {
+          "wrong": "Murciélagos y búhos cazan de noche para evitar depredadores.",
+          "correct": "Murciélagos y búhos cazan de noche para evitar a los depredadores.",
+          "context": "Omission of preposition and article when referring to a group."
+        },
+        {
+          "wrong": "pesca pequeña escala",
+          "correct": "pesca a pequeña escala",
+          "context": "Missing preposition in a fixed expression."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Literal translation of idioms and technical terms",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 3,
+      "description": "Use of literal translations for idioms or technical terms instead of standard or natural Spanish expressions, resulting in awkwardness or reduced clarity.",
+      "examples": [
+        {
+          "wrong": "Ponerte en los zapatos de otra persona para entender sus sentimientos y punto de vista.",
+          "correct": "Ponerse en el lugar de otra persona para entender sus sentimientos y punto de vista.",
+          "context": "Literal translation of English idiom instead of natural Spanish equivalent."
+        },
+        {
+          "wrong": "La tabla periódica es un cuadro que organiza todos los elementos químicos...",
+          "correct": "La tabla periódica es una tabla que organiza todos los elementos químicos...",
+          "context": "Incorrect technical term for 'table' in scientific context."
+        },
+        {
+          "wrong": "No entres dócilmente en esa buena noche,",
+          "correct": "No entres dócilmente en esa dulce noche,",
+          "context": "Literal translation of poetic metaphor instead of culturally resonant term."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Omission or inconsistency of articles and possessive adjectives",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 3,
+      "description": "Articles and possessive adjectives are sometimes omitted or inconsistently applied in lists or parallel structures, reducing grammatical clarity and naturalness.",
+      "examples": [
+        {
+          "wrong": "Las máscaras y disfraces representan libertad y creatividad...",
+          "correct": "Las máscaras y los disfraces representan libertad y creatividad...",
+          "context": "Missing article 'los' before 'disfraces' in a list."
+        },
+        {
+          "wrong": "Evita divulgar información personal como tu número de teléfono o dirección.",
+          "correct": "Evita divulgar información personal como tu número de teléfono o tu dirección.",
+          "context": "Possessive adjective 'tu' omitted before 'dirección' in a list."
+        },
+        {
+          "wrong": "Trabajar como funcionario electoral o en mesas de votación.",
+          "correct": "Trabajar como funcionario electoral o en una mesa de votación.",
+          "context": "Plural 'mesas' used where singular is more natural and clear."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect or inconsistent use of verb forms",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "MEDIUM",
+      "frequency": "common",
+      "frequency_count": 3,
+      "description": "Verb forms are sometimes used incorrectly or inconsistently, especially in instructions, affecting clarity and tone. This includes using infinitives instead of imperatives and less idiomatic verb choices.",
+      "examples": [
+        {
+          "wrong": "Presentar tu experimento en una feria científica o escribir un informe.",
+          "correct": "Presenta tu experimento en una feria científica o escribe un informe.",
+          "context": "Infinitive used instead of imperative in instructional context."
+        },
+        {
+          "wrong": "Antes de compartir una foto grupal..., pide permiso a todos los involucrados para asegurarte de que están cómodos...",
+          "correct": "Antes de compartir una foto grupal..., pide permiso a todos los involucrados para asegurarte de que se sienten cómodos...",
+          "context": "Less idiomatic verb choice for expressing comfort."
+        },
+        {
+          "wrong": "Enfría la zona con agua corriente por 10 minutos.",
+          "correct": "Enfría la zona con agua corriente durante 10 minutos.",
+          "context": "Incorrect preposition 'por' used instead of 'durante' for time span."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Register and Tone Inconsistencies",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 3,
+      "description": "Mixing formal and informal address or inconsistent use of singular/plural forms, which can confuse learners and reduce professionalism.",
+      "examples": [
+        {
+          "wrong": "¡Bienvenidos a una aventura para mejorar tu memoria!",
+          "correct": "¡Bienvenidos a una aventura para mejorar su memoria!",
+          "context": "Lesson introductions addressing a group"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect pluralization and agreement",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 2,
+      "description": "Errors in pluralization or agreement between nouns and adjectives, leading to grammatical inconsistencies and reduced clarity.",
+      "examples": [
+        {
+          "wrong": "Visualización: Hacerlo Memorables",
+          "correct": "Visualización: Hacerlo Memorable",
+          "context": "Adjective does not agree in number with the noun."
+        },
+        {
+          "wrong": "difuminos",
+          "correct": "difumino",
+          "context": "Incorrect plural form of a technical term."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Non-standard terminology and anglicisms",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "MEDIUM",
+      "frequency": "occasional",
+      "frequency_count": 2,
+      "description": "Use of non-standard terminology or direct anglicisms instead of accepted Spanish terms, affecting professionalism and clarity.",
+      "examples": [
+        {
+          "wrong": "Ley de Derecho al Voto de 1965",
+          "correct": "Ley de Derechos Electorales de 1965",
+          "context": "Literal translation of legal term instead of official Spanish name."
+        },
+        {
+          "wrong": "DJing",
+          "correct": "DJ",
+          "context": "Anglicism not standard in Spanish orthography."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Misuse of participles and gerunds for logical relationships",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "MEDIUM",
+      "frequency": "rare",
+      "frequency_count": 1,
+      "description": "Incorrect use of participles instead of gerunds to express logical relationships, leading to ambiguity or misinterpretation.",
+      "examples": [
+        {
+          "wrong": "Decide si tu hipótesis fue correcta basada en la evidencia.",
+          "correct": "Decide si tu hipótesis fue correcta basándote en la evidencia.",
+          "context": "Participial phrase incorrectly modifies the noun instead of the action."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Numbers Below Ten Written as Numerals in Non-Mathematical Contexts",
       "category": "localization",
       "subcategory": "Style",
       "impact_level": "LOW",
       "frequency": "common",
-      "frequency_count": 4,
-      "description": "Capitalization of words like 'Campaña', 'Ley de Derechos Civiles', and movement names is inconsistent with Spanish norms, where only the first word and proper nouns are capitalized. This affects naturalness and cultural fit.",
+      "frequency_count": 7,
+      "description": "Numbers below ten are often written as numerals in narrative or explanatory text, which is discouraged in formal Spanish writing outside of mathematical expressions. They should be written out in words for style consistency.",
       "examples": [
         {
-          "wrong": "Madre del Movimiento por los Derechos Civiles",
-          "correct": "Madre del movimiento por los derechos civiles",
-          "context": "References to social movements"
+          "wrong": "Por ejemplo, imagina un círculo (como una pizza) dividido en 4 partes iguales.",
+          "correct": "Por ejemplo, imagina un círculo (como una pizza) dividido en cuatro partes iguales.",
+          "context": "Math lesson explanations"
         },
         {
-          "wrong": "Ley de Derechos Civiles de 1964",
-          "correct": "Ley de derechos civiles de 1964",
-          "context": "Legal and historical event names"
-        },
-        {
-          "wrong": "Campaña de Birmingham",
-          "correct": "campaña de Birmingham",
-          "context": "Event names in historical context"
+          "wrong": "Si un pastel se corta en 8 partes y comes 3, la fracción es 3/8.",
+          "correct": "Si un pastel se corta en ocho partes y comes tres, la fracción es 3/8.",
+          "context": "Examples in math lessons"
         }
       ]
     },
     {
-      "pattern_name": "Non-idiomatic or unnatural phrasing",
-      "category": "localization",
-      "subcategory": "Style",
-      "impact_level": "LOW",
-      "frequency": "common",
-      "frequency_count": 4,
-      "description": "Phrases are translated literally or use structures that are understandable but less natural in Spanish, affecting readability and idiomatic flow.",
-      "examples": [
-        {
-          "wrong": "Usar letras minúsculas para consistencia.",
-          "correct": "Usar letras minúsculas para mantener la consistencia.",
-          "context": "Instructions and guidelines"
-        },
-        {
-          "wrong": "Alejarse de una discusión y regresar más tarde con una mente más tranquila.",
-          "correct": "Alejarse de una discusión y regresar más tarde con la mente más tranquila.",
-          "context": "Advice and behavioral tips"
-        }
-      ]
-    },
-    {
-      "pattern_name": "Terminology inconsistency or regional preference",
+      "pattern_name": "Non-Standard Capitalization After Colons",
       "category": "localization",
       "subcategory": "Terminology",
       "impact_level": "LOW",
-      "frequency": "occasional",
-      "frequency_count": 3,
-      "description": "Terms like 'Flotante', 'IMPRIMIR', and 'llegar a un punto medio' are technically correct but less common or less clear than preferred alternatives in Spanish educational contexts. Adjusting terminology improves clarity and regional fit.",
+      "frequency": "common",
+      "frequency_count": 5,
+      "description": "List items following a colon are often capitalized, which is not standard in Spanish unless the item is a proper noun or starts a new sentence. Lowercase should be used for naturalness and consistency.",
       "examples": [
         {
-          "wrong": "Flotante",
-          "correct": "Decimal",
-          "context": "Programming and math lessons"
+          "wrong": "Booleano: Verdadero o falso.",
+          "correct": "Booleano: verdadero o falso.",
+          "context": "Technical definitions and lists"
         },
         {
-          "wrong": "Compromiso: Cada persona cede algo para llegar a un punto medio.",
-          "correct": "Compromiso: Cada persona cede algo para llegar a un acuerdo.",
-          "context": "Conflict resolution explanations"
+          "wrong": "Flotante: Números con decimales.",
+          "correct": "Flotante: números con decimales.",
+          "context": "Programming concepts"
         }
       ]
     },
     {
-      "pattern_name": "Use of English loanwords or less idiomatic verbs",
+      "pattern_name": "Unidiomatic Example Labeling",
       "category": "localization",
       "subcategory": "Style",
       "impact_level": "LOW",
       "frequency": "occasional",
-      "frequency_count": 2,
-      "description": "Verbs like 'Monitorear' and 'Gestionar' are direct loans from English or less idiomatic in Spanish educational contexts. Preferred alternatives such as 'Registrar' and 'Administrar' improve naturalness.",
+      "frequency_count": 4,
+      "description": "Examples are introduced with 'Ejemplo:' as a standalone label, which is less natural in Spanish educational writing. 'Por ejemplo,' is preferred for smoother integration.",
       "examples": [
         {
-          "wrong": "Monitorear puntajes en juegos.",
-          "correct": "Registrar puntajes en juegos.",
-          "context": "Describing actions in educational activities"
-        },
-        {
-          "wrong": "Gestionar inventarios en tiendas virtuales.",
-          "correct": "Administrar inventarios en tiendas en línea.",
-          "context": "Business and technology lessons"
+          "wrong": "Ejemplo: un estudiante que practica problemas matemáticos difíciles...",
+          "correct": "Por ejemplo, un estudiante que practica problemas matemáticos difíciles...",
+          "context": "Explanatory examples in lessons"
         }
       ]
     },
     {
-      "pattern_name": "Use of less idiomatic expressions for indecision",
+      "pattern_name": "Non-standard use of code formatting or accentuation",
       "category": "linguistic",
-      "subcategory": "Lexical",
+      "subcategory": "Orthography",
       "impact_level": "LOW",
       "frequency": "occasional",
-      "frequency_count": 1,
-      "description": "The translation uses literal or less natural expressions to convey indecision, which may sound slightly awkward to native speakers. More idiomatic phrasing improves fluency and clarity.",
+      "frequency_count": 2,
+      "description": "Use of backticks for code or missing accent marks in imperative forms, which are not standard in Spanish educational or instructional contexts.",
       "examples": [
         {
-          "wrong": "Sentirse dividido entre asistir a una fiesta o estudiar para un examen importante.",
-          "correct": "Dudar entre asistir a una fiesta o estudiar para un examen importante.",
-          "context": "Describing a situation of indecision in quiz content."
+          "wrong": "Inicio del juego: `monedasJugador = 0`",
+          "correct": "Inicio del juego: monedasJugador = 0",
+          "context": "Backticks used to enclose variable assignment."
+        },
+        {
+          "wrong": "Fijarse en las primeras y últimas frases de los párrafos.",
+          "correct": "Fíjarse en las primeras y últimas frases de los párrafos.",
+          "context": "Missing accent mark in imperative verb form."
         }
       ]
     }

@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Życzliwość zazwyczni odbywa się wyłącznie przez duże gesty w obliczu potrzeby innych.",
+      "correction": "Życzliwość zazwyczaj odbywa się wyłącznie przez duże gesty w obliczu potrzeby innych.",
+      "description": "The word 'zazwyczni' is a misspelling and does not exist in Polish; the correct form is 'zazwyczaj', which means 'usually'. This is a lexical and spelling error that affects comprehension.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Podarowanie kawy duszonu zawsze prowadzi do zwiększonej produktywności w pracy.",
+      "correction": "Podarowanie kawy duszonej zawsze prowadzi do zwiększonej produktywności w pracy.",
+      "description": "The phrase 'kawy duszonu' is grammatically incorrect. 'Kawy' is feminine, so the adjective should be 'duszonej' (feminine, genitive singular) instead of 'duszonu' (which is not a valid form). This is a gender agreement and case error.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Podarowanie kawy duszonu może zwiększyć jego szczęście lub poziom energii, ale niekoniecznie wpływa na ogólną produktywność w pracy.",
+      "correction": "Podarowanie kawy duszonej może zwiększyć jej szczęście lub poziom energii, ale niekoniecznie wpływa na ogólną produktywność w pracy.",
+      "description": "The pronoun 'jego' is incorrect because 'kawa' is feminine; it should be 'jej'. Also, 'kawy duszonu' should be 'kawy duszonej' for correct gender and case agreement. This sentence contains both gender agreement and pronoun reference errors.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Pomoc koledze może poprawić ich dobrobyt.",
+      "correction": "Pomoc koledze może poprawić jego dobrobyt.",
+      "description": "The pronoun 'ich' is plural, but 'koledze' is singular (dative case, masculine). The correct pronoun is 'jego' (his). This is a pronoun reference and agreement error.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Kindness_Matters.slm.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T22:16:39.271636",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 8.8,
+    "classification": "PROFESSIONAL",
+    "total_issues": 4,
+    "total_penalty": 1.2,
+    "issue_breakdown": {
+      "linguistic": 4,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.2,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Freundlichkeit ist wie ein magisches Werkzeug, das die Welt zu einem besseren Ort macht.",
+      "correction": "Freundlichkeit ist wie ein Zauber, der die Welt zu einem besseren Ort macht.",
+      "description": "The phrase 'magisches Werkzeug' is a literal translation of 'magical tool' and sounds unnatural in German educational context. 'Zauber' is a more culturally appropriate and natural metaphor for German learners, conveying the intended meaning in a way that resonates better with local style and tone.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Freundlichkeit wirkt wie ein Wellen-Effekt: Eine kleine Tat kann viele andere inspirieren und positive Energie verbreiten.",
+      "correction": "Freundlichkeit wirkt wie eine Welle: Eine kleine Tat kann viele andere inspirieren und positive Energie verbreiten.",
+      "description": "The term 'Wellen-Effekt' is a direct translation of 'ripple effect' and is not commonly used in German. 'Welle' is a more natural and idiomatic expression in German, making the metaphor clearer and more culturally appropriate for the target audience.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Denkt an Freundlichkeit wie Sonnenlicht – sie erhellt alles, was sie berührt, und hilft Menschen, zu wachsen.",
+      "correction": "Denkt an Freundlichkeit wie an Sonnenlicht – sie erhellt alles, was sie berührt, und hilft Menschen, zu wachsen.",
+      "description": "The phrase 'Denkt an Freundlichkeit wie Sonnenlicht' is missing the preposition 'an', which is necessary for natural German expression in this simile. The corrected version improves the naturalness and clarity of the metaphor.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Stellt euch Freundlichkeit als Samen vor – durch unsere Handlungen pflanzen wir sie und helfen, eine bessere Welt zu schaffen.",
+      "correction": "Stellt euch Freundlichkeit wie einen Samen vor – durch unsere Handlungen pflanzen wir ihn und helfen, eine bessere Welt zu schaffen.",
+      "description": "The original uses 'als Samen', which is less idiomatic in German for metaphors. 'Wie einen Samen' is the standard way to introduce a metaphor, and the pronoun 'ihn' correctly refers to 'Samen' (masculine noun), improving both naturalness and grammatical agreement.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Freundlichkeit ist eine tägliche Wahl.",
+      "correction": "Freundlichkeit ist eine Entscheidung, die wir jeden Tag treffen.",
+      "description": "The phrase 'eine tägliche Wahl' is a literal translation of 'a daily choice' and is not idiomatic in German. The corrected version uses a more natural and culturally appropriate expression, making the message clearer and more relatable for German learners.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Kindness_Matters.llm.md",
+    "language": "German",
+    "timestamp": "2025-10-03T21:44:21.267581",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.1,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 0.9,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 5,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.9,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

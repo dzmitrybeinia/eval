@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "El ADN almacena solo la información genética necesaria para la vida de la célula.",
+      "correction": "El ADN almacena no solo la información genética necesaria para la vida de la célula, sino también información relevante para la heredabilidad y la síntesis de proteínas.",
+      "description": "The original statement is lexically imprecise because it limits the function of DNA to storing only the genetic information necessary for cellular life, omitting its roles in heredity and protein synthesis. This could mislead learners about the full scope of DNA's functions. The correction expands the statement to accurately reflect the broader biological roles of DNA.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Estas características son transmitidas de generación en generación, lo que explica por qué los hijos a menudo se parecen a sus padres.",
+      "correction": "Estas características se transmiten de generación en generación, lo que explica por qué los hijos suelen parecerse a sus padres.",
+      "description": "The original sentence uses 'son transmitidas', which is grammatically correct but less natural in educational Spanish, where the active voice 'se transmiten' is preferred for clarity and engagement. Additionally, 'a menudo' is less commonly used in this context than 'suelen', which is more idiomatic and natural in Spanish when describing typical occurrences. The correction improves the naturalness and readability of the feedback.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "DNA_Basics.slm.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-03T22:10:50.557107",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

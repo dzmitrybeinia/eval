@@ -1,0 +1,35 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "paneles solares de las células vegetales",
+      "correction": "captadores de energía de las células vegetales",
+      "description": "The phrase 'paneles solares de las células vegetales' is a metaphor that may not be standard or natural in Spanish scientific educational contexts. While it is understandable, it could be confusing or perceived as overly informal or imprecise for learners. A more accurate and commonly accepted term would be 'captadores de energía' or simply refer to their role in photosynthesis. This correction improves clarity and aligns with standard terminology in Spanish biology education.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Cell_Parts.llm.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-03T21:27:02.503973",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.8,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.2,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Zudem muss ein veto eines Bundesgesetzes durch ein Zweidrittelmehrheit in beiden Kammern des Kongresses aufgehoben werden, um Gesetze zu verabschieden.",
+      "correction": "Zudem muss ein Veto eines Bundesgesetzes durch eine Zweidrittelmehrheit in beiden Kammern des Kongresses aufgehoben werden, um Gesetze zu verabschieden.",
+      "description": "There are two linguistic errors: 'veto' should be capitalized as 'Veto' because it is a noun in German, and 'ein Zweidrittelmehrheit' should be 'eine Zweidrittelmehrheit' to match the feminine gender of 'Mehrheit'. Both errors affect grammatical correctness and noun capitalization.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "Gesetzesinitiativen und -vorschläge gehen primär durch die Legislative, den Kongress, über.",
+      "correction": "Gesetzesinitiativen und -vorschläge gehen primär von der Legislative, dem Kongress, aus.",
+      "description": "The phrase 'gehen primär durch die Legislative, den Kongress, über' is syntactically incorrect and unnatural in German. The correct construction is 'gehen primär von der Legislative, dem Kongress, aus', which properly expresses the origin of legislative initiatives.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Die Anzahl der Richter am Obersten Gerichtshof ist abwechslungsartig und nicht fester.",
+      "correction": "Die Anzahl der Richter am Obersten Gerichtshof ist nicht festgelegt.",
+      "description": "The word 'abwechslungsartig' is a lexical error; it is not appropriate in this context. The correct term is 'nicht festgelegt', which accurately conveys that the number of judges is not fixed. The phrase 'nicht fester' is also incorrect; 'festgelegt' is the proper adjective.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Im Gegensatz dazu wird die Amtszeit von 14 Jahren durch eine Amtszeit von 18 Jahren für Richter, die von Präsidenten ernannt werden, und eine Amtszeit von 10 Jahren für Amtsinhaber des Obersten Gerichtshofs angegeben.",
+      "correction": "Im Gegensatz dazu werden Richter am Obersten Gerichtshof auf Lebenszeit ernannt.",
+      "description": "The sentence contains factual and lexical inaccuracies. The US Supreme Court justices are appointed for life, not for 14, 18, or 10 years. The phrase 'Amtsinhaber des Obersten Gerichtshofs' is also misleading, as all justices are appointed for life. The correction provides the accurate information and proper terminology.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "da der Kongress das Gesetzgebungsrecht hat und der Präsident das Veto kann, was dazu führen kann, dass der Kongress eine Zweidrittelmehrheit benötigt, um das Veto zu überstimmen.",
+      "correction": "da der Kongress das Gesetzgebungsrecht hat und der Präsident ein Veto einlegen kann, was dazu führen kann, dass der Kongress eine Zweidrittelmehrheit benötigt, um das Veto zu überstimmen.",
+      "description": "The phrase 'der Präsident das Veto kann' is syntactically incorrect. The correct expression is 'der Präsident ein Veto einlegen kann', which properly uses the verb and noun combination in German.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Der Kongress von Nordamerika bezieht sich in diesem Zusammenhang auf den Kongress der Vereinigten Staaten, und die Formulierung der Frage scheint einen Widerspruch zu enthalten.",
+      "correction": "Der Kongress in diesem Zusammenhang bezieht sich auf den Kongress der Vereinigten Staaten.",
+      "description": "The phrase 'Kongress von Nordamerika' is culturally inappropriate and misleading, as it does not exist in the context of US government. The correct term is 'Kongress der Vereinigten Staaten'. The original sentence also contains unnecessary commentary about a contradiction, which should be omitted for clarity and educational focus.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Government_Structure.slm.md",
+    "language": "German",
+    "timestamp": "2025-10-03T22:30:21.743880",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 8.5,
+    "classification": "PROFESSIONAL",
+    "total_issues": 6,
+    "total_penalty": 1.5,
+    "issue_breakdown": {
+      "linguistic": 5,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.3,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

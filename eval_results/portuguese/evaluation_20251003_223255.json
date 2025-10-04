@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "O passo final é a implementação ou 'lance' ao público, que ocorre após várias iterações.",
+      "correction": "O passo final é a implementação ou lançamento ao público, que ocorre após várias iterações.",
+      "description": "The word 'lance' is a literal translation from English ('launch') and is not idiomatic in Brazilian Portuguese for this context. The correct term is 'lançamento', which is the standard word for releasing a product to the public. This is both a lexical and style issue, but the primary category is linguistic due to incorrect word choice.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "É como quando você testa um novo prato e descobre que o sabor é ótimo, mas a textura poderia ser melhorada.",
+      "correction": "É como testar uma solução e perceber que alguns aspectos funcionam bem, enquanto outros podem ser aprimorados.",
+      "description": "The culinary analogy ('testa um novo prato') may not be universally relatable or appropriate in an educational context focused on design. A more neutral analogy related to design or problem-solving would be preferable for broader cultural relevance and professionalism.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "prototipos",
+      "correction": "protótipos",
+      "description": "The word 'prototipos' is missing the required accent on the first 'o'. In Brazilian Portuguese, 'protótipos' must have the acute accent to indicate correct pronunciation and stress. This is an orthographic error affecting clarity.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Design_Process.slm.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T22:32:55.094836",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

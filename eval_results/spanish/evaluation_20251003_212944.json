@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "El cristianismo es la religión más grande del mundo, con más de 2 mil millones de seguidores.",
+      "correction": "El cristianismo es una de las religiones más grandes del mundo, con más de 2 mil millones de seguidores.",
+      "description": "The phrase 'la religión más grande del mundo' may be perceived as culturally insensitive or inaccurate, as it implies a hierarchy and overlooks the diversity and significance of other religions. Using 'una de las religiones más grandes' is more culturally appropriate and neutral, avoiding potential bias or exclusion.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "2 mil millones",
+      "correction": "2.000 millones",
+      "description": "The use of '2 mil millones' is not the standard way to express large numbers in formal Spanish educational content. '2.000 millones' is preferred for clarity and consistency, especially in Spain and most Latin American countries, aligning with local numeric formatting conventions.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "1.9 mil millones",
+      "correction": "1.900 millones",
+      "description": "The number '1.9 mil millones' is not formatted according to Spanish conventions. '1.900 millones' is the standard and avoids confusion, ensuring consistency and clarity for Spanish-speaking learners.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Edad de Oro del Islam",
+      "correction": "Edad de Oro islámica",
+      "description": "The term 'Edad de Oro del Islam' is less commonly used in Spanish academic contexts. 'Edad de Oro islámica' is the more natural and widely accepted term, improving terminology consistency and professional language usage.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "World_Religions.llm.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-03T21:29:44.244358",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 4,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.5,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

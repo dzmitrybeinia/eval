@@ -1,0 +1,131 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "zazwyczni",
+      "correction": "zazwyczaj",
+      "description": "The word 'zazwyczni' is a spelling error; the correct form is 'zazwyczaj'. This mistake affects the clarity and professionalism of the statement.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "świętów",
+      "correction": "świąt",
+      "description": "The word 'świętów' is an incorrect genitive plural form; the correct form is 'świąt'. This is a noun case error and impacts grammatical accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "odwraceniem",
+      "correction": "wykluczeniem",
+      "description": "The word 'odwraceniem' is semantically incorrect in this context. The intended meaning is 'exclusion', which in Polish should be 'wykluczeniem'. This is a lexical and semantic error.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Boże Narodzenie obchodzony jest jedynie w Meksyku.",
+      "correction": "Boże Narodzenie obchodzone jest jedynie w Meksyku.",
+      "description": "The participle 'obchodzony' does not agree in gender and number with 'Boże Narodzenie', which is neuter singular. The correct form is 'obchodzone'.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "rzymowsko-katolickiej tradycji religijną",
+      "correction": "rzymskokatolickiej tradycji religijnej",
+      "description": "There are two errors: 'rzymowsko-katolickiej' should be 'rzymskokatolickiej' (correct compound adjective spelling), and 'religijną' should be 'religijnej' to match the case required by 'tradycji'.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "świątynię",
+      "correction": "święto",
+      "description": "The word 'świątynię' (temple) is a false friend and incorrect in this context. The intended meaning is 'święto' (holiday/celebration).",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "nie jest ona z nich",
+      "correction": "nie jest jednym z nich",
+      "description": "The phrase 'nie jest ona z nich' is ungrammatical and unnatural. The correct phrase is 'nie jest jednym z nich', which properly expresses exclusion from a group.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "świąt kulturowe",
+      "correction": "święta kulturowe",
+      "description": "The phrase 'świąt kulturowe' is incorrect due to noun-adjective agreement. The correct nominative plural form is 'święta kulturowe'.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "w wzmacnianiu",
+      "correction": "we wzmacnianiu",
+      "description": "The preposition 'w' should be 'we' before a word starting with 'wz-' for phonetic reasons. This is a minor but important grammar rule in Polish.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "do poczucie wspólnoty",
+      "correction": "do poczucia wspólnoty",
+      "description": "The noun 'poczucie' should be in the genitive case: 'poczucia'. This is a noun case error.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Chrzęstnica w Wielkiej Brytanii",
+      "correction": "Christmas w Wielkiej Brytanii",
+      "description": "The word 'Chrzęstnica' is a misspelling and does not exist in Polish. The intended reference is 'Christmas'.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "przyciąga uwagę na tradycje śląskie",
+      "correction": "przyciąga uwagę na tradycje brytyjskie",
+      "description": "The phrase 'tradycje śląskie' (Silesian traditions) is culturally incorrect in the context of British Christmas. It should refer to 'tradycje brytyjskie' (British traditions).",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Ochichin",
+      "correction": "Osechi",
+      "description": "The term 'Ochichin' is incorrect and does not refer to Japanese holiday food. The correct term is 'Osechi', which are traditional Japanese New Year foods.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Cultural_Celebrations.slm.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T22:14:30.819409",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 6.6,
+    "classification": "SUBSTANDARD",
+    "total_issues": 13,
+    "total_penalty": 3.4,
+    "issue_breakdown": {
+      "linguistic": 12,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 3.2,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

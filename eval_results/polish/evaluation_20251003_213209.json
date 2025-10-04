@@ -1,0 +1,75 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Gałąź ustawodawcza",
+      "correction": "Władza ustawodawcza",
+      "description": "The term 'Gałąź ustawodawcza' is a literal translation of 'Legislative branch' and is not the standard terminology in Polish civic or legal discourse. The correct and natural term is 'Władza ustawodawcza', which aligns with how branches of government are referred to in Polish educational and official contexts. This issue affects clarity and professionalism.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Gałąź wykonawcza",
+      "correction": "Władza wykonawcza",
+      "description": "The phrase 'Gałąź wykonawcza' is a direct translation from English and is not the conventional term used in Polish. The standard and culturally appropriate term is 'Władza wykonawcza'. Using the correct terminology ensures the content is natural and aligns with Polish civic education standards.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Gałąź sądownicza",
+      "correction": "Władza sądownicza",
+      "description": "The term 'Gałąź sądownicza' is a literal translation and not the standard phrase in Polish. The proper term is 'Władza sądownicza', which is used in Polish legal and educational contexts. This correction improves the naturalness and professionalism of the content.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Izba Reprezentantów",
+      "correction": "Izba Reprezentantów Stanów Zjednoczonych",
+      "description": "While 'Izba Reprezentantów' is understandable, the full official name in Polish is 'Izba Reprezentantów Stanów Zjednoczonych'. Using the complete term avoids ambiguity and ensures clarity, especially in educational contexts where precision is important.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Gabinet",
+      "correction": "Rada Ministrów",
+      "description": "The term 'Gabinet' is a direct translation of 'Cabinet' from English, but in Polish, the equivalent for the US context is 'Rada Ministrów' or 'gabinet prezydenta'. However, since the US Cabinet is not a council of ministers, 'gabinet prezydenta' is more accurate. The current term may cause confusion due to its different meaning in Polish government structure.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Sąd Najwyższy",
+      "correction": "Sąd Najwyższy Stanów Zjednoczonych",
+      "description": "The term 'Sąd Najwyższy' is used for Poland's Supreme Court. To avoid confusion and ensure clarity, the full name 'Sąd Najwyższy Stanów Zjednoczonych' should be used when referring to the US Supreme Court in Polish educational content.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Government_Structure.llm.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T21:32:09.122980",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.0,
+    "classification": "NATIVE",
+    "total_issues": 6,
+    "total_penalty": 1.0,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 6,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 1.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

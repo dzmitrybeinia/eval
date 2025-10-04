@@ -1,0 +1,75 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Poetry ist eine besondere Form der Literatur, die Gefühle, Ideen und Geschichten durch sorgfältig gewählte Worte, Rhythmus und Bilder ausdrückt.",
+      "correction": "Poesie ist eine besondere Form der Literatur, die Gefühle, Ideen und Geschichten durch sorgfältig gewählte Worte, Rhythmus und Bilder ausdrückt.",
+      "description": "The word 'Poetry' is an anglicism and should be replaced with the correct German term 'Poesie' to maintain linguistic accuracy and avoid unnecessary loanwords. This correction also improves localization by using the standard German terminology for the subject matter.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Ein Frosch springt hinein—",
+      "correction": "Ein Frosch springt hinein –",
+      "description": "The dash used here is an English em dash (—), which is not standard in German orthography. In German, a spaced en dash (–) is preferred for this context. This correction ensures proper punctuation according to German typographic conventions.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Shakespearean Sonett",
+      "correction": "Shakespeare-Sonett",
+      "description": "The term 'Shakespearean Sonett' is a direct translation from English and is not the standard German terminology. The correct term is 'Shakespeare-Sonett', which is widely accepted in German literary studies. This correction improves both terminology consistency and cultural appropriateness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Petrarchan Sonett",
+      "correction": "Petrarca-Sonett",
+      "description": "The term 'Petrarchan Sonett' is a literal translation from English and does not reflect the standard German usage. The correct term is 'Petrarca-Sonett', which aligns with German literary terminology and enhances localization quality.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Freie Verse sind Gedichte, die keinem festen Reimschema, Metrum oder Struktur folgen.",
+      "correction": "Freie Verse sind Gedichte, die keinem festen Reimschema, keinem festen Metrum und keiner festen Struktur folgen.",
+      "description": "The original sentence uses parallelism but omits the repetition of 'keinem festen' before 'Metrum' and 'Struktur', which is stylistically preferred in German for clarity and emphasis. This correction improves the naturalness and readability of the sentence.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Er erwachte erschrocken,",
+      "correction": "Er erwachte erschrocken auf,",
+      "description": "The verb 'erwachen' is commonly used with the particle 'auf' in German ('aufwachen'), especially in the context of waking up from sleep. The original phrasing is understandable but less idiomatic. Adding 'auf' makes the sentence more natural and grammatically correct.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Poetry_Forms.llm.md",
+    "language": "German",
+    "timestamp": "2025-10-03T21:44:46.016567",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.0,
+    "classification": "NATIVE",
+    "total_issues": 6,
+    "total_penalty": 1.0,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.5,
+      "localization_penalty": 0.5,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

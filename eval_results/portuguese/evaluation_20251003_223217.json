@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "A arte egípcia servia múltiplos propósitos, não apenas decoração.",
+      "correction": "A arte egípcia servia a múltiplos propósitos, não apenas à decoração.",
+      "description": "The original sentence lacks the preposition 'a' before 'múltiplos propósitos' and 'à' before 'decoração', which are required for correct grammatical structure in Portuguese. The use of 'a' and 'à' ensures proper verb-object relationship and correct application of the crase, improving clarity and grammatical accuracy.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Esses símbolos não só permitiram a documentação de eventos e ideias antigas, mas também ofereceram insights sobre a estrutura social e religiosa da civilização, demonstrando a importância do Egito em moldar a história humana.",
+      "correction": "Esses símbolos não só permitiram a documentação de eventos e ideias antigas, mas também ofereceram insights sobre a estrutura social e religiosa da civilização, demonstrando a importância do Egito para a história humana.",
+      "description": "The phrase 'em moldar a história humana' is awkward and unnecessary in this context. The more natural and grammatically correct expression is 'para a história humana', which conveys the intended meaning without redundancy. This correction improves the sentence's clarity and naturalness.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Ancient_Egypt.slm.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T22:32:17.740575",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

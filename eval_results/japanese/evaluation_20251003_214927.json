@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "シャツ一枚の値段が`20`円で、3枚購入すると合計費用は:",
+      "correction": "シャツ一枚の値段が`2,000`円で、3枚購入すると合計費用は:",
+      "description": "The example uses '20 yen' as the price for one shirt, which is unrealistically low and may confuse learners. For cultural appropriateness and realism, a more typical price such as '2,000 yen' should be used to reflect actual market values in Japan.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "合計 = `3 * x = 3 * 20 = 60`円",
+      "correction": "合計 = `3 × x = 3 × 2,000 = 6,000`円",
+      "description": "The calculation uses the asterisk (*) for multiplication, which is not standard in Japanese educational materials. The multiplication sign (×) should be used for clarity and consistency with Japanese math notation. Additionally, the numbers should match the corrected realistic price for cultural appropriateness.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Basic_Algebra.llm.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-03T21:49:27.795682",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.4,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

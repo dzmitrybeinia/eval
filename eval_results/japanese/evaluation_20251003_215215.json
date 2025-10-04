@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "理解したいことや解決したいことを始める。",
+      "correction": "理解したいことや解決したいことから始める。",
+      "description": "The original sentence uses '始める' directly after listing the things to be understood or solved, which is grammatically awkward in Japanese. The correct particle is 'から' to indicate the starting point, making the sentence natural and grammatically correct. This also improves clarity for learners.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "賢明な推測をする。",
+      "correction": "合理的な推測をする。",
+      "description": "The term '賢明な' (wise) is less commonly used in scientific contexts in Japanese. '合理的な' (rational) is the standard term for scientific reasoning and is more appropriate for educational content about the scientific method. This change improves the naturalness and professionalism of the text.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "パンはなぜ暖かい部屋で早くカビが生えるのか？",
+      "correction": "パンはなぜ暖かい部屋で早くカビが生えるのですか？",
+      "description": "The original question uses the plain form 'のか？', which is acceptable in casual contexts but less appropriate for educational materials aimed at a general audience. Adding 'のですか？' increases the politeness and aligns with standard Japanese question formation in formal or semi-formal educational settings.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "クラスメートに発見を共有する。",
+      "correction": "友達や家族に発見を共有する。",
+      "description": "The original example only mentions 'クラスメート' (classmates), which may not be inclusive for all learners, especially those outside a school context. Replacing it with '友達や家族' (friends and family) makes the content more universally relatable and culturally appropriate for a wider audience.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "肥料を使うか使わないかで植物の成長をテストする。",
+      "correction": "肥料を使う場合と使わない場合で植物の成長を比較する。",
+      "description": "The original sentence uses 'テストする' in a way that is not idiomatic in Japanese for this context. '比較する' (to compare) is the correct verb when discussing experimental conditions in scientific writing. This correction improves both grammatical accuracy and scientific clarity.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Scientific_Method.llm.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-03T21:52:15.401595",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.3,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 0.7,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.5,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

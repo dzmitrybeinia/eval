@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "🌟",
+      "correction": "",
+      "description": "The use of the star emoji at the end of the introductory paragraph is not appropriate for formal educational content in Polish. Emojis are generally avoided in academic or instructional materials, as they can undermine the seriousness and professionalism of the lesson. Removing the emoji will ensure the tone remains suitable for the context.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Dłuższe przerwy poprawiają koncentrację i produktywność.",
+      "correction": "Dłuższe przerwy poprawiają koncentrację i wydajność.",
+      "description": "The word 'produktywność' is a direct borrowing from English ('productivity') and, while increasingly used, is still considered less natural in Polish educational contexts. 'Wydajność' is the standard, widely accepted term in Polish for cognitive or work efficiency. This correction improves lexical precision and naturalness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "np. „Działajmy razem, aby dokonać tej zmiany!”",
+      "correction": "np. „Zróbmy to razem, aby wprowadzić tę zmianę!”",
+      "description": "The phrase 'Działajmy razem, aby dokonać tej zmiany!' is somewhat formal and may sound unnatural in a call-to-action for Polish students. 'Zróbmy to razem, aby wprowadzić tę zmianę!' is more idiomatic and motivational, aligning better with common Polish expressions used in educational calls to action.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Persuasive_Writing.llm.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T21:32:47.999856",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

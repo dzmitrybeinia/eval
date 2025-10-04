@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Exemple : La popularité mondiale de plats comme le sushi et le taco.",
+      "correction": "Exemple : La popularité mondiale de plats comme le sushi et les tacos.",
+      "description": "The original sentence uses 'le taco' in singular, which is less natural in French when referring to the global popularity of a dish that is typically consumed in plural form. 'Les tacos' is more idiomatic and culturally appropriate. Additionally, the use of 'taco' without an article in plural form better reflects the way French speakers refer to international dishes. This correction improves naturalness and cultural appropriateness.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Exemple : Des chaînes de restauration rapide occidentales influencent les habitudes alimentaires locales.",
+      "correction": "Exemple : Des chaînes de restauration rapide internationales influencent les habitudes alimentaires locales.",
+      "description": "The use of 'occidentales' (Western) may unintentionally exclude major international fast-food chains originating outside the West, such as Asian brands. 'Internationales' is more inclusive and culturally neutral, which is preferable in educational content discussing global commerce and cultural influence.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "USMCA",
+      "correction": "ACEUM",
+      "description": "The acronym 'USMCA' refers to the United States-Mexico-Canada Agreement, but in French, the official acronym is 'ACEUM' (Accord Canada–États-Unis–Mexique). Using the French acronym ensures consistency and proper localization for a Francophone audience.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Global_Trade.llm.md",
+    "language": "French",
+    "timestamp": "2025-10-03T21:35:43.721823",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.4,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

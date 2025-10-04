@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Bem-vindos ao mundo da programação!",
+      "correction": "Bem-vindo ao mundo da programação!",
+      "description": "The greeting uses the plural 'Bem-vindos', which is appropriate for addressing a group. However, in educational content where the audience may be a single learner or a general audience, the singular 'Bem-vindo' is more neutral and commonly used in Brazilian Portuguese for lesson introductions. This change improves the naturalness and inclusivity of the tone.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Verdadeiro ou Falso.",
+      "correction": "Verdadeiro ou falso.",
+      "description": "The word 'Falso' is unnecessarily capitalized. In Portuguese, adjectives and common nouns should not be capitalized unless they begin a sentence. This correction ensures proper orthographic standards.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Use letras minúsculas e underscores para facilitar a leitura (ex.: `idade_usuario`).",
+      "correction": "Use letras minúsculas e sublinhados para facilitar a leitura (ex.: `idade_usuario`).",
+      "description": "The term 'underscores' is an English loanword. The natural and standard term in Brazilian Portuguese is 'sublinhados'. Using the local equivalent improves clarity and professionalism.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Coding_Basics.llm.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T21:46:26.378279",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

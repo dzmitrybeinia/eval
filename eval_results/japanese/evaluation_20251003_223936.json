@@ -1,0 +1,107 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "元素の原子番号は同じ族の中で変わります。",
+      "correction": "元素の原子番号は同じ族の中で変わりません。",
+      "description": "The original statement incorrectly uses '変わります' (changes) when it should be '変わりません' (does not change) to accurately reflect the scientific fact. The particle usage and sentence structure are otherwise correct, but the verb negation is essential for the intended meaning.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "原子番号は各元素のユニークな特徴であり、族を決定する上で変わりません。族は同じ族に属する元素の数の電子が同じであることによって決まります。",
+      "correction": "原子番号は各元素のユニークな特徴であり、族を決定する上で変わりません。族は同じ族に属する元素の価電子数が同じであることによって決まります。",
+      "description": "The phrase '元素の数の電子' is unnatural and ambiguous in Japanese. The correct scientific term is '価電子数' (number of valence electrons), which should be used for clarity and accuracy. This is both a lexical and terminology issue affecting comprehension.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "原子構成は元素の酸素電子数によって決定されます。",
+      "correction": "原子構成は元素の原子番号によって決定されます。",
+      "description": "The term '酸素電子数' (oxygen electron number) is incorrect and misleading in this context. The correct term is '原子番号' (atomic number), which determines atomic structure. This is a lexical error that significantly affects scientific accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "陽子（プロトン）と中性子（ニュートロン）の数がこの番号を決定しますが、酸素電子数はそれとは別です。酸素電子数は原子構成とは独立しています。",
+      "correction": "陽子（プロトン）と中性子（ニュートロン）の数がこの番号を決定しますが、電子数はそれとは別です。電子数は原子構成とは独立しています。",
+      "description": "The repeated use of '酸素電子数' is incorrect; it should be '電子数' (number of electrons). '酸素電子数' is not a standard term in Japanese chemistry and may confuse learners. This is a terminology and lexical precision issue.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "族17の元素は水によく反応し、おそくも酸化されることが多い。",
+      "correction": "族17の元素は水によく反応せず、酸化されにくい。",
+      "description": "The original statement contains a grammatical error with 'おそくも酸化されることが多い', which is unnatural and unclear. The correct phrasing is '酸化されにくい' (not easily oxidized). Additionally, the scientific fact is incorrect, as group 17 elements (halogens) do not react well with water and are not easily oxidized.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "族17はハロゲンであり、通常は水によく反応せず、酸化されにくい。ハロゲンは通常、電子を取るので酸化されることが多いです。",
+      "correction": "族17はハロゲンであり、通常は水によく反応せず、酸化されにくい。ハロゲンは通常、電子を取るので還元されることが多いです。",
+      "description": "The phrase '酸化されることが多いです' is scientifically inaccurate for halogens, which are more likely to be reduced (gain electrons) rather than oxidized. The correct term is '還元される' (reduced). This is a lexical and scientific terminology issue.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "核電荷が周期によって減少する。",
+      "correction": "核電荷は周期によって増加します。",
+      "description": "The verb '減少する' (decreases) is incorrect in this scientific context; it should be '増加します' (increases) to accurately describe the trend of nuclear charge across a period. This is a critical factual and grammatical error.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "逆に、核電荷は周期によって増加します。周期表で右に移動すると、原子サイズは減少し、より多くの核がなるためです。",
+      "correction": "逆に、核電荷は周期によって増加します。周期表で右に移動すると、原子サイズは減少し、より多くの陽子が含まれるためです。",
+      "description": "The phrase 'より多くの核がなるためです' is grammatically and semantically incorrect. The correct expression is 'より多くの陽子が含まれるためです' (because more protons are included). This is a lexical and grammar issue affecting scientific clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "金属は通常陽イオンになります。",
+      "correction": "金属は通常、陽イオンになります。",
+      "description": "A comma (読点) is missing after '通常', which is required for natural Japanese sentence flow. This is a minor orthographic issue that improves readability.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "金属は電子を失う性質があるため、陽イオンになることが多いです。これは、金属が化学反応で電子を失うときに起こる特性です。",
+      "correction": "金属は電子を失う性質があるため、陽イオンになることが多いです。これは、金属が化学反応で電子を失うときに現れる特性です。",
+      "description": "The phrase '起こる特性' is slightly unnatural in Japanese scientific writing. '現れる特性' (property that appears) is more appropriate and natural in this context. This is a style and lexical issue.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Periodic_Table.slm.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-03T22:39:36.457750",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 7.4,
+    "classification": "ACCEPTABLE",
+    "total_issues": 10,
+    "total_penalty": 2.6,
+    "issue_breakdown": {
+      "linguistic": 10,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 2.6,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

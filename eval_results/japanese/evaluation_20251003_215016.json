@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "DNAは4つの化学塩基（アデニン、チミン、シトシン、グアニン）で構成される言語で遺伝情報を記録します。",
+      "correction": "DNAは4つの化学塩基（アデニン、チミン、シトシン、グアニン）によって遺伝情報が記録されています。",
+      "description": "The phrase '言語で遺伝情報を記録します' is a lexical error. '言語' (language) is not the correct term in this scientific context; it is unnatural and misleading. The sentence should clarify that genetic information is recorded by the sequence of four chemical bases, not by a 'language.' The correction provides a more accurate and natural scientific explanation.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "生命の基本を理解するための重要なステップです！ 🌱",
+      "correction": "生命の基本を理解するための重要なステップです。",
+      "description": "The use of the plant sprout emoji (🌱) is not standard in Japanese educational materials, especially in formal science lessons. While it may be friendly, it can reduce the perceived professionalism and may not be culturally appropriate for the context. Removing the emoji maintains a formal and neutral tone suitable for educational content.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "DNA_Basics.llm.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-03T21:50:16.316502",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

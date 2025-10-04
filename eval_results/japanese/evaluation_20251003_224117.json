@@ -1,0 +1,75 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "キリスト教はイエス・キリストの教えによって始まりました。.",
+      "correction": "キリスト教はイエス・キリストの教えによって始まりました。",
+      "description": "There is an unnecessary period after the Japanese full stop (。). In Japanese, sentences should end with a single full-width period (。), not a combination of Japanese and Western periods. This affects orthographic correctness and should be corrected for proper punctuation.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "イスラム教の五つの柱は、信仰、祈り、断食、慈善、メッカへの巡礼（ハッジ）です。.",
+      "correction": "イスラム教の五つの柱は、信仰、祈り、断食、慈善、メッカへの巡礼（ハッジ）です。",
+      "description": "The sentence ends with both a Japanese full stop (。) and a Western period (.). Only the Japanese full stop should be used at the end of a Japanese sentence. This is an orthographic error and should be corrected for proper punctuation.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "ユダヤ教の祝祭は祈りの儀式と教化の機会として調和を促進します。.",
+      "correction": "ユダヤ教の祝祭は祈りの儀式と教化の機会として調和を促進します。",
+      "description": "There is an unnecessary Western period (.) after the Japanese full stop (。). Japanese sentences should end with only the full-width period (。). This is an orthographic issue and should be corrected.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "ヒンドゥー教の祭りは多様であり、食べ物や飲み物を含むものもありますが、肉食は稀です。多くの祭りでは植物性料理が中心となっています。.",
+      "correction": "ヒンドゥー教の祭りは多様であり、食べ物や飲み物を含むものもありますが、肉食は稀です。多くの祭りでは植物性料理が中心となっています。",
+      "description": "The sentence ends with a Japanese full stop (。) followed by a Western period (.). Only the Japanese full stop should be used at the end of a Japanese sentence. This is an orthographic error and should be corrected.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "四つの聖なる真理は、人生が苦しみを伴い、苦しみは欲望によって引き起こされ、苦しみは終わり、その終わりへの道が八正道であることを説明しています。悟りと涅槃は仏教の目的ですが、これらは四つの聖なる真理の特定の部分ではありません。.",
+      "correction": "四つの聖なる真理は、人生が苦しみを伴い、苦しみは欲望によって引き起こされ、苦しみは終わり、その終わりへの道が八正道であることを説明しています。悟りと涅槃は仏教の目的ですが、これらは四つの聖なる真理の特定の部分ではありません。",
+      "description": "There is an unnecessary Western period (.) after the Japanese full stop (。) at the end of the sentence. Japanese sentences should end with only the full-width period (。). This is an orthographic issue and should be corrected.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "これらの宗教は独自の歴史的起源、信仰、実践を持っています。それぞれの宗教は独自の教えと伝統を通じて文化的な影響を与えてきました。.",
+      "correction": "これらの宗教は独自の歴史的起源、信仰、実践を持っています。それぞれの宗教は独自の教えと伝統を通じて文化的な影響を与えてきました。",
+      "description": "The sentence ends with a Japanese full stop (。) followed by a Western period (.). Only the Japanese full stop should be used at the end of a Japanese sentence. This is an orthographic error and should be corrected.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "World_Religions.slm.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-03T22:41:17.878770",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 6,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 6,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.6,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "🌟",
+      "correction": "",
+      "description": "The use of the star emoji in educational German content may be considered informal and less appropriate for professional or academic settings. It can detract from the seriousness of the topic and may not align with the expectations of German-speaking learners in formal contexts. Removing the emoji would improve the tone and maintain a more neutral, professional style.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Verarbeitung natürlicher Sprache (NLP)",
+      "correction": "Verarbeitung natürlicher Sprache (VNS)",
+      "description": "While 'NLP' is widely recognized in technical circles, the German equivalent 'VNS' (Verarbeitung natürlicher Sprache) is sometimes preferred in educational contexts to maintain consistency with German terminology. Using the German abbreviation can enhance clarity and localization for learners who may not be familiar with English technical terms.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Streaming-Dienste wie Netflix schlagen Filme und Serien basierend auf individuellen Interessen vor.",
+      "correction": "Streaming-Dienste wie Netflix empfehlen Filme und Serien basierend auf individuellen Interessen.",
+      "description": "The verb 'schlagen ... vor' is correct, but 'empfehlen' is more natural and commonly used in German for recommendations in this context. Adjusting the verb improves the naturalness and localization quality of the sentence.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Ein virtueller Assistent wie Siri oder Alexa, der Sprachbefehle versteht und reagiert.",
+      "correction": "Ein virtueller Assistent wie Siri oder Alexa, der Sprachbefehle versteht und darauf reagiert.",
+      "description": "The phrase 'versteht und reagiert' is understandable, but 'darauf reagiert' is more idiomatic in German, clarifying that the assistant responds to the commands. This adjustment improves the naturalness and clarity for German-speaking learners.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "What_is_AI.llm.md",
+    "language": "German",
+    "timestamp": "2025-10-03T21:45:19.580162",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 4,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.4,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

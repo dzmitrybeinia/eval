@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "удовеSAЛность",
+      "correction": "удовлетворённость",
+      "description": "The word 'удовеSAЛность' contains a spelling error and is not a valid Russian word. The correct term is 'удовлетворённость', which means 'satisfaction'. This error significantly affects comprehension and should be corrected.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Подход роста не имеет значения в личной и профессиональной развитию.",
+      "correction": "Подход роста не имеет значения в личном и профессиональном развитии.",
+      "description": "The phrase 'в личной и профессиональной развитию' contains case and agreement errors. The preposition 'в' requires the prepositional case, so 'личной и профессиональной развитию' should be 'личном и профессиональном развитии'. Both adjectives and the noun must agree in case and gender. This error affects grammatical correctness and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "поскольку подход роста является важным в личной и профессиональной развитию.",
+      "correction": "поскольку подход роста является важным в личном и профессиональном развитии.",
+      "description": "The phrase repeats the same case and agreement error as previously noted: 'в личной и профессиональной развитию' should be 'в личном и профессиональном развитии'. This affects grammatical accuracy and must be corrected for proper Russian usage.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Growth_Mindset.slm.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T22:26:27.554288",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.1,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.9,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.9,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

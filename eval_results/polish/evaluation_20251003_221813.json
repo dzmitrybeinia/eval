@@ -1,0 +1,163 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Dźwignia są zawsze niepotrzebne w codziennym życiu.",
+      "correction": "Dźwignie są zawsze niepotrzebne w codziennym życiu.",
+      "description": "The noun 'Dźwignia' is singular, but the verb 'są' and the adjective 'niepotrzebne' are plural. The correct plural form is 'Dźwignie'. This is a grammatical error in noun-verb agreement and affects clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Dźwignie odgrywa kluczową rolę w wielu codziennych przedmiotach, takich jak huczka, łomki i otwieracz do butelek.",
+      "correction": "Dźwignie odgrywają kluczową rolę w wielu codziennych przedmiotach, takich jak huczka, łomki i otwieracz do butelek.",
+      "description": "The verb 'odgrywa' is singular, but the subject 'Dźwignie' is plural. The correct verb form is 'odgrywają'. This is a subject-verb agreement error. Additionally, 'huczka' and 'łomki' are incorrect or nonstandard terms for everyday objects; 'huczka' is not a recognized tool, and 'łomki' is not the correct plural for 'łom'. This affects both linguistic accuracy and localization, but grammar is the primary issue.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "huczka, łomki i otwieracz do butelek",
+      "correction": "dziadek do orzechów, łom i otwieracz do butelek",
+      "description": "The terms 'huczka' and 'łomki' are incorrect or nonstandard in Polish for common lever-based tools. 'Huczka' is not a recognized word for any tool, and 'łomki' is an incorrect plural; the correct term is 'łom'. For localization, 'dziadek do orzechów' (nutcracker) is a more familiar example of a lever in Polish households.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Dzięki ich zdolności do podnoszenia lub przesuwania ciężkości, stawiają one pewne zadania łatwiejsze do wykonania.",
+      "correction": "Dzięki ich zdolności do podnoszenia lub przesuwania ciężarów, sprawiają, że pewne zadania są łatwiejsze do wykonania.",
+      "description": "The word 'ciężkości' is incorrect; the proper term is 'ciężarów' (weights/loads). The verb 'stawiają' is incorrect in this context; 'sprawiają, że' is the correct construction for 'make tasks easier'. This sentence contains errors in noun case, word choice, and verb usage.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Koło i oś zmniejsza tarcie między obiektem a podłożem, co pozwala na łatwiejsze poruszanie.",
+      "correction": "Koło i oś zmniejszają tarcie między obiektem a podłożem, co pozwala na łatwiejsze poruszanie.",
+      "description": "The subject 'Koło i oś' is plural, but the verb 'zmniejsza' is singular. The correct verb form is 'zmniejszają'. This is a subject-verb agreement error.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Ta założenie jest poprawną interpretacją działania koła i osi.",
+      "correction": "To założenie jest poprawną interpretacją działania koła i osi.",
+      "description": "The demonstrative pronoun 'Ta' is feminine, but 'założenie' is neuter. The correct form is 'To założenie'. This is a gender agreement error.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Zastosowanie tarcia zmniejsza, co pozwala ruchomelom na płynniejszy.",
+      "correction": "Zmniejszenie tarcia pozwala ruchomym elementom na płynniejsze działanie.",
+      "description": "The sentence structure is incorrect: 'Zastosowanie tarcia zmniejsza' is not logical, and 'ruchomelom' is a misspelling or nonstandard word. The correct phrase is 'Zmniejszenie tarcia pozwala ruchomym elementom na płynniejsze działanie.' This addresses errors in word choice, sentence structure, and spelling.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "ruchomelom",
+      "correction": "ruchomym elementom",
+      "description": "'Ruchomelom' is not a standard Polish word. The correct term is 'ruchomym elementom' (moving elements). This is a lexical error affecting comprehension.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "na płynniejszy",
+      "correction": "na płynniejsze działanie",
+      "description": "The phrase 'na płynniejszy' is incomplete and ungrammatical. The correct expression is 'na płynniejsze działanie' (for smoother operation). This is a grammar and collocation error.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "To jest dokładne.",
+      "correction": "To jest poprawne.",
+      "description": "The phrase 'To jest dokładne' is unnatural in this context. The correct term is 'To jest poprawne' (This is correct). This is a lexical and stylistic error.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Bloczek jest używany do zmniejszania wysiłku związania lub podnoszenia przedmiotów, co można zobaczyć zarówno w masztach flagowych, jak i suszarkach na ubrania.",
+      "correction": "Bloczek jest używany do zmniejszania wysiłku związanego z podnoszeniem lub przeciąganiem przedmiotów, co można zobaczyć zarówno w masztach flagowych, jak i suszarkach na ubrania.",
+      "description": "The phrase 'wysiłku związania' is incorrect; it should be 'wysiłku związanego z podnoszeniem lub przeciąganiem'. This is a grammar and word choice error.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "suszarkach na ubrania",
+      "correction": "suszarkach na pranie",
+      "description": "The term 'suszarka na ubrania' is less common in Polish; 'suszarka na pranie' is the standard term for a clothes drying rack. This is a terminology and localization issue.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Pochylnie zazwyczniowo są używane do uproszczenia ruchu obiektów w kierunku górnej lub dolnej, a nie wyłącznie do stabilizacji.",
+      "correction": "Pochylnie zazwyczaj są używane do ułatwienia ruchu obiektów w kierunku górnym lub dolnym, a nie wyłącznie do stabilizacji.",
+      "description": "The word 'zazwyczniowo' is a misspelling; the correct word is 'zazwyczaj'. The phrase 'uproszczenia ruchu' is unnatural; 'ułatwienia ruchu' is more appropriate. 'w kierunku górnej lub dolnej' should be 'w kierunku górnym lub dolnym' to match case and context. This sentence contains spelling, grammar, and lexical errors.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Pochylnice jak rampy, schody, czy zjeżdżalnia są zaprojektowane, aby łatwiej przekroczyć przeszkody, a nie utrzymywać stabilności.",
+      "correction": "Pochylnie, takie jak rampy, schody czy zjeżdżalnie, są zaprojektowane, aby łatwiej pokonywać przeszkody, a nie utrzymywać stabilność.",
+      "description": "The word 'Pochylnice' is incorrect; the correct term is 'Pochylnie'. 'przekroczyć przeszkody' should be 'pokonywać przeszkody' for naturalness. 'zjeżdżalnia' should be plural 'zjeżdżalnie' to match the list. 'utrzymywać stabilności' should be 'utrzymywać stabilność'. This sentence contains lexical, grammar, and stylistic errors.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Śruba można znaleźć w wielu domowych urządzeniach.",
+      "correction": "Śrubę można znaleźć w wielu domowych urządzeniach.",
+      "description": "The noun 'Śruba' should be in accusative case ('Śrubę') as the object of 'można znaleźć'. This is a noun case error.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Śruby są używane do połączenia różnych części w maszynach, które wykonują pracę.",
+      "correction": "Śruby są używane do łączenia różnych części w maszynach, które wykonują pracę.",
+      "description": "The phrase 'do połączenia' is incorrect in this context; 'do łączenia' is the correct verbal noun for ongoing use. This is a grammar and word choice error.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "W domowym środowisku często widzisz śruby w urządzeniach takich jak żarówki i wiertło, które potrzebują utrzymywać pozycję lub wykonywać pracę.",
+      "correction": "W domowym środowisku często można znaleźć śruby w urządzeniach takich jak lampy i wiertarki, które muszą utrzymywać pozycję lub wykonywać pracę.",
+      "description": "The phrase 'żarówki i wiertło' is not appropriate; 'lampy i wiertarki' are more accurate examples of devices containing screws. 'widzieć' should be replaced with 'można znaleźć' for a more formal and natural register. 'potrzebują utrzymywać' should be 'muszą utrzymywać'. This is a lexical and stylistic error.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Simple_Machines.slm.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T22:18:13.138794",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 5.7,
+    "classification": "POOR",
+    "total_issues": 17,
+    "total_penalty": 4.3,
+    "issue_breakdown": {
+      "linguistic": 16,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 4.2,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

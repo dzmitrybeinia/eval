@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Wyobraź sobie cząsteczkę DNA jako spiralne schody, gdzie każdy stopień jest utworzony przez dwie zasady azotowe połączone wiązaniami wodorowymi.",
+      "correction": "Wyobraź sobie cząsteczkę DNA jako spiralne schody, w których każdy stopień tworzą dwie zasady azotowe połączone wiązaniami wodorowymi.",
+      "description": "The phrase 'gdzie każdy stopień jest utworzony przez dwie zasady azotowe' is grammatically correct but stylistically less natural in Polish scientific writing. The use of 'gdzie' is more typical in informal contexts. Replacing it with 'w których' improves the naturalness and aligns with standard educational register, making the sentence more appropriate for instructional content.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Enzymy polimerazy DNA łączą nukleotydy, tworząc dwie identyczne cząsteczki DNA, każda z jedną oryginalną i jedną nowo zsyntetyzowaną nicią.",
+      "correction": "Enzym polimeraza DNA łączy nukleotydy, tworząc dwie identyczne cząsteczki DNA, każda z jedną oryginalną i jedną nowo zsyntetyzowaną nicią.",
+      "description": "The term 'enzymy polimerazy DNA' is incorrect because DNA polymerase is a specific enzyme, not a group of enzymes. The correct term is 'enzym polimeraza DNA'. This correction ensures scientific accuracy and consistency with standard Polish biological terminology.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Choroby genetyczne, takie jak anemia sierpowata czy mukowiscydoza, są wynikiem mutacji w DNA, które mogą być dziedziczone lub powstawać spontanicznie.",
+      "correction": "Choroby genetyczne, takie jak anemia sierpowata czy mukowiscydoza, są wynikiem mutacji w DNA, które mogą być dziedziczone lub powstawać spontanicznie.",
+      "description": "While the sentence is linguistically correct, the examples of genetic diseases ('anemia sierpowata' and 'mukowiscydoza') may not be the most culturally relevant for a Polish audience, as sickle cell anemia is much less common in Poland. Including examples such as 'dystrofia mięśniowa Duchenne’a' or 'fenyloketonuria' would increase cultural appropriateness and relatability for Polish learners.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "DNA_Basics.llm.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T21:31:12.668917",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.4,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

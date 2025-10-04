@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Są one uniwersalne, co oznacza, że dotyczą każdego, wszędzie, i są uznawane za nieodłączne dla wszystkich ludzi. 🌍",
+      "correction": "Są one uniwersalne, co oznacza, że dotyczą każdego, wszędzie, i są uznawane za nieodłączne dla wszystkich ludzi.",
+      "description": "The use of the globe emoji (🌍) at the end of a formal educational sentence is inappropriate for Polish academic content. Polish educational style favors a neutral, formal register and avoids emojis, which can undermine the seriousness of the topic. Removing the emoji improves professionalism and aligns with local expectations for educational materials.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Deklaracja Praw Człowieka zawiera 30 artykułów, które definiują podstawowe prawa i wolności.",
+      "correction": "Deklaracja Praw Człowieka zawiera 30 artykułów, które określają podstawowe prawa i wolności.",
+      "description": "The verb 'definiują' is not the most precise choice in this context. In Polish legal and educational texts, 'określają' is preferred when referring to articles of a declaration, as it means 'specify' or 'set out' rather than 'define.' This correction improves lexical precision and aligns with standard Polish terminology for legal documents.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Deklaracja stała się podstawą dla traktatów takich jak Międzynarodowy Pakt Praw Obywatelskich i Politycznych.",
+      "correction": "Deklaracja stała się podstawą dla traktatów takich jak Międzynarodowy Pakt Praw Obywatelskich i Politycznych.",
+      "description": "While the terminology is generally correct, the phrase 'traktatów takich jak Międzynarodowy Pakt Praw Obywatelskich i Politycznych' could be improved for consistency with Polish legal language. The standard term is 'Międzynarodowy Pakt Praw Obywatelskich i Politycznych' (not 'traktat'), but since the original uses the correct name, no change is needed. However, ensure consistent use of official names in all references throughout the content.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Human_Rights.llm.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T21:32:18.890748",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

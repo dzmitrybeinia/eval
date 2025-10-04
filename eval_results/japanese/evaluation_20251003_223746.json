@@ -1,0 +1,99 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "感情はみんなが経験するものではありません。",
+      "correction": "感情はみんなが経験するものです。",
+      "description": "The original sentence incorrectly uses the negative form 'ではありません', which contradicts the intended meaning that emotions are experienced by everyone. The correct form should be affirmative 'です'. This is a critical grammatical error that changes the meaning of the statement.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "感情自体は全員が経験するものではありません。",
+      "correction": "感情自体は全員が経験するものです。",
+      "description": "The sentence uses the negative form 'ではありません', which is incorrect because it implies that not everyone experiences emotions, contradicting the intended meaning. The correct form should be 'です'. This is a significant grammatical error affecting comprehension.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "例えば、ある人は特定の状況で混乱を感じることがある人もいれば、その人が落ち込んだり、喜びを感じることがある人もいます。",
+      "correction": "例えば、ある人は特定の状況で混乱を感じることがある一方で、落ち込んだり、喜びを感じることがある人もいます。",
+      "description": "The sentence is awkward and contains a redundancy with 'ある人...ことがある人もいれば、その人が...ことがある人もいます', which is not natural in Japanese. The phrase should be restructured for clarity and naturalness, using '一方で' to contrast the examples. This affects both sentence structure and natural expression.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "感情の表現は常に身体的な反応を伴います。",
+      "correction": "感情の表現は常に身体的な反応を伴うわけではありません。",
+      "description": "The original statement is grammatically correct but factually inaccurate, as not all emotional expressions are accompanied by physical reactions. The correction adds 'わけではありません' to accurately reflect the intended meaning.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "健康的な感情表現は、他人に責めることが一般的です。",
+      "correction": "健康的な感情表現は、他人を責めることが一般的ではありません。",
+      "description": "The original sentence incorrectly uses '責めることが一般的です', which suggests that blaming others is common in healthy emotional expression. This is a critical grammatical and semantic error. The correction negates the statement to match the intended meaning.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "強い感情に直面した際、すぐに解決策を見つけることが常に最善の策です。",
+      "correction": "強い感情に直面した際、すぐに解決策を見つけることが常に最善の策とは限りません。",
+      "description": "The original sentence uses '常に最善の策です', which is misleading and grammatically incorrect for the intended meaning. The correction adds 'とは限りません' to indicate that it is not always the best solution, aligning with the context.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "感情は意思決定に影響を与えない。",
+      "correction": "感情は意思決定に影響を与えます。",
+      "description": "The original sentence uses the negative form '与えない', which is incorrect for the intended meaning that emotions do influence decision-making. The correction changes it to the affirmative '与えます'. This is a critical grammatical error.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "感情の表現には身体的な反応があることはありますが、それが常にあるわけではありません。例えば、紙の上に書かれた文章を読むときには、感情的な反応が生じるかもしれませんが、それは個々の感情や状況によって大きく異なる可能性があります。",
+      "correction": "感情の表現には身体的な反応があることもありますが、それが常にあるわけではありません。例えば、紙の上に書かれた文章を読むときには、感情的な反応が生じるかもしれませんが、それは個々の感情や状況によって大きく異なる可能性があります。",
+      "description": "The phrase 'あることはありますが' is slightly unnatural; 'あることもありますが' is more idiomatic and natural in Japanese. This improves the flow and clarity of the sentence.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "即時の解決策を探ることは、時には効果的ですが、すぐには固まっていない状況では役に立ちません。",
+      "correction": "即時の解決策を探ることは、時には効果的ですが、すぐに解決策が固まっていない状況では役に立ちません。",
+      "description": "The phrase 'すぐには固まっていない状況' is awkward and unclear. It should be 'すぐに解決策が固まっていない状況', which clarifies that the solution is not immediately apparent. This correction improves sentence clarity and naturalness.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Emotions_and_Feelings_1.slm.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-03T22:37:46.390828",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 7.7,
+    "classification": "ACCEPTABLE",
+    "total_issues": 9,
+    "total_penalty": 2.3,
+    "issue_breakdown": {
+      "linguistic": 9,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 2.3,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

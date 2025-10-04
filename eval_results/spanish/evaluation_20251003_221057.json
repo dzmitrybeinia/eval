@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "El prototipado permite visualizar la idea, mientras que las pruebas evalúan su viabilidad.",
+      "correction": "El prototipado permite visualizar la idea, mientras que las pruebas evalúan su viabilidad.",
+      "description": "No linguistic errors detected. The sentence demonstrates correct use of grammar, including verb conjugation and clause coordination. No correction needed.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Es un momento esencial para la innovación, donde el valor de una idea no se juzga, permitiendo una exploración creativa sin restricciones.",
+      "correction": "Es un momento esencial para la innovación, en el que el valor de una idea no se juzga, permitiendo una exploración creativa sin restricciones.",
+      "description": "The phrase 'donde el valor de una idea no se juzga' is acceptable, but 'en el que' is more natural and formal in Spanish for referring to a time period. This improves the style and naturalness of the sentence for educational content.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Su objetivo es capturar el concepto básico y probar funcionalidades, no garantizar el éxito comercial.",
+      "correction": "Su objetivo es captar el concepto básico y probar funcionalidades, no garantizar el éxito comercial.",
+      "description": "The verb 'capturar' is commonly used for physical or digital capture, while 'captar' is more precise for abstract concepts such as ideas. This correction improves lexical precision and semantic accuracy.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "A través de pruebas, se pueden captar impresiones de usuarios que ayudan a refinar el diseño.",
+      "correction": "A través de pruebas, se pueden recoger impresiones de usuarios que ayudan a refinar el diseño.",
+      "description": "The verb 'recoger' is more standard and natural in Spanish when referring to collecting feedback or impressions from users, especially in educational and professional contexts. 'Captar' is less commonly used in this context.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Después de la implementación, el diseño a menudo se revisa y mejoras se realizan.",
+      "correction": "Después de la implementación, el diseño a menudo se revisa y se realizan mejoras.",
+      "description": "The phrase 'mejoras se realizan' lacks the reflexive pronoun 'se' before the verb, which is required for correct passive construction in Spanish. The corrected version ensures proper grammar and sentence structure.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Design_Process.slm.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-03T22:10:57.873926",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.2,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 0.8,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.6,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

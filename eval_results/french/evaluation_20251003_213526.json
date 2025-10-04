@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "La panique rend les décisions sûres plus difficiles.",
+      "correction": "La panique rend la prise de décisions sûres plus difficile.",
+      "description": "The original sentence contains a grammatical issue: 'les décisions sûres plus difficiles' is awkward and unclear in French. The phrase should focus on the act of making safe decisions, not the decisions themselves. The corrected version 'la prise de décisions sûres plus difficile' properly expresses that panic makes it harder to make safe decisions. This improves clarity and grammatical accuracy.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "arrêter, se coucher et rouler",
+      "correction": "s'arrêter, se coucher et rouler",
+      "description": "The imperative form for fire safety in French is typically 's'arrêter, se coucher et rouler' to match the reflexive construction used in French safety instructions. The original omits the reflexive pronoun 's'', which is unnatural and less clear for native speakers. This correction ensures the advice is presented in a culturally and linguistically standard way.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "En comprenant les dangers, en prévenant les incendies, et en sachant comment réagir en cas d'urgence, nous pouvons réduire les risques et rester préparés à toute situation.",
+      "correction": "En comprenant les dangers, en prévenant les incendies et en sachant comment réagir en cas d'urgence, nous pouvons réduire les risques et rester préparés à toute situation.",
+      "description": "In French, when listing actions with 'en + gerund', the final 'et' should not be preceded by a comma. The original sentence incorrectly includes a comma before 'et', which is a common anglicism and not standard in French punctuation. Removing the comma aligns with French syntactic and orthographic conventions.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Fire_Safety.llm.md",
+    "language": "French",
+    "timestamp": "2025-10-03T21:35:26.787748",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

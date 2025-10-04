@@ -1,67 +1,107 @@
 {
   "metadata": {
     "label": "llm",
-    "label_normalized": "llm",
-    "label_key": "llm",
     "language": "russian",
-    "generated_at": "2025-10-03T15:59:15.629788"
+    "generated_at": "2025-10-03T21:56:21.173368"
   },
   "top_error_patterns": [
     {
-      "pattern_name": "Non-standard translation of 'Civil Rights Movement'",
-      "category": "localization",
-      "subcategory": "Terminology",
-      "impact_level": "HIGH",
-      "frequency": "very_common",
-      "frequency_count": 3,
-      "description": "The phrase 'гражданское движение за права человека' is a literal and unnatural translation of 'Civil Rights Movement'. The standard Russian term is 'движение за гражданские права'. Using the incorrect term confuses readers and undermines professionalism and cultural fit.",
-      "examples": [
-        {
-          "wrong": "Гражданское движение за права человека было переломным моментом в истории США.",
-          "correct": "Движение за гражданские права было переломным моментом в истории США.",
-          "context": "Title and description of historical events"
-        },
-        {
-          "wrong": "Ключевые события гражданского движения за права человека",
-          "correct": "Ключевые события движения за гражданские права",
-          "context": "Section heading for key events"
-        },
-        {
-          "wrong": "Важные лидеры гражданского движения за права человека",
-          "correct": "Важные лидеры движения за гражданские права",
-          "context": "Section heading for important leaders"
-        }
-      ]
-    },
-    {
-      "pattern_name": "Subject-Verb Gender Agreement Errors",
+      "pattern_name": "Gender and Case Agreement Errors",
       "category": "linguistic",
       "subcategory": "Grammar",
       "impact_level": "HIGH",
-      "frequency": "common",
-      "frequency_count": 1,
-      "description": "Incorrect verb gender agreement with feminine nouns, leading to confusion about grammatical rules and reducing clarity.",
+      "frequency": "very_common",
+      "frequency_count": 4,
+      "description": "Frequent mistakes in matching gender and case between nouns, adjectives, and verbs, leading to ungrammatical and unclear sentences.",
       "examples": [
         {
           "wrong": "Река Нил обеспечивал водой...",
           "correct": "Река Нил обеспечивала водой...",
-          "context": "Subject 'река' is feminine, but verb is in masculine form."
+          "context": "Verb does not agree in gender with the feminine noun 'река'."
+        },
+        {
+          "wrong": "В ночной переполох,",
+          "correct": "В ночном переполохе,",
+          "context": "Adjective and noun do not agree in case and gender after the preposition."
+        },
+        {
+          "wrong": "Эксперименты проводятся для проверки гипотезы путем изменения одного переменного...",
+          "correct": "Эксперименты проводятся для проверки гипотезы путем изменения одной переменной...",
+          "context": "Numeral and noun do not agree in gender and case."
+        },
+        {
+          "wrong": "Сильный ритм и звучание, основанное на гитаре.",
+          "correct": "Сильный ритм и звучание, основанные на гитаре.",
+          "context": "Participle does not agree in number with compound subject."
         }
       ]
     },
     {
-      "pattern_name": "Incorrect Prepositional Case Usage",
+      "pattern_name": "Prepositional Case Misuse",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "HIGH",
+      "frequency": "common",
+      "frequency_count": 2,
+      "description": "Incorrect use of prepositional case after prepositions, resulting in grammatical errors and reduced clarity.",
+      "examples": [
+        {
+          "wrong": "Физические адаптации... связаны с средой обитания.",
+          "correct": "Физические адаптации... связаны со средой обитания.",
+          "context": "Preposition 'с' should be 'со' before consonant cluster for euphony and correct case."
+        },
+        {
+          "wrong": "Берёт начало... с развитием в эпохи Ренессанса...",
+          "correct": "Берёт начало... с развитием в эпохах Ренессанса...",
+          "context": "Prepositional plural required after 'в' when referring to multiple eras."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Awkward or Incorrect Participial Constructions",
       "category": "linguistic",
       "subcategory": "Syntax",
       "impact_level": "HIGH",
-      "frequency": "common",
+      "frequency": "occasional",
       "frequency_count": 1,
-      "description": "Misuse of prepositions with incorrect case endings, especially after 'с', which requires the instrumental case, leading to grammatical errors and reduced clarity.",
+      "description": "Use of participial phrases that are syntactically awkward or ungrammatical, affecting sentence flow and comprehension.",
       "examples": [
         {
-          "wrong": "с средой обитания",
-          "correct": "со средой обитания",
-          "context": "Preposition 'с' before a word starting with 'с' or 'ш' should be 'со', and the noun must be in instrumental case."
+          "wrong": "Тянув вниз за веревку, вы облегчаете подъем объекта вверх.",
+          "correct": "Тянув верёвку вниз, вы облегчаете подъём объекта вверх.",
+          "context": "Participial phrase is not idiomatic and misplaces adverb; corrected for natural Russian syntax."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Culturally Inaccurate Terminology for Historical Events",
+      "category": "localization",
+      "subcategory": "Cultural",
+      "impact_level": "HIGH",
+      "frequency": "common",
+      "frequency_count": 1,
+      "description": "Use of generic or non-standard terms for culturally specific historical events leads to misrepresentation and confusion in the target language.",
+      "examples": [
+        {
+          "wrong": "Гражданское движение за права человека было переломным моментом в истории США.",
+          "correct": "Гражданское движение за права афроамериканцев было переломным моментом в истории США.",
+          "context": "Refers to the US Civil Rights Movement; the original term is too broad and not culturally precise in Russian."
+        }
+      ]
+    },
+    {
+      "pattern_name": "Omission of Key Cultural or Factual Elements in Mnemonics",
+      "category": "localization",
+      "subcategory": "Cultural",
+      "impact_level": "HIGH",
+      "frequency": "common",
+      "frequency_count": 1,
+      "description": "Localized mnemonics or examples omit essential elements, resulting in factual inaccuracies and reduced educational clarity.",
+      "examples": [
+        {
+          "wrong": "акроним \"МОЭС\" помогает запомнить названия Великих озёр: Мичиган, Онтарио, Эри, Супериор.",
+          "correct": "акроним \"МОЭС\" помогает запомнить названия Великих озёр: Мичиган, Онтарио, Эри, Супериор, Гурон.",
+          "context": "The mnemonic for the Great Lakes omits 'Гурон', leading to incomplete and misleading information."
         }
       ]
     },
@@ -71,312 +111,445 @@
       "subcategory": "Terminology",
       "impact_level": "MEDIUM",
       "frequency": "very_common",
+      "frequency_count": 16,
+      "description": "Use of terms that are literal translations or not standard in Russian educational, scientific, or professional contexts, leading to confusion or lack of clarity.",
+      "examples": [
+        {
+          "wrong": "эндоплазматическая сеть",
+          "correct": "эндоплазматический ретикулум",
+          "context": "Biology/science terminology"
+        },
+        {
+          "wrong": "Коготь молотка",
+          "correct": "гвоздодёр",
+          "context": "Tool terminology"
+        },
+        {
+          "wrong": "Документальная литература — это тип текста...",
+          "correct": "Документальная литература — это вид литературы...",
+          "context": "Literary genre description"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect grammatical case, agreement, or verb tense",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "MEDIUM",
+      "frequency": "very_common",
+      "frequency_count": 10,
+      "description": "Systematic errors in case usage, verb tense, and agreement, leading to awkward or incorrect phrasing and reduced clarity.",
+      "examples": [
+        {
+          "wrong": "Принятие решений часто связано с сложными ситуациями",
+          "correct": "Принятие решений часто связано со сложными ситуациями",
+          "context": "Preposition usage before consonant clusters"
+        },
+        {
+          "wrong": "если вы подбрасываете монету, вероятность выпасть «орлу»",
+          "correct": "если вы подбрасываете монету, вероятность выпадения «орла»",
+          "context": "Probability phrasing in math content"
+        },
+        {
+          "wrong": "если вы подбрасываете монету 10 раз и «орел» выпадает 6 раз",
+          "correct": "если вы подбрасываете монету 10 раз и «орел» выпал 6 раз",
+          "context": "Verb tense for completed actions"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect or inconsistent use of 'ё' vs 'е'",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "MEDIUM",
+      "frequency": "very_common",
       "frequency_count": 8,
-      "description": "Use of terms that are literal translations or anglicisms, which are not standard or natural in Russian educational, scientific, or technical contexts. This affects clarity and professional tone.",
+      "description": "Words that should be spelled with 'ё' are often written with 'е', which can cause ambiguity and pronunciation errors, especially in educational and scientific contexts.",
       "examples": [
         {
-          "wrong": "Река Нил служила природным шоссе",
-          "correct": "Река Нил служила природной транспортной артерией",
-          "context": "Describing a river's role in transportation"
+          "wrong": "объем",
+          "correct": "объём",
+          "context": "Scientific/educational texts about physical properties"
         },
         {
-          "wrong": "Фермеры использовали инструмент \"шадуф\"",
-          "correct": "Земледельцы использовали инструмент \"шадуф\"",
-          "context": "Referring to ancient agricultural workers"
+          "wrong": "подчеркивая",
+          "correct": "подчёркивая",
+          "context": "Describing actions or processes"
         },
         {
-          "wrong": "Boolean",
-          "correct": "Булевый тип",
-          "context": "Programming terminology"
-        },
-        {
-          "wrong": "значения типа \"истина/ложь\"",
-          "correct": "значения типа \"True/False\"",
-          "context": "Boolean value examples in programming"
+          "wrong": "вооруженными силами",
+          "correct": "Вооружёнными Силами",
+          "context": "Official titles and military terms"
         }
       ]
     },
     {
-      "pattern_name": "Terminology Precision and Consistency",
+      "pattern_name": "Cultural misfit or lack of localization",
       "category": "localization",
-      "subcategory": "Terminology",
+      "subcategory": "Cultural",
       "impact_level": "MEDIUM",
       "frequency": "common",
-      "frequency_count": 6,
-      "description": "Use of less precise or inconsistent scientific and legal terms; corrections improve clarity and align with Russian academic standards.",
+      "frequency_count": 8,
+      "description": "Examples, phrases, or references that do not align with Russian cultural norms, educational practices, or everyday realities, reducing relatability and engagement.",
       "examples": [
         {
-          "wrong": "аппарат Гольджи",
-          "correct": "комплекс Гольджи",
-          "context": "Biology lesson on cell organelles"
+          "wrong": "Создайте тихое место для учебы.",
+          "correct": "Организуйте удобное и спокойное пространство для учебы.",
+          "context": "Study advice"
         },
         {
-          "wrong": "эндоплазматическому ретикулуму",
-          "correct": "эндоплазматическому ретикулуму (ЭПР)",
-          "context": "First mention of organelle in biology text"
+          "wrong": "Празднование фестивалей, таких как Дивали и Холи.",
+          "correct": "Празднование праздников, таких как Дивали и Холи.",
+          "context": "Religious/cultural events"
         },
         {
-          "wrong": "Закон о гражданских правах (1964): Запрет дискриминации по признакам...",
-          "correct": "Закон о гражданских правах (1964): Запрет дискриминации по признаку...",
-          "context": "Legal terminology in history lesson"
-        },
-        {
-          "wrong": "Влияние на американское общество",
-          "correct": "Влияние на общество США",
-          "context": "Section heading in history lesson"
+          "wrong": "Прокламация об освобождении рабов, изданная Авраамом Линкольном во время гражданской войны.",
+          "correct": "Прокламация об освобождении рабов, подписанная Авраамом Линкольном во время Гражданской войны в США.",
+          "context": "Historical context"
         }
       ]
     },
     {
-      "pattern_name": "Stylistic Awkwardness and Register",
+      "pattern_name": "Unnatural or awkward style/phrasing",
       "category": "localization",
       "subcategory": "Style",
       "impact_level": "MEDIUM",
       "frequency": "common",
-      "frequency_count": 5,
-      "description": "Sentences are grammatically correct but sound unnatural or awkward in Russian; corrections provide more fluid, native-like expressions and appropriate register.",
+      "frequency_count": 8,
+      "description": "Use of phrases, word choices, or sentence structures that are technically correct but sound awkward, stilted, or less idiomatic in Russian, affecting readability and professionalism.",
       "examples": [
         {
-          "wrong": "Адаптации — это способ природы обеспечить, чтобы животные могли процветать...",
-          "correct": "Адаптации — это способ, с помощью которого природа обеспечивает процветание животных...",
-          "context": "Biology lesson introduction"
+          "wrong": "Ведите дневник для фиксации мыслей и чувств.",
+          "correct": "Ведите дневник для записи мыслей и чувств.",
+          "context": "Advice on journaling"
         },
         {
-          "wrong": "Дома с открытой вентиляцией для охлаждения.",
-          "correct": "Дома с открытой вентиляцией или большими окнами для естественного охлаждения.",
-          "context": "Geography lesson on tropical architecture"
+          "wrong": "Он обеспечивает логичность, повторяемость и доказательность исследований.",
+          "correct": "Он обеспечивает логичность, воспроизводимость и обоснованность исследований.",
+          "context": "Scientific writing"
+        },
+        {
+          "wrong": "Избегание сладких закусок помогает оставаться сосредоточенным и энергичным.",
+          "correct": "Отказ от сладких перекусов помогает сохранять концентрацию и энергию.",
+          "context": "Health advice"
         }
       ]
     },
     {
-      "pattern_name": "Unnatural or awkward phrasing",
-      "category": "localization",
-      "subcategory": "Style",
+      "pattern_name": "Non-idiomatic lexical choices (calques and unnatural collocations)",
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "impact_level": "MEDIUM",
+      "frequency": "very_common",
+      "frequency_count": 7,
+      "description": "Frequent use of literal translations or non-standard collocations that do not match Russian educational or scientific style, reducing clarity and professionalism.",
+      "examples": [
+        {
+          "wrong": "дом для разнообразных растений и животных",
+          "correct": "место обитания разнообразных растений и животных",
+          "context": "Habitat description in science content"
+        },
+        {
+          "wrong": "годичный бойкот",
+          "correct": "годовой бойкот",
+          "context": "Describing duration of historical events"
+        },
+        {
+          "wrong": "эмоционально подключиться к сюжету",
+          "correct": "эмоционально сопереживать сюжету",
+          "context": "Describing emotional engagement with a story"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Orthographic errors: incorrect spelling, word formation, and use of ё",
+      "category": "linguistic",
+      "subcategory": "Orthography",
       "impact_level": "MEDIUM",
       "frequency": "common",
-      "frequency_count": 4,
-      "description": "Phrases that are direct translations from English or otherwise awkward, leading to confusion or reduced clarity for Russian readers.",
+      "frequency_count": 7,
+      "description": "Misspellings, incorrect word formation (e.g., negative particle separation), and omission of ё where required, affecting clarity and educational accuracy.",
       "examples": [
         {
-          "wrong": "Обе клетки: имеют мембрану, цитоплазму и ядро.",
-          "correct": "И те, и другие клетки имеют мембрану, цитоплазму и ядро.",
-          "context": "Comparing two types of cells"
+          "wrong": "не прилипающую повязку",
+          "correct": "неприлипающую повязку",
+          "context": "Negative participle spelling in medical context"
         },
         {
-          "wrong": "for каждый студент в 5 студентах:",
-          "correct": "for каждый студент из 5 студентов:",
-          "context": "Iterating over a group in programming"
+          "wrong": "Твердые тела имеют фиксированную форму и объем",
+          "correct": "Твёрдые тела имеют фиксированную форму и объём",
+          "context": "Use of ё in scientific terminology"
+        },
+        {
+          "wrong": "булевы значения",
+          "correct": "булевые значения",
+          "context": "Adjective agreement in technical terminology"
         }
       ]
     },
     {
-      "pattern_name": "Inappropriate Use of Emojis",
-      "category": "localization",
-      "subcategory": "Style",
-      "impact_level": "MEDIUM",
-      "frequency": "common",
-      "frequency_count": 4,
-      "description": "Emojis are used in educational content, which is not standard for Russian academic materials and may reduce professionalism or distract learners.",
-      "examples": [
-        {
-          "wrong": "Добро пожаловать в мир алгебры! 🌟 Алгебра — это раздел математики...",
-          "correct": "Добро пожаловать в мир алгебры! Алгебра — это раздел математики...",
-          "context": "Introductory paragraph in math lesson"
-        },
-        {
-          "wrong": "🌿💡",
-          "correct": "",
-          "context": "Biology lesson header"
-        },
-        {
-          "wrong": "🌟",
-          "correct": "",
-          "context": "End of introductory paragraph"
-        }
-      ]
-    },
-    {
-      "pattern_name": "Incorrect or inconsistent formatting",
+      "pattern_name": "Incorrect or non-local format usage",
       "category": "localization",
       "subcategory": "Format",
       "impact_level": "MEDIUM",
       "frequency": "occasional",
-      "frequency_count": 2,
-      "description": "Use of English-style formatting, such as decimal separators or quotation marks, which do not match Russian conventions and may cause confusion.",
+      "frequency_count": 3,
+      "description": "Use of examples, formatting, or conventions (such as phone numbers or menu items) that do not match Russian standards, causing confusion or reducing authenticity.",
       "examples": [
         {
-          "wrong": "5.5",
-          "correct": "5,5",
-          "context": "Decimal separator in numbers"
+          "wrong": "123-456-7890",
+          "correct": "8 (123) 456-78-90",
+          "context": "Phone number format"
         },
         {
-          "wrong": "\"У меня есть мечта\"",
-          "correct": "«У меня есть мечта»",
-          "context": "Quotation marks for speech titles"
+          "wrong": "Гриль-курица (белок)",
+          "correct": "Курица-гриль (белок)",
+          "context": "Food/menu terminology"
         }
       ]
     },
     {
-      "pattern_name": "Cultural or contextual mismatch",
-      "category": "localization",
-      "subcategory": "Cultural",
+      "pattern_name": "Ambiguous or incomplete noun references",
+      "category": "linguistic",
+      "subcategory": "Orthography",
       "impact_level": "MEDIUM",
       "frequency": "occasional",
       "frequency_count": 2,
-      "description": "Content or references that do not fit Russian cultural, educational, or scientific context, reducing relevance or accuracy for the target audience.",
+      "description": "Omission of nouns after adjectives or use of plural/singular forms that create ambiguity, reducing clarity and precision.",
       "examples": [
         {
-          "wrong": "картофель может расти летом",
-          "correct": "некоторые овощи, например картофель, могут расти летом",
-          "context": "Describing agriculture in polar regions"
+          "wrong": "Пенопластовая изоляция сохраняла воду холодной на 3 часа дольше, чем пластиковая.",
+          "correct": "Пенопластовая изоляция сохраняла воду холодной на 3 часа дольше, чем пластиковая изоляция.",
+          "context": "Comparative structure in scientific explanation"
         },
         {
-          "wrong": "Связь с стандартом NGSS (MS-ETS1-1)",
-          "correct": "Связь со стандартом NGSS (MS-ETS1-1)",
-          "context": "Reference to US educational standards without adaptation"
+          "wrong": "уменьшение размера классов",
+          "correct": "уменьшение размера класса",
+          "context": "Genitive singular vs. plural in educational context"
         }
       ]
     },
     {
-      "pattern_name": "Non-idiomatic or unnatural time expressions",
+      "pattern_name": "Non-standard terminology in technical and educational contexts",
       "category": "linguistic",
-      "subcategory": "Grammar",
+      "subcategory": "Terminology",
       "impact_level": "MEDIUM",
-      "frequency": "common",
-      "frequency_count": 1,
-      "description": "Use of less natural or non-standard phrases to express duration, which can reduce clarity and sound awkward in Russian educational content.",
+      "frequency": "occasional",
+      "frequency_count": 2,
+      "description": "Use of non-standard or awkward terms for technical concepts, reducing professionalism and localization fit.",
       "examples": [
         {
-          "wrong": "на протяжении долгого времени",
-          "correct": "в течение долгого времени",
-          "context": "Describing how long a camel can survive without food."
-        }
-      ]
-    },
-    {
-      "pattern_name": "Incorrect case usage with abstract nouns",
-      "category": "linguistic",
-      "subcategory": "Grammar",
-      "impact_level": "MEDIUM",
-      "frequency": "common",
-      "frequency_count": 1,
-      "description": "Mistakes in noun case agreement, especially with abstract nouns, leading to grammatically incorrect phrases that can confuse readers.",
-      "examples": [
+          "wrong": "Экологический ученый",
+          "correct": "Эколог",
+          "context": "Scientific profession naming"
+        },
         {
-          "wrong": "требующих высокой энергозатраты",
-          "correct": "требующих высокой энергозатраты",
-          "context": "Describing processes that require high energy expenditure."
+          "wrong": "двигатели ракет, обеспечивающие необходимую тягу",
+          "correct": "двигатели ракет, обеспечивающие необходимую силу тяги",
+          "context": "Technical terminology in physics/engineering"
         }
       ]
     },
     {
-      "pattern_name": "Lexical imprecision in scientific context",
-      "category": "linguistic",
-      "subcategory": "Lexical",
-      "impact_level": "MEDIUM",
-      "frequency": "common",
-      "frequency_count": 1,
-      "description": "Use of generic terms where specific scientific terminology is required, reducing educational accuracy and clarity.",
-      "examples": [
-        {
-          "wrong": "медведи и пингвины",
-          "correct": "белые медведи и пингвины",
-          "context": "Referring to animal species in polar regions."
-        }
-      ]
-    },
-    {
-      "pattern_name": "Inappropriate use of informal elements",
+      "pattern_name": "Non-idiomatic or unnatural phrasing in educational style",
       "category": "localization",
       "subcategory": "Style",
-      "impact_level": "MEDIUM",
-      "frequency": "rare",
-      "frequency_count": 1,
-      "description": "Use of informal elements such as emojis in formal educational content, which undermines seriousness and professionalism.",
-      "examples": [
-        {
-          "wrong": "мужественное лидерство. 🌍",
-          "correct": "мужественное лидерство.",
-          "context": "Formal academic introduction"
-        }
-      ]
-    },
-    {
-      "pattern_name": "Inconsistent use of 'ё' vs 'е' in formal writing",
-      "category": "linguistic",
-      "subcategory": "Orthography",
       "impact_level": "LOW",
-      "frequency": "common",
-      "frequency_count": 2,
-      "description": "Russian formal and educational texts often replace 'ё' with 'е' unless disambiguation is needed. Inconsistent application of this convention can lead to minor orthographic issues and potential ambiguity.",
+      "frequency": "very_common",
+      "frequency_count": 28,
+      "description": "Frequent use of literal translations, ambiguous constructions, or less idiomatic phrases that reduce clarity and naturalness in Russian educational texts.",
       "examples": [
         {
-          "wrong": "расчёты",
-          "correct": "расчеты",
-          "context": "Technical/educational context where 'е' is preferred unless meaning is ambiguous."
+          "wrong": "Дробь представляет часть целого.",
+          "correct": "Дробь — это часть целого.",
+          "context": "Math definition"
         },
         {
-          "wrong": "Нерешённые конфликты могут вызывать стресс и негативные эмоции.",
-          "correct": "Нерешённые конфликты могут вызывать стресс и негативные эмоции.",
-          "context": "Educational context where 'ё' is retained for clarity, but often replaced by 'е' in publications."
+          "wrong": "Сделайте глубокий вдох, если эмоции накаляются.",
+          "correct": "Можно сделать глубокий вдох, если эмоции накаляются.",
+          "context": "Advice in SEL lesson"
+        },
+        {
+          "wrong": "Практикуйте эти техники, рисуя повседневные предметы, такие как кружка, ваза или дерево.",
+          "correct": "Практикуйте эти техники, рисуя повседневные предметы, например кружку, вазу или дерево.",
+          "context": "Art instruction"
         }
       ]
     },
     {
-      "pattern_name": "Cultural Context and Localization Fit",
+      "pattern_name": "Inconsistent or non-standard terminology and transliteration",
+      "category": "localization",
+      "subcategory": "Terminology",
+      "impact_level": "LOW",
+      "frequency": "common",
+      "frequency_count": 18,
+      "description": "Use of terms that are either literal translations, uncommon in Russian educational/scientific contexts, or transliterations without the original term in parentheses, reducing clarity and professional tone.",
+      "examples": [
+        {
+          "wrong": "ледерхозен",
+          "correct": "ледерхозен (Lederhosen)",
+          "context": "Cultural studies vocabulary"
+        },
+        {
+          "wrong": "школьными принадлежностями",
+          "correct": "канцелярскими принадлежностями",
+          "context": "School supplies terminology"
+        },
+        {
+          "wrong": "Ментальные карты",
+          "correct": "Интеллект-карты",
+          "context": "Mind maps in learning strategies"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Non-standard or inappropriate use of emojis in educational content",
+      "category": "localization",
+      "subcategory": "Style",
+      "impact_level": "LOW",
+      "frequency": "very_common",
+      "frequency_count": 12,
+      "description": "Emojis such as 🌟, 😊, 😄, and 🌍 are frequently used in introductions or explanations, but are not standard in Russian educational materials and may undermine professional tone or distract learners.",
+      "examples": [
+        {
+          "wrong": "Добро пожаловать в мир алгебры! 🌟",
+          "correct": "Добро пожаловать в мир алгебры!",
+          "context": "Introductory sentence in math lesson"
+        },
+        {
+          "wrong": "Готовы начать? 😄",
+          "correct": "Готовы начать?",
+          "context": "Lesson opening question"
+        },
+        {
+          "wrong": "🌍 Сегодня мы начнем изучение Всеобщей декларации прав человека...",
+          "correct": "Сегодня мы начнем изучение Всеобщей декларации прав человека...",
+          "context": "Introduction to a social studies topic"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Incorrect or non-standard Russian quotation marks and formatting",
+      "category": "localization",
+      "subcategory": "Format",
+      "impact_level": "LOW",
+      "frequency": "common",
+      "frequency_count": 8,
+      "description": "Use of English-style quotes (\") instead of Russian (« »), incorrect spacing in dates, numbers, and units, and other minor typographic inconsistencies that affect professional presentation.",
+      "examples": [
+        {
+          "wrong": "например \"password\" или \"123456\"",
+          "correct": "например «password» или «123456»",
+          "context": "Password examples in IT lesson"
+        },
+        {
+          "wrong": "39,4°C",
+          "correct": "39,4 °C",
+          "context": "Temperature notation in science"
+        },
+        {
+          "wrong": "с 130 г. до н.э. до 1453 г. н.э.",
+          "correct": "с 130 г. до н. э. до 1453 г. н. э.",
+          "context": "Historical date formatting"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Non-inclusive or culturally narrow references",
       "category": "localization",
       "subcategory": "Cultural",
       "impact_level": "LOW",
       "frequency": "occasional",
-      "frequency_count": 2,
-      "description": "Examples or references are personalized or use contexts less typical for Russian educational materials; corrections make content more universally applicable and culturally neutral.",
+      "frequency_count": 6,
+      "description": "Examples or terminology that may be US-centric, non-inclusive, or not fully adapted to Russian cultural context, potentially limiting relevance or accessibility for Russian learners.",
       "examples": [
         {
-          "wrong": "Например, подсолнух в вашем саду питается энергией...",
-          "correct": "Например, подсолнух получает энергию благодаря хлоропластам.",
-          "context": "Biology example sentence"
+          "wrong": "Пандусы для инвалидных колясок",
+          "correct": "пандусы для маломобильных граждан",
+          "context": "Accessibility terminology"
         },
         {
-          "wrong": "Культуры, такие как бананы, кофе и сахарный тростник...",
-          "correct": "Культуры, такие как бананы, кофе и сахарный тростник...",
-          "context": "Geography lesson on tropical crops"
+          "wrong": "Россия экспортирует природный газ в Европу и импортирует электронику из Китая.",
+          "correct": "Россия экспортирует природный газ в Европу и импортирует электронику из Китая.",
+          "context": "Trade examples; suggestion to broaden context"
+        },
+        {
+          "wrong": "Пример: На выборах 2020 года в США голосование по почте стало важным вариантом из-за пандемии COVID-19.",
+          "correct": "Пример: На выборах 2020 года в США голосование по почте стало важным вариантом из-за пандемии COVID-19.",
+          "context": "US-centric example; suggestion to localize"
         }
       ]
     },
     {
-      "pattern_name": "Minor Orthographic and Punctuation Issues",
-      "category": "localization",
-      "subcategory": "Orthography",
-      "impact_level": "LOW",
-      "frequency": "occasional",
-      "frequency_count": 2,
-      "description": "Minor errors such as missing diacritics or punctuation; corrections improve professionalism and clarity.",
-      "examples": [
-        {
-          "wrong": "Повышение осведомленности о системном расизме...",
-          "correct": "Повышение осведомлённости о системном расизме...",
-          "context": "History lesson on social movements"
-        },
-        {
-          "wrong": "Я чувствую себя неуслышанным, когда пытаюсь поделиться своими мыслями",
-          "correct": "Я чувствую себя неуслышанным, когда пытаюсь поделиться своими мыслями.",
-          "context": "Example sentence in social studies"
-        }
-      ]
-    },
-    {
-      "pattern_name": "Overly formal participle usage",
+      "pattern_name": "Lexical imprecision in scientific/technical terminology",
       "category": "linguistic",
       "subcategory": "Lexical",
       "impact_level": "LOW",
-      "frequency": "occasional",
-      "frequency_count": 1,
-      "description": "Use of participles that are grammatically correct but not idiomatic or natural in Russian, leading to minor awkwardness or reduced clarity.",
+      "frequency": "common",
+      "frequency_count": 5,
+      "description": "Terms are used in a way that is technically correct but not the most precise or standard in Russian educational or scientific discourse, which can affect clarity and naturalness.",
       "examples": [
         {
-          "wrong": "транспортируемого по реке",
-          "correct": "перевозимого по реке",
-          "context": "Describing movement of goods; 'перевозимого' is more natural in Russian."
+          "wrong": "энергетическая станция",
+          "correct": "энергетическая станция клетки",
+          "context": "Biological context referring to mitochondria"
+        },
+        {
+          "wrong": "мертвых растений",
+          "correct": "засохших растений",
+          "context": "Describing dead vegetation"
+        },
+        {
+          "wrong": "ископаемое топливо",
+          "correct": "ископаемые топлива",
+          "context": "Enumerating types of fuel"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Unnecessary or missing capitalization",
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "impact_level": "LOW",
+      "frequency": "common",
+      "frequency_count": 4,
+      "description": "Words are incorrectly capitalized or not capitalized according to Russian orthographic standards, affecting the professional tone and consistency.",
+      "examples": [
+        {
+          "wrong": "Неделя празднования африканского наследия",
+          "correct": "неделя празднования африканского наследия",
+          "context": "General nouns not at sentence start"
+        },
+        {
+          "wrong": "интернет",
+          "correct": "Интернет",
+          "context": "Referring to the global network in formal contexts"
+        },
+        {
+          "wrong": "Священного Писания",
+          "correct": "Священного писания",
+          "context": "General reference to religious texts"
+        }
+      ]
+    },
+    {
+      "pattern_name": "Omission or misuse of copula 'это' after dash",
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "impact_level": "LOW",
+      "frequency": "occasional",
+      "frequency_count": 2,
+      "description": "The particle 'это' is sometimes unnecessarily added after a dash or omitted where it clarifies the subject-predicate relationship, affecting clarity and adherence to Russian academic style.",
+      "examples": [
+        {
+          "wrong": "Этос, пафос и логос — это основные инструменты...",
+          "correct": "Этос, пафос и логос — основные инструменты...",
+          "context": "Listing concepts in educational explanations"
+        },
+        {
+          "wrong": "Принятие решений — важный навык...",
+          "correct": "Принятие решений — это важный навык...",
+          "context": "Defining terms or skills"
         }
       ]
     }

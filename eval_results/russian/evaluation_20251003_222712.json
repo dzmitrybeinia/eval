@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "каждое стороно с большей вероятностью покажет значение больше 4.",
+      "correction": "каждая сторона с большей вероятностью покажет значение больше 4.",
+      "description": "The word 'стороно' is incorrectly inflected; the correct nominative singular form is 'сторона'. Additionally, 'каждое' should agree in gender with 'сторона', which is feminine, so it should be 'каждая'. This error affects grammatical agreement and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "шестеренковым кубиком",
+      "correction": "шестигранным кубиком",
+      "description": "The term 'шестеренковым кубиком' is incorrect and misleading, as it refers to something with gears ('шестерёнка') rather than the intended 'шестигранный кубик' (six-sided die). This is a lexical error that affects technical accuracy and comprehension.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Probability_Games.slm.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T22:27:12.408802",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.6,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "natychliwej",
+      "correction": "natychmiastowej",
+      "description": "The word 'natychliwej' is a lexical error; it is not a correct Polish word. The intended meaning is 'immediate', which should be expressed as 'natychmiastowej'. This error affects clarity and comprehension, and the correction ensures proper communication of urgency in the context of task prioritization.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "a nie być jedyną metodą użytej",
+      "correction": "a nie być jedyną zastosowaną metodą",
+      "description": "The phrase 'a nie być jedyną metodą użytej' contains a syntactic error: the participle 'użytej' does not agree with 'metodą' in case and gender, and the word order is unnatural. The corrected version 'a nie być jedyną zastosowaną metodą' provides proper agreement and a natural Polish structure, improving clarity and readability.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Study_Skills.slm.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T22:18:50.274128",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.5,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

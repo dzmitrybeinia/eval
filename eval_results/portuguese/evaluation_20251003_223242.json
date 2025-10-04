@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "como pode ser observado em situações comuns, como no ambiente escolar.",
+      "correction": "como pode ser observado em situações comuns, como no ambiente escolar.",
+      "description": "Although the sentence is grammatically correct, the repetition of 'como' in close proximity can lead to awkwardness and reduce clarity. For improved linguistic flow, consider rephrasing to avoid redundancy, such as: 'como pode ser observado em situações comuns, por exemplo, no ambiente escolar.' This enhances readability and maintains grammatical accuracy.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "elas podem ouvir melhor e entender melhor as perspectivas dos outros.",
+      "correction": "elas podem ouvir melhor e entender melhor as perspectivas dos outros.",
+      "description": "The phrase 'ouvir melhor e entender melhor' repeats 'melhor' unnecessarily, which can be stylistically improved for conciseness. A more natural construction would be 'elas podem ouvir e entender melhor as perspectivas dos outros.' This adjustment streamlines the sentence and maintains correct grammar.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "potencialmente levando a uma solução que respeite as necessidades de todos os envolvidos.",
+      "correction": "levando a uma solução que respeite as necessidades de todos os envolvidos.",
+      "description": "The use of 'potencialmente' is somewhat formal and less common in educational contexts aimed at younger audiences. Removing 'potencialmente' makes the statement more direct and natural, which is preferable for Brazilian Portuguese educational materials.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Conflict_Resolution.slm.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T22:32:42.230522",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

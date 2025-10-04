@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Minha Velha Mãe Estudada Jamais Saberá Usar Nada",
+      "correction": "Minha Velha Mãe Estudou Jantar Sem Usar Nada",
+      "description": "The original mnemonic for the planets, 'Minha Velha Mãe Estudada Jamais Saberá Usar Nada', is not a widely recognized or standard mnemonic in Brazilian Portuguese. It may confuse learners due to its lack of cultural familiarity and naturalness. A more common and culturally appropriate mnemonic is 'Minha Velha Mãe Estudou Jantar Sem Usar Nada', which is easier to remember and more frequently used in educational contexts in Brazil. This correction improves cultural relevance and aids memorization.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Agrupamento divide informações complexas em unidades menores e mais gerenciáveis.",
+      "correction": "O agrupamento divide informações complexas em unidades menores e mais gerenciáveis.",
+      "description": "The sentence 'Agrupamento divide informações complexas em unidades menores e mais gerenciáveis.' lacks the definite article 'O' before 'agrupamento', which is required for proper grammatical structure in Brazilian Portuguese when introducing a concept in this context. Adding 'O' clarifies the subject and improves sentence flow.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Memory_Techniques.llm.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T21:47:38.059483",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

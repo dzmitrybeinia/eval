@@ -1,25 +1,63 @@
 {
   "metadata": {
     "label": "llm",
-    "label_normalized": "llm",
-    "label_key": "llm",
     "language": "russian",
-    "generated_at": "2025-10-03T15:57:57.574137",
+    "generated_at": "2025-10-03T21:53:25.191791",
     "source_files": [
-      "evaluation_20251003_155402.json",
-      "evaluation_20251003_155406.json",
-      "evaluation_20251003_155408.json",
-      "evaluation_20251003_155412.json",
-      "evaluation_20251003_155415.json",
-      "evaluation_20251003_155431.json",
-      "evaluation_20251003_155435.json",
-      "evaluation_20251003_155440.json",
-      "evaluation_20251003_155443.json",
-      "evaluation_20251003_155448.json"
+      "evaluation_20251003_213746.json",
+      "evaluation_20251003_213748.json",
+      "evaluation_20251003_213805.json",
+      "evaluation_20251003_213808.json",
+      "evaluation_20251003_213811.json",
+      "evaluation_20251003_213837.json",
+      "evaluation_20251003_213841.json",
+      "evaluation_20251003_213846.json",
+      "evaluation_20251003_213849.json",
+      "evaluation_20251003_213854.json",
+      "evaluation_20251003_213858.json",
+      "evaluation_20251003_213904.json",
+      "evaluation_20251003_213908.json",
+      "evaluation_20251003_213914.json",
+      "evaluation_20251003_213918.json",
+      "evaluation_20251003_213920.json",
+      "evaluation_20251003_213921.json",
+      "evaluation_20251003_213923.json",
+      "evaluation_20251003_213930.json",
+      "evaluation_20251003_213931.json",
+      "evaluation_20251003_213936.json",
+      "evaluation_20251003_213938.json",
+      "evaluation_20251003_213941.json",
+      "evaluation_20251003_213953.json",
+      "evaluation_20251003_213955.json",
+      "evaluation_20251003_214001.json",
+      "evaluation_20251003_214006.json",
+      "evaluation_20251003_214010.json",
+      "evaluation_20251003_214012.json",
+      "evaluation_20251003_214017.json",
+      "evaluation_20251003_214020.json",
+      "evaluation_20251003_214023.json",
+      "evaluation_20251003_214025.json",
+      "evaluation_20251003_214030.json",
+      "evaluation_20251003_214033.json",
+      "evaluation_20251003_214038.json",
+      "evaluation_20251003_214041.json",
+      "evaluation_20251003_214046.json",
+      "evaluation_20251003_214049.json",
+      "evaluation_20251003_214105.json",
+      "evaluation_20251003_214108.json",
+      "evaluation_20251003_214111.json",
+      "evaluation_20251003_214115.json",
+      "evaluation_20251003_214118.json",
+      "evaluation_20251003_214124.json",
+      "evaluation_20251003_214127.json",
+      "evaluation_20251003_214131.json",
+      "evaluation_20251003_214135.json",
+      "evaluation_20251003_214140.json",
+      "evaluation_20251003_214142.json"
     ],
     "issue_counts": {
-      "linguistic": 8,
-      "localization": 38
+      "linguistic": 76,
+      "localization": 151
     }
   },
   "issues": {
@@ -29,63 +67,607 @@
         "subcategory": "Grammar",
         "original": "Река Нил обеспечивал водой, плодородной почвой и транспортной артерией, формируя развитие одной из самых выдающихся цивилизаций в истории.",
         "correction": "Река Нил обеспечивала водой, плодородной почвой и транспортной артерией, формируя развитие одной из самых выдающихся цивилизаций в истории.",
-        "description": "The verb 'обеспечивал' is incorrectly used in masculine singular form, while the subject 'Река Нил' is feminine ('река'). The correct form is 'обеспечивала'. This grammatical error affects subject-verb agreement and can confuse learners about gender rules in Russian.",
+        "description": "The verb 'обеспечивал' is incorrectly conjugated for the feminine noun 'река'. It should be 'обеспечивала' to agree in gender and number. This grammatical error affects the sentence's correctness and clarity.",
         "severity": "HIGH"
-      },
-      {
-        "category": "linguistic",
-        "subcategory": "Orthography",
-        "original": "Пирамиды Гизы, расположенные рядом с Нилом, строились с использованием известняка, транспортируемого по реке.",
-        "correction": "Пирамиды Гизы, расположенные рядом с Нилом, строились с использованием известняка, перевозимого по реке.",
-        "description": "The participle 'транспортируемого' is overly formal and not idiomatic in Russian for describing the movement of goods by river. 'Перевозимого' is the standard and natural participle for this context. This improves both linguistic accuracy and naturalness.",
-        "severity": "MINOR"
       },
       {
         "category": "linguistic",
         "subcategory": "Syntax",
         "original": "Физические адаптации часто видны и непосредственно связаны с средой обитания.",
         "correction": "Физические адаптации часто видны и непосредственно связаны со средой обитания.",
-        "description": "The preposition 'с' requires the instrumental case, so 'с средой' should be 'со средой'. This is a grammatical error affecting the sentence's correctness and clarity.",
+        "description": "The preposition 'с' requires the instrumental case, so 'с средой' should be 'со средой'. The use of 'со' before a word starting with 'с' and a consonant cluster is standard for euphony in Russian. This error affects sentence flow and grammatical correctness.",
         "severity": "HIGH"
       },
       {
         "category": "linguistic",
-        "subcategory": "Grammar",
+        "subcategory": "Orthography",
         "original": "Горб верблюда хранит жир, позволяя ему выживать в пустыне без пищи на протяжении долгого времени.",
         "correction": "Горб верблюда хранит жир, позволяя ему выживать в пустыне без пищи в течение долгого времени.",
-        "description": "The phrase 'на протяжении долгого времени' is less natural in this context; 'в течение долгого времени' is the standard way to express 'for a long time' when referring to duration. This improves grammatical and stylistic accuracy.",
+        "description": "The phrase 'на протяжении долгого времени' is less natural in this context; 'в течение долгого времени' is the standard collocation for expressing duration in Russian. This improves lexical precision and naturalness.",
         "severity": "MEDIUM"
       },
       {
         "category": "linguistic",
         "subcategory": "Grammar",
-        "original": "Поддержка процессов, требующих высокой энергозатраты, таких как движение и восстановление клеток.",
-        "correction": "Поддержка процессов, требующих высокой энергозатраты, таких как движение и восстановление клеток.",
-        "description": "The phrase 'требующих высокой энергозатраты' contains a grammatical error: the noun 'энергозатраты' should be in the genitive case ('высокой энергозатраты' → 'высокой энергозатраты'). The correct form is 'требующих высокой энергозатраты'.",
+        "original": "Чтобы найти `x`, нужно вычесть 4 из обеих сторон:",
+        "correction": "Чтобы найти `x`, нужно вычесть 4 из обеих частей:",
+        "description": "The phrase 'из обеих сторон' is a calque from English ('both sides') and is less natural in Russian mathematical language. The correct term in Russian is 'из обеих частей', which refers to both parts of the equation. This improves grammatical accuracy and aligns with standard Russian mathematical terminology.",
         "severity": "MEDIUM"
       },
       {
         "category": "linguistic",
         "subcategory": "Lexical",
-        "original": "медведи и пингвины",
-        "correction": "белые медведи и пингвины",
-        "description": "The phrase 'медведи и пингвины' is lexically imprecise in the context of polar regions. In Russian, 'медведи' without specification could refer to any bear species, but only polar bears ('белые медведи') inhabit the Arctic, while penguins are found in the Antarctic. For educational clarity and scientific accuracy, the bear species should be specified as 'белые медведи'.",
+        "original": "энергетическая станция",
+        "correction": "энергетическая станция клетки",
+        "description": "The term 'энергетическая станция' is ambiguous and could refer to a power plant in general Russian usage. Adding 'клетки' clarifies that mitochondria are the 'power stations of the cell,' which is the intended meaning in a biological context.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Бойкот автобусов в Монтгомери (1955-1956): Годичный бойкот общественных автобусов после отказа Розы Паркс уступить место белому пассажиру.",
+        "correction": "Бойкот автобусов в Монтгомери (1955–1956): Годовой бойкот общественных автобусов после отказа Розы Паркс уступить место белому пассажиру.",
+        "description": "The word 'годичный' is not the most natural choice in Russian for describing a year-long event; 'годовой' is the standard term for duration. Additionally, the dash between years should be an en dash (–) according to Russian typographic norms.",
         "severity": "MEDIUM"
       },
       {
         "category": "linguistic",
         "subcategory": "Orthography",
-        "original": "расчёты",
-        "correction": "расчеты",
-        "description": "The word 'расчёты' uses the letter 'ё', which is often replaced by 'е' in formal Russian writing unless disambiguation is needed. In educational and technical contexts, it is standard to use 'е' unless the meaning is ambiguous. This is a minor orthographic issue.",
-        "severity": "MINOR"
+        "original": "Принятие закона о гражданских правах (1964) и закона о правах голосования (1965).",
+        "correction": "Принятие Закона о гражданских правах (1964) и Закона о правах голоса (1965).",
+        "description": "Official names of laws in Russian are capitalized and should use the standard term 'Закон о правах голоса' for the Voting Rights Act. The original uses a lowercase and a less common phrase for the second law.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "Амазонские тропические леса — дом для разнообразных растений и животных.",
+        "correction": "Амазонские тропические леса — место обитания разнообразных растений и животных.",
+        "description": "The phrase 'дом для разнообразных растений и животных' is a literal translation of 'home for various plants and animals' and is not the most natural or precise way to express this idea in Russian scientific or educational context. 'Место обитания' is the standard term used to describe habitats in Russian, making the sentence more accurate and professional.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "обеспечивают точность, классифицируя информацию (например, числа для измерений и булевы значения для логических условий).",
+        "correction": "обеспечивают точность, классифицируя информацию (например, числа для измерений и булевые значения для логических условий).",
+        "description": "The word 'булевы' is incorrect in this context; the correct adjective form is 'булевые значения'. This correction ensures proper grammatical agreement and lexical precision in Russian technical terminology.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Программирование — это мощный инструмент для логичного и творческого решения задач.",
+        "correction": "Программирование — это мощный инструмент для логического и творческого решения задач.",
+        "description": "The adjective 'логичного' is incorrectly used; the correct form is 'логического', which agrees with 'решения' in case and gender. This correction improves grammatical accuracy and clarity.",
+        "severity": "MEDIUM"
       },
       {
         "category": "linguistic",
         "subcategory": "Orthography",
         "original": "Нерешённые конфликты могут вызывать стресс и негативные эмоции.",
         "correction": "Нерешённые конфликты могут вызывать стресс и негативные эмоции.",
-        "description": "The word 'Нерешённые' is spelled correctly with the letter 'ё', which is the standard in educational and formal texts. However, in many Russian publications, 'ё' is often replaced with 'е' due to typographical conventions. For educational clarity and to avoid ambiguity, it is preferable to retain 'ё' in this context. No correction is needed, but educators should be aware of this orthographic convention.",
+        "description": "The word 'Нерешённые' is spelled correctly with the letter 'ё', which is the standard in educational and formal texts. However, in many Russian publications, 'ё' is often replaced with 'е', which can lead to ambiguity. For educational clarity, especially for learners, it is best practice to retain 'ё' in words like 'нерешённые'. No correction is needed, but this is a positive note on orthographic accuracy.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "СМИ, представляющие информацию с определённым политическим уклоном.",
+        "correction": "СМИ, представляющие информацию с определённым политическим уклоном.",
+        "description": "The word 'определённым' is correctly spelled with the diacritical mark (ё), which is standard in educational contexts. However, in Russian publishing, 'ё' is often replaced with 'е', which can lead to ambiguity. For educational clarity, especially in teaching materials, it is preferable to retain 'ё' to avoid confusion with similar words. No correction needed, but ensure consistency in using 'ё' throughout the content.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Практикуя эти техники, учащиеся становятся более эффективными коммуникаторами, решателями задач и принимающими решения.",
+        "correction": "Практикуя эти техники, учащиеся становятся более эффективными коммуникаторами, решателями задач и лицами, принимающими решения.",
+        "description": "The phrase 'принимающими решения' is grammatically correct but stylistically awkward in this enumeration. In Russian, 'лицами, принимающими решения' is the standard collocation for 'decision-makers' in educational and professional contexts. This correction improves both grammatical parallelism and localization quality.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Неделя празднования африканского наследия и ценностей, включая единство, творчество и веру.",
+        "correction": "Неделя празднования африканского наследия и ценностей, включая единство, творчество и веру.",
+        "description": "The word 'Неделя' is capitalized, which is not standard in Russian unless it is the first word of a sentence or part of a proper noun. In this context, it should be lowercase ('неделя'), as it is not a proper noun and does not begin the sentence. This improves orthographic accuracy and maintains consistency with Russian capitalization rules.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Праздник, посвященный благодарности, семейным встречам и трапезам, включая индейку и пирог с тыквой.",
+        "correction": "Праздник, посвящённый выражению благодарности, семейным встречам и традиционной трапезе с индейкой и тыквенным пирогом.",
+        "description": "The participle 'посвященный' should use the correct Russian spelling 'посвящённый' with the ё, as per orthographic rules. Additionally, the phrase 'трапезам, включая индейку и пирог с тыквой' is grammatically awkward; 'традиционной трапезе с индейкой и тыквенным пирогом' is more grammatically correct and idiomatic.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Принятие решений — важный навык, который влияет на все аспекты нашей жизни.",
+        "correction": "Принятие решений — это важный навык, который влияет на все аспекты нашей жизни.",
+        "description": "The omission of the particle 'это' after 'Принятие решений' is a common stylistic error in Russian. While the sentence is understandable, the use of 'это' is standard in educational and formal contexts to clarify the subject and predicate relationship. Adding 'это' improves clarity and aligns with Russian academic style.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Принятие решений часто связано с сложными ситуациями реального мира.",
+        "correction": "Принятие решений часто связано со сложными ситуациями реального мира.",
+        "description": "The preposition 'с' should be followed by 'со' before the word 'сложными' due to the initial consonant cluster, which is a standard rule in Russian for ease of pronunciation. This is a grammatical error affecting the naturalness and correctness of the sentence.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Эмоциональный интеллект (ЭИ) — это способность понимать и управлять своими эмоциями, а также распознавать и влиять на эмоции других людей.",
+        "correction": "Эмоциональный интеллект (ЭИ) — это способность понимать и управлять своими эмоциями, а также распознавать и влиять на эмоции других людей.",
+        "description": "No linguistic errors found in this sentence. The use of punctuation, spelling, and grammar is correct. The sentence is well-structured and clear.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "На этом уроке мы изучим четыре ключевых компонента ЭИ: самосознание, саморегуляцию, эмпатию и социальные навыки.",
+        "correction": "На этом уроке мы изучим четыре ключевых компонента ЭИ: самосознание, саморегуляцию, эмпатию и социальные навыки.",
+        "description": "No grammatical errors detected. The sentence uses correct case forms and agreement. The list of components is clear and properly punctuated.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Ежедневно размышляйте о своих эмоциях.",
+        "correction": "Ежедневно размышляйте о своих эмоциях.",
+        "description": "The imperative form is correctly used, and the prepositional case is appropriate. No linguistic errors present.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Получайте обратную связь от доверенных друзей или наставников.",
+        "correction": "Получайте обратную связь от доверенных друзей или наставников.",
+        "description": "The sentence is grammatically correct, with proper case usage and agreement. No errors detected.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Во время ожесточённого спора вместо того, чтобы кричать, вы делаете паузу, чтобы вдохнуть и спокойно объяснить свою точку зрения.",
+        "correction": "Во время ожесточённого спора вместо того, чтобы кричать, вы делаете паузу, чтобы вдохнуть и спокойно объяснить свою точку зрения.",
+        "description": "No orthographic or punctuation errors found. The sentence is clear and correctly structured.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Старайтесь понять точку зрения другого человека перед тем, как делать выводы.",
+        "correction": "Старайтесь понять точку зрения другого человека перед тем, как делать выводы.",
+        "description": "The sentence is grammatically correct, with proper use of infinitives and case forms. No errors present.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Во время группового проекта вы помогаете разрешить конфликт между членами команды, поощряя открытый диалог и компромисс.",
+        "correction": "Во время группового проекта вы помогаете разрешить конфликт между членами команды, поощряя открытый диалог и компромисс.",
+        "description": "The sentence is grammatically correct, with proper use of participles and case forms. No errors detected.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Художественная литература создаётся на основе воображения, а документальная опирается на факты.",
+        "correction": "Художественная литература создаётся на основе воображения, а документальная — на фактах.",
+        "description": "The phrase 'документальная опирается на факты' is grammatically correct, but in this parallel construction, it is more natural and stylistically appropriate in Russian to use 'документальная — на фактах' to mirror the structure of the first clause. This improves clarity and parallelism, which is important for educational content.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Оставленная без присмотра готовка на плите.",
+        "correction": "Оставленная без присмотра еда на плите.",
+        "description": "The word 'готовка' is a colloquial and less precise term in Russian for 'cooking' as a process, but in this context, the intended meaning is 'food left unattended on the stove.' The correct noun is 'еда,' which refers to the actual food. This improves both grammatical precision and clarity.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Очищайте территорию от сухой травы и мертвых растений.",
+        "correction": "Очищайте территорию от сухой травы и засохших растений.",
+        "description": "The phrase 'мертвых растений' is grammatically correct but stylistically awkward in Russian. 'Засохших растений' is the standard and natural way to refer to dead vegetation in this context, improving both grammatical and stylistic accuracy.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "не прилипающую повязку",
+        "correction": "неприлипающую повязку",
+        "description": "The phrase contains a spelling error: 'не прилипающую' should be written as one word 'неприлипающую' because in Russian, the negative particle 'не' is written together with participles when they are used as adjectives. This improves grammatical correctness and aligns with standard orthographic rules.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Всемирная торговая организация (ВТО)",
+        "correction": "Всемирная торговая организация (ВТО)",
+        "description": "The abbreviation 'ВТО' is correctly used for 'Всемирная торговая организация'. However, in Russian, it is standard to introduce the full name first, followed by the abbreviation in parentheses, which is done correctly here. No orthographic errors are present, but this is a good example of proper abbreviation introduction for educational purposes.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Торговля включала шелк, специи, чай и драгоценные металлы. Также происходил культурный обмен, включая технологии и религии.",
+        "correction": "Торговля включала шелк, специи, чай и драгоценные металлы. Также происходил культурный обмен, включая технологии и религии.",
+        "description": "The sentence structure and case usage are correct. However, the phrase 'включая технологии и религии' could be clarified for educational purposes, as 'технологии' and 'религии' are abstract nouns and may require further explanation in the context of cultural exchange. No grammatical errors, but consider expanding for clarity.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Энергоресурсы, такие как нефть, поддерживают промышленность и транспорт.",
+        "correction": "Энергоресурсы, такие как нефть, обеспечивают работу промышленности и транспорта.",
+        "description": "The verb 'поддерживают' is grammatically correct but semantically less precise in this context. 'Обеспечивают работу' more accurately conveys that energy resources enable the functioning of industry and transport. This correction improves lexical precision and clarity.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Главнокомандующий вооруженными силами.",
+        "correction": "Главнокомандующий Вооружёнными Силами.",
+        "description": "In Russian, official titles such as 'Вооружённые Силы' are capitalized, and the word 'вооружёнными' should use the correct diacritical mark 'ё' instead of 'е' for proper spelling. This correction ensures orthographic accuracy and aligns with standard Russian usage for military terms.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Конгресс принял Закон о гражданских правах 1964 года, который запрещает дискриминацию по признаку расы, цвета кожи, религии, пола или национального происхождения.",
+        "correction": "Конгресс принял Закон о гражданских правах 1964 года, который запрещает дискриминацию по признаку расы, цвета кожи, религии, пола или национального происхождения.",
+        "description": "No linguistic errors found in this sentence. The spelling, punctuation, and grammar are correct. The terminology is appropriate for the educational context.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Вместо того чтобы сказать «Я плох в математике», человек с подходом роста скажет: «Я могу улучшить свои математические навыки, если буду практиковаться и просить о помощи, когда это необходимо».",
+        "correction": "Вместо того чтобы сказать «Я плох в математике», человек с подходом роста скажет: «Я могу улучшить свои математические навыки, если буду практиковаться и просить помощи, когда это необходимо».",
+        "description": "The phrase 'просить о помощи' is grammatically acceptable but less natural in Russian; the more idiomatic and standard form is 'просить помощи' without the preposition 'о'. This correction improves the naturalness and aligns with standard Russian usage, enhancing both linguistic accuracy and localization quality.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "в своём достоинстве и правах.",
+        "correction": "в своем достоинстве и правах.",
+        "description": "The use of the apostrophe in 'своём' is incorrect in Russian orthography. Russian does not use apostrophes in possessive pronouns; the correct form is 'своем'. This error affects spelling accuracy and should be corrected for proper written Russian.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Берёт начало в средневековье, с развитием в эпохи Ренессанса, Барокко, Классицизма и Романтизма.",
+        "correction": "Берёт начало в средневековье, с развитием в эпохах Ренессанса, Барокко, Классицизма и Романтизма.",
+        "description": "The noun 'эпоха' should be in the prepositional plural form 'в эпохах' to match the context of multiple historical periods. The original uses the singular 'в эпохи', which is grammatically incorrect in Russian when referring to several eras after the preposition 'в'.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Сильный ритм и звучание, основанное на гитаре.",
+        "correction": "Сильный ритм и звучание, основанные на гитаре.",
+        "description": "The participle 'основанное' should agree in number with the compound subject 'ритм и звучание', requiring the plural form 'основанные'. The original uses the singular neuter, which is a grammatical error.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "ископаемое топливо",
+        "correction": "ископаемое топливо",
+        "description": "The term 'ископаемое топливо' is used correctly in the context of natural resources. However, in Russian educational and scientific discourse, the plural form 'ископаемые виды топлива' or simply 'ископаемые топлива' is more commonly used when listing examples alongside other plural nouns. Consider using the plural form for consistency and naturalness in enumeration.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "вырубка лесов без их восстановления приводит к потере биоразнообразия и экологическому дисбалансу.",
+        "correction": "вырубка лесов без их восстановления приводит к потере биоразнообразия и экологическому дисбалансу.",
+        "description": "The phrase is grammatically correct, but the use of 'экологическому дисбалансу' is less common than 'нарушению экологического баланса' in Russian scientific and educational texts. Consider revising to 'нарушению экологического баланса' for improved lexical precision and naturalness.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "один из основных аспектов безопасности в интернете",
+        "correction": "один из основных аспектов безопасности в Интернете",
+        "description": "The word 'интернет' should be capitalized as 'Интернет' when referring to the global network in formal and educational contexts, according to Russian orthographic standards. This improves the linguistic accuracy and aligns with standard usage in Russian educational materials.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Элементы располагаются в строках (периодах) и столбцах (группах или семействах).",
+        "correction": "Элементы располагаются в строках (периодах) и столбцах (группах или семействах).",
+        "description": "No grammatical errors are present. The sentence correctly uses plural forms and prepositional case. However, the term 'семействах' is less commonly used in modern Russian chemistry; 'группах' is standard. For consistency, consider omitting 'семействах' unless specifically discussed in the lesson.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Экологический ученый пишет статью о климатических изменениях, упоминая свои профессиональные заслуги и ссылаясь на рецензируемые исследования.",
+        "correction": "Эколог пишет статью о климатических изменениях, упоминая свои профессиональные заслуги и ссылаясь на рецензируемые исследования.",
+        "description": "The phrase 'Экологический ученый' is not standard in Russian; the correct term is 'Эколог'. The use of 'экологический' as an adjective for 'учёный' is awkward and not idiomatic. This affects lexical precision and naturalness, and should be corrected for both linguistic accuracy and localization quality.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Этос, пафос и логос — это основные инструменты для создания убедительных аргументов.",
+        "correction": "Этос, пафос и логос — основные инструменты для создания убедительных аргументов.",
+        "description": "The use of 'это' after a dash is unnecessary and nonstandard in Russian. The dash itself serves as a copula in this construction. Removing 'это' aligns with Russian punctuation and sentence structure norms.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Исследования показывают, что уменьшение размера классов всего на пять студентов может улучшить результаты тестов на 20%.",
+        "correction": "Исследования показывают, что уменьшение размера класса всего на пять учеников может улучшить результаты тестов на 20%.",
+        "description": "The plural 'размера классов' is incorrect in this context; 'размера класса' is the correct genitive singular form. Also, 'студентов' is less appropriate in a school context; 'учеников' is the standard term for school students in Russian. This correction addresses both grammatical case and lexical precision.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Лягушка скок в воду —",
+        "correction": "Лягушка прыг — в воду —",
+        "description": "The word 'скок' is a noun meaning 'jump' and is not used as a verb in Russian poetic context. The correct form should use an interjection or verb to indicate the action, such as 'прыг'. Additionally, the dash is correctly used for emphasis, but the main issue is the unnatural use of 'скок' in this context.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "В ночной переполох,",
+        "correction": "В ночном переполохе,",
+        "description": "The phrase 'В ночной переполох' is grammatically incorrect because 'переполох' is a masculine noun and requires the prepositional case after 'в', resulting in 'в ночном переполохе'. The original uses nominative case and incorrect adjective agreement.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Вероятность — это увлекательная область математики, которая помогает нам предсказывать, насколько вероятно наступление того или иного события.",
+        "correction": "Вероятность — это увлекательная область математики, которая помогает нам предсказывать, насколько вероятно наступление того или иного события.",
+        "description": "No linguistic errors found. The sentence is grammatically correct, with proper case usage and agreement. No correction needed.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Вероятность измеряет, насколько возможно наступление события.",
+        "correction": "Вероятность показывает, насколько возможно наступление события.",
+        "description": "The verb 'измеряет' is not idiomatic in this context. In Russian, 'показывает' or 'определяет' is more appropriate when describing what probability does. This correction improves lexical precision and grammatical appropriateness.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Вероятность = количество благоприятных исходов ÷ общее количество возможных исходов",
+        "correction": "Вероятность = количество благоприятных исходов ÷ общее количество возможных исходов",
+        "description": "No linguistic errors found. The formula is presented correctly and uses proper terminology.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Существует два основных вида вероятности:",
+        "correction": "Существует два основных вида вероятности:",
+        "description": "No linguistic errors found. The sentence is grammatically correct.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "если вы подбрасываете монету, вероятность выпасть «орлу» равна 0,5.",
+        "correction": "если вы подбрасываете монету, вероятность выпадения «орла» равна 0,5.",
+        "description": "The phrase 'вероятность выпасть «орлу»' is grammatically incorrect. The correct form is 'вероятность выпадения «орла»'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "если вы подбрасываете монету 10 раз и «орел» выпадает 6 раз, экспериментальная вероятность равна 6 ÷ 10 = 0,6.",
+        "correction": "если вы подбрасываете монету 10 раз и «орел» выпал 6 раз, экспериментальная вероятность равна 6 ÷ 10 = 0,6.",
+        "description": "The verb 'выпадает' should be in the past tense 'выпал' to match the completed action described in the example.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "У стандартного кубика шесть граней, пронумерованных от 1 до 6.",
+        "correction": "У стандартного кубика шесть граней, пронумерованных от 1 до 6.",
+        "description": "No linguistic errors found. The sentence is grammatically correct.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Какова вероятность выпасть четному числу?",
+        "correction": "Какова вероятность выпадения четного числа?",
+        "description": "The phrase 'вероятность выпасть четному числу' is grammatically incorrect. The correct form is 'вероятность выпадения четного числа'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Каждая масть содержит 13 карт.",
+        "correction": "Каждая масть содержит 13 карт.",
+        "description": "No linguistic errors found. The sentence is grammatically correct.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Какова вероятность выпасть «орлу»?",
+        "correction": "Какова вероятность выпадения «орла»?",
+        "description": "The phrase 'вероятность выпасть «орлу»' is grammatically incorrect. The correct form is 'вероятность выпадения «орла»'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Цельнозерновые продукты дают энергию на весь день.",
+        "correction": "Цельнозерновые продукты обеспечивают энергией на весь день.",
+        "description": "The verb 'дают' is not the most precise choice in this context. In Russian, 'обеспечивать энергией' is a more accurate and natural collocation when referring to food providing energy. This correction improves lexical precision and naturalness, making the sentence clearer and more idiomatic.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Эксперименты проводятся для проверки гипотезы путем изменения одного переменного при сохранении остальных постоянными.",
+        "correction": "Эксперименты проводятся для проверки гипотезы путем изменения одной переменной при сохранении остальных постоянными.",
+        "description": "The phrase 'изменения одного переменного' contains a grammatical error: 'переменного' is masculine singular, but the word 'переменная' (variable) is feminine in Russian. The correct form is 'одной переменной' (genitive singular feminine). This error affects grammatical agreement and clarity.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Пенопластовая изоляция сохраняла воду холодной на 3 часа дольше, чем пластиковая.",
+        "correction": "Пенопластовая изоляция сохраняла воду холодной на 3 часа дольше, чем пластиковая изоляция.",
+        "description": "The sentence 'чем пластиковая' is ambiguous because 'пластиковая' is an adjective without a clear noun reference. For clarity and grammatical correctness, the noun 'изоляция' should be repeated to avoid confusion and ensure parallel structure.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Тянув вниз за веревку, вы облегчаете подъем объекта вверх.",
+        "correction": "Тянув верёвку вниз, вы облегчаете подъём объекта вверх.",
+        "description": "The participial construction 'Тянув вниз за веревку' is awkward and ungrammatical in Russian. The correct form is 'Тянув верёвку вниз', which properly places the adverb after the object and uses the correct case. Additionally, 'подъем' should be spelled 'подъём' with the correct accent mark for standard Russian orthography.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Когда вы нажимаете клин в объект, он заставляет объект разделяться.",
+        "correction": "Когда вы вбиваете клин в объект, он заставляет объект разделяться.",
+        "description": "The verb 'нажимаете' is incorrect in this context; the proper verb for inserting a wedge is 'вбиваете'. This correction ensures the sentence accurately describes the action of using a wedge in Russian.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Системы тяги — это двигатели ракет, обеспечивающие необходимую тягу для старта и полета.",
+        "correction": "Системы тяги — это двигатели ракет, обеспечивающие необходимую силу тяги для старта и полета.",
+        "description": "The phrase 'необходимую тягу' is grammatically correct, but in technical Russian, 'сила тяги' is more precise and commonly used to refer to the thrust force. This correction improves lexical precision and technical accuracy, which is important in educational content about rocket propulsion.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "Ракеты — это уникальные транспортные средства, которые преодолевают силу тяжести и доставляют полезные грузы в космос.",
+        "correction": "Ракеты — это уникальные транспортные средства, которые преодолевают силу тяжести и доставляют полезный груз в космос.",
+        "description": "The phrase 'полезные грузы' is grammatically correct, but in Russian technical and scientific writing, the singular 'полезный груз' is more commonly used as a collective term for payload. This correction improves lexical precision and aligns with standard terminology.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Твердые тела имеют фиксированную форму и объем.",
+        "correction": "Твёрдые тела имеют фиксированную форму и объём.",
+        "description": "The word 'Твердые' and 'объем' are missing the required diacritical mark (ё). In Russian, 'твёрдый' and 'объём' should use 'ё' instead of 'е' to maintain correct spelling, especially in educational contexts where precision is important. This improves orthographic accuracy and prevents confusion with similarly spelled words.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Жидкости имеют фиксированный объем, но принимают форму своего контейнера.",
+        "correction": "Жидкости имеют фиксированный объём, но принимают форму своего контейнера.",
+        "description": "The word 'объем' should be spelled as 'объём' with 'ё' to comply with Russian orthographic standards. This is especially important in scientific and educational texts to avoid ambiguity and ensure correct pronunciation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Газы не имеют фиксированной формы или объема и заполняют весь доступный объем контейнера.",
+        "correction": "Газы не имеют фиксированной формы или объёма и заполняют весь доступный объём контейнера.",
+        "description": "Both instances of 'объем' should be corrected to 'объём' to follow Russian spelling rules. Using 'ё' is necessary for clarity and correctness, particularly in educational materials.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Плазма не имеет фиксированной формы или объема и подвержена воздействию электрических и магнитных полей.",
+        "correction": "Плазма не имеет фиксированной формы или объёма и подвержена воздействию электрических и магнитных полей.",
+        "description": "The word 'объема' should use 'ё' instead of 'е' ('объёма') for correct spelling. This ensures orthographic accuracy and maintains the standard expected in scientific writing.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Низкая плотность (как у газа).",
+        "correction": "Низкая плотность (как у газа).",
+        "description": "No orthographic errors detected. The spelling and punctuation are correct.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Lexical",
+        "original": "эмоционально подключиться к сюжету",
+        "correction": "эмоционально сопереживать сюжету",
+        "description": "The phrase 'эмоционально подключиться к сюжету' uses the verb 'подключиться', which is a technical term meaning 'to connect' (e.g., to a network) and is not idiomatic in Russian when referring to emotional engagement with a story. The more natural and precise expression is 'эмоционально сопереживать сюжету', which means to empathize or emotionally relate to the plot. This correction improves lexical precision and naturalness.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Метод Корнелла",
+        "correction": "Метод К Cornell",
+        "description": "The term 'Метод Корнелла' uses a direct transliteration of 'Cornell', which is common in Russian educational contexts. However, the correct spelling in Russian is 'метод Корнелла' with a lowercase 'м' for 'метод' unless it starts a sentence. In this context, it is used as a bullet point and should be lowercase. Additionally, the transliteration 'Корнелла' is accepted, but for formal educational materials, it is sometimes preferable to use the original English name 'Cornell' in Latin script to avoid confusion, especially in international or bilingual settings. This is a minor orthographic and terminology issue.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Пример: Сайты, такие как Ballotpedia, предоставляют непредвзятую информацию о кандидатах и инициативах.",
+        "correction": "Пример: Сайты, такие как Ballotpedia, предоставляют непредвзятую информацию о кандидатах и инициативах.",
+        "description": "No linguistic errors are present in this sentence. The spelling, punctuation, and word choice are correct. The use of the English website name 'Ballotpedia' is appropriate in this context, as it is a proper noun and relevant to the example.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Примеры реальных выборов демонстрируют, как участие граждан влияет на общество, подчеркивая важность демократических принципов и активного голосования.",
+        "correction": "Примеры реальных выборов демонстрируют, как участие граждан влияет на общество, подчёркивая важность демократических принципов и активного голосования.",
+        "description": "The word 'подчеркивая' should be spelled with the correct accent: 'подчёркивая'. This is a common orthographic error in Russian, especially in educational materials. The rest of the sentence is grammatically and stylistically correct.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "машины обучаются на данных без явного программирования.",
+        "correction": "машины обучаются на данных без явного программирования.",
+        "description": "Although the sentence is grammatically correct, the phrase 'обучаются на данных' is slightly ambiguous in Russian. A more precise formulation would be 'машины обучаются на основе данных', which better reflects the process of machine learning. This is a lexical precision issue, but since the grammar is correct, no correction is strictly necessary. However, for clarity and educational value, consider revising the phrase.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "ИИ — это способность машин имитировать человеческий интеллект, выполняя задачи, требующие навыков, таких как обучение, анализ, принятие решений.",
+        "correction": "ИИ — это способность машин имитировать человеческий интеллект, выполняя задачи, требующие навыков, таких как обучение, анализ, принятие решений.",
+        "description": "The phrase 'требующие навыков, таких как обучение, анализ, принятие решений' is grammatically correct, but semantically, 'навыков' is not the most precise word. In Russian, 'умений' or 'способностей' would better convey the idea of skills required for tasks like learning, analysis, and decision-making. This is a lexical precision issue affecting clarity.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Grammar",
+        "original": "ИИ — это мощная технология, которая позволяет машинам выполнять задачи, требующие человеческого интеллекта.",
+        "correction": "ИИ — это мощная технология, которая позволяет машинам выполнять задачи, требующие человеческого интеллекта.",
+        "description": "The sentence is grammatically correct, but the phrase 'требующие человеческого интеллекта' could be improved for clarity. A more precise formulation would be 'требующие использования человеческого интеллекта' or 'требующие интеллектуальных способностей человека'. This is a minor lexical issue.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "linguistic",
+        "subcategory": "Orthography",
+        "original": "Священного Писания",
+        "correction": "Священного писания",
+        "description": "In Russian, when referring to religious texts in a general sense, 'Священное писание' is not capitalized unless it is the official title of a specific book. Here, the context is general, so the word 'писание' should be lowercase. This improves orthographic accuracy and aligns with standard Russian usage.",
         "severity": "MINOR"
       }
     ],
@@ -95,255 +677,175 @@
         "subcategory": "Terminology",
         "original": "Река Нил служила природным шоссе, облегчая транспортировку и торговлю.",
         "correction": "Река Нил служила природной транспортной артерией, облегчая перевозку и торговлю.",
-        "description": "The term 'природное шоссе' is not a natural or standard expression in Russian for describing a river's role in transportation. 'Транспортная артерия' is a more culturally and contextually appropriate term. Additionally, 'перевозка' is more precise than 'транспортировка' in this context.",
+        "description": "The term 'природным шоссе' is not a natural or standard expression in Russian for describing a river's role in transportation. 'Природная транспортная артерия' is a more culturally appropriate and commonly used term. Additionally, 'перевозка' is more precise than 'транспортировка' in this context.",
         "severity": "MEDIUM"
       },
       {
         "category": "localization",
-        "subcategory": "Terminology",
+        "subcategory": "Style",
         "original": "Фермеры использовали инструмент \"шадуф\", систему рычага для подъема воды из реки для орошения полей.",
-        "correction": "Земледельцы использовали инструмент \"шадуф\" — систему рычага для подъема воды из реки для орошения полей.",
-        "description": "The word 'фермеры' is an anglicism and not the most natural term for ancient Egyptian agricultural workers in Russian educational context. 'Земледельцы' is more historically and culturally appropriate. Also, the dash (—) is preferred for appositive explanations in Russian style.",
-        "severity": "MEDIUM"
+        "correction": "Фермеры использовали инструмент «шадуф» — систему рычага для подъема воды из реки и орошения полей.",
+        "description": "The sentence uses double 'для' constructions, which is stylistically awkward in Russian. Replacing the comma with an em dash and restructuring the sentence improves naturalness and flow. Also, Russian typographic standards prefer « » for quotes.",
+        "severity": "MINOR"
       },
       {
         "category": "localization",
-        "subcategory": "Style",
-        "original": "Крысы кенгуру остаются под землей днем, чтобы избежать жары.",
-        "correction": "Кенгуровые крысы остаются под землей днем, чтобы избежать жары.",
-        "description": "The term 'крысы кенгуру' is a literal translation of 'kangaroo rats' and is not the standard zoological term in Russian. 'Кенгуровые крысы' is the accepted term, ensuring terminological accuracy and naturalness for Russian-speaking audiences.",
-        "severity": "MEDIUM"
-      },
-      {
-        "category": "localization",
-        "subcategory": "Style",
-        "original": "Адаптации — это способ природы обеспечить, чтобы животные могли процветать даже в самых сложных условиях.",
-        "correction": "Адаптации — это способ, с помощью которого природа обеспечивает процветание животных даже в самых сложных условиях.",
-        "description": "The original sentence is grammatically correct but stylistically awkward for Russian. The correction provides a more natural and fluid expression, improving readability and localization quality.",
+        "subcategory": "Format",
+        "original": "Река Нил протяженностью более 4 000 километров является самой длинной рекой на Земле и служила источником жизни для Древнего Египта.",
+        "correction": "Река Нил протяжённостью более 4000 километров является самой длинной рекой на Земле и служила источником жизни для Древнего Египта.",
+        "description": "The number '4 000' uses a space as a thousands separator, which is acceptable, but in Russian educational and scientific texts, it is more common to write '4000' without a space. Also, the word 'протяженностью' should use the correct diacritic: 'протяжённостью'.",
         "severity": "MINOR"
       },
       {
         "category": "localization",
         "subcategory": "Style",
-        "original": "Добро пожаловать в мир алгебры! 🌟 Алгебра — это раздел математики, который использует символы, обычно буквы, для представления чисел и их отношений. Сегодня мы познакомимся с основами: переменными, выражениями и простыми уравнениями. Эти понятия помогут вам решать задачи и строить сложные математические модели.",
-        "correction": "Добро пожаловать в мир алгебры! Алгебра — это раздел математики, который использует символы, обычно буквы, для представления чисел и их отношений. Сегодня мы познакомимся с основами: переменными, выражениями и простыми уравнениями. Эти понятия помогут вам решать задачи и строить сложные математические модели.",
-        "description": "The use of the emoji 🌟 at the beginning is not standard in Russian educational texts and may be perceived as informal or distracting in a formal learning context. Removing the emoji ensures the tone remains professional and culturally appropriate for Russian academic materials.",
+        "original": "Крысы кенгуру остаются под землей днем, чтобы избежать жары.",
+        "correction": "Крысы-кенгуру остаются под землей днем, чтобы избежать жары.",
+        "description": "The animal name 'крысы кенгуру' should be hyphenated as 'крысы-кенгуру' to match Russian zoological naming conventions. This enhances professional terminology consistency and aligns with local style standards.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Добро пожаловать в мир алгебры! 🌟",
+        "correction": "Добро пожаловать в мир алгебры!",
+        "description": "The use of the star emoji 🌟 is not standard in Russian educational materials and may be perceived as informal or distracting in a formal learning context. Removing the emoji ensures a more professional and culturally appropriate tone for Russian academic content.",
         "severity": "MINOR"
       },
       {
         "category": "localization",
         "subcategory": "Style",
         "original": "Поздравляем! Вы сделали первый шаг в изучении алгебры. Продолжайте практиковаться, чтобы укрепить свои знания!",
-        "correction": "Поздравляем! Вы сделали первый шаг в изучении алгебры. Продолжайте практиковаться, чтобы укрепить свои знания!",
-        "description": "While the congratulatory tone is generally acceptable, Russian educational materials often use a slightly more formal register, especially in written lessons. However, in this context, the informal encouragement is appropriate for younger audiences and does not require correction. No actionable change is needed, but educators should be aware of register when adapting for older or more formal audiences.",
+        "correction": "Поздравляем! Вы сделали первый шаг в изучении алгебры. Продолжайте практиковаться, чтобы закрепить свои знания!",
+        "description": "The verb 'укрепить' is less commonly used in the context of learning and knowledge in Russian educational style. 'Закрепить свои знания' is the standard phrase, meaning to reinforce or consolidate knowledge, and is more natural and idiomatic in Russian academic discourse.",
         "severity": "MINOR"
       },
       {
         "category": "localization",
         "subcategory": "Terminology",
-        "original": "энергетические станции",
-        "correction": "энергетические станции",
-        "description": "The phrase 'энергетические станции' is a common metaphor for mitochondria in Russian educational texts, but it may be considered slightly informal or oversimplified for advanced audiences. For introductory or school-level content, this is acceptable and culturally appropriate. No correction needed, but for higher education, consider using 'органеллы, обеспечивающие синтез АТФ' for greater precision.",
-        "severity": "MINOR"
-      },
-      {
-        "category": "localization",
-        "subcategory": "Terminology",
-        "original": "аппарат Гольджи",
-        "correction": "комплекс Гольджи",
-        "description": "The term 'аппарат Гольджи' is widely used in Russian school-level biology, but 'комплекс Гольджи' is considered more scientifically precise and is preferred in higher education and professional contexts. For consistency and accuracy, 'комплекс Гольджи' is recommended.",
-        "severity": "MINOR"
-      },
-      {
-        "category": "localization",
-        "subcategory": "Style",
-        "original": "Обе клетки: имеют мембрану, цитоплазму и ядро.",
-        "correction": "И те, и другие клетки имеют мембрану, цитоплазму и ядро.",
-        "description": "The phrase 'Обе клетки' is unnatural in Russian and may cause confusion, as 'обе' is used for two items, but here it refers to two types of cells. The more natural and standard phrasing is 'И те, и другие клетки', which clearly distinguishes between plant and animal cells.",
+        "original": "эндоплазматическая сеть",
+        "correction": "эндоплазматический ретикулум",
+        "description": "The term 'эндоплазматическая сеть' is not the standard scientific term in Russian for 'endoplasmic reticulum.' The correct and widely accepted term is 'эндоплазматический ретикулум.' Using the proper terminology is important for educational accuracy and consistency with Russian biology textbooks.",
         "severity": "MEDIUM"
       },
       {
         "category": "localization",
         "subcategory": "Style",
-        "original": "🌿💡",
-        "correction": "",
-        "description": "The use of emoji in educational Russian-language scientific content is generally considered informal and may reduce the perceived seriousness or professionalism of the material. For Russian educational standards, especially in biology, it is preferable to avoid emojis and maintain a formal, academic tone.",
+        "original": "энергетические станции",
+        "correction": "энергетические станции",
+        "description": "The metaphor 'энергетические станции' for mitochondria is common in educational contexts, but it may be considered slightly informal. However, in this context, it is appropriate for a general audience and does not require correction. No actionable issue found, but educators should be aware of register when adapting for more formal materials.",
         "severity": "MINOR"
       },
       {
         "category": "localization",
-        "subcategory": "Terminology",
-        "original": "эндоплазматическому ретикулуму",
-        "correction": "эндоплазматическому ретикулуму (ЭПР)",
-        "description": "The term 'эндоплазматический ретикулум' is correct, but in Russian scientific and educational texts, it is standard to use the abbreviation 'ЭПР' after the first mention for clarity and consistency. This helps maintain professional terminology and aligns with local conventions.",
+        "subcategory": "Format",
+        "original": "АТФ",
+        "correction": "АТФ (аденозинтрифосфат)",
+        "description": "The abbreviation 'АТФ' is correct, but for educational clarity, it is best practice to provide the full term 'аденозинтрифосфат' at first mention. This ensures comprehension for learners unfamiliar with the abbreviation.",
         "severity": "MINOR"
       },
       {
         "category": "localization",
         "subcategory": "Cultural",
         "original": "Например, подсолнух в вашем саду питается энергией, полученной хлоропластами.",
-        "correction": "Например, подсолнух получает энергию благодаря хлоропластам.",
-        "description": "The phrase 'в вашем саду' introduces a personalized, informal context that is less typical for Russian educational materials, which usually maintain a neutral, impersonal tone. Removing the direct reference to 'your garden' makes the example more universally applicable and culturally appropriate for Russian academic style.",
-        "severity": "MINOR"
-      },
-      {
-        "category": "localization",
-        "subcategory": "Style",
-        "original": "Гражданское движение за права человека было переломным моментом в истории США.",
-        "correction": "Движение за гражданские права было переломным моментом в истории США.",
-        "description": "The phrase 'Гражданское движение за права человека' is an unnatural translation for 'Civil Rights Movement' in Russian. The standard and widely accepted term is 'Движение за гражданские права'. The current wording may confuse Russian-speaking audiences and does not reflect established terminology, affecting both clarity and cultural appropriateness.",
-        "severity": "HIGH"
-      },
-      {
-        "category": "localization",
-        "subcategory": "Style",
-        "original": "афроамериканцы боролись за прекращение расовой дискриминации и достижение равноправия.",
-        "correction": "афроамериканцы боролись за прекращение расовой дискриминации и достижение равноправия.",
-        "description": "While the sentence is linguistically correct, the phrase 'достижение равноправия' is somewhat formal and may sound less natural in educational Russian. A more natural alternative could be 'равные права' or 'равенство'. However, this is a minor stylistic issue and does not impede understanding.",
-        "severity": "MINOR"
-      },
-      {
-        "category": "localization",
-        "subcategory": "Style",
-        "original": "Это движение изменило социальный, политический и культурный ландшафт страны, бросив вызов системным несправедливостям и вдохновив перемены через организованные протесты, юридические битвы и мужественное лидерство. 🌍",
-        "correction": "Это движение изменило социальный, политический и культурный ландшафт страны, бросив вызов системным несправедливостям и вдохновив перемены через организованные протесты, юридические битвы и мужественное лидерство.",
-        "description": "The use of the globe emoji (🌍) at the end of a formal educational introduction is culturally inappropriate for Russian academic content. Emojis are generally avoided in formal or educational Russian texts, as they can undermine the seriousness of the topic.",
+        "correction": "Например, подсолнух использует энергию, полученную хлоропластами, для роста.",
+        "description": "The phrase 'подсолнух в вашем саду питается энергией, полученной хлоропластами' is culturally inappropriate for a Russian educational context, as not all students have sunflowers in their gardens, and the idea of a plant 'feeding' on energy is not scientifically precise. The correction uses a more neutral and accurate description, focusing on the plant's growth, which is universally applicable and scientifically correct.",
         "severity": "MEDIUM"
       },
       {
         "category": "localization",
         "subcategory": "Terminology",
-        "original": "Ключевые события гражданского движения за права человека",
-        "correction": "Ключевые события движения за гражданские права",
-        "description": "The phrase 'гражданского движения за права человека' is a literal translation and not the standard Russian term for 'Civil Rights Movement'. The correct and widely accepted term is 'движение за гражданские права'. Using the literal translation may cause confusion and reduce the professionalism of the content.",
+        "original": "эндоплазматическому ретикулуму",
+        "correction": "эндоплазматическому ретикулуму (ЭПР)",
+        "description": "The term 'эндоплазматический ретикулум' is correct, but in Russian biology education, the abbreviation 'ЭПР' is commonly used alongside the full term for clarity and consistency. Adding the abbreviation improves terminology consistency and aligns with local educational standards.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "Гражданское движение за права человека было переломным моментом в истории США.",
+        "correction": "Гражданское движение за права афроамериканцев было переломным моментом в истории США.",
+        "description": "The phrase 'движение за права человека' is not the standard Russian term for the US Civil Rights Movement, which specifically refers to the struggle of African Americans for civil rights. The more culturally and historically accurate term is 'движение за права афроамериканцев'. This correction ensures the content is contextually precise and aligns with Russian educational conventions.",
         "severity": "HIGH"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Мартин Лютер Кинг-младший",
+        "correction": "Мартин Лютер Кинг-младший",
+        "description": "While the translation is linguistically correct, Russian style guides recommend omitting the hyphen in 'младший' when used as a suffix to a name. The more natural form is 'Мартин Лютер Кинг младший'.",
+        "severity": "MINOR"
       },
       {
         "category": "localization",
         "subcategory": "Terminology",
         "original": "Марш на Вашингтон (1963): Массовая демонстрация за гражданские права, где Мартин Лютер Кинг произнес свою знаменитую речь \"У меня есть мечта\".",
         "correction": "Марш на Вашингтон (1963): Массовая демонстрация за гражданские права, на которой Мартин Лютер Кинг произнёс свою знаменитую речь «У меня есть мечта».",
-        "description": "The phrase 'где Мартин Лютер Кинг произнес свою знаменитую речь' is less natural in Russian; 'на которой' is the standard way to refer to events at which something occurred. Additionally, Russian quotation marks (« ») should be used instead of English-style double quotes for the speech title, and 'произнес' should use the correct Russian diacritic (ё).",
+        "description": "The preposition 'где' is less precise than 'на которой' for describing an event context in Russian. Also, Russian quotation marks (« ») should be used instead of English-style double quotes for the speech title. The verb 'произнес' should have the correct stress mark for educational clarity.",
         "severity": "MEDIUM"
       },
       {
         "category": "localization",
         "subcategory": "Terminology",
-        "original": "Закон о гражданских правах (1964): Запрет дискриминации по признакам расы, цвета кожи, религии, пола или национального происхождения.",
-        "correction": "Закон о гражданских правах (1964): Запрет дискриминации по признаку расы, цвета кожи, религии, пола или национального происхождения.",
-        "description": "The phrase 'по признакам' should be singular ('по признаку') to match Russian legal and academic style. This improves the naturalness and professionalism of the terminology.",
-        "severity": "MINOR"
-      },
-      {
-        "category": "localization",
-        "subcategory": "Terminology",
-        "original": "Важные лидеры гражданского движения за права человека",
-        "correction": "Важные лидеры движения за гражданские права",
-        "description": "The phrase 'гражданского движения за права человека' is not the standard Russian term for 'Civil Rights Movement'. The correct term is 'движение за гражданские права'. Consistent use of established terminology is important for clarity and professionalism.",
-        "severity": "HIGH"
-      },
-      {
-        "category": "localization",
-        "subcategory": "Terminology",
-        "original": "Мартин Лютер Кинг-младший: Лидер ненасильственного сопротивления, организатор ключевых событий, таких как бойкот автобусов и марш на Вашингтон.",
-        "correction": "Мартин Лютер Кинг-младший: Лидер ненасильственного сопротивления, организатор ключевых событий, таких как бойкот автобусов и Марш на Вашингтон.",
-        "description": "The event name 'марш на Вашингтон' should be capitalized as 'Марш на Вашингтон' to reflect its status as a proper noun and major historical event in Russian. This aligns with Russian conventions for naming significant events.",
-        "severity": "MINOR"
-      },
-      {
-        "category": "localization",
-        "subcategory": "Terminology",
-        "original": "Малкольм Икс: Пропагандист защиты прав афроамериканцев любыми средствами.",
-        "correction": "Малкольм Икс: Активист, выступавший за защиту прав афроамериканцев любыми средствами.",
-        "description": "The word 'пропагандист' has a negative connotation in Russian, implying manipulation or biased advocacy. A more neutral and accurate term for Malcolm X in this context is 'активист', which better reflects his role and avoids unintended negative implications.",
-        "severity": "MEDIUM"
-      },
-      {
-        "category": "localization",
-        "subcategory": "Terminology",
-        "original": "Джон Льюис: Участник организации поездок свободы и марша на Вашингтон, позже конгрессмен.",
-        "correction": "Джон Льюис: Организатор поездок свободы и Марша на Вашингтон, впоследствии конгрессмен.",
-        "description": "The phrase 'участник организации' is awkward and less natural in Russian. 'Организатор' is more precise and professional. Additionally, 'Марша на Вашингтон' should be capitalized as a proper noun, and 'позже' is better replaced with 'впоследствии' for formal style.",
-        "severity": "MEDIUM"
-      },
-      {
-        "category": "localization",
-        "subcategory": "Terminology",
-        "original": "Влияние на американское общество",
-        "correction": "Влияние на общество США",
-        "description": "The phrase 'американское общество' is less commonly used in Russian academic writing. 'Общество США' is more precise and natural, aligning with standard Russian usage for referring to the United States.",
-        "severity": "MINOR"
-      },
-      {
-        "category": "localization",
-        "subcategory": "Terminology",
-        "original": "Принятие закона о гражданских правах (1964) и закона о правах голосования (1965).",
-        "correction": "Принятие Закона о гражданских правах (1964) и Закона о правах голоса (1965).",
-        "description": "The names of major legislative acts should be capitalized in Russian. Additionally, 'Закон о правах голосования' is not the standard translation; 'Закон о правах голоса' is the accepted term for the Voting Rights Act.",
-        "severity": "MEDIUM"
-      },
-      {
-        "category": "localization",
-        "subcategory": "Style",
-        "original": "Повышение осведомленности о системном расизме, вдохновение других групп на борьбу за права.",
-        "correction": "Повышение осведомлённости о системном расизме, вдохновение других групп на борьбу за свои права.",
-        "description": "The word 'осведомленности' should use the correct Russian diacritic (ё: 'осведомлённости'). Additionally, 'борьбу за права' is vague; 'борьбу за свои права' is more precise and natural in Russian.",
-        "severity": "MINOR"
-      },
-      {
-        "category": "localization",
-        "subcategory": "Cultural",
         "original": "Культуры, такие как бананы, кофе и сахарный тростник, хорошо растут в тропиках.",
-        "correction": "Культуры, такие как бананы, кофе и сахарный тростник, хорошо растут в тропиках.",
-        "description": "While the sentence is linguistically correct, the examples of crops (bananas, coffee, sugarcane) are not typical for Russian agriculture and may not resonate with Russian learners. For better localization, consider including examples relevant to Russian-speaking regions or explaining that these are global tropical crops.",
+        "correction": "Культуры, такие как бананы, кофе и сахарный тростник, хорошо произрастают в тропиках.",
+        "description": "The verb 'растут' is commonly used in everyday speech, but in educational and scientific contexts, 'произрастают' is the more precise and professional term for describing how crops grow in a particular climate zone. This improves the naturalness and terminological accuracy of the content.",
         "severity": "MINOR"
       },
       {
         "category": "localization",
-        "subcategory": "Style",
-        "original": "Дома с открытой вентиляцией для охлаждения.",
-        "correction": "Дома с открытой вентиляцией или большими окнами для естественного охлаждения.",
-        "description": "The phrase 'Дома с открытой вентиляцией для охлаждения' is somewhat unnatural in Russian and lacks clarity. Russian learners may better understand the concept if it is described as 'Дома с открытой вентиляцией или большими окнами для естественного охлаждения', which is a more natural and explanatory way to express the architectural adaptation to tropical climates.",
+        "subcategory": "Terminology",
+        "original": "Лиственные леса сбрасывают листья осенью и снова отращивают весной.",
+        "correction": "Лиственные леса сбрасывают листья осенью и вновь образуют листву весной.",
+        "description": "The phrase 'снова отращивают' is not standard in Russian scientific or educational texts when referring to trees regrowing leaves. 'Вновь образуют листву' is the accepted terminology, making the sentence more natural and professional.",
         "severity": "MINOR"
       },
       {
         "category": "localization",
         "subcategory": "Cultural",
-        "original": "Сложно выращивать культуры, но картофель может расти летом.",
-        "correction": "Сложно выращивать культуры, но некоторые овощи, например картофель, могут расти летом.",
-        "description": "The statement 'картофель может расти летом' is misleading, as potato cultivation in polar regions is extremely limited and not typical. For cultural and scientific accuracy, it is better to generalize and mention that some vegetables, such as potatoes, can grow in short polar summers, but this is rare and depends on specific conditions.",
-        "severity": "MEDIUM"
+        "original": "Дома с открытой вентиляцией для охлаждения.",
+        "correction": "Дома с естественной вентиляцией для охлаждения.",
+        "description": "The phrase 'открытая вентиляция' is not commonly used in Russian to describe architectural features in tropical climates. 'Естественная вентиляция' is the standard term, making the description more culturally and professionally appropriate.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "Дома с отоплением зимой и охлаждением летом.",
+        "correction": "Дома с отоплением зимой и кондиционированием воздуха летом.",
+        "description": "The phrase 'охлаждение летом' is vague and not the standard way to describe climate control in Russian homes. 'Кондиционирование воздуха' is the accepted term for air conditioning, making the sentence clearer and more culturally appropriate.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "Дома с хорошей теплоизоляцией и специализированная одежда для сохранения тепла.",
+        "correction": "Дома с хорошей теплоизоляцией и специальной одеждой для сохранения тепла.",
+        "description": "The phrase 'специализированная одежда' is not commonly used in Russian to refer to clothing for cold climates. 'Специальная одежда' is the standard term, making the sentence more natural and culturally appropriate.",
+        "severity": "MINOR"
       },
       {
         "category": "localization",
         "subcategory": "Terminology",
         "original": "Связь с стандартом NGSS (MS-ETS1-1): Понятия программирования, такие как переменные, типы данных и алгоритмы, помогают определять критерии и ограничения задачи.",
         "correction": "Связь со стандартом NGSS (MS-ETS1-1): Понятия программирования, такие как переменные, типы данных и алгоритмы, помогают определять критерии и ограничения задачи.",
-        "description": "The phrase 'Связь с стандартом' uses the incorrect preposition 'с' instead of the correct 'со' before the word 'стандартом', which starts with a consonant cluster. This is a minor linguistic error affecting naturalness and professional tone. Additionally, the reference to NGSS (Next Generation Science Standards) is a US educational standard and may not be familiar to Russian-speaking learners. For improved localization, a brief explanation or adaptation to a local standard would enhance cultural appropriateness.",
-        "severity": "MEDIUM"
-      },
-      {
-        "category": "localization",
-        "subcategory": "Format",
-        "original": "5.5",
-        "correction": "5,5",
-        "description": "The number '5.5' uses a period as the decimal separator, which is standard in English but not in Russian. Russian convention requires a comma as the decimal separator ('5,5'). This is a medium localization issue, as it may cause confusion for Russian-speaking learners.",
+        "description": "The phrase 'Связь с стандартом' uses the preposition 'с', which is unnatural in Russian when referring to standards. The correct preposition is 'со', resulting in 'Связь со стандартом'. This correction improves the naturalness and professional tone of the terminology, ensuring the content aligns with Russian educational conventions.",
         "severity": "MEDIUM"
       },
       {
         "category": "localization",
         "subcategory": "Terminology",
-        "original": "Boolean",
-        "correction": "Булевый тип",
-        "description": "The term 'Boolean' is presented in English, while the rest of the content is in Russian. For consistency and naturalness, the Russian term 'булевый тип' or 'логический тип' should be used. This is a medium localization issue affecting terminology consistency.",
+        "original": "рост = 5.5  # Float",
+        "correction": "рост = 5.5  # Float (например, в метрах)",
+        "description": "The example 'рост = 5.5' is ambiguous in Russian, as height is typically measured in centimeters or meters, and 5.5 meters is not a realistic human height. Adding a clarifying note '(например, в метрах)' makes the example culturally appropriate and avoids confusion for Russian learners.",
         "severity": "MEDIUM"
       },
       {
         "category": "localization",
-        "subcategory": "Style",
-        "original": "True",
-        "correction": "Истина",
-        "description": "The value 'True' is shown in English, but in Russian programming contexts, 'Истина' or 'true' (in lowercase, as per Python syntax) is preferred. If referencing Python code, 'True' is correct, but in explanatory text, 'Истина' is more natural for Russian learners. This is a minor style issue.",
+        "subcategory": "Terminology",
+        "original": "ученик = True  # Boolean",
+        "correction": "ученик = True  # Boolean (например, если человек является учеником)",
+        "description": "The Boolean example 'ученик = True' lacks context, which may confuse Russian learners. Adding a clarifying note '(например, если человек является учеником)' provides a culturally relevant explanation, making the example more natural and understandable.",
         "severity": "MINOR"
       },
       {
@@ -351,7 +853,7 @@
         "subcategory": "Terminology",
         "original": "значения типа \"истина/ложь\"",
         "correction": "значения типа \"True/False\"",
-        "description": "The phrase uses the literal Russian translation 'истина/ложь' for boolean values, which is not standard in Russian programming terminology. The accepted terms are 'True/False' (in English) or 'логический тип', but when showing value examples, 'True/False' is preferred for clarity and consistency with Python syntax. This improves both technical accuracy and localization quality.",
+        "description": "The phrase uses the literal Russian translation 'истина/ложь' for boolean values, which is not standard in Russian programming terminology. The accepted terms are 'True/False' (in English) or 'логический тип', but in code and educational contexts, 'True/False' is preferred for clarity and consistency with Python syntax. This improves professional terminology usage and aligns with industry standards.",
         "severity": "MEDIUM"
       },
       {
@@ -359,7 +861,7 @@
         "subcategory": "Terminology",
         "original": "for каждый студент в 5 студентах:",
         "correction": "for каждый студент из 5 студентов:",
-        "description": "The phrase 'в 5 студентах' is unnatural and not idiomatic in Russian. The correct localized phrasing is 'из 5 студентов', which matches standard Russian usage for iterating over a group. This change improves the naturalness and clarity of the example for Russian learners.",
+        "description": "The phrase 'в 5 студентах' is unnatural and not idiomatic in Russian. The correct and natural way to express this is 'из 5 студентов', which matches standard Russian phrasing for iterating over a group. This change improves the naturalness and clarity of the pseudocode for Russian learners.",
         "severity": "MEDIUM"
       },
       {
@@ -367,7 +869,7 @@
         "subcategory": "Style",
         "original": "🌟",
         "correction": "",
-        "description": "The use of the star emoji at the end of the introductory paragraph is not standard in Russian educational materials, especially in formal or semi-formal contexts. While emojis can be engaging for younger audiences, their use should be carefully considered for appropriateness and consistency. In this context, the emoji may detract from the professional tone of the lesson. It is recommended to remove the emoji to maintain a neutral and formal style suitable for educational content.",
+        "description": "The use of the star emoji at the end of the introductory paragraph is not standard in Russian educational materials, especially in formal or semi-formal contexts. While emojis can be engaging, their use should be carefully considered for appropriateness and consistency with local educational norms. In Russian school settings, such symbols are typically avoided in instructional text unless the material is specifically designed for very young children or informal digital communication. Removing the emoji would make the style more professional and culturally appropriate.",
         "severity": "MINOR"
       },
       {
@@ -375,24 +877,1008 @@
         "subcategory": "Style",
         "original": "Используйте «Я»-утверждения:",
         "correction": "Используйте «Я»-высказывания:",
-        "description": "The term '«Я»-утверждения' is a direct translation of the English 'I-statements', but it is not the most natural or commonly used term in Russian educational or psychological literature. The more accepted and natural term is '«Я»-высказывания'. Using the standard term improves clarity and aligns with local professional terminology.",
+        "description": "The term '«Я»-утверждения' is a direct translation of the English 'I-statements', but in Russian educational and psychological literature, '«Я»-высказывания' is the more natural and widely accepted term. Using 'высказывания' instead of 'утверждения' improves the naturalness and professional tone of the content, aligning it with local terminology standards.",
         "severity": "MEDIUM"
-      },
-      {
-        "category": "localization",
-        "subcategory": "Style",
-        "original": "Я чувствую себя неуслышанным, когда пытаюсь поделиться своими мыслями",
-        "correction": "Я чувствую себя неуслышанным, когда пытаюсь поделиться своими мыслями.",
-        "description": "The example sentence is missing a period at the end, which is required for proper punctuation in Russian. Additionally, the phrase is natural and appropriate, but ensure punctuation is consistent throughout examples for clarity and professionalism.",
-        "severity": "MINOR"
       },
       {
         "category": "localization",
         "subcategory": "Style",
         "original": "Сделайте глубокий вдох, если эмоции накаляются.",
         "correction": "Сделайте глубокий вдох, если эмоции накаляются.",
-        "description": "The phrase is natural and appropriate for Russian educational content. However, in some contexts, a more formal alternative such as 'Постарайтесь успокоиться, если эмоции накаляются.' may be preferred. The current version is acceptable, but educators should consider the target audience's age and context.",
+        "description": "The phrase is natural and appropriate in Russian, but the use of the imperative 'Сделайте' is slightly formal for the overall tone of the lesson, which is otherwise neutral and conversational. For consistency, consider using 'Сделайте' throughout or switch to a more neutral form like 'Можно сделать глубокий вдох, если эмоции накаляются.' This would maintain a consistent register and tone.",
         "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Навыки разрешения конфликтов пригодятся вам на протяжении всей жизни — в школе, дома и на рабочем месте.",
+        "correction": "Навыки разрешения конфликтов пригодятся вам на протяжении всей жизни — в школе, дома и на работе.",
+        "description": "The phrase 'на рабочем месте' is grammatically correct, but in Russian educational contexts, 'на работе' is more commonly used and sounds more natural. 'На рабочем месте' is a formal term often used in HR or legal documents, while 'на работе' is preferred in general educational materials. Adjusting this improves the naturalness and accessibility of the content.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "🌟",
+        "correction": "",
+        "description": "The use of the star emoji '🌟' in educational Russian content may be perceived as informal or juvenile, especially in academic or professional settings. While emojis can enhance engagement for younger audiences, their appropriateness depends on the target age group and context. For a lesson on critical thinking, consider omitting the emoji or replacing it with a more formal visual element if the audience is older students or adults.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Критическое мышление помогает нам принимать обоснованные решения, решать задачи и понимать окружающий мир.",
+        "correction": "Критическое мышление помогает принимать взвешенные решения, решать задачи и понимать окружающий мир.",
+        "description": "The phrase 'обоснованные решения' is understandable, but 'взвешенные решения' is more idiomatic and commonly used in Russian educational discourse when referring to decisions made through critical thinking. This change improves the naturalness and professional tone of the content.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "ледерхозен",
+        "correction": "ледерхозен (Lederhosen)",
+        "description": "The term 'ледерхозен' is a transliteration of the German 'Lederhosen'. While transliteration is acceptable, it is best practice in educational content to provide the original term in parentheses for clarity, as this word is not widely known in Russian and may confuse learners. Adding the original term helps with understanding and cross-cultural learning.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "дирндли",
+        "correction": "дирндли (Dirndl)",
+        "description": "The word 'дирндли' is a transliteration of the German 'Dirndl'. For educational clarity and to avoid confusion, it is recommended to provide the original term in parentheses, as this is a specific cultural item not commonly known in Russian. This improves cultural understanding and terminology consistency.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "офренда",
+        "correction": "офренда (ofrenda)",
+        "description": "The term 'офренда' is a transliteration of the Spanish 'ofrenda'. For Russian learners, it is helpful to provide the original term in parentheses to clarify the meaning and origin, especially since this is a culturally specific concept. This enhances educational value and cross-cultural comprehension.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "пан де муэрто",
+        "correction": "пан де муэрто (pan de muerto)",
+        "description": "The phrase 'пан де муэрто' is a transliteration of the Spanish 'pan de muerto'. For clarity and educational purposes, the original term should be included in parentheses, as this is a unique cultural food item not familiar to most Russian speakers. This helps learners connect the Russian description to the authentic name.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "коксинья",
+        "correction": "коксинья (coxinha)",
+        "description": "The word 'коксинья' is a transliteration of the Brazilian Portuguese 'coxinha'. To improve understanding and maintain terminology consistency, the original term should be provided in parentheses, as this food item is not widely known in Russian-speaking contexts.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "ранголи",
+        "correction": "ранголи (rangoli)",
+        "description": "The term 'ранголи' is a transliteration of the Indian 'rangoli'. For educational clarity, the original term should be included in parentheses, as this is a culturally specific tradition unfamiliar to many Russian speakers. This supports better cross-cultural understanding.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "дия",
+        "correction": "дия (diya)",
+        "description": "The word 'дия' is a transliteration of the Indian 'diya'. To ensure clarity and support cultural learning, the original term should be provided in parentheses, as this is a specific item not commonly known in Russian.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "День благодарения (США): Праздник, посвященный благодарности, семейным встречам и трапезам, включая индейку и пирог с тыквой.",
+        "correction": "День благодарения (США): Праздник, посвящённый выражению благодарности, семейным встречам и традиционной трапезе с индейкой и тыквенным пирогом.",
+        "description": "The original description of Thanksgiving lacks cultural specificity and naturalness for Russian readers. The phrase 'посвященный благодарности' is awkward; 'посвящённый выражению благодарности' is more idiomatic. Additionally, 'трапезам, включая индейку и пирог с тыквой' is vague; specifying 'традиционной трапезе с индейкой и тыквенным пирогом' better reflects the cultural context and is more natural in Russian.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Фестиваль огней, символизирующий победу света над тьмой и добра над злом.",
+        "correction": "Фестиваль огней, символизирующий победу света над тьмой, а также добра над злом.",
+        "description": "The phrase 'победу света над тьмой и добра над злом' is ambiguous and may be interpreted as a single victory. Adding 'а также' clarifies that there are two distinct symbolic victories, improving the naturalness and clarity for Russian readers.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Она служит чертежом для построения и поддержания тела организма, играя ключевую роль в наследственности и определении признаков, передаваемых от родителей потомкам.",
+        "correction": "Она служит матрицей для построения и поддержания организма, играя ключевую роль в наследственности и определении признаков, передаваемых от родителей потомкам.",
+        "description": "The term 'чертеж' is not the most natural or scientifically accurate way to describe DNA's function in Russian educational or scientific contexts. 'Матрица' is the standard term used to convey the concept of DNA as a template for biological processes. The rest of the sentence is linguistically correct.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Стороны лестницы состоят из чередующихся молекул сахара (дезоксирибозы) и фосфатных групп.",
+        "correction": "Стороны лестницы состоят из чередующихся остатков сахара (дезоксирибозы) и фосфатных групп.",
+        "description": "In Russian scientific terminology, 'остатки сахара' is preferred over 'молекулы сахара' when describing the backbone of DNA, as it more accurately reflects the chemical structure. The rest of the sentence is linguistically correct.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "ДНК содержит инструкции для синтеза белков, которые необходимы для структуры и функций клеток.",
+        "correction": "ДНК содержит информацию для синтеза белков, которые необходимы для структуры и функций клеток.",
+        "description": "The word 'инструкции' is less commonly used in Russian scientific texts to describe genetic information. 'Информация' is the standard term for DNA's role in encoding proteins. The rest of the sentence is linguistically correct.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Гены, являющиеся сегментами ДНК, определяют конкретные признаки, такие как цвет глаз или рост.",
+        "correction": "Гены, представляющие собой участки ДНК, определяют конкретные признаки, такие как цвет глаз или рост.",
+        "description": "The phrase 'являющиеся сегментами ДНК' is less natural in Russian scientific style. 'Представляющие собой участки ДНК' is the standard way to refer to genes as regions of DNA. The rest of the sentence is linguistically correct.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Репликация ДНК обеспечивает передачу генетической информации во время деления клеток.",
+        "correction": "Репликация ДНК обеспечивает копирование и передачу генетической информации во время деления клеток.",
+        "description": "Adding 'копирование' clarifies the process for educational purposes, as 'репликация' may not be immediately clear to all learners. This improves clarity and aligns with Russian educational standards. The rest of the sentence is linguistically correct.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Учёные изучают ДНК для понимания болезней, разработки методов лечения и улучшения культур с помощью генной инженерии.",
+        "correction": "Учёные изучают ДНК для понимания болезней, разработки методов лечения и улучшения сельскохозяйственных культур с помощью генной инженерии.",
+        "description": "The word 'культур' without specification may be ambiguous in Russian. Adding 'сельскохозяйственных' clarifies that the reference is to agricultural crops, which is standard in Russian scientific and educational texts.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "🌟",
+        "correction": "",
+        "description": "The use of the star emoji at the end of the introduction is not standard in Russian educational materials, especially in formal or academic contexts. It may be perceived as informal or distracting. Removing the emoji ensures the tone remains professional and culturally appropriate for Russian learners.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "бюро находок",
+        "correction": "бюро находок (или администрация школы)",
+        "description": "The term 'бюро находок' is correct but may not be familiar or relevant to all Russian school contexts, especially for younger students or in regions where such offices do not exist. Adding '(или администрация школы)' clarifies the intended action and adapts the scenario to a more universally understood school environment.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "ограничения или ограничения",
+        "correction": "ограничения",
+        "description": "The phrase 'ограничения или ограничения' is redundant and unnatural in Russian. Only 'ограничения' should be used to refer to constraints or limitations in the design process. This repetition may confuse learners and does not reflect standard Russian terminology for design criteria.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Избегание написания текста заглавными буквами (что может восприниматься как крик).",
+        "correction": "Избегайте написания текста заглавными буквами, так как это может восприниматься как крик.",
+        "description": "The original sentence uses a nominalization ('Избегание') which is less natural in Russian instructional style. The correction uses the imperative form, which is more direct and appropriate for educational content, improving clarity and engagement. No linguistic errors are present, but the style is improved for naturalness and instructional tone.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Практикуйте эти техники, рисуя повседневные предметы, такие как кружка, ваза или дерево.",
+        "correction": "Практикуйте эти техники, рисуя повседневные предметы, например кружку, вазу или дерево.",
+        "description": "The use of 'такие как' is grammatically acceptable, but in Russian educational style, 'например' is more natural and commonly used to introduce examples. This change improves the naturalness and flow of the sentence for Russian learners.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Обратите внимание на источник света и используйте штриховку для акцента на свет и тень.",
+        "correction": "Обратите внимание на источник света и используйте штриховку для выделения света и тени.",
+        "description": "The phrase 'для акцента на свет и тень' is understandable but slightly unnatural in Russian. 'Для выделения света и тени' is a more idiomatic and natural way to express the intended meaning in educational contexts.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "🌟",
+        "correction": "",
+        "description": "The use of the star emoji may be considered informal and less appropriate for educational content in Russian, especially in professional or academic contexts. It is recommended to remove the emoji to maintain a formal and neutral tone.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Эмоциональный интеллект — это способность эффективно воспринимать, понимать и управлять эмоциями.",
+        "correction": "Эмоциональный интеллект — это способность эффективно воспринимать, понимать и управлять эмоциями.",
+        "description": "The terminology is appropriate and matches standard Russian usage for educational contexts. No localization issues found.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Ведите дневник для фиксации мыслей и чувств.",
+        "correction": "Ведите дневник для записи мыслей и чувств.",
+        "description": "The word 'фиксации' is technically correct but less natural in everyday Russian. 'Записи' is more commonly used in the context of keeping a diary. This change improves the naturalness and readability of the sentence.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Активно слушайте, не перебивая.",
+        "correction": "Активно слушайте, не перебивая.",
+        "description": "The style is appropriate for educational content, using a polite imperative form. No localization issues detected.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "успокаивайте себя, когда чувствуете себя подавленным.",
+        "correction": "успокаивайте себя, когда чувствуете себя расстроенным.",
+        "description": "The word 'подавленным' is a strong term in Russian, often associated with clinical depression or severe emotional states, which may not be appropriate for a general educational context aimed at children or a broad audience. 'Расстроенным' is a more neutral and commonly used word for feeling upset or distressed, making the advice more culturally appropriate and natural for the intended audience.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Документальная литература — это тип текста, основанный на фактах, реальных событиях и достоверной информации.",
+        "correction": "Документальная литература — это вид литературы, основанный на фактах, реальных событиях и достоверной информации.",
+        "description": "The use of 'тип текста' is not standard in Russian educational or literary discourse when referring to genres of literature. 'Вид литературы' is the more accepted and natural term in Russian for describing literary genres, ensuring consistency and professionalism in terminology.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Художественная литература — это тип текста, созданный на основе воображения автора.",
+        "correction": "Художественная литература — это вид литературы, созданный на основе воображения автора.",
+        "description": "Similar to the previous issue, 'тип текста' is not the standard way to refer to literary genres in Russian. 'Вид литературы' is the correct and natural term, which aligns with Russian literary and educational conventions.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Сочетание творческих идей и научной информации обогащает понимание темы.",
+        "correction": "Сочетание творческих идей и научных фактов обогащает понимание темы.",
+        "description": "The phrase 'научная информация' is acceptable, but 'научные факты' is more precise and commonly used in Russian educational contexts when contrasting imaginative and factual content. This change enhances clarity and naturalness for the target audience.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "дымовые извещатели",
+        "correction": "дымовые датчики",
+        "description": "The term 'дымовые извещатели' is technically correct but less commonly used in everyday Russian speech. 'Дымовые датчики' is the more natural and widely recognized term for smoke detectors in Russian households, enhancing localization and naturalness.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "приём Хаймлиха",
+        "correction": "приём Геймлиха",
+        "description": "The term 'приём Хаймлиха' uses a transliteration that is common but not fully standardized in Russian medical literature. The more accepted spelling in Russian is 'приём Геймлиха', which aligns with local medical terminology and professional usage. This correction enhances consistency and professionalism in educational content.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Format",
+        "original": "39,4°C",
+        "correction": "39,4 °C",
+        "description": "The temperature format '39,4°C' lacks a space between the number and the degree symbol, which is required by Russian typographic standards. The correct format is '39,4 °C'. This adjustment ensures compliance with local formatting conventions and improves readability.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Добро пожаловать в увлекательный мир дробей! 📏 Дроби помогают нам описывать части целого, используя два числа: числитель и знаменатель. Сегодня мы узнаем, как находить дроби, сравнивать их и понимать их эквивалентность с помощью моделей.",
+        "correction": "Добро пожаловать в увлекательный мир дробей! 📏 Дроби помогают нам описывать части целого с помощью двух чисел: числителя и знаменателя. Сегодня мы узнаем, как находить дроби, сравнивать их и понимать их эквивалентность с помощью моделей.",
+        "description": "The phrase 'используя два числа' is slightly unnatural in Russian educational style; 'с помощью двух чисел' is more idiomatic and aligns better with standard Russian math terminology. This improves the naturalness and clarity of the introduction for Russian learners.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Дробь представляет часть целого. Она записывается в виде двух чисел: **числителя** (вверху) и **знаменателя** (внизу).",
+        "correction": "Дробь — это часть целого. Она записывается двумя числами: **числителем** (вверху) и **знаменателем** (внизу).",
+        "description": "The phrase 'Дробь представляет часть целого' is grammatically correct but less natural than 'Дробь — это часть целого' in Russian educational context. Also, 'в виде двух чисел' is less idiomatic than 'двумя числами'. These changes improve the naturalness and clarity for Russian learners.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "**Числитель** показывает, сколько частей рассматривается.\n**Знаменатель** показывает, на сколько равных частей разделено целое.",
+        "correction": "**Числитель** показывает, сколько частей рассматривается.\n**Знаменатель** показывает, на сколько равных частей делится целое.",
+        "description": "The phrase 'разделено целое' is understandable but 'делится целое' is more natural and commonly used in Russian math education. This change enhances the clarity and idiomatic expression.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "**Числитель** — это верхнее число, показывающее, сколько частей рассматривается.\n**Знаменатель** — это нижнее число, показывающее, на сколько равных частей разделено целое.",
+        "correction": "**Числитель** — это верхнее число, показывающее, сколько частей рассматривается.\n**Знаменатель** — это нижнее число, показывающее, на сколько равных частей делится целое.",
+        "description": "Similar to previous, 'разделено целое' is less idiomatic than 'делится целое' in Russian math terminology. This correction improves the naturalness and educational clarity.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Дроби можно сравнивать, чтобы определить, какая больше или меньше.\nДля сравнения дробей можно использовать **визуальные модели**, такие как полоски дробей или числовые прямые.",
+        "correction": "Дроби можно сравнивать, чтобы определить, какая из них больше или меньше.\nДля сравнения дробей можно использовать **визуальные модели**, такие как полоски дробей или числовые прямые.",
+        "description": "The phrase 'какая больше или меньше' is ambiguous; 'какая из них больше или меньше' is clearer and more precise in Russian educational context. This improves clarity for learners.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Сравните **1/2** и **1/4** с помощью полоски дробей:\n- **1/2** больше, так как представляет большую часть целого, чем **1/4**.",
+        "correction": "Сравните **1/2** и **1/4** с помощью полоски дробей:\n- **1/2** больше, так как это большая часть целого по сравнению с **1/4**.",
+        "description": "The phrase 'представляет большую часть целого, чем' is understandable but 'это большая часть целого по сравнению с' is more natural and idiomatic in Russian math explanations.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Две дроби эквивалентны, если они представляют одинаковую величину, даже если числитель и знаменатель разные.",
+        "correction": "Две дроби эквивалентны, если они выражают одинаковую величину, даже если числитель и знаменатель разные.",
+        "description": "The verb 'представляют' is acceptable, but 'выражают' is more precise and commonly used in Russian math terminology when discussing equivalence of fractions.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "**Правило:** Умножение или деление числителя и знаменателя на одно и то же число не изменяет значение дроби.",
+        "correction": "**Правило:** Если числитель и знаменатель умножить или разделить на одно и то же число, значение дроби не изменится.",
+        "description": "The original sentence is grammatically correct but less natural. The correction uses a more standard Russian construction for math rules, improving clarity and idiomatic expression.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Визуальные модели помогают увидеть, почему две дроби эквивалентны.",
+        "correction": "Визуальные модели помогают понять, почему две дроби эквивалентны.",
+        "description": "The verb 'увидеть' is less precise in this context; 'понять' is more appropriate for educational explanations about conceptual understanding.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "- Нарисуйте полоску дроби для **1/2**.\n- Разделите её на 4 равные части вместо 2:\n  - **1/2 = 2/4**, потому что размер частей стал меньше, но покрытая область осталась той же.",
+        "correction": "- Нарисуйте полоску дроби для **1/2**.\n- Разделите её на 4 равные части вместо 2:\n  - **1/2 = 2/4**, потому что размер частей уменьшился, но покрытая область осталась той же.",
+        "description": "The phrase 'размер частей стал меньше' is understandable but 'размер частей уменьшился' is more idiomatic and precise in Russian math explanations.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Сравните дроби **3/4** и **6/8**.\n\n- Умножьте числитель и знаменатель дроби **3/4** на 2:\n  **(3 × 2)/(4 × 2) = 6/8**.\n- **3/4** и **6/8** эквивалентны, так как они представляют одинаковую величину.",
+        "correction": "Сравните дроби **3/4** и **6/8**.\n\n- Умножьте числитель и знаменатель дроби **3/4** на 2:\n  **(3 × 2)/(4 × 2) = 6/8**.\n- **3/4** и **6/8** эквивалентны, так как они выражают одинаковую величину.",
+        "description": "As previously noted, 'представляют одинаковую величину' is less precise than 'выражают одинаковую величину' in Russian math terminology.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Сравним дроби **2/3** и **3/4**.\n\nИспользуем числовую прямую:\n- **2/3** находится ближе к 1, чем **3/4**, значит, **2/3** больше.\n\nИспользуем полоски дробей:\n- Нарисуйте полоски для каждой дроби и сравните их длину.",
+        "correction": "Сравним дроби **2/3** и **3/4**.\n\nИспользуем числовую прямую:\n- **2/3** находится ближе к 1, чем **3/4**, поэтому **2/3** больше.\n\nИспользуем полоски дробей:\n- Нарисуйте полоски для каждой дроби и сравните их длину.",
+        "description": "The use of 'значит' is less formal and idiomatic in Russian educational style; 'поэтому' is preferred for logical conclusions in math explanations.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "- Знать, что числитель показывает части, а знаменатель — их количество.",
+        "correction": "- Знать, что числитель показывает количество частей, а знаменатель — на сколько частей делится целое.",
+        "description": "The original phrase is ambiguous; 'числитель показывает количество частей' and 'знаменатель — на сколько частей делится целое' are more precise and standard in Russian math education.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "😊",
+        "correction": "",
+        "description": "The use of the smiley emoji at the end of the introduction is not standard in Russian educational materials, especially in formal or semi-formal contexts. It may be perceived as overly informal or unprofessional. Removing the emoji will ensure the tone remains appropriate for an educational setting.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Это имеет смысл.",
+        "correction": "Это понятно.",
+        "description": "The phrase 'Это имеет смысл.' is a direct translation of the English 'That makes sense,' but it is not a natural response in Russian conversational context, especially in active listening scenarios. 'Это понятно.' is a more idiomatic and culturally appropriate way to acknowledge understanding in Russian.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Геометрия — это раздел математики, который изучает формы, размеры и свойства пространства.",
+        "correction": "Геометрия — это раздел математики, изучающий формы, размеры и свойства пространства.",
+        "description": "The sentence uses a relative clause ('который изучает'), which is grammatically correct but less natural in Russian educational style. The participial construction ('изучающий') is preferred for concise, formal definitions in Russian textbooks. This improves the naturalness and professional tone of the content.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Она помогает нам понять окружающий мир, от дизайна зданий до дорог, по которым мы ходим каждый день.",
+        "correction": "Она помогает нам понять окружающий мир — от дизайна зданий до дорог, по которым мы ходим каждый день.",
+        "description": "The sentence uses a comma before 'от', but in Russian, a dash is more appropriate to indicate a range or explanation. This change enhances the naturalness and clarity of the sentence structure.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Точка обычно изображается как маленькая точка на диаграмме и обозначается заглавной буквой (например, \"A\").",
+        "correction": "Точка обычно изображается как маленькая точка на диаграмме и обозначается заглавной буквой (например, «A»).",
+        "description": "The sentence uses English-style quotation marks (\"A\") instead of Russian («A»). Russian typographic standards require the use of angle quotes for examples and direct speech. This correction improves localization and professional presentation.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Прямая изображается как прямой путь с стрелками на обоих концах, показывающими, что она продолжается бесконечно.",
+        "correction": "Прямая изображается как прямой путь со стрелками на обоих концах, показывающими, что она продолжается бесконечно.",
+        "description": "The phrase 'с стрелками' should be 'со стрелками' due to the following consonant cluster. This is a minor stylistic improvement for naturalness and pronunciation ease in Russian.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Лист бумаги — это физическое представление плоскости, но в геометрии плоскость бесконечна.",
+        "correction": "Лист бумаги — это физическое представление плоскости, однако в геометрии плоскость бесконечна.",
+        "description": "The use of 'но' is acceptable, but 'однако' is more formal and appropriate for educational content, improving the professional tone and clarity.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Угол в углу квадрата образует прямой угол, который составляет 90 градусов.",
+        "correction": "Угол в квадрате образует прямой угол, который составляет 90 градусов.",
+        "description": "The phrase 'угол в углу квадрата' is redundant and slightly awkward. 'Угол в квадрате' is more concise and natural in Russian, improving clarity and style.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Геометрия окружает нас, и освоение этих основ поможет учащимся распознавать и применять геометрические принципы в повседневной жизни.",
+        "correction": "Геометрия окружает нас, и освоение этих основ поможет ученикам распознавать и применять геометрические принципы в повседневной жизни.",
+        "description": "The word 'учащимся' is correct but more formal and bureaucratic. 'Ученикам' is more natural and commonly used in Russian educational contexts, especially for school-level materials.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "Россия экспортирует природный газ в Европу и импортирует электронику из Китая.",
+        "correction": "Россия экспортирует природный газ в Европу и импортирует электронику из Китая.",
+        "description": "The example is culturally appropriate and reflects real trade relationships. However, for a broader educational context, it would be beneficial to mention other major Russian exports and imports to avoid reinforcing a narrow view of trade. Consider including additional examples for a more balanced perspective.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Мы употребляем продукты, которые импортируются из других стран.",
+        "correction": "Мы потребляем продукты, которые импортируются из других стран.",
+        "description": "The verb 'употреблять' is more commonly used for substances like food, drink, or medicine, and can sound unnatural in the context of general product consumption. 'Потреблять' is the standard term for consuming goods in economic contexts. This correction improves the naturalness and professionalism of the language.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Format",
+        "original": "с 130 г. до н.э. до 1453 г. н.э.",
+        "correction": "с 130 г. до н. э. до 1453 г. н. э.",
+        "description": "In Russian, the abbreviations 'до н. э.' and 'н. э.' should be separated by spaces after each period for proper formatting. This correction aligns with Russian typographic standards for historical dates.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "Прокламация об освобождении рабов, изданная Авраамом Линкольном во время гражданской войны.",
+        "correction": "Прокламация об освобождении рабов, подписанная Авраамом Линкольном во время Гражданской войны в США.",
+        "description": "The original text uses 'гражданская война' without specifying that it refers to the American Civil War, which may cause confusion for Russian-speaking learners unfamiliar with U.S. history. Adding 'в США' clarifies the context and improves cultural appropriateness. Additionally, 'изданная' is less natural in Russian for this context; 'подписанная' is more idiomatic when referring to official proclamations.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Законодательная ветвь власти отвечает за принятие законов и состоит из двух палат: Сената и Палаты представителей, которые вместе составляют Конгресс.",
+        "correction": "Законодательная ветвь власти отвечает за принятие законов и состоит из двух палат: Сената и Палаты представителей, которые вместе образуют Конгресс.",
+        "description": "The phrase 'составляют Конгресс' is understandable but less idiomatic in Russian when describing the structure of the U.S. Congress. 'образуют Конгресс' is more natural and commonly used in educational and official contexts, improving the localization quality.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Готовы открыть секреты развития?",
+        "correction": "Готовы узнать секреты развития?",
+        "description": "The phrase 'открыть секреты развития' is understandable but slightly awkward and less idiomatic in Russian educational context. 'Узнать секреты развития' is more natural and commonly used in Russian, making the tone more engaging and appropriate for learners.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Format",
+        "original": "Гриль-курица (белок)",
+        "correction": "Курица-гриль (белок)",
+        "description": "The term 'Гриль-курица' is not a natural or standard way to refer to grilled chicken in Russian. The more culturally appropriate and commonly used term is 'Курица-гриль'. This correction improves the naturalness and aligns with Russian menu and culinary conventions.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Format",
+        "original": "Коричневый рис (зерновые)",
+        "correction": "Коричневый рис (зерновые)",
+        "description": "While 'Коричневый рис' is understandable, the more common term in Russian for 'brown rice' is 'бурый рис'. Using 'бурый рис' would be more culturally appropriate and natural for Russian speakers, as 'коричневый рис' is a literal translation and less frequently used in everyday speech.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Тофу",
+        "correction": "Тофу",
+        "description": "The inclusion of 'тофу' as a protein-rich food is accurate, but it may not be familiar or culturally relevant for all Russian learners, especially younger audiences or those outside major cities. Consider adding a brief explanation or a more locally familiar example (such as 'творог') to enhance cultural appropriateness and comprehension.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Format",
+        "original": "Стакан молока (молочные продукты)",
+        "correction": "Стакан молока (молочные продукты)",
+        "description": "The use of 'стакан' for milk is acceptable, but in Russian, 'стакан' typically refers to a glass for water or juice. For milk, 'чашка молока' or simply 'молоко' is more common in everyday usage. Consider revising for greater naturalness.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "🌍 Сегодня мы начнем изучение Всеобщей декларации прав человека, чтобы понять её значение и влияние на современное общество.",
+        "correction": "Сегодня мы начнем изучение Всеобщей декларации прав человека, чтобы понять её значение и влияние на современное общество.",
+        "description": "The use of the globe emoji (🌍) at the beginning of a formal educational text is not culturally appropriate for Russian academic or instructional materials. Emojis are generally avoided in formal contexts and may undermine the seriousness of the topic. Removing the emoji improves the professional tone and aligns with local expectations for educational content.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Равенство в браке",
+        "correction": "Брак между лицами одного пола",
+        "description": "The phrase 'Равенство в браке' is ambiguous and not the standard terminology in Russian for the concept of same-sex marriage. The more precise and commonly accepted term is 'брак между лицами одного пола'. Using the correct terminology ensures clarity and aligns with local usage in legal and social contexts.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Готовы начать? 😄",
+        "correction": "Готовы начать?",
+        "description": "The use of the smiley emoji 😄 in educational Russian content may be considered informal and less appropriate for certain classroom or academic settings, especially in written materials. While emojis can help engage younger audiences, their use should be carefully considered based on the target age group and educational context. Removing the emoji ensures a more neutral and universally acceptable tone.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "школьными принадлежностями",
+        "correction": "канцелярскими принадлежностями",
+        "description": "The term 'школьными принадлежностями' is understandable but less precise and less commonly used in Russian educational contexts compared to 'канцелярскими принадлежностями', which is the standard term for school supplies or stationery. Using the more widely accepted terminology improves clarity and professionalism.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Format",
+        "original": "Организация сбора средств на местные нужды.",
+        "correction": "Организация благотворительного сбора на местные нужды.",
+        "description": "The phrase 'сбор средств' is correct, but adding 'благотворительного' clarifies the context and aligns with common Russian phrasing for community fundraising activities. This adjustment makes the example more culturally specific and natural for Russian audiences.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "акроним \"МОЭС\" помогает запомнить названия Великих озёр: Мичиган, Онтарио, Эри, Супериор.",
+        "correction": "акроним \"МОЭС\" помогает запомнить названия Великих озёр: Мичиган, Онтарио, Эри, Супериор, Гурон.",
+        "description": "The example uses the acronym 'МОЭС' to help remember the names of the Great Lakes, but omits 'Гурон' (Huron), which is one of the five Great Lakes. This is a factual and cultural inaccuracy, as the standard Russian mnemonic for the Great Lakes should include all five lakes. The omission may confuse learners and reduce the educational value of the example.",
+        "severity": "HIGH"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Format",
+        "original": "123-456-7890",
+        "correction": "8 (123) 456-78-90",
+        "description": "The phone number example uses the North American format '123-456-7890', which is not standard or familiar for Russian audiences. For Russian localization, phone numbers should follow the Russian format, such as '8 (123) 456-78-90'. This ensures cultural relevance and helps learners relate the example to their everyday experience.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Исполняется оркестрами, камерными ансамблями или солистами.",
+        "correction": "Исполняется симфоническими оркестрами, камерными ансамблями или солистами.",
+        "description": "The term 'оркестрами' is too general for classical music in Russian educational context. Specifying 'симфоническими оркестрами' provides clarity and aligns with standard Russian music terminology, enhancing educational precision and naturalness.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Вдохновлён блюзом, рэгтаймом и спиричуэлс.",
+        "correction": "Вдохновлён блюзом, рэгтаймом и спиричуэлами.",
+        "description": "The word 'спиричуэлс' is an anglicism and not the standard Russian plural form. The correct term is 'спиричуэлы', which is more natural and widely accepted in Russian musical discourse.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Тексты часто затрагивают социальные проблемы, личные переживания и культурную идентичность.",
+        "correction": "Тексты часто затрагивают социальные вопросы, личные переживания и культурную идентичность.",
+        "description": "In Russian educational and journalistic style, 'социальные вопросы' is preferred over 'социальные проблемы' for a neutral and professional tone when discussing topics addressed in hip-hop lyrics. This improves naturalness and aligns with local conventions.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Создаётся с помощью синтезаторов, драм-машин и цифрового программного обеспечения.",
+        "correction": "Создаётся с помощью синтезаторов, драм-машин и цифровых аудиопрограмм.",
+        "description": "The phrase 'цифровое программное обеспечение' is overly formal and not idiomatic in Russian music context. 'Цифровые аудиопрограммы' is more natural and commonly used among Russian musicians and educators.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "🌍 Они играют ключевую роль в нашей жизни, обеспечивая пищу, энергию, жилье и многое другое.",
+        "correction": "Они играют ключевую роль в нашей жизни, обеспечивая пищу, энергию, жилье и многое другое.",
+        "description": "The use of the globe emoji (🌍) at the beginning of the sentence is not standard in Russian educational materials and may be perceived as informal or distracting in a formal learning context. Removing the emoji ensures the tone remains professional and appropriate for the target audience.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Ответственное лесоводство: посадка деревьев после их вырубки.",
+        "correction": "Ответственное лесопользование: посадка деревьев после их вырубки.",
+        "description": "The term 'лесоводство' refers specifically to the science and practice of growing forests, while 'лесопользование' is the standard term in Russian for responsible forest management and use. Using 'лесопользование' aligns with industry-standard terminology and improves clarity for Russian-speaking learners.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "например \"password\" или \"123456\"",
+        "correction": "например «password» или «123456»",
+        "description": "Quotation marks should use Russian-style (« ») instead of English-style (\" \") for examples in educational content. This enhances the naturalness and professionalism of the text, making it culturally appropriate for Russian readers.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Format",
+        "original": "T!ger$2023",
+        "correction": "T!ger$2023",
+        "description": "While the password example is technically correct, it uses Latin characters and symbols, which is common in global cybersecurity education. However, for Russian audiences, it may be helpful to clarify that strong passwords can include both Cyrillic and Latin characters, as some Russian services allow this. Consider adding a note or example with Cyrillic letters for better localization.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "письмо, якобы от вашего банка, с просьбой подтвердить аккаунт, введя пароль.",
+        "correction": "письмо, якобы от вашего банка, с просьбой подтвердить учётную запись, введя пароль.",
+        "description": "The term 'аккаунт' is an anglicism. In Russian educational and official contexts, 'учётная запись' is preferred for clarity and naturalness. This correction improves the localization quality and aligns with standard terminology.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "магазинов приложений",
+        "correction": "магазинов приложений",
+        "description": "The term 'магазинов приложений' is acceptable, but for Russian audiences, 'официальных магазинов приложений' or 'официальных источников' is more precise and natural. Consider using the more localized term for clarity.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Периодическая таблица — это один из важнейших инструментов в химии, который помогает организовать все известные элементы по их свойствам.",
+        "correction": "Периодическая таблица — один из важнейших инструментов химии, помогающий организовать все известные элементы по их свойствам.",
+        "description": "The original sentence uses a redundant construction with 'это' and 'который', which is less natural in Russian educational style. Removing 'это' and restructuring the sentence improves conciseness and naturalness, aligning with standard Russian scientific writing.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Атомная масса: Средняя масса атомов элемента, включая изотопы.",
+        "correction": "Атомная масса: Средняя масса атомов элемента с учетом изотопов.",
+        "description": "The phrase 'включая изотопы' is understandable but less precise than 'с учетом изотопов', which is the standard terminology in Russian scientific texts. This correction improves professional language usage and aligns with local conventions.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Периодическая таблица — это мощный инструмент для понимания поведения элементов и их взаимодействий, который заложил основу для изучения химических реакций и соединений.",
+        "correction": "Периодическая таблица — мощный инструмент для понимания поведения элементов и их взаимодействий, заложивший основу для изучения химических реакций и соединений.",
+        "description": "The original sentence uses a relative clause with 'который', which is grammatically correct but stylistically cumbersome in Russian scientific writing. Restructuring the sentence to use a participial phrase ('заложивший основу') improves flow and naturalness.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Письменное убеждение — это мощный инструмент, который помогает убедить аудиторию в определенной точке зрения или действиях.",
+        "correction": "Письменная аргументация — это мощный инструмент, который помогает убедить аудиторию принять определённую точку зрения или предпринять действия.",
+        "description": "The phrase 'Письменное убеждение' is not a natural or commonly used term in Russian educational contexts. 'Письменная аргументация' is more appropriate and idiomatic. Additionally, 'в определенной точке зрения или действиях' is awkward; 'принять определённую точку зрения или предпринять действия' is clearer and more natural. This correction improves both style and clarity for Russian learners.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Этос укрепляет доверие, пафос привлекает эмоции, а логос усиливает логику.",
+        "correction": "Этос укрепляет доверие, пафос вызывает эмоции, а логос усиливает аргументацию.",
+        "description": "The phrase 'пафос привлекает эмоции' is not idiomatic; 'вызывает эмоции' is more natural. 'Логос усиливает логику' is tautological and less clear; 'усиливает аргументацию' better conveys the intended meaning in Russian educational discourse.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "И понял: сон был не пустой.",
+        "correction": "И понял: сон был не простой.",
+        "description": "The phrase 'сон был не пустой' is unnatural in Russian; the standard idiomatic expression is 'сон был не простой' or 'сон был не обычный'. The original phrase is a literal translation from English and does not convey the intended meaning in Russian.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Добро пожаловать в мир вероятности!",
+        "correction": "Добро пожаловать в мир вероятностей!",
+        "description": "The phrase uses the singular 'вероятности', but in Russian, the plural 'вероятностей' is more natural and idiomatic when referring to the field or concept in general. This improves the naturalness and style of the introduction.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Сегодня мы будем рассматривать вероятность через знакомые предметы — кубики, карты и монеты.",
+        "correction": "Сегодня мы будем изучать вероятность на примере знакомых предметов — кубиков, карт и монет.",
+        "description": "The phrase 'рассматривать вероятность через знакомые предметы' is somewhat awkward and less natural in Russian educational style. 'Изучать вероятность на примере знакомых предметов' is a more idiomatic and clear way to express the intended meaning.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Эти повседневные вещи помогут нам лучше понять, как работает вероятность! 🎲🃏",
+        "correction": "Эти повседневные предметы помогут нам лучше понять, как работает вероятность! 🎲🃏",
+        "description": "The word 'вещи' is less precise than 'предметы' in this context. 'Предметы' is more appropriate for educational materials referring to objects like dice, cards, and coins.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Благоприятный исход: выпасть 4 (1 исход).",
+        "correction": "Благоприятный исход: выпадение 4 (1 исход).",
+        "description": "The phrase 'выпасть 4' is not standard terminology. 'Выпадение 4' is more precise and commonly used in Russian probability discussions.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Всего возможных исходов: 1, 2, 3, 4, 5, 6 (6 исходов).",
+        "correction": "Всего возможных исходов: 1, 2, 3, 4, 5, 6 (6 исходов).",
+        "description": "No localization issues found. The terminology and format are appropriate.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Format",
+        "original": "Вероятность = 1 ÷ 6 = 0,167 (примерно 16,7%)",
+        "correction": "Вероятность = 1 ÷ 6 = 0,167 (примерно 16,7%)",
+        "description": "No format issues found. The use of comma as a decimal separator is correct for Russian conventions.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Теоретическая против экспериментальной вероятности",
+        "correction": "Теоретическая и экспериментальная вероятность",
+        "description": "The phrase 'Теоретическая против экспериментальной вероятности' is a direct translation of 'theoretical vs experimental probability' and sounds unnatural in Russian. 'Теоретическая и экспериментальная вероятность' is more idiomatic and clear.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "основана на математических рассуждениях и предполагает равновероятность всех исходов.",
+        "correction": "основана на математических рассуждениях и предполагает равную вероятность всех исходов.",
+        "description": "The term 'равновероятность' is not standard in Russian. 'Равная вероятность' is the correct and commonly used phrase.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Замечание: экспериментальная вероятность может отличаться от теоретической из-за случайности, но чем больше экспериментов, тем ближе она становится к теоретической.",
+        "correction": "Примечание: экспериментальная вероятность может отличаться от теоретической из-за случайности, но чем больше экспериментов, тем ближе она становится к теоретической.",
+        "description": "The word 'Замечание' is less formal and less commonly used in educational materials than 'Примечание'. 'Примечание' is the standard term for notes in Russian textbooks.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Кубик — это классический пример для изучения вероятности.",
+        "correction": "Кубик — классический пример для изучения вероятности.",
+        "description": "The phrase 'это' is unnecessary and can be omitted for a more natural and concise style in Russian.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Каждая грань имеет равные шансы выпасть.",
+        "correction": "Каждая грань имеет равную вероятность выпадения.",
+        "description": "The phrase 'равные шансы выпасть' is less precise and less idiomatic than 'равную вероятность выпадения' in Russian probability terminology.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Связь с реальностью: В настольных играх результаты броска кубика часто определяют движение.",
+        "correction": "Связь с реальностью: В настольных играх результат броска кубика часто определяет ход игрока.",
+        "description": "The phrase 'результаты броска кубика часто определяют движение' is vague. 'Определяет ход игрока' is more precise and natural in the context of board games.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Игральные карты — еще один инструмент для изучения вероятности.",
+        "correction": "Игральные карты — ещё один пример для изучения вероятности.",
+        "description": "The word 'инструмент' is less natural than 'пример' in this context. 'Пример' is more commonly used in educational materials when referring to objects used for illustration.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "В стандартной колоде 52 карты, разделенные на 4 масти (черви, бубны, трефы, пики).",
+        "correction": "В стандартной колоде 52 карты, разделённые на 4 масти (черви, бубны, трефы, пики).",
+        "description": "The word 'разделенные' should use the correct participle form 'разделённые' to match Russian orthographic standards.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Какова вероятность вытянуть красную карту?",
+        "correction": "Какова вероятность вытянуть красную карту?",
+        "description": "No localization issues found. The phrase is natural and idiomatic.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Связь с реальностью: В карточных играх часто приходится рассчитывать вероятность для принятия рисков или консервативных решений.",
+        "correction": "Связь с реальностью: В карточных играх часто приходится рассчитывать вероятность, чтобы принимать рискованные или осторожные решения.",
+        "description": "The phrase 'для принятия рисков или консервативных решений' is awkward. 'Чтобы принимать рискованные или осторожные решения' is more natural and idiomatic in Russian.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Монета имеет две стороны: «орел» и «решка».",
+        "correction": "Монета имеет две стороны: «орёл» и «решка».",
+        "description": "The word 'орел' should be spelled with the correct diacritical mark 'ё' as 'орёл' in Russian orthography.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Связь с реальностью: Подбрасывание монеты часто используется для принятия решений, например, определения очередности игры в спорте.",
+        "correction": "Связь с реальностью: Подбрасывание монеты часто используется для принятия решений, например, для определения очередности хода в игре или спорте.",
+        "description": "The phrase 'определения очередности игры в спорте' is vague. 'Для определения очередности хода в игре или спорте' is more precise and natural.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Избегание сладких закусок помогает оставаться сосредоточенным и энергичным.",
+        "correction": "Отказ от сладких перекусов помогает сохранять концентрацию и энергию.",
+        "description": "The phrase 'сладкие закуски' is not commonly used in Russian; 'сладкие перекусы' is more natural. Additionally, 'оставаться сосредоточенным и энергичным' is slightly awkward; 'сохранять концентрацию и энергию' is a more idiomatic and concise way to express the idea. This correction improves both terminology and style for Russian-speaking audiences.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Он обеспечивает логичность, повторяемость и доказательность исследований.",
+        "correction": "Он обеспечивает логичность, воспроизводимость и обоснованность исследований.",
+        "description": "The terms 'повторяемость' and 'доказательность' are not standard in Russian scientific discourse. 'Воспроизводимость' (reproducibility) and 'обоснованность' (validity/justification) are more natural and widely accepted in Russian academic style, improving the localization and professionalism of the text.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Коготь молотка",
+        "correction": "гвоздодёр",
+        "description": "The term 'Коготь молотка' is a literal translation of 'hammer claw' and is not commonly used in Russian. The standard term is 'гвоздодёр', which is widely recognized and culturally appropriate for describing the claw part of a hammer.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Крышки банок",
+        "correction": "крышки от банок",
+        "description": "The phrase 'Крышки банок' is ambiguous and could mean 'jar lids' in general. The more natural and precise expression in Russian is 'крышки от банок', which clearly indicates lids belonging to jars.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "Пандусы для инвалидных колясок",
+        "correction": "пандусы для маломобильных граждан",
+        "description": "The phrase 'Пандусы для инвалидных колясок' is technically correct but may be considered less inclusive. The more culturally sensitive and modern term is 'пандусы для маломобильных граждан', which encompasses a broader group of people who benefit from ramps.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Современные ракеты берут начало от военных разработок, но теперь они являются ключевым элементом научной и космической деятельности.",
+        "correction": "Современные ракеты произошли от военных разработок, но теперь они являются ключевым элементом научной и космической деятельности.",
+        "description": "The phrase 'берут начало' is understandable but less natural in modern Russian scientific style. 'Произошли от' is a more standard and natural way to express the historical origin of rockets in educational and technical contexts.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Плазменные телевизоры, неоновые знаки, солнце — это примеры плазмы, демонстрирующие её уникальные свойства и высокую энергию.",
+        "correction": "Плазменные телевизоры, неоновые лампы, Солнце — это примеры плазмы, демонстрирующие её уникальные свойства и высокую энергию.",
+        "description": "The term 'неоновые знаки' is less commonly used in Russian scientific or educational contexts compared to 'неоновые лампы', which is the standard term for neon light sources. Additionally, 'солнце' should be capitalized as 'Солнце' when referring to the star, following Russian convention for astronomical objects. This improves both terminology consistency and style appropriateness for the target audience.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "в сказке \"Три медведя\" конфликт возникает, когда девочка пробует вещи медведей без их разрешения, что приводит к их возвращению и неожиданной встрече.",
+        "correction": "в сказке \"Три медведя\" конфликт возникает, когда девочка пробует вещи медведей без их разрешения, что приводит к их возвращению и неожиданной встрече.",
+        "description": "While the text is linguistically correct, the example references 'Три медведя' (Three Bears), which is a Russian adaptation of the English tale 'Goldilocks and the Three Bears'. For Russian educational content, this is culturally appropriate, but it is important to clarify for learners that the story is an adaptation and may differ from the original. No correction needed, but a note for future content to ensure cultural context is clear.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "Создайте тихое место для учебы.",
+        "correction": "Организуйте удобное и спокойное пространство для учебы.",
+        "description": "The phrase 'Создайте тихое место для учебы' is understandable but may not fully reflect the cultural and practical realities for Russian learners, many of whom may not have the ability to create a completely quiet space. A more culturally appropriate and natural expression would be 'Организуйте удобное и спокойное пространство для учебы', which emphasizes comfort and calmness rather than absolute quiet, aligning better with Russian educational advice and living conditions.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Ментальные карты",
+        "correction": "Интеллект-карты",
+        "description": "The term 'Ментальные карты' is a literal translation of 'mind maps', but in Russian educational and professional contexts, 'интеллект-карты' is the more widely accepted and natural term. Using 'интеллект-карты' improves terminology consistency and aligns with local standards.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "Пример: На президентских выборах в США в 2000 году результат был определен всего 537 голосами в штате Флорида, подчеркивая важность участия каждого гражданина.",
+        "correction": "Пример: На президентских выборах в США в 2000 году результат был определён всего 537 голосами в штате Флорида, что подчёркивает важность участия каждого гражданина.",
+        "description": "The original sentence uses a culturally specific example (the 2000 US presidential election) that may not be immediately relevant or familiar to Russian learners. While the example is educational, it could be supplemented with a more locally relevant scenario for better engagement. Additionally, the participial phrase 'подчеркивая важность' is less natural in Russian in this context; using 'что подчёркивает важность' improves clarity and flow. The word 'определен' should use the correct accent: 'определён'.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Format",
+        "original": "Пример: На выборах 2020 года в США голосование по почте стало важным вариантом из-за пандемии COVID-19.",
+        "correction": "Пример: На выборах 2020 года в США голосование по почте стало важным вариантом из-за пандемии COVID-19.",
+        "description": "The sentence is linguistically correct, but the reference to 'пандемии COVID-19' and mail-in voting is highly US-centric. For Russian learners, it would be beneficial to mention whether similar practices exist in Russia or to provide a comparative note for better localization. The date format '2020 года' is appropriate for Russian.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Голосовые помощники, такие как Siri или Алиса, используют ИИ для общения с человеком.",
+        "correction": "Голосовые помощники, такие как Siri и Алиса, используют ИИ для общения с человеком.",
+        "description": "The use of 'или' (or) between Siri and Алиса is unnatural in Russian when listing examples; 'и' (and) is preferred for enumeration. Additionally, referencing both Siri and Алиса is culturally appropriate, as Алиса is a popular Russian voice assistant. The correction improves naturalness and aligns with Russian stylistic conventions.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Style",
+        "original": "Готовы погрузиться в будущее технологий? 🚀",
+        "correction": "Готовы погрузиться в будущее технологий? 🚀",
+        "description": "The use of the informal, engaging style and emoji is appropriate for educational content aimed at a general audience, but may be considered too informal for some Russian educational contexts, especially in formal or academic settings. If the lesson is intended for a younger or general audience, this style is acceptable; otherwise, consider a more neutral tone.",
+        "severity": "MINOR"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Cultural",
+        "original": "Празднование фестивалей, таких как Дивали и Холи.",
+        "correction": "Празднование праздников, таких как Дивали и Холи.",
+        "description": "The word 'фестиваль' is a direct loanword from English and is less natural in Russian when referring to traditional religious holidays. The culturally appropriate term is 'праздник', which better reflects the nature of these events in Russian-speaking contexts. This correction enhances cultural appropriateness and naturalness.",
+        "severity": "MEDIUM"
+      },
+      {
+        "category": "localization",
+        "subcategory": "Terminology",
+        "original": "Еврейской Библии",
+        "correction": "Танаха",
+        "description": "The term 'Еврейская Библия' is not standard in Russian religious studies; the accepted term is 'Танах', which is the traditional name for the Hebrew Bible in Russian. Using 'Танах' ensures terminological accuracy and consistency with local academic and religious discourse.",
+        "severity": "MEDIUM"
       }
     ]
   }

@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical Precision",
+      "original": "In Python, a variable named 'temperature' is expected to hold a number representing a measurement like degrees Celsius or Fahrenheit, not a string. Attempting to assign a string to 'temperature' would result in a TypeError since Python is trying to interpret 'Hello' as a numerical value.",
+      "correction": "In Python, a variable named 'temperature' can be assigned any data type, including a string, without causing an error. Python does not enforce variable types based on variable names, and assigning 'Hello' to 'temperature' will not result in a TypeError.",
+      "description": "The feedback incorrectly states that assigning a string to a variable named 'temperature' would result in a TypeError. In Python, variable names do not determine the expected data type, and assigning a string to any variable is valid unless the code later tries to use it in a context that requires a number. This misleads learners about Python's dynamic typing.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Conceptual Accuracy",
+      "original": "While Python is a dynamically typed language, and variables are not fixed to a single data type, changing a variable's data type at runtime can cause errors. Python variables are flexible, but they must be used appropriately according to their assigned data type.",
+      "correction": "While Python is a dynamically typed language and variables are not fixed to a single data type, changing a variable's data type at runtime does not inherently cause errors. Errors only occur if the variable is used in a way that is incompatible with its current data type.",
+      "description": "The feedback suggests that changing a variable's data type at runtime can cause errors, which is misleading. In Python, changing a variable's data type is allowed and does not cause errors unless the variable is used in an incompatible context. This could confuse learners about Python's dynamic typing.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Coding_Basics_1.slm.md",
+    "language": "English",
+    "timestamp": "2025-10-03T22:08:40.678009",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.5,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

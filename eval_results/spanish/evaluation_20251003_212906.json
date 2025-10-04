@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Estas estrategias, originadas en la antigua retórica griega, son la clave para persuadir a otros de manera efectiva.",
+      "correction": "Estas estrategias, que tienen su origen en la retórica griega antigua, son fundamentales para persuadir a otros de manera efectiva.",
+      "description": "The original sentence uses 'originadas en la antigua retórica griega', which is understandable but slightly unnatural in Spanish educational style. The correction improves naturalness and flow by rephrasing to 'que tienen su origen en la retórica griega antigua', which is more idiomatic and commonly used in academic Spanish. No linguistic errors are present, but the style can be enhanced for a more professional tone.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "¡Vamos a descubrir cómo funcionan y cómo puedes usarlas! 🌟",
+      "correction": "¡Vamos a descubrir cómo funcionan y cómo puedes utilizarlas!",
+      "description": "The use of the emoji '🌟' is not standard in formal educational Spanish content and may reduce perceived professionalism. Additionally, 'usarlas' is correct, but 'utilizarlas' is slightly more formal and appropriate for educational materials. The correction removes the emoji and uses a more formal verb for improved localization.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "En un discurso sobre derechos de los animales, podrías describir las condiciones en refugios para animales o utilizar un lenguaje conmovedor para inspirar compasión.",
+      "correction": "En un discurso sobre los derechos de los animales, podrías describir las condiciones en refugios de animales o utilizar un lenguaje emotivo para inspirar compasión.",
+      "description": "The phrase 'derechos de los animales' is missing the definite article 'los', which is standard in Spanish when referring to specific rights. 'Refugios para animales' is understandable, but 'refugios de animales' is the more common and natural collocation in Spanish. Additionally, 'lenguaje conmovedor' is correct, but 'lenguaje emotivo' is more frequently used in educational contexts to refer to emotional language. These changes improve terminology consistency and naturalness.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Describe cómo los uniformes fomentan la pertenencia y reducen el acoso escolar.",
+      "correction": "Explica cómo los uniformes fomentan el sentido de pertenencia y contribuyen a reducir el acoso escolar.",
+      "description": "The original sentence is clear, but 'fomentan la pertenencia' is less idiomatic than 'fomentan el sentido de pertenencia', which is the standard phrase in Spanish. Additionally, 'contribuyen a reducir el acoso escolar' is a more precise and formal way to express the idea, aligning better with educational style. No linguistic errors, but style and precision can be improved.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Persuasive_Writing.llm.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-03T21:29:06.562435",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 4,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.4,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

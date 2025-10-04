@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Integer",
+      "correction": "Liczba całkowita",
+      "description": "The term 'Integer' is used in the Polish content slide to describe a data type. While 'Integer' is a standard term in English programming, the natural and locally accepted Polish equivalent is 'liczba całkowita'. Using the English term may confuse beginners or seem unnatural in an educational context aimed at Polish learners. The correction ensures terminology is consistent and culturally appropriate for the target audience.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Float",
+      "correction": "Liczba zmiennoprzecinkowa",
+      "description": "The term 'Float' is used to describe decimal numbers. In Polish programming education, 'liczba zmiennoprzecinkowa' is the standard term. Using 'Float' without explanation may reduce clarity for learners unfamiliar with English technical vocabulary. The correction improves naturalness and educational value.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "String",
+      "correction": "Tekst",
+      "description": "The term 'String' is used to refer to text data. While 'String' is common in programming, the Polish equivalent 'tekst' is more accessible for beginners and aligns with local educational standards. The correction enhances clarity and consistency.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Boolean",
+      "correction": "Wartość logiczna",
+      "description": "The term 'Boolean' is used to describe logical values. In Polish, 'wartość logiczna' is the preferred term in educational contexts. Using 'Boolean' may be less clear for beginners and does not reflect local terminology standards. The correction ensures the content is culturally and educationally appropriate.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Kodowanie to język komputerów!",
+      "correction": "Kodowanie to język komputerów.",
+      "description": "The use of an exclamation mark in 'Kodowanie to język komputerów!' may be considered overly enthusiastic or informal in Polish educational materials, where a more neutral tone is preferred for introductory statements. Removing the exclamation mark aligns the style with standard Polish educational conventions.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Coding_Basics.llm.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T21:30:53.694525",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.1,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 0.9,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 5,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.9,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

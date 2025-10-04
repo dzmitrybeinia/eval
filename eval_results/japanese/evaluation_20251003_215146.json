@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "ダブルベース",
+      "correction": "コントラバス",
+      "description": "The term 'ダブルベース' is a direct loan from English 'double bass' and is not the standard or most natural term in Japanese for the instrument. The correct and widely accepted term in Japanese is 'コントラバス'. Using 'ダブルベース' may cause confusion or sound unnatural to native speakers, especially in educational contexts. This affects terminology consistency and professional language usage.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "トゥパック・シャクール",
+      "correction": "2パック",
+      "description": "The artist 'トゥパック・シャクール' is more commonly referred to as '2パック' in Japanese media and music culture. While the full name is technically correct, the localized nickname is standard and more natural for Japanese audiences, especially in the context of music genres and artist references. This improves cultural appropriateness and naturalness of expression.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Music_Genres.llm.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-03T21:51:46.199538",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

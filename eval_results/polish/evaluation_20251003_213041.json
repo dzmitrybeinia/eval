@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "W czasie rewolucji przemysłowej w Anglii ćmy pieprzowe zmieniły kolor z jasnego na ciemny, aby zlać się z pokrytymi sadzą drzewami.",
+      "correction": "W czasie rewolucji przemysłowej w Anglii ćmy zmieniły kolor z jasnego na ciemny, aby zlać się z pokrytymi sadzą drzewami.",
+      "description": "The term 'ćmy pieprzowe' is a literal translation of 'peppered moths', but in Polish scientific and educational contexts, the standard term is simply 'ćmy' or 'krępak brzozowy' (Biston betularia). Using 'ćmy pieprzowe' is a lexical error and may confuse learners, as it is not a recognized or natural term in Polish biology. The correction removes the nonstandard term to ensure clarity and accuracy.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Ptaki migrujące do cieplejszych klimatów zimą zapewniają sobie przetrwanie.",
+      "correction": "Ptaki migrujące zimą do cieplejszych krajów zwiększają swoje szanse na przetrwanie.",
+      "description": "The phrase 'cieplejszych klimatów' is less natural in Polish educational style; 'cieplejszych krajów' is the standard collocation when discussing bird migration. Additionally, 'zapewniają sobie przetrwanie' is somewhat awkward and less idiomatic than 'zwiększają swoje szanse na przetrwanie', which is more commonly used in Polish scientific and educational texts.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Białka przeciwzamrożeniowe u ryb arktycznych zapobiegające tworzeniu się kryształów lodu we krwi.",
+      "correction": "Białka przeciwzamrożeniowe u ryb arktycznych zapobiegają tworzeniu się kryształów lodu we krwi.",
+      "description": "The original sentence is a fragment lacking a main verb, resulting in a grammatical error. The correction provides a complete sentence with proper verb conjugation, ensuring grammatical accuracy and clarity.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Animal_Adaptations.llm.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T21:30:41.177232",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.5,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

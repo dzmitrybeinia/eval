@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Связь с стандартом NGSS (MS-ETS1-1): Понятия программирования, такие как переменные, типы данных и алгоритмы, помогают определять критерии и ограничения задачи.",
+      "correction": "Связь со стандартом NGSS (MS-ETS1-1): Понятия программирования, такие как переменные, типы данных и алгоритмы, помогают определять критерии и ограничения задачи.",
+      "description": "The phrase 'Связь с стандартом' uses the preposition 'с', which is unnatural in Russian when referring to standards. The correct preposition is 'со', resulting in 'Связь со стандартом'. This correction improves the naturalness and professional tone of the terminology, ensuring the content aligns with Russian educational conventions.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "рост = 5.5  # Float",
+      "correction": "рост = 5.5  # Float (например, в метрах)",
+      "description": "The example 'рост = 5.5' is ambiguous in Russian, as height is typically measured in centimeters or meters, and 5.5 meters is not a realistic human height. Adding a clarifying note '(например, в метрах)' makes the example culturally appropriate and avoids confusion for Russian learners.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "ученик = True  # Boolean",
+      "correction": "ученик = True  # Boolean (например, если человек является учеником)",
+      "description": "The Boolean example 'ученик = True' lacks context, which may confuse Russian learners. Adding a clarifying note '(например, если человек является учеником)' provides a culturally relevant explanation, making the example more natural and understandable.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "обеспечивают точность, классифицируя информацию (например, числа для измерений и булевы значения для логических условий).",
+      "correction": "обеспечивают точность, классифицируя информацию (например, числа для измерений и булевые значения для логических условий).",
+      "description": "The word 'булевы' is incorrect in this context; the correct adjective form is 'булевые значения'. This correction ensures proper grammatical agreement and lexical precision in Russian technical terminology.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Программирование — это мощный инструмент для логичного и творческого решения задач.",
+      "correction": "Программирование — это мощный инструмент для логического и творческого решения задач.",
+      "description": "The adjective 'логичного' is incorrectly used; the correct form is 'логического', which agrees with 'решения' in case and gender. This correction improves grammatical accuracy and clarity.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Coding_Basics.llm.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T21:38:46.366755",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.1,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 0.9,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.4,
+      "localization_penalty": 0.5,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

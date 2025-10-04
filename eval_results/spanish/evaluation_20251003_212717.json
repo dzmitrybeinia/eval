@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "🌟",
+      "correction": "",
+      "description": "The use of the star emoji at the end of the introductory paragraph is not standard in formal educational Spanish content. While emojis can be engaging for younger audiences, their inclusion in instructional material may reduce perceived professionalism and distract from the message. It is recommended to remove the emoji to maintain a consistent and appropriate tone for educational settings.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Ponerte en los zapatos de otra persona para entender sus sentimientos y punto de vista.",
+      "correction": "Ponerse en el lugar de otra persona para entender sus sentimientos y punto de vista.",
+      "description": "The phrase 'Ponerte en los zapatos de otra persona' is a literal translation of the English idiom 'put yourself in someone else's shoes.' While it is sometimes used informally in Spanish, the more natural and widely accepted expression in educational contexts is 'ponerse en el lugar de otra persona.' This correction improves both grammatical accuracy and naturalness of the text.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Compromiso: Cada persona cede algo para llegar a un punto medio.",
+      "correction": "Compromiso: Cada persona cede algo para llegar a un acuerdo.",
+      "description": "The phrase 'llegar a un punto medio' is understandable but less idiomatic in Spanish than 'llegar a un acuerdo,' which is the standard term for reaching a compromise. Using 'acuerdo' aligns with common educational terminology and enhances clarity for Spanish-speaking learners.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Conflict_Resolution.llm.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-03T21:27:17.937891",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "Физические адаптации часто видны и непосредственно связаны с средой обитания.",
+      "correction": "Физические адаптации часто видны и непосредственно связаны со средой обитания.",
+      "description": "The preposition 'с' requires the instrumental case, so 'с средой' should be 'со средой'. The use of 'со' before a word starting with 'с' and a consonant cluster is standard for euphony in Russian. This error affects sentence flow and grammatical correctness.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Горб верблюда хранит жир, позволяя ему выживать в пустыне без пищи на протяжении долгого времени.",
+      "correction": "Горб верблюда хранит жир, позволяя ему выживать в пустыне без пищи в течение долгого времени.",
+      "description": "The phrase 'на протяжении долгого времени' is less natural in this context; 'в течение долгого времени' is the standard collocation for expressing duration in Russian. This improves lexical precision and naturalness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Крысы кенгуру остаются под землей днем, чтобы избежать жары.",
+      "correction": "Крысы-кенгуру остаются под землей днем, чтобы избежать жары.",
+      "description": "The animal name 'крысы кенгуру' should be hyphenated as 'крысы-кенгуру' to match Russian zoological naming conventions. This enhances professional terminology consistency and aligns with local style standards.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Animal_Adaptations.llm.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T21:37:48.830998",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.5,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

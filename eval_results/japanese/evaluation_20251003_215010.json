@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "NGSSとの連携: HS-ETS1-1は、課題を分析し、解決策の定性的および定量的な基準と制約を特定することを強調しています。",
+      "correction": "NGSS（次世代科学基準）との連携: HS-ETS1-1は、課題を分析し、解決策の定性的および定量的な基準と制約を特定することを強調しています。",
+      "description": "The abbreviation 'NGSS' is used without explanation, which may be unclear to Japanese learners unfamiliar with US educational standards. For localization, it is important to provide the full term '次世代科学基準' (Next Generation Science Standards) in parentheses to ensure clarity and cultural appropriateness. The rest of the sentence is linguistically correct.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "🌟",
+      "correction": "",
+      "description": "The use of the emoji '🌟' in formal educational content may be considered inappropriate in Japanese academic writing. While not a linguistic error, it affects the orthographic and stylistic conventions expected in educational materials. It is recommended to remove the emoji for a more professional tone.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Critical_Thinking_1.llm.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-03T21:50:10.818587",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

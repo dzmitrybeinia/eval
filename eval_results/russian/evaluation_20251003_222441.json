@@ -1,0 +1,91 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "монструм",
+      "correction": "кристы",
+      "description": "The term 'монструм' is not a correct or recognized term in Russian cell biology. The correct term for the internal structures of mitochondria is 'кристы'. Using the incorrect term confuses learners and undermines scientific accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Правдословность заблуждена.",
+      "correction": "Это утверждение неверно.",
+      "description": "The phrase 'Правдословность заблуждена' is not standard Russian and is semantically incorrect. It is an unnatural and confusing construction. The correct way to express that the statement is false is 'Это утверждение неверно.' This correction improves clarity and naturalness.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Митохондрии содержат внутри кристали, которые являются сложными структурами, но не называются монструм.",
+      "correction": "Митохондрии содержат внутри кристы, которые являются сложными структурами, но не называются монструм.",
+      "description": "The word 'кристали' is incorrect; the proper plural form is 'кристы'. This is a grammatical error in noun declension and scientific terminology. The sentence also repeats the incorrect term 'монструм', which should be replaced as previously noted.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Хотя рибосомы также участвуют в деградации белков, основная роль рибосом - синтез белков.",
+      "correction": "Основная роль рибосом — синтез белков.",
+      "description": "The statement incorrectly claims that ribosomes participate in protein degradation. Ribosomes are responsible for protein synthesis, not degradation. The sentence should be corrected to focus solely on their main function to avoid scientific inaccuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Хлоропласты являются ключевым компонентом в растительных клетках, способствующими фотосинтезу.",
+      "correction": "Хлоропласты являются ключевым компонентом в растительных клетках, способствующим фотосинтезу.",
+      "description": "There is a grammatical error in the participle agreement. 'Способствующими' should agree with 'компонентом' (singular, instrumental), so the correct form is 'способствующим'. This error affects the grammatical correctness and clarity of the sentence.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Хлоропласты, или 'хлоропласты', являются особенно важными для растений, так как они содержат хлорофилл — пигмент, который играет центральную роль в фотосинтезе.",
+      "correction": "Хлоропласты являются особенно важными для растений, так как они содержат хлорофилл — пигмент, который играет центральную роль в фотосинтезе.",
+      "description": "The phrase 'или 'хлоропласты'' is redundant and unnatural in Russian. It does not add any useful information and disrupts the flow of the sentence. Removing it improves the style and naturalness of the explanation.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "митохондры",
+      "correction": "митохондрии",
+      "description": "The word 'митохондры' is incorrect; the correct term is 'митохондрии'. This is a lexical error that affects scientific accuracy and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "яйцеклетки",
+      "correction": "другие органеллы",
+      "description": "The mention of 'яйцеклетки' as an organelle is incorrect. 'Яйцеклетка' is an egg cell, not an organelle. The correct phrase should refer to 'другие органеллы' to maintain scientific accuracy.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Cell_Parts_1.slm.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T22:24:41.984547",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 7.8,
+    "classification": "ACCEPTABLE",
+    "total_issues": 8,
+    "total_penalty": 2.2,
+    "issue_breakdown": {
+      "linguistic": 7,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 2.1,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

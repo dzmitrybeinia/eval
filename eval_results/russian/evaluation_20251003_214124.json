@@ -1,0 +1,75 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Твердые тела имеют фиксированную форму и объем.",
+      "correction": "Твёрдые тела имеют фиксированную форму и объём.",
+      "description": "The word 'Твердые' and 'объем' are missing the required diacritical mark (ё). In Russian, 'твёрдый' and 'объём' should use 'ё' instead of 'е' to maintain correct spelling, especially in educational contexts where precision is important. This improves orthographic accuracy and prevents confusion with similarly spelled words.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Жидкости имеют фиксированный объем, но принимают форму своего контейнера.",
+      "correction": "Жидкости имеют фиксированный объём, но принимают форму своего контейнера.",
+      "description": "The word 'объем' should be spelled as 'объём' with 'ё' to comply with Russian orthographic standards. This is especially important in scientific and educational texts to avoid ambiguity and ensure correct pronunciation.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Газы не имеют фиксированной формы или объема и заполняют весь доступный объем контейнера.",
+      "correction": "Газы не имеют фиксированной формы или объёма и заполняют весь доступный объём контейнера.",
+      "description": "Both instances of 'объем' should be corrected to 'объём' to follow Russian spelling rules. Using 'ё' is necessary for clarity and correctness, particularly in educational materials.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Плазма не имеет фиксированной формы или объема и подвержена воздействию электрических и магнитных полей.",
+      "correction": "Плазма не имеет фиксированной формы или объёма и подвержена воздействию электрических и магнитных полей.",
+      "description": "The word 'объема' should use 'ё' instead of 'е' ('объёма') for correct spelling. This ensures orthographic accuracy and maintains the standard expected in scientific writing.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Низкая плотность (как у газа).",
+      "correction": "Низкая плотность (как у газа).",
+      "description": "No orthographic errors detected. The spelling and punctuation are correct.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Плазменные телевизоры, неоновые знаки, солнце — это примеры плазмы, демонстрирующие её уникальные свойства и высокую энергию.",
+      "correction": "Плазменные телевизоры, неоновые лампы, Солнце — это примеры плазмы, демонстрирующие её уникальные свойства и высокую энергию.",
+      "description": "The term 'неоновые знаки' is less commonly used in Russian scientific or educational contexts compared to 'неоновые лампы', which is the standard term for neon light sources. Additionally, 'солнце' should be capitalized as 'Солнце' when referring to the star, following Russian convention for astronomical objects. This improves both terminology consistency and style appropriateness for the target audience.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "States_of_Matter.llm.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T21:41:24.027376",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.2,
+    "classification": "NATIVE",
+    "total_issues": 6,
+    "total_penalty": 0.8,
+    "issue_breakdown": {
+      "linguistic": 5,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.6,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

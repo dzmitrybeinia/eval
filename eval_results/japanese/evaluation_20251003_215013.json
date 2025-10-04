@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "感謝祭はアメリカとカナダで祝われ、大きな食事が中心となります。通常、七面鳥、スタッフィング、クランベリーソース、パンプキンパイが含まれます。家族が集まり、恵みに感謝を示します。",
+      "correction": "感謝祭はアメリカとカナダで祝われ、大きな食事が中心となります。通常、七面鳥、詰め物、クランベリーソース、パンプキンパイが含まれます。家族が集まり、恵みに感謝を示します。",
+      "description": "The term 'スタッフィング' is an anglicism and may not be immediately understood by all Japanese readers. Using '詰め物' provides a more natural and culturally appropriate translation for the dish commonly served at Thanksgiving. The rest of the sentence is linguistically correct and culturally appropriate.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "感謝祭は1621年にピルグリムとネイティブアメリカンが成功した収穫の後に食事を共にしたことに由来します。アメリカでは1863年、エイブラハム・リンカーンの大統領時代に国民の祝日となりました。",
+      "correction": "感謝祭は1621年にピルグリムと先住民が成功した収穫の後に食事を共にしたことに由来します。アメリカでは1863年、エイブラハム・リンカーンの大統領時代に国民の祝日となりました。",
+      "description": "The term 'ネイティブアメリカン' is a direct loan from English and may not be the most natural or respectful term in Japanese educational contexts. '先住民' is more widely accepted and culturally sensitive when referring to Indigenous peoples in Japan. The rest of the sentence is linguistically correct.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Cultural_Celebrations.llm.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-03T21:50:13.800200",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.4,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Ela não está limitada a dias especiais, mas ocorre diariamente, através de várias ações como votar, participar de debates e defender causas, todos contribuindo para o processo democrático.",
+      "correction": "Ela não está limitada a dias especiais, mas ocorre diariamente, por meio de várias ações como votar, participar de debates e defender causas, todas contribuindo para o processo democrático.",
+      "description": "The sentence contains two issues: (1) The preposition 'através de' is misused; in Brazilian Portuguese, 'por meio de' is preferred when referring to means or methods, while 'através de' is reserved for physical passage. (2) The word 'todos' should agree in gender and number with 'ações', which is feminine plural, so 'todas' is correct. Both errors affect grammatical accuracy and naturalness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Embora muitos estados tenham adotado a votação por correio, especialmente para facilitar a participação dos eleitores, isso não é uma prática universal.",
+      "correction": "Embora muitos estados tenham adotado o voto por correspondência, especialmente para facilitar a participação dos eleitores, isso não é uma prática universal.",
+      "description": "The term 'votação por correio' is not the most natural or standard in Brazilian Portuguese for 'mail-in voting.' The preferred term is 'voto por correspondência,' which is more widely used and understood in the local context. This change improves terminology consistency and localization quality.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Voting_Process.slm.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T22:34:40.926216",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

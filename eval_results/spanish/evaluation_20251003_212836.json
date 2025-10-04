@@ -1,0 +1,107 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "¡Bienvenidos a una aventura para descubrir cómo los alimentos impactan nuestra salud y bienestar! 🌟 En esta lección, exploraremos los diferentes grupos de alimentos, los nutrientes esenciales y cómo hacer elecciones inteligentes para mantenernos fuertes y saludables.",
+      "correction": "¡Bienvenidos a una aventura para descubrir cómo los alimentos influyen en nuestra salud y bienestar! 🌟 En esta lección, exploraremos los diferentes grupos de alimentos, los nutrientes esenciales y cómo tomar decisiones inteligentes para mantenernos fuertes y saludables.",
+      "description": "The use of 'impactan' is somewhat literal and can sound unnatural in educational Spanish; 'influyen' is more idiomatic in this context. Additionally, 'hacer elecciones inteligentes' is a direct translation from English ('make smart choices') and is less natural than 'tomar decisiones inteligentes' in Spanish educational materials. These changes improve the naturalness and cultural appropriateness of the introduction.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Piensa en tu cuerpo como un automóvil: necesita el tipo adecuado de combustible para funcionar correctamente. Los alimentos saludables son ese combustible.",
+      "correction": "Piensa en tu cuerpo como un automóvil: necesita el tipo adecuado de combustible para funcionar correctamente. Los alimentos saludables son ese combustible.",
+      "description": "The automobile metaphor is culturally neutral and widely understood in Spanish-speaking contexts, but it may not resonate equally with all audiences, especially younger children or those in rural areas where cars are less central. Consider using a more universally relatable metaphor, such as comparing the body to a plant that needs water and sunlight, to enhance cultural inclusivity. However, the current metaphor is acceptable for general educational use.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Granos: Proveen energía mediante los carbohidratos.",
+      "correction": "Cereales: Proveen energía mediante los carbohidratos.",
+      "description": "The term 'granos' is a literal translation of 'grains' but in Spanish nutrition education, 'cereales' is the standard term for this food group. Using 'cereales' ensures consistency with local educational terminology and improves clarity for Spanish-speaking learners.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Alimentos proteicos: Ayudan a construir y reparar tejidos (carne, huevos, frijoles).",
+      "correction": "Proteínas: Ayudan a construir y reparar tejidos (carne, huevos, frijoles).",
+      "description": "The phrase 'alimentos proteicos' is less commonly used in Spanish nutrition education than 'proteínas' when referring to this food group. 'Proteínas' is the standard and more natural term, aligning with local educational materials and improving clarity.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Lácteos: Proveen calcio y otros nutrientes para huesos fuertes.",
+      "correction": "Lácteos: Aportan calcio y otros nutrientes para huesos fuertes.",
+      "description": "The verb 'proveen' is correct but 'aportan' is more commonly used in Spanish nutrition contexts when describing the contribution of food groups. This change enhances the naturalness and consistency of terminology.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Un plato equilibrado puede incluir pollo a la parrilla (proteína), arroz integral (granos), brócoli al vapor (verduras) y un vaso de leche (lácteos).",
+      "correction": "Un plato equilibrado puede incluir pollo a la parrilla (proteína), arroz integral (cereales), brócoli al vapor (verduras) y un vaso de leche (lácteos).",
+      "description": "The term 'granos' should be replaced with 'cereales' for consistency with standard Spanish nutrition terminology. This correction also aligns with previous recommendations for terminology.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Grasas: Proveen energía y ayudan a absorber vitaminas. Grasas saludables están en nueces, aguacates y pescado.",
+      "correction": "Grasas: Aportan energía y ayudan a absorber vitaminas. Las grasas saludables se encuentran en nueces, aguacates y pescado.",
+      "description": "The verb 'proveen' should be replaced with 'aportan' for naturalness. Additionally, 'Grasas saludables están en...' is a calque from English; 'Las grasas saludables se encuentran en...' is the standard and more natural phrasing in Spanish.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Imagina los nutrientes como herramientas que hacen funcionar tu cuerpo: los carbohidratos son las baterías, las proteínas son los constructores, las grasas son los aislantes, las vitaminas y minerales son las herramientas de reparación, y el agua es el lubricante que mantiene todo funcionando.",
+      "correction": "Imagina los nutrientes como herramientas que hacen funcionar tu cuerpo: los carbohidratos son las baterías, las proteínas son los constructores, las grasas son los aislantes, las vitaminas y minerales son las herramientas de reparación, y el agua es el lubricante que mantiene todo funcionando.",
+      "description": "The metaphor is clear and culturally appropriate for Spanish-speaking learners. No changes are required, but educators should be aware that some students may benefit from additional examples or visual aids to reinforce the metaphor.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Comer equilibradamente es como cuidar un jardín: cuando le das los nutrientes adecuados (agua, luz solar y tierra), las plantas crecen fuertes y saludables. De manera similar, tu cuerpo prospera cuando obtiene la mezcla correcta de alimentos.",
+      "correction": "Comer equilibradamente es como cuidar un jardín: cuando le das los nutrientes adecuados (agua, luz solar y tierra), las plantas crecen fuertes y saludables. De manera similar, tu cuerpo prospera cuando obtiene la mezcla correcta de alimentos.",
+      "description": "The garden metaphor is culturally appropriate and widely understood in Spanish-speaking contexts. No changes are needed.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "¡Recuerda: la alimentación saludable es un hábito de toda la vida que te empodera para vivir tu mejor vida!",
+      "correction": "¡Recuerda: la alimentación saludable es un hábito para toda la vida que te ayuda a vivir de la mejor manera!",
+      "description": "The phrase 'te empodera para vivir tu mejor vida' is a direct translation from English ('empowers you to live your best life') and may sound unnatural or overly motivational in Spanish educational contexts. 'Te ayuda a vivir de la mejor manera' is a more natural and culturally appropriate expression.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Healthy_Eating.llm.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-03T21:28:36.062624",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 8.4,
+    "classification": "PROFESSIONAL",
+    "total_issues": 10,
+    "total_penalty": 1.6,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 10,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 1.6,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

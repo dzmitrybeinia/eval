@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "サイバーブリング",
+      "correction": "サイバーブリング（ネットいじめ）",
+      "description": "The term 'サイバーブリング' is a direct katakana rendering of 'cyberbullying' and is not widely recognized or natural in Japanese educational contexts. The standard and culturally appropriate term is 'ネットいじめ'. For clarity in an educational setting, it is best to use 'ネットいじめ' or provide both terms together to ensure comprehension and naturalness.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "安全なインターネット利用の実践は、情報を保護し、安心してオンライン活動を行うために重要です。",
+      "correction": "安全なインターネット利用を実践することは、情報を保護し、安心してオンライン活動を行うために重要です。",
+      "description": "The phrase '安全なインターネット利用の実践は' is grammatically awkward and unnatural. The correct structure is to use the verb form '安全なインターネット利用を実践することは', which clearly expresses the act of practicing safe internet use as the subject. This improves both grammatical accuracy and naturalness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "「password123」のような簡単なものは避ける。",
+      "correction": "「password123」などの推測されやすいパスワードは避ける。",
+      "description": "The phrase '簡単なものは避ける' is vague and does not clearly convey the risk of using easily guessed passwords. In Japanese security education, it is more natural and effective to specify '推測されやすいパスワードは避ける', which directly addresses the risk and aligns with local educational style.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "有害なオンライン行動に参加したり、それを奨励したりしない。",
+      "correction": "有害なオンライン行動に参加したり、それを奨励したりしてはいけません。",
+      "description": "The original sentence uses the negative form 'しない' in a list, which is grammatically acceptable but less natural in educational instructions. The phrase 'してはいけません' is more appropriate for prohibitive instructions in Japanese, providing clearer guidance and a more formal tone.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "信頼できる大人やプラットフォームのモデレーターに報告する。",
+      "correction": "信頼できる大人や学校の先生、またはプラットフォームのモデレーターに報告する。",
+      "description": "In Japanese educational contexts, it is more culturally appropriate to explicitly mention '学校の先生' as a trusted adult, since students are often encouraged to consult teachers. Adding this reference increases relatability and aligns with local norms for reporting online issues.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Online_Safety.llm.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-03T21:51:53.509008",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.2,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 0.8,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.5,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Proste maszyny mogą zwiększyć siłę, zmniejszyć wysiłek, a także zmienić kierunek siły. Dziś zbadaj różne zastosowania prostych maszyn, aby zobaczyć, jak one są niezbędne w codziennym życiu.",
+      "correction": "Proste maszyny mogą zwiększać siłę, zmniejszać wysiłek, a także zmieniać kierunek siły. Dziś zbadaj różne zastosowania prostych maszyn, aby zobaczyć, jak są one niezbędne w codziennym życiu.",
+      "description": "The verbs 'zwiększyć', 'zmniejszyć', and 'zmienić' should be in the imperfective aspect ('zwiększać', 'zmniejszać', 'zmieniać') to match the general, habitual nature of the statement. Additionally, the phrase 'jak one są niezbędne' is unnatural; the correct word order is 'jak są one niezbędne'.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Bloczek głównie jest używany do rzucania ciężkości na dużą odległość. Jeśli chodzi o pracę poziomości, wymaga innej technologii, jak zbiornik naciągany w górę.",
+      "correction": "Bloczek głównie jest używany do podnoszenia ciężarów na dużą wysokość. Jeśli chodzi o pracę poziomą, wymaga innej technologii, na przykład wciągarki.",
+      "description": "The word 'rzucania ciężkości' is incorrect; the proper term is 'podnoszenia ciężarów'. 'Praca poziomości' is not a standard phrase; 'praca pozioma' is correct. 'Zbiornik naciągany w górę' is unclear and unnatural; 'wciągarka' is the appropriate term for horizontal work.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Rower wykorzystuje mechanikę koła z osią, aby pozwolić na płynniejsze i efektywniejsze poruszanie się. To rozszerzenie pozwala na łatwiejsze przemieszczanie się, co jest zgodne z zasadami mechaniki prostych maszyn.",
+      "correction": "Rower wykorzystuje mechanikę koła z osią, aby umożliwić płynniejsze i efektywniejsze poruszanie się. To rozwiązanie pozwala na łatwiejsze przemieszczanie się, co jest zgodne z zasadami mechaniki prostych maszyn.",
+      "description": "The phrase 'aby pozwolić na' is less natural than 'aby umożliwić'. 'To rozszerzenie' is a mistranslation; 'to rozwiązanie' is the correct term in this context.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "Płaszczyzna pochyła zmniejsza fizyczne przeszkody, wzmacniając siłę, aby obieć pozycję. W rzeczywistości zmniejsza wysiłek potrzebny do poruszania przedmiotów w górę, co oznacza, że obiekt nie zwiększa swojej wagi. To koncepucja, która zgodnie z zasadami mechaniki, pomaga obiektom się poruszać z łatwiejszym wysiłkiem.",
+      "correction": "Płaszczyzna pochyła zmniejsza fizyczne przeszkody, wzmacniając siłę, aby objąć pozycję. W rzeczywistości zmniejsza wysiłek potrzebny do poruszania przedmiotów w górę, co oznacza, że obiekt nie zwiększa swojej wagi. To koncepcja, która zgodnie z zasadami mechaniki, pomaga obiektom się poruszać z łatwiejszym wysiłkiem.",
+      "description": "There are spelling errors: 'obieć' should be 'objąć', and 'koncepucja' should be 'koncepcja'. These errors affect comprehension and professionalism.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Klin zazwyczni jest używany przyciągając go z naczynie, a nie w stanie spoczynku. Ta metoda zwiększa efektywność działania, ponieważ w pozycji przyciągniętej klin ma większą stabilność i kontrolę, co pozwala na lepsze wykorzystanie siły przyłożonej do jego tęcza.",
+      "correction": "Klin zazwyczaj jest używany poprzez wbijanie go w przedmiot, a nie w stanie spoczynku. Ta metoda zwiększa efektywność działania, ponieważ wbity klin ma większą stabilność i kontrolę, co pozwala na lepsze wykorzystanie siły przyłożonej do jego krawędzi.",
+      "description": "There are multiple errors: 'zazwyczni' should be 'zazwyczaj' (spelling), 'przyciągając go z naczynie' is grammatically incorrect and unclear; 'poprzez wbijanie go w przedmiot' is correct. 'Przyciągniętej' is not appropriate; 'wbity' is correct. 'Tęcza' is a mistranslation; 'krawędzi' is the correct term for a wedge.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "Śruba przekształca siłę obrotową w ruch liniowy, ale nie eliminuje energii. Wiewiele energii jest wygaszane jako produktem działań mechanicznych, co jest częścią zasady zachowania energii.",
+      "correction": "Śruba przekształca siłę obrotową w ruch liniowy, ale nie eliminuje energii. Wiele energii jest tracone jako skutek działań mechanicznych, co jest częścią zasady zachowania energii.",
+      "description": "There is a spelling error: 'Wiewiele' should be 'Wiele'. 'Wygaszane jako produktem' is unnatural; 'tracone jako skutek' is the correct phrase.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Proste maszyny przekształcają ruch wewnętrzny energii w ruch zewnętrzny energii, nie zawsze. W niektórych przypadkach ruch wewnętrzny może pozostać wewnętrznym, np. w dobrze zapasowaniu energii w momencie parowania. Zrozumienie różnych typów prostych maszyn umożliwia lepsze zrozumienie ich zastosowań w codziennym życiu.",
+      "correction": "Proste maszyny nie zawsze przekształcają ruch wewnętrzny energii w ruch zewnętrzny energii. W niektórych przypadkach ruch wewnętrzny może pozostać wewnętrzny, np. przy odpowiednim magazynowaniu energii. Zrozumienie różnych typów prostych maszyn umożliwia lepsze zrozumienie ich zastosowań w codziennym życiu.",
+      "description": "The sentence structure is incorrect; 'nie zawsze' should precede the verb for proper negation. 'Dobrze zapasowaniu energii w momencie parowania' is unclear and unnatural; 'odpowiednim magazynowaniu energii' is the correct phrase.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Simple_Machines_1.slm.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T22:18:22.389305",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 8.2,
+    "classification": "PROFESSIONAL",
+    "total_issues": 7,
+    "total_penalty": 1.8,
+    "issue_breakdown": {
+      "linguistic": 7,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.8,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

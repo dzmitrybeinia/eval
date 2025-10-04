@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Die Schub von Raketen kann durch die Verwendung von Elektrizität anstelle von Treibstoff erhöht werden.",
+      "correction": "Der Schub von Raketen kann durch die Verwendung von Elektrizität anstelle von Treibstoff erhöht werden.",
+      "description": "The original sentence incorrectly uses 'Die Schub', which is a gender and case error. 'Schub' is a masculine noun in German and requires the masculine article 'Der'. This error affects grammatical correctness and could confuse learners about noun gender and article usage.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Das erste Newtons Gesetz, auch als Trägheitsgesetz, besagt, dass ein sich bewegender Gegenstand in Bewegung bleibt, es sei denn, er wird durch äußere Kräfte beeinflusst.",
+      "correction": "Das erste Newtonsche Gesetz, auch als Trägheitsgesetz, besagt, dass ein sich bewegender Gegenstand in Bewegung bleibt, es sei denn, er wird durch äußere Kräfte beeinflusst.",
+      "description": "The phrase 'Das erste Newtons Gesetz' is grammatically incorrect. In German, the correct form is 'Das erste Newtonsche Gesetz' to indicate the law attributed to Newton. This error affects the technical terminology and grammatical structure, potentially leading to misunderstanding of scientific terms.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "wie die NASA-Space Shuttle",
+      "correction": "wie das Space Shuttle der NASA",
+      "description": "The phrase 'wie die NASA-Space Shuttle' is unnatural in German and does not follow standard terminology or word order. The correct and commonly accepted form is 'das Space Shuttle der NASA'. This improves clarity and aligns with local usage of technical terms.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Space_Travel.slm.md",
+    "language": "German",
+    "timestamp": "2025-10-03T22:31:20.573774",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.3,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.7,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.5,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Эмпатия — это способность оценивать чувства и эмоции других людей, что помогает в социальных взаимодействиях и укреплении отношений.",
+      "correction": "Эмпатия — это способность понимать чувства и эмоции других людей, что помогает в социальных взаимодействиях и укреплении отношений.",
+      "description": "The word 'оценивать' (to evaluate) is not the most accurate lexical choice in this context. The standard definition of empathy in Russian is the ability to 'понимать' (to understand) the feelings and emotions of others, not to evaluate them. Using 'понимать' ensures semantic precision and aligns with both psychological terminology and natural Russian usage.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Friendship_Skills.slm.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T22:26:08.967142",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.8,
+    "classification": "NATIVE",
+    "total_issues": 1,
+    "total_penalty": 0.2,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

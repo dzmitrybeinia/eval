@@ -1,0 +1,75 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "En Python, vous devez toujours déclarer le type de données d'une variable.",
+      "correction": "En Python, vous n'avez pas besoin de déclarer le type de données d'une variable.",
+      "description": "The original statement is misleading in French because 'déclarer le type de données' suggests an obligatory action, which is not the case in Python. The correction clarifies that it is not necessary to declare the data type, aligning with Python's dynamic typing. No grammatical errors are present, but the lexical choice affects comprehension.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "La variable x peut stocker une valeur décimale.",
+      "correction": "La variable x peut contenir une valeur décimale.",
+      "description": "The verb 'stocker' is not the most natural choice in French for variables; 'contenir' is more idiomatic in programming contexts. This improves lexical precision and naturalness. No grammatical errors are present.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "En Python, les entiers (`int`) sont utilisés pour stocker des nombres entiers, pas des nombres décimaux. Les nombres décimaux sont représentés par des flottants (`float`). La variable x a été déclarée avec une valeur entière (10), ce qui est correct pour un entier, mais si vous voulez stocker un nombre décimal, vous devriez utiliser `float`.",
+      "correction": "En Python, les entiers (`int`) sont utilisés pour contenir des nombres entiers, pas des nombres décimaux. Les nombres décimaux sont représentés par des flottants (`float`). La variable x a été initialisée avec une valeur entière (10), ce qui est correct pour un entier, mais si vous voulez contenir un nombre décimal, vous devriez utiliser `float`.",
+      "description": "The use of 'stocker' is less natural than 'contenir' in this context. Additionally, 'déclarée' is not the most accurate term in Python, where 'initialisée' is preferred for assigning a value. These lexical choices improve clarity and align with standard programming terminology in French.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Cette déclaration est exacte. Dans Python, la fonction 'input' est effectivement utilisée pour interagir avec l'utilisateur en demandant des données. Lorsque le programme s'exécute, il est arrêté pendant que l'utilisateur fournit les informations requises, ce qui permet d'ajouter une fonctionnalité interactive à votre programme.",
+      "correction": "Cette affirmation est correcte. En Python, la fonction 'input' est utilisée pour interagir avec l'utilisateur en demandant des données. Lorsque le programme s'exécute, il attend que l'utilisateur fournisse les informations requises, ce qui permet d'ajouter une fonctionnalité interactive à votre programme.",
+      "description": "The term 'déclaration' is less appropriate than 'affirmation' in this educational context. The phrase 'le programme est arrêté' may be misinterpreted; 'le programme attend' is more accurate and natural for describing input behavior in French programming pedagogy. These changes improve terminology consistency and naturalness.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Dans Python, la fonction `float()` est spécifiquement conçue pour convertir des chaînes ou des nombres d'autres types en nombres à virgule flottante, ce qui est essentiel pour effectuer des calculs avec précision.",
+      "correction": "En Python, la fonction `float()` est spécifiquement conçue pour convertir des chaînes ou des nombres d'autres types en nombres à virgule flottante, ce qui est essentiel pour effectuer des calculs avec précision.",
+      "description": "The phrase 'Dans Python' should be 'En Python' for correct prepositional usage in French when referring to programming languages. No other linguistic or localization issues are present.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "En Python, les variables sont polyvalentes et peuvent stocker différents types de données, comme des entiers, des flottants, des chaînes de caractères et des booléens, pas seulement des données numériques.",
+      "correction": "En Python, les variables sont polyvalentes et peuvent contenir différents types de données, comme des entiers, des flottants, des chaînes de caractères et des booléens, pas seulement des données numériques.",
+      "description": "The verb 'stocker' is less idiomatic than 'contenir' for describing what variables do in French programming contexts. This correction improves lexical precision and naturalness.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Computer_Programming.slm.md",
+    "language": "French",
+    "timestamp": "2025-10-03T22:21:25.088476",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.2,
+    "classification": "NATIVE",
+    "total_issues": 6,
+    "total_penalty": 0.8,
+    "issue_breakdown": {
+      "linguistic": 5,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.7,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

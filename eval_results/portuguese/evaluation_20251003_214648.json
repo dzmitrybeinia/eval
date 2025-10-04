@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "Construção de um protótipo de carro movido a energia solar para testar sua eficiência energética.",
+      "correction": "Construção de um protótipo de carro movido à energia solar para testar sua eficiência energética.",
+      "description": "The sentence is missing the mandatory crase ('à') in 'movido à energia solar', as the verb 'movido' requires the preposition 'a' followed by the feminine noun 'energia', resulting in the contraction 'à'. This is a common orthographic error in Portuguese and affects grammatical correctness.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Redesenhar a estrutura de uma ponte após testes revelarem fraquezas em sua capacidade de suporte.",
+      "correction": "Redesenhar a estrutura de uma ponte após os testes revelarem fraquezas em sua capacidade de suporte.",
+      "description": "The sentence omits the definite article 'os' before 'testes', which is required for grammatical correctness in this context. In Portuguese, when referring to specific tests previously mentioned, the definite article should be used. This omission affects the clarity and grammatical accuracy of the sentence.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Testar a durabilidade de um smartphone simulando quedas e impactos.",
+      "correction": "Testar a durabilidade de um celular simulando quedas e impactos.",
+      "description": "The term 'smartphone' is an anglicism and, while increasingly common, 'celular' is the standard and more widely accepted term in Brazilian Portuguese for mobile phones. Using 'celular' ensures better localization and naturalness for the target audience.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Design_Process.llm.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T21:46:48.173401",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.5,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

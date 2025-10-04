@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Pomoc koledze, który ma trudności z zadaniem.",
+      "correction": "Pomoc koledze, który ma trudności z zadaniem.",
+      "description": "The phrase is grammatically correct, but the noun 'koledze' is masculine and may not be inclusive of all genders. For educational content, consider using a gender-neutral term such as 'osobie' (person) to avoid unintended exclusion. No grammatical error is present, but inclusivity is recommended.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Uśmiech i ciepłe pozdrowienie.",
+      "correction": "Uśmiech i serdeczne pozdrowienie.",
+      "description": "The word 'ciepłe' (warm) is understandable, but 'serdeczne pozdrowienie' is a more natural and commonly used collocation in Polish for expressing warmth in greetings. This change improves the naturalness and localization quality of the phrase.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Pisanie notatki z podziękowaniem dla nauczyciela lub przyjaciela to znaczący akt życzliwości.",
+      "correction": "Pisanie notatki z podziękowaniem dla nauczyciela lub kolegi to znaczący akt życzliwości.",
+      "description": "The use of 'przyjaciel' (friend) may imply a close relationship, which is less typical in Polish school context for expressing gratitude. 'Kolega' (peer/classmate) is more culturally appropriate in educational settings. This adjustment aligns the example with Polish school norms.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Kindness_Matters.llm.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T21:32:26.772320",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

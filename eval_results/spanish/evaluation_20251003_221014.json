@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "La declaración es incorrecta porque el álgebra no se usa para ajustar fracciones de ingredientes. En la cocina, las medidas suelen ser de tamaño entero, y el álgebra podría ser útil para planificar cantidades de ingredientes para un número diferente de servicios, no para ajustar fracciones exactas de una receta.",
+      "correction": "La declaración es incorrecta porque el álgebra puede utilizarse para ajustar cantidades de ingredientes, incluyendo fracciones, en una receta. En la cocina, es común modificar las proporciones de los ingredientes usando operaciones matemáticas, y el álgebra facilita estos cálculos para cualquier cantidad, entera o fraccionaria.",
+      "description": "The feedback incorrectly states that algebra is not used to adjust fractional ingredient amounts in cooking, which is misleading. In many Spanish-speaking cultures, as in others, algebraic reasoning is commonly applied to scale recipes, including fractional quantities. The correction clarifies that algebra is indeed useful for adjusting both whole and fractional ingredient amounts, making the explanation more accurate and culturally appropriate.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "En el ámbito de las ecuaciones matemáticas, las constantes representan valores que permanecen invariables y no varían en el curso de la solución. Por ejemplo, la tasa de impuesto de ventas, como se mencionó anteriormente, se mantiene constante y no fluctúa con el tiempo.",
+      "correction": "En el ámbito de las ecuaciones matemáticas, las constantes representan valores que permanecen invariables y no varían durante la solución. Por ejemplo, la tasa de impuesto sobre las ventas, como se mencionó anteriormente, se mantiene constante y no fluctúa con el tiempo.",
+      "description": "The phrase 'en el curso de la solución' is less natural in Spanish; 'durante la solución' is more idiomatic. Additionally, 'tasa de impuesto de ventas' should be 'tasa de impuesto sobre las ventas' for correct terminology and preposition use. This correction improves both grammatical accuracy and lexical precision.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Basic_Algebra.slm.md",
+    "language": "Spanish",
+    "timestamp": "2025-10-03T22:10:14.863514",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Erdnussbutter auf eine Scheibe streichen.",
+      "correction": "Butter auf eine Scheibe streichen.",
+      "description": "The use of 'Erdnussbutter' (peanut butter) in the example for making a sandwich is not culturally typical in German-speaking countries, where 'Butterbrot' traditionally refers to bread with regular butter. This may cause confusion or reduce relatability for learners. Replacing 'Erdnussbutter' with 'Butter' aligns the example with local expectations and improves cultural appropriateness.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Ein Butterbrot machen.",
+      "correction": "Ein Butterbrot zubereiten.",
+      "description": "The verb 'machen' is less precise in this context. 'Zubereiten' is the more appropriate verb for preparing food in German, especially in educational or instructional contexts. This correction improves lexical precision and naturalness.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Mit dem Verständnis dieser Grundlagen habt ihr den ersten Schritt zum Programmieren gemacht!",
+      "correction": "Mit dem Verständnis dieser Grundlagen habt ihr den ersten Schritt zum Programmieren getan!",
+      "description": "The phrase 'den ersten Schritt zum Programmieren gemacht' is understandable but less idiomatic in German. The more natural expression is 'den ersten Schritt zum Programmieren getan.' This adjustment enhances the style and idiomaticity of the closing statement.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Coding_Basics_1.llm.md",
+    "language": "German",
+    "timestamp": "2025-10-03T21:42:53.184803",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

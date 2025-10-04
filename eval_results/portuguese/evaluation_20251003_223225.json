@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "No entanto, a produção de energia, ou ATP, é uma função principalmente realizada pelos mitocôndrias, não pelo núcleo.",
+      "correction": "No entanto, a produção de energia, ou ATP, é uma função principalmente realizada pelas mitocôndrias, não pelo núcleo.",
+      "description": "The original sentence contains a gender agreement error: 'pelos mitocôndrias' should be 'pelas mitocôndrias' because 'mitocôndrias' is feminine plural. This affects grammatical correctness and clarity.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "A membrana celular é bastante selectiva na sua permissividade.",
+      "correction": "A membrana celular é bastante seletiva na sua permissividade.",
+      "description": "The word 'selectiva' uses European Portuguese spelling. In Brazilian Portuguese, the correct spelling is 'seletiva'. This is a spelling and localization issue, as the content should follow Brazilian Portuguese standards.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "O retículo endoplasmático liso, sem ribossomos, é especializado na elaboração de proteínas que a célula vai liberar para fora.",
+      "correction": "O retículo endoplasmático liso, sem ribossomos, é especializado na elaboração de lipídios e na desintoxicação celular, enquanto a síntese de proteínas destinadas à secreção é função do retículo endoplasmático rugoso.",
+      "description": "The original sentence contains a factual inaccuracy regarding cell biology terminology. The smooth endoplasmic reticulum (retículo endoplasmático liso) is not responsible for synthesizing proteins for secretion; this is the function of the rough endoplasmic reticulum. The smooth ER is involved in lipid synthesis and detoxification. This is a lexical and scientific accuracy issue.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Cell_Parts.slm.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T22:32:25.955663",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.2,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.8,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.8,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

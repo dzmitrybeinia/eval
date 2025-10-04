@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Orthography",
+      "original": "11.2km/s",
+      "correction": "11.2km／s",
+      "description": "The use of the slash in '11.2km/s' should follow Japanese typographic conventions, which prefer the full-width slash '／' instead of the half-width '/'. This improves readability and maintains consistency with Japanese formatting standards for units.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "🚀✨",
+      "correction": "",
+      "description": "The use of emoji '🚀✨' in educational Japanese content may be considered informal and less appropriate for academic or professional contexts. While emojis can add visual interest, their inclusion should be carefully considered based on the target audience and educational setting. For formal lessons, it is recommended to omit emojis to maintain a professional tone.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Space_Travel.llm.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-03T21:52:20.809670",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.8,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.2,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

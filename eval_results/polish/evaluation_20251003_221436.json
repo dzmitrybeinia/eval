@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "najlepsze wybór jest wybrane",
+      "correction": "najlepszy wybór jest wybrany",
+      "description": "This phrase contains two grammatical errors: 'najlepsze wybór' shows incorrect gender agreement, as 'wybór' is masculine and should be paired with 'najlepszy'; 'jest wybrane' uses the neuter passive form, but 'wybór' is masculine and requires 'jest wybrany'. Both errors affect clarity and correctness.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Syntax",
+      "original": "To jak przemyślenie się nad każdą możliwością, jakbyśmy rozważali, czy przystępnie, czy nie, zamiast pośpiesznie przyjąć pierwszą, która się przyda.",
+      "correction": "To jak przemyślenie każdej możliwości, jakbyśmy rozważali, czy jest odpowiednia, czy nie, zamiast pośpiesznie przyjąć pierwszą, która się pojawi.",
+      "description": "This sentence has awkward syntax and semantic inaccuracies. 'Przemyślenie się' is incorrect; the reflexive form is not used with 'przemyślenie'. The phrase 'czy przystępnie, czy nie' is unnatural and unclear; 'czy jest odpowiednia, czy nie' is more precise. 'Pierwszą, która się przyda' is semantically off; 'która się pojawi' better fits the context of considering options. These issues affect both clarity and naturalness.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Decision_Making.slm.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T22:14:36.430148",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.5,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

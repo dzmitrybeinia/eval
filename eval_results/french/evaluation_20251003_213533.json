@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Dans cette leçon, nous allons découvrir comment les fractions sont structurées, comment les comparer et comment les additionner ou les soustraire lorsqu'elles ont le même dénominateur. 📏🍕",
+      "correction": "Dans cette leçon, nous allons découvrir comment les fractions sont structurées, comment les comparer et comment les additionner ou les soustraire lorsqu'elles ont le même dénominateur.",
+      "description": "The use of emojis (📏🍕) in educational content may be considered informal and potentially distracting in French academic contexts, especially for older students or in formal learning materials. Removing emojis ensures a more professional and culturally appropriate tone.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Les fractions sont une manière de représenter des parties d'un tout.",
+      "correction": "Les fractions sont un moyen de représenter des parties d'un tout.",
+      "description": "The word 'manière' is less precise than 'moyen' in this mathematical context. 'Moyen' is the standard term used in French educational materials to describe a method or way of representing something, especially in mathematics.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Additionnez les numérateurs.",
+      "correction": "Additionnez les numérateurs.",
+      "description": "No linguistic errors found. The imperative form is correctly used and matches the instructional context.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Soustrayez les numérateurs.",
+      "correction": "Soustrayez les numérateurs.",
+      "description": "No linguistic errors found. The imperative form is correctly used and matches the instructional context.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Comprendre les fractions est une compétence essentielle qui vous aidera dans les mathématiques et dans des situations de la vie quotidienne, comme partager de la nourriture, mesurer des ingrédients ou diviser des objets équitablement.",
+      "correction": "Comprendre les fractions est une compétence essentielle qui vous aidera dans les mathématiques et dans des situations de la vie quotidienne, comme partager un repas, mesurer des ingrédients ou diviser des objets équitablement.",
+      "description": "The phrase 'partager de la nourriture' is less idiomatic in French than 'partager un repas', which is more culturally natural and commonly used in educational contexts when referring to sharing food.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Fractions_Basics.llm.md",
+    "language": "French",
+    "timestamp": "2025-10-03T21:35:33.978751",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 5,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 3,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

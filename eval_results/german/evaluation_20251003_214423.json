@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "1234567890 wird zu 123-456-7890.",
+      "correction": "1234567890 wird zu 123 456 7890.",
+      "description": "The phone number formatting '123-456-7890' uses the US/English convention with hyphens, which is not standard in German. In German, phone numbers are typically grouped with spaces or sometimes slashes, not hyphens. This is a localization issue affecting cultural appropriateness and clarity for German learners.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Mit „HOMES“ die Großen Seen (Huron, Ontario, Michigan, Erie, Superior) merken.",
+      "correction": "Mit einem Akronym wie „HOMES“ die Großen Seen (Huron, Ontario, Michigan, Erie, Superior) merken.",
+      "description": "The example 'HOMES' for the Great Lakes is a US-centric mnemonic and may not be familiar or relevant to German learners. While the explanation is linguistically correct, the cultural reference could be replaced with a more locally relevant mnemonic or an additional explanation for context. This affects the cultural appropriateness of the educational content.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Memory_Techniques.llm.md",
+    "language": "German",
+    "timestamp": "2025-10-03T21:44:23.779296",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.4,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

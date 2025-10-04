@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "投票は民主主義において市民が持つ最も重要な責任の一つです。",
+      "correction": "投票は民主主義において市民が担う最も重要な責任の一つです。",
+      "description": "The verb '持つ' (to have/hold) is less natural in this context for describing responsibility in Japanese. '担う' (to bear/shoulder) is the standard and culturally appropriate verb for expressing the concept of 'bearing responsibility' in civic or social contexts. This correction improves the naturalness and professionalism of the expression.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "投票は市民が民主主義に参加し、声を上げる方法です。",
+      "correction": "投票は市民が民主主義に参加し、声を上げるための方法です。",
+      "description": "The original sentence lacks the necessary grammatical connector 'ための' to clarify that voting is a means for citizens to participate in democracy and raise their voices. Without 'ための', the sentence is less precise and may cause ambiguity regarding the function of voting.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "これらの活動は活気のある民主主義を築くことに貢献します。",
+      "correction": "これらの活動は活発な民主主義の構築に貢献します。",
+      "description": "The phrase '活気のある民主主義' is a literal translation of 'vibrant democracy' but is not a standard collocation in Japanese. '活発な民主主義' and '構築' are more natural and commonly used in Japanese civic discourse, improving the localization quality and professional tone.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "投票は権利であるだけでなく、民主主義を強化し、市民が違いを生む責任でもあります。",
+      "correction": "投票は権利であるだけでなく、民主主義を強化し、市民が社会に変化をもたらす責任でもあります。",
+      "description": "The phrase '違いを生む' is a direct translation of 'make a difference' but is not idiomatic in Japanese. '社会に変化をもたらす' is a more natural and culturally appropriate way to express the idea of citizens making an impact through voting.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Voting_Process.llm.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-03T21:52:38.088536",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.3,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.7,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.1,
+      "localization_penalty": 0.6,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "В микросвязи с химии, элементы определяются благодаря уникальной структуре атомов, состоящие из одного типа протонов.",
+      "correction": "С точки зрения химии, элементы определяются благодаря уникальной структуре атомов, содержащих один тип протонов.",
+      "description": "The phrase 'В микросвязи с химии' is a lexical error; it is not a standard or meaningful expression in Russian and should be replaced with a more natural phrase such as 'С точки зрения химии'. Additionally, 'состоящие из одного типа протонов' is grammatically incorrect because 'состоящие' does not agree with 'атомов' in this context. The correct phrase is 'содержащих один тип протонов', which clarifies that atoms contain one type of protons.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Хеотические металлы, такие как натрий и калий, известны своей реактивностью с кислотами, но утверждение, что они всегда легко реагируют, не совсем верно.",
+      "correction": "Щелочные металлы, такие как натрий и калий, известны своей реактивностью с кислотами, но утверждение, что они всегда легко реагируют, не совсем верно.",
+      "description": "The word 'Хеотические' is a spelling and lexical error; the correct term is 'Щелочные' (alkali metals). This mistake significantly affects comprehension and scientific accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "например, натрий реагирует с водой при экстреличном тепле, образуя водород и хлорид натрия.",
+      "correction": "например, натрий реагирует с водой при высокой температуре, образуя водород и гидроксид натрия.",
+      "description": "The phrase 'экстреличном тепле' is not a valid Russian expression and should be replaced with 'высокой температуре' for clarity. Additionally, the reaction of sodium with water produces hydrogen and sodium hydroxide ('гидроксид натрия'), not sodium chloride ('хлорид натрия'). This is a scientific inaccuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Атомный размер, или радиус атома, действительно уменьшается справа налево по периоду.",
+      "correction": "Атомный размер, или радиус атома, действительно уменьшается слева направо по периоду.",
+      "description": "The phrase 'уменьшается справа налево по периоду' is incorrect; atomic radius decreases from left to right across a period, not right to left. This is a factual and lexical error.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Элементы в группе 18, известных как переходные галогены, имеют химические свойства, близкие как к группе 17 (щелочные галогены) и группе 18 (благородные газы), что делает это правило немного исключительным.",
+      "correction": "Элементы в группе 18, известных как благородные газы, имеют химические свойства, отличные от галогенов и щелочных металлов, что делает это правило исключением.",
+      "description": "The term 'переходные галогены' is incorrect for group 18 elements; group 18 consists of noble gases ('благородные газы'), not halogens. The reference to 'щелочные галогены' is also incorrect, as group 17 contains halogens and group 1 contains alkali metals. This affects scientific accuracy and terminology consistency.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Periodic_Table.slm.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T22:26:58.968464",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 8.5,
+    "classification": "PROFESSIONAL",
+    "total_issues": 5,
+    "total_penalty": 1.5,
+    "issue_breakdown": {
+      "linguistic": 4,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.2,
+      "localization_penalty": 0.3,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

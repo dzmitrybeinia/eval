@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "Bienvenue dans le monde fascinant de la géométrie ! Aujourd'hui, nous allons découvrir les bases : les points, les lignes, les angles et les formes. Tout ce que vous voyez autour de vous, des bâtiments aux dessins, est lié à ces concepts fondamentaux. 🎨📐",
+      "correction": "Bienvenue dans le monde fascinant de la géométrie ! Aujourd'hui, nous allons découvrir les bases : les points, les lignes, les angles et les formes. Tout ce que vous voyez autour de vous, des bâtiments aux dessins, est lié à ces concepts fondamentaux.",
+      "description": "The use of emojis (🎨📐) at the end of the introduction is not standard in formal French educational content and may reduce the perceived professionalism of the lesson. Removing emojis ensures the tone remains appropriate for an academic context.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Un **segment de ligne**, en revanche, est une partie d'une ligne avec deux extrémités définies.",
+      "correction": "Un **segment**, en revanche, est une partie d'une ligne avec deux extrémités définies.",
+      "description": "The term 'segment de ligne' is not standard in French geometry; the correct term is simply 'segment'. Using the standard terminology improves clarity and aligns with French educational conventions.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "**Exemple :** \n- Une ligne : ↔ \n- Un segment de ligne : ——",
+      "correction": "**Exemple :**\n- Une droite : ↔\n- Un segment : ——",
+      "description": "In French geometry, 'droite' is the standard term for an infinite straight line, not 'ligne'. Also, 'segment' should be used instead of 'segment de ligne'. Updating these terms and examples ensures alignment with French mathematical conventions.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "- **Rectangle :** Côtés opposés égaux et quatre angles droits.",
+      "correction": "- **Rectangle :** Deux paires de côtés opposés égaux et quatre angles droits.",
+      "description": "The original description of a rectangle is ambiguous and could be misinterpreted. Specifying 'deux paires de côtés opposés égaux' clarifies the definition and matches standard French geometry descriptions.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Geometry_Basics.llm.md",
+    "language": "French",
+    "timestamp": "2025-10-03T21:35:40.460638",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.4,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.6,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 4,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.6,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Дивали, как культурный праздник в Индии, известный своим огненным фестивалем и семейными празднованиями, не включает в себя изменение внешности участникам.",
+      "correction": "Дивали, как культурный праздник в Индии, известен своим огненным фестивалем и семейными празднованиями, не включает изменение внешности участников.",
+      "description": "The phrase 'известный своим огненным фестивалем' should use 'известен' to agree with 'Дивали' (masculine noun). The phrase 'изменение внешности участникам' is incorrect; it should be 'изменение внешности участников' to properly use the genitive case after 'изменение'. These errors affect grammatical agreement and case usage.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Это праздник, который подчеркивает свет и общественное благо, часто связанный с семейными обрядами и подарками.",
+      "correction": "Это праздник, который подчеркивает свет и общественное благо, часто связан с семейными обрядами и подарками.",
+      "description": "The participle 'связанный' should be 'связан' to correctly agree with 'праздник' (masculine singular, short form adjective). This is a grammatical error affecting predicate adjective agreement.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Ид аль-Фитр действительно является значимым праздником, но он отмечается в конце Рамадана, что является деньгам в исламском календаре.",
+      "correction": "Ид аль-Фитр действительно является значимым праздником, но он отмечается в конце Рамадана, что является днем в исламском календаре.",
+      "description": "The word 'деньгам' is incorrect in this context; the correct word is 'днем' (instrumental singular of 'день'), meaning 'day'. This is a lexical and case error that affects clarity and grammatical correctness.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "В праздничных традициях каждого конкретного народа или культуры уникальны. Украшения, ритуалы и праздничные мероприятия могут сильно различаться в зависимости от исторических, географических и социальных факторов. Например, в Японии используется декоративный пакет 'хими', а в Югославии широко празднуют 'Сочиян'.",
+      "correction": "В праздничных традициях каждого конкретного народа или культуры уникальны. Украшения, ритуалы и праздничные мероприятия могут сильно различаться в зависимости от исторических, географических и социальных факторов. Например, в Японии используется декоративный пакет 'фурошики', а в Сербии широко празднуют 'Славу'.",
+      "description": "The example 'декоративный пакет хими' is not a recognized Japanese tradition; the correct term is 'фурошики'. The reference to 'Сочиян' in Yugoslavia is inaccurate; a more appropriate and culturally relevant example is 'Слава' in Serbia. These corrections improve cultural accuracy and appropriateness.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Культурные праздники отличаются уникальными рифами, традициями и практиками в каждой культуре.",
+      "correction": "Культурные праздники отличаются уникальными ритмами, традициями и практиками в каждой культуре.",
+      "description": "The word 'рифами' is a misspelling or incorrect word choice; the intended meaning is likely 'ритмами' (rhythms) or another word describing unique features. This is a lexical error affecting semantic accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Например, День Рождества в США связан с подарками и семейными встречами, в то время как День Рождества в Индии включает ознаки и семейные походы.",
+      "correction": "Например, Рождество в США связано с подарками и семейными встречами, в то время как Рождество в Индии включает религиозные обряды и семейные собрания.",
+      "description": "The term 'День Рождества' is not commonly used; 'Рождество' is the standard term. The word 'ознаки' is not appropriate or meaningful in this context; it should be replaced with 'религиозные обряды'. 'Семейные походы' is not a typical Christmas tradition in India; 'семейные собрания' is more accurate. These changes improve cultural relevance and naturalness.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Cultural_Celebrations_1.slm.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T22:25:19.314180",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 8.2,
+    "classification": "PROFESSIONAL",
+    "total_issues": 6,
+    "total_penalty": 1.8,
+    "issue_breakdown": {
+      "linguistic": 4,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 1.2,
+      "localization_penalty": 0.6,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

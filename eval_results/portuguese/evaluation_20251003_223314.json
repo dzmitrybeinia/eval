@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Por exemplo, incêndios na cozinha frequentemente ocorrem devido à supervisão inadequada dos alimentos no fogão.",
+      "correction": "Por exemplo, incêndios na cozinha frequentemente ocorrem devido à falta de supervisão dos alimentos no fogão.",
+      "description": "The phrase 'supervisão inadequada' is unnatural in Brazilian Portuguese for this context. The culturally appropriate and natural expression is 'falta de supervisão', which clearly conveys the idea of unattended cooking. This correction improves clarity and aligns with local usage.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Cultural",
+      "original": "Por exemplo, em uma praia, é importante manter as instalações de resgate em caso de incêndio.",
+      "correction": "Por exemplo, em espaços públicos, é importante conhecer as rotas de evacuação e os procedimentos de emergência em caso de incêndio.",
+      "description": "The reference to 'manter as instalações de resgate em caso de incêndio' at a beach is culturally inappropriate and unclear, as beaches typically do not have fire rescue installations. The correction generalizes the advice to public spaces and focuses on knowing evacuation routes and emergency procedures, which is more relevant and culturally appropriate.",
+      "severity": "MEDIUM"
+    }
+  ],
+  "metadata": {
+    "file": "Fire_Safety.slm.md",
+    "language": "Portuguese",
+    "timestamp": "2025-10-03T22:33:14.479720",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.4,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Sample Space",
+      "correction": "Ergebnisraum",
+      "description": "The term 'Sample Space' is presented in parentheses after 'Ereignisraum'. In German mathematical terminology, 'Ergebnisraum' is the standard term, and 'Sample Space' is unnecessary and may confuse learners. Remove the English term to maintain lexical precision and consistency with German educational standards.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "🎲✨",
+      "correction": "",
+      "description": "The use of emojis in educational content may not align with formal German educational style, especially in introductory sections. While emojis can add engagement, their use should be carefully considered for appropriateness in the context and audience. In formal lessons, it is recommended to omit emojis to maintain a professional tone.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Standarddeck",
+      "correction": "Standardspielkarten-Deck",
+      "description": "The term 'Standarddeck' is an anglicism and not the most natural or precise term in German. For clarity and lexical precision, use 'Standardspielkarten-Deck' or simply 'Kartenspiel' to refer to a standard deck of playing cards.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "Roulette und Blackjack",
+      "correction": "Roulette und Black Jack",
+      "description": "The spelling 'Blackjack' is an anglicism; in German, the game is commonly referred to as 'Black Jack' (with a space). This ensures consistency with locally accepted terminology in gaming contexts.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Probability_Games.llm.md",
+    "language": "German",
+    "timestamp": "2025-10-03T21:44:49.424836",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.5,
+    "classification": "NATIVE",
+    "total_issues": 4,
+    "total_penalty": 0.5,
+    "issue_breakdown": {
+      "linguistic": 2,
+      "localization": 2,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.2,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

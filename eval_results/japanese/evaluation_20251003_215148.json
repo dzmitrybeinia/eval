@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "減少、再利用、リサイクル、再生可能エネルギーへの切り替えなどの保存戦略は、資源を保護し、持続可能性を確保する。",
+      "correction": "減らす、再利用、リサイクル、再生可能エネルギーへの切り替えなどの保存戦略は、資源を保護し、持続可能性を確保する。",
+      "description": "The term '減少' (decrease) is incorrect in this context. The intended meaning is to 'reduce' resource usage, which should be expressed as '減らす'. '減少' refers to a general decrease and is not used as an action verb for conservation strategies. This is a lexical and grammatical error affecting clarity and accuracy.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "🌱🌍",
+      "correction": "",
+      "description": "The use of emoji (🌱🌍) in educational content may not be appropriate for all Japanese academic or formal contexts. While emojis can add visual interest, they may reduce the perceived professionalism and formality of the lesson, especially in higher education or official materials. Consider removing or replacing with culturally appropriate visuals if needed.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Natural_Resources.llm.md",
+    "language": "Japanese",
+    "timestamp": "2025-10-03T21:51:48.598906",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.3,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

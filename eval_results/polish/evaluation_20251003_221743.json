@@ -1,0 +1,107 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "Haiku zawsoduje się z trzech wersów, z których każdy ma dokładnie pięć sylab.",
+      "correction": "Haiku składa się z trzech wersów, z których każdy ma dokładnie pięć sylab.",
+      "description": "The word 'zawsoduje' is a spelling error and not a valid Polish word. The correct verb is 'składa się', which means 'consists of'. This error significantly affects comprehension and must be corrected.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "Sonety zazwyczniują wyrażanie emocji w pośpiechowej, ale skomplikowanej strukturze.",
+      "correction": "Sonety zazwyczaj wyrażają emocje w poświęconej, ale skomplikowanej strukturze.",
+      "description": "The word 'zazwyczniują' is a misspelling and not a valid Polish verb; the correct form is 'zazwyczaj wyrażają'. Additionally, 'pośpiechowej' is incorrect in this context; 'poświęconej' (dedicated) or 'złożonej' (complex) would be more appropriate, but the main issue is the verb error.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Złożona forma poetyckiej formy dostarcza językowi szczegółowości i głębi, czego nie można osiągnąć w prostszym poezji.",
+      "correction": "Złożona forma poetycka dostarcza językowi szczegółowości i głębi, czego nie można osiągnąć w prostszej poezji.",
+      "description": "There is a redundancy in 'forma poetyckiej formy' (form of poetic form), which is grammatically incorrect. The correct phrase is 'forma poetycka'. Additionally, 'w prostszym poezji' is incorrect; the correct form is 'w prostszej poezji' (locative case, feminine gender agreement).",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "Ta stwierdzenie odzwierciedla kluczową cechę wolnego wiersza, czyli jego swobodne, nieograniczone wyrażanie twórców.",
+      "correction": "To stwierdzenie odzwierciedla kluczową cechę wolnego wiersza, czyli jego swobodne, nieograniczone wyrażanie twórcy.",
+      "description": "The noun 'stwierdzenie' is neuter and requires the pronoun 'to', not 'ta'. Also, 'wyrażanie twórców' (expression of creators) is less precise than 'wyrażanie twórcy' (expression of the creator/poet) in this context, as the sentence refers to a general poet, not multiple creators.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Poety mogą wykorzystać wolne dystychy, rytm i strukturę, aby przekazać emocje w sposób, który odzwierciedla ich subiekcję.",
+      "correction": "Poeci mogą wykorzystać wolne dystychy, rytm i strukturę, aby przekazać emocje w sposób, który odzwierciedla ich subiektywność.",
+      "description": "The word 'poety' is incorrect; the correct plural nominative is 'poeci'. The term 'subiekcję' is not standard Polish; 'subiektywność' (subjectivity) is the correct term. These errors affect both grammatical correctness and lexical precision.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "To pozwala na głębsze, bardziej naturalne przekazywanie doświadczeń, co czyni go wyborem znacznego wyrazu dla wielu poetów.",
+      "correction": "To pozwala na głębsze, bardziej naturalne przekazywanie doświadczeń, co czyni go wyborem wyrazistego stylu dla wielu poetów.",
+      "description": "The phrase 'wyborem znacznego wyrazu' is unnatural and semantically unclear in Polish. A more natural and precise expression is 'wyborem wyrazistego stylu' (choice of expressive style).",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Spelling",
+      "original": "Limeryki charakteryzują się schematem z pięciu wersów z rymem AABBA, z dłuższymi wersami 1, 2 i 5 oraz krótszymi wersami 3 i 4. Twierzenie, że mają trzy długie wersy, jest niepoprawne.",
+      "correction": "Limeryki charakteryzują się schematem z pięciu wersów z rymem AABBA, z dłuższymi wersami 1, 2 i 5 oraz krótszymi wersami 3 i 4. Twierdzenie, że mają trzy długie wersy, jest niepoprawne.",
+      "description": "The word 'Twierzenie' is a spelling error; the correct word is 'Twierdzenie' (assertion/statement).",
+      "severity": "MINOR"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Grammar",
+      "original": "W formie sonetu poeta zazwyczni używa rymu zwrotnego na końcu każdego wersetu.",
+      "correction": "W formie sonetu poeta zazwyczaj używa rymu zwrotnego na końcu każdego wersu.",
+      "description": "The word 'zazwyczni' is a misspelling; the correct adverb is 'zazwyczaj'. Additionally, 'wersetu' is incorrect in this context; 'wersu' is the proper term for a line in poetry, while 'werset' refers to a verse in religious texts.",
+      "severity": "HIGH"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Sonet tradycyjnie ma strukturę z rymami zwrotnymi, ale wymaga również zgodności metrum, które często składa się na dwuwolce.",
+      "correction": "Sonet tradycyjnie ma strukturę z rymami zwrotnymi, ale wymaga również zgodności metrum, które często składa się z dwuwierszy.",
+      "description": "The term 'dwuwolce' is not standard Polish and does not refer to a poetic structure. The correct term is 'dwuwierszy' (couplets).",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Ta zrównoważona struktura tworzy efekt melodijny i rytmiczny, który może zmieniać w ramach czterowolce, czy to przed ostatnim zakończeniem, czy w dwuwolce.",
+      "correction": "Ta zrównoważona struktura tworzy efekt melodijny i rytmiczny, który może się zmieniać w ramach czterowersów, czy to przed ostatnim zakończeniem, czy w dwuwierszach.",
+      "description": "The terms 'czterowolce' and 'dwuwolce' are incorrect and not used in Polish poetry terminology. The correct terms are 'czterowersów' (quatrains) and 'dwuwierszach' (couplets). Also, the verb 'zmieniać' should be reflexive: 'może się zmieniać'.",
+      "severity": "HIGH"
+    }
+  ],
+  "metadata": {
+    "file": "Poetry_Forms.slm.md",
+    "language": "Polish",
+    "timestamp": "2025-10-03T22:17:43.029147",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 7.5,
+    "classification": "ACCEPTABLE",
+    "total_issues": 10,
+    "total_penalty": 2.5,
+    "issue_breakdown": {
+      "linguistic": 10,
+      "localization": 0,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 2.5,
+      "localization_penalty": 0.0,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

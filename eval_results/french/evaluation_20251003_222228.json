@@ -1,0 +1,43 @@
+{
+  "issues": [
+    {
+      "category": "linguistic",
+      "subcategory": "Lexical",
+      "original": "Les droits humains sont conçus pour être inaliénables, ce qui signifie qu'ils ne peuvent généralement pas être retirés par les gouvernements, même en cas de crise nationale. Il existe des exceptions dans le droit international, mais celles-ci sont limitées et sujettes à des vérifications éthiques et juridiques.",
+      "correction": "Les droits humains sont conçus pour être inaliénables, ce qui signifie qu'ils ne peuvent généralement pas être retirés par les gouvernements, même en cas de crise nationale. Il existe des exceptions en droit international, mais celles-ci sont limitées et soumises à des vérifications éthiques et juridiques.",
+      "description": "The phrase 'dans le droit international' should be 'en droit international' to match standard French usage for fields of law. Additionally, 'sujettes à des vérifications' is less idiomatic than 'soumises à des vérifications' in this context. These lexical choices improve the precision and naturalness of the feedback.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "La DUDH a eu un impact significatif sur la société, mais son influence sur le développement des technologies modernes n'est pas directe. Cependant, les technologies peuvent être utilisées pour promouvoir les droits humains, comme le téléphone portable qui aide à la communication et l'éducation.",
+      "correction": "La DUDH a eu un impact significatif sur la société, mais son influence sur le développement des technologies modernes n'est pas directe. Cependant, les technologies peuvent être utilisées pour promouvoir les droits humains, comme le téléphone portable qui facilite la communication et l'accès à l'éducation.",
+      "description": "The phrase 'aide à la communication et l'éducation' is not fully idiomatic in French. 'Facilite la communication et l'accès à l'éducation' is more natural and precise, especially in educational contexts. This correction improves the localization quality and ensures the terminology is appropriate for a French-speaking audience.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Human_Rights.slm.md",
+    "language": "French",
+    "timestamp": "2025-10-03T22:22:28.782446",
+    "model": "gpt 4.1",
+    "label": "slm"
+  },
+  "scores": {
+    "overall_quality_score": 9.7,
+    "classification": "NATIVE",
+    "total_issues": 2,
+    "total_penalty": 0.3,
+    "issue_breakdown": {
+      "linguistic": 1,
+      "localization": 1,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.2,
+      "localization_penalty": 0.1,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "issues": [
+    {
+      "category": "localization",
+      "subcategory": "Terminology",
+      "original": "эндоплазматическая сеть",
+      "correction": "эндоплазматический ретикулум",
+      "description": "The term 'эндоплазматическая сеть' is not the standard scientific term in Russian for 'endoplasmic reticulum.' The correct and widely accepted term is 'эндоплазматический ретикулум.' Using the proper terminology is important for educational accuracy and consistency with Russian biology textbooks.",
+      "severity": "MEDIUM"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Style",
+      "original": "энергетические станции",
+      "correction": "энергетические станции",
+      "description": "The metaphor 'энергетические станции' for mitochondria is common in educational contexts, but it may be considered slightly informal. However, in this context, it is appropriate for a general audience and does not require correction. No actionable issue found, but educators should be aware of register when adapting for more formal materials.",
+      "severity": "MINOR"
+    },
+    {
+      "category": "localization",
+      "subcategory": "Format",
+      "original": "АТФ",
+      "correction": "АТФ (аденозинтрифосфат)",
+      "description": "The abbreviation 'АТФ' is correct, but for educational clarity, it is best practice to provide the full term 'аденозинтрифосфат' at first mention. This ensures comprehension for learners unfamiliar with the abbreviation.",
+      "severity": "MINOR"
+    }
+  ],
+  "metadata": {
+    "file": "Cell_Parts.llm.md",
+    "language": "Russian",
+    "timestamp": "2025-10-03T21:38:08.593730",
+    "model": "gpt 4.1",
+    "label": "llm"
+  },
+  "scores": {
+    "overall_quality_score": 9.6,
+    "classification": "NATIVE",
+    "total_issues": 3,
+    "total_penalty": 0.4,
+    "issue_breakdown": {
+      "linguistic": 0,
+      "localization": 3,
+      "distractor_quality": 0
+    },
+    "penalty_breakdown": {
+      "linguistic_penalty": 0.0,
+      "localization_penalty": 0.4,
+      "distractor_quality_penalty": 0.0
+    }
+  }
+}
