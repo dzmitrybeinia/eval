@@ -147,9 +147,7 @@ class QuizEvaluator:
             print(f"Error reading {md_file}: {exc}")
             return False
 
-        if "## Fill in the Blanks" in content:
-            result = self._evaluate_single_step_distractors(content, language)
-        elif language.lower() == "english":
+        if language.lower() == "english":
             result = self._evaluate_single_step(content, language)
         else:
             result = self._evaluate_combined(content, language)
@@ -166,25 +164,6 @@ class QuizEvaluator:
 
     def _evaluate_single_step(self, content: str, language: str) -> str:
         prompt = self.prompt_builder.build_prompt(language, content, step="single")
-        response = self.client.chat.completions.create(
-            model=self.deployment,
-            messages=[
-                {
-                    "role": "system",
-                    "content": (
-                        "You are an expert educational content evaluator specializing in quiz quality "
-                        "assessment and localization review. You must return only valid JSON without any additional text."
-                    ),
-                },
-                {"role": "user", "content": prompt},
-            ],
-            max_completion_tokens=32_768,
-            temperature=0.0,
-        )
-        return response.choices[0].message.content.strip()
-
-    def _evaluate_single_step_distractors(self, content: str, language: str) -> str:
-        prompt = self.prompt_builder.build_prompt(language, content, step="distractors")
         response = self.client.chat.completions.create(
             model=self.deployment,
             messages=[

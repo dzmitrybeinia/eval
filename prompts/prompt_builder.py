@@ -13,14 +13,10 @@ class PromptBuilder:
         self.base_prompt_path = self.prompts_dir / "base_prompt.md"
         self.languages_dir = self.prompts_dir / "languages"
         self.combined_expert_path = self.prompts_dir / "combined_expert.md"
-        self.distractor_expert_path = self.prompts_dir / "distractor_expert.md"
 
     def build_prompt(self, language: str, content: str, step: str = "single") -> str:
         """Return the prompt for the requested evaluation step."""
         language_name = self._language_name(language)
-
-        if step == "distractors":
-            return self._build_distractors_prompt(language_name, content)
 
         if step == "combined" or language.lower() != "english":
             return self._build_combined_prompt(language_name, content)
@@ -58,25 +54,6 @@ class PromptBuilder:
             f"## CONTENT FOR EVALUATION\n\n{content}\n\n"
             "Remember: Apply both linguistic and localization expertise with language-specific knowledge. "
             "Follow deduplication rules strictly. Return only valid JSON without any additional text."
-        )
-
-    def _build_distractors_prompt(self, language_name: str, content: str) -> str:
-        try:
-            distractors_prompt = self.distractor_expert_path.read_text(encoding="utf-8")
-        except FileNotFoundError as exc:  # pragma: no cover - environment issue
-            raise FileNotFoundError(
-                f"Distractor expert prompt not found: {self.distractor_expert_path}"
-            ) from exc
-
-        language_prompt = self._load_language_prompt(language_name)
-        distractors_prompt = distractors_prompt.replace("{LANGUAGE_NAME}", language_name)
-
-        return (
-            f"{distractors_prompt}\n\n---\n\n{language_prompt}\n\n---\n\n"
-            f"## CONTENT FOR EVALUATION\n\n{content}\n\n"
-            "Focus ONLY on identifying clear, obvious problems with distractors. Be conservative - only report issues "
-            "you're confident about. Don't suggest improvements unless there's an obvious fix. Return only valid JSON "
-            "without any additional text."
         )
 
     def _load_language_prompt(self, language_name: str) -> str:
